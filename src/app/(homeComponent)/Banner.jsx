@@ -16,14 +16,14 @@ const Banner = () => {
         className="bg-custom-gradient mix-blend-hard-light filter-blur-custom absolute -left-24 -top-3 -z-[1] overflow-hidden"
       />
       <div>
-        <h1 className="text-zinc-800 text-8xl font-normal tracking-wide w-[50vw]">
+        <h1 className="text-zinc-800 text-8xl font-normal tracking-wide w-[48vw]">
           Boost Your Business With Powerful IT Technology.
         </h1>
-        <p className="text-zinc-800 text-2xl font-normal leading-[38.40px] tracking-wide w-[33vw] mt-[50px]">
+        <p className="text-zinc-800 text-2xl font-normal leading-[38.40px] tracking-wide w-[30vw] mt-[50px]">
           In accordance with your company's needs, Maxtra Technologies offers
           tailored app and web development solutions.
         </p>
-        <button className="bg-stone-900 flex h-[3vw] justify-center items-center rounded-[65.50px] border border-neutral-600 text-white mt-[121px] w-[8.5vw]">
+        <button className="bg-stone-900 text-2xl flex h-[3vw] justify-center items-center rounded-[65.50px] border border-neutral-600 text-white mt-[121px] w-[8.5vw]">
           Lets Start
           <svg
             width="19"
