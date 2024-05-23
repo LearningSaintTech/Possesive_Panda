@@ -7,12 +7,43 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        aeonik: "Aeonik",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-gradient": `
+          linear-gradient(to bottom right, #60E2FF 2%, #3A8899 50%) bottom right / 50% 50% no-repeat,
+          linear-gradient(to bottom left, #60E2FF 2%, #3A8899 50%) bottom left / 50% 50% no-repeat,
+          linear-gradient(to top left, #60E2FF 2%, #3A8899 50%) top left / 50% 50% no-repeat,
+          linear-gradient(to top right, #60E2FF 2%, #3A8899 50%) top right / 50% 50% no-repeat
+        `,
+      },
+      mixBlendMode: {
+        "hard-light": "hard-light",
+      },
+      filter: {
+        "blur-custom": "blur(120.96385192871094px)",
       },
     },
   },
-  plugins: [],
+  variants: {
+    extend: {
+      backgroundImage: ["responsive", "hover"],
+      mixBlendMode: ["responsive", "hover"],
+      filter: ["responsive", "hover"],
+    },
+  },
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".mix-blend-hard-light": {
+          "mix-blend-mode": "hard-light",
+        },
+        ".filter-blur-custom": {
+          filter: "blur(120.96385192871094px)",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };

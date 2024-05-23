@@ -1,7 +1,9 @@
+import Banner from "./(homeComponent)/Banner";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hii Sir
+    <main className="mt-[100px] font-aeonik">
+      <Banner />
     </main>
   );
 }
