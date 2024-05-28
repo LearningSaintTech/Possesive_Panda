@@ -7,6 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        "accordion-down": "accordion-down 500ms linear forwards",
+        "accordion-up": "accordion-up 500ms linear forwards",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "100px" },
+        },
+        "accordion-up": {
+          from: { height: "100px" },
+          to: { height: "0" },
+        },
+      },
       backgroundImage: {
         "custom-gradient": `
           linear-gradient(to bottom right, #60E2FF 2%, #3A8899 50%) bottom right / 50% 50% no-repeat,
