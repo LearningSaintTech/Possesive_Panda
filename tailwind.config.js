@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        aeonik: "Aeonik",
-      },
       backgroundImage: {
         "custom-gradient": `
           linear-gradient(to bottom right, #60E2FF 2%, #3A8899 50%) bottom right / 50% 50% no-repeat,
