@@ -3,6 +3,7 @@ import OurServices from "./(homeComponent)/OurServices";
 import Blogs from "./(homeComponent)/Blogs";
 import Cross from "./(Components)/Cross";
 import Faq from "./(homeComponent)/(FaqSection)/section";
+import Footer from "./(Components)/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Faq />
       <Blogs />
       <Cross />
+      <Footer />
     </main>
   );
 }
