@@ -1,6 +1,7 @@
 import Banner from "./(homeComponent)/Banner";
 import OurServices from "./(homeComponent)/OurServices";
 import Blogs from "./(homeComponent)/Blogs";
+import Cross from "./(Components)/Cross";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <OurServices />
       <Blogs />
+      <Cross />
     </main>
   );
 }
