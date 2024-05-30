@@ -6,24 +6,25 @@ import banner_2 from "../../assets/home/banner/Banner-2.png";
 import banner_3 from "../../assets/home/banner/Banner-3.png";
 import banner_4 from "../../assets/home/banner/Banner-4.png";
 import shadow from "../../assets/home/banner/shadow.png";
+import panda from "../../assets/home/banner/panda-bg.png";
 
 const Banner = () => {
   return (
-    <div className="flex justify-between mx-[5.2vw] mt-[140px]">
+    <div className="flex justify-between pl-[8.854vw] mr-[5.729vw] mt-[140px] relative overflow-hidden h-[1051px]">
       <Image
         src={shadow}
         alt="shadow"
-        className="bg-custom-gradient mix-blend-hard-light filter-blur-custom absolute -left-24 -top-3 -z-[1] overflow-hidden"
+        className="bg-custom-gradient mix-blend-hard-light filter-blur-custom absolute -left-24 -top-3 -z-[1] overflow-visible"
       />
-      <div>
-        <h1 className="text-zinc-800 text-[6rem] font-normal tracking-wide w-[48.28vw] leading-[normal]">
+      <div className="w-[35.469vw] mt-[151px]">
+        <h1 className="text-zinc-800 text-[3.333vw] font-semibold leading-[normal] tracking-[0.64px]">
           Boost Your Business With Powerful IT Technology.
         </h1>
-        <p className="text-zinc-800 text-[1.5rem] font-normal leading-[38.40px] tracking-wide w-[48.875rem] mt-[50px]">
+        <p className="text-zinc-800 text-[1.25vw] font-normal leading-[normal] tracking-[0.24px] w-[28.281vw] mt-[50px]">
           In accordance with your company's needs, Maxtra Technologies offers
           tailored app and web development solutions.
         </p>
-        <button className="bg-stone-900 text-[1.5rem] flex justify-center items-center rounded-[65.50px] border border-neutral-600 text-white mt-[121px] w-[16.25rem] h-[5rem]">
+        <button className="bg-stone-900 text-[1.25vw] flex justify-center font-normal items-center rounded-[65.50px] border border-neutral-600 text-white mt-[121px] w-[13.542vw] h-[4.167vw]">
           Lets Start
           <svg
             width="19"
@@ -41,31 +42,36 @@ const Banner = () => {
         </button>
       </div>
       <div className="flex justify-end">
-        <div className="mr-[2.2vw]">
+        <div className="mr-[3.125vw]">
           <Image
             src={banner_1}
             alt="banner-1"
-            className="mb-[93px] -mt-[14vh] w-[20.5rem] h-[28rem]"
+            className="mb-[93px] -mt-[14vh] w-[19.5vw] h-[29vw]"
           />
           <Image
             src={banner_2}
             alt="banner-2"
-            className="w-[20.5rem] h-[28rem]"
+            className="w-[19.5vw] h-[29vw]"
           />
         </div>
         <div>
           <Image
             src={banner_3}
             alt="banner-3"
-            className="mb-[73px] mt-[2vh] w-[20.5rem] h-[28rem]"
+            className="mb-[73px] mt-[2vh] w-[19.5vw] h-[29vw]"
           />
           <Image
             src={banner_4}
             alt="banner-4"
-            className="w-[20.5rem] h-[28rem]"
+            className="w-[19.5vw] h-[29vw]"
           />
         </div>
       </div>
+      <Image
+        src={panda}
+        alt="panda"
+        className="absolute top-[40%] left-[15%] z-[-20]"
+      />
     </div>
   );
 };
