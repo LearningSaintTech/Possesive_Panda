@@ -70,7 +70,7 @@ const Banner = () => {
       <Image
         src={panda}
         alt="panda"
-        className="absolute top-[40%] left-[15%] z-[-20]"
+        className="absolute top-[45%] left-[12%] z-[-20]"
       />
     </div>
   );
