@@ -32,7 +32,7 @@ const Blogs = () => {
             className="ml-5"
           >
             <rect width="19" height="14" fill="#A19F9F" />
-            <g id="Mainb" clip-path="url(#clip0_1_2)">
+            <g id="Mainb" clipPath="url(#clip0_1_2)">
               <rect
                 width="1920"
                 height="13752"
@@ -45,7 +45,7 @@ const Blogs = () => {
                     id="Rectangle 49"
                     d="M-193 7C-193 -15.0914 -175.091 -33 -153 -33H27C49.0914 -33 67 -15.0914 67 7V7C67 29.0914 49.0914 47 27 47H-153C-175.091 47 -193 29.0914 -193 7V7Z"
                     stroke="#4D4D4D"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                   <path
                     id="Vector"
@@ -68,44 +68,44 @@ const Blogs = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[138px] mx-[5.2vw]">
-        <div className="w-fit">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[138px] lg:mx-[5.2vw]">
+        <div className="w-screen lg:w-[27.969vw]">
           <Image
             src={blog_1}
             alt="blog-1"
-            className="rounded-3xl w-[28vw] h-[50vh]"
+            className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum
           </p>
-          <small className="text-zinc-900 text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
             Branding . 19 June 2023
           </small>
         </div>
-        <div className="w-fit self-center mx-auto">
+        <div className="w-screen lg:w-[27.969vw] justify-self-center">
           <Image
             src={blog_2}
             alt="blog-2"
-            className="rounded-3xl w-[28vw] h-[50vh]"
+            className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum
           </p>
-          <small className="text-zinc-900 text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
             Branding . 19 June 2023
           </small>
         </div>
 
-        <div className="w-fit ml-auto self-end">
+        <div className="w-screen lg:w-[27.969vw] justify-self-end">
           <Image
             src={blog_3}
             alt="blog-3"
-            className="rounded-3xl w-[28vw] h-[50vh]"
+            className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum
           </p>
-          <small className="text-zinc-900 text-[1.328vw] font-normal leading-[46.75px] tracking-tight text-start">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
             Branding . 19 June 2023
           </small>
         </div>

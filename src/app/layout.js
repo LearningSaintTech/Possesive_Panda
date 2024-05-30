@@ -1,29 +1,11 @@
-import localFont from "next/font/local";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import Nav from "./(Components)/Nav";
+import Footer from "./(Components)/Footer";
 
-const Aeonik = localFont({
-  src: [
-    {
-      path: "../assets/fonts/Aeonik/fonnts.com-Aeonik_Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../assets/fonts/Aeonik/fonnts.com-Aeonik_Light.ttf",
-      weight: "300",
-      style: "normal",
-    },
-    {
-      path: "../assets/fonts/Aeonik/fonnts.com-Aeonik_Bold.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../assets/fonts/Aeonik/fonnts.com-Aeonik_Black.ttf",
-      weight: "600",
-      style: "normal",
-    },
-  ],
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata = {
@@ -34,7 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Aeonik.className}>{children}</body>
+      <body className={poppins.className}>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

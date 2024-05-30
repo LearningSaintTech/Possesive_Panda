@@ -9,7 +9,7 @@ import shadow from "../../assets/home/banner/shadow.png";
 
 const Banner = () => {
   return (
-    <div className="flex justify-between mx-[5.2vw]">
+    <div className="flex justify-between mx-[5.2vw] mt-[140px]">
       <Image
         src={shadow}
         alt="shadow"

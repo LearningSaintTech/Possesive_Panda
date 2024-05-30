@@ -3,8 +3,8 @@ import OurServices from "./(homeComponent)/OurServices";
 import Blogs from "./(homeComponent)/Blogs";
 import Cross from "./(Components)/Cross";
 import Faq from "./(homeComponent)/(FaqSection)/section";
-import Footer from "./(Components)/Footer";
 import WhyUs from "./(homeComponent)/Whyus";
+import Technologies from "./(homeComponent)/Technologies";
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
       <OurServices />
       <WhyUs />
       <Faq />
+      {/* <Technologies /> */}
       <Blogs />
-      <Cross />
-      <Footer />
+      {/* <Cross /> */}
     </main>
   );
 }

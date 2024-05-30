@@ -42,7 +42,7 @@ const OurServices = () => {
           <Image
             src={normalServices2}
             alt="Premium Services"
-            className="w-[43.097vw]"
+            className="w-[43.097vw] hover:shadow-lg"
           />
         </div>
       </div>
