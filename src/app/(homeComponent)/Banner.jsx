@@ -1,5 +1,6 @@
+"use client";
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import banner_1 from "../../assets/home/banner/Banner-1.png";
 import banner_2 from "../../assets/home/banner/Banner-2.png";
@@ -9,6 +10,31 @@ import shadow from "../../assets/home/banner/shadow.png";
 import panda from "../../assets/home/banner/panda-bg.png";
 
 const Banner = () => {
+  const upRef = useRef(null);
+  const downRef = useRef(null);
+
+  useEffect(() => {
+    if (upRef.current) {
+      const ul = upRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (upRef.current) {
+      const ul = upRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
+    }
+  }, []);
+
   return (
     <div className="flex justify-between pl-[8.854vw] mr-[5.729vw] mt-[140px] relative overflow-hidden h-[1051px]">
       <Image
@@ -42,30 +68,71 @@ const Banner = () => {
         </button>
       </div>
       <div className="flex justify-end">
-        <div className="mr-[3.125vw]">
-          <Image
-            src={banner_1}
-            alt="banner-1"
-            className="mb-[93px] -mt-[14vh] w-[19.5vw] h-[29vw]"
-          />
-          <Image
-            src={banner_2}
-            alt="banner-2"
-            className="w-[19.5vw] h-[29vw]"
-          />
+        {/* <motion.div
+          className="mr-[3.125vw]"
+          animate={{ y: [0, -1000, 0] }}
+          transition={{
+            duration: 20,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+        > */}
+        <div className="h-full inline-flex flex-col overflow-hidden mr-[3.125vw]">
+          <ul
+            ref={upRef}
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_img]:max-w-none animate-moveUp"
+          >
+            <li>
+              <Image
+                src={banner_1}
+                alt="banner-1"
+                className="w-[19.5vw] h-[29vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_2}
+                alt="banner-2"
+                className="w-[19.5vw] h-[29vw]"
+              />
+            </li>
+          </ul>
         </div>
-        <div>
-          <Image
-            src={banner_3}
-            alt="banner-3"
-            className="mb-[73px] mt-[2vh] w-[19.5vw] h-[29vw]"
-          />
-          <Image
-            src={banner_4}
-            alt="banner-4"
-            className="w-[19.5vw] h-[29vw]"
-          />
+
+        {/* </motion.div> */}
+        {/* <motion.div
+          className="mr-[3.125vw]"
+          animate={{ y: [0, 1000] }}
+          transition={{
+            duration: 20,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+        > */}
+        <div className="h-full inline-flex flex-col overflow-hidden">
+          <ul
+            ref={downRef}
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_img]:max-w-none animate-moveDown"
+          >
+            <li>
+              <Image
+                src={banner_3}
+                alt="banner-3"
+                className="w-[19.5vw] h-[29vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_4}
+                alt="banner-4"
+                className="w-[19.5vw] h-[29vw]"
+              />
+            </li>
+          </ul>
         </div>
+        {/* </motion.div> */}
       </div>
       <Image
         src={panda}

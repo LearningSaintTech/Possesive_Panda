@@ -11,16 +11,26 @@ module.exports = {
         "accordion-down": "accordion-down 500ms linear forwards",
         "accordion-up": "accordion-up 500ms linear forwards",
         scroll: "scroll 15s linear infinite",
-        scroll2: "scroll2 15s linear infinite",
+        scrollReverse: "scrollReverse 15s linear infinite",
+        moveUp: "moveUp 15s linear infinite",
+        moveDown: "moveDown 15s linear infinite",
       },
       keyframes: {
-        scroll: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-100%)" },
+        moveUp: {
+          from: { transform: "translateY(0%)" },
+          to: { transform: "translateY(-100%)" },
         },
-        scroll2: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-200%)" },
+        moveDown: {
+          from: { transform: "translateY(-100%)" },
+          to: { transform: "translateY(0%)" },
+        },
+        scroll: {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        scrollReverse: {
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0%)" },
         },
         "accordion-down": {
           from: { height: "0" },

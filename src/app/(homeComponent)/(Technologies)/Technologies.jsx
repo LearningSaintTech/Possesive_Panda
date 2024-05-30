@@ -1,45 +1,32 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import data from "./data";
 import Card from "./Card";
-import useMeasure from "react-use-measure";
-import { animate, useMotionValue, motion } from "framer-motion";
 
 const Technologies = () => {
-  const fast_duration = 15;
-  const slow_duration = 50;
-  const [duration, setDuration] = useState(fast_duration);
-  const [mustFinish, setMustFinish] = useState(false);
-  const [rerender, setRerender] = useState(false);
-
-  let [ref, { width }] = useMeasure();
-  const xTranslation = useMotionValue(0);
+  const logosRef = useRef(null);
+  const logosRevRef = useRef(null);
 
   useEffect(() => {
-    let controls;
-    let finalPosition = -width / 2 - 8;
-
-    if (mustFinish) {
-      controls = animate(xTranslation, [xTranslation.get(), finalPosition], {
-        ease: "linear",
-        duration: duration * (1 - xTranslation.get() / finalPosition),
-        onComplete: () => {
-          setMustFinish(false);
-          setRerender(!rerender);
-        },
-      });
-    } else {
-      controls = animate(xTranslation, [0, finalPosition], {
-        ease: "linear",
-        duration: duration,
-        repeat: Infinity,
-        repeatType: "loop",
-        repeatDelay: 0,
-      });
+    if (logosRef.current) {
+      const ul = logosRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
     }
-
-    return controls?.stop;
-  }, [xTranslation, width, duration, rerender, mustFinish]);
+  }, []);
+  useEffect(() => {
+    if (logosRevRef.current) {
+      const ul = logosRevRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
+    }
+  }, []);
 
   return (
     <div className=" my-[131px] overflow-hidden">
@@ -52,23 +39,30 @@ const Technologies = () => {
         </button>
       </div>
 
-      <motion.div
-        className="mt-[90px] flex"
-        ref={ref}
-        style={{ x: xTranslation }}
-        onHoverStart={() => {
-          setDuration(slow_duration);
-          setMustFinish(true);
-        }}
-        onHoverEnd={() => {
-          setDuration(fast_duration);
-          setMustFinish(true);
-        }}
-      >
-        {[...data, ...data].map((item, idx) => (
-          <Card image={item.image} name={item.name} key={idx} />
-        ))}
-      </motion.div>
+      <div className="mt-[90px] w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+        <ul
+          ref={logosRef}
+          className="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-scroll"
+        >
+          {data.map((data, index) => (
+            <li key={index}>
+              <Card image={data.image} name={data.name} />
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+        <ul
+          ref={logosRevRef}
+          className="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-scrollReverse"
+        >
+          {data.map((data, index) => (
+            <li key={index}>
+              <Card image={data.image} name={data.name} />
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
