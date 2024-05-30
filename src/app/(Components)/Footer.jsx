@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="ml-[5.2vw] mt-[200px] relative">
+    <footer className="ml-[5.2vw] mt-[90px] relative">
       <div className=" w-fit flex">
         <div className="w-[39.07vw]">
           <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[4.167vw] tracking-[0.167vw]">

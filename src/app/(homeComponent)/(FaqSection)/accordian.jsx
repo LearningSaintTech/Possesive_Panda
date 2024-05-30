@@ -15,7 +15,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
         onClick={() => handleSetIndex(index)}
         className={`flex w-full h-full justify-between p-2 mt-2 border-t border-solid border-black mx-auto cursor-pointer`}
       >
-        <p className="text-black text-[4vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.063vw] my-auto">
+        <p className="text-black text-[4vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.013vw] my-auto">
           {title}
         </p>
 

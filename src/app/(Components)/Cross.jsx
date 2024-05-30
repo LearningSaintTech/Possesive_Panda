@@ -1,4 +1,6 @@
 import React from "react";
+import line from "../../assets/footer/line.png";
+import Image from "next/image";
 
 const Cross = () => {
   return (
@@ -20,6 +22,7 @@ const Cross = () => {
           Possesive Pandas Pvt. Ltd.
         </span>
       </div>
+      <Image src={line} alt="line" className="absolute bottom-0" />
     </div>
   );
 };

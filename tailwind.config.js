@@ -10,8 +10,18 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 500ms linear forwards",
         "accordion-up": "accordion-up 500ms linear forwards",
+        scroll: "scroll 15s linear infinite",
+        scroll2: "scroll2 15s linear infinite",
       },
       keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        scroll2: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-200%)" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "100px" },
@@ -52,6 +62,12 @@ module.exports = {
         },
         ".filter-blur-custom": {
           filter: "blur(120.96385192871094px)",
+        },
+        ".animation-delay-1": {
+          "animation-delay": "calc(15s * -1)",
+        },
+        ".animation-delay-2": {
+          "animation-delay": "calc(15s /-2)",
         },
       };
       addUtilities(newUtilities, ["responsive", "hover"]);

@@ -4,7 +4,7 @@ import Blogs from "./(homeComponent)/Blogs";
 import Cross from "./(Components)/Cross";
 import Faq from "./(homeComponent)/(FaqSection)/section";
 import WhyUs from "./(homeComponent)/Whyus";
-import Technologies from "./(homeComponent)/Technologies";
+import Technologies from "./(homeComponent)/(Technologies)/Technologies";
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
       <OurServices />
       <WhyUs />
       <Faq />
-      {/* <Technologies /> */}
+      <Technologies />
       <Blogs />
-      {/* <Cross /> */}
+      <Cross />
     </main>
   );
 }

@@ -6,23 +6,20 @@ import blog_3 from "../../assets/home/blogs/Blogs-3.png";
 
 const Blogs = () => {
   return (
-    <div className="my-[100px]">
-      <div className="w-[40vw] h-fit  mx-[5.2vw]">
-        <p className="text-zinc-900 text-[1.25vw] font-normal tracking-wide mb-[37px]">
+    <div className="mt-[60px] mb-[100px]">
+      <div className="w-[31.719vw] h-fit  mx-[8.802vw]">
+        <p className="text-zinc-900 text-[1.25vw] font-normal tracking-[0.013vw] mb-[17px]">
           Our Blogs
         </p>
-        <h1 className="text-zinc-900 text-[5vw] font-normal leading-[90px] w-[100%]">
-          Dive Into Our
+        <h1 className="text-zinc-900 text-[3.333vw] font-medium leading-[normal] tracking-[0.033vw] mb-[17px]">
+          Dive Into Our Creative Musings
         </h1>
-        <h1 className="text-zinc-900 text-[5vw] font-normal leading-[90px] mb-[65px] w-[100%]">
-          Creative Musings
-        </h1>
-        <p className="text-zinc-900 text-[1.146vw] font-normal leading-9 tracking-wide mb-[65px] w-[32.448vw]">
+        <p className="text-zinc-900 text-[1.25vw] font-normal leading-[normal] tracking-[0.013vw] mb-[50px]">
           A curated collection of thoughts, ideas, and inspirations. Join us in
           this exploration, where every word is crafted with passion.
         </p>
-        <button className="text-[1.25vw] flex w-[16.25rem] h-[5rem] justify-center items-center rounded-[65.50px] border border-neutral-600 text-zinc-900 tracking-tight">
-          ALL BLOGS
+        <button className="text-[1.05vw] flex w-[13.542vw] h-[4.167vw] justify-center items-center rounded-[65.50px] border border-neutral-600 text-zinc-900 tracking-[0.013vw]">
+          ALL BLOG
           <svg
             width="19"
             height="14"
@@ -68,17 +65,17 @@ const Blogs = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[138px] lg:mx-[5.2vw]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-[110px] lg:mx-[5.2vw] mb-[150px]">
         <div className="w-screen lg:w-[27.969vw]">
           <Image
             src={blog_1}
             alt="blog-1"
             className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] mt-[2.5rem] mb-[1.35rem]">
+            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
-          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
             Branding . 19 June 2023
           </small>
         </div>
@@ -88,10 +85,10 @@ const Blogs = () => {
             alt="blog-2"
             className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] mt-[2.5rem] mb-[1.35rem]">
+            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
-          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
             Branding . 19 June 2023
           </small>
         </div>
@@ -102,10 +99,10 @@ const Blogs = () => {
             alt="blog-3"
             className="rounded-3xl w-[90vw] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.69vw] font-medium tracking-tight w-[90%] mt-[2rem] mb-[1.2rem]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum
+          <p className="text-zinc-900 text-[6.035vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] mt-[2.5rem] mb-[1.35rem]">
+            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
-          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.328vw] font-normal leading-[46.75px] tracking-tight">
+          <small className="text-zinc-900 text-[4.844vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
             Branding . 19 June 2023
           </small>
         </div>

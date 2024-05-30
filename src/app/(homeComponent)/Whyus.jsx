@@ -16,7 +16,7 @@ const WhyUs = () => {
         <h2 className="text-[#fff] font-medium text-[6.972vw] lg:text-[3.333vw] leading-[125%] tracking-[0.033vw] mb-[19.21px] lg:mb-[50px]">
           Why Have you Been Colaborating With Us?
         </h2>
-        <p className="font-normal text-[#fff] text-[2.629vw] lg:text-[1.25vw] leading-[200%] tracking-[0.013vw]">
+        <p className="font-normal text-[#fff] text-[2.629vw] lg:text-[1.25vw] leading-[150%] tracking-[0.013vw]">
           We give you the same centralized database, user permissions,
           automation, version and access control that you can find in any modern
           FP&A software. But we're different in many ways. Ways that matter.
