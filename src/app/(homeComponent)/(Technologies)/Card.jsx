@@ -7,7 +7,7 @@ const Card = ({ name, image }) => {
   const [showOverlay, setShowOverlay] = useState(false);
   return (
     <motion.div
-      className="relative overflow-hidden h-[212px] min-w-[300px] border border-solid border-[#D9D9D9] flex items-center justify-center"
+      className="relative overflow-hidden h-[21.2vh] xl:h-[212px] min-w-[300px] border border-solid border-[#D9D9D9] flex items-center justify-center"
       onHoverStart={() => setShowOverlay(true)}
       onHoverEnd={() => setShowOverlay(false)}
     >
@@ -32,7 +32,12 @@ const Card = ({ name, image }) => {
           </motion.div>
         )}
       </AnimatePresence>
-      <Image src={image} alt="Image" style={{ objectFit: "cover" }} />
+      <Image
+        src={image}
+        alt="Image"
+        style={{ objectFit: "cover" }}
+        className="size-[20vw] lg:size-auto"
+      />
     </motion.div>
   );
 };

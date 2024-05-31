@@ -30,16 +30,16 @@ const Technologies = () => {
 
   return (
     <div className=" my-[131px] overflow-hidden">
-      <div className="flex justify-between items-center not-italic mx-[5.208vw]">
-        <h1 className="text-zinc-900 w-[36.25vw] text-[3.25vw] font-medium leading-[normal] tracking-[0.033vw]">
+      <div className="flex flex-col md:flex-row justify-between items-center not-italic mx-[5.208vw]">
+        <h1 className="text-zinc-900 w-full xl:w-[36.25vw] text-[9.5vw] xl:text-[3.25vw] font-medium leading-[125%] tracking-[0.1rem] mb-[10px] md:mb-0">
           Technologies We Use to Offer :
         </h1>
-        <button className="inline-flex py-[20px] px-[1.563vw] w-[17.344vw] bg-[#797777] rounded-[5px] h-[70px] text-white text-[1.114vw] leading-[125%] tracking-[0.063vw] font-medium">
+        <button className="inline-flex self-start py-[15px] lg:py-[20px] px-[1.563vw] w-fit xl:w-[17.344vw] bg-[#797777] rounded-[5px] h-fit text-white text-[4.375vw] xl:text-[1.114vw] leading-[125%] tracking-[0.063vw] font-medium">
           Partners with us Today
         </button>
       </div>
 
-      <div className="mt-[90px] w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+      <div className="mt-[90px] w-full inline-flex flex-nowrap overflow-hidden">
         <ul
           ref={logosRef}
           className="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-scroll"
@@ -51,7 +51,7 @@ const Technologies = () => {
           ))}
         </ul>
       </div>
-      <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+      <div className="w-full inline-flex flex-nowrap overflow-hidden ">
         <ul
           ref={logosRevRef}
           className="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-scrollReverse"

@@ -5,17 +5,19 @@ import Cross from "./(Components)/Cross";
 import Faq from "./(homeComponent)/(FaqSection)/section";
 import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
+import Portfolio from "./(homeComponent)/Portfolio";
 
 export default function Home() {
   return (
-    <main className="mt-[100px]">
-      <Banner />
-      <OurServices />
-      <WhyUs />
-      <Faq />
+    <main className="scroll-smooth">
+      {/* <Banner /> */}
+      {/* <Portfolio /> */}
+      {/* <OurServices /> */}
+      {/* <WhyUs /> */}
+      {/* <Faq /> */}
       <Technologies />
-      <Blogs />
-      <Cross />
+      {/* <Blogs /> */}
+      {/* <Cross /> */}
     </main>
   );
 }

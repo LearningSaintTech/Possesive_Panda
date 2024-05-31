@@ -4,7 +4,7 @@ import data from "./data";
 import Accordian from "./Accordian";
 
 const Faq = () => {
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(-1);
   return (
     <div className="mx-[9.375vw] lg:mx-[5.208vw] mt-[165px] flex flex-col lg:flex-row lg:justify-between h-[1300px] lg:h-[800px]">
       <div className="w-screen lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[149px]">

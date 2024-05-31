@@ -4,8 +4,9 @@ import Nav from "./(Components)/Nav";
 import Footer from "./(Components)/Footer";
 
 const poppins = Poppins({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
+  preload: true,
 });
 
 export const metadata = {
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={`${poppins.className} pt-[140px]`}>
         <Nav />
         {children}
         <Footer />

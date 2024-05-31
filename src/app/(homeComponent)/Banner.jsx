@@ -25,8 +25,8 @@ const Banner = () => {
   }, []);
 
   useEffect(() => {
-    if (upRef.current) {
-      const ul = upRef.current;
+    if (downRef.current) {
+      const ul = downRef.current;
       const clone = ul.cloneNode(true);
       clone.setAttribute("aria-hidden", "true");
       if (ul.parentNode) {
@@ -36,7 +36,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="flex justify-between pl-[8.854vw] mr-[5.729vw] mt-[140px] relative overflow-hidden h-[1051px]">
+    <div className="flex justify-between pl-[8.854vw] mr-[5.729vw] relative overflow-hidden h-[1051px]">
       <Image
         src={shadow}
         alt="shadow"
@@ -68,20 +68,10 @@ const Banner = () => {
         </button>
       </div>
       <div className="flex justify-end">
-        {/* <motion.div
-          className="mr-[3.125vw]"
-          animate={{ y: [0, -1000, 0] }}
-          transition={{
-            duration: 20,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "loop",
-          }}
-        > */}
         <div className="h-full inline-flex flex-col overflow-hidden mr-[3.125vw]">
           <ul
             ref={upRef}
-            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_img]:max-w-none animate-moveUp"
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_Image]:max-w-none animate-moveUp"
           >
             <li>
               <Image
@@ -100,21 +90,10 @@ const Banner = () => {
           </ul>
         </div>
 
-        {/* </motion.div> */}
-        {/* <motion.div
-          className="mr-[3.125vw]"
-          animate={{ y: [0, 1000] }}
-          transition={{
-            duration: 20,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "loop",
-          }}
-        > */}
         <div className="h-full inline-flex flex-col overflow-hidden">
           <ul
             ref={downRef}
-            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_img]:max-w-none animate-moveDown"
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-4 lg:[&_li]:my-[70px] [&_Image]:max-w-none animate-moveDown"
           >
             <li>
               <Image
@@ -132,12 +111,11 @@ const Banner = () => {
             </li>
           </ul>
         </div>
-        {/* </motion.div> */}
       </div>
       <Image
         src={panda}
         alt="panda"
-        className="absolute top-[45%] left-[12%] z-[-20]"
+        className="absolute top-[55%] left-[15%] z-[-20] h-auto w-auto"
       />
     </div>
   );

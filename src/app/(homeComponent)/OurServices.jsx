@@ -43,7 +43,7 @@ const OurServices = () => {
             managed services for optimal performance."
           </p>
         </div>
-        <Image src={panda} alt="panda" />
+        <Image src={panda} alt="panda" className="h-auto w-auto" />
       </div>
       <div className="flex my-[180px] justify-between items-center mx-[5.2vw]">
         <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative">
