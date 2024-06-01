@@ -9,15 +9,15 @@ import Portfolio from "./(homeComponent)/Portfolio";
 
 export default function Home() {
   return (
-    <main className="scroll-smooth">
-      {/* <Banner /> */}
-      {/* <Portfolio /> */}
-      {/* <OurServices /> */}
-      {/* <WhyUs /> */}
-      {/* <Faq /> */}
+    <main className="">
+      <Banner />
+      <Portfolio />
+      <OurServices />
+      <WhyUs />
+      <Faq />
       <Technologies />
-      {/* <Blogs /> */}
-      {/* <Cross /> */}
+      <Blogs />
+      <Cross />
     </main>
   );
 }

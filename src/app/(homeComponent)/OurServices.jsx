@@ -1,31 +1,56 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import panda from "../../assets/home/services/panda.png";
 import Image from "next/image";
 
 const OurServices = () => {
   const [normal, setNormal] = useState(0);
   const [premium, setPremium] = useState(0);
+  const [visible, setVisible] = useState(false);
+  const containerRef = useRef();
+
   useEffect(() => {
-    if (normal >= 18) return;
+    if (!containerRef.current) return;
+    const containerObserver = new IntersectionObserver(
+      (args) => {
+        const container = args[0];
+        if (container.isIntersecting) {
+          setVisible(true);
+          containerObserver.disconnect();
+        }
+      },
+      {
+        rootMargin: "-500px",
+      }
+    );
+
+    containerObserver.observe(containerRef.current);
+
+    return () => {
+      containerObserver.disconnect();
+    };
+  }, [containerRef.current]);
+
+  useEffect(() => {
+    if (normal >= 18 || !visible) return;
 
     const timeout = setTimeout(() => {
       setNormal((prev) => prev + 1);
     }, 45);
 
     return () => clearTimeout(timeout);
-  }, [normal]);
+  }, [normal, visible]);
 
   useEffect(() => {
-    if (premium >= 8) return;
+    if (premium >= 8 || !visible) return;
 
     const timeout = setTimeout(() => {
       setPremium((prev) => prev + 1);
     }, 100);
 
     return () => clearTimeout(timeout);
-  }, [premium]);
+  }, [premium, visible]);
 
   return (
     <div className="mt-[100px]">
@@ -45,7 +70,10 @@ const OurServices = () => {
         </div>
         <Image src={panda} alt="panda" className="h-auto w-auto" />
       </div>
-      <div className="flex my-[180px] justify-between items-center mx-[5.2vw]">
+      <div
+        ref={containerRef}
+        className="flex my-[180px] justify-between items-center mx-[5.2vw]"
+      >
         <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[5.73vw] absolute top-0 left-[3.125vw]">
             {normal}+
