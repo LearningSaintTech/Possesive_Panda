@@ -18,15 +18,15 @@ const Faq = () => {
     });
   }, []);
   return (
-    <div className="mx-[9.375vw] lg:mx-[5.208vw] mt-[165px] flex flex-col lg:flex-row lg:justify-between h-[1300px] lg:h-[800px] overflow-hidden">
+    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[50px] lg:mt-[165px] flex flex-col lg:flex-row lg:justify-between min-h-[165vh] max-h-[180vh] lg:min-h-[80vh] lg:max-h-[100vh] overflow-hidden">
       <div
-        className="w-screen lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[149px]"
+        className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[20px] lg:mb-[149px]"
         data-aos="zoom-out-right"
       >
-        <h5 className="text-[#2A2A2A] text-[5.472vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
+        <h5 className="text-[#2A2A2A] text-[3.42vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
           FAQ
         </h5>
-        <h2 className="text-[#2A2A2A] text-[14.563vw] lg:text-[3.333vw]  font-medium leading-[normal] tracking-[2.335px] lg:tracking-[0.033vw] mb-[38px] lg:mb-[8px]">
+        <h2 className="text-[#2A2A2A] text-[10vw] lg:text-[3.333vw]  font-medium leading-[normal] tracking-[2.335px] lg:tracking-[0.033vw] mb-[38px] lg:mb-[8px]">
           Quick answers to questions you may have
         </h2>
         <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[14px] lg:mb-[13px]">
@@ -39,7 +39,7 @@ const Faq = () => {
           href=""
           className="text-[4.56vw] lg:text-[1.042vw] font-medium leading-[normal] underline text-[#60E2FF]"
         >
-          PossesivePanda@.com
+          PossesivePanda.com
         </a>
       </div>
       <div

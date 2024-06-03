@@ -13,7 +13,7 @@ const WhyUs = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 600,
+      delay: 400,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -22,7 +22,10 @@ const WhyUs = () => {
   }, []);
   return (
     <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[8.854vw] lg:pr-[3.177VW] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
-      <div className="lg:w-[38.75vw] mt-[200px]" data-aos="fade-down-right">
+      <div
+        className="lg:w-[38.75vw] mt-[50px] lg:mt-[200px]"
+        data-aos="fade-down-right"
+      >
         <h6 className="text-[#fff] text-[3.42vw] lg:text-[1.25vw] font-normal tracking-[0.013vw] mb-[9.35px] lg:mb-[50px]">
           Why Us
         </h6>
@@ -38,7 +41,7 @@ const WhyUs = () => {
       </div>
       <div className="lg:ml-[7.552vw]">
         <div
-          className="w-full lg:w-[20.833vw] h-[21.875vw] bg-[#FAFAFA] relative mt-[58px] mb-[60.69px] lg:mb-0"
+          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative mt-[58px] mb-[60.69px] lg:mb-0"
           data-aos="flip-left"
         >
           <Image
@@ -51,7 +54,7 @@ const WhyUs = () => {
           </h6>
         </div>
         <div
-          className="w-full lg:w-[20.833vw] h-[21.875vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0"
+          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0"
           data-aos="flip-right"
         >
           <Image
@@ -64,7 +67,7 @@ const WhyUs = () => {
           </h6>
         </div>
         <div
-          className="w-full lg:w-[20.833vw] h-[21.875vw] bg-[#FAFAFA] relative"
+          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative"
           data-aos="flip-left"
         >
           <Image
@@ -80,7 +83,7 @@ const WhyUs = () => {
       <Image
         src={panda}
         alt="panda"
-        className="absolute bottom-0 left-0 w-[35.9vw] h-[30.667vw]"
+        className="hidden md:block absolute bottom-0 left-0 w-[35.9vw] h-[30.667vw]"
         data-aos="zoom-in-right"
       />
     </div>
