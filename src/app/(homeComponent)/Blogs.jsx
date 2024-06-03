@@ -1,13 +1,29 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import blog_1 from "../../assets/home/blogs/Blogs-1.png";
 import blog_2 from "../../assets/home/blogs/Blogs-2.png";
 import blog_3 from "../../assets/home/blogs/Blogs-3.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blogs = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 800,
+      disable: "mobile",
+      once: true,
+      mirror: true,
+      easing: "ease-in-sine",
+    });
+  }, []);
   return (
     <div className="mt-[60px] mb-[100px]">
-      <div className="w-[31.719vw] h-fit  mx-[8.802vw]">
+      <div
+        className="w-[31.719vw] h-fit  mx-[8.802vw]"
+        data-aos="fade-up-right"
+      >
         <p className="text-zinc-900 text-[1.25vw] font-normal tracking-[0.013vw] mb-[17px]">
           Our Blogs
         </p>
@@ -66,7 +82,7 @@ const Blogs = () => {
         </button>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-[110px] lg:mx-[5.2vw] mb-[150px]">
-        <div className="w-screen lg:w-[27.969vw]">
+        <div className="w-screen lg:w-[27.969vw]" data-aos="zoom-in-down">
           <Image
             src={blog_1}
             alt="blog-1"
@@ -79,7 +95,10 @@ const Blogs = () => {
             Branding . 19 June 2023
           </small>
         </div>
-        <div className="w-screen lg:w-[27.969vw] justify-self-center">
+        <div
+          className="w-screen lg:w-[27.969vw] justify-self-center"
+          data-aos="zoom-in-down"
+        >
           <Image
             src={blog_2}
             alt="blog-2"
@@ -93,7 +112,10 @@ const Blogs = () => {
           </small>
         </div>
 
-        <div className="w-screen lg:w-[27.969vw] justify-self-end">
+        <div
+          className="w-screen lg:w-[27.969vw] justify-self-end"
+          data-aos="zoom-in-down"
+        >
           <Image
             src={blog_3}
             alt="blog-3"

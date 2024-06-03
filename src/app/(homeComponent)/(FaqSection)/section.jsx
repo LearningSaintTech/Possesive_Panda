@@ -1,13 +1,28 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "./data";
 import Accordian from "./Accordian";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(-1);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 300,
+      disable: "mobile",
+      once: true,
+      mirror: true,
+      easing: "ease-in-sine",
+    });
+  }, []);
   return (
-    <div className="mx-[9.375vw] lg:mx-[5.208vw] mt-[165px] flex flex-col lg:flex-row lg:justify-between h-[1300px] lg:h-[800px]">
-      <div className="w-screen lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[149px]">
+    <div className="mx-[9.375vw] lg:mx-[5.208vw] mt-[165px] flex flex-col lg:flex-row lg:justify-between h-[1300px] lg:h-[800px] overflow-hidden">
+      <div
+        className="w-screen lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[149px]"
+        data-aos="zoom-out-right"
+      >
         <h5 className="text-[#2A2A2A] text-[5.472vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
           FAQ
         </h5>
@@ -27,7 +42,10 @@ const Faq = () => {
           PossesivePanda@.com
         </a>
       </div>
-      <div className="w-full ml-0 lg:ml-[4.219vw] h-fit mt-[50px] lg:mt-0">
+      <div
+        className="w-full ml-0 lg:ml-[4.219vw] h-fit mt-[50px] lg:mt-0"
+        data-aos="zoom-out"
+      >
         <div className="w-full lg:w-[58.542vw] h-[100px] lg:h-[112px] flex-shrink-0">
           {data.map((item) => (
             <Accordian

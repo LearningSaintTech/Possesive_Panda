@@ -8,11 +8,22 @@ import banner_3 from "../../assets/home/banner/Banner-3.png";
 import banner_4 from "../../assets/home/banner/Banner-4.png";
 import shadow from "../../assets/home/banner/shadow.png";
 import panda from "../../assets/home/banner/panda-bg.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
   const upRef = useRef(null);
   const downRef = useRef(null);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 300,
+      disable: "mobile",
+      once: true,
+      mirror: true,
+      easing: "ease-in-sine",
+    });
+  }, []);
   useEffect(() => {
     if (upRef.current) {
       const ul = upRef.current;
@@ -42,7 +53,12 @@ const Banner = () => {
         alt="shadow"
         className="bg-custom-gradient mix-blend-hard-light filter-blur-custom absolute -left-24 -top-3 -z-[1] overflow-visible"
       />
-      <div className="w-[35.469vw] mt-[151px]">
+      <div
+        className="w-[35.469vw] mt-[151px]"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-offset="100"
+      >
         <h1 className="text-zinc-800 text-[3.333vw] font-semibold leading-[normal] tracking-[0.64px]">
           Boost Your Business With Powerful IT Technology.
         </h1>

@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="flex mb-[30px]">
             <Image src={gmail} alt="gmail" className="h-auto w-auto" />
             <p className="text-[1.25vw] font-medium tracking-[0.015rem] leading-[125%] text-[#2A2A2A] ml-[1.042vw]">
-              hello@possesivepanda@gmail.com
+              hello@possesivepanda.com
             </p>
           </div>
           <div className="flex">

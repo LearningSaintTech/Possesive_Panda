@@ -3,13 +3,24 @@
 import React, { useEffect, useRef, useState } from "react";
 import panda from "../../assets/home/services/panda.png";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const OurServices = () => {
   const [normal, setNormal] = useState(0);
   const [premium, setPremium] = useState(0);
   const [visible, setVisible] = useState(false);
   const containerRef = useRef();
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      delay: 500,
+      disable: "mobile",
+      once: true,
+      mirror: true,
+      easing: "ease-in-sine",
+    });
+  }, []);
   useEffect(() => {
     if (!containerRef.current) return;
     const containerObserver = new IntersectionObserver(
@@ -55,7 +66,7 @@ const OurServices = () => {
   return (
     <div className="mt-[100px]">
       <div className="flex justify-between relative mx-[8.854vw]">
-        <div className="w-[44.271vw]">
+        <div className="w-[44.271vw]" data-aos="fade-right">
           <p className="text-zinc-900 font-normal tracking-[0.015rem] text-[1.25vw] mb-[50px]">
             Our Services
           </p>
@@ -68,13 +79,18 @@ const OurServices = () => {
             managed services for optimal performance."
           </p>
         </div>
-        <Image src={panda} alt="panda" className="h-auto w-auto" />
+        <Image
+          src={panda}
+          alt="panda"
+          className="h-auto w-auto"
+          data-aos="fade-left"
+        />
       </div>
       <div
         ref={containerRef}
         className="flex my-[180px] justify-between items-center mx-[5.2vw]"
       >
-        <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative">
+        <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative hover:shadow-2xl duration-300">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[5.73vw] absolute top-0 left-[3.125vw]">
             {normal}+
           </span>
@@ -82,7 +98,7 @@ const OurServices = () => {
             Normal Services
           </p>
         </div>
-        <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F3F2FF] relative">
+        <div className="h-[489px] w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F3F2FF] relative hover:shadow-2xl duration-300">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[5.73vw] absolute top-0 left-[3.125vw]">
             {premium}+
           </span>
