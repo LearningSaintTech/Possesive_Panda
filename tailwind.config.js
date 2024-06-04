@@ -34,10 +34,10 @@ module.exports = {
         },
         "accordion-down": {
           from: { height: "0" },
-          to: { height: "100px" },
+          to: { height: "150px" },
         },
         "accordion-up": {
-          from: { height: "100px" },
+          from: { height: "150px" },
           to: { height: "0" },
         },
       },

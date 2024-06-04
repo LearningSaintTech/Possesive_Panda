@@ -5,15 +5,19 @@ import Cross from "./(Components)/Cross";
 import Faq from "./(homeComponent)/(FaqSection)/section";
 import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
+import Portfolio from "./(homeComponent)/Portfolio";
+import Contact from "./(homeComponent)/Contact";
 
 export default function Home() {
   return (
-    <main className="mt-[100px]">
+    <main className="">
       <Banner />
+      <Portfolio />
       <OurServices />
       <WhyUs />
       <Faq />
       <Technologies />
+      <Contact />
       <Blogs />
       <Cross />
     </main>
