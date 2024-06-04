@@ -24,7 +24,7 @@ const Faq = () => {
           href=""
           className="text-[4.56vw] lg:text-[1.042vw] font-medium leading-[normal] underline text-[#60E2FF]"
         >
-          PossesivePanda@.com
+          hello@possesivepanda.com
         </a>
       </div>
       <div className="w-full ml-0 lg:ml-[4.219vw] h-fit mt-[50px] lg:mt-0">
