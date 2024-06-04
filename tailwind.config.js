@@ -10,14 +10,34 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 500ms linear forwards",
         "accordion-up": "accordion-up 500ms linear forwards",
+        scroll: "scroll 15s linear infinite",
+        scrollReverse: "scrollReverse 15s linear infinite",
+        moveUp: "moveUp 15s linear infinite",
+        moveDown: "moveDown 15s linear infinite",
       },
       keyframes: {
+        moveUp: {
+          from: { transform: "translateY(0%)" },
+          to: { transform: "translateY(-100%)" },
+        },
+        moveDown: {
+          from: { transform: "translateY(-100%)" },
+          to: { transform: "translateY(0%)" },
+        },
+        scroll: {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        scrollReverse: {
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0%)" },
+        },
         "accordion-down": {
           from: { height: "0" },
-          to: { height: "100px" },
+          to: { height: "150px" },
         },
         "accordion-up": {
-          from: { height: "100px" },
+          from: { height: "150px" },
           to: { height: "0" },
         },
       },
@@ -52,6 +72,12 @@ module.exports = {
         },
         ".filter-blur-custom": {
           filter: "blur(120.96385192871094px)",
+        },
+        ".animation-delay-1": {
+          "animation-delay": "calc(15s * -1)",
+        },
+        ".animation-delay-2": {
+          "animation-delay": "calc(15s /-2)",
         },
       };
       addUtilities(newUtilities, ["responsive", "hover"]);
