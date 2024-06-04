@@ -1,9 +1,9 @@
 // pages/index.js
 "use client";
-import React, { useState } from 'react';
-import data from './Data';
-import AccordionItems from './AccordionItems';
-import "./I.css"
+import React, { useState } from "react";
+import data from "./Data";
+import AccordionItems from "./AccordionItems";
+import "./I.css";
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -12,7 +12,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className='container'>
+    <div className="container">
       {data.map((item, index) => (
         <AccordionItems
           key={index}

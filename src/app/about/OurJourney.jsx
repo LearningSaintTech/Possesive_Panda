@@ -1,21 +1,28 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+import React from "react";
 
 const OurJourney = () => {
   return (
     <div className="flex flex-col md:flex-row items-start justify-between p-8 bg-white space-y-8 md:space-y-0">
-    <div className="md:w-1/2">
-      <h2 className="text-sky-500 text-2xl font-medium tracking-tight mt-36 ml-24">
-        Our journey started
-      </h2>
-      <h1 className="text-neutral-800 text-5xl font-medium leading-[62.40px] tracking-normal mt-1 md:mt-2 ml-24">
-        Possessive Panda journey was inspired by a passion for Panda possessiveness to work
-      </h1>
-    </div>
-    <div className="md:w-1/2 mt-4 md:mt-0 md:ml-24">
-      <p className="opacity-90 text-zinc-900 text-2xl font-normal leading-[38.40px] tracking-wide text-justify mt-52 w-[706px] ml-5">
-        Possessive Panda is a global powerhouse, renowned for its innovation and expertise. Our diverse team, from around the world, brings varied knowledge and perspectives. This cultural richness fuels our cutting-edge solutions and industry leadership. Our commitment to excellence keeps us at the forefront, meeting clients' evolving needs globally.
-      </p>
-      <button className="text-[1.05vw] flex w-[13.542vw] h-[4.167vw] justify-center items-center rounded-[65.50px] border border-neutral-600 text-zinc-900 tracking-[0.013vw] mt-8 ml-4">
+      <div className="md:w-1/2">
+        <h2 className="text-sky-500 text-2xl font-medium tracking-tight mt-36 ml-24">
+          Our journey started
+        </h2>
+        <h1 className="text-neutral-800 text-5xl font-medium leading-[62.40px] tracking-normal mt-1 md:mt-2 ml-24">
+          Possessive Panda journey was inspired by a passion for Panda
+          possessiveness to work
+        </h1>
+      </div>
+      <div className="md:w-1/2 mt-4 md:mt-0 md:ml-24">
+        <p className="opacity-90 text-zinc-900 text-2xl font-normal leading-[38.40px] tracking-wide text-justify mt-52 w-[706px] ml-5">
+          Possessive Panda is a global powerhouse, renowned for its innovation
+          and expertise. Our diverse team, from around the world, brings varied
+          knowledge and perspectives. This cultural richness fuels our
+          cutting-edge solutions and industry leadership. Our commitment to
+          excellence keeps us at the forefront, meeting clients' evolving needs
+          globally.
+        </p>
+        <button className="text-[1.05vw] flex w-[13.542vw] h-[4.167vw] justify-center items-center rounded-[65.50px] border border-neutral-600 text-zinc-900 tracking-[0.013vw] mt-8 ml-4">
           Read More
           <svg
             width="19"
@@ -61,8 +68,8 @@ const OurJourney = () => {
             </defs>
           </svg>
         </button>
+      </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 export default OurJourney;

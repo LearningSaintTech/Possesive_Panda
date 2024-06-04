@@ -1,6 +1,6 @@
 // components/AccordionItem.jsx
-import React, { useRef, useState } from 'react';
-import { RiArrowDropDownLine } from 'react-icons/ri';
+import React, { useRef, useState } from "react";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const AccordionItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +15,14 @@ const AccordionItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="wrapper" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <div className={`question-container ${isOpen ? 'active' : ''}`}>
-        <p className='question-content'>{question}</p>
-        <RiArrowDropDownLine className={`arrow ${isOpen ? 'active' : ''}`} />
+    <div
+      className="wrapper"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className={`question-container ${isOpen ? "active" : ""}`}>
+        <p className="question-content">{question}</p>
+        <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""}`} />
       </div>
 
       <div
@@ -26,7 +30,7 @@ const AccordionItem = ({ question, answer }) => {
         className="answer-container"
         style={{
           height: isOpen ? contentHeight.current?.scrollHeight : "0px",
-          transition: "height 0.7s ease-in-out"
+          transition: "height 0.7s ease-in-out",
         }}
       >
         <p className="answer-content">{answer}</p>
