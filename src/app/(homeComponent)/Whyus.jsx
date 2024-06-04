@@ -21,7 +21,7 @@ const WhyUs = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[8.854vw] lg:pr-[3.177VW] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
+    <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[8.854vw] lg:pr-[3.177vw] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
       <div
         className="lg:w-[38.75vw] mt-[50px] lg:mt-[200px]"
         data-aos="fade-down-right"
@@ -49,7 +49,7 @@ const WhyUs = () => {
             alt="card-1"
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
-          <h6 className="w-[56.667vw] lg:w-fit text-[7.521vw] font-semibold lg:text-[1.25vw] leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
+          <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
             Plan With Confidence
           </h6>
         </div>
@@ -62,7 +62,7 @@ const WhyUs = () => {
             alt="card-2"
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
-          <h6 className="w-[56.667vw] lg:w-fit font-semibold text-[7.521vw] lg:text-[1.25vw] leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
+          <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
             Self- Serve Modelling
           </h6>
         </div>
@@ -75,7 +75,7 @@ const WhyUs = () => {
             alt="card-3"
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
-          <h6 className="w-[56.667vw] lg:w-fit font-semibold text-[7.521vw] lg:text-[1.25vw] leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
+          <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
             On- Demand Reporting
           </h6>
         </div>
@@ -83,7 +83,7 @@ const WhyUs = () => {
       <Image
         src={panda}
         alt="panda"
-        className="hidden md:block absolute bottom-0 left-0 w-[35.9vw] h-[30.667vw]"
+        className="hidden lg:block absolute bottom-0 left-0 lg:h-[25vw] lg:w-[35.9vw] xl:h-[30.667vw]"
         data-aos="zoom-in-right"
       />
     </div>

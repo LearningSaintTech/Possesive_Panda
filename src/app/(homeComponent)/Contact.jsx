@@ -33,7 +33,7 @@ const Contact = () => {
   };
   return (
     <div className="mx-[5.2vw] flex flex-col lg:flex-row justify-between">
-      <div className="w-full lg:w-[34.688vw] min-h-[75vh] lg:min-h-[85vh] flex flex-col justify-between">
+      <div className="w-full lg:w-[34.688vw] min-h-[75vh] md:min-h-[90vh] lg:min-h-[85vh] flex flex-col justify-between">
         <h2 className="text-[8.2vw] lg:text-[3.333vw] font-bold leading-[normal]">
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
@@ -48,14 +48,14 @@ const Contact = () => {
           name="name"
           onChange={handleChange}
           maxLength={25}
-          className="border border-gray-300 text-gray-900 text-[4vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
         />
         <input
           type="email"
           placeholder="Email"
           name="email"
           onChange={handleChange}
-          className="border border-gray-300 text-gray-900 text-[4vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
         />
         <input
           type="text"
@@ -65,12 +65,12 @@ const Contact = () => {
           onChange={handleChange}
           maxLength={10}
           name="phone"
-          className="border border-gray-300 text-gray-900 text-[4vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
         />
         <select
           name="find"
           onChange={handleChange}
-          className="border border-gray-300 text-gray-900 text-[4vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
         >
           <option hidden value="find">
             How did you find us?
@@ -82,11 +82,11 @@ const Contact = () => {
         </select>
         <button
           onClick={handleSubmit}
-          className="w-full py-[2vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] lg:text-[1.042vw] leading-[normal]"
+          className="w-full py-[2vw] md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] leading-[normal]"
         >
           SEND
         </button>
-        <div className="flex flex-col md:flex-row gap-[2vw] md:gap-0 justify-between mt-[40px]">
+        <div className="flex flex-col lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[40px]">
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const Contact = () => {
                 EMAIL
               </p>
               <p className="text-[#00AFF1] text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
-                info@possesivepanda.com
+                hello@possesivepanda.com
               </p>
             </div>
           </div>
@@ -164,7 +164,7 @@ const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="size-fit lg:w-[40vw] lg:h-[70vh] mt-[30px] lg:mt-0"
+          className="size-fit md:w-full md:h-[40vh] lg:w-[40vw] lg:h-[70vh] mt-[30px] lg:mt-0"
         ></iframe>
       </div>
     </div>
