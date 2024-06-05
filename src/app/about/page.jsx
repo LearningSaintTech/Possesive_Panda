@@ -8,10 +8,10 @@ import Certificate from "./Certificate";
 const page = () => {
   return (
     <div>
-      {/* <AboutBanner /> */}
-      {/* <OurJourney /> */}
-      {/* <Accordion /> */}
-      {/* <Brands /> */}
+      <AboutBanner />
+      <OurJourney />
+      <Accordion />
+      <Brands />
       <Certificate />
     </div>
   );
