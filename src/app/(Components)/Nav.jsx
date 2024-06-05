@@ -14,7 +14,7 @@ const Nav = () => {
           <Link href="">Premium Services</Link>
           <Link href="">Vision</Link>
           <Link href="">Pricing</Link>
-          <Link href="">Blogs</Link>
+          <Link href="/blog">Blogs</Link>
           <button className="py-[0.729vw] px-[1.823] bg-[#60E2FF] text-white rounded-[5px] w-[10.417vw]">
             Contact Us
           </button>
