@@ -1,9 +1,10 @@
-// pages/index.js
 "use client";
 import React, { useState } from 'react';
 import data from './Data';
 import AccordionItems from './AccordionItems';
-import "./I.css"
+import "./I.css";
+
+
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -12,12 +13,13 @@ const Accordion = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container w-auto'>
       {data.map((item, index) => (
         <AccordionItems
           key={index}
           question={item.question}
           answer={item.answer}
+          image={item.image}
           isOpen={activeIndex === index}
           onClick={() => handleItemClick(index)}
         />
