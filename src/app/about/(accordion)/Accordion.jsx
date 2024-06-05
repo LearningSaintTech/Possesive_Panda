@@ -1,10 +1,8 @@
 "use client";
-import React, { useState } from 'react';
-import data from './Data';
-import AccordionItems from './AccordionItems';
+import React, { useState } from "react";
+import data from "./Data";
+import AccordionItems from "./AccordionItems";
 import "./I.css";
-
-
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
