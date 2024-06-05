@@ -6,6 +6,7 @@ import Faq from "./(homeComponent)/(FaqSection)/section";
 import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
 import Portfolio from "./(homeComponent)/Portfolio";
+import Contact from "./(Components)/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyUs />
       <Faq />
       <Technologies />
+      <Contact />
       <Blogs />
       <Cross />
     </main>
