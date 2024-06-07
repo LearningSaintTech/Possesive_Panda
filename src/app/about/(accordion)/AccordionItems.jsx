@@ -1,8 +1,8 @@
-// components/AccordionItem.jsx
-import React, { useRef, useState } from "react";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import React, { useRef, useState } from 'react';
+import { RiArrowDropDownLine } from 'react-icons/ri';
+import Image from "next/image";
 
-const AccordionItem = ({ question, answer }) => {
+const AccordionItems = ({ question, answer, image }) => {
   const [isOpen, setIsOpen] = useState(false);
   const contentHeight = useRef();
 
@@ -33,10 +33,15 @@ const AccordionItem = ({ question, answer }) => {
           transition: "height 0.7s ease-in-out",
         }}
       >
-        <p className="answer-content">{answer}</p>
+        <p className=" ">{answer}</p>
+        <Image
+        src={image}
+        alt="shadow"
+        className='accordion-image'
+      />      
       </div>
     </div>
   );
 };
 
-export default AccordionItem;
+export default AccordionItems;
