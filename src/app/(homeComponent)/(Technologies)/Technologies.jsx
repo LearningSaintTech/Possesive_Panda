@@ -12,7 +12,7 @@ const Technologies = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 300,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,

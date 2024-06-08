@@ -10,7 +10,7 @@ const Faq = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 300,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -18,7 +18,7 @@ const Faq = () => {
     });
   }, []);
   return (
-    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[50px] lg:mt-[165px] flex flex-col lg:flex-row lg:justify-between min-h-[168vh] max-h-[180vh] md:min-h-[150vh] lg:min-h-[80vh] lg:max-h-[120vh] 2xl:min-h-[90vh] 2xl:max-h-[150vh] overflow-hidden">
+    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[50px] lg:mt-[165px] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
       <div
         className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[20px] lg:mb-[149px]"
         data-aos="zoom-out-right"
@@ -46,7 +46,7 @@ const Faq = () => {
         className="w-full ml-0 lg:ml-[4.219vw] mt-[50px] lg:mt-0"
         data-aos="zoom-out"
       >
-        <div className="w-full lg:w-[58.542vw] h-[12vh] 2xl:h-[12vh] flex-shrink-0">
+        <div className="w-full lg:w-[58.542vw] min-h-full 2xl:min-h-full flex-shrink-0">
           {data.map((item) => (
             <Accordian
               key={item.key}

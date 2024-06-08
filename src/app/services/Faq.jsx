@@ -15,7 +15,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
     <>
       <div
         onClick={() => handleSetIndex(index)}
-        className={`flex w-full h-full justify-between px-2 py-[2vw] lg:py-[1vw] 2xl:py-[1.667vw] mt-2 border-t border-solid border-black mx-auto cursor-pointer`}
+        className={`flex w-full justify-between p-2 mt-2 border-t border-solid border-black mx-auto cursor-pointer`}
       >
         <p className="text-black text-[4vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1.25vw] font-normal leading-[normal] tracking-[0.013vw] my-auto">
           {title}
