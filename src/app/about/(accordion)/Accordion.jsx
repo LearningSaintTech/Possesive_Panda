@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import data from "./Data";
 import AccordionItems from "./AccordionItems";
-import "./I.css";
+
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -11,8 +11,8 @@ const Accordion = () => {
   };
 
   return (
-    <div className='container w-auto'>
-      {data.map((item, index) => (
+    <div className='bg-[#FAFAFA] flex flex-col mt-10 lg:mt-32 w-full py-14'>
+      {data?.map((item, index) => (
         <AccordionItems
           key={index}
           question={item.question}

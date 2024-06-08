@@ -3,13 +3,13 @@ import Hand from "../../assets/aboutus/Hand.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const AboutBanner = () => {
+const ServiceBanner = () => {
   return (
-    <div className="flex justify-between relative mt-[20px] md:mt-[50px] 2xl:mt-[151px] min-h-[20vh]">
+    <div className="flex justify-between relative mt-[20px] md:mt-[50px] 2xl:mt-[151px] min-h-[20vh] w-screen">
       <Image src={Hand} alt="Hand" className="w-screen h-auto" />
       <div className="absolute left-[8vw] top-[11vw] md:top-[5vw] lg:left-[10.4vw] lg:top-[7.5vw]">
         <h1 className="leading-[130%] text-[3.5vw] md:text-[3vw] lg:text-[2.5vw] font-semibold tracking-[0.03rem] text-white">
-          Portfolio Details
+          Service Details
         </h1>
         <h2 className="leading-[130%] text-white text-[3.2vw] md:text-[3vw] lg:text-[2.083vw] tracking-[0.025rem]">
           Professional IT Solution Insight and Updates
@@ -26,11 +26,10 @@ const AboutBanner = () => {
           :
         </span>
         <span className="opacity-50 text-neutral-800 text-[3vw] md:text-[2vw] lg:text-[1.043vw] font-medium leading-[normal] tracking-[0.013rem]">
-          Portfolio
+          Services
         </span>
       </div>
     </div>
   );
 };
-
-export default AboutBanner;
+export default ServiceBanner;

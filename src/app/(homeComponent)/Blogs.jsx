@@ -11,7 +11,7 @@ const Blogs = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 600,
+      delay: 200,
       disable: "mobile",
       once: true,
       mirror: true,

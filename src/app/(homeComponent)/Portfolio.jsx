@@ -48,7 +48,6 @@ const Portfolio = () => {
         <Image
           src={portfolio_1}
           alt="portfolio-1"
-          lg
           className="size-[83vw] lg:h-[35vw] lg:w-[40vw] mt-[40px] lg:mt-0 mx-auto lg:mx-0"
         />
         <Image
