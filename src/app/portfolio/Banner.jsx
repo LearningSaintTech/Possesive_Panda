@@ -3,7 +3,7 @@ import Hand from "../../assets/aboutus/Hand.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const AboutBanner = () => {
+const PortfolioBanner = () => {
   return (
     <div className="flex justify-between relative mt-[20px] md:mt-[50px] 2xl:mt-[151px] min-h-[20vh]">
       <Image src={Hand} alt="Hand" className="w-screen h-auto" />
@@ -32,5 +32,4 @@ const AboutBanner = () => {
     </div>
   );
 };
-
-export default AboutBanner;
+export default PortfolioBanner;

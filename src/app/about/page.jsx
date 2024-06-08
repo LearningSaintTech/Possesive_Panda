@@ -7,12 +7,12 @@ import Certificate from "./Certificate";
 
 const page = () => {
   return (
-    <div className="">
-       <AboutBanner /> 
-       <OurJourney />
-       <Accordion /> 
-       <Brands /> 
-       <Certificate />
+    <div>
+      <AboutBanner />
+      <OurJourney />
+      <Accordion />
+      <Brands />
+      <Certificate />
     </div>
   );
 };
