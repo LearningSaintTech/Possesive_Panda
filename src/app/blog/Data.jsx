@@ -1,126 +1,66 @@
 import img from "../../assets/blogsImages/blog_img.png"
+import img1 from "../../assets/blogsImages/Ellipse_15.png"
 
 export const blogPosts = [
   { 
     id: 1, 
-    title: 'Understanding React', 
-    content: 'This is a blog post about React.', 
+    title: 'We would love to share a similar experience', 
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...', 
     tags: ['React', 'JavaScript', 'Frontend'], 
-    categories: 'aaaaaaaaa', 
+    categories: 'INBOUND MARKETING', 
     image: img,
-    date: '2024-06-01', 
-    writtenBy: 'John Doe' 
+    date: 'Oct 01, 2024', 
+    writtenBy: 'By John Doe',
+    icon:img1
   },
   { 
     id: 2, 
-    title: 'Getting Started with Next.js', 
-    content: 'This is a blog post about Next.js.', 
+    title: 'We would love to share a similar experience', 
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...', 
     tags: ['Next.js', 'React', 'Framework'], 
-    categories: 'bbbbbbbbbb', 
+    categories: 'INBOUND MARKETINA', 
     image: img,
-    date: '2024-06-02', 
-    writtenBy: 'Jane Smith' 
+    date: 'Oct 01, 2024', 
+    writtenBy: 'By Jane Smith',
+    icon:img1
   },
   { 
     id: 3, 
-    title: 'Node.js Basics', 
-    content: 'This is a blog post about Node.js.', 
+    title: 'We would love to share a similar experience', 
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...', 
     tags: ['Node.js', 'Backend', 'JavaScript'], 
-    categories: 'ccccccccc', 
+    categories: 'INBOUND MARKETINB', 
     image: img,
-    date: '2024-06-03', 
-    writtenBy: 'Alice Johnson' 
+    date: 'Oct 01, 2024', 
+    writtenBy: 'By Alice Johnson' ,
+    icon:img1
+
   },
   { 
     id: 4, 
-    title: 'The Power of CSS Grid', 
-    content: 'This is a blog post about CSS Grid.', 
+    title: 'We would love to share a similar experience', 
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...', 
     tags: ['CSS', 'Layout', 'Frontend'], 
-    categories: 'ddddddddd', 
+    categories: 'INBOUND MARKETINC', 
     image: img,
-    date: '2024-06-04', 
-    writtenBy: 'Bob Brown' 
+    date: 'Oct 01, 2024', 
+    writtenBy: 'By Bob Brown' ,
+    icon:img1
+
   },
   { 
     id: 5, 
-    title: 'Responsive Web Design Principles', 
-    content: 'This is a blog post about responsive web design.', 
+    title: 'We would love to share a similar experience', 
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...', 
     tags: ['CSS', 'Design', 'Frontend'], 
-    categories: 'eeeeeeeeee', 
+    categories: 'INBOUND MARKETIND', 
     image: img,
-    date: '2024-06-05', 
-    writtenBy: 'Charlie Davis' 
+    date: 'Oct 01, 2024', 
+    writtenBy: 'By Charlie Davis',
+    icon:img1
+ 
   },
-  { 
-    id: 6, 
-    title: 'JavaScript Promises Explained', 
-    content: 'This is a blog post about JavaScript promises.', 
-    tags: ['JavaScript', 'Async', 'Frontend'], 
-    categories: 'fffffffff', 
-    image: img,
-    date: '2024-06-06', 
-    writtenBy: 'David Evans' 
-  },
-  { 
-    id: 7, 
-    title: 'Introduction to GraphQL', 
-    content: 'This is a blog post introducing GraphQL.', 
-    tags: ['GraphQL', 'API', 'Backend'], 
-    categories: 'gggggggggg', 
-    image: img,
-    date: '2024-06-07', 
-    writtenBy: 'Ella Franklin' 
-  },
-  { 
-    id: 8, 
-    title: 'Creating RESTful APIs with Express.js', 
-    content: 'This is a blog post about building RESTful APIs with Express.js.', 
-    tags: ['Express.js', 'Node.js', 'Backend'], 
-    categories: 'hhhhhhhhhhh', 
-    image: img,
-    date: '2024-06-08', 
-    writtenBy: 'Fiona Green' 
-  },
-  { 
-    id: 9, 
-    title: 'The Fundamentals of Docker', 
-    content: 'This is a blog post about Docker fundamentals.', 
-    tags: ['Docker', 'DevOps', 'Containers'], 
-    categories: 'iiiiiiiiii', 
-    image: img,
-    date: '2024-06-09', 
-    writtenBy: 'George Harris' 
-  },
-  { 
-    id: 10, 
-    title: 'Introduction to Machine Learning', 
-    content: 'This is a blog post introducing machine learning concepts.', 
-    tags: ['Machine Learning', 'AI', 'Data Science'], 
-    categories: 'jjjjjjjjjj', 
-    image: img,
-    date: '2024-06-10', 
-    writtenBy: 'Hannah Iverson' 
-  },
-  { 
-    id: 11, 
-    title: 'Understanding Redux State Management', 
-    content: 'This is a blog post about managing state with Redux.', 
-    tags: ['Redux', 'State Management', 'Frontend'], 
-    categories: 'kkkkkkkkk', 
-    image: img,
-    date: '2024-06-11', 
-    writtenBy: 'Ivan Jones' 
-  },
-  { 
-    id: 12, 
-    title: 'The Basics of Cybersecurity', 
-    content: 'This is a blog post about cybersecurity basics.', 
-    tags: ['Cybersecurity', 'Security', 'IT'], 
-    categories: 'lllllllll', 
-    image: img,
-    date: '2024-06-12', 
-    writtenBy: 'Jackie King' 
-  },
+ 
 ];
 
 export default blogPosts;
