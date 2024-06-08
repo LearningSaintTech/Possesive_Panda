@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Faq = () => {
+  console.log("sdafismkb",data);
   const [activeIndex, setActiveIndex] = useState(-1);
   useEffect(() => {
     AOS.init({
