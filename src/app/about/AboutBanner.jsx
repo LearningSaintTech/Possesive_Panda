@@ -32,4 +32,5 @@ const AboutBanner = () => {
     </div>
   );
 };
+
 export default AboutBanner;
