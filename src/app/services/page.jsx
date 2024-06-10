@@ -5,15 +5,17 @@ import Banner from "../(Components)/Banner";
 
 const Services = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <Banner
         title={"Service Details"}
         desciption={"Professional IT Solution Insight and Updates"}
         page={"Services"}
       />
-      <div className="mt-[6.3rem] mx-[2.6vw] 2xl:mx-[5.2vw] flex gap-8">
+      <div className="mt-[5.208vw] pb-[2.5vw] mx-[2.6vw] 2xl:mx-[4.7vw] flex flex-col md:flex-row-reverse gap-[1.667vw] h-fit">
+        <div className="md:sticky top-[7vw] md:w-fit h-full">
+          <Filter />
+        </div>
         <Content />
-        <Filter />
       </div>
     </div>
   );

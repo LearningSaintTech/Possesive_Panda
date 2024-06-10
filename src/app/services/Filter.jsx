@@ -2,9 +2,9 @@ import React from "react";
 
 const Filter = () => {
   return (
-    <div className="w-[32vw]">
-      <div className="rounded-[0.63725rem] bg-gray-50 border border-black border-opacity-50 h-[14rem] pl-10 shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)]">
-        <h2 className="text-neutral-800 text-[1.667vw] font-semibold leading-[91.5%] tracking-[0.02rem] mt-[2.604vw] mb-[1.563vw]">
+    <div className="w-full md:w-[32vw]">
+      <div className="rounded-[0.63725rem] w-[50vw] md:w-auto mx-auto md:mx-0 bg-gray-50 border border-black border-opacity-50 h-[16vw] md:h-[11.458vw] pl-[2.083vw] shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)]">
+        <h2 className="text-neutral-800 text-[4vw] md:text-[1.25vw] font-semibold leading-[91.5%] tracking-[0.02rem] mt-[2.604vw] mb-[1.563vw]">
           Search Here
         </h2>
         <div className="flex items-center">
@@ -12,16 +12,16 @@ const Filter = () => {
             type="text"
             name="search"
             placeholder="Enter Keyword"
-            className="text-neutral-800 text-[1.25vw] w-9/12 font-normal leading-[normal] tracking-[0.015rem] py-[0.6vw] pl-[1.25vw] 2xl:pr-[1.042vw] border opacity-90 rounded-[0.3125rem] border-[rgba(0,0,0,0.50)]"
+            className="text-neutral-800 text-[2vw] md:text-[1vw] w-9/12 font-normal leading-[normal] tracking-[0.015rem] py-[0.6vw] pl-[1.25vw] 2xl:pr-[1.042vw] border opacity-90 rounded-[0.3125rem] border-[rgba(0,0,0,0.50)]"
           />
-          <button className="bg-sky-500 px-4 rounded-[0.3125rem] h-full py-[0.78vw]">
+          <button className="bg-sky-500 px-[0.833vw] rounded-[0.3125rem] h-full py-[1vw] md:py-[0.65vw]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="33"
               viewBox="0 0 30 33"
               fill="none"
-              className="size-[1.563vw]"
+              className="size-[2.5vw] md:size-[1.563vw]"
             >
               <path
                 fillRule="evenodd"
@@ -33,24 +33,24 @@ const Filter = () => {
           </button>
         </div>
       </div>
-      <div className="mt-12 rounded-[0.63725rem] bg-neutral-50 border-[rgba(0,0,0,0.50)] border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.54rem] ">
-        <h2 className="text-neutral-800 lg:text-[1.5rem] 2xl:text-[2rem] font-semibold leading-[91.6%] tracking-[0.02rem] mt-12 mb-7">
+      <div className="hidden md:static mt-[2.3vw] rounded-[0.63725rem] bg-neutral-50 border-[rgba(0,0,0,0.50)] border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] ">
+        <h2 className="text-neutral-800 text-[1.25vw] font-semibold leading-[91.6%] tracking-[0.02rem] mt-[2.5vw] mb-[1.5vw]">
           Categories
         </h2>
-        <div className="flex flex-col gap-[0.81rem] items-start">
-          <button className="bg-[#F8F9FA] text-neutral-800 lg:text-[1rem] 2xl:text-[1.5rem] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem] py-[1rem] text-start pl-7">
+        <div className="flex flex-col gap-[0.677vw] items-start">
+          <button className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem] py-[0.8vw] text-start pl-[1.458vw]">
             Business Consulting
           </button>
-          <button className="bg-[#F8F9FA] text-neutral-800 lg:text-[1rem] 2xl:text-[1.5rem] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem] py-[1rem] text-start pl-7">
+          <button className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem] py-[0.8vw] text-start pl-[1.458vw]">
             Strategy Growth
           </button>
-          <button className="bg-[#F8F9FA] text-neutral-800 lg:text-[1rem] 2xl:text-[1.5rem] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[1rem] text-start pl-7">
+          <button className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[0.8vw] text-start pl-[1.458vw]">
             Finance Solutions
           </button>
-          <button className="bg-[#F8F9FA] text-neutral-800 lg:text-[1rem] 2xl:text-[1.5rem] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[1rem] text-start pl-7">
+          <button className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[0.8vw] text-start pl-[1.458vw]">
             Text Management
           </button>
-          <button className="bg-[#F8F9FA] text-neutral-800 lg:text-[1rem] 2xl:text-[1.5rem] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[1rem] text-start pl-7 mb-12">
+          <button className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] w-11/12 border border-opacity-50 rounded-[0.3125rem]  py-[0.8vw] text-start pl-[1.458vw] mb-[2.5vw]">
             Investment
           </button>
         </div>
