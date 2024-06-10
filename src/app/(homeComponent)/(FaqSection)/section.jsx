@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Faq = () => {
-  console.log("sdafismkb",data);
   const [activeIndex, setActiveIndex] = useState(-1);
   useEffect(() => {
     AOS.init({
@@ -19,9 +18,9 @@ const Faq = () => {
     });
   }, []);
   return (
-    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[50px] lg:mt-[165px] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
+    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[30px] lg:mt-[8.594vw] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
       <div
-        className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[20px] lg:mb-[149px]"
+        className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[1.042vw] lg:mb-[7.76vw]"
         data-aos="zoom-out-right"
       >
         <h5 className="text-[#2A2A2A] text-[3.42vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
