@@ -33,8 +33,8 @@ const Contact = () => {
   };
   return (
     <div className="mx-[5.2vw] flex flex-col lg:flex-row justify-between">
-      <div className="w-full lg:w-[34.688vw] min-h-[75vh] md:min-h-[90vh] lg:min-h-[85vh] flex flex-col justify-between">
-        <h2 className="text-[8.2vw] lg:text-[3.333vw] font-bold leading-[normal]">
+      <div className="w-full lg:w-[34.688vw] gap-[2vw] lg:gap-[1.302vw] flex flex-col justify-between">
+        <h2 className="text-[8.2vw] lg:text-[3.333vw] font-semibold leading-[normal]">
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
         <p className="text-[4vw] lg:text-[1.042vw] font-medium leading-[146.642%] tracking-[0.013rem]">
@@ -82,7 +82,7 @@ const Contact = () => {
         </select>
         <button
           onClick={handleSubmit}
-          className="w-full py-[2vw] md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] leading-[normal]"
+          className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] leading-[normal]"
         >
           SEND
         </button>
@@ -102,10 +102,10 @@ const Contact = () => {
               />
             </svg>
             <div>
-              <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 PHONE
               </p>
-              <p className="text-[#00AFF1] text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 03 5432 1234
               </p>
             </div>
@@ -125,10 +125,10 @@ const Contact = () => {
               />
             </svg>
             <div>
-              <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 FAX
               </p>
-              <p className="text-[#00AFF1] text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 03 5432 1234
               </p>
             </div>
@@ -148,10 +148,10 @@ const Contact = () => {
               />
             </svg>
             <div>
-              <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 EMAIL
               </p>
-              <p className="text-[#00AFF1] text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                 hello@possesivepanda.com
               </p>
             </div>

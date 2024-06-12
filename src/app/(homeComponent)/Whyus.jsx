@@ -13,7 +13,7 @@ const WhyUs = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 400,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,

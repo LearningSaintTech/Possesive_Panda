@@ -14,7 +14,7 @@ const OurServices = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 400,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -85,13 +85,13 @@ const OurServices = () => {
         <Image
           src={panda}
           alt="panda"
-          className="hidden md:block h-auto w-auto"
+          className="hidden md:block size-[25.521vw]"
           data-aos="fade-left"
         />
       </div>
       <div
         ref={containerRef}
-        className="flex my-[50px] lg:my-[180px] flex-col md:flex-row justify-between items-center mx-[5.2vw]"
+        className="flex my-[3vw] lg:my-[8.375vw] flex-col md:flex-row justify-between items-center mx-[5.2vw]"
       >
         <div className="min-h-[40vh] md:min-h-[30vh] lg:min-h-[55vh] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative hover:shadow-2xl duration-300 mb-[50px] md:mb-0">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[12vw] md:text-[6.5vw] lg:text-[5.73vw] absolute top-[5vw] left-[8vw] md:top-0 md:left-[3.125vw]">

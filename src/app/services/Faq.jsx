@@ -28,7 +28,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
             viewBox="0 0 53 49"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="h-[28px] w-[28px] lg:w-[35px] lg:h-[35px] xl:w-[53px] xl:h-[49px]"
+            className="h-[28px] w-[28px] lg:w-[35px] lg:h-[35px] xl:w-[53px] xl:h-[49px] opacity-80"
           >
             <g id="system-uicons:plus">
               <path

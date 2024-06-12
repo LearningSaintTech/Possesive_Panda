@@ -35,13 +35,13 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between px-[3vw] xl:pl-[8.854vw] lg:pl-[5.2vw] lg:mr-[5.729vw] relative overflow-hidden max-h-[125vh] lg:max-h-[100vh]">
+    <div className="flex flex-col lg:flex-row lg:justify-between px-[3vw] xl:pl-[8.854vw] lg:pl-[5.2vw] lg:mr-[5.729vw] relative overflow-hidden max-h-[110vh] lg:max-h-[100vh]">
       <Image
         src={shadow}
         alt="shadow"
         className="bg-custom-gradient mix-blend-hard-light filter-blur-custom absolute -left-24 -top-3 -z-[1] overflow-visible"
       />
-      <div className="w-full lg:w-[35.469vw] mt-[20px] md:mt-[50px] lg:mt-[151px] min-h-[60vh] max-h-[100vh] flex flex-col justify-evenly">
+      <div className="w-full lg:w-[35.469vw] mt-[30px] md:mt-[50px] lg:mt-[7.865vw] flex flex-col gap-[4vw] lg:gap-[2.604vw]">
         <h1 className="text-zinc-800 text-[8.2vw] md:text-[6vw] lg:text-[3.333vw] font-semibold leading-[2.5rem] md:leading-[normal] md:tracking-[0.04rem] text-center lg:text-start">
           Boost Your Business With Powerful IT Technology.
         </h1>
@@ -132,7 +132,7 @@ const Banner = () => {
       <Image
         src={panda}
         alt="panda"
-        className="hidden lg:block absolute lg:-bottom-[65%] xl:-bottom-[55%] 2xl:-bottom-[45%] left-[15%] z-[-20] h-auto w-auto"
+        className="hidden lg:block absolute lg:-bottom-[68%] xl:-bottom-[58%] 2xl:-bottom-[50%] left-[15%] z-[-20] h-auto w-auto"
       />
     </div>
   );

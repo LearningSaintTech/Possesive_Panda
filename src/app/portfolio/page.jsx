@@ -1,12 +1,16 @@
 import React from "react";
-import PortfolioBanner from "./Banner";
 import Content from "./Content";
 import RelatedPortfolio from "./RelatedPortfolio";
+import Banner from "../(Components)/Banner";
 
 const portfolio = () => {
   return (
     <div>
-      <PortfolioBanner />
+      <Banner
+        title={"Portfolio Details"}
+        desciption={"Professional IT Solution Insight and Updates"}
+        page={"Portfolio"}
+      />
       <Content />
       <RelatedPortfolio />
     </div>
