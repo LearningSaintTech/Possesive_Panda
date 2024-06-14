@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import banner from "../../assets/portfolio/Banner.png";
 import client_1 from "../../assets/portfolio/client-1.png";
@@ -8,9 +9,18 @@ import client_4 from "../../assets/portfolio/client-4.png";
 import client_5 from "../../assets/portfolio/client-5.png";
 
 const Content = () => {
+  const imageRef = useRef(null);
+  const headingRef = useRef(null);
+  const [imageHeight, setImageHeight] = useState(0);
+  const [headingHeight, setHeadingHeight] = useState(0);
+  useEffect(() => {
+    if (imageRef.current) setImageHeight(imageRef.current.offsetHeight);
+    if (headingRef.current) setHeadingHeight(headingRef.current.offsetHeight);
+  }, [imageRef, headingRef]);
+  const height = imageHeight - headingHeight;
   return (
     <div className="mt-[20px] lg:mt-[50px] 2xl:mt-[100px] mx-[5.2vw] relative">
-      <Image src={banner} alt="banner" className="w-full" />
+      <Image ref={imageRef} src={banner} alt="banner" className="w-full" />
       <div className="flex flex-col gap-[2.5vw] md:gap-[1.2vw] lg:gap-[0.5vw] lg:w-[56%] mt-[20px] lg:mt-[56px]">
         <h6 className="text-sky-500 text-[4vw] md:text-[3vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem]">
           Our Portfolio
@@ -33,13 +43,24 @@ const Content = () => {
 
         <div className="relative border-[0.2px] lg:border-[0.5px] xl:border border-zinc-400 -bottom-[5vw]"></div>
       </div>
-      <div className="lg:absolute right-0 lg:-bottom-[1.05vw] xl:-bottom-[20vw] 2xl:-bottom-[5.45vw] w-[90%] lg:w-auto bg-neutral-50 rounded-[0.65rem] shadow-lg border 2xl:border-2 border-black border-opacity-50 mt-[40px] md:mt-[80px] lg:mt-0 mx-auto ">
-        <div className="border-b  border-black border-opacity-50">
+      <div
+        style={{
+          top: `${height}px`,
+        }}
+        className={`lg:absolute right-0 w-[90%] lg:w-auto bg-neutral-50 rounded-[0.65rem] shadow-lg border 2xl:border-2 border-black border-opacity-50 mt-[40px] md:mt-[80px] lg:mt-0 mx-auto`}
+      >
+        <div
+          ref={headingRef}
+          className="border-b  border-black border-opacity-50"
+        >
           <h2 className="text-neutral-800 text-[6vw] md:text-[4vw] lg:text-[1.5vw] font-medium leading-[normal] tracking-[0.0225rem] pt-[2vw] pb-[1.5vw] lg:pl-[2.865vw] lg:pr-[7.031vw] text-center">
             Project Information
           </h2>
         </div>
-        <div className="pl-[7.5vw] lg:pl-[2.865vw] pr-[7.031vw] flex flex-col gap-[4vw] lg:gap-[1.56vw] py-[4vw] lg:py-[1.56vw]">
+        <div
+          // ref={ref}
+          className="pl-[7.5vw] lg:pl-[2.865vw] pr-[7.031vw] flex flex-col gap-[4vw] lg:gap-[1.56vw] py-[4vw] lg:py-[1.56vw]"
+        >
           <div className="flex items-center">
             <Image
               src={client_1}

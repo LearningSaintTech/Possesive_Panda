@@ -15,7 +15,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
     <>
       <div
         onClick={() => handleSetIndex(index)}
-        className={`flex w-full justify-between p-2 mt-2 border-t border-solid border-black mx-auto cursor-pointer`}
+        className={`flex w-full h-full justify-between px-2 py-[2vw] lg:py-[1vw] 2xl:py-[1.667vw] mt-2 border-t border-solid border-black mx-auto cursor-pointer`}
       >
         <p className="text-black text-[4vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1.25vw] font-normal leading-[normal] tracking-[0.013vw] my-auto">
           {title}
@@ -28,7 +28,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
             viewBox="0 0 53 49"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="h-[28px] w-[28px] lg:w-[35px] lg:h-[35px] xl:w-[53px] xl:h-[49px]"
+            className="h-[28px] w-[28px] lg:w-[35px] lg:h-[35px] xl:w-[53px] xl:h-[49px] opacity-80"
           >
             <g id="system-uicons:plus">
               <path

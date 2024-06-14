@@ -42,7 +42,7 @@ const Technologies = () => {
   }, []);
 
   return (
-    <div className="my-[30px] lg:my-[100px] overflow-hidden">
+    <div className="my-[50px] lg:my-[5.208vw] overflow-hidden">
       <div className="flex flex-col md:flex-row justify-between items-center not-italic mx-[5.208vw]">
         <h1
           className="text-zinc-900 w-full text-center md:text-start md:w-[45vw] xl:w-[36.25vw] text-[9.5vw] sm:text-[8.1vw] md:text-[4.5vw] lg:text-[4vw] xl:text-[3.25vw] font-medium leading-[125%] tracking-[0.1rem] mb-[10px] lg:mb-0 "

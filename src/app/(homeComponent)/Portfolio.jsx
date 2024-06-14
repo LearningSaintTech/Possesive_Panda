@@ -8,7 +8,7 @@ import portfolio_4 from "../../assets/home/portfolio/Portfolio-4.png";
 const Portfolio = () => {
   return (
     <div className="py-[7vw] px-[5.2vw] lg:px-[7.5vw] bg-black text-white rounded-t-[2.083vw] relative">
-      <div className="lg:w-[32.292vw] flex flex-col justify-around min-h-[25vh] md:min-h-[30vh] lg:min-h-[60vh] lg:sticky lg:top-[200px] z-[1]">
+      <div className="lg:w-[32.292vw] flex flex-col justify-around min-h-[25vh] md:min-h-[30vh] lg:min-h-[60vh] lg:sticky lg:top-[10.417vw] z-[1]">
         <h5 className="text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem]">
           Our Portfolio
         </h5>
@@ -53,19 +53,19 @@ const Portfolio = () => {
         <Image
           src={portfolio_2}
           alt="portfolio-2"
-          className="size-[83vw] lg:h-auto lg:w-auto mt-[40px] lg:mt-0 mx-auto lg:mx-0"
+          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-auto mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
         />
       </div>
-      <div className="flex flex-col lg:flex-row justify-between lg:mt-[100px] relative z-[10]">
+      <div className="flex flex-col lg:flex-row justify-between lg:mt-[5.2vw] relative z-[10]">
         <Image
           src={portfolio_3}
           alt="portfolio-3"
-          className="size-[83vw] lg:h-auto lg:w-[40vw] mt-[40px] lg:mt-0 mx-auto lg:mx-0"
+          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-[40vw] mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
         />
         <Image
           src={portfolio_4}
           alt="portfolio-4"
-          className="size-[83vw] lg:h-auto lg:w-auto mt-[40px] lg:mt-0 mx-auto lg:mx-0"
+          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-auto mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
         />
       </div>
     </div>

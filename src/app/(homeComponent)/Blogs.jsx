@@ -48,7 +48,7 @@ const Blogs = () => {
             alt="blog-1"
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] my-[7px] lg:mt-[2.5rem] lg:mb-[1.35rem]">
+          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] lg:mt-[2.083vw] lg:mb-[1.042vw]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
@@ -64,7 +64,7 @@ const Blogs = () => {
             alt="blog-2"
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] my-[7px] lg:mt-[2.5rem] lg:mb-[1.35rem]">
+          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] lg:mt-[2.083vw] lg:mb-[1.042vw]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
@@ -81,7 +81,7 @@ const Blogs = () => {
             alt="blog-3"
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[28vw] h-[35vh] lg:h-[50vh]"
           />
-          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.013] my-[7px] lg:mt-[2.5rem] lg:mb-[1.35rem]">
+          <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] lg:mt-[2.083vw] lg:mb-[1.042vw]">
             Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
