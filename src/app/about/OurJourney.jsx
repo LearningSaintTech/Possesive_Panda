@@ -4,7 +4,7 @@ const OurJourney = () => {
   return (
     <div className="flex lg:flex-row flex-col justify-between mt-10 lg:mt-32 gap-8 lg:gap-16 mx-auto w-[90%] items-start ">
       <div className="lg:w-1/2 ">
-        <h2 className="text-sky-500 mb-6 md:text-xl text-lg lg:text-2xl font-medium ">
+        <h2 className="text-sky-500 mb-6  md:text-xl text-lg lg:text-2xl font-medium ">
           Our journey started
         </h2>
         <h1 className="lg:text-5xl md:text-4xl text-3xl font-medium leading-[62.40px] tracking-wide">

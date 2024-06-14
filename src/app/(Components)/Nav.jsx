@@ -4,6 +4,7 @@ import React from "react";
 import logo from "../../assets/nav/nav-logo.png";
 
 const Nav = () => {
+
   return (
     <nav className="w-full h-fit bg-[#FAFAFA] pl-[4.635vw] pr-[5.208vw] py-[1.1vw] shadow-lg fixed top-0 z-30">
       <div className="flex justify-between items-center">

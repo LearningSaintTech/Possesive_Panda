@@ -1,14 +1,34 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { blogPosts } from './data';
+// import { blogPosts } from './data';
 import BlogPost from '../blog/BlogPost';
 
 const MainPage = () => {
+
+  const [blogPosts, setBlogPosts] = useState([]);
   const [searchInput, setSearchInput] = useState('');
-  const [posts, setPosts] = useState(blogPosts);
+  const [posts, setPosts] = useState([]);
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedTags, setSelectedTags] = useState([]);
   const [hiddenSvg, setHiddenSvg] = useState({});
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://crm.learningsaint.com/api/getBlogs/2?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj');
+        const data = await response.json();
+        console.log("dxfcgvh",data);
+        setBlogPosts(data.blogs);
+        setPosts(data.blogs);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
+
+
 
   useEffect(() => {
     const filteredPosts = blogPosts.filter(post =>
@@ -47,7 +67,7 @@ const MainPage = () => {
     setSelectedTags([]);
     setSearchInput('');
     setPosts(blogPosts);
-    setHiddenSvg({}); // Reset hidden state
+    setHiddenSvg({}); 
   };
   // 
   return (
@@ -77,9 +97,9 @@ const MainPage = () => {
       </div>
       <div className=" md:w-2/3 lg:ml-[5.208vw] lg:mr-[0.5vw]  ">
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-x-[1vw] gap-y-[3.808vh]  max-[425px]:m-[5vw] md:gap-5">
-          {posts.map(post => (
-            <BlogPost key={post.id} post={post} />
-          ))}
+        {posts.map((post) => (
+          <BlogPost key={post.id} post={post} />
+        ))}
         </div>
       </div>
 
@@ -113,7 +133,7 @@ const MainPage = () => {
               
         <div className='bg-[#FAFAFA]   max-[425px]:m-[4.5vw] max-[320px]:ml-[4.5vw] max-[320px]:bg-red-300  max-[320px]:mr-[20px] max-[425px]:p-[4vw] pb-[3.16rem] sm:w-full  mb-12 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] rounded-[10.196px] border-solid border-[rgba(0,0,0,0.50)] pl-[2.116vw] pr-[2.656vw] md:w-[26.127vw]  lg:w-[26.127vw]' >
           <p className='text-gray-900 lg:text-[2rem] font-semibold mt-[4.655vh] mb-[2.778vh]  md:text-[1.5rem] '>Categories</p>
-          {Array.from(new Set(blogPosts.map(post => post.categories))).map(category => (
+          {Array.from(new Set(blogPosts.map(post => post.meta_title))).map(category => (
             <div key={category} className=" relative mb-[0.81rem]  border opacity-90  rounded-[0.3125rem] border-solid  border-[rgba(0,0,0,0.50)]">
               <div className='flex'>
                 <button
