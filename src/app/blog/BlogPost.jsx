@@ -1,20 +1,23 @@
 import Image from "next/image";
-
+const stripHtmlTags = (str) => {
+  return str.replace(/<\/?[^>]+(>|$)/g, "");
+};
 const BlogPost = ({ post }) => (
   <div className="flex flex-col lg:w-[28.463vw] md:w-[60vw]  sm:w-screen bg-white lg:ml-[0vw] md:ml-[6vw] mb-[] ">
     <Image
-      src={post.image}
+      src={`https://crm.learningsaint.com/images/blogs/${post.image}`}
       alt="shadow"
+      width={800} 
+      height={600}
       className="w-full h-auto max-w-full block mx-auto my-0 rounded-t-lg object-cover"
     />
     <div className="border-gray-500 border shadow-md rounded-lg border-t-0 rounded-t-[0]">
       <div className="p-4">
-        <p className="text-[#00AFF1] text-lg font-medium mt-4 mb-2">
-          {post.categories}
-        </p>
-        <h2 className="text-xl text-[#212121] font-bold mb-2">{post.title}</h2>
-        <p className="text-[#212121] text-base mb-4">
-          {post.content}
+        <p className="text-[#00AFF1] text-xl not-italic font-medium leading-[1.875rem] tracking-[0.0125rem] mb-[2.685vh] mt-[3.776vh] ">
+        {stripHtmlTags(post?.meta_title)}</p>
+        <h2 className="text-[#212121] text-2xl not-italic font-semibold leading-[normal] text-edge:cap tracking-[0.015rem] leading-trim:both mb-[4.259vh] ">{post.title}</h2>
+        <p className="text-[#212121] text-2xl not-italic font-normal leading-[normal] text-edge: cap tracking-[0.015rem] leading-trim:both mb-[4.815vh]">
+          {stripHtmlTags(post?.content)}
         </p>
       </div>
       <div className="flex justify-between border-t border-[#000000] mt-4 pt-2 pb-[1rem]" >
