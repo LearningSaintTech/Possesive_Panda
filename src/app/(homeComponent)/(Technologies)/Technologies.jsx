@@ -12,7 +12,7 @@ const Technologies = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 0,
+      delay: -200,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -42,8 +42,8 @@ const Technologies = () => {
   }, []);
 
   return (
-    <div className="my-[50px] lg:my-[5.208vw] overflow-hidden">
-      <div className="flex flex-col md:flex-row justify-between items-center not-italic mx-[5.208vw]">
+    <div className="my-[50px] lg:mt-[5.208vw] mb-[7vw] overflow-hidden">
+      <div className="flex flex-col md:flex-row justify-between items-center not-italic mx-[6.771vw]">
         <h1
           className="text-zinc-900 w-full text-center md:text-start md:w-[45vw] xl:w-[36.25vw] text-[9.5vw] sm:text-[8.1vw] md:text-[4.5vw] lg:text-[4vw] xl:text-[3.25vw] font-medium leading-[125%] tracking-[0.1rem] mb-[10px] lg:mb-0 "
           data-aos="fade-up-right"
@@ -51,7 +51,7 @@ const Technologies = () => {
           Technologies We Use to Offer
         </h1>
         <button
-          className="inline-flex self-start py-[15px] lg:py-[1vw] px-[3vw] lg:px-[1.563vw] mx-auto md:mx-0 w-fit bg-[#797777] rounded-[8px] h-fit text-white text-[4.375vw] sm:text-[3.5vw] md:text-[2vw] lg:text-[1.7vw] xl:text-[1.114vw] leading-[125%] tracking-[0.063vw] font-medium"
+          className="inline-flex self-start py-[15px] lg:py-[1vw] px-[3vw] lg:px-[1.563vw] mx-auto md:mx-0 md:my-auto w-fit bg-[#797777] rounded-[8px] h-fit text-white text-[4.375vw] sm:text-[3.5vw] md:text-[2vw] lg:text-[1.7vw] xl:text-[1.114vw] leading-[125%] tracking-[0.063vw] font-medium"
           data-aos="fade-up-left"
         >
           Partners with us Today

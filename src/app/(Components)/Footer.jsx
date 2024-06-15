@@ -6,17 +6,17 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="lg:ml-[5.2vw] mt-[50px] lg:mt-[10.417vw] relative">
+    <footer className="lg:ml-[6.771vw] mt-[50px] lg:mt-[6vw] relative">
       <div className=" w-fit flex flex-col lg:flex-row mx-auto lg:mx-0">
         <div className="w-full lg:w-[29vw] mx-auto lg:mx-0">
-          <h1 className="text-zinc-800 text-[9vw] font-medium leading-[125%] tracking-[0.167vw] lg:hidden text-center">
+          <h1 className="text-zinc-800 text-[9vw] font-medium leading-[125%] tracking-[0.2rem] lg:hidden text-center">
             Possessive Panda
           </h1>
-          <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.167vw] hidden lg:block">
+          <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] hidden lg:block">
             Possessive
           </h1>
           <div className="flex">
-            <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.167vw] lg:mr-[0.417vw] lg:mb-[84px] hidden lg:block">
+            <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] lg:mr-[0.417vw] lg:mb-[2.5vw] hidden lg:block">
               Panda
             </h1>
             <button className="h-fit hidden lg:block">
@@ -28,10 +28,10 @@ const Footer = () => {
             </button>
           </div>
 
-          <h5 className="text-zinc-900 text-[6vw] lg:text-[1.25vw] font-medium leading-[125%] tracking-[0.076rem] mt-[30px] lg:mt-0 lg:mb-[20px] text-center lg:text-start">
+          <h5 className="text-zinc-900 text-[6vw] lg:text-[1.25vw] font-medium leading-[125%] tracking-[0.075rem] mt-[30px] lg:mt-0 lg:mb-[1vw] text-center lg:text-start">
             Get In Touch With Us
           </h5>
-          <div className="flex bg-[#FAFAFA] border rounded-[1.5vw] lg:rounded-[0.26vw] w-8/12 lg:w-fit px-[1vw] lg:px-[1vw] items-center lg:mb-[53px] mx-auto lg:mx-0 my-[30px] lg:my-0">
+          <div className="flex bg-[#FAFAFA] border rounded-[1.5vw] lg:rounded-[0.26vw] w-8/12 lg:w-fit px-[1vw] lg:px-[1vw] items-center lg:mb-[2.5vw] mx-auto lg:mx-0 my-[30px] lg:my-0">
             <input
               type="text"
               placeholder="Enter Your Email"
@@ -58,7 +58,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-7 lg:ml-0">
-            <div className="flex mb-[30px]">
+            <div className="flex mb-[1.2vw]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -151,7 +151,7 @@ const Footer = () => {
               </h4>
             </div>
           </div>
-          <div className="flex mt-[15px] lg:mt-[33px] w-[45vw] lg:w-[13.021vw] ml-9 lg:ml-0 justify-between">
+          <div className="flex mt-[15px] lg:mt-[33px] w-[45vw]  ml-9 lg:ml-0 gap-[2vw]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -228,12 +228,12 @@ const Footer = () => {
       <Image
         src={panda}
         alt="panda"
-        className="absolute bottom-2 lg:bottom-0 right-0 lg:right-[1.5vw] opacity-[0.67] z-10 lg:opacity-100 w-[44.615vw] h-[49.744vw] lg:w-[20.438vw] lg:h-[23.042vw]"
+        className="absolute bottom-2 lg:bottom-0 right-0 lg:right-[1.5vw] opacity-[0.67] z-10 lg:opacity-100 w-[44.615vw] h-[49.744vw] lg:w-[21vw] lg:h-[25vw]"
       />
       <Image
         src={grey}
         alt="grey"
-        className="absolute bottom-0 right-0 z-[-1] hidden lg:block h-[20vw] w-[35vw]"
+        className="absolute bottom-0 right-0 z-[-1] hidden lg:block h-[22vw] w-[37vw]"
       />
     </footer>
   );

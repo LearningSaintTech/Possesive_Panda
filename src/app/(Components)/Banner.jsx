@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Banner = ({ title, desciption, page }) => {
   return (
-    <div className="flex justify-between relative mt-[20px] md:mt-[50px] 2xl:mt-[136px] min-h-[20vh]">
+    <div className="flex justify-between relative mt-[50px] 2xl:mt-[136px] min-h-[20vh]">
       <Image src={Hand} alt="Hand" className="w-screen h-auto" />
       <div className="absolute top-[10vw] sm:top-[8vw] md:top-[6.5vw] lg:top-[10vw] 2xl:top-[11vw] left-[8vw] lg:left-[10.4vw]">
         <h1 className="leading-[130%] text-[3.5vw] sm:text-[3vw] lg:text-[2.5vw] font-semibold tracking-[0.03rem] text-white">

@@ -7,8 +7,8 @@ import portfolio_4 from "../../assets/home/portfolio/Portfolio-4.png";
 
 const Portfolio = () => {
   return (
-    <div className="py-[7vw] px-[5.2vw] lg:px-[7.5vw] bg-black text-white rounded-t-[2.083vw] relative">
-      <div className="lg:w-[32.292vw] flex flex-col justify-around min-h-[25vh] md:min-h-[30vh] lg:min-h-[60vh] lg:sticky lg:top-[10.417vw] z-[1]">
+    <div className="py-[7vw] px-[5.2vw] lg:px-[6.771vw] bg-[#161616] text-white rounded-t-[2.083vw] relative">
+      <div className="lg:w-[32.292vw] flex flex-col justify-around gap-[1.5vw] lg:sticky lg:top-[10.417vw] z-[1]">
         <h5 className="text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem]">
           Our Portfolio
         </h5>
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </p>
 
         <button className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw]">
-          Lets Start
+          All Works
           <svg
             width="19"
             height="15"

@@ -18,7 +18,7 @@ const Faq = () => {
     });
   }, []);
   return (
-    <div className="mx-[5.2vw] lg:mx-[5.208vw] mt-[30px] lg:mt-[8.594vw] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
+    <div className="mx-[5.2vw] lg:mx-[6.771vw] mt-[30px] lg:mt-[8.594vw] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
       <div
         className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[1.042vw] lg:mb-[7.76vw]"
         data-aos="zoom-out-right"

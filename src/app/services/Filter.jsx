@@ -33,7 +33,7 @@ const Filter = () => {
           </button>
         </div>
       </div>
-      <div className="hidden md:static mt-[2.3vw] rounded-[0.63725rem] bg-neutral-50 border-[rgba(0,0,0,0.50)] border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] ">
+      <div className="hidden md:block mt-[2.3vw] rounded-[0.63725rem] bg-neutral-50 border-[rgba(0,0,0,0.50)] border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] ">
         <h2 className="text-neutral-800 text-[1.25vw] font-semibold leading-[91.6%] tracking-[0.02rem] mt-[2.5vw] mb-[1.5vw]">
           Categories
         </h2>
