@@ -4,10 +4,14 @@ import data from "./Data";
 import AccordionItems from "./AccordionItems";
 
 const Accordion = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0); // Initially open the first item
 
-  const handleItemClick = (index) => {
-    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  const handleMouseEnter = (index) => {
+    setActiveIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveIndex(null); // Optionally close all items on mouse leave, or keep the hovered one open
   };
 
   return (
@@ -18,8 +22,10 @@ const Accordion = () => {
           question={item.question}
           answer={item.answer}
           image={item.image}
+          index={index}
           isOpen={activeIndex === index}
-          onClick={() => handleItemClick(index)}
+          onMouseEnter={() => handleMouseEnter(index)}
+          onMouseLeave={handleMouseLeave}
         />
       ))}
     </div>
