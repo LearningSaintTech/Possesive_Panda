@@ -14,8 +14,43 @@ module.exports = {
         scrollReverse: "scrollReverse 15s linear infinite",
         moveUp: "moveUp 15s linear infinite",
         moveDown: "moveDown 15s linear infinite",
+        "spin-slow": "spin 12s linear infinite",
+        swipeOut: "swipeOut 500ms ease-in-out forwards",
+        swipeIn: "swipeIn 500ms ease-in-out forwards",
+        swipeInFromLeft: "swipeInFromLeft 500ms ease-in-out forwards",
+        swipeInFromRight: "swipeIn 500ms ease-in-out forwards",
       },
       keyframes: {
+        swipeOut: {
+          from: {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+          to: {
+            transform: "translateX(-100%)",
+            opacity: "0",
+          },
+        },
+        swipeIn: {
+          from: {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+        },
+        swipeInFromLeft: {
+          from: {
+            transform: "translateX(-100%)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+        },
         moveUp: {
           from: { transform: "translateY(0%)" },
           to: { transform: "translateY(-100%)" },
@@ -65,6 +100,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("tailwind-scrollbar"),
     function ({ addUtilities }) {
       const newUtilities = {
         ".mix-blend-hard-light": {

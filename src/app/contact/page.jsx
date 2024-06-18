@@ -1,18 +1,21 @@
-import React from 'react'
-import ContactBanner from './ContactBanner';
-import Journey from './Journey';
-import Contact from './Contact';
-import Joinpanda from './Joinpanda'
+import React from "react";
+import Journey from "./Journey";
+import Joinpanda from "./Joinpanda";
+import Banner from "../(Components)/Banner";
+import Contact from "../(Components)/Contact";
 
- const page = () => {
+const page = () => {
   return (
-<div>
-    <ContactBanner/>
-    <Journey/>
-    <Joinpanda/>
-    <Contact/>
-
-</div>
-)
-}
+    <div>
+      <Banner
+        title={"Contact Us"}
+        desciption={"Professional IT Solution Insights and Updates"}
+        page={"Contact Us"}
+      />
+      <Journey />
+      <Joinpanda />
+      <Contact />
+    </div>
+  );
+};
 export default page;

@@ -14,7 +14,7 @@ const OurServices = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 400,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -64,16 +64,16 @@ const OurServices = () => {
   }, [premium, visible]);
 
   return (
-    <div className="mt-[50px] lg:mt-[100px]">
-      <div className="flex justify-between relative mx-[8.854vw]">
+    <div className="mt-[7.5vw]">
+      <div className="flex justify-between relative mx-[6.771vw]">
         <div
-          className="flex flex-col justify-between w-full md:w-[44.271vw] min-h-[25vh] lg:max-h-[20vh]"
+          className="flex flex-col justify-between w-full md:w-[44.271vw] gap-[1vw] h-fit"
           data-aos="fade-right"
         >
           <p className="text-zinc-900 font-normal tracking-[0.015rem] text-[3.42vw] md:text-[2.5vw] lg:text-[1.25vw]">
             Our Services
           </p>
-          <h1 className="text-zinc-900 text-[5.5vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium capitalize lg:leading-[6rem] tracking-[0.04rem] w-[40vw]">
+          <h1 className="text-zinc-900 text-[5.5vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.04rem] w-[40vw]">
             Check Our Top Services
           </h1>
           <p className="text-zinc-900 text-[3.42vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem]">
@@ -85,15 +85,15 @@ const OurServices = () => {
         <Image
           src={panda}
           alt="panda"
-          className="hidden md:block h-auto w-auto"
+          className="hidden md:block size-[25.521vw] relative -top-[4.4vw] h-fit"
           data-aos="fade-left"
         />
       </div>
       <div
         ref={containerRef}
-        className="flex my-[50px] lg:my-[180px] flex-col md:flex-row justify-between items-center mx-[5.2vw]"
+        className="flex mb-[3vw] flex-col md:flex-row justify-between items-center mx-[6.771vw]"
       >
-        <div className="min-h-[40vh] md:min-h-[30vh] lg:min-h-[55vh] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative hover:shadow-2xl duration-300 mb-[50px] md:mb-0">
+        <div className="min-h-[40vh] md:min-h-[30vh] lg:h-[25.495vw] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F6FFE7] relative hover:shadow-lg duration-300 mb-[50px] md:mb-0">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[12vw] md:text-[6.5vw] lg:text-[5.73vw] absolute top-[5vw] left-[8vw] md:top-0 md:left-[3.125vw]">
             {normal}+
           </span>
@@ -101,7 +101,7 @@ const OurServices = () => {
             Normal Services
           </p>
         </div>
-        <div className="min-h-[40vh] md:min-h-[30vh] lg:min-h-[55vh] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F3F2FF] relative hover:shadow-2xl duration-300">
+        <div className="min-h-[40vh] md:min-h-[30vh] lg:h-[25.495vw] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F3F2FF] relative hover:shadow-lg duration-300">
           <span className="text-[#1A1A1A] font-medium tracking-[0.064rem] text-[12vw] md:text-[6.5vw] lg:text-[5.73vw] absolute top-[5vw] left-[8vw] md:top-0 md:left-[3.125vw]">
             {premium}+
           </span>

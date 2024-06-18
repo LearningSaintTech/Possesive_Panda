@@ -1,5 +1,4 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 import data from "./Data";
 import AccordionItems from "./AccordionItems";
 
@@ -15,7 +14,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className='bg-[#FAFAFA] flex flex-col mt-10 lg:mt-32 w-full py-14'>
+    <div className="bg-[#FAFAFA] flex flex-col mt-10 lg:mt-32 w-full py-14">
       {data?.map((item, index) => (
         <AccordionItems
           key={index}

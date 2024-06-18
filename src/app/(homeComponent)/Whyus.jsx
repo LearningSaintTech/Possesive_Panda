@@ -13,7 +13,7 @@ const WhyUs = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      delay: 400,
+      delay: 0,
       disable: "mobile",
       once: true,
       mirror: true,
@@ -21,18 +21,15 @@ const WhyUs = () => {
     });
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[8.854vw] lg:pr-[3.177vw] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
-      <div
-        className="lg:w-[38.75vw] mt-[50px] lg:mt-[200px]"
-        data-aos="fade-down-right"
-      >
-        <h6 className="text-[#fff] text-[3.42vw] lg:text-[1.25vw] font-normal tracking-[0.013vw] mb-[9.35px] lg:mb-[50px]">
+    <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[6.771vw] lg:pr-[6.771vw] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
+      <div className="lg:w-[38.75vw] mt-[10vw]" data-aos="fade-down-right">
+        <h6 className="text-[#fff] text-[3.42vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] mb-[2vw]">
           Why Us
         </h6>
-        <h2 className="text-[#fff] font-medium text-[6.972vw] lg:text-[3.333vw] leading-[125%] tracking-[0.033vw] mb-[19.21px] lg:mb-[50px]">
-          Why Have you Been Colaborating With Us?
+        <h2 className="text-[#fff] font-medium text-[6.972vw] lg:text-[3.333vw] leading-[125%] tracking-[0.04rem] mb-[2vw]">
+          Why Have you Been Colaborating With Us
         </h2>
-        <p className="font-normal text-[#fff] text-[2.629vw] lg:text-[1.25vw] leading-[150%] tracking-[0.013vw]">
+        <p className="font-normal text-[#fff] text-[2.629vw] lg:text-[1.25vw] leading-[150%] tracking-[0.015rem]">
           We give you the same centralized database, user permissions,
           automation, version and access control that you can find in any modern
           FP&A software. But we're different in many ways. Ways that matter.
