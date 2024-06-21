@@ -33,7 +33,7 @@ const Contact = () => {
     setForm(initialForm);
   };
   return (
-    <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between">
+    <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between mb-[5.5vw]">
       <div className="w-full lg:w-[34.688vw] gap-[2vw]">
         <h2 className="text-[8.2vw] lg:text-[3.333vw] font-semibold leading-[normal]">
           Get in <span className="text-[#00AFF1]">Touch</span>

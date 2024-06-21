@@ -13,11 +13,11 @@ const Portfolio = () => {
           Our Portfolio
         </h5>
         <h2 className="text-[5vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-[0.04rem]">
-          Featured Works
+          Notable Achievements
         </h2>
         <p className="text-[#F9F9F9] font-normal text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem] w-[52vw] lg:w-fit">
-          Dive into a world where design meets strategy, only at Possessive
-          Panda. Our creative designing services are more than just aesthetics.
+          Explore our world of standout projects that Possesive Panda
+          accomplished and delivered exceptionally across various industries.
         </p>
 
         <button className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw]">

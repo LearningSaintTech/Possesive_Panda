@@ -19,7 +19,7 @@ const Blogs = () => {
     });
   }, []);
   return (
-    <div className="mt-[5.5vw]">
+    <div className="">
       <div
         className="lg:w-[31.719vw] h-fit  mx-[6.771vw] flex flex-col gap-[1.8vw]"
         data-aos="fade-up-right"
@@ -28,19 +28,19 @@ const Blogs = () => {
           Our Blogs
         </p>
         <h1 className="text-zinc-900 text-[10vw] md:w-[90%] lg:w-full md:text-[7.5vw] lg:text-[3.333vw] font-medium leading-[normal] tracking-[0.04rem]">
-          Dive Into Our Creative Musings
+          Our Knowledge Hub
         </h1>
         <p className="text-zinc-900 text-[3.42vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem]">
-          A curated collection of thoughts, ideas, and inspirations. Join us in
-          this exploration, where every word is crafted with passion.
+          Get access to our collection of the latest information from our blogs.
+          Explore the latest technological updates and services here!
         </p>
-        <button className="w-full lg:w-fit text-[4vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-zinc-900 tracking-[0.015rem] px-[3vw] py-[2.5vw] md:py-[1vw]">
+        <button className="w-full lg:w-fit text-[4vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-zinc-900 tracking-[0.015rem] px-[3vw] py-[2.5vw] md:py-[1vw] hover:text-white hover:bg-[#212121] duration-500 hover:duration-500 hover:shadow-md">
           ALL BLOG
         </button>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-[6.771vw] mt-[5.2vw]">
         <div
-          className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0"
+          className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
           data-aos="zoom-in-down"
         >
           <Image
@@ -56,7 +56,7 @@ const Blogs = () => {
           </small>
         </div>
         <div
-          className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0"
+          className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
           data-aos="zoom-in-down"
         >
           <Image
@@ -72,7 +72,10 @@ const Blogs = () => {
           </small>
         </div>
 
-        <div className="lg:w-[27vw] justify-self-end" data-aos="zoom-in-down">
+        <div
+          className="lg:w-[27vw] justify-self-end hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
+          data-aos="zoom-in-down"
+        >
           <Image
             src={blog_3}
             alt="blog-3"

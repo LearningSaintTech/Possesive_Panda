@@ -27,13 +27,13 @@ const WhyUs = () => {
           Why Us
         </h6>
         <h2 className="text-[#fff] font-medium text-[6.972vw] lg:text-[3.333vw] leading-[125%] tracking-[0.04rem] mb-[2vw]">
-          Why Have you Been Colaborating With Us
+          Why collaborate with us?
         </h2>
         <p className="font-normal text-[#fff] text-[2.629vw] lg:text-[1.25vw] leading-[150%] tracking-[0.015rem]">
-          We give you the same centralized database, user permissions,
-          automation, version and access control that you can find in any modern
-          FP&A software. But we're different in many ways. Ways that matter.
-          That make our customers the most satisfied in the business.
+          Your one-stop IT service provider is here. Collaborate with us to get
+          the best IT services and solutions according to your requirements and
+          state-of-the-art technology. Give your business wings to soar high
+          with the top-notch technologies.
         </p>
       </div>
       <div className="lg:ml-[7.552vw]">
@@ -47,7 +47,7 @@ const WhyUs = () => {
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
           <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
-            Plan With Confidence
+            Proven Track Record
           </h6>
         </div>
         <div
@@ -60,7 +60,7 @@ const WhyUs = () => {
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
           <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
-            Self- Serve Modelling
+            Industry Expertise
           </h6>
         </div>
         <div
@@ -73,7 +73,7 @@ const WhyUs = () => {
             className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
           />
           <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
-            On- Demand Reporting
+            Client-centric approach
           </h6>
         </div>
       </div>

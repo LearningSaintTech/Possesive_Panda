@@ -74,12 +74,12 @@ const OurServices = () => {
             Our Services
           </p>
           <h1 className="text-zinc-900 text-[5.5vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.04rem] w-[40vw]">
-            Check Our Top Services
+            Our Top IT Services
           </h1>
           <p className="text-zinc-900 text-[3.42vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem]">
-            "Empowering businesses with cutting-edge IT solutions: software
-            development, cloud services, cybersecurity, IT consulting, and
-            managed services for optimal performance."
+            "Discover the extensive world of highly demanding IT Services that
+            involve cutting-edge technologies and creativity to meet your IT
+            needs. "
           </p>
         </div>
         <Image
@@ -98,7 +98,7 @@ const OurServices = () => {
             {normal}+
           </span>
           <p className="text-[#1A1A1A] font-normal tracking-[0.34rem] leading-[107%] text-[6vw] md:text-[3.8vw] lg:text-[2.917vw] absolute bottom-[7vw] right-[30vw] md:bottom-[3vw] md:right-[12vw] lg:bottom-[1.9vw] lg:right-[5.148vw] w-[12.292vw]">
-            Normal Services
+            Standard Services
           </p>
         </div>
         <div className="min-h-[40vh] md:min-h-[30vh] lg:h-[25.495vw] w-full md:w-[43vw] lg:w-[40.573vw] rounded-3xl border border-solid border-[#C7C7C7] bg-[#F3F2FF] relative hover:shadow-lg duration-300">

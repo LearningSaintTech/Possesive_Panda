@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../../assets/nav/nav-logo.png";
 import Dropdown from "./Dropdown";
 import { usePathname } from "next/navigation";
@@ -11,6 +11,18 @@ const Nav = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const pathname = usePathname();
   const [showSidebar, setShowSidebar] = useState(false);
+
+  useEffect(() => {
+    if (showSidebar) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [showSidebar]);
 
   const links = [
     { href: "/", label: "Home" },
@@ -55,7 +67,12 @@ const Nav = () => {
               strokeLinejoin="round"
             />
           </svg>
-          {showSidebar && <PhoneNav />}
+          {showSidebar && (
+            <PhoneNav
+              setShowSidebar={setShowSidebar}
+              activeLabel={activeLabel}
+            />
+          )}
         </div>
         <div className="text-[1.25vw] font-normal lg:flex gap-[3.49vw] py-auto items-center hidden">
           <Link

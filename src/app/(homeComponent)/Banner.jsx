@@ -43,14 +43,14 @@ const Banner = () => {
       />
       <div className="w-full lg:w-[35.469vw] mt-[20vw] lg:mt-[11.5vw] flex flex-col gap-[4vw] lg:gap-[1.75vw]">
         <h1 className="text-zinc-800 text-[8.2vw] md:text-[6vw] lg:text-[3.333vw] font-semibold leading-[normal] md:leading-[normal] md:tracking-[0.04rem] text-center lg:text-start">
-          Boost Your Business With Powerful IT Technology.
+          Maximize business potential with advanced IT technology
         </h1>
         <p className="text-zinc-800 text-[4vw] lg:text-[1.25vw] font-normal leading-[150%] tracking-[0.015rem] lg:w-[28.281vw] text-center lg:text-start">
-          In accordance with your company's needs, Maxtra Technologies offers
-          tailored app and web development solutions.
+          Satisfy all of your IT requirements with our advancing IT service
+          solutions.
         </p>
 
-        <button className="bg-stone-900 text-[4vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-fit mx-auto lg:mx-0">
+        <button className="bg-stone-900 text-[4vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0">
           Why Us
           <svg
             width="19"

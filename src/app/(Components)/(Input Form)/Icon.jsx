@@ -10,7 +10,7 @@ const Icon = () => {
 
   return (
     <div>
-      <div className="fixed bottom-7 right-5 z-40 hover:opacity-80">
+      <div className="fixed bottom-7 right-5 z-40 hover:opacity-80 hidden lg:block">
         <button className="relative size-[7.5vw]" onClick={() => setOpen(true)}>
           <Image
             src={circle}

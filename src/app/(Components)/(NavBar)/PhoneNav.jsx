@@ -1,31 +1,116 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { IoClose } from "react-icons/io5";
+import { FaCaretDown } from "react-icons/fa";
+import { premiumServicesData, serviceContent } from "./data";
+import PremiumServices from "./PremiumServices";
+import SubServices from "./SubServices";
 
-const PhoneNav = () => {
+const PhoneNav = ({ setShowSidebar, activeLabel }) => {
+  const sidebarRef = useRef(null);
+  const [showServices, setShowServices] = useState(false);
+  const [showNormalServices, setShowNormalServices] = useState(false);
+  const [showPremiumServices, setShowPremiumServices] = useState(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        setShowSidebar(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [setShowSidebar]);
   return (
-    <div className="z-[999] fixed h-screen w-[90vw] p-3 bg-white">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="46"
-        height="46"
-        viewBox="0 0 46 46"
-        fill="none"
-      >
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M35.4534 12.5104C35.614 12.3499 35.7415 12.1594 35.8285 11.9498C35.9155 11.7401 35.9603 11.5153 35.9605 11.2883C35.9606 11.0612 35.916 10.8364 35.8293 10.6266C35.7425 10.4168 35.6153 10.2262 35.4549 10.0655C35.2945 9.9049 35.104 9.77744 34.8943 9.69044C34.6846 9.60343 34.4598 9.55858 34.2328 9.55844C34.0058 9.5583 33.7809 9.60287 33.5711 9.68962C33.3613 9.77637 33.1707 9.9036 33.01 10.064L22.5845 20.4896L12.162 10.064C11.8376 9.73962 11.3976 9.55737 10.9388 9.55737C10.48 9.55737 10.04 9.73962 9.71564 10.064C9.39123 10.3884 9.20898 10.8284 9.20898 11.2872C9.20898 11.746 9.39123 12.186 9.71564 12.5104L20.1412 22.9329L9.71564 33.3554C9.55501 33.5161 9.42759 33.7067 9.34066 33.9166C9.25373 34.1265 9.20898 34.3514 9.20898 34.5786C9.20898 34.8058 9.25373 35.0307 9.34066 35.2406C9.42759 35.4504 9.55501 35.6411 9.71564 35.8018C10.04 36.1262 10.48 36.3084 10.9388 36.3084C11.166 36.3084 11.3909 36.2637 11.6008 36.1767C11.8107 36.0898 12.0014 35.9624 12.162 35.8018L22.5845 25.3762L33.01 35.8018C33.3344 36.1258 33.7743 36.3076 34.2328 36.3074C34.6913 36.3071 35.1309 36.1247 35.4549 35.8003C35.7789 35.4759 35.9608 35.036 35.9605 34.5775C35.9602 34.119 35.7778 33.6794 35.4534 33.3554L25.0279 22.9329L35.4534 12.5104Z"
-          fill="#2A2A2A"
-        />
-      </svg>
-      <ul>
-        <Link href="/">Home</Link>
-        <Link href="/about">About Us</Link>
-        <Link href="">Services</Link>
-        <Link href="/portfolio">Portfolio</Link>
-        <Link href="/insights">Insights</Link>
-        <Link href="/blog">Blogs</Link>
-      </ul>
+    <div
+      className="z-[999] h-screen absolute w-[90vw] py-3 bg-white left-[22vw] pr-1 top-0 overflow-auto"
+      ref={sidebarRef}
+    >
+      <IoClose
+        className="mt-[5vw] ml-[3vw] size-[10vw]"
+        onClick={() => setShowSidebar(false)}
+      />
+
+      <div className="mt-20 ">
+        <Link
+          href="/"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "Home" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          Home
+        </Link>
+        <Link
+          href="/about"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "About Us" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          About Us
+        </Link>
+        <button
+          className="font-normal p-4 border-b border-gray-200 flex items-center pr-8 w-[75vw] justify-between"
+          onClick={() => setShowServices(!showServices)}
+        >
+          <p>Services</p>
+          <FaCaretDown className="size-[5vw] sm:size-[3.5vw] opacity-50" />
+        </button>
+        {showServices && (
+          <div className="">
+            <button
+              className="flex font-normal bg-[#ededed] py-4 pl-6 border-b border-gray-200 w-[75vw] text-start justify-between pr-8 items-center"
+              onClick={() => setShowNormalServices(!showNormalServices)}
+            >
+              <p className="">Normal Services</p>
+              <FaCaretDown className="size-[5vw] opacity-50" />
+            </button>
+            {showNormalServices &&
+              serviceContent["Services"].map((service, key) => (
+                <SubServices name={service} key={key} />
+              ))}
+            <button
+              className="font-normal bg-[#ededed] py-4 pl-6 flex border-b border-gray-200 w-[75vw] text-start justify-between pr-8 items-center"
+              onClick={() => setShowPremiumServices(!showPremiumServices)}
+            >
+              <p>Premium Services</p>
+              <FaCaretDown className="size-[5vw] opacity-50" />
+            </button>
+            {showPremiumServices &&
+              premiumServicesData.map((service, key) => (
+                <PremiumServices name={service} key={key} />
+              ))}
+          </div>
+        )}
+        <Link
+          href="/portfolio"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "Portfolio" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          Portfolio
+        </Link>
+        <Link
+          href="/insights"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "Insights" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          Insights
+        </Link>
+        <Link
+          href="/blog"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "Blogs" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          Blogs
+        </Link>
+      </div>
     </div>
   );
 };

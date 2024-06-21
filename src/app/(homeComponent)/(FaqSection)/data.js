@@ -1,35 +1,33 @@
 const data = [
   {
     key: 1,
-    title: "What makes your NEET course different from others?",
-    data: "Our NEET course stands out because it's tailored to your needs. We offer personalized learning pathways, interactive study materials, and dedicated support to ensure you succeed.",
+    title: "What technologies are used in web development?",
+    data: "HTML, CSS, JavaScript, PHP, React, and Angular are some technologies used in web development. We use many more to deliver services based on clients’ needs.",
   },
   {
     key: 2,
-    title: "How do you ensure students stay motivated throughout the course?",
-    data: "We understand that staying motivated is key to success. That's why we provide regular progress tracking, encouragement from mentors, and engaging learning activities to keep you inspired every step of the way.",
+    title: "Does Possesive Panda provide services for startups?",
+    data: "Absolutely, yes. We have Startup Bundle Services for aspiring entrepreneurs and startup businesses, through which they can achieve great heights.",
   },
   {
     key: 3,
-    title: "Can I access course materials on my mobile device?",
-    data: "Absolutely! Our course materials are designed to be accessible anytime, anywhere, on any device. Whether you're at home, on the go, or in between classes, you can study at your own pace.",
+    title: "How can your IT services benefit our business?",
+    data: "Our IT services can help improve your business operations, efficacy, and satisfaction of customers. We also help maintain security and effectively achieve digital goals.",
   },
   {
     key: 4,
-    title:
-      "What kind of support do you offer to help students with doubts and difficulties?",
-    data: "We offer multiple avenues for support, including live Q&A sessions, dedicated forums, and one-on-one mentoring. Our team of experienced educators is always available to answer your questions and provide guidance.",
+    title: " Is there any Customer support available here?",
+    data: "Yes, our customers are our priority. Our customer support is always available to handle customer queries and provide timely phone, email, and chat assistance.",
   },
   {
     key: 5,
-    title:
-      "How do you ensure your course prepares students effectively for the JEE/NEET exams?",
-    data: "Our course is designed by experts with extensive experience in JEE/NEET exam preparation. We cover all the necessary topics, provide ample practice materials, and offer regular mock tests to help you gauge your progress and readiness for the exams.",
+    title: "What services does Possesive Panda offer?",
+    data: "Possessive Panda offers multiple IT services, such as software development, app development, cloud services, web development, and digital marketing. We also provide a range of services to suit your business needs.",
   },
   {
     key: 6,
-    title: "Why are previous year question papers important?",
-    data: "Previous year question papers help understand the exam pattern and practice effectively.",
+    title: "How do you guarantee the security of my business data?",
+    data: "The security of your business data is our responsibility. We implement standard cybersecurity measures, such as encryption, firewalls, intrusion detection systems, and regular security audits in accordance with data protection regulations.",
   },
 ];
 
