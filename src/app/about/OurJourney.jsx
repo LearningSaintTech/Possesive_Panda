@@ -7,13 +7,13 @@ const OurJourney = () => {
         <h2 className="text-sky-500 mb-6  md:text-xl text-lg lg:text-2xl font-medium ">
           Our journey started
         </h2>
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-medium leading-[62.40px] tracking-wide">
+        <h1 className="lg:text-5xl md:text-4xl text-3xl lg:!leading-[62.4px] ">
           Possessive Panda journey was inspired by a passion for Panda
           possessiveness to work
         </h1>
       </div>
       <div className="lg:w-1/2">
-        <p className="lg:text-2xl  md:text-xl text-lg font-normal lg:mt-14 text-zinc-900 leading-[38.40px] tracking-tight">
+        <p className="lg:text-2xl  md:text-xl text-lg lg:!leading-[36px] font-normal lg:mt-14">
           Possessive Panda is a global powerhouse, renowned for its innovation
           and expertise. Our diverse team, from around the world, brings varied
           knowledge and perspectives. This cultural richness fuels our
@@ -21,7 +21,7 @@ const OurJourney = () => {
           excellence keeps us at the forefront, meeting clients' evolving needs
           globally.
         </p>
-        <button className="flex gap-2 md:text-xl text-lg lg:text-2xl mt-9 justify-center items-center border rounded-full lg:py-3 py-2 px-6 lg:px-8 text-zinc-900" >
+        <button className="flex gap-2 md:text-xl text-lg lg:text-2xl mt-9 justify-center items-center border rounded-full lg:py-3 py-2 px-6 lg:px-8" >
           Read More
           <svg
             width="19"
