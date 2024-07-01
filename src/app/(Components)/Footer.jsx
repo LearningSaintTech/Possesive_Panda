@@ -15,7 +15,7 @@ const Footer = () => {
       <div className=" w-fit flex flex-col lg:flex-row mx-auto lg:mx-0">
         <div className="w-full lg:w-[29vw] mx-auto lg:mx-0">
           <h1 className="text-zinc-800 text-[9vw] font-medium leading-[125%] tracking-[0.2rem] lg:hidden text-center">
-            Possessive Panda
+            Possesive Panda
           </h1>
           <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] hidden lg:block">
             Possessive

@@ -1,28 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client";
+
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import card_1 from "../../assets/home/whyus/card-1.png";
 import card_2 from "../../assets/home/whyus/card-2.png";
 import card_3 from "../../assets/home/whyus/card-3.png";
 import panda from "../../assets/home/whyus/mountain-panda.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const WhyUs = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      delay: 0,
-      disable: "mobile",
-      once: true,
-      mirror: true,
-      easing: "ease-in-sine",
-    });
-  }, []);
   return (
     <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[6.771vw] lg:pr-[6.771vw] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
-      <div className="lg:w-[38.75vw] mt-[10vw]" data-aos="fade-down-right">
+      <div className="lg:w-[38.75vw] mt-[10vw]">
         <h6 className="text-[#fff] text-[3.42vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] mb-[2vw]">
           Why Us
         </h6>
@@ -37,10 +25,7 @@ const WhyUs = () => {
         </p>
       </div>
       <div className="lg:ml-[7.552vw]">
-        <div
-          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative mt-[58px] mb-[60.69px] lg:mb-0"
-          data-aos="flip-left"
-        >
+        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative mt-[58px] mb-[60.69px] lg:mb-0">
           <Image
             src={card_1}
             alt="card-1"
@@ -50,10 +35,7 @@ const WhyUs = () => {
             Proven Track Record
           </h6>
         </div>
-        <div
-          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0"
-          data-aos="flip-right"
-        >
+        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0">
           <Image
             src={card_2}
             alt="card-2"
@@ -63,10 +45,7 @@ const WhyUs = () => {
             Industry Expertise
           </h6>
         </div>
-        <div
-          className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative"
-          data-aos="flip-left"
-        >
+        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
           <Image
             src={card_3}
             alt="card-3"
@@ -81,7 +60,6 @@ const WhyUs = () => {
         src={panda}
         alt="panda"
         className="hidden lg:block absolute bottom-0 left-0 lg:h-[25vw] lg:w-[35.9vw] xl:h-[30.667vw]"
-        data-aos="zoom-in-right"
       />
     </div>
   );

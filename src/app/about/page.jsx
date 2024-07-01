@@ -1,9 +1,10 @@
 import React from "react";
-import OurJourney from "./OurJourney";
 import Brands from "./Brands";
 import Accordion from "./(accordion)/Accordion";
 import Certificate from "./Certificate";
 import Banner from "../(Components)/Banner";
+import Content from "./Content";
+import banner from "../../assets/banners/about-us.png";
 
 const page = () => {
   return (
@@ -12,8 +13,9 @@ const page = () => {
         title={"About Us"}
         desciption={"Professional IT Solution Service"}
         page={"About Us"}
+        image={banner}
       />
-      <OurJourney />
+      <Content />
       <Accordion />
       <Brands />
       <Certificate />

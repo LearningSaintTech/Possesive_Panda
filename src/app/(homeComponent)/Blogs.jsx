@@ -1,29 +1,13 @@
-"use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import blog_1 from "../../assets/home/blogs/Blogs-1.png";
 import blog_2 from "../../assets/home/blogs/Blogs-2.png";
 import blog_3 from "../../assets/home/blogs/Blogs-3.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Blogs = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      delay: 200,
-      disable: "mobile",
-      once: true,
-      mirror: true,
-      easing: "ease-in-sine",
-    });
-  }, []);
   return (
     <div className="">
-      <div
-        className="lg:w-[31.719vw] h-fit  mx-[6.771vw] flex flex-col gap-[1.8vw]"
-        data-aos="fade-up-right"
-      >
+      <div className="lg:w-[31.719vw] h-fit  mx-[6.771vw] flex flex-col gap-[1.8vw]">
         <p className="text-zinc-900 text-[3.42vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] ">
           Our Blogs
         </p>
@@ -39,10 +23,7 @@ const Blogs = () => {
         </button>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-[6.771vw] mt-[5.2vw]">
-        <div
-          className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
-          data-aos="zoom-in-down"
-        >
+        <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
           <Image
             src={blog_1}
             alt="blog-1"
@@ -55,10 +36,7 @@ const Blogs = () => {
             Branding . 19 June 2023
           </small>
         </div>
-        <div
-          className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
-          data-aos="zoom-in-down"
-        >
+        <div className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
           <Image
             src={blog_2}
             alt="blog-2"
@@ -72,10 +50,7 @@ const Blogs = () => {
           </small>
         </div>
 
-        <div
-          className="lg:w-[27vw] justify-self-end hover:shadow hover:rounded-3xl hover:duration-500 duration-500"
-          data-aos="zoom-in-down"
-        >
+        <div className="lg:w-[27vw] justify-self-end hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
           <Image
             src={blog_3}
             alt="blog-3"

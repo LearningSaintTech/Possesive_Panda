@@ -3,24 +3,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import panda from "../../assets/home/services/panda.png";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const OurServices = () => {
   const [normal, setNormal] = useState(0);
   const [premium, setPremium] = useState(0);
   const [visible, setVisible] = useState(false);
   const containerRef = useRef();
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      delay: 0,
-      disable: "mobile",
-      once: true,
-      mirror: true,
-      easing: "ease-in-sine",
-    });
-  }, []);
+
   useEffect(() => {
     if (!containerRef.current) return;
     const containerObserver = new IntersectionObserver(
@@ -66,10 +55,7 @@ const OurServices = () => {
   return (
     <div className="mt-[7.5vw]">
       <div className="flex justify-between relative mx-[6.771vw]">
-        <div
-          className="flex flex-col justify-between w-full md:w-[44.271vw] gap-[1vw] h-fit"
-          data-aos="fade-right"
-        >
+        <div className="flex flex-col justify-between w-full md:w-[44.271vw] gap-[1vw] h-fit">
           <p className="text-zinc-900 font-normal tracking-[0.015rem] text-[3.42vw] md:text-[2.5vw] lg:text-[1.25vw]">
             Our Services
           </p>
@@ -86,7 +72,6 @@ const OurServices = () => {
           src={panda}
           alt="panda"
           className="hidden md:block size-[25.521vw] relative -top-[4.4vw] h-fit"
-          data-aos="fade-left"
         />
       </div>
       <div
