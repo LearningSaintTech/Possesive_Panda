@@ -19,7 +19,7 @@ const Recent = () => {
     fetchData();
   }, []);
   return (
-    <div className="px-[1.823vw] rounded-[0.521vw] bg-neutral-50 border-opacity-50 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] pb-[2.604vw] h-fit sticky top-[6.5vw]">
+    <div className="hidden sm:block px-[1.823vw] rounded-[0.521vw] bg-neutral-50 border-opacity-50 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] pb-[2.604vw] h-fit sticky top-[6.5vw]">
       <h4 className="text-neutral-800 text-[1.25vw] font-semibold leading-[91.6%] tracking-[0.02rem] mt-[2.5vw] mb-[1.5vw]">
         Recent Post
       </h4>

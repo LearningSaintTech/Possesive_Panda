@@ -38,7 +38,7 @@ const MainPage = () => {
         image={banner}
       />
       <div className="px-[5.2vw] mt-[9vw] flex gap-[3.2vw] mb-[5.2vw]">
-        <div className="grid grid-cols-2 gap-x-[3.125vw] gap-y-[2vw]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[2vw] gap-y-[6vw]">
           {blogs.map((blog, key) => (
             <Blogs blog={blog} key={key} />
           ))}

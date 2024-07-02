@@ -6,6 +6,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: '550px',
+      md: '678px',
+      lg: '1024px',
+      xl: '1280px',
+      "2xl": '1536px',
+    },
     extend: {
       animation: {
         "accordion-down": "accordion-down 500ms linear forwards",

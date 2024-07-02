@@ -30,25 +30,25 @@ const Blogs = ({ blog }) => {
         width={800}
         height={600}
         alt="image"
-        className="w-[28.464vw] h-[17.63vw] rounded-t-[0.521vw]"
+        className="w-fill h-[55vw] sm:w-[28.464vw] sm:h-[17.63vw] rounded-t-[0.521vw]"
       />
 
-      <h6 className="text-[#00AFF1] text-[0.833vw] font-medium leading-[150%] tracking-[0.013rem] pt-[1vw] pl-[1.042vw]">
+      <h6 className="text-[#00AFF1] sm:text-[0.833vw] text-[3vw] font-medium leading-[150%] tracking-[0.013rem] pt-[1.5vw] pl-[2.042vw] sm:pt-[1vw] sm:pl-[1.042vw]">
         {blog.title}
       </h6>
-      <h2 className="text-[#212121] text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] pt-[1vw] pl-[1.042vw]">
+      <h2 className="text-[#212121] text-[4vw] sm:text-[1vw] font-semibold leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
         {blog.meta_title}
       </h2>
-      <p className="text-[#212121] text-[1.042vw] font-normal leading-[normal] tracking-[0.015rem] pt-[1vw] pl-[1.042vw]">
+      <p className="text-[#212121] text-[3.042vw] sm:text-[1.042vw] font-normal leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
         {blog.meta_description}
       </p>
-      <div className="flex justify-between items-center mt-[1.5vw] border-t rounded-b-[0.5vw] border-opacity-50 border-black px-[1.042vw] py-[1.458vw]">
-        <p className="text-[#212121] text-[1.042vw] leading-[normal] tracking-[0.01rem] flex items-center gap-[0.5vw]">
-          <FaFilePen className="size-[1.25vw] text-[#00AFF1]" /> {blog.author}
+      <div className="flex justify-between items-center sm:mt-[1.5vw] mt-[3.5vw] border-t rounded-b-[0.5vw] border-opacity-50 border-black px-[2.042vw] py-[3vw] sm:px-[1.042vw] sm:py-[1.458vw]">
+        <p className="text-[#212121] text-[3.5vw] sm:text-[1.042vw] leading-[normal] tracking-[0.01rem] flex items-center gap-[0.5vw]">
+          <FaFilePen className="size-[4.25vw] sm:size-[1.25vw] text-[#00AFF1]" /> {blog.author}
         </p>
-        <div className="flex items-center gap-[0.5vw]">
-          <IoCalendarClearOutline className="size-[1.25vw] text-[#00AFF1]" />
-          <p className="text-[#00AFF1] text-[1.042vw] leading-[normal] tracking-[0.13rem]">
+        <div className="flex items-center gap-[1.3vw] sm:gap-[0.5vw]">
+          <IoCalendarClearOutline className="size-[4.25vw] sm:size-[1.25vw] text-[#00AFF1]" />
+          <p className="text-[#00AFF1] text-[3.5vw] sm:text-[1.042vw]  leading-[normal] tracking-[0.13rem]">
             {formatDate}
           </p>
         </div>

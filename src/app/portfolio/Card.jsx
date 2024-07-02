@@ -4,35 +4,35 @@ import React from "react";
 const Card = ({ card }) => {
   return (
     <div>
-      <div className="w-[26.563vw] h-[20.313vw] bg-[#eee] rounded-[0.55vw] shadow-lg">
+      <div className="w-fill h-auto sm:w-[26.563vw] sm:h-[20.313vw] bg-[#eee] rounded-[0.55vw] sm:rounded-[0.8vw] shadow-lg">
         <Image
           src={card.image}
-          alt="logo"
-          className="w-[7.083vw] h-[5.052vw] relative top-[2.083vw] left-[1.563vw]"
+          alt="logo" 
+          className="w-[20.062vw] h-[15.455vw] sm:w-[7.083vw] sm:h-[5.052vw] relative top-[5.5vw] left-[3.544vw] sm:top-[2.083vw] sm:left-[1.563vw]"
         />
-        <div className="flex gap-[2.6vw] ml-[2.8vw] pt-[7.5vw]">
+        <div className="flex gap-[13vw] ml-[5.455vw] pt-[20.091vw] sm:gap-[2.6vw] sm:ml-[2.8vw] sm:pt-[7.5vw]">
           <div className="">
-            <h6 className="text-[#212121] text-[2.083vw] font-medium leading-[normal] tracking-[0.025rem]">
-              {card.percent}
+            <h6 className="text-[#212121] text-[25.981px] sm:text-[2.083vw] font-medium leading-[normal] tracking-[0.055rem] sm:tracking-[0.025rem]">
+              {card.percent} 
             </h6>
-            <p className="text-[#212121] text-[1.042vw] font-normal leading-[normal] tracking-[0.013rem]">
-              Higher Orders
+            <p className="text-[#212121] text-[3.362vw] sm:text-[1.042vw] font-normal leading-[normal] tracking-[0.053rem] sm:tracking-[0.013rem]">
+              Higher Orders 
             </p>
           </div>
-          <div className="w-[0.1vw] h-[3.854vw] bg-[#212121] relative" />
+          <div className="w-[0.25vw] h-[14vw] sm:w-[0.1vw] sm:h-[3.854vw] bg-[#212121] relative" />
           <div className="">
-            <h6 className="text-[#212121] text-[2.083vw] font-medium leading-[normal] tracking-[0.025rem]">
+            <h6 className="text-[#212121] text-[25.981px] sm:text-[2.083vw]  font-medium leading-[normal] tracking-[0.055rem] sm:tracking-[0.025rem]">
               {card.num}
             </h6>
-            <p className="text-[#212121] text-[1.042vw] font-normal leading-[normal] tracking-[0.013rem]">
+            <p className="text-[#212121] text-[3.362vw] sm:text-[1.042vw] font-normal leading-[normal] tracking-[0.053rem] sm:tracking-[0.013rem] pb-[7.455vw]">
               Higher Orders
             </p>
           </div>
         </div>
       </div>
-      <h6 className="text-[#212121] text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[0.5vw]">
+      <h6 className="text-[#212121] sm:text-[1.25vw] text-[3.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[3.545vw] sm:mt-[0.5vw]">
         {card.title}
-      </h6>
+      </h6> 
     </div>
   );
 };
