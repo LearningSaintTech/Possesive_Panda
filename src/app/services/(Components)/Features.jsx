@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Card = ({ data }) => {
+const Features = ({ data }) => {
   return (
     <div className="flex gap-[2vw] min-w-[46.875vw]">
       <Image
@@ -28,4 +28,4 @@ const Card = ({ data }) => {
   );
 };
 
-export default Card;
+export default Features;

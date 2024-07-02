@@ -19,6 +19,13 @@ import benefits_2 from "../../../assets/ecommerce/benefits/benefits-2.png";
 import benefits_3 from "../../../assets/ecommerce/benefits/benefits-3.png";
 import benefits_4 from "../../../assets/ecommerce/benefits/benefits-4.png";
 
+import { SlSettings } from "react-icons/sl";
+import { PiTimerLight } from "react-icons/pi";
+import { LuGitMerge, LuFileUp } from "react-icons/lu";
+import { GiSplitArrows } from "react-icons/gi";
+
+import process from "../../../assets/ecommerce/process/process.png";
+
 const nums = [num1, num2, num3, num4, num5, num6];
 const feature = [
   feature_1,
@@ -33,4 +40,14 @@ const panda = logo;
 
 const benefit = [benefits_1, benefits_2, benefits_3, benefits_4];
 
-export { nums, feature, panda, benefit };
+const whyImages = [
+  SlSettings,
+  PiTimerLight,
+  LuGitMerge,
+  LuFileUp,
+  GiSplitArrows,
+];
+
+const processImages = process;
+
+export { nums, feature, panda, benefit, whyImages, processImages };

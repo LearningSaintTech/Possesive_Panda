@@ -1,9 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import banner from "../../../../assets/services/top-image.png";
-import { top } from "../data.js";
 
-const Content = () => {
+const Content = ({ top }) => {
   return (
     <div className="w-fit">
       <Image
@@ -15,7 +14,7 @@ const Content = () => {
         <h6 className="text-neutral-800 font-semibold tracking-[0.025rem] leading-[normal] text-[4vw] lg:text-[2.083vw]">
           {top.title}
         </h6>
-        {top.paragragh.map((para, key) => (
+        {top.paragraph.map((para, key) => (
           <p
             key={key}
             className="text-justify text-neutral-800 text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"

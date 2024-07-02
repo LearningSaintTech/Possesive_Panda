@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ data }) => {
+const Types = ({ data }) => {
   const title = data.title.split("-");
   const first = title[0] + "-" + title[1];
   const second = "-" + title[2];
@@ -20,4 +20,4 @@ const Card = ({ data }) => {
   );
 };
 
-export default Card;
+export default Types;

@@ -1,8 +1,15 @@
-import { feature, nums, panda, benefit } from "./images";
+import {
+  feature,
+  nums,
+  panda,
+  benefit,
+  whyImages,
+  processImages,
+} from "./images";
 
 const top = {
   title: "E-commerce solutions that matches your needs",
-  paragragh: [
+  paragraph: [
     `E-commerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In E-commerce, customers shop whenever they want there is no time bound for shopping.`,
     `E-commerce services are platforms that help both small businesses and big businesses to create and manage online stores.
 `,
@@ -90,22 +97,27 @@ const mainSection = {
 
 const statergy = [
   {
+    num: "1",
     title: "Strategic Planning",
     description: `We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.`,
   },
   {
+    num: "2",
     title: "Design concept:",
     description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
   },
   {
+    num: "3",
     title: "Development",
     description: `With the help of the latest technologies, we develop our solutions. Out team uses the best ways to add features.`,
   },
   {
+    num: "4",
     title: "Development and Testing",
     description: `Before finalizing, we check our solutions on various devices and web browsers to make sure they works perfectly. With successful testing we launch your e-commerce website`,
   },
   {
+    num: "5",
     title: "Support and Upgrade",
     description: `We provide regular help and updates to improve your website's performance`,
   },
@@ -143,7 +155,7 @@ const businessToGrow = [
   {
     num: "02",
     title: "24/7 availability",
-    description: `E-commerce sites are always open, and customers can shop at any time, which helps to increase sales.`,
+    description: `E-commerce sites are always open, and customers can shop at any time, which helps to increase sales`,
   },
   {
     num: "03",
@@ -152,32 +164,94 @@ const businessToGrow = [
   },
   {
     num: "04",
-    title: "Customer Insights and Analytics",
-    description: `E-commerce platforms help provide dataaccording to customer behavior, preferences, and buying patterns. With  this data, marketers can create marketing campaigns that improve and focus on customer engagement`,
-  },
-  {
-    num: "05",
-    title: "Increased sales opportunity",
-    description: `E-commerce platforms suggest related products with the help of customer's past data of the customers to increase sales. Implementation of discount and loyalty programs to encourage customers to purchase again.`,
-  },
-  {
-    num: "06",
     title: "Effective Advertising and Marketing",
     description:
       "Marketing efforts and ROI allow for the continuous optimization of strategies",
   },
   {
+    num: "05",
+    title: "Increased sales opportunity",
+    description: `E-commerce platforms suggest related products with the help of customer's past data to increase sales. Providing discount and loyalty programs to encourage customers to purchase again`,
+  },
+  ,
+  {
+    num: "06",
+    title: "Customer Insights & Analytics",
+    description: `E-commerce platforms use customer data on behavior, preferences, and buying patterns to create targeted marketing campaigns that enhance customer engagement`,
+  },
+  {
     num: "07",
     title: "Competitive Advantage",
-    description: `Providing unique features for products and services can set businesses apart from the competition, and quickly adapting to market trends and customer demand helps businesses grow in a competitive market`,
+    description: `Unique product features and quick adaptation to market trends help businesses stand out and grow in a competitive market`,
   },
 ];
 
-// On hold
 const process = [
   {
+    num: "01",
     title: "Initial mapping",
-    description: ``,
+    list: [
+      `Understanding e-commerce web development needs`,
+      `performing research for meeting your business goals`,
+      `Decide the business model (B2B, B2C, C2B, and more) and the products and services that you will offer`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "02",
+    title: "E-commerce platforms",
+    list: [
+      `Choosing the right platform that fits your business needs`,
+      `Choose the domain name that you want`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "03",
+    title: "Website design",
+    list: [
+      `Ensuring the website is accessible on all devices like desktops, tablets, and smartphones`,
+      `Easy navigation, clean, and attractive layout`,
+      `Giving final design for impressive UI/UX`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "04",
+    title: "Product Management",
+    list: [
+      `Giving a detailed product description, high-quality images, videos, specifications, and pricing`,
+      `Tracking stock levels, taking updates, and checking notifications to avoid failure of low stock`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "05",
+    title: "Shopping cart",
+    list: [
+      `Taking care of a user-friendly and secure cart that allows users to add, remove, and view items`,
+      ` Taking care of secure payment processing through gateways, like PhonePay, Gpay, or direct credit card processing`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "06",
+    title: "Security Features",
+    list: [
+      `Ensuring providing a secure channel for data exchange between website and users by encrypting it`,
+      `Protecting Storage and handling customer data adheres to regulations like GDPR`,
+    ],
+    image: processImages,
+  },
+  {
+    num: "07",
+    title: " Customer Service",
+    list: [
+      `Easily accessible customer details like contact numbers, emails, and physical addresses`,
+      `Real-time support through chatbot or live chat`,
+      `FAQs section`,
+    ],
+    image: processImages,
   },
 ];
 
@@ -208,22 +282,27 @@ const whyUs = [
   {
     title: "Professional expertise",
     description: `E-commerce service providers specialized expertise in managing and optimizing online stores. They ensure the E-commerce site is effective and able to stand in a competitive market`,
+    image: whyImages[0],
   },
   {
     title: "Time and cost Efficiency",
     description: ` E-commerce reduces the need for in-house resources to create e-commerce platforms. In E-commerce service, we quickly launch an online store, which helps in time-saving as compared to building from scratch`,
+    image: whyImages[1],
   },
   {
     title: "Technical support and maintenance",
     description: `With the help of regular updates and maintenance services it is easy to keep site secure, and up-to-date with latest features`,
+    image: whyImages[2],
   },
   {
     title: "Competitive Advantage",
     description: `E-commerce solution providers stay updated with the latest trending industry update and technology, which help businesses to grow and to stay in a competitive environment`,
+    image: whyImages[3],
   },
   {
     title: "Flexibility",
     description: `E-commerce supports various business models, like B2B, B2C, C2B, and according to the market needs. We can easily add new products and services to your store and quickly adaption to market needs`,
+    image: whyImages[4],
   },
 ];
 
@@ -254,6 +333,7 @@ export {
   statergy,
   benefits,
   businessToGrow,
+  process,
   inventory,
   whyUs,
   faq,
