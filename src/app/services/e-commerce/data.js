@@ -95,33 +95,37 @@ const mainSection = {
   logo: panda,
 };
 
-const statergy = [
-  {
-    num: "1",
-    title: "Strategic Planning",
-    description: `We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.`,
-  },
-  {
-    num: "2",
-    title: "Design concept:",
-    description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
-  },
-  {
-    num: "3",
-    title: "Development",
-    description: `With the help of the latest technologies, we develop our solutions. Out team uses the best ways to add features.`,
-  },
-  {
-    num: "4",
-    title: "Development and Testing",
-    description: `Before finalizing, we check our solutions on various devices and web browsers to make sure they works perfectly. With successful testing we launch your e-commerce website`,
-  },
-  {
-    num: "5",
-    title: "Support and Upgrade",
-    description: `We provide regular help and updates to improve your website's performance`,
-  },
-];
+const statergy = {
+  title: `Our E-Commerce Website Development Strategy`,
+
+  cards: [
+    {
+      num: "1",
+      title: "Strategic Planning",
+      description: `We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.`,
+    },
+    {
+      num: "2",
+      title: "Design concept:",
+      description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
+    },
+    {
+      num: "3",
+      title: "Development",
+      description: `With the help of the latest technologies, we develop our solutions. Out team uses the best ways to add features.`,
+    },
+    {
+      num: "4",
+      title: "Development and Testing",
+      description: `Before finalizing, we check our solutions on various devices and web browsers to make sure they works perfectly. With successful testing we launch your e-commerce website`,
+    },
+    {
+      num: "5",
+      title: "Support and Upgrade",
+      description: `We provide regular help and updates to improve your website's performance`,
+    },
+  ],
+};
 
 const benefits = [
   {

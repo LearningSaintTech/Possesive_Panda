@@ -22,6 +22,17 @@ const Content = ({ top }) => {
             {para}
           </p>
         ))}
+        <h6 className="text-[#212121] text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+          {top.title2}
+        </h6>
+        {top.paragraph2?.map((para, key) => (
+          <p
+            key={key}
+            className="text-justify text-neutral-800 text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"
+          >
+            {para}
+          </p>
+        ))}
         <p className="text-justify text-neutral-800 text-[2.5vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] mt-[2.6vw]">
           {top.highlight}
         </p>
