@@ -7,11 +7,13 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
     if (activeIndex !== index) {
       setActiveIndex(index);
     } else {
-      setActiveIndex(null);
+      setActiveIndex(-1);
     }
   };
+
   const isOpen = activeIndex === index;
   const accordianRef = useRef(null);
+
   return (
     <>
       <div
