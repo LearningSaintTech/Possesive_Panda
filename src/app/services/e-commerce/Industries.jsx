@@ -6,7 +6,7 @@ const Industries = () => {
   return (
     <div className="w-full px-[14.5vw] py-[2.865vw] bg-[#F1FAFF] relative">
       <div className="bg-[#212121] rounded-[1.4vw] pl-[2.9vw]">
-        <h4 className="text-white text-[2.5vw] font-semibold leading-[normal] tracking-[0.028rem] pt-[3.5vw] mb-[1.77vw]">
+        <h4 className="text-white text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.028rem] pt-[3.5vw] mb-[1.77vw]">
           {mainSection.title}
         </h4>
         <p className="text-white text-[1.4vw] leading-[normal] tracking-[0.017rem] w-[58.8vw]">
