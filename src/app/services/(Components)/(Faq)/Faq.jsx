@@ -36,7 +36,7 @@ const Faq = ({ faq }) => {
               activeIndex={activeIndex}
               setActiveIndex={setActiveIndex}
             >
-              <p className="w-full mx-auto">{item.data}</p>
+              <p className="w-full mx-auto">{item.description}</p>
             </Accordian>
           ))}
         </div>

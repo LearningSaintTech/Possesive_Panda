@@ -25,7 +25,7 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
       </span>
       <h6
         className={`text-[1.25vw] font-medium leading-[145.1%] mt-[2vw]" ${
-          hovered ? "text-[#60E2FF]" : "text-[#212121]"
+          hovered ? "text-[#60E2FF] duration-700" : "text-[#212121] duration-700"
         }`}
       >
         {data.title}

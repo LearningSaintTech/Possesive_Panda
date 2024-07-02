@@ -23,7 +23,7 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
         </p>
 
         <div className="flex items-center justify-center">
-          <GoPlus className="size-[1.25vw] mr-[0.5vw] opacity-50" />
+          <GoPlus className="size-[2vw] mr-[0.5vw] opacity-50" />
         </div>
       </div>
       <div

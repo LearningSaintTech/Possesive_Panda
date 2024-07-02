@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { statergy } from "../../e-commerce/data";
 import Card from "./Card";
 
 const Strategy = ({ statergy }) => {
