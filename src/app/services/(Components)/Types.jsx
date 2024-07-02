@@ -1,4 +1,11 @@
+import { Pridi } from "next/font/google";
 import React from "react";
+
+const pridi = Pridi({
+  subsets: ["latin"],
+  weight: ["400"],
+  preload: true,
+});
 
 const Types = ({ data }) => {
   const title = data.title.split("-");
@@ -13,7 +20,9 @@ const Types = ({ data }) => {
       <p className="text-[#212121] text-[1.25vw] leading-[normal] tracking-[0.015rem] text-justify">
         {data.description}
       </p>
-      <span className="text-[#60E2FF] opacity-20 text-[20.8vw] absolute top-0 right-[4.6vw] leading-none">
+      <span
+        className={`text-[#60E2FF] opacity-20 text-[20.8vw] absolute top-0 right-[4.6vw] leading-none ${pridi.className}`}
+      >
         {data.num}
       </span>
     </div>

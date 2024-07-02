@@ -23,22 +23,22 @@ const typesOfECommerce = [
   {
     num: "1",
     title: "Business-to-Consumer",
-    description: `Business-to-consumer or B2B refers to the situation where products and services sell directly to individual customers. The internet has made B2C easier. Online marketplaces like Amazon and Flipkart have become major players.`,
+    description: `Business-to-consumer or B2B refers to the situation where products and services sell directly to individual customers. Online marketplaces like Amazon and Flipkart have become major players`,
   },
   {
     num: "2",
     title: "Business-to-Business",
-    description: `B2B refers to transactions between business to business rather than consumers. One company provides a product or service, and the other company creates its own offerings.`,
+    description: `B2B refers to transactions between business to business rather than consumers. One company provides a product or service, and the other company creates its own offerings`,
   },
   {
     num: "3",
     title: "Consumers-to-Consumers",
-    description: `C2C describes a business model where individual consumers sell goods and services directly to other consumers. Online marketplace like eBay, olx. Almost everything can be sold in a C2C marketplace.`,
+    description: `C2C describes a business model where individual consumers sell goods and services directly to other consumers. Online marketplace like eBay, olx. Almost everything can be sold in a C2C marketplace`,
   },
   {
     num: "4",
     title: "Consumer-to-Business",
-    description: `Consumers contribute something of worth to a business. Freelancers offering services to businesses.`,
+    description: `Consumers contribute something of worth to a business. Bloggers, YouTubers, or social media influencers create content that businesses pay to use or sponsor`,
   },
 ];
 
