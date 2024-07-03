@@ -11,8 +11,7 @@ const top = {
   title: "E-commerce solutions that matches your needs",
   paragraph: [
     `E-commerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In E-commerce, customers shop whenever they want there is no time bound for shopping.`,
-    `E-commerce services are platforms that help both small businesses and big businesses to create and manage online stores.
-`,
+    `E-commerce services are platforms that help both small businesses and big businesses to create and manage online stores.`,
     `To survive in a competitive market, it is very essential to have an eye-catching online presence that matches your audience’s expectations and compels them to buy. To attract an audience, you need an e-commerce store that is visually attractive.`,
   ],
   highlight:
@@ -28,7 +27,7 @@ const typesOfECommerce = [
   {
     num: "2",
     title: "Business-to-Business",
-    description: `B2B refers to transactions between business to business rather than consumers. One company provides a product or service, and the other company creates its own offerings`,
+    description: `B2B refers to transactions between business to business rather than consumers. One company provides a product or service, and the other company creates its own offerings.`,
   },
   {
     num: "3",
@@ -38,7 +37,7 @@ const typesOfECommerce = [
   {
     num: "4",
     title: "Consumer-to-Business",
-    description: `Consumers contribute something of worth to a business. Bloggers, YouTubers, or social media influencers create content that businesses pay to use or sponsor`,
+    description: `Consumers contribute something of worth to a business. Freelancers offering services to businesses.`,
   },
 ];
 
@@ -46,13 +45,13 @@ const features = [
   {
     num: nums[0],
     title: "Dedicated Project Manager",
-    description: `Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
+    description: `: Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
     image: feature[0],
   },
   {
     num: nums[1],
     title: "Real-Time Project Tracking",
-    description: `We openly trace projects in real time. It allows clients to get in touch with the project manager at any time to get an update on the status of their project. This is to keep them informed of what is happening so that they can make timely decisions.`,
+    description: `We openly trace projects in real-time. It allows clients to get in touch with the project manager at any time to get an update on the status of their project. This is to keep them informed of what is happening so that they can make timely decisions.`,
     image: feature[1],
   },
   {
@@ -64,7 +63,7 @@ const features = [
   {
     num: nums[3],
     title: "Experienced Team",
-    description: `The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
+    description: `: The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
     image: feature[3],
   },
   {
@@ -95,53 +94,56 @@ const mainSection = {
   logo: panda,
 };
 
-const statergy = [
-  {
-    num: "1",
-    title: "Strategic Planning",
-    description: `We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.`,
-  },
-  {
-    num: "2",
-    title: "Design concept:",
-    description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
-  },
-  {
-    num: "3",
-    title: "Development",
-    description: `With the help of the latest technologies, we develop our solutions. Out team uses the best ways to add features.`,
-  },
-  {
-    num: "4",
-    title: "Development and Testing",
-    description: `Before finalizing, we check our solutions on various devices and web browsers to make sure they works perfectly. With successful testing we launch your e-commerce website`,
-  },
-  {
-    num: "5",
-    title: "Support and Upgrade",
-    description: `We provide regular help and updates to improve your website's performance`,
-  },
-];
+const statergy = {
+  title: `Our E-commerce website development Strategy`,
+  cards: [
+    {
+      num: "1",
+      title: "Strategic Planning",
+      description: `We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.`,
+    },
+    {
+      num: "2",
+      title: "Design concept:",
+      description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
+    },
+    {
+      num: "3",
+      title: "Development",
+      description: `With the help of the latest technologies, we develop our solutions. Our team uses the best ways to add features.`,
+    },
+    {
+      num: "4",
+      title: "Development and Testing",
+      description: `Before finalizing, we check our solutions on various devices and web browsers to make sure they work perfectly. With successful testing we launch your e-commerce website.`,
+    },
+    {
+      num: "5",
+      title: "Support and Upgrade",
+      description: `We provide regular help and updates to improve your website's performance.`,
+    },
+  ],
+};
 
 const benefits = [
   {
     title: "Enhanced Accuracy",
-    description: `Accurate Inventory management decreases the risk of stockout and overstocking`,
+    description: `Accurate Inventory management decreases the risk of stockout and overstocking.`,
     image: benefit[0],
   },
   {
     title: "Improved Financial Management",
-    description: `With accurate inventory reports, we can manage our costs`,
+    description: `With accurate inventory reports, we can manage our costs.`,
     image: benefit[1],
   },
   {
     title: "Increased Visibility",
-    description: `Provide up-to-date information on sales performance and inventory level. Data helps businesses make quick decisions`,
+    description: `Provide up-to-date information on sales performance and inventory level. Data helps businesses make quick decisions.`,
     image: benefit[2],
   },
   {
     title: "Customer satisfaction:",
-    description: `Timely order Fulfillment reduces shipping errors. With efficient return management and accurate stock, we can improve customer experience`,
+    description: `Timely order Fulfillment reduces shipping errors. With efficient return management and accurate stock, we can improve customer experience.`,
     image: benefit[3],
   },
 ];
@@ -150,28 +152,28 @@ const businessToGrow = [
   {
     num: "01",
     title: "Global Reach",
-    description: `E-commerce platforms allow businesses to reach customers beyond the geographical area`,
+    description: `E-commerce platforms allow businesses to reach customers beyond the geographical area.`,
   },
   {
     num: "02",
     title: "24/7 availability",
-    description: `E-commerce sites are always open, and customers can shop at any time, which helps to increase sales`,
+    description: `E-commerce sites are always open, and customers can shop at any time, which helps to increase sales.`,
   },
   {
     num: "03",
     title: "Cost-effective",
-    description: `E-commerce helps reduce costs like physical stores, rent, and in-store staff`,
+    description: `E-commerce helps reduce costs like physical stores, rent, and in-store staff.`,
   },
   {
     num: "04",
     title: "Effective Advertising and Marketing",
     description:
-      "Marketing efforts and ROI allow for the continuous optimization of strategies",
+      "Marketing efforts and ROI allow for the continuous optimization of strategies.",
   },
   {
     num: "05",
     title: "Increased sales opportunity",
-    description: `E-commerce platforms suggest related products with the help of customer's past data to increase sales. Providing discount and loyalty programs to encourage customers to purchase again`,
+    description: `E-commerce platforms suggest related products with the help of customer's past data to increase sales. Providing discount and loyalty programs to encourage customers to purchase again.`,
   },
   ,
   {
