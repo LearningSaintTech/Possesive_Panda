@@ -18,6 +18,7 @@ import IconCard from "../(Components)/IconCard";
 import Tools from "./Tools";
 import WhyUs from "../(Components)/WhyUs";
 import Faq from "../(Components)/(Faq)/Faq";
+import Comparison from "./Comparision";
 
 const page = () => {
   return (
@@ -87,7 +88,7 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div></div>
+      <Comparison />
       <div className="bg-[#F3FCFE] bg-opacity-50 py-[7.6vw] px-[5.2vw] mt-[7vw]">
         <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[55vw] mb-[2.2vw] text-center mx-auto">
           Our Mobile Application Development Tools and Frameworks
