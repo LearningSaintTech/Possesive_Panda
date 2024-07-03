@@ -3,28 +3,28 @@ import React from "react";
 
 const Features = ({ data }) => {
   return (
-    <div className="flex gap-[2vw] min-w-[46.875vw]">
-      <Image
-        src={data.image}
-        alt="feature"
-        className="w-[15.57vw] h-[21.875vw]"
-      />
-      <div>
+      <div className="flex gap-[2.727vw] sm:gap-[2vw] sm:min-w-[46.875vw] sm:mb-0 mb-[4vw]">
         <Image
-          src={data.num}
-          alt="num"
-          className={`w-[29vw] h-[10.89vw] relative top-[-5vw]`}
+          src={data.image}
+          alt="feature"
+          className="w-[28.182vw] h-[45vw] sm:w-[15.57vw] sm:h-[21.875vw]"
         />
-        <h6
-          className={`text-[#212121] text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] $ mt-[-4vw] mb-[1vw]`}
-        >
-          {data.title}
-        </h6>
-        <p className="text-[#212121] text-[1.042vw] leading-[normal] tracking-[0.013rem] text-justify w-[23.96vw]">
-          {data.description}
-        </p>
+        <div>
+          <Image
+            src={data.num}
+            alt="num"
+            className={`w-[35.647vw] h-[15vw] sm:w-[29vw] sm:h-[10.89vw] relative top-[-7vw] sm:top-[-6vw]`}
+          />
+          <h6
+            className={`text-[#212121] text-[2.7vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] mt-[-7.4vw] sm:mt-[-5.5vw] mb-[1vw]`}
+          >
+            {data.title}
+          </h6>
+          <p className="text-[#212121] text-[2.5vw] sm:text-[1.042vw] leading-[normal] tracking-[0.013rem] text-justify w-fit sm:w-[23.96vw]">
+            {data.description}
+          </p>
+        </div>
       </div>
-    </div>
   );
 };
 

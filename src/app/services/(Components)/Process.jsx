@@ -3,27 +3,27 @@ import React from "react";
 
 const Process = ({ data }) => {
   return (
-    <div className="group min-w-[19vw] min-h-[21vw] [perspective:1000px] border rounded-[1.042vw] shadow-lg">
+    <div className="group sm:min-w-[19vw] sm:min-h-[21vw] min-w-[45vw] min-h-[50vw]  [perspective:1000px] border rounded-[1.042vw] shadow-lg">
       <div className="relative h-full rounded-[1.042vw] shadow-xl transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div className="relative  inset-0 [backface-visibility:hidden] z-[10] bg-white">
           <Image
             src={data.image}
             alt="process"
-            className="w-[19vw] h-[13.4vw] rounded-t-[1.042vw] "
+            className="w-full h-[31.81vw] sm:w-[19vw] sm:h-[13.4vw] rounded-t-[1.042vw] "
           />
-          <span className="text-white text-[2vw] font-semibold leading-[normal] tracking-[0.025rem] py-[0.8vw] px-[1vw] bg-[#87E9FF] rounded-[2.5vw] relative top-[-2vw] left-[0.8vw]">
+          <span className="text-white text-[3.5vw] sm:text-[2vw] font-semibold leading-[normal] tracking-[0.031rem] sm:tracking-[0.025rem] py-[1.4vw] px-[1.6vw] sm:py-[0.8vw] sm:px-[1vw] bg-[#87E9FF] rounded-[3.096vw] sm:rounded-[2.5vw] relative top-[-2vw] left-[2vw] sm:left-[0.8vw]">
             {data.num}
           </span>
-          <p className="text-[#212121] text-[1.25vw] font-medium leading-[normal] tracking-[0.018rem] pl-[1.25vw] pb-[2vw] capitalize">
-            {data.title}
+          <p className="text-[#212121] text-[3vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.022vw] sm:tracking-[0.018rem] pl-[2.8vw] pb-[4vw] sm:pl-[1.25vw] sm:pb-[2vw] capitalize">
+            {data.title} 
           </p>
         </div>
-        <div className="absolute inset-0 h-full w-full p-[2vw] rounded-xl bg-white text-[#212121] [backface-visibility:visible] [transform:rotateY(180deg)]">
-          <p className="text-[#212121] text-[1.25vw] font-medium leading-[140%] tracking-[0.015rem]">
+        <div className="absolute inset-0 h-full w-full pl-[4vw] pr-[4vw] pt-[2.822vw] pb-[2.822vw] sm:p-[2vw] rounded-xl bg-white text-[#212121] [backface-visibility:visible] [transform:rotateY(180deg)]">
+          <p className="text-[#212121] text-[4vw] sm:text-[1.25vw] font-medium leading-[140%] tracking-[0.015rem]">
             {data.title}
           </p>
-          <ul className="text-[#212121] text-[0.94vw] leading-[normal] tracking-[0.011rem] list-disc">
-            {data.list.map((item, key) => (
+          <ul className="text-[#212121] text-[2.364vw] sm:text-[0.94vw] leading-[normal] tracking-[0.011rem] list-disc"> 
+            {data.list.map((item, key) => ( 
               <li key={key} className=" mt-[1.042vw]">
                 {item}
               </li>
