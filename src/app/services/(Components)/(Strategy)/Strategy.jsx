@@ -10,7 +10,7 @@ const Strategy = ({ statergy }) => {
         {statergy.title}
       </h3>
       <p className="text-[#212121] text-[1.25vw] font-normal capitalize leading-[normal] tracking-[0.015rem] w-[47.66vw] mt-[0.8vw]">
-        {statergy.paragraph}{" "}
+        {statergy.paragraph}
         <span className="font-medium">{statergy.hilighted}</span>
       </p>
       <div className="flex overflow-x-scroll py-[4vw] h-fit no-scrollbar">

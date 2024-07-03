@@ -8,6 +8,7 @@ import {
   digitalMarketingStrategy,
   easyWorkProcess,
   faq,
+  ourDigitalMarketingServices,
   top,
   whyWe,
 } from "./data";
@@ -17,6 +18,7 @@ import Inventory from "../(Components)/Inventory";
 import Benefits from "../(Components)/Benefits";
 import Faq from "../(Components)/(Faq)/Faq";
 import Strategy from "../(Components)/(Strategy)/Strategy";
+import Services from "../(Components)/Services";
 
 const page = () => {
   return (
@@ -47,7 +49,6 @@ const page = () => {
               <Grow data={item} key={key} />
             ))}
           </div>
-          <div className="mt-[3.9vw] flex gap-[2.3vw]"></div>
         </div>
         <div>
           <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[39vw]">
@@ -73,7 +74,7 @@ const page = () => {
           <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw]">
             Why Your Business Should Be Using Digital Marketing Services?
           </h4>
-          <p className="text-[#212121] text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] my-[0.8vw]">
+          <p className="text-[#212121] text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] mb-[3.8vw]">
             Digital Marketing is essential for many compelling reasons:-
           </p>
           <div className="flex gap-[1.875vw] overflow-x-scroll no-scrollbar">
@@ -82,6 +83,18 @@ const page = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
+        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[37.6vw]">
+          Our Digital Marketing Services
+        </h4>
+        <div className="grid grid-cols-2 gap-x-[2.1vw] gap-y-[2.6vw] pt-[5.2vw] pb-[3vw]">
+          {ourDigitalMarketingServices.map((item, key) => (
+            <Services data={item} key={key} />
+          ))}
+        </div>
+      </div>
+      <div className="px-[5.2vw] pt-[5.2vw]">
         <Strategy statergy={easyWorkProcess} />
       </div>
       <Faq faq={faq} />

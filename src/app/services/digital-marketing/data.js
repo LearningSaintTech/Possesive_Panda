@@ -1,4 +1,4 @@
-import { benefit } from "./images";
+import { benefit, service } from "./images";
 
 const top = {
   title: "Digital Marketing Services",
@@ -130,19 +130,21 @@ const digitalMarketingServices = [
   },
 ];
 
-const ourdigitalmarketingservices = [
+const ourDigitalMarketingServices = [
   {
     title: "Search Engine Optimization",
     description: [
       `Search Engine Optimization (SEO) is a digital marketing strategy that focuses on organically improving website ranking. SEO specialists' prime focus is increasing a website's traffic on search engines.`,
       `Your business knows what it needs but doesn't know how to get it. With our best keywords, solid research, and best SEO strategies, we are here to help you get a strong organic presence, driving website traffic and leads to your business. We are an SEO company that provides ranking and traffic to your website. We have the SEO solution you have been searching for.`,
     ],
-    // image: benefit[0],
+    image: service[0],
   },
   {
     title: "Influencer marketing",
-    description: `As every business uses social media platforms, Influencer marketing has become more important than ever. However, it is challenging to find the right influencer for the brand’s face. Influencer marketing can improve the visibility of your brand in a very short period of time. We shape ideas into powerful impacts and brands into legends.`,
-    // image: benefit[1],
+    description: [
+      `As every business uses social media platforms, Influencer marketing has become more important than ever. However, it is challenging to find the right influencer for the brand’s face. Influencer marketing can improve the visibility of your brand in a very short period of time. We shape ideas into powerful impacts and brands into legends.`,
+    ],
+    image: service[1],
   },
   {
     title: "Email marketing",
@@ -151,32 +153,42 @@ const ourdigitalmarketingservices = [
       `These emails could relate to promotional ads, new launches, discount offers, and more. By sending group emails to existing and potential customers, a business can promote its products and expand its customer base.`,
       `We help businesses by creating email campaigns that enhance their relationship with their customers.`,
     ],
-    // image: benefit[2],
+    image: service[2],
   },
   {
     title: "Social Media Marketing",
-    description: `What else could be a great place for marketing other than social media? Nowadays, more than one-third of the world's population is on social media. As the best digital marketing company, our possessive Panda team is here to help you become visible by crafting social media strategies. With our time-tested methods, we prioritize organic reach, engagement, a real loyal follower base, and maintaining brand value. We craft traffic and attention towards your website through social media networks, such as Facebook, X, Instagram, YouTube, etc.`,
-    // image: benefit[3],
+    description: [
+      `What else could be a great place for marketing other than social media? Nowadays, more than one-third of the world's population is on social media. As the best digital marketing company, our possessive Panda team is here to help you become visible by crafting social media strategies. With our time-tested methods, we prioritize organic reach, engagement, a real loyal follower base, and maintaining brand value. We craft traffic and attention towards your website through social media networks, such as Facebook, X, Instagram, YouTube, etc.`,
+    ],
+    image: service[3],
   },
   {
     title: "Content Creation",
-    description: `Content plays a major part in digital marketing. Valuable content attracts, engages, and acquires the target audience. Most companies depend on content marketing to drive business to their targeted audience. It helps to create hype among customers about your brand and build brand trust. Content has such power that it not only engages customers in your business but also convinces them about your products and services.`,
-    // image: benefit[3],
+    description: [
+      `Content plays a major part in digital marketing. Valuable content attracts, engages, and acquires the target audience. Most companies depend on content marketing to drive business to their targeted audience. It helps to create hype among customers about your brand and build brand trust. Content has such power that it not only engages customers in your business but also convinces them about your products and services.`,
+    ],
+    image: service[4],
   },
   {
     title: "Search Engine Marketing",
-    description: `Are you ready to start your Search Engine Marketing campaign with us? Our Search Engine Marketing company helps you drive your business forward. Use our SEM strategy to increase a website’s visibility on search engine results pages (SERPs) through paid advertising.`,
-    // image: benefit[3],
+    description: [
+      `Are you ready to start your Search Engine Marketing campaign with us? Our Search Engine Marketing company helps you drive your business forward. Use our SEM strategy to increase a website’s visibility on search engine results pages (SERPs) through paid advertising.`,
+    ],
+    image: service[5],
   },
   {
     title: "Pay Per Click",
-    description: `PPC is a form of Internet marketing in which businesses pay a fee each time their ads are clicked. With our best PPC service, we can generate traffic to your website almost frequently and focus on delivering the best results while ensuring complete transparency for our clients.`,
-    // image: benefit[3],
+    description: [
+      `PPC is a form of Internet marketing in which businesses pay a fee each time their ads are clicked. With our best PPC service, we can generate traffic to your website almost frequently and focus on delivering the best results while ensuring complete transparency for our clients.`,
+    ],
+    image: service[6],
   },
   {
     title: "Performance Marketing",
-    description: `Performance marketing is a strategy where marketers only pay for specific actions, such as click, leads. This is more measurable. It also helps in calculating the return on investment for each campaign, and helps in the future.`,
-    // image: benefit[3],
+    description: [
+      `Performance marketing is a strategy where marketers only pay for specific actions, such as click, leads. This is more measurable. It also helps in calculating the return on investment for each campaign, and helps in the future.`,
+    ],
+    image: service[6],
   },
 ];
 
@@ -233,7 +245,7 @@ export {
   digitalMarketingStrategy,
   DriveOrganisation,
   digitalMarketingServices,
-  ourdigitalmarketingservices,
+  ourDigitalMarketingServices,
   easyWorkProcess,
   faq,
 };
