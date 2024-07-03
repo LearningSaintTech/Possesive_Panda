@@ -22,8 +22,11 @@ const Process = ({ data }) => {
           <p className="text-[#212121] text-[1.25vw] font-medium leading-[140%] tracking-[0.015rem]">
             {data.title}
           </p>
+          <p className="text-[#212121] text-[0.94vw] font-normal leading-[140%] tracking-[0.015rem] pt-[0.5vw]">
+            {data.paragraph}
+          </p>
           <ul className="text-[#212121] text-[0.94vw] leading-[normal] tracking-[0.011rem] list-disc">
-            {data.list.map((item, key) => (
+            {data.list?.map((item, key) => (
               <li key={key} className=" mt-[1.042vw]">
                 {item}
               </li>

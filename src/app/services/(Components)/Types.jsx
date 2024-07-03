@@ -11,16 +11,21 @@ const Types = ({ data, digital }) => {
   const title = data.title.split("-");
   const first = title[0] + "-" + title[1];
   const second = "-" + title[2];
-  // const first = "aa";
-  // const second = "bb";
+  const edge =
+    data.title == "Brand loyalty & customer retention" ||
+    data.title == "Cross-Platform App Development";
   return (
     <div className="relative min-w-[20.625vw] h-fit">
       {digital ? (
-        <h6 className="text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] w-[15.1vw] pt-[1.458vw]">
+        <h6
+          className={`text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] pt-[1.458vw] capitalize ${
+            edge ? "w-full" : "w-[15.1vw]"
+          }`}
+        >
           {data.title}
         </h6>
       ) : (
-        <h6 className="text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] w-fit pt-[1.458vw]">
+        <h6 className="text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] w-fit pt-[1.458vw] capitalize">
           {first} <br /> {second}
         </h6>
       )}
