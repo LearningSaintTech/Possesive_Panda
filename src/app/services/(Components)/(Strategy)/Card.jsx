@@ -8,7 +8,7 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
   const hovered = index === hoveredIndex;
   return (
     <div
-      className={`w-[22vw] sm:border-t pr-[2.6vw] ${
+      className={`min-w-[24vw] sm:border-t pr-[2.6vw] ${
         isHovered ? "border-[#60E2FF] duration-1000" : "duration-1000"
       }`}
       onMouseEnter={() => setHoveredIndex(index)}
