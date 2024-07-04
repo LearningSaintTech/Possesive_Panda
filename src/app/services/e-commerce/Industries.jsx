@@ -12,7 +12,7 @@ const Industries = () => {
         <p className="text-white text-[3vw] sm:text-[1.4vw] leading-[normal] tracking-[0.017rem] w-full sm:w-[58.8vw]">
           {mainSection.description}
         </p>
-        <div className="flex gap-[7vw] sm:gap-[6vw] mt-[3vw] sm:mt-[3.55vw] text-white text-[2.545vw] sm:text-[1.4vw] leading-[normal] tracking-[0.04rem] pb-[5vw]">
+        <div className="flex gap-[7vw] sm:gap-[6vw] mt-[5vw] sm:mt-[3.55vw] text-white text-[2.545vw] sm:text-[1.4vw] leading-[normal] tracking-[0.04rem] pb-[5vw]">
           <ul className="list-disc pl-[5.455vw] sm:pl-[1.8vw]">
             {mainSection.list.slice(0, 3).map((item, key) => (
               <li key={key} className="mb-[2vw]"> 
