@@ -12,6 +12,12 @@ import services_5 from "../../../assets/ecommerce/services/service-5.png";
 import services_6 from "../../../assets/ecommerce/services/service-6.png";
 import services_7 from "../../../assets/ecommerce/services/service-7.png";
 
+import { PiTargetDuotone, PiStrategyDuotone } from "react-icons/pi";
+import { GoGoal } from "react-icons/go";
+import { MdCampaign } from "react-icons/md";
+import { IoMdAnalytics } from "react-icons/io";
+import { GiRelationshipBounds } from "react-icons/gi";
+
 const benefit = [benefits_1, benefits_2, benefits_3, benefits_4, benefits_5];
 
 const service = [
@@ -24,4 +30,13 @@ const service = [
   services_7,
 ];
 
-export { benefit, service };
+const icons = [
+  PiTargetDuotone,
+  GoGoal,
+  PiStrategyDuotone,
+  MdCampaign,
+  IoMdAnalytics,
+  GiRelationshipBounds,
+];
+
+export { benefit, service, icons };

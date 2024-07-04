@@ -3,12 +3,13 @@ import React, { useState, useEffect } from "react";
 import Blogs from "./Blogs";
 import Options from "./Options";
 import Banner from "../(Components)/Banner";
+import Loader from "../(Components)/Loader";
 import banner from "../../assets/banners/blog.png";
-
 const MainPage = () => {
   const [blogs, setBlogs] = useState([]);
   const [categories, setCategories] = useState([]);
   const [tags, setTags] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,12 +24,15 @@ const MainPage = () => {
         setTags(() => [
           ...new Set(data.blogs.flatMap((blog) => blog.tags.split(" "))),
         ]);
+        setLoading(false); // Data fetched, set loading to false
       } catch (error) {
         console.error("Error fetching data:", error);
+        setLoading(false); // Error occurred, set loading to false
       }
     };
     fetchData();
   }, []);
+
   return (
     <div>
       <Banner
@@ -38,18 +42,23 @@ const MainPage = () => {
         image={banner}
       />
       <div className="px-[5.2vw] mt-[9vw] flex gap-[3.2vw] mb-[5.2vw]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[2vw] gap-y-[6vw]">
-          {blogs.map((blog, key) => (
-            <Blogs blog={blog} key={key} />
-          ))}
-        </div>
-
-        <Options
-          categories={categories}
-          tags={tags}
-          blogs={blogs}
-          setBlogs={setBlogs}
-        />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[2vw] gap-y-[6vw]">
+              {blogs.map((blog, key) => (
+                <Blogs blog={blog} key={key} />
+              ))}
+            </div>
+            <Options
+              categories={categories}
+              tags={tags}
+              blogs={blogs}
+              setBlogs={setBlogs}
+            />
+          </>
+        )}
       </div>
     </div>
   );

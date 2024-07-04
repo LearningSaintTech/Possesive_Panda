@@ -20,18 +20,18 @@ const Content = ({ top }) => {
         {top.paragraph?.map((para, key) => (
           <p
             key={key}
-            className="text-justify text-neutral-600 text-[3.8vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"
+            className="text-justify text-neutral-600 text-[3.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"
           >
             {para}
           </p>
         ))}
-        <h6 className="text-[#212121] text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+        <h6 className="text-[#212121] text-[3.636vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
           {top.title2}
         </h6>
         {top.paragraph2?.map((para, key) => (
           <p
             key={key}
-            className="text-justify text-neutral-800 text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"
+            className="text-justify text-neutral-800 text-[3.5vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]"
           >
             {para}
           </p>
