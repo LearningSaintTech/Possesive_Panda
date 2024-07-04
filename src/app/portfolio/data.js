@@ -1,8 +1,8 @@
 import banner_1 from "../../assets/portfolio/banner-1.png";
 import banner_2 from "../../assets/portfolio/banner-2.png";
 import banner_3 from "../../assets/portfolio/banner-3.png";
-import saint from "../../assets/portfolio/saint.png";
-import hawkins from "../../assets/portfolio/hawkins.png";
+import saint from "../../assets/portfolio/Saint.png";
+import hawkins from "../../assets/portfolio/Hawkins.png";
 
 const projects = [
   {

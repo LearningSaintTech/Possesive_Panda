@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import data from "./data";
-import Accordian from "./Accordian";
+import Accordian from "../(FaqSection)/Accordian.jsx";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(-1);
