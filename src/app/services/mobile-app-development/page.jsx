@@ -49,7 +49,7 @@ const page = () => {
         </div>
         <div className="mt-[5.2vw]">
           <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw]">
-            Android Application Development For All Android Platforms
+          Android Application Development For All Android Platforms
           </h4>
           <div className="mt-[3.9vw] grid grid-cols-4 gap-x-[1.25vw] gap-y-[2.6vw]">
             {androidApp.map((item, key) => (
