@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 
-const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
+const accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
   const handleSetIndex = (index) => {
     if (activeIndex !== index) {
       setActiveIndex(index);
@@ -66,4 +66,4 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
   );
 };
 
-export default Accordian;
+export default accordian;
