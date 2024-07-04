@@ -5,6 +5,7 @@ import {
   benefit,
   whyImages,
   processImages,
+  inventoryImage,
 } from "./images";
 
 const top = {
@@ -45,7 +46,7 @@ const features = [
   {
     num: nums[0],
     title: "Dedicated Project Manager",
-    description: `: Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
+    description: `Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
     image: feature[0],
   },
   {
@@ -63,7 +64,7 @@ const features = [
   {
     num: nums[3],
     title: "Experienced Team",
-    description: `: The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
+    description: `The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
     image: feature[3],
   },
   {
@@ -104,7 +105,7 @@ const statergy = {
     },
     {
       num: "2",
-      title: "Design concept:",
+      title: "Design concept",
       description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
     },
     {
@@ -261,22 +262,27 @@ const inventory = [
   {
     title: "Inventory Tracking",
     description: `Monitor stock level in real-time, making sure inventory count is accurate.`,
+    image: inventoryImage[0],
   },
   {
     title: "Automatic reordering",
     description: `Automatic reorder alerts when the stock level goes below a certain limit`,
+    image: inventoryImage[1],
   },
   {
     title: "Warehouse management",
     description: `We support multiple warehouse locations and track inventory movement`,
+    image: inventoryImage[2],
   },
   {
     title: "Order management",
     description: `Simplifies order from receipt and delivery. Track everything, like order status, and handle refunds`,
+    image: inventoryImage[3],
   },
   {
     title: "Analysis and reporting",
     description: `Generate reports of every detail like sales trends and inventory levels. It helps in data analysis of the movements of products`,
+    image: inventoryImage[4],
   },
 ];
 

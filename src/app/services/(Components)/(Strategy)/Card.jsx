@@ -8,15 +8,14 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
   const hovered = index === hoveredIndex;
   return (
     <div
-      className={`w-[22vw] border-t-0 sm:border-t pr-[2.6vw] ${
+      className={`min-w-[24vw] sm:border-t pr-[2.6vw] ${
         isHovered ? "border-[#60E2FF] duration-1000" : "duration-1000"
       }`}
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(-1)}
     >
       <span
-        className={`text-[3.5vw] sm:text-[1.042vw] font-medium leading-[133.333%] mt-4
-           sm:m-0 p-[3vw] sm:p-[0.8vw] border rounded-full w-[4vw] h-[4vw] sm:w-[2vw] sm:h-[2vw] flex items-center justify-center relative top-[-1vw] z-[1] ${
+        className={`text-[3.5vw] sm:text-[1.042vw] font-medium leading-[133.333%] mt-4 sm:mt-0 p-[3vw] sm:p-[0.8vw] border rounded-full size-[4vw] sm:size-[2vw] flex items-center justify-center relative top-[-1vw] z-[1] ${
           current
             ? "bg-[#60E2FF] text-white duration-700"
             : "bg-white text-[#212121] duration-700"
@@ -25,8 +24,8 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
         {data.num}
       </span>
       <h6
-        className={`text-[4.346vw] sm:text-[1.25vw] font-medium leading-[145.1%] mt-[2vw] w-[50vw] sm:w-auto" ${
-          hovered ? "text-[#60E2FF] duration-700" : "text-[#212121] duration-700"
+        className={`text-[4.346vw] sm:text-[1.25vw] font-medium leading-[145.1%] mt-[2vw]" ${
+          hovered ? "text-[#60E2FF]" : "text-[#212121]"
         }`}
       >
         {data.title}
