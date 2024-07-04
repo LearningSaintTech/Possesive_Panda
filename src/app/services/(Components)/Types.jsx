@@ -21,7 +21,7 @@ const Types = ({ data, digital }) => {
         </h6>
       {digital ? (
         <h6
-          className={`text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] pt-[1.458vw] capitalize ${
+          className={`text-[#212121] text-[1.823vw] font-semibold tracking-[0.022rem] pt-[1.458vw] capitalize hidden sm:block ${
             edge ? "w-full" : "w-[15.1vw]"
           }`}
         >
