@@ -1,4 +1,4 @@
-import { benefit, service } from "./images";
+import { benefit, icons, service } from "./images";
 
 const top = {
   title: "Digital Marketing Services",
@@ -79,26 +79,32 @@ const DriveOrganisation = [
   {
     title: "Understanding the Target Market",
     description: `The very first step in digital marketing is to identify the target market. Understanding the audience helps create relevant content and makes it easier to advertise.`,
+    image: icons[0],
   },
   {
     title: "Defined Goals and Objectives",
     description: `Having clear goals and objectives is essential for a digital marketing campaign. These include generating leads, improving website traffic, and increasing brand awareness.`,
+    image: icons[1],
   },
   {
     title: "Developing a Digital Marketing Strategy",
     description: `Having a well-defined strategy is very important in the context of Digital Marketing. Strategy is used to reach and engage with the audience. Critical components of Digital marketing strategy include; Content Marketing, SEO(Search Engine Optimization),Social Media Marketing, Email Marketing, Pay-per-click, Influencer Marketing`,
+    image: icons[2],
   },
   {
     title: " Implementing Campaigns",
     description: `Once the strategy is complete, campaigns are launched across selected digital channels. Each campaign has specific objectives and can easily be monitored for performance.`,
+    image: icons[3],
   },
   {
     title: " Analyzing and Optimizing",
     description: `Tools like Google Analytics, social media insights, and email marketing tools help marketers track the daily performance of their campaigns.`,
+    image: icons[4],
   },
   {
     title: " Building Long-Term Relationships",
     description: `Digital Marketing is not just a short-term practice; it involves a long-term customer relationship. Engaging and informative content helps turn customers into brand advocates.`,
+    image: icons[5],
   },
 ];
 
