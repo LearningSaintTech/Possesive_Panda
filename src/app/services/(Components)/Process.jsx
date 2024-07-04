@@ -22,7 +22,7 @@ const Process = ({ data }) => {
           <p className="text-[#212121] text-[3.5vw] sm:text-[1.25vw] font-medium leading-[140%] tracking-[0.015rem]">
             {data.title}
           </p>
-          <p className="text-[#212121] text-[0.94vw] font-normal leading-[140%] tracking-[0.015rem] pt-[0.5vw]">
+          <p className="text-[#212121] text-[2.4vw] sm:text-[0.94vw]font-normal leading-[140%] tracking-[0.015rem] pt-[0.5vw]">
             {data.paragraph}
           </p>
           <ul className="text-[#212121] text-[2.4vw] sm:text-[0.94vw] leading-[normal] tracking-[0.011rem] list-disc">
