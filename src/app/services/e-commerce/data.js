@@ -64,7 +64,7 @@ const features = [
   {
     num: nums[3],
     title: "Experienced Team",
-    description: `: The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
+    description: `The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
     image: feature[3],
   },
   {
@@ -105,7 +105,7 @@ const statergy = {
     },
     {
       num: "2",
-      title: "Design concept:",
+      title: "Design concept",
       description: `We create a design that matches your brand and attracts your customers. This involves initial design sketches. Our designs are easy to use and reflect your brand.`,
     },
     {
