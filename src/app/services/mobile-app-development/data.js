@@ -1,14 +1,18 @@
+import { icons, leverageIcons, purposeIcons } from "./images";
+
 const top = {
   title: "Mobile App Development Service",
-  paragraph: `Stimulate your digital presence with mobile apps by Possessive Panda that combine form and function.`,
+  paragraph: [
+    `Stimulate your digital presence with mobile apps by Possessive Panda that combine form and function.`,
+  ],
 
   title2: `Custom Mobile App Development`,
-  paragragh: [
+  paragraph2: [
     `Mobile applications are widely used in today's age. These mobile apps can come pre-installed on the device, can be downloaded and installed from a mobile app store (Google Play Store for Android and App Store for iOS) or accessed through a mobile web browser. Custom mobile app development is a comprehensive process that commences with planning and strategizing according to the business requirements, which is followed by the technical aspect of it, i.e., development. Once a prototype is ready for deployment, testing is done to make improvements and fix errors till it is prepared for launch. This entire process ensures the participation of all the internal stakeholders including developers, application owners, designers and project managers, ensuring that the specific needs of the client are met effectively.`,
   ],
 };
 
-const ourmadevservices = [
+const ourMadeServices = [
   {
     num: "1",
     title: "Native App Development",
@@ -31,7 +35,7 @@ const ourmadevservices = [
   },
 ];
 
-const androidapp = [
+const androidApp = [
   {
     num: "01",
     title: "What?",
@@ -69,7 +73,7 @@ const androidapp = [
   },
 ];
 
-const iosapp = [
+const iosApp = [
   {
     num: "01",
     title: "What & How?",
@@ -112,8 +116,96 @@ const iosapp = [
   },
 ];
 
-//on Hold
-//on Hold
-//on Hold
+const servicesForVariousPurpose = {
+  row1: [
+    { name: `Travel & Tourism`, image: purposeIcons[10] },
+    { name: `Healthcare`, image: purposeIcons[5] },
+    { name: `EdTech`, image: purposeIcons[0] },
+    { name: `Real Estate`, image: purposeIcons[3] },
+  ],
+  row2: [
+    { name: `Transport`, image: purposeIcons[1] },
+    { name: `Event`, image: purposeIcons[2] },
+    { name: `E-Commerce`, image: purposeIcons[4] },
+  ],
+  row3: [
+    { name: `Game`, image: purposeIcons[6] },
+    { name: `Finance`, image: purposeIcons[7] },
+    { name: `Restaurant`, image: purposeIcons[9] },
+    { name: `Groceries`, image: purposeIcons[8] },
+  ],
+};
 
-export { top, ourmadevservices, androidapp, iosapp };
+const tools = {
+  buttons: [
+    {
+      name: `Development Frameworks`,
+      id: "dev",
+      images: [
+        { image: icons[1], name: `Django` },
+        { image: icons[2], name: `Flutter` },
+        { image: icons[3], name: `Kotlin` },
+        { image: icons[6], name: `Node` },
+        { image: icons[7], name: `React` },
+        { image: icons[8], name: `Springboot` },
+      ],
+    },
+    {
+      name: `Database Management`,
+      id: "data",
+      images: [
+        { image: icons[4], name: `MySql` },
+        { image: icons[5], name: `Mongoose` },
+      ],
+    },
+    {
+      name: `Deployment`,
+      id: "deploy",
+      images: [{ image: icons[0], name: `AWS` }],
+    },
+  ],
+};
+
+const leverage = [
+  {
+    title: "Quick & Easy Access",
+    description: `With mobile apps, your customers can carry your entire brand in their pockets. Ease of access, regular notifications, and your app icon on their screens keeps your company's image in their minds whenever they use their smartphones`,
+    image: leverageIcons[0],
+  },
+  {
+    title: "Edge Over Web App Development",
+    description: `Organisations cannot rely solely on websites and web apps. They lack a lot of features and functions that mobile apps provide, such as access to mobile hardware and capabilities, high quality performance and tailored experiences`,
+    image: leverageIcons[1],
+  },
+  {
+    title: "Improved Mobile App UI/UX",
+    description: `Handy and efficient user interface of mobile apps provides for a user-friendly experience that enhances customer engagement. The convenience and personalized features of a mobile application cannot be found in websites or web apps that function on larger devices`,
+    image: leverageIcons[2],
+  },
+];
+
+const faq = [
+  {
+    title: `How long would it take to create an app for my business?`,
+    description: `It can vary as per your business's needs. The app will be strategically planned out, which will decide its features, complexity, structure, and overall approach. Accordingly, mobile applications development with advanced requirements will take more time than basic apps, which get finished in 1-3 months.`,
+  },
+  {
+    title: `How much does it cost to build a mobile app?`,
+    description: `Cost of getting your mobile app built and ready depends on the structure, features, app development software and tools that are employed, and other such requirements of the application. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction.`,
+  },
+  {
+    title: `How do I decide the type of mobile app for my company?`,
+    description: `The type of application you should get developed for your company, along with its structure, features, app development software etc are decisions that come under the strategic planning of your app. Before the development process begins, the requirements of your company as well as market trends are analyzed and taken under consideration while planning the app so as to optimize it for maximum efficiency and competence.`,
+  },
+];
+
+export {
+  top,
+  ourMadeServices,
+  androidApp,
+  iosApp,
+  servicesForVariousPurpose,
+  tools,
+  leverage,
+  faq,
+};
