@@ -1,10 +1,10 @@
 import React from "react";
-import { IoIosFingerPrint } from "react-icons/io";
 
 const Inventory = ({ data }) => {
+  const Icon = data.image;
   return (
     <div>
-      <IoIosFingerPrint className="size-[7vw] sm:size-[2vw]" />
+      <Icon className="size-[7vw] sm:size-[2vw] text-[#00AFF1]" />
       <h6 className="text-[#212121] text-[4vw] sm:text-[1.25vw] font-medium leading-[154.84%] mt-[3.5vw] sm:mt-[1.25vw] ">
         {data.title}
       </h6>
