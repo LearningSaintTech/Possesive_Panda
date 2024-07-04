@@ -1,6 +1,5 @@
-// Loader.js
 import React from "react";
-import "../../../src/app/globals.css"; // Ensure your global styles are imported properly
+import "../../../src/app/globals.css"; 
 
 const Loader = () => {
   return (
@@ -15,5 +14,4 @@ const Loader = () => {
     </div>
   );
 };
-
 export default Loader;
