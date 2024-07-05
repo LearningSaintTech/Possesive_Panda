@@ -27,7 +27,7 @@ const Faq = ({ faq }) => {
           PossesivePanda.com
         </a>
       </div>
-      <div className="w-full ml-0 lg:ml-[4.219vw] mt-[1.8vw] lg:mt-0">
+      <div className="w-full ml-0 lg:ml-[4.219vw] mt-[1.8vw] mb-[5vw] sm:mb-0 lg:mt-0">
         <div className="w-full lg:w-[58.542vw] min-h-full 2xl:min-h-full flex-shrink-0">
           {faq.map((item, key) => (
             <Accordian

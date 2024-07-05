@@ -26,7 +26,7 @@ const Services = ({ data }) => {
         <div className="absolute inset-0 h-full w-full p-[2vw] rounded-xl bg-[#f2fcfe] text-[#42424A] [backface-visibility:visible] [transform:rotateY(180deg)]">
           {data.description.map((para, key) => (
             <p
-              className="text-[2.5vw] sm:text-[1.2vw] font-normal leading-[110%] sm:leading-[145.1%] tracking-[0.010rem] sm:tracking-[0.015rem] sm:text-justify"
+              className="text-[3.363vw] sm:text-[1.2vw] font-normal leading-[110%] sm:leading-[145.1%] tracking-[0.010rem] sm:tracking-[0.015rem] sm:text-justify"
               key={key}
             >
               {para}

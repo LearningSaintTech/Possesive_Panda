@@ -25,17 +25,17 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
         </p>
 
         <div className="flex items-center justify-center">
-          <GoPlus className="size-[2vw] mr-[0.5vw] opacity-50" />
+          <GoPlus className="size-[7vw] sm:size-[2vw] mr-[0.5vw] opacity-50" />
         </div>
       </div>
       <div
-        className={`overflow-hidden text-[4vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1.042vw]`}
+        className={`overflow-hidden text-[3.7vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1.042vw] ml-[1.2vw] sm:ml-0`}
         style={{
           height: isOpen ? accordianRef.current?.scrollHeight : "0px",
           transition: "height 0.7s ease-in-out",
         }}
       >
-        <div className="p-[0.833vw] mb-[1.51vw]" ref={accordianRef}>
+        <div className="p-[0.833vw] mb-[1.51vw] mt-0" ref={accordianRef}>
           {children}
         </div>
       </div>
