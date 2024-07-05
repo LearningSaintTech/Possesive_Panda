@@ -25,6 +25,13 @@ import { LuGitMerge, LuFileUp } from "react-icons/lu";
 import { GiSplitArrows } from "react-icons/gi";
 
 import process from "../../../assets/ecommerce/process/process.png";
+import process1 from "../../../assets/ecommerce/process/process1.png";
+import process2 from "../../../assets/ecommerce/process/process2.png";
+import process3 from "../../../assets/ecommerce/process/process3.png";
+import process4 from "../../../assets/ecommerce/process/process4.png";
+import process5 from "../../../assets/ecommerce/process/process5.png";
+import process6 from "../../../assets/ecommerce/process/process6.png";
+import process7 from "../../../assets/ecommerce/process/process7.png";
 
 import { MdInventory2, MdManageAccounts } from "react-icons/md";
 import { TbReorder, TbReportSearch } from "react-icons/tb";
@@ -53,7 +60,7 @@ const whyImages = [
   GiSplitArrows,
 ];
 
-const processImages = process;
+const processImages = [process1,process2,process3,process4,process5,process6,process7];
 
 const inventoryImage = [
   MdInventory2,

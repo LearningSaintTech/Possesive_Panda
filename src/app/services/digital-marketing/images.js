@@ -1,16 +1,17 @@
-import benefits_1 from "../../../assets/ecommerce/benefits/benefits-1.png";
-import benefits_2 from "../../../assets/ecommerce/benefits/benefits-2.png";
-import benefits_3 from "../../../assets/ecommerce/benefits/benefits-3.png";
-import benefits_4 from "../../../assets/ecommerce/benefits/benefits-4.png";
-import benefits_5 from "../../../assets/ecommerce/benefits/benefits-5.png";
+import benefits_1 from "../../../assets/digitalMarketing/Cost-Efficient.png";
+import benefits_2 from "../../../assets/digitalMarketing/Global-Reach.png";
+import benefits_3 from "../../../assets/digitalMarketing/Targeted-Audience.png";
+import benefits_4 from "../../../assets/digitalMarketing/Broader-Engagement.png";
+import benefits_5 from "../../../assets/digitalMarketing/Brand-Building.png";
 
-import services_1 from "../../../assets/ecommerce/services/service-1.png";
-import services_2 from "../../../assets/ecommerce/services/service-2.png";
-import services_3 from "../../../assets/ecommerce/services/service-3.png";
-import services_4 from "../../../assets/ecommerce/services/service-4.png";
-import services_5 from "../../../assets/ecommerce/services/service-5.png";
-import services_6 from "../../../assets/ecommerce/services/service-6.png";
-import services_7 from "../../../assets/ecommerce/services/service-7.png";
+import services_1 from "../../../assets/digitalMarketing/Search-Engine-Marketing.png";
+import services_2 from "../../../assets/digitalMarketing/influencer-marketing.png";
+import services_3 from "../../../assets/digitalMarketing/Email-Marketing.png";
+import services_4 from "../../../assets/digitalMarketing/Social-Media-Marketing.png";
+import services_5 from "../../../assets/digitalMarketing/Content-Creation.png";
+import services_6 from "../../../assets/digitalMarketing/Search-Engine-Optimisation.png";
+import services_7 from "../../../assets/digitalMarketing/Pay-Per-Click.png";
+import services_8 from "../../../assets/digitalMarketing/Performance--Marketing.png";
 
 import { PiTargetDuotone, PiStrategyDuotone } from "react-icons/pi";
 import { GoGoal } from "react-icons/go";
@@ -28,6 +29,7 @@ const service = [
   services_5,
   services_6,
   services_7,
+  services_8,
 ];
 
 const icons = [

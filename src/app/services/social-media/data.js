@@ -128,7 +128,7 @@ solutions that don't compromise quality and performance.`,
   {
     title: "Innovative Approach",
     description: `We keep researching new technologies and methodologies to apply in our service delivery, coming up with creative solutions that will let our clients stand out amongst the competition.`,
-    image: benefit[4],
+    image: benefit[5],
   },
 ];
 
@@ -168,31 +168,31 @@ const managementStrategy = [
     num: "01",
     title: "Research and Analysis",
     paragraph: `At Possesive panda, we do research and analysis to attract the right audience for your business. The success of any social media management company needs research and analysis.`,
-    image: processImages,
+    image: processImages[0],
   },
   {
     num: "02",
     title: "Competitive Analysis",
     paragraph: `It is very important to study the competitive market and what they are doing. Through this, we can easily track what tools and techniques we can use and what we can't.`,
-    image: processImages,
+    image: processImages[1],
   },
   {
     num: "03",
     title: "Strategy Development",
     paragraph: `The next step is to develop strategy. In this we plan, create strategies for each social media platform. We make sure to meet our clients goals and objectives`,
-    image: processImages,
+    image: processImages[2],
   },
   {
     num: "04",
     title: "Content Creation",
     paragraph: `We understand the importance of strong content. Our relevant content establishes a strong social media presence for your company. Our content creators can produce anything that keeps your audience attracted to and engaged with your brands.`,
-    image: processImages,
+    image: processImages[3],
   },
   {
     num: "05",
     title: "Social Media Advertising",
     paragraph: `To achieve successful results, we design the best social media advertising for your clients. This helps them in reaching their targeted audience and generating leads for their business. Our team has expertise in creating various ads.`,
-    image: processImages,
+    image: processImages[4],
   },
 ];
 

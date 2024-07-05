@@ -98,14 +98,14 @@ const whyIs = [
       description: [
         `We keep researching new technologies and methodologies to apply in our service delivery. This helps us come up with creative solutions that will let our clients stand out amongst the competition.`,
       ],
-      image: service[6],
+      image: service[7],
     },
     {
         title: "Data Protection",
         description: [
           `Our services are fully compliant with the Health Insurance Portability and Accountability Act of 1996. This implies that our clients' sensitive information is protected. We handle data safely and confidentially.`,
         ],
-        image: service[6],
+        image: service[8],
       },
   ];
 

@@ -194,7 +194,7 @@ const ourDigitalMarketingServices = [
     description: [
       `Performance marketing is a strategy where marketers only pay for specific actions, such as click, leads. This is more measurable. It also helps in calculating the return on investment for each campaign, and helps in the future.`,
     ],
-    image: service[6],
+    image: service[7],
   },
 ];
 

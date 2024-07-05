@@ -198,7 +198,7 @@ const process = [
       `performing research for meeting your business goals`,
       `Decide the business model (B2B, B2C, C2B, and more) and the products and services that you will offer`,
     ],
-    image: processImages,
+    image: processImages[0],
   },
   {
     num: "02",
@@ -207,7 +207,7 @@ const process = [
       `Choosing the right platform that fits your business needs`,
       `Choose the domain name that you want`,
     ],
-    image: processImages,
+    image: processImages[1],
   },
   {
     num: "03",
@@ -217,7 +217,7 @@ const process = [
       `Easy navigation, clean, and attractive layout`,
       `Giving final design for impressive UI/UX`,
     ],
-    image: processImages,
+    image: processImages[2],
   },
   {
     num: "04",
@@ -226,7 +226,7 @@ const process = [
       `Giving a detailed product description, high-quality images, videos, specifications, and pricing`,
       `Tracking stock levels, taking updates, and checking notifications to avoid failure of low stock`,
     ],
-    image: processImages,
+    image: processImages[3],
   },
   {
     num: "05",
@@ -235,7 +235,7 @@ const process = [
       `Taking care of a user-friendly and secure cart that allows users to add, remove, and view items`,
       ` Taking care of secure payment processing through gateways, like PhonePay, Gpay, or direct credit card processing`,
     ],
-    image: processImages,
+    image: processImages[4],
   },
   {
     num: "06",
@@ -244,7 +244,7 @@ const process = [
       `Ensuring providing a secure channel for data exchange between website and users by encrypting it`,
       `Protecting Storage and handling customer data adheres to regulations like GDPR`,
     ],
-    image: processImages,
+    image: processImages[5],
   },
   {
     num: "07",
@@ -254,7 +254,7 @@ const process = [
       `Real-time support through chatbot or live chat`,
       `FAQs section`,
     ],
-    image: processImages,
+    image: processImages[6],
   },
 ];
 
