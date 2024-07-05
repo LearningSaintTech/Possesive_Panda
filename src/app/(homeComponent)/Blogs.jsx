@@ -3,6 +3,7 @@ import Image from "next/image";
 import blog_1 from "../../assets/home/blogs/Blogs-1.png";
 import blog_2 from "../../assets/home/blogs/Blogs-2.png";
 import blog_3 from "../../assets/home/blogs/Blogs-3.png";
+import Link from "next/link";
 
 const Blogs = () => {
   return (
@@ -18,9 +19,12 @@ const Blogs = () => {
           Get access to our collection of the latest information from our blogs.
           Explore the latest technological updates and services here!
         </p>
-        <button className="w-full lg:w-fit text-[4vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-zinc-900 tracking-[0.015rem] px-[3vw] py-[2.5vw] md:py-[1vw] hover:text-white hover:bg-[#212121] duration-500 hover:duration-500 hover:shadow-md">
+        <Link
+          href="blog"
+          className="w-full lg:w-fit text-[4vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-zinc-900 tracking-[0.015rem] px-[3vw] py-[2.5vw] md:py-[1vw] hover:text-white hover:bg-[#60E2FF] hover:border-none duration-500 hover:duration-500 hover:shadow-md"
+        >
           ALL BLOG
-        </button>
+        </Link>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-[6.771vw] mt-[5.2vw]">
         <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">

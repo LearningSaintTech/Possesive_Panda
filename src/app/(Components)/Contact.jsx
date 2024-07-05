@@ -13,7 +13,7 @@ const Contact = () => {
     phone: "",
     course: "",
     ip: "", // Add ip field to the form state
-    site_id:"3",
+    site_id: "3",
   };
 
   //const [ip, setIP] = useState("");
@@ -51,7 +51,8 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const apiUrl = "https://crm.learningsaint.com/api/addLeads?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj";
+    const apiUrl =
+      "https://crm.learningsaint.com/api/addLeads?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj";
     const response = await fetch(apiUrl, {
       method: "POST",
       headers: {
@@ -132,10 +133,15 @@ const Contact = () => {
             SEND
           </button>
           {message && (
-            <p className="text-green-500 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] mt-2">{message}</p>
+            <p className="text-green-500 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] mt-2">
+              {message}
+            </p>
           )}
           <div className="flex flex-col lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[40px]">
-            <Link className="flex items-center hover:opacity-60" href="">
+            <Link
+              className="flex items-center hover:opacity-60"
+              href="tel:+14158003326"
+            >
               <BiPhoneCall className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />
 
               <div>
@@ -143,22 +149,11 @@ const Contact = () => {
                   PHONE
                 </p>
                 <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
-                  03 5432 1234
+                  +1 (415) 800-3326
                 </p>
               </div>
             </Link>
-            <Link className="flex items-center hover:opacity-60" href="">
-              <LiaFaxSolid className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />
 
-              <div>
-                <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
-                  FAX
-                </p>
-                <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
-                  03 5432 1234
-                </p>
-              </div>
-            </Link>
             <Link className="flex items-center hover:opacity-60" href="">
               <SlEnvolopeLetter className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />
 

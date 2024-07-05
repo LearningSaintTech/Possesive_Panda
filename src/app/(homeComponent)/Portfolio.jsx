@@ -1,15 +1,13 @@
-import Image from "next/image";
 import React from "react";
-import portfolio_1 from "../../assets/home/portfolio/Portfolio-1.png";
-import portfolio_2 from "../../assets/home/portfolio/Portfolio-2.png";
-import portfolio_3 from "../../assets/home/portfolio/Portfolio-3.png";
-import portfolio_4 from "../../assets/home/portfolio/Portfolio-4.png";
 import { GoArrowRight } from "react-icons/go";
+import { projects } from "../portfolio/data";
+import Project from "../portfolio/Project";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
     <div className="py-[7vw] px-[5.2vw] lg:px-[6.771vw] bg-[#161616] text-white rounded-t-[2.083vw] relative">
-      <div className="lg:w-[32.292vw] flex flex-col justify-around gap-[1.5vw] lg:sticky lg:top-[10.417vw] z-[1]">
+      <div className="lg:w-[32.292vw] flex flex-col justify-around gap-[1.5vw]">
         <h5 className="text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem]">
           Our Portfolio
         </h5>
@@ -21,42 +19,21 @@ const Portfolio = () => {
           accomplished and delivered exceptionally across various industries.
         </p>
 
-        <button className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw] hover:text-[#2a2a2a] hover:bg-white hover:duration-300 duration-300">
+        <Link
+          href="portfolio"
+          className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw] hover:text-[#2a2a2a] hover:bg-white hover:duration-300 duration-300"
+        >
           All Works
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
-        </button>
+        </Link>
       </div>
-      <div className="lg:absolute lg:top-[140px] lg:right-[7.5vw] lg:mb-[100px]">
-        <Image
-          src={portfolio_1}
-          alt="portfolio-1"
-          className="size-[83vw] lg:h-auto lg:w-auto mt-[40px] lg:mt-0 mx-auto lg:mx-0"
-        />
-      </div>
-      <div className="flex flex-col lg:flex-row justify-between lg:mt-[300px] relative z-[10]">
-        <Image
-          src={portfolio_1}
-          alt="portfolio-1"
-          className="size-[83vw] lg:h-[35vw] lg:w-[40vw] mt-[40px] lg:mt-0 mx-auto lg:mx-0"
-        />
-        <Image
-          src={portfolio_2}
-          alt="portfolio-2"
-          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-auto mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
-        />
-      </div>
-      <div className="flex flex-col lg:flex-row justify-between lg:mt-[5.2vw] relative z-[10]">
-        <Image
-          src={portfolio_3}
-          alt="portfolio-3"
-          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-[40vw] mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
-        />
-        <Image
-          src={portfolio_4}
-          alt="portfolio-4"
-          className="md:size-[50vw] size-[83vw] lg:h-auto lg:w-auto mt-[2.083vw] lg:mt-0 mx-auto lg:mx-0"
-        />
-      </div>
+      {
+        <div className="sm:my-[6vw] my-[6vw]">
+          {projects.map((project, key) => (
+            <Project project={project} key={key} home={true} />
+          ))}
+        </div>
+      }
     </div>
   );
 };
