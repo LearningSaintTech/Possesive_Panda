@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-// import photo_1 from "../../assets/aboutus/photo-1.png";
-// import photo_2 from "../../assets/aboutus/photo-2.png";
-// import photo_3 from "../../assets/aboutus/photo-3.png";
+import photo_1 from "../../assets/aboutus/photo-1.png";
+import photo_2 from "../../assets/aboutus/photo-2.png";
+import photo_3 from "../../assets/aboutus/photo-3.png";
 
 const Certificate = () => {
   return (
@@ -33,7 +33,7 @@ const Certificate = () => {
         />
       </svg>
       <div className="flex flex-col md:flex-row justify-between items-center border-x-2 lg:border-x-4 border-black border-opacity-10 bg-white relative z-[10] mb-[50px] md:mb-0">
-        {/* <Image
+        <Image
           src={photo_1}
           alt="photo-1"
           className="lg:px-[2.8vw] py-[4vw] lg:py-[1.62vw] lg:w-[12.969vw] lg:h-[150px] relative z-[10] border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
@@ -49,7 +49,7 @@ const Certificate = () => {
           src={photo_3}
           alt="photo-3"
           className="lg:px-[2.8vw] py-[4vw] lg:py-[1.62vw] lg:w-[12.969vw] lg:h-[150px]  relative z-[10]  border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
-        /> */}
+        />
       </div>
       <svg
         viewBox="0 0 1920 625"

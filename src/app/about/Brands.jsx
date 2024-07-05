@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { data } from "./data";
 
 const Brands = () => {
@@ -17,14 +18,32 @@ const Brands = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-5 w-full mt-[7.656vw]">
         {data.map((icon, key) => (
-          <p
+          <div
             key={key}
-            className="bg-white border px-[4vw] py-[5.833vw] border-black border-opacity-10 hover:bg-sky-500 hover:text-white text-[3.33vw] items-center"
+            className="relative w-full h-[10vw] flex justify-center items-center bg-white border border-black border-opacity-10 transition duration-300 hover:bg-sky-500 group"
           >
-            {icon}
-          </p>
+            <Image
+              src={icon.black}
+              alt={`Brand ${key}`}
+              layout="fixed"
+              width="10.479vw"
+              height="9.3vw"
+              objectFit="contain"
+              className="absolute transition-opacity duration-300 group-hover:opacity-0"
+            />
+            <Image
+              src={icon.white}
+              alt={`Brand ${key}`}
+              layout="fixed"
+              width="10.479vw"
+              height="9.3vw"
+              objectFit="contain"
+              className="absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            />
+          </div>
         ))}
       </div>
+
     </div>
   );
 };

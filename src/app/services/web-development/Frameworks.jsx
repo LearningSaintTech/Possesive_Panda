@@ -9,7 +9,7 @@ const Frameworks = ({ data }) => {
   );
   return (
     <div>
-      <div className="flex gap-[7.2vw] justify-center h-[2vw]">
+      <div className="flex gap-[7.2vw] justify-center h-[2vw] ">
         {data.buttons.map((button, key) => (
           <button
             key={key}

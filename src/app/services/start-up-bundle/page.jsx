@@ -51,8 +51,53 @@ const page = () => {
         <Content top={virtual} />
       <div className="mt-[5.2vw]">
 
-        <div className="mt-[3.9vw] grid grid-cols-2 gap-x-[1.25vw] gap-y-[2.6vw]">
-          {contentA.map((item, key) => (
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw] min-w-[25.625vw] h-[23vw]">
+          {contentA.row1.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          {contentA.row2.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          {contentA.row3.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          {contentA.row4.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          {contentA.row5.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          {contentA.row6.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          {contentA.row7.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          {contentA.row8.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          {contentA.row9.map((item, key) => (
+            <Grow data={item} key={key} />
+          ))}
+        </div>
+        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          {contentA.row10.map((item, key) => (
             <Grow data={item} key={key} />
           ))}
         </div>

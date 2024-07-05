@@ -32,10 +32,10 @@ const page = () => {
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Why is Graphic Design Important?
           </h4>
-          <div className="mt-[3.9vw] flex gap-[2.3vw]">
+          <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {whyIs.map((item, key) => (
               <Types data={item} key={key} digital={true} />
             ))}
@@ -43,17 +43,17 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[42.6vw]">
+        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[70vw] sm:w-[37.6vw]">
           Why Choose Possesive Panda For Custom Graphic Design Services?
         </h4>
-        <div className="grid grid-cols-2 gap-x-[2.1vw] gap-y-[2.6vw] pt-[5.2vw] pb-[3vw]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
           {customgraphicdesign.map((item, key) => (
             <Services data={item} key={key} />
           ))}
         </div>
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
-        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw]">
+        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
           Graphic Design Services We Provide
         </h4>
         <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
@@ -63,33 +63,38 @@ const page = () => {
         </div>
       </div>
       <div className=" py-[3.65vw] px-[5.2vw] mt-[5.2vw]">
-        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[40vw] mb-[2.2vw]">
+        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
           We Ensure You Get The Best Graphic Design Solutions
         </h4>
-        <p className=' sm:mt-[2.604vw] sm:mb-[5.313vw] w-[59.74vw] h-[5.573vw] text-neutral-800 text-[1.25vw] font-normal tracking-tight'>
+        <p className='text-[#212121] sm:text-[1.67vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[80vw] mt-[2.4vw] mb-10'>
           Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs, while at the same time deliver top class services that adhere to our quality standards and customer-first approach.
         </p>
-        <div className="grid grid-cols-2 gap-x-[3.542vw] gap-y-[4.583vw] pl-[1.146vw]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-[3.542vw] gap-y-[4.583vw] ">
           {weEnsure.map((item, key) => (
             <WhyUs data={item} key={key} graphic={true} />
           ))}
         </div>
       </div>
       <div className="mt-[5.2vw] bg-[#F3fcfe] bg-opacity-50 px-[5.2vw]">
-        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[2.8vw] pt-[1vw]">
+        <h4 className="text-[#212121] text-[4.636vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.8vw] pt-[4vw] sm:pt-[1vw]">
           Mobile Application Development Services For Various Purposes
         </h4>
-        <div className="flex justify-center px-[2vw]">
+        <div className="sm:flex justify-center px-[2vw] hidden">
           {graphicDesignSoftware.row1.map((item, key) => (
             <IconCard data={item} key={key} image={true} />
           ))}
         </div>
-        <div className="flex justify-center items-center px-[4vw]">
+        <div className="sm:flex justify-center items-center px-[4vw] hidden">
           {graphicDesignSoftware.row2.map((item, key) => (
             <IconCard data={item} key={key} image={true} />
           ))}
         </div>
+        <div className='sm:hidden grid grid-cols-3 mx-auto'>
+        {graphicDesignSoftware.row3.map((item, key) => (
+            <IconCard data={item} key={key} image={true} />
+          ))}
         </div>
+      </div>
       <Faq faq={faq} />
     </div>
   )
