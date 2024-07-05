@@ -16,92 +16,91 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Service Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
-        page={"Services"}
+        title={"Startup Bundle Service"}
+        desciption={"Services that assist your organization at every step of the journey"}
+        page={"Startup Bundle"}
         image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
-          <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
             {content.row1.map((item, key) => (
-              <Grow data={item} key={key}/>
+              <Grow data={item} key={key} />
             ))}
           </div>
-          <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
             {content.row2.map((item, key) => (
-              <Grow data={item} key={key}/>
+              <Grow data={item} key={key} />
             ))}
           </div>
-          <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
             {content.row3.map((item, key) => (
-              <Grow data={item} key={key}/>
+              <Grow data={item} key={key} />
             ))}
           </div>
-          <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
             {content.row4.map((item, key) => (
-              <Grow data={item} key={key}/>
+              <Grow data={item} key={key} />
             ))}
           </div>
         </div>
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Content top={virtual} />
-      <div className="mt-[5.2vw]">
-
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw] min-w-[25.625vw] h-[23vw]">
-          {contentA.row1.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
+        <div className="mt-[8vw] sm:mt-[5.2vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw] min-w-[25.625vw] sm:h-[23vw]">
+            {contentA.row1.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+            {contentA.row2.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
+            {contentA.row3.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+            {contentA.row4.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
+            {contentA.row5.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+            {contentA.row6.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
+            {contentA.row7.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+            {contentA.row8.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw]">
+            {contentA.row9.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+            {contentA.row10.map((item, key) => (
+              <Grow data={item} key={key} />
+            ))}
+          </div>
         </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
-          {contentA.row2.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
-          {contentA.row3.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
-          {contentA.row4.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
-          {contentA.row5.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
-          {contentA.row6.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
-          {contentA.row7.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
-          {contentA.row8.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pr-[24.167vw]">
-          {contentA.row9.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-        <div className="mt-[3.9vw] flex gap-[4.167vw] pl-[24.167vw]">
-          {contentA.row10.map((item, key) => (
-            <Grow data={item} key={key} />
-          ))}
-        </div>
-      </div>
       </div>
     </div>
   )

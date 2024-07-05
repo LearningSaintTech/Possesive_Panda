@@ -1,6 +1,6 @@
 import Banner from "@/app/(Components)/Banner";
 import React from "react";
-import banner from "../../../assets/banners/service-details.png";
+import banner from "../../../assets/banners/digital-marketing-slider.png";
 import Hero from "../(Components)/(Hero)/Hero";
 import {
   DriveOrganisation,
@@ -25,9 +25,9 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Service Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
-        page={"Services"}
+        title={"Digital Marketing Service"}
+        desciption={"For a wide and compelling global business reach"}
+        page={"Digital Marketing"}
         image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">

@@ -37,7 +37,7 @@ const MainPage = () => {
     <div>
       <Banner
         title={"Blogs"}
-        desciption={"Professional IT Solution Insights and Updates"}
+        desciption={"Think. Question. Feed your curiosity."}
         page={"Blogs"}
         image={banner}
       />

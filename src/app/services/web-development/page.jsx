@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "@/app/(Components)/Banner";
-import banner from "../../../assets/banners/service-details.png";
+import banner from "../../../assets/banners/website-development-slider.png";
 import Features from "../(Components)/Features";
 import Services from "../(Components)/Services";
 import Faq from "../(Components)/(Faq)/Faq";
@@ -23,9 +23,9 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Service Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
-        page={"Services"}
+        title={"Web Development Service"}
+        desciption={"Glitch-free and user optimized web services"}
+        page={"Web Development"}
         image={banner}
       />
       <div className=" px-[5.2vw] pt-[5.2vw]">

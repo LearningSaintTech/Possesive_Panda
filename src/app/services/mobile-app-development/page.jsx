@@ -1,6 +1,6 @@
 import Banner from "@/app/(Components)/Banner";
 import React from "react";
-import banner from "../../../assets/banners/service-details.png";
+import banner from "../../../assets/banners/mobile-app-development-slider.png";
 import Hero from "../(Components)/(Hero)/Hero";
 import {
   androidApp,
@@ -24,9 +24,9 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Service Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
-        page={"Services"}
+        title={"Mobile App Development Service"}
+        desciption={"For the convenience of smooth & intuitive mobile apps"}
+        page={"Mobile App Development"}
         image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
