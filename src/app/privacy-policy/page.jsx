@@ -1,12 +1,18 @@
 import React from 'react'
 import  policyData from "./data"
-
+import Banner from "../(Components)/Banner";
+import banner from "../../assets/banners/privecy-&-policy-slider.png";
+``
 const PrivacyPolicy = () => {
   return (
   <div>
-    <div className='sm:p-24 pb-0 p-[30px]'>
+          <Banner title={"Privacy Policy"}
+        desciption={"Know how your information will be utilized"}
+        page={"privacy policy"}
+        image={banner} />
+    <div className='sm:px-24 pb-0 p-[30px]'>
     <div >
-      <h1 className='font-bold mt-[10vw] text-[2.5vw] text-left md:mt-[10vw] '>{policyData.title}</h1>
+      <h1 className='font-bold mt-[5vw] text-[2.5vw] text-left md:mt-[5vw] '>{policyData.title}</h1>
       {policyData.description.map((desc, index) => (
 
         <p className='mt-2 text-[1.5vw] sm:text-[1.25vw] text-left' key={index}>{desc}</p>
