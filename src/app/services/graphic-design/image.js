@@ -18,11 +18,15 @@ import aftereffects from "../../../assets/graphicdesign/aftereffects.png";
 import figma from "../../../assets/graphicdesign/figma.png";
 import canva from "../../../assets/graphicdesign/canva.png";
 
-
-
-import { SlSettings } from "react-icons/sl";
-import { PiTimerLight } from "react-icons/pi";
-import { LuGitMerge } from "react-icons/lu";
+import { IoMdPeople } from "react-icons/io";
+import { GiArchiveResearch } from "react-icons/gi";
+import {
+  MdOutlineDesignServices,
+  MdOutlineDeveloperMode,
+  MdSupportAgent,
+} from "react-icons/md";
+import { VscOpenPreview, VscFeedback } from "react-icons/vsc";
+import { TbTruckDelivery } from "react-icons/tb";
 
 const service = [
     services_1,
@@ -34,21 +38,29 @@ const service = [
     services_7,
     services_8,
     services_9,
-  ];
+];
 
-  const weEnsureIcons = [SlSettings, PiTimerLight, LuGitMerge];
+const weEnsureIcons = [
+  IoMdPeople,
+  GiArchiveResearch,
+  MdOutlineDesignServices,
+  MdOutlineDeveloperMode,
+  VscOpenPreview,
+  TbTruckDelivery,
+  VscFeedback,
+  MdSupportAgent,
+];
 
-  const softwareIcons =[
-    photoshop,
-    illustrator,
-    coreldraw,
-    indesign,
-    autodesk,
-    premierpro,
-    aftereffects,
-    figma,
-    canva,
-  ];
+const softwareIcons = [
+  photoshop,
+  illustrator,
+  coreldraw,
+  indesign,
+  autodesk,
+  premierpro,
+  aftereffects,
+  figma,
+  canva,
+];
 
-
-  export {service, weEnsureIcons, softwareIcons}
+export { service, weEnsureIcons, softwareIcons };

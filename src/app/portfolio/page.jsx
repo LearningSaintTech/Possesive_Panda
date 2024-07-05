@@ -5,14 +5,14 @@ import Banner from "../(Components)/Banner";
 import { cards, projects } from "./data";
 import Project from "./Project";
 import Card from "./Card";
-import banner from "../../assets/banners/last-page.png";
+import banner from "../../assets/banners/portfolio-details.png";
 
 const portfolio = () => {
   return (
     <div>
       <Banner
         title={"Portfolio Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
+        desciption={"Your cases, our team, and innovative solutions"}
         page={"Portfolio"}
         image={banner}
       />

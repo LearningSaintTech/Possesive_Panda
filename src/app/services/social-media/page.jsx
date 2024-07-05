@@ -1,6 +1,6 @@
 import Banner from "@/app/(Components)/Banner";
 import React from "react";
-import banner from "../../../assets/banners/service-details.png";
+import banner from "../../../assets/banners/social-media.png";
 import Hero from "../(Components)/(Hero)/Hero";
 import {
   faq,
@@ -28,9 +28,9 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Service Details"}
-        desciption={"Professional IT Solution Insight and Updates"}
-        page={"Services"}
+        title={"Social Media Service"}
+        desciption={"For catchy, engaging and organized social media handles"}
+        page={"Social Media"}
         image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import portfolio_1 from "../../assets/portfolio/portfolio-1.png";
-import portfolio_2 from "../../assets/portfolio/portfolio-2.png";
-import portfolio_3 from "../../assets/portfolio/portfolio-3.png";
+// import portfolio_1 from "../../assets/portfolio/portfolio-1.png";
+// import portfolio_2 from "../../assets/portfolio/portfolio-2.png";
+// import portfolio_3 from "../../assets/portfolio/portfolio-3.png";
 
 const RelatedPortfolio = () => {
   return (

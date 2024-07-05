@@ -47,7 +47,7 @@ const Content = ({ top }) => {
             {para}
           </p>
         ))}
-        <p className="text-justify text-neutral-800 text-[2.5vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] mt-[2.6vw]">
+        <p className="text-justify text-neutral-800 text-[3.363vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] mt-[4vw] sm:mt-[2.6vw]">
           {top.highlight}
         </p>
       </div>
