@@ -15,7 +15,7 @@ import {
 } from "./data";
 import Hero from "../(Components)/(Hero)/Hero";
 import Difference from "./Difference";
-import Frameworks from "./frameworks";
+import Frameworks from "./Frameworks";
 import WhyCard from "./WhyCard";
 import WebsitesCard from "./WebsitesCard";
 
