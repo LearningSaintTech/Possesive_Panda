@@ -15,14 +15,14 @@ const Process = ({ data }) => {
             {data.num}
           </span>
           <p className="text-[#212121] text-[3.2vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.022vw] sm:tracking-[0.018rem] pl-[2.8vw] pb-[4vw] sm:pl-[1.25vw] sm:pb-[2vw] capitalize">
-            {data.title} 
+            {data.title}
           </p>
         </div>
         <div className="absolute inset-0 h-full w-full pl-[4vw] pr-[4vw] pt-[2.822vw] pb-[2.822vw] sm:p-[2vw] rounded-xl bg-white text-[#212121] [backface-visibility:visible] [transform:rotateY(180deg)]">
           <p className="text-[#212121] text-[3.5vw] sm:text-[1.25vw] font-medium leading-[140%] tracking-[0.015rem]">
             {data.title}
           </p>
-          <p className="text-[#212121] text-[2.4vw] sm:text-[0.94vw]font-normal leading-[140%] tracking-[0.015rem] pt-[0.5vw]">
+          <p className="text-[#212121] text-[2.4vw] sm:text-[0.94vw] font-normal leading-[140%] tracking-[0.015rem] pt-[0.5vw]">
             {data.paragraph}
           </p>
           <ul className="text-[#212121] text-[2.4vw] sm:text-[0.94vw] leading-[normal] tracking-[0.011rem] list-disc">

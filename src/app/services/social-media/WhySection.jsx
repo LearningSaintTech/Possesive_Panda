@@ -1,8 +1,8 @@
 "use client";
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Benefits from "../(Components)/Benefits";
-import { digitalMarketingServices } from "./data";
+import Features from "../(Components)/Features";
+import { socialMediaManagement } from "./data";
 
 const WhySection = () => {
   const scrollContainerRef = useRef(null);
@@ -64,10 +64,10 @@ const WhySection = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar sm:cursor-grab active:cursor-grabbing"
+        className="flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar sm:cursor-grab active:cursor-grabbing"
       >
-        {digitalMarketingServices.map((item, key) => (
-          <Benefits data={item} key={key} />
+        {socialMediaManagement.map((feature, key) => (
+          <Features data={feature} key={key} />
         ))}
       </div>
     </div>

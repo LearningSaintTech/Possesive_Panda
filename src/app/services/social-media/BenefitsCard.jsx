@@ -2,9 +2,9 @@
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Benefits from "../(Components)/Benefits";
-import { digitalMarketingServices } from "./data";
+import { whyChooseUs } from "./data";
 
-const WhySection = () => {
+const BenefitsCard = () => {
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -64,9 +64,9 @@ const WhySection = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar sm:cursor-grab active:cursor-grabbing"
+        className="sm:flex sm:flex-row grid grid-cols-2 gap-[2.6vw] sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar sm:cursor-grab active:cursor-grabbing"
       >
-        {digitalMarketingServices.map((item, key) => (
+        {whyChooseUs.map((item, key) => (
           <Benefits data={item} key={key} />
         ))}
       </div>
@@ -74,4 +74,4 @@ const WhySection = () => {
   );
 };
 
-export default WhySection;
+export default BenefitsCard;

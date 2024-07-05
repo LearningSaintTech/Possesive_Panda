@@ -20,6 +20,9 @@ import Benefits from "../(Components)/Benefits";
 import Strategy from "../(Components)/(Strategy)/Strategy";
 import Process from "../(Components)/Process";
 import Faq from "../(Components)/(Faq)/Faq";
+import WhySection from "./WhySection";
+import BenefitsCard from "./BenefitsCard";
+import ProcessCard from "./ProcessCard";
 
 const page = () => {
   return (
@@ -61,11 +64,12 @@ const page = () => {
           <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Why Social Media Management?
           </h4>
-          <div className="sm:flex sm:flex-row flex-col sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
+          {/* <div className="sm:flex sm:flex-row flex-col sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
             {socialMediaManagement.map((feature, key) => (
               <Features data={feature} key={key} />
             ))}
-          </div>
+          </div> */}
+          <WhySection />
         </div>
         <div>
           <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] mb-[2.6vw] w-full sm:w-[37vw]">
@@ -86,23 +90,25 @@ const page = () => {
             result-driven approach, such as increased brand awareness,
             engagement, and ROI.
           </p>
-          <div className="sm:flex sm:flex-row grid grid-cols-2 gap-[2.6vw] sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
+          {/* <div className="sm:flex sm:flex-row grid grid-cols-2 gap-[2.6vw] sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
             {whyChooseUs.map((item, key) => (
               <Benefits data={item} key={key} />
             ))}
-          </div>
+          </div> */}
+          <BenefitsCard />
         </div>
         <Strategy statergy={socialMediaPlatforms} />
       </div>
       <div className="bg-[#EBF9FF] bg-opacity-50 px-[5.2vw] pt-[4.17vw]">
         <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] mb-[2.6vw] w-full sm:w-[37vw]">
-          Why Choose us for your Social Media Management ?
+          Our Social Media Management Strategy
         </h4>
-        <div className="sm:flex sm:flex-row grid grid-cols-2 sm:overflow-x-scroll pb-[5.2vw] gap-[3vw] sm:gap-[2.6vw] h-fit no-scrollbar">
+        {/* <div className="sm:flex sm:flex-row grid grid-cols-2 sm:overflow-x-scroll pb-[5.2vw] gap-[3vw] sm:gap-[2.6vw] h-fit no-scrollbar">
           {managementStrategy.map((item, key) => (
             <Process data={item} key={key} />
           ))}
-        </div>
+        </div> */}
+        <ProcessCard />
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
         <h4 className="text-[#212121]  text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">

@@ -56,13 +56,13 @@ const Strategy = ({ statergy }) => {
       <div className="relative">
         <button
           onClick={scrollLeftFunc}
-          className="hidden sm:block absolute left-[-5vw] top-[50%] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
+          className="hidden sm:block absolute left-[-5vw] top-[7.5vw] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
         >
           <FaArrowLeft className="size-[2vw] opacity-80" />
         </button>
         <button
           onClick={scrollRightFunc}
-          className="hidden sm:block absolute right-[-5vw] top-[50%] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
+          className="hidden sm:block absolute right-[-5vw] top-[7.5vw] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
         >
           <FaArrowRight className="size-[2vw] opacity-80" />
         </button>
