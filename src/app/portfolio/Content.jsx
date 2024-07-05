@@ -1,12 +1,12 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import banner from "../../assets/portfolio/Banner.png";
-import client_1 from "../../assets/portfolio/client-1.png";
-import client_2 from "../../assets/portfolio/client-2.png";
-import client_3 from "../../assets/portfolio/client-3.png";
-import client_4 from "../../assets/portfolio/client-4.png";
-import client_5 from "../../assets/portfolio/client-5.png";
+// import banner from "../../assets/portfolio/Banner.png";
+// import client_1 from "../../assets/portfolio/client-1.png";
+// import client_2 from "../../assets/portfolio/client-2.png";
+// import client_3 from "../../assets/portfolio/client-3.png";
+// import client_4 from "../../assets/portfolio/client-4.png";
+// import client_5 from "../../assets/portfolio/client-5.png";
 
 const Content = () => {
   const imageRef = useRef(null);
