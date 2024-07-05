@@ -8,6 +8,8 @@ import {
   inventoryImage,
 } from "./images";
 
+import banner from "../../../assets/services/banners/E-commerce-solutions-that-matches-your-needs.png";
+
 const top = {
   title: "E-commerce solutions that match your needs",
   paragraph: [
@@ -23,6 +25,7 @@ attract an audience, you need an e-commerce store that is visually attractive.`,
   ],
   highlight:
     "We not only provide e-commerce solutions but also ensure that they run smoothly.",
+  image: banner,
 };
 
 const typesOfECommerce = [

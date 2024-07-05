@@ -1,5 +1,7 @@
+import banner from "../../../assets/services/banners/service-page-2-banner.png";
+
 const top = {
-  title: "Start-Up Bundle Service",
+  title: "Premium Service",
   paragraph: [
     `Aspiring business owners and startups may kickstart their online presence and drive
                growth with the Possesive Panda Startup Bundle, which offers an extensive range of
@@ -11,6 +13,7 @@ const top = {
                one, the Possesive Panda Startup Bundle offers all the tools and assistance needed
                for a successful start in the competitive digital landscape.`,
   ],
+  image: banner,
 };
 
 const content = {

@@ -1,4 +1,5 @@
 import { icons, leverageIcons, purposeIcons } from "./images";
+import banner from "../../../assets/services/banners/Mobile-App-Development-Service.png";
 
 const top = {
   title: "Mobile App Development Service",
@@ -10,6 +11,7 @@ const top = {
   paragraph2: [
     `Mobile applications are widely used in today's age. These mobile apps can come pre-installed on the device, can be downloaded and installed from a mobile app store (Google Play Store for Android and App Store for iOS) or accessed through a mobile web browser. Custom mobile app development is a comprehensive process that commences with planning and strategizing according to the business requirements, which is followed by the technical aspect of it, i.e., development. Once a prototype is ready for deployment, testing is done to make improvements and fix errors till it is prepared for launch. This entire process ensures the participation of all the internal stakeholders including developers, application owners, designers and project managers, ensuring that the specific needs of the client are met effectively.`,
   ],
+  image: banner,
 };
 
 const ourMadeServices = [
