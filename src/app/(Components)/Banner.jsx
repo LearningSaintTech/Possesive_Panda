@@ -17,7 +17,7 @@ const Banner = ({ title, desciption, page, image }) => {
         <h2 className="leading-[130%] text-white text-[3.2vw] sm:text-[3vw] lg:text-[2.083vw] tracking-[0.025rem]">
           {desciption}
         </h2>
-        <div className="flex items-center py-[1.2vw] space-x-2 lg:space-x-5 border-b-2 lg:border-b-4 border-cyan-300 w-[5.2vw]">
+        <div className="flex items-center py-[1.2vw] space-x-2 lg:space-x-5 border-b-2 lg:border-b-4 border-cyan-300 w-fit">
           <Link
             href="/"
             className="text-cyan-300 hover:underline text-[3vw] sm:text-[2vw] lg:text-[1.042vw] font-medium leading-[normal] tracking-[0.013rem]"

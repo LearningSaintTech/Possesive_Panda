@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import {accordian} from "../data";
+import { accordian } from "../data";
 import AccordionItems from "./AccordionItems";
 
 const Accordion = () => {
-  const [activeIndex, setActiveIndex] = useState(0); // Initially open the first item
+  const [activeIndex, setActiveIndex] = useState(0);
   const [lastActiveIndex, setLastActiveIndex] = useState();
 
   const handleMouseEnter = (index) => {
@@ -13,14 +13,12 @@ const Accordion = () => {
   };
 
   const handleMouseLeave = (index) => {
-   
-    if(lastActiveIndex != index){
-      setActiveIndex(null); 
+    if (lastActiveIndex != index) {
+      setActiveIndex(null);
     }
   };
-console.log(accordian)
   return (
-    <div className='bg-[#FAFAFA] flex flex-col mt-10 lg:mt-32 w-full py-14'>
+    <div className="bg-[#FAFAFA] flex flex-col mt-10 lg:mt-32 w-full py-14">
       {accordian?.map((item, index) => (
         <AccordionItems
           key={index}
@@ -30,7 +28,7 @@ console.log(accordian)
           index={index}
           isOpen={activeIndex === index}
           onMouseEnter={() => handleMouseEnter(index)}
-          onMouseLeave={()=>handleMouseLeave(index)}
+          onMouseLeave={() => handleMouseLeave(index)}
         />
       ))}
     </div>

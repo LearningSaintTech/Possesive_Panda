@@ -25,25 +25,16 @@ const Brands = () => {
             <Image
               src={icon.black}
               alt={`Brand ${key}`}
-              layout="fixed"
-              width="10.479vw"
-              height="9.3vw"
-              objectFit="contain"
-              className="absolute transition-opacity duration-300 group-hover:opacity-0"
+              className="h-[3.2vw] w-[9.48vw] absolute transition-opacity duration-300 group-hover:opacity-0 object-contain table-fixed"
             />
             <Image
               src={icon.white}
               alt={`Brand ${key}`}
-              layout="fixed"
-              width="10.479vw"
-              height="9.3vw"
-              objectFit="contain"
-              className="absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              className="h-[3.2vw] w-[9.48vw] absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100 table-fixed object-contain"
             />
           </div>
         ))}
       </div>
-
     </div>
   );
 };

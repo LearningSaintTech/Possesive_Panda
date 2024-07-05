@@ -93,8 +93,7 @@ const Nav = () => {
           >
             About Us
           </Link>
-          <Link
-            href="/"
+          <button
             className={`${
               activeLabel === "Services" ? activeClass : hoverClass
             } flex gap-[0.2vw] items-center`}
@@ -102,7 +101,7 @@ const Nav = () => {
             onMouseEnter={() => setShowDropdown(true)}
           >
             Services <FaChevronDown className="size-[1vw]" />
-          </Link>
+          </button>
           <Link
             href="/portfolio"
             className={`${
