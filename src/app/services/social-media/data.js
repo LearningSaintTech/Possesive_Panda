@@ -1,4 +1,5 @@
 import { nums, feature, benefit, processImages } from "./images";
+import banner from "../../../assets/services/banners/Social-Media-Management-service.png";
 
 const top = {
   title: "Social Media Management Service",
@@ -17,6 +18,7 @@ use social media management to build relationships with existing customers and
 reach new ones. In today's world, social media management is extremely important
 for businesses. It is more cost-effective, with more exposure to organic maintenance.`,
   ],
+  image: banner,
 };
 
 const setUpSocialMedia = [

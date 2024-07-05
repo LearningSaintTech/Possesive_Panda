@@ -143,7 +143,7 @@ const Footer = () => {
                 href="services/start-up-bundle"
                 className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[30px] sm:mb-[50px] cursor-pointer"
               >
-                StartUp Bundle Services
+                Premium Services
               </Link>
             </div>
             <div className="flex flex-col items-center sm:items-start">
@@ -169,12 +169,12 @@ const Footer = () => {
           </div>
           <ul className="sm:list-disc mt-[2vw] flex flex-col gap-[2vw] justify-center items-center sm:block">
             <li className="text-[#2a2a2a] hover:text-[#00AFF1] cursor-pointer text-[4vw] sm:text-[1.25vw] leading-[125%] tracking[0.015rem] mb-[1.3vw]">
-              <Link href="terms-and-conditions" className="no-underline">
+              <Link href="/terms-and-conditions" className="no-underline">
                 Terms & Conditions
               </Link>
             </li>
             <li className="text-[#2a2a2a] hover:text-[#00AFF1] cursor-pointer text-[4vw] sm:text-[1.25vw] leading-[125%] tracking[0.015rem]">
-              <Link href="privacy-policy" className="no-underline">
+              <Link href="/privacy-policy" className="no-underline">
                 Privacy Policy
               </Link>
             </li>

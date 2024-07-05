@@ -1,4 +1,5 @@
 import { service, weEnsureIcons, softwareIcons } from "./image";
+import banner from "../../../assets/services/banners/Graphic-Design-Service.png";
 
 const top = {
   title: "Graphic Design Service",
@@ -15,6 +16,7 @@ const top = {
     `Graphic design is the amalgamation of art and technology that creates captivating visuals for various purposes such as creative logo design, web banner design and more. Though creativity is important, the main objective of graphic design is to make information easy to comprehend. Thus, creativity should go hand-in-hand with simplicity.`,
     `Graphic designers put together different elements like images, colors, shapes and typography using software programs like Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Sketch and Canva to craft compelling designs that incorporate all the five principles of design: Contrast, Repetition, Alignment, Proximity and Balance. Graphics range from static visuals to UI and motion graphics.`,
   ],
+  image: banner,
 };
 
 const whyIs = [
