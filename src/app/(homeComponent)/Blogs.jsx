@@ -34,10 +34,10 @@ const Blogs = () => {
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
           />
           <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.2vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] md:my-0 lg:mt-[1vw]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
+            What is a Freelance Digital Marketer and How to Become a One?
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.2vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 19 June 2023
+            Branding . 13 June 2024
           </small>
         </div>
         <div className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
@@ -47,10 +47,10 @@ const Blogs = () => {
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
           />
           <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.2vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] md:my-0 lg:mt-[1vw]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
+            What is E-Commerece Website and How to Make One?
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.2vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 19 June 2023
+            Branding . 19 June 2024
           </small>
         </div>
 
@@ -61,10 +61,10 @@ const Blogs = () => {
             className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
           />
           <p className="text-zinc-900 text-[5.035vw] md:text-[3.5vw] lg:text-[1.2vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] md:my-0 lg:mt-[1vw]">
-            Loreum text Loreum Text Loreum text Ipsum Ipsum loreum
+            What is AWS and How to Deploy a Website on AWS
           </p>
           <small className="text-zinc-900 text-[4vw] md:text-[3vw] lg:text-[1.2vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 19 June 2023
+            Branding . 124 June 2024
           </small>
         </div>
       </div>
