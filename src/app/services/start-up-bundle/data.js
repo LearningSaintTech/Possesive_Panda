@@ -1,5 +1,5 @@
 const top = {
-  title: "Start-Up Bundle Service",
+  title: "Premium Service",
   paragraph: [
     `Aspiring business owners and startups may kickstart their online presence and drive
                growth with the Possesive Panda Startup Bundle, which offers an extensive range of
