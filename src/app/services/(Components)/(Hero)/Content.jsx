@@ -1,17 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import banner from "../../../../assets/services/top-image.png";
-
 const Content = ({ top }) => {
   return (
     <div className="w-fit">
-      {
-        top.title !== "Virtual Assistance Service" && <Image
-          src={banner}
+      {top.title !== "Virtual Assistance Service" && (
+        <Image
+          src={top.image}
           alt="banner"
           className="w-full h-[50vw] sm:w-[90vw] sm:h-[50vw] md:w-[60vw] md:h-[33.958vw]"
         />
-      }
+      )}
 
       <div className="mt-[3.636vw] w-fit sm:w-[60vw]">
         <h6 className="text-neutral-800 font-bold sm:font-semibold tracking-[0.025rem] leading-[normal] text-[4.364vw] lg:text-[2.083vw]">

@@ -1,5 +1,5 @@
 import { benefit, icons, service } from "./images";
-
+import banner from "../../../assets/services/banners/digital--maketing-srvices.png";
 const top = {
   title: "Digital Marketing Services",
   paragraph: [
@@ -19,6 +19,7 @@ Marketing, and other digital platforms to promote products and services. It invo
 many strategies for engaging and reaching a target audience, generating leads,
 driving traffic, and converting leads into customers.`,
   ],
+  image: banner,
 };
 
 const whyWe = {
