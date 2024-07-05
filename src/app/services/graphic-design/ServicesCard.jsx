@@ -1,10 +1,10 @@
 "use client";
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Benefits from "../(Components)/Benefits";
-import { digitalMarketingServices } from "./data";
+import Grow from "../(Components)/Grow";
+import { weProvide } from "./data";
 
-const WhySection = () => {
+const ServicesCard = () => {
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -64,14 +64,14 @@ const WhySection = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar sm:cursor-grab active:cursor-grabbing"
+        className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw] sm:cursor-grab active:cursor-grabbing"
       >
-        {digitalMarketingServices.map((item, key) => (
-          <Benefits data={item} key={key} />
+        {weProvide.map((item, key) => (
+          <Grow data={item} key={key} />
         ))}
       </div>
     </div>
   );
 };
 
-export default WhySection;
+export default ServicesCard;

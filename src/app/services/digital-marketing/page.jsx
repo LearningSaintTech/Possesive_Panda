@@ -19,6 +19,7 @@ import Benefits from "../(Components)/Benefits";
 import Faq from "../(Components)/(Faq)/Faq";
 import Strategy from "../(Components)/(Strategy)/Strategy";
 import Services from "../(Components)/Services";
+import WhySection from "./WhySection";
 
 const page = () => {
   return (
@@ -77,11 +78,12 @@ const page = () => {
           <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[2.5vw] sm:mt-[1.8vw] mb-[4.5vw] sm:mb-[3.8vw]">
             Digital Marketing is essential for many compelling reasons:-
           </p>
-          <div className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar">
+          {/* <div className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar">
             {digitalMarketingServices.map((item, key) => (
               <Benefits data={item} key={key} />
             ))}
-          </div>
+          </div> */}
+          <WhySection />
         </div>
       </div>
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">

@@ -26,6 +26,7 @@ const Nav = () => {
   }, [showSidebar]);
   useEffect(() => {
     setShowSidebar(false);
+    setShowDropdown(false);
   }, [pathname]);
 
   const links = [

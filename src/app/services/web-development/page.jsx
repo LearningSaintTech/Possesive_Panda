@@ -1,21 +1,23 @@
-import React from 'react'
+import React from "react";
 import Banner from "@/app/(Components)/Banner";
 import banner from "../../../assets/banners/service-details.png";
 import Features from "../(Components)/Features";
 import Services from "../(Components)/Services";
-import Faq from '../(Components)/(Faq)/Faq';
-import Grow from '../(Components)/Grow';
+import Faq from "../(Components)/(Faq)/Faq";
+import Grow from "../(Components)/Grow";
 import {
   top,
   leverage,
   howWeDevelop,
   topwebdevelopment,
   frameworks,
-  faq
-} from './data';
+  faq,
+} from "./data";
 import Hero from "../(Components)/(Hero)/Hero";
-import Difference from './Difference';
-import Frameworks from './frameworks';
+import Difference from "./Difference";
+import Frameworks from "./frameworks";
+import WhyCard from "./WhyCard";
+import WebsitesCard from "./WebsitesCard";
 
 const page = () => {
   return (
@@ -26,18 +28,19 @@ const page = () => {
         page={"Services"}
         image={banner}
       />
-      <div className=' px-[5.2vw] pt-[5.2vw]'>
+      <div className=" px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
           <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
             Why Leverage Web Development & Design Services?
           </h4>
-          <div className="sm:mt-[3.9vw] flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
+          {/* <div className="sm:mt-[2vw] flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
             {leverage.map((item, key) => (
               <Grow data={item} key={key} />
             ))}
-          </div>
+          </div> */}
+          <WhyCard />
         </div>
 
         <div className="mt-[5.2vw] ">
@@ -45,16 +48,17 @@ const page = () => {
             Find Out How We Develop Top Quality Websites For You
           </h5>
           <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[5.2vw]">
-            Possesive Panda follows a standard yet dynamic process to deliver its services.
-            It ensures that our solutions align with our clients’ specific needs,
-            while at the same time deliver top class services that adhere to our
-            quality standards and customer-first approach.
+            Possesive Panda follows a standard yet dynamic process to deliver
+            its services. It ensures that our solutions align with our clients’
+            specific needs, while at the same time deliver top class services
+            that adhere to our quality standards and customer-first approach.
           </p>
-          <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
+          {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
             {howWeDevelop.map((feature, key) => (
               <Features data={feature} key={key} />
             ))}
-          </div>
+          </div> */}
+          <WebsitesCard />
         </div>
       </div>
       <Difference />
@@ -78,7 +82,7 @@ const page = () => {
       </div>
       <Faq faq={faq} />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

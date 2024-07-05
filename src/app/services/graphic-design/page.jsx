@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 import Banner from "@/app/(Components)/Banner";
 import banner from "../../../assets/banners/service-details.png";
 import Hero from "../(Components)/(Hero)/Hero";
-import Types from '../(Components)/Types';
-import Services from '../(Components)/Services';
-import Grow from '../(Components)/Grow';
-import WhyUs from '../(Components)/WhyUs';
-import Faq from '../(Components)/(Faq)/Faq';
-import IconCard from '../(Components)/IconCard';
+import Types from "../(Components)/Types";
+import Services from "../(Components)/Services";
+import Grow from "../(Components)/Grow";
+import WhyUs from "../(Components)/WhyUs";
+import Faq from "../(Components)/(Faq)/Faq";
+import IconCard from "../(Components)/IconCard";
 import {
   top,
   whyIs,
@@ -15,9 +15,9 @@ import {
   weProvide,
   weEnsure,
   graphicDesignSoftware,
-  faq
+  faq,
 } from "./data";
-
+import ServicesCard from "./ServicesCard";
 
 const page = () => {
   return (
@@ -28,7 +28,7 @@ const page = () => {
         page={"Services"}
         image={banner}
       />
-      <div className=' px-[5.2vw] pt-[5.2vw]'>
+      <div className=" px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
@@ -56,18 +56,22 @@ const page = () => {
         <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
           Graphic Design Services We Provide
         </h4>
-        <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
+        {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
           {weProvide.map((item, key) => (
             <Grow data={item} key={key} />
           ))}
-        </div>
+        </div> */}
+        <ServicesCard />
       </div>
       <div className=" py-[3.65vw] px-[5.2vw] mt-[5.2vw]">
         <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
           We Ensure You Get The Best Graphic Design Solutions
         </h4>
-        <p className='text-[#212121] sm:text-[1.67vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[80vw] mt-[2.4vw] mb-10'>
-          Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs, while at the same time deliver top class services that adhere to our quality standards and customer-first approach.
+        <p className="text-[#212121] sm:text-[1.67vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[80vw] mt-[2.4vw] mb-10">
+          Possesive Panda follows a standard yet dynamic process to deliver its
+          services. It ensures that our solutions align with our clients’
+          specific needs, while at the same time deliver top class services that
+          adhere to our quality standards and customer-first approach.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-[3.542vw] gap-y-[4.583vw] ">
           {weEnsure.map((item, key) => (
@@ -89,15 +93,15 @@ const page = () => {
             <IconCard data={item} key={key} image={true} />
           ))}
         </div>
-        <div className='sm:hidden grid grid-cols-3 mx-auto'>
-        {graphicDesignSoftware.row3.map((item, key) => (
+        <div className="sm:hidden grid grid-cols-3 mx-auto">
+          {graphicDesignSoftware.row3.map((item, key) => (
             <IconCard data={item} key={key} image={true} />
           ))}
         </div>
       </div>
       <Faq faq={faq} />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

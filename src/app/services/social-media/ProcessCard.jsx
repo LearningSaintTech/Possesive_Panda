@@ -1,10 +1,10 @@
 "use client";
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Benefits from "../(Components)/Benefits";
-import { digitalMarketingServices } from "./data";
+import Process from "../(Components)/Process";
+import { managementStrategy } from "./data";
 
-const WhySection = () => {
+const ProcessCard = () => {
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -48,13 +48,13 @@ const WhySection = () => {
     <div className="relative">
       <button
         onClick={scrollLeftFunc}
-        className="hidden sm:block absolute left-[-4vw] top-[50%] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
+        className="hidden sm:block absolute left-[-4vw] top-[8vw] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
       >
         <FaArrowLeft className="size-[2vw] opacity-80" />
       </button>
       <button
         onClick={scrollRightFunc}
-        className="hidden sm:block absolute right-[-4vw] top-[50%] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
+        className="hidden sm:block absolute right-[-4vw] top-[8vw] p-[1vw] rounded-full hover:text-white hover:bg-[#00AFF1] duration-500 hover:duration-500"
       >
         <FaArrowRight className="size-[2vw] opacity-80" />
       </button>
@@ -64,14 +64,14 @@ const WhySection = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className="grid grid-cols-2 sm:flex sm:flex-row gap-x-2 sm:gap-[1.875vw] sm:overflow-x-scroll no-scrollbar sm:cursor-grab active:cursor-grabbing"
+        className="sm:flex sm:flex-row grid grid-cols-2 sm:overflow-x-scroll pb-[5.2vw] gap-[3vw] sm:gap-[2.6vw] h-fit no-scrollbar sm:cursor-grab active:cursor-grabbing"
       >
-        {digitalMarketingServices.map((item, key) => (
-          <Benefits data={item} key={key} />
+        {managementStrategy.map((feature, key) => (
+          <Process data={feature} key={key} />
         ))}
       </div>
     </div>
   );
 };
 
-export default WhySection;
+export default ProcessCard;
