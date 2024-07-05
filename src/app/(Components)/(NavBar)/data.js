@@ -127,7 +127,7 @@ const services = [
     link: "/services/web-development",
   },
   {
-    name: "Startup Bundle",
+    name: "Premium Service",
     link: "/services/start-up-bundle",
   },
 ];

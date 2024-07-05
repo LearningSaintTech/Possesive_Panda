@@ -16,9 +16,9 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Startup Bundle Service"}
+        title={"Premium Service Service"}
         desciption={"Services that assist your organization at every step of the journey"}
-        page={"Startup Bundle"}
+        page={"Premium Service"}
         image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">

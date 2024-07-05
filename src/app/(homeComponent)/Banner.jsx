@@ -64,7 +64,7 @@ const Banner = ({ whyUsHeight }) => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between px-[3vw] lg:pl-[6.771vw] lg:mr-[5.2vw] relative overflow-hidden max-h-[108vh] lg:max-h-[92vh]">
+    <div className="flex flex-col lg:flex-row lg:justify-between px-[3vw] lg:pl-[6.771vw] lg:mr-[5.2vw] relative overflow-hidden max-h-[107vh] lg:max-h-[92vh]">
       <Image
         src={shadow}
         alt="shadow"
