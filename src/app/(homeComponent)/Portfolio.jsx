@@ -11,7 +11,7 @@ const Portfolio = () => {
         <h5 className="text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem]">
           Our Portfolio
         </h5>
-        <h2 className="text-[5vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-[0.04rem]">
+        <h2 className="text-[5vw] md:text-[4vw] text-white lg:text-[3.333vw] font-medium tracking-[0.04rem]">
           Portfolio Highlights
         </h2>
         <p className="text-[#F9F9F9] font-normal text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem] w-[52vw] lg:w-fit">

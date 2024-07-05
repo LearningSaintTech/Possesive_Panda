@@ -170,7 +170,7 @@ const Banner = ({ whyUsHeight }) => {
       <Image
         src={panda}
         alt="panda"
-        className="hidden lg:block absolute lg:-bottom-[40%] xl:-bottom-[45%] 2xl:-bottom-[60%] left-[15%] z-[-20] h-auto w-auto"
+        className="hidden lg:block absolute lg:-bottom-[22vw] xl:-bottom-[25vw] 2xl:-bottom-[28vw] left-[15%] z-[-20] h-auto w-auto"
       />
     </div>
   );
