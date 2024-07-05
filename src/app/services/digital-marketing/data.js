@@ -286,7 +286,7 @@ transparency for our clients.`,
 such as click, leads. This is more measurable. It also helps in calculating the return
 on investment for each campaign, and helps in the future.`,
     ],
-    image: service[6],
+    image: service[7],
   },
 ];
 

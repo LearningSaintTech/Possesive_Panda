@@ -98,7 +98,7 @@ const top = {
         num: nums[6],
         title: "Post-Launch Snpport",
         description: `Our commitment to our clients' success does not end with the launch. We transfer the source code of the website over to our clients, so that they can seek support and maintenance from any web development service provider of their choice. If they choose to return to us, we provide regular updates including performance monitoring and content updates.`,
-        image: feature[5],
+        image: feature[6],
       },
   ];
 
@@ -158,21 +158,21 @@ const top = {
       description: [
         `We understand each project's requirement is different. Hence, our services are tailor-made and created exclusively in tune with the client's needs. This approach guarantees that the final output aligns with their project goals.`,
       ],
-      image: service[6],
+      image: service[7],
     },
     {
         title: "Innovative Approach",
         description: [
           `We keep researching new technologies and methodologies to apply in our service delivery. This helps us come up with creative solutions that will let our clients stand out amongst the competition.`,
         ],
-        image: service[6],
+        image: service[8],
       },
       {
         title: "Data Protection",
         description: [
           `Our services are fully compliant with the Health Insurance Portability and Accountability Act of 1996. This implies that our clients' sensitive information is protected. We handle data safely and confidentially.`,
         ],
-        image: service[6],
+        image: service[9],
       },
   ];
 

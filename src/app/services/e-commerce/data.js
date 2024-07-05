@@ -250,7 +250,7 @@ research to meet your business goals.`,
       `Decide the business model (B2B, B2C, C2B, and more) and the products and
 services that you will offer.`,
     ],
-    image: processImages,
+    image: processImages[0],
   },
   {
     num: "02",
@@ -259,7 +259,7 @@ services that you will offer.`,
       `Choosing the right platform that fits your business needs.`,
       `Choose the domain name that you want.`,
     ],
-    image: processImages,
+    image: processImages[1],
   },
   {
     num: "03",
@@ -270,7 +270,7 @@ smartphones.`,
       `Easy navigation, clean and attractive layout, and giving final design for
 impressive UI/UX`,
     ],
-    image: processImages,
+    image: processImages[2],
   },
   {
     num: "04",
@@ -281,7 +281,7 @@ specifications, and pricing.`,
       `Tracking stock levels, taking updates, and checking notifications to avoid
 failure of low stock.`,
     ],
-    image: processImages,
+    image: processImages[3],
   },
   {
     num: "05",
@@ -292,7 +292,7 @@ remove, and view items.`,
       `Taking care of secure payment processing through gateways, like PhonePay,
 Gpay, or direct credit card processing.`,
     ],
-    image: processImages,
+    image: processImages[4],
   },
   {
     num: "06",
@@ -303,7 +303,7 @@ users by encrypting it.`,
       `Protecting Storage and handling customer data adheres to regulations like
 GDPR.`,
     ],
-    image: processImages,
+    image: processImages[5],
   },
   {
     num: "07",
@@ -313,7 +313,7 @@ GDPR.`,
 addresses. Real-time support through chatbot or live chat`,
       `FAQs section`,
     ],
-    image: processImages,
+    image: processImages[6],
   },
 ];
 
