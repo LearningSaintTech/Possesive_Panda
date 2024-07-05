@@ -8,46 +8,74 @@ const top = {
 
   title2: `Why Digital Marketing?`,
   paragraph2: [
-    `In the current era, where the role of traditional markets is getting slow to reach the actual audience there, digital marketing plays a very crucial role to connect you. Changes in market scenarios and the evolution of new technologies have alteredhow marketers engage and acquire customers.`,
-    `Digital Marketing is all about using channels such as the Internet, social media Marketing, Email Marketing, SEO( Search Engine Optimization), PPC(Pay-Per-Click), Affiliate Marketing, and other digital platforms to promote products and services. It involves many strategies for engaging and reaching a target audience, generating leads, driving traffic, and converting leads into customers.`,
+    `In the current era, where the role of traditional markets is getting slow to reach the
+actual audience there, digital marketing plays a very crucial role in connecting you.
+Changes in market scenarios and the evolution of new technologies have altered
+how marketers engage and acquire customers.`,
+    `Digital Marketing is all about using channels such as the Internet, social media
+Marketing,
+Email Marketing, SEO( Search engine optimization), PPC(Pay-per-click), Affiliate
+Marketing, and other digital platforms to promote products and services. It involves
+many strategies for engaging and reaching a target audience, generating leads,
+driving traffic, and converting leads into customers.`,
   ],
 };
 
 const whyWe = {
   paragraph: [
-    `Possessive Panda Success mantra lies in the success of our clients. We focus on building brand awareness and engaging our clients on social media.`,
-    `Our approach includes not just the audience but also proper viewer engagement. In today's Digital world, our expertise in various digital marketing channels like social media, content marketing, SEO, PPC, and more ensures our clients stand out in a competitive market.`,
+    `Possessive Panda Success mantra lies in the success of our clients. We focus on
+building brand awareness and engaging our clients on social media.`,
+    `Our approach includes not just the audience but also proper viewer engagement. In
+today's Digital world, our expertise in various digital marketing channels like social
+media, content marketing, SEO, PPC, and more ensures our clients stand out in a
+competitive market.`,
   ],
   cards: [
     {
       num: "01",
       title: "Dedicated Project Manager",
-      description: `Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
+      description: `Every project is assigned a dedicated project manager
+to ensure smooth execution. The manager will be the point of contact for our client,
+overseeing the entire project from start to finish. This ensures that their project vision
+is well communicated and understood by everyone on our team.`,
     },
     {
       num: "02",
       title: "Real-Time Project Tracking",
-      description: `We openly trace projects in real-time. It allows clients to get in touch with the project manager at any time to get an update on the status of their project. This is to keep them informed of what is happening so that they can make timely decisions.`,
+      description: `We openly trace projects in real-time. It allows clients to
+get in touch with the project manager at any time to get an update on the status of
+their project. This is to keep them informed of what is happening so that they can
+make timely decisions.`,
     },
     {
       num: "03",
       title: "Cost-Effective Solutions",
-      description: `What we deliver at Possessive Panda are high-quality but cost-effective solutions. We work within the budget provided to give our clients solutions that don't compromise quality and performance`,
+      description: `At Possessive Panda, we deliver high-quality but at the
+same time cost-effective solutions. We work within the budget provided to give our
+clients services that don't compromise quality and performance. This makes sure
+that clients get the most optimal solution possible.`,
     },
     {
       num: "04",
       title: "Experienced Team",
-      description: `The professionals in our team are highly qualified. Everyone brings expertise and knowledge that, among other factors, assures par excellence service delivery.`,
+      description: `The professionals in our team are highly qualified with all the
+relevant industry experience. Everyone brings skills, expertise and knowledge to the
+table that, among other factors, assures excellent service delivery and complete
+client satisfaction.`,
     },
     {
       num: "05",
       title: "Customized Solutions",
-      description: `We understand each project's requirement is different. Hence, our services are tailor-made and created exclusively in tune with the client's needs. This approach guarantees that the final output aligns with their project goals.`,
+      description: `: We understand each project's requirement is different.
+Hence, our services are tailor-made and created exclusively in tune with the client's
+needs. This approach guarantees that the final output aligns with their project goals.`,
     },
     {
       num: "06",
       title: "Innovative Approach",
-      description: `We keep researching new technologies and methodologies to apply in our service delivery, coming up with creative solutions that will let our clients stand out amongst the competition.`,
+      description: `We keep researching new technologies and methodologies to
+apply in our service delivery, coming up with creative solutions that will let our clients
+stand out amongst the competition.`,
     },
   ],
 };
@@ -56,12 +84,18 @@ const digitalMarketingStrategy = [
   {
     num: "1",
     title: "Focus on Quality",
-    description: `As the best Online Marketing company, our prime focus is helping our clients achieve success by generating quality leads. As your Digital Marketing partner, your brand will easily reach its targeted audience and help to convert into actual customers. We ensure that we attract the right people interested in your business.`,
+    description: `As the best Online Marketing company, our prime focus is helping our clients
+achieve success by generating quality leads. As your Digital Marketing partner, your
+brand will easily reach its targeted audience and help to convert into actual
+customers. We ensure that we attract the right people interested in your business.`,
   },
   {
     num: "2",
     title: "Increase Online Visibility",
-    description: `We help you connect with the targeted audiences and make your online visibility strong. With attractive content marketing and set digital marketing campaigns that help grow brand value. Our goal is to grow brand value through channels like Search Engine Optimization, Social Media Optimization, pay-per-click, and many more.`,
+    description: `We help you connect with the targeted audiences and make your online visibility
+strong. With attractive content marketing and set digital marketing campaigns that
+help grow brand value. Our goal is to grow brand value through channels like Search
+Engine Optimization, Social Media Optimization, pay-per-click, and many more.`,
   },
   {
     num: "3",

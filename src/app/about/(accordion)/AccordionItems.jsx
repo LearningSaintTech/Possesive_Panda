@@ -55,14 +55,14 @@ const AccordionItems = ({
           <p className="md:text-4xl text-3xl lg:text-5xl font-medium">
             {question}
           </p>
-          <p className="text-zinc-900 font-normal text-lg md:text-xl lg:text-2xl mt-4">
+          <p className="w-[49.375vw] opacity-90 text-justify text-zinc-900 text-[1.25vw] font-normal leading-[2vw] tracking-tight md:text-xl lg:text-2xl mt-4">
             {answer}
           </p>
         </div>
         <Image
           src={image}
           alt="shadow"
-          className="lg:w-1/2 lg:h-[400px] w-auto h-auto"
+          className="lg:w-[34.375vw] lg:h-[20.833vw] w-auto h-auto"
         />
       </div>
     </div>
