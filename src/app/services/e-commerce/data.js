@@ -265,9 +265,10 @@ services that you will offer.`,
     num: "03",
     title: "Website design",
     list: [
-      `Ensuring the website is accessible on all devices like desktops, tablets, and smartphones`,
-      `Easy navigation, clean, and attractive layout`,
-      `Giving final design for impressive UI/UX`,
+      `Ensuring the website is accessible on all devices like desktops, tablets, and
+smartphones.`,
+      `Easy navigation, clean and attractive layout, and giving final design for
+impressive UI/UX`,
     ],
     image: processImages,
   },
@@ -275,8 +276,10 @@ services that you will offer.`,
     num: "04",
     title: "Product Management",
     list: [
-      `Giving a detailed product description, high-quality images, videos, specifications, and pricing`,
-      `Tracking stock levels, taking updates, and checking notifications to avoid failure of low stock`,
+      `Giving a detailed product description, high-quality images, videos,
+specifications, and pricing.`,
+      `Tracking stock levels, taking updates, and checking notifications to avoid
+failure of low stock.`,
     ],
     image: processImages,
   },
@@ -284,8 +287,10 @@ services that you will offer.`,
     num: "05",
     title: "Shopping cart",
     list: [
-      `Taking care of a user-friendly and secure cart that allows users to add, remove, and view items`,
-      ` Taking care of secure payment processing through gateways, like PhonePay, Gpay, or direct credit card processing`,
+      `Taking care of a user-friendly and secure cart that allows users to add,
+remove, and view items.`,
+      `Taking care of secure payment processing through gateways, like PhonePay,
+Gpay, or direct credit card processing.`,
     ],
     image: processImages,
   },
@@ -293,8 +298,10 @@ services that you will offer.`,
     num: "06",
     title: "Security Features",
     list: [
-      `Ensuring providing a secure channel for data exchange between website and users by encrypting it`,
-      `Protecting Storage and handling customer data adheres to regulations like GDPR`,
+      `Ensuring providing a secure channel for data exchange between website and
+users by encrypting it.`,
+      `Protecting Storage and handling customer data adheres to regulations like
+GDPR.`,
     ],
     image: processImages,
   },
@@ -302,8 +309,8 @@ services that you will offer.`,
     num: "07",
     title: " Customer Service",
     list: [
-      `Easily accessible customer details like contact numbers, emails, and physical addresses`,
-      `Real-time support through chatbot or live chat`,
+      `Easily accessible customer details like contact numbers, emails, and physical
+addresses. Real-time support through chatbot or live chat`,
       `FAQs section`,
     ],
     image: processImages,
@@ -318,22 +325,24 @@ const inventory = [
   },
   {
     title: "Automatic reordering",
-    description: `Automatic reorder alerts when the stock level goes below a certain limit`,
+    description: `Automatic reorder alerts when the stock level goes below a certain limit.`,
     image: inventoryImage[1],
   },
   {
     title: "Warehouse management",
-    description: `We support multiple warehouse locations and track inventory movement`,
+    description: `We support multiple warehouse locations and track inventory movement.`,
     image: inventoryImage[2],
   },
   {
     title: "Order management",
-    description: `Simplifies order from receipt and delivery. Track everything, like order status, and handle refunds`,
+    description: `Simplifies order from receipt and delivery.
+Track everything, like order status, and handle refunds.`,
     image: inventoryImage[3],
   },
   {
     title: "Analysis and reporting",
-    description: `Generate reports of every detail like sales trends and inventory levels. It helps in data analysis of the movements of products`,
+    description: `Generate reports of every detail like sales trends and inventory levels. It helps in
+data analysis of the movements of products.`,
     image: inventoryImage[4],
   },
 ];
@@ -341,27 +350,37 @@ const inventory = [
 const whyUs = [
   {
     title: "Professional expertise",
-    description: `E-commerce service providers specialized expertise in managing and optimizing online stores. They ensure the E-commerce site is effective and able to stand in a competitive market`,
+    description: `E-commerce service providers specialized expertise in managing and optimizing
+online stores. They ensure the E-commerce site is effective and able to stand in a
+competitive market.`,
     image: whyImages[0],
   },
   {
     title: "Time and cost Efficiency",
-    description: ` E-commerce reduces the need for in-house resources to create e-commerce platforms. In E-commerce service, we quickly launch an online store, which helps in time-saving as compared to building from scratch`,
+    description: `E-commerce reduces the need for in-house resources to
+create e-commerce platforms. In E-commerce service, we quickly launch an online
+store, which helps in time-saving as compared to building from scratch.`,
     image: whyImages[1],
   },
   {
     title: "Technical support and maintenance",
-    description: `With the help of regular updates and maintenance services it is easy to keep site secure, and up-to-date with latest features`,
+    description: `With the help of regular updates and maintenance services it is easy to keep the site
+secure, and up-to-date with latest features.`,
     image: whyImages[2],
   },
   {
     title: "Competitive Advantage",
-    description: `E-commerce solution providers stay updated with the latest trending industry update and technology, which help businesses to grow and to stay in a competitive environment`,
+    description: `E-commerce solution providers stay updated with the latest trending industry update
+and technology, which help businesses to grow and to stay in a competitive
+environment.`,
     image: whyImages[3],
   },
   {
     title: "Flexibility",
-    description: `E-commerce supports various business models, like B2B, B2C, C2B, and according to the market needs. We can easily add new products and services to your store and quickly adaption to market needs`,
+    description: `E-commerce supports various business models, like B2B, B2C, C2B, and according
+to the market needs.
+We can easily add new products and services to your store and quickly adaption to
+market needs.`,
     image: whyImages[4],
   },
 ];
@@ -369,19 +388,27 @@ const whyUs = [
 const faq = [
   {
     title: "Why do I need E-commerce solutions?",
-    description: `E-commerce solutions help in smooth-running of process in setting up and managing an online store. They enable businesses to reach to a wider audience, and increase sales. They also help manage inventory, the payment process, and logistics.`,
+    description: `E-commerce solutions help in smooth-running of processes in setting up and
+managing an online store. They enable businesses to reach a wider audience and
+increase sales. They also help manage inventory, the payment process, and
+logistics.`,
   },
   {
     title: "Is your e-commerce target mobile-friendly?",
-    description: `Each site we have worked on has been mobile-friendly. With our unique plans, startegies, we asure that the site work on a variety of screen sizes, from cell phones and tablets to large desktop.`,
+    description: `Each site we have worked on has been mobile-friendly. With our unique plans,
+strategies, we assure that the site works on a variety of screen sizes, from cell
+phones and tablets to large desktops.`,
   },
   {
     title: "How will I follow up on my e-commerce website development project?",
-    description: `We regularly update you on the status of the tasks. Also, a project manager will be appointed of your project to assist you with all the details.`,
+    description: `We regularly update you on the status of the tasks. Also, a project manager will be
+appointed to assist you with all the details of your project.`,
   },
   {
     title: "How long does it take to design and launch an e-commerce website?",
-    description: `This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline.`,
+    description: `This depends upon how big and complex the project is. Our aim is to provide quick
+and effective solutions while making sure the work is done on time. When we plan
+the project our project manager gives a clear deadline.`,
   },
 ];
 
