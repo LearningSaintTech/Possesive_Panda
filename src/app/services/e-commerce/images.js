@@ -26,6 +26,11 @@ import { GiSplitArrows } from "react-icons/gi";
 
 import process from "../../../assets/ecommerce/process/process.png";
 
+import { MdInventory2, MdManageAccounts } from "react-icons/md";
+import { TbReorder, TbReportSearch } from "react-icons/tb";
+import { FaWarehouse } from "react-icons/fa";
+import { BiAnalyse } from "react-icons/bi";
+
 const nums = [num1, num2, num3, num4, num5, num6];
 const feature = [
   feature_1,
@@ -50,4 +55,21 @@ const whyImages = [
 
 const processImages = process;
 
-export { nums, feature, panda, benefit, whyImages, processImages };
+const inventoryImage = [
+  MdInventory2,
+  TbReorder,
+  FaWarehouse,
+  MdManageAccounts,
+  BiAnalyse,
+  TbReportSearch,
+];
+
+export {
+  nums,
+  feature,
+  panda,
+  benefit,
+  whyImages,
+  processImages,
+  inventoryImage,
+};

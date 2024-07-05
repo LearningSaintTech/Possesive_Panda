@@ -2,7 +2,6 @@ import Banner from "@/app/(Components)/Banner";
 import React from "react";
 import banner from "../../../assets/banners/service-details.png";
 import Hero from "../(Components)/(Hero)/Hero";
-import Features from "../(Components)/Features";
 import Industries from "./Industries";
 import Benefits from "../(Components)/Benefits";
 import Inventory from "../(Components)/Inventory";
@@ -13,7 +12,6 @@ import Strategy from "../(Components)/(Strategy)/Strategy";
 import {
   benefits,
   businessToGrow,
-  features,
   typesOfECommerce,
   process,
   inventory,
@@ -24,6 +22,8 @@ import {
 } from "./data";
 import Types from "../(Components)/Types";
 import Faq from "../(Components)/(Faq)/Faq";
+import FeatureCard from "./FeatureCard";
+import ProcessCard from "./ProcessCard";
 const page = () => {
   return (
     <div>
@@ -36,10 +36,10 @@ const page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Types of E-commerce
           </h4>
-          <div className="mt-[3.9vw] flex gap-[2.3vw]">
+          <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {typesOfECommerce.map((item, key) => (
               <Types data={item} key={key} />
             ))}
@@ -55,18 +55,14 @@ const page = () => {
             more and more customers. We help in making your brand strong and
             visible.
           </p>
-          <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
-            {features.map((feature, key) => (
-              <Features data={feature} key={key} />
-            ))}
-          </div>
+          <FeatureCard />
         </div>
       </div>
       <Industries />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Strategy statergy={statergy} />
         <div>
-          <h3 className="text-[#212121] text-[3vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+          <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
             Benefits of E-commerce Management software
           </h3>
           <div className="py-[5.2vw] grid grid-cols-2 sm:grid-cols-4 gap-[5vw] sm:gap-[2vw] ">
@@ -86,21 +82,17 @@ const page = () => {
           </div>
         </div>
         <div>
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem]  mt-[5vw] sm:mt-0">
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
             Our E-commerce process
           </h3>
           <p className="text-[#212121] text-[3.5vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[45vw] pt-[1.3vw] mb-[6.6vw] sm:mb-[5.2vw]">
             We follow a sequence to build an e-commerce store offering the best
             features. Our transparent process helps clients to have all access
           </p>
-          <div className="sm:flex sm:overflow-x-scroll pb-[5.2vw] sm:gap-[2.6vw] h-fit sm:no-scrollbar grid grid-cols-2 gap-x-[6vw] gap-y-[7vw]">
-            {process.map((item, key) => (
-              <Process data={item} key={key} />
-            ))}
-          </div>
+          <ProcessCard process={process} />
         </div>
         <div>
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mt-[5vw] sm:mt-0">
             E-commerce inventory management software
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-[5.2vw] gap-y-[9vw] sm:gap-y-[3vw] mt-[5.2vw]">
@@ -110,7 +102,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#F3FCFE] bg-opacity-50 px-[5.2vw] py-[3.385vw] mt-[3.3vw]">
+      <div className="bg-[#F3FCFE] bg-opacity-50 px-[5.2vw] py-[3.385vw] mt-[5vw] sm:mt-[3.3vw]">
         <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
           Why choose an E-commerce solution service?
         </h3>

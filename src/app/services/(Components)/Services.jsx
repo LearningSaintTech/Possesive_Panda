@@ -11,22 +11,22 @@ const Services = ({ data }) => {
           <Image
             src={data.image}
             alt="service-image"
-            className="w-[17.135vw] h-[21.693vw] ml-[1.042vw]"
+            className="w-[30vw] h-[34vw] sm:w-[17.135vw] sm:h-[21.693vw] ml-[2vw] sm:ml-[1.042vw] sm:mb-0 mb-4"
           />
           <div className="flex-row ml-[1.563vw] mt-[2.1vw]">
-            <h2 className="text-neutral-800 text-4xl font-semibold tracking-tight">
+            <h2 className="text-neutral-800 text-[4.346vw] sm:text-4xl font-semibold tracking-tight">
               {data.title}
             </h2>
-            <p className="w-[20.469vw] text-zinc-700 text-xl font-normal leading-[1.814vw] tracking-tight mt-[1.042vw]">
+            <p className="w-full sm:w-[20.469vw] text-zinc-700 text-[3vw] sm:text-xl font-normal leading-[3.7vw] sm:leading-[1.814vw] sm:tracking-tight mt-[1.042vw]">
               {paragraph}.
             </p>
           </div>
-          <HiArrowRight className="flex relative size-[2.5vw] right-[3.125vw] top-[16.93vw]" />
+          <HiArrowRight className="hidden sm:block relative size-[2.5vw] right-[3.125vw] top-[16.93vw]" />
         </div>
         <div className="absolute inset-0 h-full w-full p-[2vw] rounded-xl bg-[#f2fcfe] text-[#42424A] [backface-visibility:visible] [transform:rotateY(180deg)]">
           {data.description.map((para, key) => (
             <p
-              className="text-[1.2vw] font-normal leading-[145.1%] tracking-[0.015rem] text-justify"
+              className="text-[3.363vw] sm:text-[1.2vw] font-normal leading-[110%] sm:leading-[145.1%] tracking-[0.010rem] sm:tracking-[0.015rem] sm:text-justify"
               key={key}
             >
               {para}
