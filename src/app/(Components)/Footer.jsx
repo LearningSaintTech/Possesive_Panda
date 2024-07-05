@@ -91,28 +91,28 @@ const Footer = () => {
                 </p>
               </div>
             </Link>
-            <Link href="tel:+918080555520">
+            <Link href="tel:+14158003326">
               <div className="flex items-center cursor-pointer">
                 <FcPhone className="size-[9vw] mr-[1.5vw] sm:mr-0 sm:size-[1.563vw] -rotate-90" />
                 <p className="text-[5vw] sm:text-[1.25vw] font-medium tracking-[0.015rem] leading-[125%] hover:text-[#00AFF1] text-[#2A2A2A] ml-[1.042vw]">
-                  +91 8080555520
+                  +1 (415) 800-3326
                 </p>
               </div>
             </Link>
           </div>
           <div className="flex justify-center sm:justify-start mt-[3.85vw] sm:mt-[1.7vw] w-full sm:w-[45vw] gap-[7.7vw]  sm:gap-[3vw]">
-            <Link href="www.twiter.com" className="cursor-pointer ">
+            <a href="https://x.com/possesivepanda" className="cursor-pointer ">
               <BsTwitterX className="size-[5.5vw] sm:size-[1.4vw] hover:text-[#00AFF1] " />
-            </Link>
-            <Link href="www.twiter.com">
+            </a>
+            <a href="https://www.linkedin.com/company/102720317/admin/dashboard/">
               <FaLinkedinIn className="size-[5.5vw] sm:size-[1.4vw] hover:text-[#00AFF1]" />
-            </Link>
-            <Link href="www.twiter.com">
+            </a>
+            <a href="https://www.instagram.com/possesivepanda/">
               <IoLogoInstagram className="size-[5.5vw] sm:size-[1.4vw] hover:text-[#00AFF1]" />
-            </Link>
-            <Link href="www.twiter.com">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61559502103126">
               <FaFacebookF className="size-[5.5vw] sm:size-[1.4vw] hover:text-[#00AFF1]" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-full sm:w-fit">

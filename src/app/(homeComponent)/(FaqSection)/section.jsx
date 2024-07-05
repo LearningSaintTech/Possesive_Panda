@@ -17,12 +17,12 @@ const Faq = () => {
         <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[14px] lg:mb-[13px]">
           Can’t find what you’re looking for?
         </p>
-        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[46px]">
+        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[2vw]">
           Contact us here:
         </p>
         <a
           href="mailto:hello@possesivepanda.com"
-          className="text-[4.56vw] lg:text-[1.042vw] font-medium leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6]"
+          className="text-[4.56vw] lg:text-[1.042vw] font-semibold leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6]"
         >
           PossesivePanda.com
         </a>

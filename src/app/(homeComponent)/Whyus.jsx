@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import "./why.css";
 import Image from "next/image";
 import React from "react";
 import card_1 from "../../assets/home/whyus/card-1.png";
@@ -25,17 +25,25 @@ const WhyUs = () => {
         </p>
       </div>
       <div className="lg:ml-[7.552vw]">
-        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative mt-[58px] mb-[60.69px] lg:mb-0">
-          <Image
-            src={card_1}
-            alt="card-1"
-            className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
-          />
-          <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
-            Proven Track Record
-          </h6>
+        <div className="group card-container w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] relative mt-[58px] mb-[60.69px] lg:mb-0">
+          <div className="group w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
+            <Image
+              src={card_1}
+              alt="card-1"
+              className="absolute right-[7.051vw] lg:right-[1.563vw] lg:top-[1.458vw] top-[6.587vw]"
+            />
+            <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
+              Proven Track Record
+            </h6>
+            <p className="card-text absolute bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[2.629vw] lg:text-[1.042vw] text-black">
+              Proven Track Record Review our track record, which showcases our
+              dedication and expertise in providing exceptional services to
+              trusted clients. Our achievements are clearly demonstrated by our
+              numbers.
+            </p>
+          </div>
         </div>
-        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0">
+        <div className="group w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0">
           <Image
             src={card_2}
             alt="card-2"
@@ -44,8 +52,13 @@ const WhyUs = () => {
           <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
             Industry Expertise
           </h6>
+          <p className="card-text absolute bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[2.629vw] lg:text-[1.042vw] text-black">
+            We have years of various industry expertise, which makes our
+            experienced team of highly skilled members. With this expertise, we
+            are proud to develop a different tech world.
+          </p>
         </div>
-        <div className="w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
+        <div className="group w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
           <Image
             src={card_3}
             alt="card-3"
@@ -54,6 +67,11 @@ const WhyUs = () => {
           <h6 className="w-[56.667vw] md:w-fit text-[7.521vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw]">
             Client-centric approach
           </h6>
+          <p className="card-text absolute bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[2.629vw] lg:text-[1.042vw] text-black">
+            We understand clients’ requirements, goals, and challenges to
+            deliver them with the best possible services. High client
+            satisfaction is our priority, making this a reason to trust us.
+          </p>
         </div>
       </div>
       <Image
