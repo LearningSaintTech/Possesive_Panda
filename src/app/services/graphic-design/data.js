@@ -202,6 +202,17 @@ const whyIs = [
       { name: `Figma`, image: softwareIcons[7] },
       { name: `Canva`, image: softwareIcons[8] },
     ],
+    row3: [
+      { name: `Adobe Photoshop`, image: softwareIcons[0] },
+      { name: `Adobe illustrator`, image: softwareIcons[1] },
+      { name: `CorelDRAW`, image: softwareIcons[2] },
+      { name: `Adobe InDesign`, image: softwareIcons[3] },
+      { name: `Autodesk 3ds Max`, image: softwareIcons[4] },
+      { name: `Adobe Premiere Pro`, image: softwareIcons[5] },
+      { name: `Adobe After Effects`, image: softwareIcons[6] },
+      { name: `Figma`, image: softwareIcons[7] },
+      { name: `Canva`, image: softwareIcons[8] },
+    ]
   };
 
   const faq = [
