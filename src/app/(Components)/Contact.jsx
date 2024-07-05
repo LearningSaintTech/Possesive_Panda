@@ -1,19 +1,24 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+//import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { LiaFaxSolid } from "react-icons/lia";
 import { SlEnvolopeLetter } from "react-icons/sl";
 
 const Contact = () => {
   const initialForm = {
-    name: "",
+    fname: "",
     email: "",
     phone: "",
-    find: "",
+    course: "",
+    ip: "", // Add ip field to the form state
+    site_id:"3",
   };
 
+  //const [ip, setIP] = useState("");
   const [form, setForm] = useState(initialForm);
+  const [message, setMessage] = useState("");
 
   const handleKeyPress = (e) => {
     const allowedKeys = /[0-9\b]/;
@@ -21,6 +26,19 @@ const Contact = () => {
       e.preventDefault();
     }
   };
+
+  const getData = async () => {
+    const res = await fetch("https://api.ipify.org/?format=json");
+    const data = await res.json();
+    setForm((prevState) => ({
+      ...prevState,
+      ip: data.ip,
+    }));
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   const handleChange = (e) => {
     const value = e.target.value;
@@ -31,9 +49,24 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(form);
+    const apiUrl = "https://crm.learningsaint.com/api/addLeads?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj";
+    const response = await fetch(apiUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+
+    if (response.ok) {
+      setMessage("Form submitted successfully!");
+      //alert("Form submitted successfully!");
+    } else {
+      setMessage("Failed to submit the form.");
+    }
+
     setForm(initialForm);
   };
   return (
@@ -51,7 +84,7 @@ const Contact = () => {
             type="text"
             required
             placeholder="Name"
-            name="name"
+            name="fname"
             onChange={handleChange}
             maxLength={25}
             className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
@@ -74,11 +107,11 @@ const Contact = () => {
             className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <select
-            name="find"
+            name="course"
             onChange={handleChange}
             className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
           >
-            <option hidden value="find">
+            <option hidden value="course">
               How did you find us?
             </option>
             <option value="Instagram">Instagram</option>
@@ -86,12 +119,21 @@ const Contact = () => {
             <option value="Advertisment">Advertisment</option>
             <option value="Other">Other</option>
           </select>
+          <input
+            type="hidden"
+            value={form.ip}
+            name="ip"
+            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          />
           <button
             onClick={handleSubmit}
             className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] leading-[normal]"
           >
             SEND
           </button>
+          {message && (
+            <p className="text-green-500 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] mt-2">{message}</p>
+          )}
           <div className="flex flex-col lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[40px]">
             <Link className="flex items-center hover:opacity-60" href="">
               <BiPhoneCall className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />

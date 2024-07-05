@@ -12,7 +12,9 @@ import back from "../../../assets/home/back-arrow.png";
 const HandlePage = ({ setOpen }) => {
   const pageRef = useRef(null);
   const [showSnackbar, setShowSnackbar] = useState(false);
+  const [responseMessage, setResponseMessage] = useState('');
   const [form, setForm] = useState({
+    site_id:"3",
     firstName: "",
     lastName: "",
     mobile: "",
@@ -32,19 +34,62 @@ const HandlePage = ({ setOpen }) => {
     setStep((step) => step + 1);
   };
 
+  // const handleFinish = () => {
+  //   // DO nothing
+  //   console.log(form);
+  //   setShowSnackbar(true);
+  //   const hide = async () => {
+  //     await new Promise((res) => setTimeout(res, 1000));
+  //     setShowSnackbar(false);
+  //     pageRef.current.classList.add("animate-swipeOut");
+  //     await new Promise((res) => setTimeout(res, 600));
+  //     setOpen(false);
+  //   };
+  //   hide();
+  // };
+
   const handleFinish = () => {
-    // DO nothing
-    console.log(form);
-    setShowSnackbar(true);
-    const hide = async () => {
-      await new Promise((res) => setTimeout(res, 1000));
-      setShowSnackbar(false);
-      pageRef.current.classList.add("animate-swipeOut");
-      await new Promise((res) => setTimeout(res, 600));
-      setOpen(false);
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        // Replace 'zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj' with your actual API token
+        'Authorization': 'Bearer zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj'
+      },
+      body: JSON.stringify(form)
     };
-    hide();
+  
+    // Perform the POST request
+    fetch('https://crm.learningsaint.com/api/addItLeads?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj', options)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Success:', data);
+        // Show success message
+        setShowSnackbar(true); // Assuming this controls the UI for showing success
+        setResponseMessage('Lead added successfully.'); // Set your success message here
+        const hide = async () => {
+          await new Promise((res) => setTimeout(res, 1000));
+          setShowSnackbar(false);
+          pageRef.current.classList.add("animate-swipeOut");
+          await new Promise((res) => setTimeout(res, 600));
+          setOpen(false);
+        };
+        hide();
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        // Show error message
+        setShowSnackbar(true); // Assuming this controls the UI for showing errors
+        setResponseMessage('Failed to add lead. Please try again.'); // Set your error message here
+        // Handle error scenario, e.g., show error message to user
+      });
   };
+  
 
   const handlePreviousStep = () => {
     setAnimationClass("animate-swipeInFromLeft");
