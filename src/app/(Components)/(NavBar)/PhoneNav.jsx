@@ -3,15 +3,12 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";
-import { premiumServicesData, serviceContent } from "./data";
-import PremiumServices from "./PremiumServices";
+import { services } from "./data";
 import SubServices from "./SubServices";
 
 const PhoneNav = ({ setShowSidebar, activeLabel }) => {
   const sidebarRef = useRef(null);
   const [showServices, setShowServices] = useState(false);
-  const [showNormalServices, setShowNormalServices] = useState(false);
-  const [showPremiumServices, setShowPremiumServices] = useState(false);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -62,28 +59,9 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
         </button>
         {showServices && (
           <div className="">
-            <button
-              className="flex font-normal bg-[#ededed] py-4 pl-6 border-b border-gray-200 w-[75vw] text-start justify-between pr-8 items-center"
-              onClick={() => setShowNormalServices(!showNormalServices)}
-            >
-              <p className="">Normal Services</p>
-              <FaCaretDown className="size-[5vw] opacity-50" />
-            </button>
-            {showNormalServices &&
-              serviceContent["Services"].map((service, key) => (
-                <SubServices name={service} key={key} />
-              ))}
-            <button
-              className="font-normal bg-[#ededed] py-4 pl-6 flex border-b border-gray-200 w-[75vw] text-start justify-between pr-8 items-center"
-              onClick={() => setShowPremiumServices(!showPremiumServices)}
-            >
-              <p>Premium Services</p>
-              <FaCaretDown className="size-[5vw] opacity-50" />
-            </button>
-            {showPremiumServices &&
-              premiumServicesData.map((service, key) => (
-                <PremiumServices name={service} key={key} />
-              ))}
+            {services.map((service, key) => (
+              <SubServices data={service} key={key} />
+            ))}
           </div>
         )}
         <Link
@@ -93,14 +71,6 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
           }`}
         >
           Portfolio
-        </Link>
-        <Link
-          href="/insights"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "Insights" ? "text-[#00AFF1]" : ""
-          }`}
-        >
-          Insights
         </Link>
         <Link
           href="/blog"

@@ -6,6 +6,7 @@ import logo from "../../../assets/nav/nav-logo.png";
 import Dropdown from "./Dropdown";
 import { usePathname } from "next/navigation";
 import PhoneNav from "./PhoneNav";
+import { FaChevronDown } from "react-icons/fa6";
 
 const Nav = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -23,6 +24,9 @@ const Nav = () => {
       document.body.style.overflow = "";
     };
   }, [showSidebar]);
+  useEffect(() => {
+    setShowSidebar(false);
+  }, [pathname]);
 
   const links = [
     { href: "/", label: "Home" },
@@ -42,14 +46,14 @@ const Nav = () => {
   const hoverClass = "hover:text-[#00AFF1]";
   const activeClass = "text-[#00AFF1]";
   return (
-    <nav className="w-full h-[18vw] lg:h-[5.58vw] bg-[#FAFAFA] pl-[4.635vw] pr-[5.208vw] py-[1.15vw] shadow-lg fixed top-0 z-30">
+    <nav className="w-full h-[18vw] sm:h-[5.58vw] bg-[#FAFAFA] pl-[4.635vw] pr-[5.208vw] py-[1.15vw] shadow-sm fixed top-0 z-30">
       <div className="flex justify-between items-center relative">
         <Image
           src={logo}
           alt="logo"
-          className="w-[20vw] h-[15vw] lg:w-[5.521vw] lg:h-[4.167vw]"
+          className="w-[20vw] h-[15vw] sm:w-[5.521vw] sm:h-[4.167vw]"
         />
-        <div className="lg:hidden">
+        <div className="sm:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="31"
@@ -74,7 +78,7 @@ const Nav = () => {
             />
           )}
         </div>
-        <div className="text-[1.25vw] font-normal lg:flex gap-[3.49vw] py-auto items-center hidden">
+        <div className="text-[1.25vw] font-normal sm:flex gap-[3.49vw] py-auto items-center hidden">
           <Link
             href="/"
             className={`${activeLabel === "Home" ? activeClass : hoverClass}`}
@@ -93,11 +97,11 @@ const Nav = () => {
             href="/"
             className={`${
               activeLabel === "Services" ? activeClass : hoverClass
-            }`}
+            } flex gap-[0.2vw] items-center`}
             onClick={() => setShowDropdown(false)}
             onMouseEnter={() => setShowDropdown(true)}
           >
-            Services
+            Services <FaChevronDown className="size-[1vw]" />
           </Link>
           <Link
             href="/portfolio"
@@ -107,14 +111,14 @@ const Nav = () => {
           >
             Portfolio
           </Link>
-          <Link
+          {/* <Link
             href=""
             className={`${
               activeLabel === "Insights" ? activeClass : hoverClass
             }`}
           >
             Insights
-          </Link>
+          </Link> */}
           <Link
             href="/blog"
             className={`${activeLabel === "Blogs" ? activeClass : hoverClass}`}

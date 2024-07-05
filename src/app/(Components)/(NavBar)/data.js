@@ -101,4 +101,35 @@ const serviceContent = {
   ],
 };
 
-export { premiumServicesData, serviceContent };
+const services = [
+  {
+    name: "E-Commerce Service",
+    link: "/services/e-commerce",
+  },
+  {
+    name: "Digital Marketing Service",
+    link: "/services/digital-marketing",
+  },
+  {
+    name: "Social Media Service",
+    link: "/services/social-media",
+  },
+  {
+    name: "Mobile App Development Service",
+    link: "/services/mobile-app-development",
+  },
+  {
+    name: "Graphic Design Service",
+    link: "/services/graphic-design",
+  },
+  {
+    name: "Web Development Service",
+    link: "/services/web-development",
+  },
+  {
+    name: "Startup Bundle",
+    link: "/services/start-up-bundle",
+  },
+];
+
+export { premiumServicesData, serviceContent, services };

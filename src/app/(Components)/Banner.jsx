@@ -24,7 +24,7 @@ const Banner = ({ title, desciption, page, image }) => {
           >
             Home
           </Link>
-          <span className="text-white relative z-[999] text-[3vw] sm:text-[2vw] lg:text-[1.043vw] font-medium leading-[normal] tracking-[0.013rem]">
+          <span className="text-white relative text-[3vw] sm:text-[2vw] lg:text-[1.043vw] font-medium leading-[normal] tracking-[0.013rem]">
             :
           </span>
           <span className="text-white text-[3vw] sm:text-[2vw] lg:text-[1.043vw] font-medium leading-[normal] tracking-[0.013rem]">
