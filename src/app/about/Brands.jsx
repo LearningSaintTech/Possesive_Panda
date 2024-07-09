@@ -25,7 +25,7 @@ const Brands = () => {
             <Image
               src={icon.black}
               alt={`Brand ${key}`}
-              className="h-[3.2vw] w-[9.48vw] absolute transition-opacity duration-300 group-hover:opacity-0 object-contain table-fixed"
+              className="h-[3.87vw] w-[10vw] absolute transition-opacity duration-300 group-hover:opacity-0 object-contain table-fixed"
             />
             <Image
               src={icon.white}

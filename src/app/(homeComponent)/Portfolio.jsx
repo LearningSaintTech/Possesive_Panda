@@ -12,7 +12,7 @@ const Portfolio = () => {
           Our Portfolio
         </h5>
         <h2 className="text-[5vw] md:text-[4vw] text-white lg:text-[3.333vw] font-medium tracking-[0.04rem]">
-          Portfolio Highlights
+          Project Accomplishments
         </h2>
         <p className="text-[#F9F9F9] font-normal text-[2.5vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.015rem] w-[52vw] lg:w-fit">
           Explore our world of standout projects that Possesive Panda
@@ -21,7 +21,7 @@ const Portfolio = () => {
 
         <Link
           href="portfolio"
-          className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw] hover:text-[#2a2a2a] hover:bg-white hover:duration-300 duration-300"
+          className="bg-stone-900 text-[2.5vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-[30vw] lg:w-[15vw] hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300"
         >
           All Works
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />

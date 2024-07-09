@@ -183,7 +183,7 @@ const Footer = () => {
       </div>
 
       <h1 className="mt-[1.3vw] text-[3vw] sm:text-[1.25vw] leading-[183%] text-[#2A2A2A] tracking-[0.03rem] pb-[1.3vw] mx-auto sm:mr-0 sm:ml-[20.833vw] w-fit">
-        © 2024 | Alrights reserved by Possessive Panda
+        © 2024 | All rights reserved by Possesive Panda
       </h1>
 
       <Image
