@@ -7,7 +7,7 @@ const Features = ({ data }) => {
       <Image
         src={data.image}
         alt="feature"
-        className="w-[28.182vw] h-[45vw] sm:w-[15.57vw] sm:h-[21.875vw] select-none"
+        className="w-[28.182vw] h-[45vw] sm:w-[15.57vw] sm:h-[23.3vw] select-none"
       />
       <div>
         <Image
@@ -20,7 +20,7 @@ const Features = ({ data }) => {
         >
           {data.title}
         </h6>
-        <p className="text-[#212121] text-[2.5vw] sm:text-[1.042vw] leading-[normal] tracking-[0.013rem] text-justify w-fit sm:w-[23.96vw]  select-none">
+        <p className="text-[#212121] text-[2.5vw] sm:text-[1.25vw] leading-[normal] tracking-[0.013rem] text-justify w-fit sm:w-[27.5vw]  select-none">
           {data.description}
         </p>
       </div>

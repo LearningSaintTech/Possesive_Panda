@@ -23,17 +23,17 @@ const leverage = [
   {
     num: "01",
     title: "Global Reach",
-    description: `A professionally developed website helps reach every person on the internet. It brings geographically dispersed customers closer to the organization and makes it easier to attract, engage, and foster a global audience. This expansion opens new markets and growth horizons; it scales businesses like no other medium could.`,
+    description: ` A professionally developed website helps reach every person on the internet. It brings geographically dispersed customers closer to the organization and makes it easier to attract, engage, and foster a global audience. This expansion opens new markets and growth horizons`,
   },
   {
     num: "02",
     title: "Cost Savings",
-    description: ` Investment in web development and design is a cost strategic plan compared to traditional marketing. A well-designed website acts like a store open 24/7, minimizing the need for physical offices and their associated costs.`,
+    description: ` Investment in web development and design is a cost strategic plan compared to traditional marketing. A well-designed website acts like a store open 24/7, minimizing the need for physical offices and their associated costs. It takes the business online, reducing the customer acquisition cost.`,
   },
   {
     num: "03",
     title: "Search Engine Optimization",
-    description: `Web design and development services incorporate a strong strategy for SEO to help make websites visible. Higher rankings bring higher traffic, which brings higher conversions and higher sales.`,
+    description: `Web design and development services incorporate a strong strategy for SEO to help make websites visible. Higher rankings on search engines bring higher traffic to the website, which brings higher conversions and consequently higher sales.`,
   },
   {
     num: "04",
@@ -83,7 +83,7 @@ const howWeDevelop = [
   {
     num: nums[4],
     title: "Testing and Optimization",
-    description: `Before launching, we conduct rigorous testing to ensure that the website functions flawlessly. This includes checking all features and interactivity, cross-browser compatibility testing to see if the site works on all major browsers, seeing if it delivers optimal experience on all devices. We also incorporate search engine optimization, ensuring higher rankings and thus visibility for the website.`,
+    description: `Before launching, we conduct rigorous testing to ensure that the website functions flawlessly. This includes checking all features and interactivity, cross-browser compatibility testing to see if the site works on all major browsers, seeing if it delivers optimal experience on all devices. We also incorporate SEO, ensuring higher rankings and visibility for the website.`,
     image: feature[4],
   },
   {
@@ -228,6 +228,15 @@ const faq = [
   {
     title: `What are web development frameworks?`,
     description: `Web development frameworks, web application frameworks or web frameworks are sets of resources and tools used by developers in order to build and maintain websites, web applications, web services and also to develop APIs.`,
+  },
+
+  {
+    title: `What is the website development process?`,
+    description: `Web development and design is a complex and integrated process that commences with defining and planning the project before designing the layout and structure of the website. The content of the website is then created in alignment with the project planning, after which developers code the website into life. Testing of the site is done thoroughly before its final deployment, and regular maintenance is performed afterwards.`,
+  },
+  {
+    title: `Why is website development important?`,
+    description: `Having a website for your business is not a luxury, but a necessity in today’s age where businesses exist online more than they do traditionally. It helps you deliver information about your business offerings to the audience of your site, and market them by showing their importance and unique selling points.`,
   },
 ];
 

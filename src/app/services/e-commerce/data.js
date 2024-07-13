@@ -54,7 +54,7 @@ marketplace.`,
   {
     num: "4",
     title: "Consumer-to-Business",
-    description: `Consumers contribute something of worth to a business. Bloggers, YouTubers, or
+    description: `Consumers give something of worth to a business. Bloggers, YouTubers, or
 social media influencers create content that businesses pay to use or sponsor. This
 helps them market their products in a way that feels relatable to consumers en
 masse.`,
@@ -360,15 +360,12 @@ competitive market.`,
   },
   {
     title: "Time and cost Efficiency",
-    description: `E-commerce reduces the need for in-house resources to
-create e-commerce platforms. In E-commerce service, we quickly launch an online
-store, which helps in time-saving as compared to building from scratch.`,
+    description: `E-commerce reduces the need for in-house resources to create e-commerce platforms. In E-commerce service, we quickly launch an online store, which helps in time-saving.`,
     image: whyImages[1],
   },
   {
     title: "Technical support and maintenance",
-    description: `With the help of regular updates and maintenance services it is easy to keep the site
-secure, and up-to-date with latest features.`,
+    description: `Regular updates and maintenance services help keep the site secure and up-to-date with the latest features, allowing us to easily match the competitive environment.`,
     image: whyImages[2],
   },
   {

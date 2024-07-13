@@ -31,7 +31,7 @@ const page = () => {
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
-        <div className="mt-[5.2vw]">
+        <div className="mt-[4vw]">
           <h4 className="text-[#212121] text-[4.346vw]  sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[30vw]">
             Our Mobile Application Development Service
           </h4>

@@ -87,7 +87,7 @@ const Banner = ({ whyUsHeight }) => {
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
         </button>
       </div>
-      <div className="flex justify-around  md:justify-end">
+      <div className="flex justify-around md:justify-end">
         <div className="h-full inline-flex flex-col overflow-hidden mr-[3.125vw]">
           <ul
             ref={upRef}

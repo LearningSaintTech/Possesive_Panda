@@ -23,17 +23,17 @@ const ourMadeServices = [
   {
     num: "2",
     title: "Cross-Platform App Development",
-    description: ` Apps that function on multiple operating systems are called cross-platform apps. For mobile apps, developers write a single codebase that can further be used to deploy the application on various platforms. This solves the problem of developing the application separately for every operating system, while improving functionality and efficiency across devices.`,
+    description: `Apps that function on multiple operating systems are called cross-platform apps. Developers write a single codebase that can be used to deploy the application on various platforms. This solves the problem of developing the application separately for every operating system.`,
   },
   {
     num: "3",
     title: "Web App Development",
-    description: `Applications that work exclusively on web browsers are called web applications. They cannot access the device hardware and capabilities but have the ability to work across web browsers across devices, and also have less complex and more cost-efficient development processes.`,
+    description: `Applications that work exclusively on web browsers are called web applications. They cannot access the device hardware and capabilities but have the ability to work across web browsers on any device. Also, their development processes are much less complex and much more cost-efficient.`,
   },
   {
     num: "4",
     title: "Hybrid App Development",
-    description: ` Hybrid applications merge the features of web apps and native apps to build software that is compatible across platforms but does not perform as well as native apps. Using web development languages like HTML5, CSS, and JavaScrip, the code is written once and subsequently reused for different platforms. Despite its flaws, this method of app development does save time and costs.`,
+    description: ` Hybrid apps merge the features of web apps and native apps. They are compatible across platforms but do not perform as well as native apps. The code is written once and subsequently reused for different platforms. Despite its flaws, this method of app development does save time and costs.`,
   },
 ];
 
@@ -46,7 +46,7 @@ const androidApp = [
   {
     num: "02",
     title: "How?",
-    description: `The crucial first step for developing an Android app is coming up with an innovative concept. Once a concept is ideated, its planning, designing, coding and testing is done before final deployment.`,
+    description: `The crucial first step for developing an Android app is coming up with an innovative concept. Once a concept is ideated, its structural planning, UI/UX designing, coding and testing is done before final deployment.`,
   },
   {
     num: "03",
@@ -94,7 +94,7 @@ const iosApp = [
   {
     num: "04",
     title: "Compatibility?",
-    description: `Unlike Android, there are very limited devices (thus fewer screen sizes and hardware specifications) on iOS. This makes it easier to ensure consistency in user experience, helping developers to concentrate on refining the UI and the functionality.`,
+    description: `Unlike Android, there are very limited devices (thus fewer screen sizes and hardware specifications) on iOS. This eases consistency in user experience, helping developers to concentrate on refining the UI and the functionality.`,
   },
   {
     num: "05",
@@ -104,12 +104,12 @@ const iosApp = [
   {
     num: "06",
     title: "Testing?",
-    description: `Testing is generally done with the help of physical devices and simulators built in by Xcode itself. TestFlight by Apple allows developers to distribute beta versions of their apps to testers, collect feedback, and identify and fix errors before the official release.`,
+    description: `Testing is done with the help of physical devices and simulators built in by Xcode itself. TestFlight by Apple allows developers to distribute beta versions to testers, collect feedback, and identify and fix errors before the official release.`,
   },
   {
     num: "7",
     title: "Revenue?",
-    description: `The Apple App Store has sky-high quality and security standards that ensure a safe and reliable user experience. iOS apps earn through paid apps, in-app purchases, subscriptions, and advertising, where Apple Inc. claims part of the revenue.`,
+    description: `The Apple App Store has sky-high quality and security standards that ensure a safe and reliable UX. iOS apps earn through paid apps, in-app purchases, subscriptions, and advertising, where Apple Inc. claims part of the revenue.`,
   },
   {
     num: "8",
@@ -181,7 +181,7 @@ const leverage = [
   },
   {
     title: "Improved Mobile App UI/UX",
-    description: `Handy and efficient user interface of mobile apps provides for a user-friendly experience that enhances customer engagement. The convenience and personalized features of a mobile application cannot be found in websites or web apps that function on larger devices`,
+    description: `Handy and efficient user interface of mobile apps provides for a user-friendly experience that enhances customer engagement. This convenience cannot be found in websites or web apps that function on larger devices`,
     image: leverageIcons[2],
   },
 ];
@@ -198,6 +198,18 @@ const faq = [
   {
     title: `How do I decide the type of mobile app for my company?`,
     description: `The type of application you should get developed for your company, along with its structure, features, app development software etc are decisions that come under the strategic planning of your app. Before the development process begins, the requirements of your company as well as market trends are analyzed and taken under consideration while planning the app so as to optimize it for maximum efficiency and competence.`,
+  },
+  {
+    title: `Why is mobile app development important?`,
+    description: `It can vary as per your business's needs. The app will be strategically planned out, which will decide its features, complexity, structure, and overall approach. Accordingly, mobile applications development with advanced requirements will take more time than basic apps, which get finished in 1-3 months.`,
+  },
+  {
+    title: `What are the different kinds of mobile apps?`,
+    description: `There are majorly three kinds of mobile applications, namely native apps, hybrid apps and web apps. Native apps are specific to their operating system. Hybrid apps are ones that work across platforms with some of the features of native apps as well. However, they do not perform as well as native apps do. Web apps work on web browsers across platforms but are unable to offer hardware features that native or hybrid apps do.`,
+  },
+  {
+    title: `Why choose Possesive Panda for mobile app development?`,
+    description: `Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more. Additionally, we hand the source code of the project over to the client, so that they can make updates and maintenance through any developer of their choice.`,
   },
 ];
 

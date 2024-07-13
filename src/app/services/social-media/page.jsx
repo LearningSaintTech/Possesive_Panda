@@ -49,7 +49,7 @@ const page = () => {
           <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
             Our Social Media Management Services
           </h4>
-          <p className="text-[#212121] text-[3.636vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] mb-[2vw] w-full sm:w-[47vw]">
+          <p className="text-[#212121] text-[3.636vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] w-full sm:w-[47vw]">
             Social Media Management is about using social media platforms to
             connect with your target audience and organically achieve specific
             goals.

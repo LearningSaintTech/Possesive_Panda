@@ -36,8 +36,8 @@ const page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
-            Types of E-commerce
+          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          Types of E-Commerce:
           </h4>
           <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {typesOfECommerce.map((item, key) => (
@@ -46,10 +46,10 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw] ">
-          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Our Features
           </h5>
-          <p className="text-[#212121] text-[2.95vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[5.2vw]">
+          <p className="text-[#212121] text-[2.95vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[4vw]">
             Our e-commerce service makes your online store look great and
             attractive, which helps drive sales. They are designed to attract
             more and more customers. We help in making your brand strong and
@@ -61,8 +61,8 @@ const page = () => {
       <Industries />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Strategy statergy={statergy} />
-        <div>
-          <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+        <div className="mt-[5.2vw]">
+          <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw]">
             Benefits of E-commerce Management software
           </h3>
           <div className="py-[5.2vw] grid grid-cols-2 sm:grid-cols-4 gap-[5vw] sm:gap-[2vw] ">
@@ -71,8 +71,8 @@ const page = () => {
             ))}
           </div>
         </div>
-        <div>
-          <h3 className="text-[#212121]  text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+        <div className="pt-[5.2vw]">  
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw]">
             How does e-commerce service help businesses to grow?
           </h3>
           <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
@@ -81,7 +81,7 @@ const page = () => {
             ))}
           </div>
         </div>
-        <div>
+        <div className="pt-[5.2vw]">
           <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
             Our E-commerce process
           </h3>
@@ -91,8 +91,8 @@ const page = () => {
           </p>
           <ProcessCard process={process} />
         </div>
-        <div>
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mt-[5vw] sm:mt-0">
+        <div className="pt-[5.2vw]">
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-[5vw] sm:mt-0">
             E-commerce inventory management software
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-[5.2vw] gap-y-[9vw] sm:gap-y-[3vw] mt-[5.2vw]">
@@ -103,10 +103,10 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[#F3FCFE] bg-opacity-50 px-[5.2vw] py-[3.385vw] mt-[5vw] sm:mt-[3.3vw]">
-        <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+        <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw]">
           Why choose an E-commerce solution service?
         </h3>
-        <p className="text-[#212121] sm:text-[1.67vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[46vw] mt-[2.4vw]">
+        <p className="text-[#212121] sm:text-[1.25vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[46vw] mt-[2.4vw]">
           Choosing the best E-commerce fulfillment service offers countless
           advantages for businesses looking to establish their online presence.
         </p>

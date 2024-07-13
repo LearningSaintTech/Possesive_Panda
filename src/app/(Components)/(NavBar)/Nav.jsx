@@ -49,11 +49,13 @@ const Nav = () => {
   return (
     <nav className="w-full h-[18vw] sm:h-[5.58vw] bg-[#FAFAFA] pl-[4.635vw] pr-[5.208vw] py-[1.15vw] shadow-sm fixed top-0 z-30">
       <div className="flex justify-between items-center relative">
-        <Image
-          src={logo}
-          alt="logo"
-          className="w-[20vw] h-[15vw] sm:w-[5.521vw] sm:h-[4.167vw]"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            className="w-[20vw] h-[15vw] sm:w-[5.521vw] sm:h-[4.167vw]"
+          />
+        </Link>
         <div className="sm:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -88,16 +90,14 @@ const Nav = () => {
           </Link>
           <Link
             href="/about"
-            className={`${
-              activeLabel === "About Us" ? activeClass : hoverClass
-            }`}
+            className={`${activeLabel === "About Us" ? activeClass : hoverClass
+              }`}
           >
             About Us
           </Link>
           <button
-            className={`${
-              activeLabel === "Services" ? activeClass : hoverClass
-            } flex gap-[0.2vw] items-center`}
+            className={`${activeLabel === "Services" ? activeClass : hoverClass
+              } flex gap-[0.2vw] items-center`}
             onClick={() => setShowDropdown(false)}
             onMouseEnter={() => setShowDropdown(true)}
           >
@@ -105,9 +105,8 @@ const Nav = () => {
           </button>
           <Link
             href="/portfolio"
-            className={`${
-              activeLabel === "Portfolio" ? activeClass : hoverClass
-            }`}
+            className={`${activeLabel === "Portfolio" ? activeClass : hoverClass
+              }`}
           >
             Portfolio
           </Link>
