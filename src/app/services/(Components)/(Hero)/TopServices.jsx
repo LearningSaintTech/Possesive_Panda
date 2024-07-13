@@ -43,7 +43,7 @@ const TopServices = () => {
           <Link
             key={key}
             href={category.link}
-            className="bg-[#F8F9FA] text-neutral-800 text-[1vw] font-normal leading-[normal] tracking-[0.015rem] border border-opacity-50 rounded-[0.3125rem] w-11/12 py-[0.8vw] text-start pl-[1.458vw] flex justify-between pr-[0.781vw] hover:bg-sky-500 hover:text-white items-center duration-300 hover:duration-300"
+            className="bg-[#F8F9FA] text-neutral-800 text-[1.2vw] font-normal leading-[normal] tracking-[0.015rem] border border-opacity-50 rounded-[0.3125rem] w-11/12 py-[0.8vw] text-start pl-[1.458vw] flex justify-between pr-[0.781vw] hover:bg-sky-500 hover:text-white items-center duration-300 hover:duration-300"
           >
             {category.name} <BsArrowRight className="size-[1.875vw]" />
           </Link>

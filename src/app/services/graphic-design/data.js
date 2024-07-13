@@ -28,7 +28,7 @@ const whyIs = [
   {
     num: "2",
     title: "Brand Empowerment",
-    description: `Visual elements such as logos, consistent color schemes and typography across branding materials (such as business cards, websites, mobile apps, packaging) establish a professional identity for the organization. This identity gives the brand recognition, making it easier to leave a strong perception with potential clients.`,
+    description: `Visual elements such as logos, consistent color schemes and typography across branding materials (like business cards, packaging) establish a professional identity for the organization. It gives the brand recognition, leaving a strong perception with potential clients.`,
   },
   {
     num: "3",
@@ -38,7 +38,7 @@ const whyIs = [
   {
     num: "4",
     title: "Building Credibility",
-    description: `High-quality design builds trust among the audience, helping your brand establish a professional reputation. Good design is often associated with good credibility, increasing the conversion rates.`,
+    description: `High-quality design builds trust among the audience, helping your brand establish a professional reputation. Good design is often associated with good credibility, earning the confidence of the viewers, consequently increasing the conversion rates, and thus, revenue.`,
   },
 ];
 
@@ -122,25 +122,25 @@ const weProvide = [
   {
     num: "03",
     title: "Web",
-    description: `We provide the best digital designs for your websites. Be it web banners, email design, squarespace design, or anything on the world wide web that requires graphics, we have it.`,
+    description: `We provide you the best digital designs for your websites. Be it web banners, email design, squarespace design, slider banners, blog images, or anything on the world wide web that requires graphics, we have it.`,
   },
   {
     num: "04",
     title: "Merchandise",
     description:
-      " Products and merchandise can act as walking advertisements for your brand. We provide you designs for t-shirts, bags, packaging, mugs, stationery, apparel and more.",
+      " Products and merchandise can act as walking advertisements for your brand. We provide you designs for t-shirts, bags, mugs, stationery and more. These can be given to your employees or to customers as rewards.",
   },
   {
     num: "05",
     title: "Digital Art",
     description:
-      "Good-quality custom digital art is the most widely used aesthetic nowadays. We design art and illustrations tailor-made for our customers and their respective needs.",
+      "Good-quality custom digital art is the most widely used aesthetic nowadays. We design art and illustrations that are tailor-made for our customers and their respective needs and requirements.",
   },
   {
     num: "06",
     title: "Infographics",
     description:
-      "Top-notch business presentations and infographics are vital to any professional organization. Our graphic design experts are proficient in ideating and designing concise and informative presentations that communicate your vision to the viewers.",
+      "Our graphic design experts are proficient in ideating and designing concise and informative business presentations and infographics that communicate your business’s vision to the viewers.",
   },
 ];
 
@@ -167,12 +167,12 @@ const weEnsure = [
   },
   {
     title: "Review & Revisions",
-    description: `All the developed designs are presented for review. We encourage detailed feedback to build a final design that meets our client's expectations. Our team makes necessary revisions according to their say, refining the design till they are satisfied. This makes sure the end product is a personification of our customer's brand and vision.`,
+    description: ` All the developed designs are presented for review. We encourage detailed feedback to build a final design that meets our client's expectations. Our team makes necessary revisions according to their say, refining the design till they are satisfied. This makes sure the end product is a personification of our customer's brand and vision, and matches their point of view perfectly for the best possible delivery of service.`,
     image: weEnsureIcons[4],
   },
   {
     title: "Finalization & Delivery",
-    description: `Once the design is approved, we move onto the finalization stage. All design elements are given final touches and set up for delivery. We deliver the final design in several formats compatible for the web, print, or any other medium.`,
+    description: `Once the design is approved, we move onto the finalization stage. All design elements are given final touches to ensure that the overall design is well-integrated and holistic, before it is set up for delivery. We deliver the final design in several formats compatible for the web, print, or any other medium. This can be in the form of .jpg, .jpeg, .png, .svg, .webp, .pdf, .avif, .gif, etc. With our graphic designs, our clients become facilitated for diverse visual marketing channels.`,
     image: weEnsureIcons[5],
   },
   {
@@ -182,7 +182,7 @@ const weEnsure = [
   },
   {
     title: "Feedback & Improvement",
-    description: ` We seek our customer's feedback on their satisfaction, as well as any areas of improvement required. This cycle of feedback is critical to our process of continuous improvement. We use inputs to enhance our processes and ensure even better outputs in all subsequent projects.`,
+    description: `We seek our customer's feedback on their satisfaction, as well as any areas of improvement required from our side. This cycle of feedback is critical to our process of continuous improvement. We use these inputs given by our clientele to enhance our work processes in the future. This makes sure that our subsequent projects experience even better performance, with improved and higher quality graphic designs.`,
     image: weEnsureIcons[7],
   },
 ];
@@ -226,6 +226,18 @@ const faq = [
   {
     title: `How much graphic design services cost?`,
     description: `The cost of completing a design depends on the level of its volume and intricacy. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction.`,
+  },
+  {
+    title: `How do graphic designers work?`,
+    description: `Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports and more`,
+  },
+  {
+    title: `What are graphic illustrations?`,
+    description: `Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media.`,
+  },
+  {
+    title: `Why is graphic design important?`,
+    description: `Graphic design is the most widely used medium of visual mass communication nowadays. This is because good graphic design not only captivates viewers, it also delivers information in a concise and simple way such that it is understandable to even laymen. Thus, graphics are the hub of visual communication in today’s digital age.`,
   },
 ];
 

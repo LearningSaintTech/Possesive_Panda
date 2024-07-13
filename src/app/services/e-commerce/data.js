@@ -295,10 +295,12 @@ const whyUs = [
   {
     title: "Time and cost Efficiency",
     description: `E-commerce reduces the need for in-house resources to create e-commerce platforms. In E-commerce service, we quickly launch an online store, which helps in time-saving.`,
+    description: `E-commerce reduces the need for in-house resources to create e-commerce platforms. In E-commerce service, we quickly launch an online store, which helps in time-saving.`,
     image: whyImages[1],
   },
   {
     title: "Technical support and maintenance",
+    description: `Regular updates and maintenance services help keep the site secure and up-to-date with the latest features, allowing us to easily match the competitive environment.`,
     description: `Regular updates and maintenance services help keep the site secure and up-to-date with the latest features, allowing us to easily match the competitive environment.`,
     image: whyImages[2],
   },

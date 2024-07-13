@@ -5,7 +5,7 @@ const Difference = () => {
     const [activeTab, setActiveTab] = useState("ios");
 
     return (
-        <div className="px-[5.2vw] pt-[8vw]">
+        <div className="px-[5.2vw] pt-[5vw]">
             <h2 className="w-[45vw] text-neutral-800 text-[2.5vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw]">
                 Difference Between Web Development & Web Design
             </h2>

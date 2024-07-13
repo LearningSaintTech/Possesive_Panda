@@ -19,7 +19,7 @@ import wiprowhite from "../../assets/aboutus/brands/wiprowhite.png";
 import techmahindrawhite from "../../assets/aboutus/brands/techmahindrawhite.png";
 import TechMahindrablack from "../../assets/aboutus/brands/TechMahindrablack.png";
 import mission from "../../assets/accordion/mission.png";
-import ourstory from "../../assets/accordion/ourstory.png";
+import ourstory from "../../assets/accordion/our-story.png";
 import vision from "../../assets/accordion/vision.png";
 
 

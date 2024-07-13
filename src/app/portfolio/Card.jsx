@@ -8,7 +8,7 @@ const Card = ({ card }) => {
         <Image
           src={card.image}
           alt="logo"
-          className="w-[20.062vw] h-[15.455vw] sm:w-[8.083vw] sm:h-[5.052vw] relative top-[5.5vw] left-[3.544vw] sm:top-[2.083vw] sm:left-[1.563vw]"
+          className="w-[20.062vw] h-[15.455vw] sm:w-[10vw] sm:h-[6.7vw] relative top-[5.5vw] left-[3.544vw] sm:top-[2.083vw] sm:left-[1.563vw]"
         />
         <div className="flex gap-[13vw] ml-[5.455vw] pt-[20.091vw] sm:gap-[2.6vw] sm:ml-[2.8vw] sm:pt-[7.5vw]">
           <div className="">

@@ -11,18 +11,18 @@ const Faq = ({ faq }) => {
         <h5 className="text-[#2A2A2A] text-[4.346vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
           FAQ
         </h5>
-        <h2 className="text-[#2A2A2A] text-[8vw] md:text-[7.5vw] lg:text-[3.333vw] font-medium leading-[normal] tracking-[0.090vw] lg:tracking-[0.033vw] mb-[30px] lg:mb-[8px]">
+        <h2 className="text-[#2A2A2A] text-[8vw] md:text-[7.5vw] lg:text-[2.083vw] font-semibold leading-[normal] tracking-[0.090vw] lg:tracking-[0.033vw] mb-[30px] lg:mb-[8px]">
           Quick answers to questions you may have
         </h2>
-        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[14px] lg:mb-[13px] hidden lg:block">
+        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.25vw] font-normal leading-[normal] mb-[14px] lg:mb-[13px] hidden lg:block">
           Can’t find what you’re looking for?
         </p>
-        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.042vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[46px] hidden lg:block">
+        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.25vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[46px] hidden lg:block">
           Contact us here:
         </p>
         <a
           href="mailto:hello@possesivepanda.com"
-          className="text-[4.56vw] lg:text-[1.042vw] font-medium leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] hidden lg:block"
+          className="text-[4.56vw] lg:text-[1.25vw] font-medium leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] hidden lg:block"
         >
           PossesivePanda.com
         </a>

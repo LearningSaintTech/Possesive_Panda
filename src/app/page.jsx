@@ -27,10 +27,10 @@ export default function Home() {
       <div ref={whyUsRef}>
         <WhyUs />
       </div>
-      <Faq />
       <Technologies />
       <Contact />
       <Blogs />
+      <Faq />
       <Cross />
     </main>
   );
