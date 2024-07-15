@@ -22,7 +22,7 @@ const Blogs = ({ blog }) => {
   };
   return (
     <div
-      className="rounded-[0.5vw] border border-black border-opacity-30 shadow-lg bg-[#FAFAFA] hover:opacity-90 cursor-pointer"
+      className="rounded-[0.5vw] border h-fit border-black border-opacity-30 shadow-lg bg-[#FAFAFA] hover:opacity-90 cursor-pointer"
       onClick={handleClick}
     >
       <Image
@@ -36,10 +36,10 @@ const Blogs = ({ blog }) => {
       <h6 className="text-[#00AFF1] sm:text-[0.833vw] text-[3vw] font-medium leading-[150%] tracking-[0.013rem] pt-[1.5vw] pl-[2.042vw] sm:pt-[1vw] sm:pl-[1.042vw]">
         {blog.title}
       </h6>
-      <h2 className="text-[#212121] text-[4vw] sm:text-[1vw] font-semibold leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
+      <h2 className="text-[#212121] text-[4vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
         {blog.meta_title}
       </h2>
-      <p className="text-[#212121] text-[3.042vw] sm:text-[1.042vw] font-normal leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
+      <p className="text-[#212121] text-[3.042vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] sm:pt-[1vw] sm:pl-[1.042vw] pt-[2vw] pl-[2.042vw]">
         {blog.meta_description}
       </p>
       <div className="flex justify-between items-center sm:mt-[1.5vw] mt-[3.5vw] border-t rounded-b-[0.5vw] border-opacity-50 border-black px-[2.042vw] py-[3vw] sm:px-[1.042vw] sm:py-[1.458vw]">
@@ -48,7 +48,7 @@ const Blogs = ({ blog }) => {
         </p>
         <div className="flex items-center gap-[1.3vw] sm:gap-[0.5vw]">
           <IoCalendarClearOutline className="size-[4.25vw] sm:size-[1.25vw] text-[#00AFF1]" />
-          <p className="text-[#00AFF1] text-[3.5vw] sm:text-[1.042vw]  leading-[normal] tracking-[0.13rem]">
+          <p className="text-[#00AFF1] text-[3.5vw] sm:text-[1.042vw]  leading-normal tracking-[0.13rem]">
             {formatDate}
           </p>
         </div>

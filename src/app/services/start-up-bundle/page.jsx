@@ -16,7 +16,7 @@ const page = () => {
   return (
     <div>
       <Banner
-        title={"Premium Service Service"}
+        title={"Premium Service"}
         desciption={"Services that assist your organization at every step of the journey"}
         page={"Premium Service"}
         image={banner}

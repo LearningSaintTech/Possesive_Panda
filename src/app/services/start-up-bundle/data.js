@@ -120,7 +120,7 @@ const content = {
 };
 
 const virtual = {
-  title: "Virtual Assistance Service",
+  title: "Virtual Assistant Service",
   paragraph: [
     `Possesive Panda is aware of the needs of today's business and the importance of
 effective managerial support. You can focus on what you do best by using our virtual
