@@ -29,7 +29,7 @@ const Frameworks = ({ data }) => {
         {selectedCategory.images.map((item, key) => (
           <div key={key} className="flex flex-col items-center">
             <Image src={item.image} alt={item.name} className="size-[4.95vw]" />
-            <p className="text-[1.042vw] mt-[0.5vw] text-[#212121] leading-[normal] tracking-[0.015rem]">
+            <p className="text-[1.25vw] mt-[0.5vw] text-[#212121] leading-[normal] tracking-[0.015rem]">
               {item.name}
             </p>
           </div>

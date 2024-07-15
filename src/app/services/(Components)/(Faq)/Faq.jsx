@@ -8,16 +8,16 @@ const Faq = ({ faq }) => {
   return (
     <div className="mx-[5.2vw] lg:mx-[6.771vw] mt-[30px] lg:mt-[5.2vw] flex flex-col lg:flex-row lg:justify-between min-h-fit overflow-hidden">
       <div className="w-full lg:w-[24.15vw] h-fit flex-shrink-0 text-black not-italic mb-[1.042vw] lg:mb-[7.76vw]">
-        <h5 className="text-[#2A2A2A] text-[4.346vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[32px]">
+        <h5 className="text-[#2A2A2A] text-[4.346vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[1.2px] mb-[14.75px] lg:mb-[2vw]">
           FAQ
         </h5>
-        <h2 className="text-[#2A2A2A] text-[8vw] md:text-[7.5vw] lg:text-[2.083vw] font-semibold leading-[normal] tracking-[0.090vw] lg:tracking-[0.033vw] mb-[30px] lg:mb-[8px]">
+        <h2 className="text-[#2A2A2A] text-[8vw] md:text-[7.5vw] lg:text-[2.5vw] font-semibold leading-relaxed tracking-[0.090vw] lg:tracking-[0.05vw] mb-[30px] lg:mb-[3vw]">
           Quick answers to questions you may have
         </h2>
         <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.25vw] font-normal leading-[normal] mb-[14px] lg:mb-[13px] hidden lg:block">
           Can’t find what you’re looking for?
         </p>
-        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.25vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[46px] hidden lg:block">
+        <p className="text-[#2A2A2A] text-[4.56vw] lg:text-[1.25vw] font-normal leading-[normal] mb-[28.7px] lg:mb-[2.396vw] hidden lg:block">
           Contact us here:
         </p>
         <a

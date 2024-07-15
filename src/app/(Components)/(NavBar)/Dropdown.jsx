@@ -95,12 +95,7 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
           <ServiceItem key={index} name={item} />
         ))}
       </div> */}
-      <div className="relative w-full h-full">
-        <Image
-          src={background}
-          alt="background"
-          className="absolute inset-0 min-h-full min-w-full object-cover opacity-80"
-        />
+      <div className="relative w-full h-full bg-[#A4EEFD]">
         <div className="relative z-10">
           <div className="grid grid-cols-3 gap-y-[2.7vw] gap-x-[2.76vw] mt-[4.17vw] ml-[5.3vw] mr-auto w-fit">
             {services.map((service, key) => (

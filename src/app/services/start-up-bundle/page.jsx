@@ -50,7 +50,7 @@ const page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Content top={virtual} />
         <div className="mt-[8vw] sm:mt-[5.2vw]">
-          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw] min-w-[25.625vw] sm:h-[23vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pr-[24.167vw] min-w-[25.625vw]">
             {contentA.row1.map((item, key) => (
               <Grow data={item} key={key} />
             ))}
@@ -95,7 +95,7 @@ const page = () => {
               <Grow data={item} key={key} />
             ))}
           </div>
-          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw]">
+          <div className="mt-[3.9vw] flex sm:flex-row flex-col gap-[4.167vw] sm:pl-[24.167vw] sm:mb-[3vw]">
             {contentA.row10.map((item, key) => (
               <Grow data={item} key={key} />
             ))}

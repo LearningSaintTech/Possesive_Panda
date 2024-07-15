@@ -27,7 +27,7 @@ const Blogs = () => {
         </Link>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-[6.771vw] mt-[5.2vw]">
-        <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
+        <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 ">
           <Image
             src={blog_1}
             alt="blog-1"
@@ -40,7 +40,7 @@ const Blogs = () => {
             Branding . 13 June 2024
           </small>
         </div>
-        <div className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
+        <div className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 ">
           <Image
             src={blog_2}
             alt="blog-2"
@@ -54,7 +54,7 @@ const Blogs = () => {
           </small>
         </div>
 
-        <div className="lg:w-[27vw] justify-self-end hover:shadow hover:rounded-3xl hover:duration-500 duration-500">
+        <div className="lg:w-[27vw] justify-self-end ">
           <Image
             src={blog_3}
             alt="blog-3"

@@ -32,7 +32,7 @@ const page = () => {
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Why is Graphic Design Important?
           </h4>
           <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
@@ -43,7 +43,7 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[70vw] sm:w-[44vw]">
+        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[70vw] sm:w-[44vw] sm:mt-[2vw]">
           Why Choose Possesive Panda For Custom Graphic Design Services?
         </h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
@@ -53,7 +53,7 @@ const page = () => {
         </div>
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
+        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
           Graphic Design Services We Provide
         </h4>
         {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
@@ -63,11 +63,11 @@ const page = () => {
         </div> */}
         <ServicesCard />
       </div>
-      <div className=" py-[3.65vw] px-[5.2vw] mt-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+      <div className=" py-[3.65vw] px-[5.2vw] mt-[4vw]">
+        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw]">
           We Ensure You Get The Best Graphic Design Solutions
         </h4>
-        <p className="text-[#212121] sm:text-[1.67vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[80vw] mt-[2.4vw] mb-10">
+        <p className="text-[#212121] sm:text-[1.25vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[59.74vw] mt-[2.4vw] mb-10">
           Possesive Panda follows a standard yet dynamic process to deliver its
           services. It ensures that our solutions align with our clients’
           specific needs, while at the same time deliver top class services that
@@ -80,7 +80,7 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[5.2vw] bg-[#F3fcfe] bg-opacity-50 px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.636vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.8vw] pt-[4vw] sm:pt-[1vw]">
+        <h4 className="text-[#212121] text-[4.636vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.8vw] pt-[4vw] sm:pt-[1vw]">
           Mobile Application Development Services For Various Purposes
         </h4>
         <div className="sm:flex justify-center px-[2vw] hidden">

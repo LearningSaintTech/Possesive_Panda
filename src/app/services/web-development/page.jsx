@@ -32,7 +32,7 @@ const page = () => {
         <Hero top={top} />
 
         <div className="mt-[4vw]">
-          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw] ">
             Why Leverage Web Development & Design Services?
           </h4>
           {/* <div className="sm:mt-[2vw] flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
@@ -44,10 +44,10 @@ const page = () => {
         </div>
 
         <div className="mt-[5.2vw] ">
-          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Find Out How We Develop Top Quality Websites For You
           </h5>
-          <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[5.2vw]">
+          <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[4vw]">
             Possesive Panda follows a standard yet dynamic process to deliver
             its services. It ensures that our solutions align with our clients’
             specific needs, while at the same time deliver top class services
@@ -63,7 +63,7 @@ const page = () => {
       </div>
       <Difference />
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
+        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
           Top Web Development & Design Solutions By Possesive Panda
         </h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
@@ -72,8 +72,8 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div className="bg-[#F3FCFE] bg-opacity-50 py-[7.6vw] px-[5.2vw] mt-[7vw]">
-        <h4 className="text-[#212121] text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[55vw] mb-[2.2vw] text-center mx-auto">
+      <div className="bg-[#F3FCFE] bg-opacity-50 py-[7.6vw] px-[5.2vw]">
+        <h4 className="text-[#212121] text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[2.2vw] text-center mx-auto">
           Web Development & Design Software we use
         </h4>
         <div>

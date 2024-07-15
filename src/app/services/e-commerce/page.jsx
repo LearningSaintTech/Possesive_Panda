@@ -82,7 +82,7 @@ const page = () => {
           </div>
         </div>
         <div className="pt-[5.2vw]">
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
             Our E-commerce process
           </h3>
           <p className="text-[#212121] text-[3.5vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[45vw] pt-[1.3vw] mb-[6.6vw] sm:mb-[5.2vw]">
