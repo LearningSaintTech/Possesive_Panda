@@ -121,7 +121,7 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
         <Image
           src={panda}
           alt="panda"
-          className="absolute bottom-[-1.3vw] right-0 w-[16.4vw] h-[18.23vw] opacity-80"
+          className="absolute bottom-0 right-0 w-[16.4vw] h-[18.23vw] opacity-80"
         />
       </div>
     </div>

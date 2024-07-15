@@ -77,7 +77,7 @@ const Contact = () => {
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
         <div className="flex flex-col lg:gap-[1.302vw] gap-[2vw]">
-          <p className="text-[4vw] lg:text-[1.042vw] font-medium leading-[146.642%] tracking-[0.013rem]">
+          <p className="text-[4vw] lg:text-[1.25vw] font-medium leading-[146.642%] tracking-[0.08rem]">
             Ready to learn more about our IT Service Solutions? Fill in the
             required details to obtain all the essential information.
           </p>
@@ -88,14 +88,14 @@ const Contact = () => {
             name="fname"
             onChange={handleChange}
             maxLength={25}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <input
             type="email"
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <input
             type="text"
@@ -105,12 +105,12 @@ const Contact = () => {
             onChange={handleChange}
             maxLength={10}
             name="phone"
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <select
             name="course"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
+            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
           >
             <option hidden value="course">
               How did you find us?
@@ -128,7 +128,7 @@ const Contact = () => {
           />
           <button
             onClick={handleSubmit}
-            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] leading-[normal]"
+            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal]"
           >
             SEND
           </button>

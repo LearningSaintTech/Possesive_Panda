@@ -49,7 +49,7 @@ const Project = ({ project, home }) => {
         </div>
         <Link
           href={project.url}
-          className="bg-[#60E2FF] hover:opacity-55 rounded-[0.5vw] py-[1.1vw] px-[2.5vw] sm:py-[1.042vw] sm:px-[2vw] text-[#212121] text-[3.25vw] sm:text-[1.042vw]  leading-[normal] tracking-[0.013rem] sm:mt-[1vw] mt-[1.9vw]"
+          className="bg-[#60E2FF] hover:opacity-55 rounded-[0.5vw] py-[1.1vw] px-[2.5vw] sm:py-[0.8vw] sm:px-[2vw] text-[#212121] text-[3.25vw] sm:text-[1.042vw]  leading-[normal] tracking-[0.013rem] sm:mt-[1vw] mt-[1.9vw]"
         >
           Know More
         </Link>
