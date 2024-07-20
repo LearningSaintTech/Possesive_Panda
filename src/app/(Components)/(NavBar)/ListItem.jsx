@@ -1,6 +1,6 @@
 import React from "react";
 
-const ListItem = ({ name, clickFunction, selected }) => {
+const ListItem = ({ name, clickFunction, link, selected }) => {
   const isSelected = selected === name;
   const normalWidth = "w-[18vw]";
   const subWidth = "w-[21vw]";
@@ -58,6 +58,7 @@ const ListItem = ({ name, clickFunction, selected }) => {
         </svg>
       )}
     </button>
+    
   );
 };
 

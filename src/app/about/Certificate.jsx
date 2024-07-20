@@ -6,14 +6,14 @@ import photo_3 from "../../assets/aboutus/photo-3.png";
 
 const Certificate = () => {
   return (
-    <div className="bg-sky-200 px-[2.5vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3.5vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[4vw] mt-[7.5vw]">
-      <h6 className="text-[4vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-sky-500 mt-[1.563vw] lg:mt-[10.417vw]">
+    <div className="bg-sky-200 px-[7.692vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[4vw] mt-[7.5vw]">
+      <h6 className="text-[5.128vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-sky-500 mt-[10vw] lg:mt-[10.417vw]">
         Our Certificates
       </h6>
-      <h3 className="text-neutral-800 text-[6vw] lg:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem]">
+      <h3 className="text-neutral-800 text-[6.154vw] lg:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem]">
         Registered Under
       </h3>
-      <p className="text-zinc-900 text-[3.8vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center  lg:w-[66vw]">
+      <p className="text-zinc-900 text-[3.846vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center lg:w-[66vw]">
         Our clients love working with us due to our hardcore service orientation
         as we look to align ourselves and take on our clients’ challenges head
         on. Our innovative engagement models have resulted in a track record of
@@ -30,23 +30,23 @@ const Certificate = () => {
           fill="white"
         />
       </svg>
-      <div className="flex flex-col md:flex-row justify-between items-center border-x-2 lg:border-x-4 border-black border-opacity-10 bg-white relative z-[10] mb-[2.604vw] md:mb-0">
+      <div className="flex flex-col md:flex-row justify-between items-center border-x-2 lg:border-x-4 border-black border-opacity-10 bg-white relative z-[10] mb-[10vw] md:mb-0">
         <Image
           src={photo_1}
           alt="photo-1"
-          className="lg:px-[2.8vw] py-[4vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw] relative z-[10] border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
+          className="lg:px-[2.8vw] py-[2vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw] relative z-[10] border-b-4 border-black border-opacity-10 lg:border-b-sky-500 "
         />
         <div className="border-x-2 border-black border-opacity-10">
           <Image
             src={photo_2}
             alt="photo-2"
-            className="lg:px-[2.8vw] py-[4vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw]  relative z-[10]  border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
+            className="lg:px-[2.8vw] py-[2vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw]  relative z-[10]  border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
           />
         </div>
         <Image
           src={photo_3}
           alt="photo-3"
-          className="lg:px-[2.8vw] py-[4vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw]  relative z-[10]  border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
+          className="lg:px-[2.8vw] py-[2vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw]  relative z-[10]  border-b-4 border-black border-opacity-10 lg:border-b-sky-500"
         />
       </div>
       <svg

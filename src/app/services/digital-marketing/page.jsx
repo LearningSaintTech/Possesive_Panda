@@ -59,7 +59,7 @@ const page = () => {
        
 
       </Head>
-      <Script type="application/ld+json">
+      <Script id="application/ld+json">
           {`{
          "@context": "https://schema.org",
          "@type": "Organization",
@@ -70,7 +70,7 @@ const page = () => {
 
           }`}
         </Script>
-        <Script type="application/ld+json">
+        <Script id="application/ld+json">
           {`
         {
   "@context": "https://schema.org",

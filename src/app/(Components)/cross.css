@@ -1,0 +1,29 @@
+.animate-marquee {
+    display: flex;
+    animation: marquee 10s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .animate-marquee-reverse {
+    display: flex;
+    animation: marquee-reverse 10s linear infinite;
+    white-space: nowrap;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee-reverse {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

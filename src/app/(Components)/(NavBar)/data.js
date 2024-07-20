@@ -1,135 +1,143 @@
 const premiumServicesData = [
-  "Startup Bundle Service",
+  "Digital Marketing Service",
   "Virtual Assistant Service",
-  "IT Recruitment Service",
-  "Non IT Recruitment Service",
-  "BPO & Call Center Services",
-  "Revenue Cycle Management",
+  // "IT Recruitment Service",
+  // "Non IT Recruitment Service",
+  // "BPO & Call Center Services",
+  // "Revenue Cycle Management",
 ];
 
 const serviceContent = {
   Services: [
-    "Web Development & Design",
-    "Mobile App Development",
-    "Software Development",
-    "Cloud Services",
-    "Cyber Security",
-    "Managed IT Services",
-    "Data Analytics And Business",
-    "Digital Marketing",
-    "E-Commerce Solutions",
-    "UI/UX Design",
-    "IOT Solutions",
-    "Training And Workshops",
-    "Graphic Design",
-    "Animation Services",
-    "Bookkeeping & Acc. Service",
+    {
+      name: "E-Commerce Solutions",
+      link: "e-commerce"
+    },
+    {
+      name: "Mobile App Development",
+      link: "mobile-app-development",
+    },
+    {
+      name: "Graphic Design",
+      link: "graphic-design",
+    },
+    {
+      name: "Web Development",
+      link: "web-development",
+    },
   ],
-  "Startup Bundle Service": [
-    "Business Consultation",
-    "Brand Development",
-    "Website Development",
-    "Content Creation",
-    "Digital Marketing Strategy",
-    "Social Media Setup & Management",
-    "Search Engine Optimization",
-    "Startup Support",
+  "Digital Marketing Service": [
+    {
+      name: "Digital Marketing",
+      link: "digital-marketing"
+    },
+    {
+      name: "Social Media",
+      link: "social-media"
+    },
+    {
+      name: "Search Engine Optimization",
+      link: "search-engine-optimization"
+    },
+    {
+      name: "Pay Per Click",
+      link: "pay-per-click"
+    },
   ],
   "Virtual Assistant Service": [
-    "Email Management",
-    "Calender Management",
-    "Real Estate Virtual Assistant",
-    "Document Management",
-    "Data Entry & Database",
-    "Customer Support",
-    "Personal Virtual Assistant",
-    "Social Media Management",
-    "Research & Analysis",
-    "Task Coordination",
-    "Email Marketing Support",
-    "Bookkeeping & Accounting",
-    "Event Planning & Coordination",
-    "Travel Planning & Coordination",
-    "Language Translation",
-    "Content Creation & Editing",
-    "Transcription Service",
-    "Project Management",
-    "DataBase Cleanup & Entry",
-    "Technical Support & Troubleshooting",
+    {
+      name: "Virtual Assistant",
+      link: "virtual-assistant",
+    },
+    {
+      name: "Real Estate Virtual Assistant",
+      link: "real-estate",
+    },
   ],
-  "IT Recruitment Service": [
-    "Software Development",
-    "Web Development",
-    "Mobile App Development",
-    "Data Science & Analytics",
-    "Cybesecurity & IT Security",
-    "Cloud Computing & Devops",
-    "IT Project Management",
-    "IT Support & Infrastructure",
-  ],
-  "Non IT Recruitment Service": [
-    "Administration & Office Support",
-    "Finance & Accounting",
-    "Retail & Hospitality",
-    "Human Resource",
-    "Customer Service & Support",
-    "Sales & Marketing",
-    "Healthcare & Life Sciences",
-    "Operations & Supply Management",
-  ],
-  "BPO & Call Center Services": [
-    "Customer Support",
-    "Technical Support",
-    "Order Management",
-    "Help Desk Service",
-    "Outbound Call Center Service",
-    "Appointment Setting",
-    "Market Research & Surveys",
-    "BackOffice BPO Services",
-    "Document Management",
-    "Finance & Accounting Outsourcing",
-    "HR Outsourcing",
-  ],
-  "Revenue Cycle Management": [
-    "Patient Registration & Eligibility Ver.",
-    "Medical Coding & Documentation",
-    "Denials Management & Appeals",
-    "Claims Management & Follow-Up",
-    "Payment Posting & Reconcillation",
-    "Account Receivable Management",
-    "Charge Capture & Claims Sub.",
-  ],
+  // "IT Recruitment Service": [
+  //   "Software Development",
+  //   "Web Development",
+  //   "Mobile App Development",
+  //   "Data Science & Analytics",
+  //   "Cybersecurity & IT Security",
+  //   "Cloud Computing & DevOps",
+  //   "IT Project Management",
+  //   "IT Support & Infrastructure",
+  // ],
+  // "Non IT Recruitment Service": [
+  //   "Administration & Office Support",
+  //   "Finance & Accounting",
+  //   "Retail & Hospitality",
+  //   "Human Resource",
+  //   "Customer Service & Support",
+  //   "Sales & Marketing",
+  //   "Healthcare & Life Sciences",
+  //   "Operations & Supply Management",
+  // ],
+  // "BPO & Call Center Services": [
+  //   "Customer Support",
+  //   "Technical Support",
+  //   "Order Management",
+  //   "Help Desk Service",
+  //   "Outbound Call Center Service",
+  //   "Appointment Setting",
+  //   "Market Research & Surveys",
+  //   "BackOffice BPO Services",
+  //   "Document Management",
+  //   "Finance & Accounting Outsourcing",
+  //   "HR Outsourcing",
+  // ],
+  // "Revenue Cycle Management": [
+  //   "Patient Registration & Eligibility Verification",
+  //   "Medical Coding & Documentation",
+  //   "Denials Management & Appeals",
+  //   "Claims Management & Follow-Up",
+  //   "Payment Posting & Reconciliation",
+  //   "Account Receivable Management",
+  //   "Charge Capture & Claims Submission",
+  // ],
 };
+const services1= [
+  {
+    name: "E-Commerce Solutions",
+    link: "e-commerce"
+  },
+  {
+    name: "Mobile App Development",
+    link: "mobile-app-development",
+  },
+  {
+    name: "Graphic Design",
+    link: "graphic-design",
+  },
+  {
+    name: "Web Development",
+    link: "web-development",
+  },
+  {
+    name: "Digital Marketing",
+    link: "digital-marketing"
+  },
+  {
+    name: "Social Media",
+    link: "social-media"
+  },
+  {
+    name: "Search Engine Optimization",
+    link: "search-engine-optimization"
+  },
+  {
+    name: "Pay Per Click",
+    link: "pay-per-click"
+  },
+  {
+    name: "Virtual Assistant",
+    link: "virtual-assistant",
+  },
+  {
+    name: "Real Estate",
+    link: "real-estate",
+  },
 
-const services = [
-  {
-    name: "E-Commerce Service",
-    link: "/services/e-commerce",
-  },
-  {
-    name: "Digital Marketing Service",
-    link: "/services/digital-marketing",
-  },
-  {
-    name: "Social Media Service",
-    link: "/services/social-media",
-  },
-  {
-    name: "Mobile App Development Service",
-    link: "/services/mobile-app-development",
-  },
-  {
-    name: "Graphic Design Service",
-    link: "/services/graphic-design",
-  },
-  {
-    name: "Web Development Service",
-    link: "/services/web-development",
-  },
-  {
-    name: "Premium Service",
-    link: "/services/start-up-bundle",
-  },
-];
-
-export { premiumServicesData, serviceContent, services };
+]
+export { premiumServicesData, serviceContent,services1 };

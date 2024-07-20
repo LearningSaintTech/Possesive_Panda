@@ -42,7 +42,7 @@ const page = () => {
 
       </Head>
        {/* Schema Markup for Breadcrumbs */}
-       <Script type="application/ld+json">
+       <Script id="application/ld+json">
           {`
           {
   "@context": "https://schema.org",
@@ -56,7 +56,7 @@ const page = () => {
           `}
         </Script>
 
-        <Script type="application/ld+json">
+        <Script id="application/ld+json">
           {`
          {
   "@context": "https://schema.org",

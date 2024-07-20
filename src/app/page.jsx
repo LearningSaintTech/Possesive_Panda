@@ -68,29 +68,6 @@ const Home = () => (
       <meta name="description" content={metadata.description} />
       <link rel="canonical" href={metadata.canonical} />
 
- {/* <Script type="application/ld+json">
-        {JSON.stringify(metadata.breadcrumbList)}
-      </Script>
-
-      <Script type="application/ld+json">
-        {JSON.stringify(metadata.organization)}
-      </Script>
-
-      <Script type="application/ld+json">
-        {JSON.stringify(metadata.faq)}
-      </Script> */}
-      {/* <script async src={`https://www.googletagmanager.com/gtag/js?id=${metadata.googleAnalytics.id}`}></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${metadata.googleAnalytics.id}');
-        `}
-      </script>
-
-      <meta name="google-site-verification" content={metadata.googleSearchConsole.verification} /> */}
-
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={metadata.openGraph.title} />
       <meta property="og:site_name" content={metadata.openGraph.siteName} />
@@ -101,6 +78,19 @@ const Home = () => (
 
      
     </Head>
+    <Script
+      id="google-analytics-script"
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=G-5VEQ1BPQLS`}
+    />
+    <Script id="google-analytics-inline-script">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5VEQ1BPQLS');
+      `}
+    </Script>
      {/* Breadcrumb List Schema Markup */}
      <Script type="application/ld+json">
         {JSON.stringify(metadata.breadcrumbList)}

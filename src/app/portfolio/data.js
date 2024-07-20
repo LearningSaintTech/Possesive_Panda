@@ -10,7 +10,6 @@ const projects = [
     title: "Learningsaint.com",
     description:
       "Possesive Panda has designed the entire online platform of learningsaint.com, an ed-tech platform launched to train students with the latest technology and trends worldwide. It has been designed to upskill individuals for a flourishing future. ",
-    reverse: false,
     url: "https://learningsaint.com",
   },
   {
@@ -18,7 +17,6 @@ const projects = [
     title: "Learningsaint.in",
     description:
       "We have also worked for learningsaint.in, a platform that stands out with its exemplary education for NEET aspirants across India. It aims to educate aspiring students who want to crack these entrance exams successfully in one go, and we are proud to have been a part of this unique initiative.",
-    reverse: true,
     url: "https://learningsaint.in",
   },
   {
@@ -26,7 +24,6 @@ const projects = [
     title: "Hawkinsuniversity.com",
     description:
       "With the complete support of Possesive Panda, a prestigious institution’s website was developed and designed successfully. This University provides Undergraduate, Graduate, and Doctrate programs globally, and we are proud to have played a significant role in its success.",
-    reverse: false,
     url: "https://hawkinsuniversity.com",
   },
 ];
