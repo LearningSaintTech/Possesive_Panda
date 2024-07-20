@@ -38,7 +38,7 @@ const page = () => {
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>2,000+</p>
           </div>
           <div className="item">
-            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Visits driven to client's websites annually</h6>
+            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Visits driven to clients websites annually</h6>
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>1.5+ Million</p>
           </div>
           <div className="item">
@@ -55,7 +55,7 @@ const page = () => {
             Things you should know before hiring an SEO Service
           </h6>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]">
-            SEO (Search Engine Optimization) is a process of improving a website's visibility in search engines like Google, Yahoo, Bing, and many more. SEO includes fulfilling user's search needs by creating relevant high-quality content.
+            SEO (Search Engine Optimization) is a process of improving a websites visibility in search engines like Google, Yahoo, Bing, and many more. SEO includes fulfilling users search needs by creating relevant high-quality content.
           </p>
           <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[1.823vw]">
             SEO Typically involves
@@ -79,7 +79,7 @@ const page = () => {
             Industries that can benefit from SEO
           </h6>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]">
-            Health Industry, logistics, real estate, e-commerce, retailers, and others can take SEO services. It doesn't matter whether you are a small, medium, or big business you can promote your business online. Many industries rely on SEO services to reach their targeted audiences.
+            Health Industry, logistics, real estate, e-commerce, retailers, and others can take SEO services. It does not matter whether you are a small, medium, or big business you can promote your business online. Many industries rely on SEO services to reach their targeted audiences.
           </p>
         </div>
         <div className="mt-[5.2vw]">

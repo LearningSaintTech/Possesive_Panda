@@ -92,17 +92,17 @@ const Home = () => (
       `}
     </Script>
      {/* Breadcrumb List Schema Markup */}
-     <Script type="application/ld+json">
+     <Script id="application/ld+json">
         {JSON.stringify(metadata.breadcrumbList)}
       </Script>
 
       {/* Organization Schema Markup */}
-      <Script type="application/ld+json">
+      <Script id="application/ld+json">
         {JSON.stringify(metadata.organization)}
       </Script>
 
       {/* FAQ Schema Markup */}
-      <Script type="application/ld+json">
+      <Script id="application/ld+json">
         {JSON.stringify(metadata.faq)}
       </Script>
 
