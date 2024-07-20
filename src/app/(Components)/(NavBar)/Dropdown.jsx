@@ -1,15 +1,13 @@
 "use client";
-import React, { useEffect, useRef } from "react";
-import { services } from "./data";
-import background from "../../../assets/nav/Gradient.png";
-import Image from "next/image";
-import Link from "next/link";
-import panda from "../../../assets/footer/panda.png";
-import { usePathname } from "next/navigation";
+import React, { useEffect, useRef, useState } from "react";
+import { premiumServicesData, serviceContent } from "./data";
+import ListItem from "./ListItem";
+import ServiceItem from "./ServiceItem";
 
 const Dropdown = ({ showDropdown, setShowDropdown }) => {
+  const [isPremiumServicesOpen, setIsPremiumServicesOpen] = useState(false);
+  const [selectedService, setSelectedService] = useState("Services");
   const dropdownRef = useRef(null);
-  const pathname = usePathname();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -24,14 +22,20 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [setShowDropdown]);
+
+  const togglePremiumServicesDropdown = () => {
+    setIsPremiumServicesOpen(!isPremiumServicesOpen);
+  };
+
   return (
     <div
       ref={dropdownRef}
-      className={`absolute flex gap-[2.344vw] top-[4.3vw] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[1vw] w-[90vw] h-[21.25vw] ${
+      className={`absolute flex gap-[2.344vw] top-[4.3vw] bg-white pl-[3.646vw] py-[2.083vw] pr-[3.6vw] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[0.2vw] w-[90vw] h-[31.5vw] ${
         showDropdown ? "block" : "hidden"
       }`}
+      onMouseLeave={() => setShowDropdown(false)}
     >
-      {/* <div className="">
+      <div className="">
         <h1 className="text-zinc-800 text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem] underline mb-[1.563vw]">
           Browse Our Services
         </h1>
@@ -58,9 +62,9 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
               ))}
           </div>
         </div>
-      </div> */}
+      </div>
 
-      {/* <svg
+      <svg
         viewBox="0 0 4 397"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -94,30 +98,6 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
         {serviceContent[selectedService].map((item, index) => (
           <ServiceItem key={index} name={item} />
         ))}
-      </div> */}
-      <div className="relative w-full h-full bg-[#A4EEFD]">
-        <div className="relative z-10">
-          <div className="grid grid-cols-3 gap-y-[2.7vw] gap-x-[2.76vw] mt-[4.17vw] ml-[5.3vw] mr-auto w-fit">
-            {services.map((service, key) => (
-              <Link
-                href={service.link}
-                key={key}
-                className={`text-[1.25vw] font-medium capitalize tracking-[0.015rem] border-b pb-[0.5vw] w-fit hover:border-[#00AFF1] hover:text-[#00AFF1] ${
-                  service.link == pathname
-                    ? "text-[#00AFF1] border-[#00AFF1]"
-                    : "text-[#2a2a2a] border-black"
-                }`}
-              >
-                {service.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <Image
-          src={panda}
-          alt="panda"
-          className="absolute bottom-0 right-0 w-[16.4vw] h-[18.23vw] opacity-80"
-        />
       </div>
     </div>
   );
