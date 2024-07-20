@@ -24,6 +24,7 @@ const Nav = () => {
       document.body.style.overflow = "";
     };
   }, [showSidebar]);
+
   useEffect(() => {
     setShowSidebar(false);
     setShowDropdown(false);
@@ -37,15 +38,23 @@ const Nav = () => {
     { href: "/insights", label: "Insights" },
     { href: "/blog", label: "Blogs" },
   ];
+
   const activeLink = links.find((link) => {
     if (link.href === "/") {
       return pathname === "/";
     }
     return pathname.startsWith(link.href);
   });
+
   const activeLabel = activeLink ? activeLink.label : "";
+
   const hoverClass = "hover:text-[#00AFF1]";
   const activeClass = "text-[#00AFF1]";
+
+  const toggleDropdown = () => {
+    setShowDropdown((prev) => !prev);
+  };
+
   return (
     <nav className="w-full h-[18vw] sm:h-[5.58vw] bg-[#FAFAFA] pl-[4.635vw] pr-[5.208vw] py-[1.15vw] shadow-sm fixed top-0 z-30">
       <div className="flex justify-between items-center relative">
@@ -74,69 +83,32 @@ const Nav = () => {
               strokeLinejoin="round"
             />
           </svg>
-          {showSidebar && (
-            <PhoneNav
-              setShowSidebar={setShowSidebar}
-              activeLabel={activeLabel}
-            />
-          )}
+          {showSidebar && <PhoneNav setShowSidebar={setShowSidebar} activeLabel={activeLabel} />}
         </div>
         <div className="text-[1.25vw] font-normal sm:flex gap-[3.49vw] py-auto items-center hidden">
-          <Link
-            href="/"
-            className={`${activeLabel === "Home" ? activeClass : hoverClass}`}
-          >
+          <Link href="/" className={`${activeLabel === "Home" ? activeClass : hoverClass}`}>
             Home
           </Link>
-          <Link
-            href="/about"
-            className={`${activeLabel === "About Us" ? activeClass : hoverClass
-              }`}
-          >
+          <Link href="/about" className={`${activeLabel === "About Us" ? activeClass : hoverClass}`}>
             About Us
           </Link>
           <button
-            className={`${activeLabel === "Services" ? activeClass : hoverClass
-              } flex gap-[0.2vw] items-center`}
-            onClick={() => setShowDropdown(false)}
-            onMouseEnter={() => setShowDropdown(true)}
+            className={`${activeLabel === "Services" ? activeClass : hoverClass} flex gap-[0.2vw] items-center`}
+            onClick={toggleDropdown}
           >
             Services <FaChevronDown className="size-[1vw]" />
           </button>
-          <Link
-            href="/portfolio"
-            className={`${activeLabel === "Portfolio" ? activeClass : hoverClass
-              }`}
-          >
+          <Link href="/portfolio" className={`${activeLabel === "Portfolio" ? activeClass : hoverClass}`}>
             Portfolio
           </Link>
-          {/* <Link
-            href=""
-            className={`${
-              activeLabel === "Insights" ? activeClass : hoverClass
-            }`}
-          >
-            Insights
-          </Link> */}
-          <Link
-            href="/blog"
-            className={`${activeLabel === "Blogs" ? activeClass : hoverClass}`}
-          >
+          <Link href="/blog" className={`${activeLabel === "Blogs" ? activeClass : hoverClass}`}>
             Blogs
           </Link>
-          <Link
-            href="/contact"
-            className="py-[0.729vw] px-[1.823vw] bg-[#60E2FF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]"
-          >
+          <Link href="/contact" className="py-[0.729vw] px-[1.823vw] bg-[#60E2FF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]">
             Get In Touch
           </Link>
         </div>
-        {showDropdown && (
-          <Dropdown
-            showDropdown={showDropdown}
-            setShowDropdown={setShowDropdown}
-          />
-        )}
+        {showDropdown && <Dropdown showDropdown={showDropdown} setShowDropdown={setShowDropdown} />}
       </div>
     </nav>
   );

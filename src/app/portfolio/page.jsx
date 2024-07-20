@@ -23,7 +23,7 @@ const portfolio = () => {
       </div>
 
       <div className="mx-[5.455vw] sm:mx-[5.2vw] mb-[2.3vw]">
-        <h2 className="w-[53vw] sm:w-[38.958vw]  text-[#212121] font-medium leading-[normal] tracking-[0.03rem] text-[3.6vw] sm:text-[2.5vw] mb-[5.2vw]">
+        <h2 className="w-[53vw] sm:w-[38.958vw]  text-[#212121] font-semibold leading-[normal] tracking-[0.03rem] text-[3.6vw] sm:text-[2.083vw] mb-[5.2vw]">
           Unleasing the Digital Potential of Global Leaders
         </h2>
         <div className="flex flex-col sm:flex sm:flex-row justify-between">

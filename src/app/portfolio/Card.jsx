@@ -15,7 +15,7 @@ const Card = ({ card }) => {
             <h6 className="text-[#212121] text-[25.981px] sm:text-[2.083vw] font-medium leading-[normal] tracking-[0.055rem] sm:tracking-[0.025rem]">
               {card.percent}
             </h6>
-            <p className="text-[#212121] text-[3.362vw] sm:text-[1.042vw] font-normal leading-[normal] tracking-[0.053rem] sm:tracking-[0.013rem]">
+            <p className="text-[#212121] text-[3.362vw] sm:text-[1.2vw] font-normal leading-[normal] tracking-[0.053rem] sm:tracking-[0.013rem]">
               Higher Orders
             </p>
           </div>

@@ -10,7 +10,7 @@ const Certificate = () => {
       <h6 className="text-[4vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-sky-500 mt-[1.563vw] lg:mt-[10.417vw]">
         Our Certificates
       </h6>
-      <h3 className="text-neutral-800 text-[6vw] lg:text-[2.5vw] font-medium leading-[130%] tracking-[0.03rem]">
+      <h3 className="text-neutral-800 text-[6vw] lg:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem]">
         Registered Under
       </h3>
       <p className="text-zinc-900 text-[3.8vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center  lg:w-[66vw]">

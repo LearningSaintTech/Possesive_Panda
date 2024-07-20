@@ -12,7 +12,7 @@ const Comparison = () => {
 
   return (
     <div className="px-[5.2vw] pt-[8vw] hidden sm:block">
-      <h2 className="w-[80vw] sm:w-[45vw] text-neutral-800 text-[4.346vw] sm:text-[2.5vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw]">
+      <h2 className="w-[80vw] sm:w-[45vw] text-neutral-800 text-[4.346vw] sm:text-[2.083vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw]">
         Comparison Between Android and iOS Development Services
       </h2>
       <div className=" flex flex-col sm:flex-row justify-center sm:gap-0 gap-[70vw]">

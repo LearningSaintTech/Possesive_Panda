@@ -25,7 +25,7 @@ const top = {
 const typesOfECommerce = [
   {
     num: "1",
-    title: "Business-to-consumer",
+    title: "Business-to-consumers",
     description: `Business-to-consumer or B2B refers to the situation where products and services sell directly to individual customers. Online marketplaces like Amazon and Flipkart have become major players.`,
   },
   {

@@ -6,10 +6,10 @@ const Brands = () => {
   return (
     <div className="px-[5.2vw] mt-[10.5vw]">
       <div className="flex justify-between">
-        <h4 className="text-[#212121] text-[2.526vw] font-medium leading-[130%] tracking-[0.03rem]">
+        <h4 className="text-[#212121] text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem]">
           Brands That Trust Us
         </h4>
-        <p className="text-[#212121] text-[1.25vw] leading-[160%] tracking-[0.015rem] text-justify opacity-85 w-[37.2vw]">
+        <p className="text-[#212121] text-[1.25vw] leading-[160%] tracking-[0.015rem] text-justify opacity-85 w-[45vw]">
           Our clients love working with us due to our hardcore service
           orientation as we look to align ourselves and take on our clients’
           challenges head on. Our innovative engagement models have resulted in
@@ -30,7 +30,7 @@ const Brands = () => {
             <Image
               src={icon.white}
               alt={`Brand ${key}`}
-              className="h-[3.2vw] w-[9.48vw] absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100 table-fixed object-contain"
+              className="h-[3.87vw] w-[9.48vw] absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100 table-fixed object-contain"
             />
           </div>
         ))}

@@ -9,7 +9,7 @@ const Content = () => {
         Our journey started
       </h3>
       <div className="flex justify-between">
-        <h2 className="text-[#212121] text-[2.5vw] font-medium leading-[130%] tracking-[0.03rem] w-[41.042vw]">
+        <h2 className="text-[#212121] text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem] w-[37vw]">
           Journey to Possesive Panda is inspiring with its dedication to IT
           Solutions
         </h2>
