@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
   return (
     <main className="">
-      <Banner whyUsHeight={whyUsHeight} />
+      <Banner whyUsHeight={whyUsHeight}/>
       <Portfolio />
       <OurServices />
       <div ref={whyUsRef}>

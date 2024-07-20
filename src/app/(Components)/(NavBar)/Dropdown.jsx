@@ -1,10 +1,9 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import { services } from "./data";
-import background from "../../../assets/nav/Gradient.png";
 import Image from "next/image";
 import Link from "next/link";
-import panda from "../../../assets/footer/panda.png";
+import panda from "../../../assets/nav/dropdownpanda.png";
 import { usePathname } from "next/navigation";
 
 const Dropdown = ({ showDropdown, setShowDropdown }) => {

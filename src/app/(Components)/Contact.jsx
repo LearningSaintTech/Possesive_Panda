@@ -71,13 +71,13 @@ const Contact = () => {
     setForm(initialForm);
   };
   return (
-    <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between mb-[5.5vw]">
-      <div className="w-full lg:w-[34.688vw] gap-[2vw]">
-        <h2 className="text-[8.2vw] lg:text-[3.333vw] font-semibold leading-[normal]">
+    <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between mb-[5.5vw] lg:mt-0 mt-[15.385vw]">
+      <div className="w-full lg:w-[34.688vw] gap-[1.042vw]">
+        <h2 className="text-[6.154vw] lg:text-[3.333vw] font-semibold leading-[normal] lg:mb-0 mb-[2vw]">
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
-        <div className="flex flex-col lg:gap-[1.302vw] gap-[2vw]">
-          <p className="text-[4vw] lg:text-[1.25vw] font-medium leading-[146.642%] tracking-[0.08rem]">
+        <div className="flex flex-col lg:gap-[1.042vw] gap-[5.128vw]">
+          <p className="text-[3.846vw] lg:text-[1.25vw] font-normal leading-[146.642%] tracking-[0.08rem]">
             Ready to learn more about our IT Service Solutions? Fill in the
             required details to obtain all the essential information.
           </p>
@@ -88,14 +88,14 @@ const Contact = () => {
             name="fname"
             onChange={handleChange}
             maxLength={25}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <input
             type="email"
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <input
             type="text"
@@ -105,12 +105,12 @@ const Contact = () => {
             onChange={handleChange}
             maxLength={10}
             name="phone"
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <select
             name="course"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
+            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
           >
             <option hidden value="course">
               How did you find us?
@@ -124,11 +124,11 @@ const Contact = () => {
             type="hidden"
             value={form.ip}
             name="ip"
-            className="border border-gray-300 text-gray-900 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <button
             onClick={handleSubmit}
-            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal]"
+            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal] rounded-[5.128vw] "
           >
             SEND
           </button>
@@ -137,31 +137,31 @@ const Contact = () => {
               {message}
             </p>
           )}
-          <div className="flex flex-col lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[40px]">
+          <div className="flex flex-row lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[15px]">
             <Link
-              className="flex items-center hover:opacity-60"
+              className="flex flex-row items-center hover:opacity-60"
               href="tel:+14158003326"
             >
-              <BiPhoneCall className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />
+              <BiPhoneCall className="size-[7vw] lg:size-[2vw] mr-[1v0.9] lg:mr-[0.521vw]" />
 
-              <div>
-                <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+              <div className="flex flex-col">
+                <p className="text-[3vw] lg:text-[1.2vw] leading-[153.846%] tracking-[0.02rem]">
                   PHONE
                 </p>
-                <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+                <p className="text-[#00AFF1] text-[2.8vw] lg:text-[1.2vw] leading-[153.846%] tracking-[0.02rem]">
                   +1 (415) 800-3326
                 </p>
               </div>
             </Link>
 
             <Link className="flex items-center hover:opacity-60" href="">
-              <SlEnvolopeLetter className="size-[7.5vw] lg:size-[2vw] mr-[0.521vw]" />
+              <SlEnvolopeLetter className="size-[7vw] lg:size-[2vw] mr-[0.521vw]" />
 
               <div>
-                <p className="text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+                <p className="text-[3vw] lg:text-[1.2vw] leading-[153.846%] tracking-[0.02rem]">
                   EMAIL
                 </p>
-                <p className="text-[#00AFF1] text-[4vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+                <p className="text-[#00AFF1] text-[2.8vw] lg:text-[1.2vw] leading-[153.846%] tracking-[0.02rem]">
                   hello@possesivepanda.com
                 </p>
               </div>
@@ -205,7 +205,7 @@ const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="size-fit md:w-full md:h-[40vh] lg:w-[40vw] lg:h-[70vh] mt-[30px] lg:mt-0"
+          className="size-fit w-full md:w-full md:h-[40vh] lg:w-[40vw] lg:h-[70vh] mt-[30px] lg:mt-0"
         ></iframe>
       </div>
     </div>

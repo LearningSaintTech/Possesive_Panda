@@ -3,7 +3,7 @@
 }
 
 .group:hover .card-image {
-  transform: translateX(50%) scale(0.5); 
+  transform: translateX(40%) scale(0.7); 
 }
 
 .group:hover .card-title {

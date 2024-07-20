@@ -13,7 +13,7 @@ const AccordionItems = ({
 }) => {
   return (
     <div
-      className={`w-[90%] py-8 mx-auto bg-transparent overflow-hidden ${
+      className={`w-[90%] py-4 sm:py-8 mx-auto bg-transparent overflow-hidden ${
         index === 0 ? "" : "border-t-[1px]"
       }`}
       onMouseEnter={onMouseEnter}
@@ -24,13 +24,13 @@ const AccordionItems = ({
           isOpen ? "text-gray-900" : ""
         }`}
       >
-        <p className="md:text-4xl text-3xl lg:text-4xl font-medium">
+        <p className="md:text-4xl text-[6.154vw] lg:text-4xl font-medium">
           {isOpen ? "" : question}
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
-          className={`lg:w-10 w-5 md:w-6 transition-transform  ${
+          className={`lg:w-10 w-4 md:w-6 transition-transform  ${
             isOpen ? "hidden" : ""
           }`}
           height="48"
@@ -52,17 +52,17 @@ const AccordionItems = ({
         }`}
       >
         <div>
-          <p className="md:text-4xl text-3xl lg:text-4xl font-medium">
+          <p className="md:text-4xl text-[5.128vw] lg:text-4xl font-medium text-center lg:text-left">
             {question}
           </p>
-          <p className="w-[49.375vw] opacity-90 text-justify text-zinc-900 text-[1.25vw] font-normal leading-[2vw] tracking-tight md:text-xl lg:text-xl mt-4">
+          <p className="w-full sm:w-[49.375vw] opacity-90 text-justify text-zinc-900 text-[3.846vw] sm:text-[1.25vw] font-normal sm:leading-[2vw] tracking-tight md:text-xl lg:text-xl mt-4">
             {answer}
           </p>
         </div>
         <Image
           src={image}
           alt="shadow"
-          className="lg:w-[34.375vw] lg:h-[20.833vw] w-auto h-auto"
+          className="hidden sm:block lg:w-[34.375vw] lg:h-[20.833vw] w-auto h-auto"
         />
       </div>
     </div>
