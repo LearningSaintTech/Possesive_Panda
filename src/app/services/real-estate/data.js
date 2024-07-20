@@ -168,7 +168,7 @@ const benefits = [
 const faq = [
     {
       title: "What is a real estate  Virtual Assistant?",
-      description: `A real estate virtual assistant is a professional who provides administrative, marketing, and operational support to real estate agents.`,
+      description: `A real estate virtual assistant is an professional who provides administrative, marketing, and operational support to real estate agents.`,
     },
     {
       title: "How good are your resources at closing deals?",
