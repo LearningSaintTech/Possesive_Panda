@@ -72,7 +72,7 @@ const ourRealEstate = [
   {
     title: "Real Estate Research",
     description: [
-      `Our team provides in-depth analysis of retail, residence, and commercial real estate and industry insights to help you streamline your operations, enhance market knowledge, and improve overall efficiency in the real estate industry. `,
+      `Real estate research services involve gathering and analyzing data. Our team provides in-depth analysis of retail, residence, and commercial real estate and industry insights to help you streamline your operations, enhance market knowledge, and improve overall efficiency in the real estate industry.`,
     ],
       image: service[0],
   },
@@ -86,14 +86,14 @@ const ourRealEstate = [
   {
     title: "Property Catalog",
     description: [
-      `To provide outstanding leads, your virtual assistants for property management will upload and update your property listings on various websites In order to improve the data, they will also remove duplicate entries.`,
+      `Property Catalog service from Virtual Assistance offers detailed property information. To provide outstanding leads, your virtual assistants for property management will upload and update your property listings on various websites. In order to improve the data, they will also remove duplicate entries.`,
     ],
       image: service[2],
   },
   {
     title: "Client Support Services",
     description: [
-      `Our real estate virtual assistant at Possesive Panda can handle all administrative duties and customer service including emails, phone calls, and scheduling appointments, to help you manage your real estate business more efficiently.`,
+      `Client support services provided by virtual assistants aim to help businesses and individuals manage their workloads. Our real estate virtual assistant at Possesive Panda can handle all administrative duties and customer service including emails, phone calls, and scheduling appointments, to help you manage your real estate business more efficiently.`,
     ],
       image: service[3],
   },
@@ -121,7 +121,7 @@ const ourRealEstate = [
   {
     title: "Scheduling Services",
     description: [
-      `Possesive Panda offers virtual assistants for real estate who will handle your emails, schedule meetings, deal with clients, and maintain a calendar to make sure you don't miss any important information.`,
+      `Scheduling services from a virtual assistant can streamline your workflow and save you time. Possesive Panda offers virtual assistants for real estate who will handle your emails, schedule meetings, deal with clients, and maintain a calendar to make sure you don't miss any important information.`,
     ],
       image: service[7],
   },
