@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Features from "../(Components)/Features";
-import { ourFeatu } from "./data";
+import { ourFeature } from "./data";
 
 const OurFeatu = () => {
   const scrollContainerRef = useRef(null);
@@ -66,7 +66,7 @@ const OurFeatu = () => {
         onMouseMove={handleMouseMove}
         className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar sm:cursor-grab active:cursor-grabbing"
       >
-        {ourFeatu.map((feature, key) => (
+        {ourFeature.map((feature, key) => (
           <Features data={feature} key={key} />
         ))}
       </div>

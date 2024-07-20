@@ -2,10 +2,12 @@ import React from 'react'
 import Banner from '@/app/(Components)/Banner';
 import Hero from '../(Components)/(Hero)/Hero';
 import Grow from '../(Components)/Grow';
-import OurFeatu from './OurFeatu';
+import OurFeature from './OurFeature';
 import Strategy from '../(Components)/(Strategy)/Strategy';
 import Inventory from '../(Components)/Inventory';
 import Faq from '../(Components)/(Faq)/Faq';
+import banner from "../../../assets/banners/pay.png";
+
 import {
     top,
     ppcservices,
@@ -21,7 +23,7 @@ const page = () => {
                 title={"Pay Per Click"}
                 desciption={"For catchy, engaging and organized social media handles"}
                 page={"Pay Per Click"}
-            // image={banner}
+            image={banner}
             />
             <div className="px-[5.2vw] pt-[5.2vw]">
                 <Hero top={top} />
@@ -39,7 +41,7 @@ const page = () => {
                     <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
                         Our Features
                     </h5>
-                    <OurFeatu />
+                    <OurFeature />
                 </div>
                 <div className="pt-[5.2vw]">
                     <Strategy statergy={marketingServices} />

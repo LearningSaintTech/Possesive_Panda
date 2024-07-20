@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from '@/app/(Components)/Banner';
+import banner from '../../../assets/banners/Virtual-Assistant-slider.png';
 import Hero from '../(Components)/(Hero)/Hero';
 import Grow from '../(Components)/Grow';
 import Services from '../(Components)/Services';
@@ -19,7 +20,7 @@ const page = () => {
         title={"Virtual Assistant"}
         desciption={"Holistic and integrated online commerce solutions"}
         page={"Virtual Assistant"}
-      // image={banner}
+      image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />

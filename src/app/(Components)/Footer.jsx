@@ -105,10 +105,10 @@ const Footer = () => {
                 Graphic Design Service
               </Link>
               <Link
-                href="services/start-up-bundle"
+                href="services/virtual-assistant"
                 className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[5.128vw] sm:mb-[50px] cursor-pointer"
               >
-                Premium Services
+                Virtual Assistant Service
               </Link>
             </div>
             <div className="flex flex-col items-center sm:items-start">
@@ -126,9 +126,15 @@ const Footer = () => {
               </Link>
               <Link
                 href="services/web-development"
-                className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[35px] sm:mb-[50px] cursor-pointer"
+                className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[5.128vw] sm:mb-[1.042vw] cursor-pointer"
               >
                 Web Development Service
+              </Link>
+              <Link
+                href="services/real-estate"
+                className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[35px] sm:mb-[50px] cursor-pointer"
+              >
+                Real Estate Virtual Assitant Service
               </Link>
             </div>
           </div>

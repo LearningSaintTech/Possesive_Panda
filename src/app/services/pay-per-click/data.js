@@ -1,9 +1,14 @@
 import {
-    inventoryImage
-} from "./image"
+  feature,
+  nums,
+  panda,
+  benefit,
+  whyImages,
+  processImages,
+  inventoryImage,
+} from "./images";
 
-
-
+import banner from "../../../assets/payperclick/banners/paybanner.png";
 
 const top = {
     title: "Pay-Per-Click Service",
@@ -11,6 +16,7 @@ const top = {
       `Generate leads and improve sales with Possesive Panda’s excellent PPC Services.`,
       `Pay Per Click is an online advertisement campaign model that buys internet traffic for your website rather than earning it organically, like in the case of SEO. The advertiser pays a fixed amount every time whenever their ad is clicked. PPC gives immediate results as it drives traffic to your website quickly once the ads are live. PPC ads can be targeted to a specific category of audience on the basis of demographics, geographic location, time of the day, or even type of device.`,
     ],
+    image: banner,
 };
 
 const ppcservices = [
@@ -43,61 +49,61 @@ const ppcservices = [
     },
   ];
 
-  const ourFeatu = [
+  const ourFeature = [
     {
-      // num: nums[0],
+      num: nums[0],
       title: "Flexible Billing Methods",
       description: `We understand that there might be financial constraints on projects. Thus, we offer our customers flexible billing options: either hourly billing or fixed pricing on their projects. This allows them to decide the payment criterion according to their budget and the demands of their project.`,
-      //   image: feature[0],
+        image: feature[0],
     },
     {
-      // num: nums[1],
+      num: nums[1],
       title: "Dedicated Project Manager",
       description: `Every project is assigned a dedicated project manager to ensure smooth execution. The manager will be the point of contact for our client, overseeing the entire project from start to finish. This ensures that their project vision is well communicated and understood by everyone on our team.`,
-      //   image: feature[1],
+        image: feature[1],
     },
     {
-      // num: nums[2],
+      num: nums[2],
       title: "Real-Time Project Tracking",
       description: `We openly trace projects in real-time. It allows clients to get in touch with the project manager at any time to get an update on the status of their project. This is to keep them informed of what is happening so that they can make timely decisions.`,
-      //   image: feature[2],
+        image: feature[2],
     },
     {
-      // num: nums[3],
+      num: nums[3],
       title: "Everything Under One Roof",
       description: `Possesive Panda offers a one-stop solution for all your IT needs. We offer web development services, app development, digital marketing, and more. That way, we give the clients consistent and uniform resources for all their IT projects under one roof.`,
-      //   image: feature[3],
+        image: feature[3],
     },
     {
-      // num: nums[4],
+      num: nums[4],
       title: "Cost-Effective Solutions",
       description: `At possesive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
-      //   image: feature[4],
+        image: feature[4],
     },
     {
-      // num: nums[5],
+      num: nums[5],
       title: "Experienced Team",
       description: `The professionals in our team are highly qualified with all the relevant industry experience. Everyone brings skills, expertise and knowledge to the table that, among other factors, assures excellent service delivery and complete client satisfaction.`,
-      //   image: feature[5],
+        image: feature[5],
     },
-    {
-        // num: nums[5],
-        title: "Customized Solutions",
-        description: `We understand each project's requirement is different. Hence, our services are tailor-made and created exclusively in tune with the client's needs. This approach guarantees that the final output aligns with their project goals.`,
-        //   image: feature[5],
-      },
-      {
-        // num: nums[5],
-        title: "Innovative Approach",
-        description: `We keep researching new technologies and methodologies to apply in our service delivery, coming up with creative solutions that will let our clients stand out amongst the competition.`,
-        //   image: feature[5],
-      },
-      {
-        // num: nums[5],
-        title: "Data Protection",
-        description: `Our services fully comply with the HIPAA Act of 1996, which implies that our clients' sensitive information is protected. We handle data safely and confidentially.`,
-        //   image: feature[5],
-      },
+    // {
+    //     num: nums[6],
+    //     title: "Customized Solutions",
+    //     description: `We understand each project's requirement is different. Hence, our services are tailor-made and created exclusively in tune with the client's needs. This approach guarantees that the final output aligns with their project goals.`,
+    //       image: feature[6],
+    //   },
+      // {
+      //   num: nums[7],
+      //   title: "Innovative Approach",
+      //   description: `We keep researching new technologies and methodologies to apply in our service delivery, coming up with creative solutions that will let our clients stand out amongst the competition.`,
+      //     image: feature[7],
+      // },
+      // {
+      //   num: nums[8],
+      //   title: "Data Protection",
+      //   description: `Our services fully comply with the HIPAA Act of 1996, which implies that our clients' sensitive information is protected. We handle data safely and confidentially.`,
+      //     image: feature[8],
+      // },
   ];
 
   const marketingServices = {
@@ -178,7 +184,7 @@ const ppcservices = [
 export {
     top,
     ppcservices,
-    ourFeatu,
+    ourFeature,
     marketingServices,
     leadsAndSales,
     faq

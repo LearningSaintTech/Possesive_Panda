@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect, useRef, useState } from "react";
 import { premiumServicesData, serviceContent } from "./data";
 import ListItem from "./ListItem";
@@ -12,7 +11,7 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setShowDropdown(false);
+        //setShowDropdown(false);
       }
     };
 
@@ -39,7 +38,7 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
         <h1 className="text-zinc-800 text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem] underline mb-[1.563vw]">
           Browse Our Services
         </h1>
-        <div className="w-[22.5vw]">
+        <div className="w-[22.5vw] ">
           <ListItem
             name={"Services"}
             clickFunction={() => setSelectedService("Services")}
@@ -94,9 +93,13 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="grid grid-cols-3 gap-[1.6vw] overflow-auto pt-[1.8vw] pb-[2vw] scroll scroll-smooth snap-end">
-        {serviceContent[selectedService].map((item, index) => (
-          <ServiceItem key={index} name={item} />
+      <div className="grid grid-cols-3 gap-[1.6vw]  overflow-auto pt-[1.8vw] pb-[2vw] scroll scroll-smooth snap-end">
+      {serviceContent[selectedService].map((item, index) => (
+          <ServiceItem
+            key={index}
+            name={item.name ? item.name : item}
+            link={`/services/${item.link ? item.link : item.toLowerCase().replace(/ /g, '-')}`}
+          />
         ))}
       </div>
     </div>

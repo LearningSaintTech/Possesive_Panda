@@ -7,6 +7,8 @@ import OurFeature from './OurFeature';
 import Services from '../(Components)/Services';
 import Grow from '../(Components)/Grow';
 import Faq from '../(Components)/(Faq)/Faq';
+import banner from "../../../assets/banners/Seo-slider.png";
+
 import {
   top,
   seoAgency,
@@ -23,7 +25,7 @@ const page = () => {
         title={"Search Engine Optimization"}
         desciption={"Holistic and integrated online commerce solutions"}
         page={"Search Engine Optimization"}
-      // image={banner}
+      image={banner}
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />

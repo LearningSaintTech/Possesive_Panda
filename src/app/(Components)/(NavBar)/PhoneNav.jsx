@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";
-import { services } from "./data";
+import { services1 } from "./data";
 import SubServices from "./SubServices";
 
 const PhoneNav = ({ setShowSidebar, activeLabel }) => {
@@ -59,7 +59,7 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
         </button>
         {showServices && (
           <div className="">
-            {services.map((service, key) => (
+            {services1.map((service, key) => (
               <SubServices data={service} key={key} />
             ))}
           </div>
