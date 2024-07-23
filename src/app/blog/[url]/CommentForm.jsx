@@ -3,10 +3,10 @@ import React from "react";
 const CommentForm = () => {
   return (
     <div className="mt-[5.2vw] p-[2.6vw] bg-[#FAFAFA] w-fill sm:w-[57.813vw]">
-      <h3 className="text-[#212121] text-[5vw] sm:text-[3.5vw] font-medium leading-[normal] tracking-[0.02rem]">
+      <h3 className="text-[#212121] text-[5vw] sm:text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem]">
         Leave a Reply
       </h3>
-      <p className="text-[#212121] text-[2.6vw] sm:text-[1.042vw] font-medium leading-[normal] tracking-[0.013rem] sm:mb-0 mb-[3vw]">
+      <p className="text-[#212121] text-[2.6vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem] sm:mb-0 mb-[3vw]">
         Your email address will not be published.
       </p>
       <form className="sm:space-y-[2vw] space-y-[3.85vw]">
@@ -25,7 +25,7 @@ const CommentForm = () => {
         <input
           type="url"
           id="website"
-          className="font-[1.042vw] border py-[0.9vw] px-[2vw] sm:py-[0.55vw] sm:px-[1.276vw]rounded-[0.5vw] w-full focus:outline-0 focus:border-black"
+          className="font-[1.042vw] border py-[0.9vw] px-[2vw] sm:py-[0.55vw] sm:px-[1.276vw] rounded-[0.5vw] w-full focus:outline-0 focus:border-black"
           placeholder="Website (Optional)"
         />
         <textarea
@@ -42,7 +42,7 @@ const CommentForm = () => {
           />
           <label
             htmlFor="save-info"
-            className="text-[#858785] text-[2.8vw] sm:text-[1.042vw] font-medium leading-[normal] tracking-[0.013rem]"
+            className="text-[#858785] text-[2.8vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem]"
           >
             Save my name, email, and website in this browser for the next time I
             comment.
@@ -50,7 +50,7 @@ const CommentForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#00AFF1] text-white  px-[2vw] py-[1.1vw] sm:px-[1.2vw] sm:py-[0.7vw] rounded-[0.521vw] text-[3.5vw] sm:text-[1.042vw] font-medium leading-[normal] tracking-[0.013rem] hover:bg-[#45a0c5] hover:duration-300 duration-300"
+          className="bg-[#00AFF1] text-white  px-[2vw] py-[1.1vw] sm:px-[1.2vw] sm:py-[0.7vw] rounded-[0.521vw] text-[3.5vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem] hover:bg-[#45a0c5] hover:duration-300 duration-300"
         >
           Post Comment
         </button>

@@ -8,7 +8,7 @@ import { BsTwitterX, BsArrowUpRightCircle } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoInstagram, IoChevronForwardOutline } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
-import { FcPhone } from "react-icons/fc";
+import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 
 const Footer = () => {
@@ -58,7 +58,7 @@ const Footer = () => {
             </Link>
             <Link href="tel:+14158003326">
               <div className="flex items-center cursor-pointer ml-[12.5vw] lg:ml-0">
-                <FcPhone className="size-[6vw] sm:mr-0 sm:size-[1.563vw] -rotate-90 " />
+                <IoCallOutline className="size-[6vw] sm:mr-0 sm:size-[1.563vw]  " />
                 <p className="text-[5vw] sm:text-[1.25vw] font-medium tracking-[0.015rem] leading-[125%] hover:text-[#00AFF1] text-[#2A2A2A] ml-[1.042vw] ">
                   +1 (415) 800-3326
                 </p>

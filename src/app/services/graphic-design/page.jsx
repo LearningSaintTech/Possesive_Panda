@@ -8,6 +8,8 @@ import Grow from "../(Components)/Grow";
 import WhyUs from "../(Components)/WhyUs";
 import Faq from "../(Components)/(Faq)/Faq";
 import IconCard from "../(Components)/IconCard";
+import Footer from "../../(Components)/Footer";
+
 import {
   top,
   whyIs,
@@ -165,6 +167,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   );
 };

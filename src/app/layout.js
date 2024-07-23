@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "./(Components)/(NavBar)/Nav";
-import Footer from "./(Components)/Footer";
+// import Footer from "./(Components)/Footer";
 import Line from "./(Components)/Line";
 import Icon from "./(Components)/(Input Form)/Icon";
 import Head from "next/head";
@@ -44,9 +44,9 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Nav />
         {children}
-        <Line />
+        {/* <Line /> */}
         <Icon />
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

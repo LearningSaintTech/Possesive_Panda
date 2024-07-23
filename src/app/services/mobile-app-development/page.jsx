@@ -2,6 +2,8 @@ import Banner from "@/app/(Components)/Banner";
 import React from "react";
 import banner from "../../../assets/banners/mobile-app-development-slider.png";
 import Hero from "../(Components)/(Hero)/Hero";
+import Footer from "../../(Components)/Footer";
+
 import {
   androidApp,
   faq,
@@ -131,6 +133,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   );
 };

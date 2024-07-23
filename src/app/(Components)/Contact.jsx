@@ -154,9 +154,8 @@ const Contact = () => {
               </div>
             </Link>
 
-            <Link className="flex items-center hover:opacity-60" href="">
+            <Link className="flex items-center hover:opacity-60" href="mailto:hello@possesivepanda.com">
               <SlEnvolopeLetter className="size-[7vw] lg:size-[2vw] mr-[0.521vw]" />
-
               <div>
                 <p className="text-[3vw] lg:text-[1.2vw] leading-[153.846%] tracking-[0.02rem]">
                   EMAIL

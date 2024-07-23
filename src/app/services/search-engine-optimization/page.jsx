@@ -8,6 +8,8 @@ import Services from '../(Components)/Services';
 import Grow from '../(Components)/Grow';
 import Faq from '../(Components)/(Faq)/Faq';
 import banner from "../../../assets/banners/Seo-slider.png";
+import Footer from "../../(Components)/Footer";
+
 
 import {
   top,
@@ -123,6 +125,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   )
 }

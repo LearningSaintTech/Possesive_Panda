@@ -5,6 +5,7 @@ import Certificate from "./Certificate";
 import Banner from "../(Components)/Banner";
 import Content from "./Content";
 import banner from "../../assets/banners/about-us.png";
+import Footer from "../(Components)/Footer";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <Accordion />
       <Brands />
       <Certificate />
+      <Footer />
     </div>
   );
 };

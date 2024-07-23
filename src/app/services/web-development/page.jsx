@@ -5,6 +5,8 @@ import Features from "../(Components)/Features";
 import Services from "../(Components)/Services";
 import Faq from "../(Components)/(Faq)/Faq";
 import Grow from "../(Components)/Grow";
+import Footer from "../../(Components)/Footer";
+
 import {
   top,
   leverage,
@@ -97,6 +99,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   );
 };

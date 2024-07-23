@@ -9,7 +9,8 @@ import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
 import Portfolio from "./(homeComponent)/Portfolio";
 import Contact from "./(Components)/Contact";
-import Loader from "./(Components)/Loader"; // Adjust the path accordingly
+import Loader from "./(Components)/Loader"; 
+import Footer from "./(Components)/Footer";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -45,6 +46,7 @@ const MainPage = () => {
           <Blogs />
           <Faq />
           <Cross />
+          <Footer/>
         </>
       )}
     </div>

@@ -7,6 +7,7 @@ import Strategy from '../(Components)/(Strategy)/Strategy';
 import Inventory from '../(Components)/Inventory';
 import Faq from '../(Components)/(Faq)/Faq';
 import banner from "../../../assets/banners/pay.png";
+import Footer from "../../(Components)/Footer";
 
 import {
     top,
@@ -23,7 +24,7 @@ const page = () => {
                 title={"Pay Per Click"}
                 desciption={"For catchy, engaging and organized social media handles"}
                 page={"Pay Per Click"}
-            image={banner}
+                image={banner}
             />
             <div className="px-[5.2vw] pt-[5.2vw]">
                 <Hero top={top} />
@@ -48,7 +49,7 @@ const page = () => {
                 </div>
                 <div className="pt-[5.2vw]">
                     <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-[5vw] sm:mt-0">
-                    PPC services help to increase your leads and sales
+                        PPC services help to increase your leads and sales
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-[5.2vw] gap-y-[9vw] sm:gap-y-[3vw] mt-[5.2vw]">
                         {leadsAndSales.map((item, key) => (
@@ -58,6 +59,7 @@ const page = () => {
                 </div>
             </div>
             <Faq faq={faq} />
+            <Footer />
         </div>
     )
 }

@@ -32,10 +32,10 @@ const WhyUs = () => {
               alt="card-1"
               className="card-image absolute right-[7.051vw] lg:right-[3.563vw] lg:top-[1.458vw] top-[6.587vw] transition duration-500"
             />
-            <h6 className="card-title w-[56.667vw] md:w-fit text-[5.128vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw] transition duration-500">
+            <h6 className="card-title w-[56.667vw] md:w-fit text-[5.128vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1vw] left-[9.403vw] lg:left-[2.083vw] transition duration-500">
               Proven Track Record
             </h6>
-            <p className="card-text absolute bottom-[25vw] lg:bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[3.333vw] lg:text-[1.042vw] text-black opacity-0 transition duration-500 lg:px-0 px-[4vw] ">
+            <p className="card-text absolute bottom-[25vw] lg:bottom-[4.2vw] left-[2.083vw] right-[2.083vw] text-[3.333vw] lg:text-[1.042vw] text-black opacity-0 transition duration-500 lg:px-0 px-[4vw] ">
               Proven Track Record Review our track record, which showcases our dedication and expertise in providing exceptional services to trusted clients. Our achievements are clearly demonstrated by our numbers.
             </p>
           </div>

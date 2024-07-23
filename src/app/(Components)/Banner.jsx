@@ -17,7 +17,7 @@ const Banner = ({ title, desciption, page, image }) => {
         <h2 className="leading-[130%] text-white text-[3.2vw] sm:text-[3vw] lg:text-[2.083vw] tracking-[0.025rem]">
           {desciption}
         </h2>
-        <div className="flex items-center py-[1.2vw] space-x-2 lg:space-x-5 w-fit">
+        {/* <div className="flex items-center py-[1.2vw] space-x-2 lg:space-x-5 w-fit">
           <Link
             href="/"
             className="text-cyan-300 hover:underline text-[3vw] sm:text-[2vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem]"
@@ -29,11 +29,11 @@ const Banner = ({ title, desciption, page, image }) => {
           </span>
           <span className="text-white text-[3vw] sm:text-[2vw] lg:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem]">
             {page}
-          </span>
-        </div>
-        <div className="top-12 sm:w-[7.5vw] sm:h-[0.15vw] w-[15.2vw] h-[0.5vw] bg-cyan-300"></div>
+          </span> */}
       </div>
+      <div className="top-12 sm:w-[7.5vw] sm:h-[0.15vw] w-[15.2vw] h-[0.5vw] bg-cyan-300"></div>
     </div>
+    // </div>
   );
 };
 export default Banner;

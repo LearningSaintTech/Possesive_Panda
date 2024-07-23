@@ -32,10 +32,10 @@ const Card = ({ blog }) => {
         width={100}
         height={100}
         alt="main-image"
-        className="min-w-[4.688vw] h-[4.167vw] rounded-[0.26vw]"
+        className="min-w-[4.688vw] h-[5vw] rounded-[0.26vw]"
       />
       <div className="">
-        <p className="text-[#212121] text-[0.866vw] leading-[150%] tracking-[0.013rem] font-normal">
+        <p className="text-[#212121] text-[1vw] leading-[150%] tracking-[0.013rem] font-normal">
           {blog.meta_title}
         </p>
         <p className="text-[#212121] text-[0.833vw] leading-[187.5%] tracking-[0.01rem] font-normal flex items-center gap-[0.5vw] opacity-50">

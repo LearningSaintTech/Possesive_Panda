@@ -19,7 +19,7 @@ const Banner = ({ whyUsHeight }) => {
   const upRef = useRef(null);
   const downRef = useRef(null);
   const handleScroll = () => {
-    const startPosition = window.pageYOffset;
+    const startPosition = window.scrollY;
     const distance = whyUsHeight - startPosition;
     const duration = 2000;
     let start = null;

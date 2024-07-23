@@ -6,6 +6,7 @@ import { cards, projects } from "./data";
 import Project from "./Project";
 import Card from "./Card";
 import banner from "../../assets/banners/portfolio-details.png";
+import Footer from "../(Components)/Footer";
 
 const portfolio = () => {
   return (
@@ -34,6 +35,7 @@ const portfolio = () => {
       </div>
       {/* <Content /> */}
       {/* <RelatedPortfolio /> */}
+      <Footer />
     </div>
   );
 };
