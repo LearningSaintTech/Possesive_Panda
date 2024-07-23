@@ -25,10 +25,85 @@ import Faq from "../(Components)/(Faq)/Faq";
 import WhySection from "./WhySection";
 import BenefitsCard from "./BenefitsCard";
 import ProcessCard from "./ProcessCard";
+import Head from 'next/head';
+import Script from 'next/script';
 
+export const metadata = {
+  title: 'Social Media Management Agency | Top Social Media Management Services',
+  description: 'Possesive panda is the best social media management company . we offer top quality social media management services at low prices. contact us for effective social media strategies.',
+ 
+  
+};
 const page = () => {
   return (
     <div>
+
+<Script id="application/ld+json">
+          {`
+       {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Social Media Management Service",
+  "alternateName": "Top Social Media Management Services",
+  "url": "https://possesivepanda.com/services/social-media",
+  "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
+}
+
+          `}
+        </Script>
+        <Script id="application/ld+json">
+          {`
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Social Media Management?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Social Media Management is the process of creating content for social media platforms to promote your products and services to your target audience and engage website traffic."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is Social Media Management important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Social media management is important because it helps with audience engagement, increases brand visibility, and drives traffic to your website. Social media helps reach an audience globally."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do you measure the results of social media campaigns?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our team tracks key performance indicators such as engagement rates, reach, website traffic, and conversion. Using advanced tools, we provide detailed reports. We also continuously optimize your social media for optimal results."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should you choose us as your Social Media Management partner?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possessive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the role of a social media manager?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Role of a social media manager is very crucial as they have to manage a company's online presence across various social media platforms. Their responsibilities include strategy, creativity, maintaining the brand's image, and engaging with the audience."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is needed for social media management?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Social Media Management requires a combination of strategic planning, content creation, and analytical skills."
+    }
+  }]
+}
+
+
+          `}
+        </Script>
       <Banner
         title={"Social Media Service"}
         desciption={"For catchy, engaging and organized social media handles"}

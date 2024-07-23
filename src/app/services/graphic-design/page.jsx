@@ -20,10 +20,75 @@ import {
   faq,
 } from "./data";
 import ServicesCard from "./ServicesCard";
+import Head from 'next/head';
+import Script from 'next/script';
 
+export const metadata = {
+  title: 'Graphic Design Service | Custom Graphic Design Agency',
+  description: 'possesive panda offers Engaging , Banner, Creative , Designs ,Logo a complete collection of graphics design services to showcase your identity. Working with our talented designers and developers, you can create eye-catching designs for your site that will help tell your business.',
+ 
+  
+};
 const page = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        
+       
+
+       
+
+      </Head>
+       {/* Schema Markup for Breadcrumbs */}
+       <Script id="application/ld+json">
+          {`
+          {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Graphic Design Service",
+  "alternateName": "Custom Graphic Design Agency",
+  "url": "https://possesivepanda.com/services/graphic-design",
+  "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
+}
+
+          `}
+        </Script>
+
+        <Script id="application/ld+json">
+          {`
+         {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How long does it take to complete a custom graphic design?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as less as one day and larger ones can take as much as 1-2 weeks to complete."
+    }
+  },{
+    "@type": "Question",
+    "name": "What sets Possesive Panda apart from other graphic design services online?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much graphic design services cost?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost of completing a design depends on the level of its volume and intricacy. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction."
+    }
+  }]
+}
+
+          `}
+        </Script>
       <Banner
         title={"Graphic Design Service"}
         desciption={"Design that combines aesthetics with conciseness"}

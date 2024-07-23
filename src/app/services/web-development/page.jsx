@@ -20,10 +20,26 @@ import Difference from "./Difference";
 import Frameworks from "./Frameworks";
 import WhyCard from "./WhyCard";
 import WebsitesCard from "./WebsitesCard";
-
+import Head from 'next/head';
+export const metadata = {
+  title: 'Website Development Service Company | Top Website design Services',
+  description: 'Leading website development service company providing top custom website design services. Elevate your online presence with our expert and innovative web solutions.',
+ 
+  
+};
 const page = () => {
   return (
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+
+     
+       
+
+      </Head>
       <Banner
         title={"Web Development Service"}
         desciption={"Glitch-free and user optimized web services"}

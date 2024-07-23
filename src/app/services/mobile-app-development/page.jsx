@@ -21,10 +21,33 @@ import Tools from "./Tools";
 import WhyUs from "../(Components)/WhyUs";
 import Faq from "../(Components)/(Faq)/Faq";
 import Comparison from "./Comparision";
+import Head from 'next/head';
+
+export const metadata = {
+  title: 'Mobile App Development Company | Android/IOS App Development Software Service',
+  description: 'Looking for top mobile application development company offering expert Android/iOS app development software services. Boost your business with innovative and reliable app solutions.',
+  alternates: {
+    canonical: ' https://www.possesivepanda.com/services/mobile-app-development '
+  },
+  
+  
+};
 
 const page = () => {
   return (
     <div>
+       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="canonical" href={metadata.canonical} />
+
+       
+
+       
+
+      </Head>
       <Banner
         title={"Mobile App Development Service"}
         desciption={"For the convenience of smooth & intuitive mobile apps"}

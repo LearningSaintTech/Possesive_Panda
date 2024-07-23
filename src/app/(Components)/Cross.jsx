@@ -3,7 +3,7 @@ import "../(Components)/cross.css";
 
 const Cross = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden ">
       <div className="relative h-[30vh] lg:h-[90vh] w-screen flex flex-col justify-center items-center">
         <div className="absolute w-[110vw] bg-zinc-100 border border-zinc-900 h-[7.813vw] flex items-center justify-center rotate-[8.9deg] overflow-hidden">
           <div className="flex animate-marquee">
