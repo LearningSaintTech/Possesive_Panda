@@ -5,6 +5,8 @@ import Hero from '../(Components)/(Hero)/Hero';
 import Grow from '../(Components)/Grow';
 import Services from '../(Components)/Services';
 import Faq from '../(Components)/(Faq)/Faq';
+import Footer from "../../(Components)/Footer";
+
 import {
   top,
   benefits,
@@ -53,6 +55,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   )
 }

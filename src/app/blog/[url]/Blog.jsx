@@ -23,7 +23,7 @@ const Blog = ({ data }) => {
         alt="image"
         className="w-full h-[45vw] sm:w-[52.5vw] sm:h-[31.51vw] rounded-t-[0.521vw] mt-[5vw] sm:mt-[0]"  
       />
-      <div className="flex gap-[3.2vw] sm:gap-[1.563vw] items-center w-full sm:w-[52.5vw] mt-[3vw] sm:mt-[2.6vw]">
+      <div className="flex gap-[3.2vw] sm:gap-[2.5vw] items-center w-full sm:w-[52.5vw] mt-[3vw] sm:mt-[2.6vw] mb-[1vw]">
         <p className="text-[#0b0909] text-[2.5vw] sm:text-[1.042vw] font-medium leading-[normal] tracking-[0.015rem] flex items-center gap-[0.8vw] sm:gap-[0.3vw]">
           <FaFilePen className="size-[3vw] sm:size-[1.25vw] text-[#00AFF1]" />
           {data.author}

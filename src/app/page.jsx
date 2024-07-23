@@ -8,6 +8,7 @@ import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
 import Portfolio from "./(homeComponent)/Portfolio";
 import Contact from "./(Components)/Contact";
+import Footer from "./(Components)/Footer";
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
       <Blogs />
       <Faq />
       <Cross />
+      <Footer />
     </main>
   );
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import Banner from "@/app/(Components)/Banner";
 import banner from "../../../assets/banners/Real-Estate-slider.png"
 import Hero from '../(Components)/(Hero)/Hero';
+import Footer from "../../(Components)/Footer";
+
 import {
     top,
     ourRealEstate,
@@ -53,6 +55,7 @@ const page = () => {
                 </div>
             </div>
             <Faq faq={faq}/>
+            <Footer/>
         </div>
     )
 }

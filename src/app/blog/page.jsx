@@ -5,6 +5,8 @@ import Options from "./Options";
 import Banner from "../(Components)/Banner";
 import Loader from "../(Components)/Loader";
 import banner from "../../assets/banners/blog.png";
+import Footer from "../(Components)/Footer";
+
 const MainPage = () => {
   const [blogs, setBlogs] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -60,6 +62,7 @@ const MainPage = () => {
           </>
         )}
       </div>
+      <Footer/>
     </div>
   );
 };

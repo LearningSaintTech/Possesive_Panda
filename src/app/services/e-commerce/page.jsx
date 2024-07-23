@@ -9,6 +9,8 @@ import WhyUs from "../(Components)/WhyUs";
 import Grow from "../(Components)/Grow";
 import Process from "../(Components)/Process";
 import Strategy from "../(Components)/(Strategy)/Strategy";
+import Footer from "../../(Components)/Footer";
+
 import {
   benefits,
   businessToGrow,
@@ -118,6 +120,7 @@ const page = () => {
         </div>
       </div>
       <Faq faq={faq} />
+      <Footer/>
     </div>
   );
 };

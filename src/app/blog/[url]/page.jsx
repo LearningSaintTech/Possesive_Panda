@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import BlogPage from "./BlogPage";
 import Loader from "../../(Components)/Loader";
+import Footer from "../../(Components)/Footer";
+
 
 const getData = async (url) => {
   const res = await fetch(
@@ -37,6 +39,8 @@ const BlogDetails = ({ params }) => {
   }
 
   return <BlogPage data={blogData} />;
+  <Footer/>
+
 };
 
 export default BlogDetails;
