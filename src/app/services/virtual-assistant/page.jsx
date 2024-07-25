@@ -13,7 +13,7 @@ import {
   services,
   faq
 } from "./data";
-import Feature from './feautre';
+import Feature from './Feautre';
 
 const page = () => {
   return (
