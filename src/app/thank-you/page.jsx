@@ -15,7 +15,7 @@ const Thanks = () => {
         className="mt-2 mb-4 rounded-lg shadow-lg " 
       />
       <h1 className="text-2xl font-bold mb-4">Thank You! For Contacting us</h1>
-      <h2 className="text-xl font-bold mb-4 ">We will get back to you soon </h2>
+      <h2 className="text-xl font-bold mb-4 ">We will get Back to you soon </h2>
       
       <Link href="/" className="px-6 py-3 bg-[#60E2FF] text-white rounded-lg hover:bg-[#00AFF1] transition-all duration-300 mt-3">
        
