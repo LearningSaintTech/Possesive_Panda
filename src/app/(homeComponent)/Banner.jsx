@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable react/no-unescaped-entities */
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import banner_1 from "../../assets/home/banner/Banner-1.png";
 import banner_2 from "../../assets/home/banner/Banner-2.png";
@@ -15,32 +15,37 @@ import shadow from "../../assets/home/banner/shadow.png";
 import panda from "../../assets/home/banner/panda-bg.png";
 import { GoArrowRight } from "react-icons/go";
 
-const Banner = ({ whyUsHeight }) => {
+const Banner = ({ whyUsHeight, whyUsRef }) => {
   const upRef = useRef(null);
   const downRef = useRef(null);
+  
   const handleScroll = () => {
-    const startPosition = window.scrollY;
-    const distance = whyUsHeight - startPosition;
-    const duration = 2000;
-    let start = null;
-
-    const step = (timestamp) => {
-      if (!start) start = timestamp;
-      const progress = timestamp - start;
-      const percentage = Math.min(progress / duration, 1);
-      const easeInOutQuad =
-        percentage < 0.5
-          ? 2 * percentage * percentage
-          : -1 + (4 - 2 * percentage) * percentage;
-      window.scrollTo(0, startPosition + easeInOutQuad * distance);
-
-      if (progress < duration) {
-        window.requestAnimationFrame(step);
-      }
-    };
-
-    window.requestAnimationFrame(step);
+    if (whyUsRef && whyUsRef.current) {
+      const targetPosition = whyUsRef.current.offsetTop;
+      const startPosition = window.pageYOffset || window.scrollY;
+      const distance = targetPosition - startPosition;
+      const duration = 2000; // Adjust the duration as needed
+      let start = null;
+  
+      const step = (timestamp) => {
+        if (!start) start = timestamp;
+        const progress = timestamp - start;
+        const percentage = Math.min(progress / duration, 1);
+        const easeInOutQuad = 
+          percentage < 0.5 
+            ? 2 * percentage * percentage 
+            : -1 + (4 - 2 * percentage) * percentage;
+        window.scrollTo(0, startPosition + easeInOutQuad * distance);
+  
+        if (progress < duration) {
+          window.requestAnimationFrame(step);
+        }
+      };
+  
+      window.requestAnimationFrame(step);
+    }
   };
+
   useEffect(() => {
     if (upRef.current) {
       const ul = upRef.current;

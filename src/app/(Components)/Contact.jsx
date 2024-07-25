@@ -1,22 +1,23 @@
 "use client";
 import Link from "next/link";
-//import React, { useState } from "react";
 import { useState, useEffect } from "react";
+
 import { BiPhoneCall } from "react-icons/bi";
 import { LiaFaxSolid } from "react-icons/lia";
 import { SlEnvolopeLetter } from "react-icons/sl";
+import { useRouter } from 'next/navigation';
 
 const Contact = () => {
+  const router = useRouter();
+
   const initialForm = {
     fname: "",
     email: "",
     phone: "",
     course: "",
-    ip: "", // Add ip field to the form state
+    ip: "",
     site_id: "3",
   };
-
-  //const [ip, setIP] = useState("");
   const [form, setForm] = useState(initialForm);
   const [message, setMessage] = useState("");
 
@@ -60,16 +61,17 @@ const Contact = () => {
       },
       body: JSON.stringify(form),
     });
-
+    
     if (response.ok) {
-      setMessage("Form submitted successfully!");
-      //alert("Form submitted successfully!");
+      //setMessage("Form submitted successfully!");
+      router.push("/thank-you"); // Redirect to Thank You page
     } else {
       setMessage("Failed to submit the form.");
     }
 
     setForm(initialForm);
   };
+
   return (
     <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between mb-[5.5vw] lg:mt-0 mt-[15.385vw]">
       <div className="w-full lg:w-[34.688vw] gap-[1.042vw]">
