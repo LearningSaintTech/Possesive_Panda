@@ -19,10 +19,10 @@ const page = () => {
     return (
         <div>
             <Banner
-                title={"Real Estate"}
+                title={"Real Estate Virtual Assistant"}
                 desciption={"For catchy, engaging and organized social media handles"}
                 page={"Real Estate"}
-            image={banner}
+                image={banner}
             />
             <div className="px-[5.2vw] pt-[5.2vw]">
                 <Hero top={top} />
@@ -40,7 +40,7 @@ const page = () => {
             </div>
             <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
                 <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
-                Our Real Estate Virtual Assistants Services
+                    Our Real Estate Virtual Assistant Services
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
                     {ourRealEstate.map((item, key) => (
@@ -49,13 +49,13 @@ const page = () => {
                 </div>
                 <div className="pt-[5.2vw]">
                     <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0 pb-[4.167vw]">
-                    Benefits of Real Estate Virtual Assistants
+                        Benefits of Real Estate Virtual Assistant
                     </h3>
                     <BenefitCard benefits={benefits} />
                 </div>
             </div>
-            <Faq faq={faq}/>
-            <Footer/>
+            <Faq faq={faq} />
+            <Footer />
         </div>
     )
 }

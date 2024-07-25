@@ -142,7 +142,7 @@ const Page = () => {
       </Script>
       <Banner
         title={"E-Commerce Service"}
-        desciption={"Holistic and integrated online commerce solutions"}
+        desciption={"E-commerce solutions that match your needs"}
         page={"E-Commerce"}
         image={banner}
       />

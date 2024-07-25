@@ -22,7 +22,7 @@ const page = () => {
         <div>
             <Banner
                 title={"Pay Per Click"}
-                desciption={"For catchy, engaging and organized social media handles"}
+                desciption={"Generate leads and improve sales with excellent PPC Services."}
                 page={"Pay Per Click"}
                 image={banner}
             />

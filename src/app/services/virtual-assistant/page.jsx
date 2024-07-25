@@ -20,7 +20,7 @@ const page = () => {
     <div>
       <Banner
         title={"Virtual Assistant"}
-        desciption={"Holistic and integrated online commerce solutions"}
+        desciption={"Expert Virtual Assistants for Seamless Business Success"}
         page={"Virtual Assistant"}
       image={banner}
       />

@@ -12,6 +12,7 @@ import {
 import banner from "../../../assets/realstate/banners/realbanner.png";
 
 const top = {
+  title1:"Hire A Real Estate Virtual Assistant",
   title: "Who is a Virtual Assistant?",
   paragraph: [
     `A virtual assistant is an individual who works for you or your company. Technology has come a long way, and nowadays, most tasks can be done efficiently without any physical involvement in the same location.`,
