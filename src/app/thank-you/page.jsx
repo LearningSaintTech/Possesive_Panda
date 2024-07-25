@@ -1,6 +1,6 @@
 import React from 'react' ;
 import Image from 'next/image';
-import thank_you from "../../assets/thank_you/thank_you.jpeg";
+import thank_you from "../../assets/thank_you/thank_you.png";
 import Link from 'next/link';
 
 
