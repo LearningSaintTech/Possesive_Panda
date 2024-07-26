@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Tag from "./Tag";
 import Recent from "./Recent";
 import SeachBar from "./SeachBar";
 import Category from "./Category";
 import Link from "next/link";
-const Options = ({ categories, tags, blogs, setBlogs }) => {
+
+const Options = ({ categories, tags, blogs, setBlogs, originalBlogs }) => {
+  useEffect(() => {
+    setBlogs(blogs);
+  }, [blogs, setBlogs]);
+
   return (
     <div className="w-fit hidden sm:block">
       <div className="rounded-[0.5vw] w-full mx-auto md:mx-0 bg-gray-50 border border-black border-opacity-50 pl-[2.083vw] shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)]">
@@ -18,9 +23,9 @@ const Options = ({ categories, tags, blogs, setBlogs }) => {
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {blogs.map((blogs, key) => (
-            <Link href = {`/blog/${blogs.url}`}>
-             <Category category={blogs.title}  blogs = {blogs} key={key} />
+          {blogs.map((blog, key) => (
+            <Link href={`/blog/${blog.url}`} key={key}>
+              <Category category={blog.title} blogs={blogs} />
             </Link>
           ))}
         </div>
@@ -32,7 +37,7 @@ const Options = ({ categories, tags, blogs, setBlogs }) => {
         </h4>
         <div className="grid grid-cols-2 gap-x-[1.042vw] gap-y-[1.3vw]">
           {tags.map((tag, key) => (
-            <Tag name={tag} setBlogs={setBlogs} key={key} />
+            <Tag name={tag} setBlogs={setBlogs} originalBlogs={originalBlogs} key={key} />
           ))}
         </div>
       </div>
@@ -43,10 +48,7 @@ const Options = ({ categories, tags, blogs, setBlogs }) => {
 
         <div className="">
           {blogs.slice(-4).map((blog, key) => (
-            <Link href={`/blog/${blog.url}`}> 
             <Recent blog={blog} key={key} />
-            </Link>
-            
           ))}
         </div>
       </div>

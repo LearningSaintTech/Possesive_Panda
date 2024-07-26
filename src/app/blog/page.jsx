@@ -9,6 +9,7 @@ import Footer from "../(Components)/Footer";
 
 const MainPage = () => {
   const [blogs, setBlogs] = useState([]);
+  const [originalBlogs, setOriginalBlogs] = useState([]); // State to hold original blogs
   const [categories, setCategories] = useState([]);
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -21,7 +22,7 @@ const MainPage = () => {
         );
         const data = await response.json();
         setBlogs(data.blogs);
-        // console.log(data);
+        setOriginalBlogs(data.blogs); // Store original blogs
         setCategories(() => [...new Set(data.blogs.map((blog) => blog.title))]);
         setTags(() => [
           ...new Set(data.blogs.flatMap((blog) => blog.tags.split(" "))),
@@ -58,11 +59,12 @@ const MainPage = () => {
               tags={tags}
               blogs={blogs}
               setBlogs={setBlogs}
+              originalBlogs={originalBlogs} // Pass original blogs to Options
             />
           </>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
