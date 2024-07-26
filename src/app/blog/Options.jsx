@@ -23,9 +23,9 @@ const Options = ({ categories, tags, blogs, setBlogs, originalBlogs }) => {
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {blogs.map((blog, key) => (
+          {originalBlogs.map((blog, key) => (
             <Link href={`/blog/${blog.url}`} key={key}>
-              <Category category={blog.title} blogs={blogs} />
+              <Category category={blog.title} blogs={originalBlogs} />
             </Link>
           ))}
         </div>
@@ -47,7 +47,7 @@ const Options = ({ categories, tags, blogs, setBlogs, originalBlogs }) => {
         </h4>
 
         <div className="">
-          {blogs.slice(-4).map((blog, key) => (
+          {originalBlogs.slice(-4).map((blog, key) => (
             <Recent blog={blog} key={key} />
           ))}
         </div>
