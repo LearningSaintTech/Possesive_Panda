@@ -3,7 +3,7 @@ import Tag from "./Tag";
 import Recent from "./Recent";
 import SeachBar from "./SeachBar";
 import Category from "./Category";
-
+import Link from "next/link";
 const Options = ({ categories, tags, blogs, setBlogs }) => {
   return (
     <div className="w-fit hidden sm:block">
@@ -18,8 +18,10 @@ const Options = ({ categories, tags, blogs, setBlogs }) => {
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {categories.map((category, key) => (
-            <Category category={category} key={key} />
+          {blogs.map((blogs, key) => (
+            <Link href = {`/blog/${blogs.url}`}>
+             <Category category={blogs.title}  blogs = {blogs} key={key} />
+            </Link>
           ))}
         </div>
       </div>
@@ -41,7 +43,10 @@ const Options = ({ categories, tags, blogs, setBlogs }) => {
 
         <div className="">
           {blogs.slice(-4).map((blog, key) => (
+            <Link href={`/blog/${blog.url}`}> 
             <Recent blog={blog} key={key} />
+            </Link>
+            
           ))}
         </div>
       </div>

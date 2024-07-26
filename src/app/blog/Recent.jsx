@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { CiClock2 } from "react-icons/ci";
+import Link from "next/link";
 
 const Recent = ({ blog }) => {
   const dateStr = blog.date;
@@ -20,9 +21,14 @@ const Recent = ({ blog }) => {
         className="min-w-[4.688vw] h-[4.167vw] rounded-[0.26vw]"
       />
       <div className="">
-        <p className="text-[#212121] text-[0.866vw] leading-[150%] tracking-[0.013rem] font-normal ">
+      <Link href={`/blog/${blog.url}`}> 
+        <button className="text-[#212121] text-[0.866vw] leading-[150%] tracking-[0.013rem] font-normal " >
+        
           {blog.meta_title}
-        </p>
+    
+        </button>
+        </Link>
+        
         <p className="text-[#212121] text-[0.833vw] leading-[187.5%] tracking-[0.01rem] font-normal flex items-center gap-[0.5vw] opacity-50">
           <CiClock2 /> {formatDate}
         </p>

@@ -21,7 +21,7 @@ const MainPage = () => {
         );
         const data = await response.json();
         setBlogs(data.blogs);
-        console.log(data);
+        // console.log(data);
         setCategories(() => [...new Set(data.blogs.map((blog) => blog.title))]);
         setTags(() => [
           ...new Set(data.blogs.flatMap((blog) => blog.tags.split(" "))),
