@@ -10,8 +10,10 @@ const Content = ({ top }) => {
           className="w-full h-[50vw] sm:w-[90vw] sm:h-[50vw] md:w-[60vw] md:h-[33.958vw]"
         />
       )}
-
       <div className="mt-[3.636vw] w-fit sm:w-[60vw]">
+      <h6 className="text-neutral-800 font-bold sm:font-semibold tracking-[0.025rem] leading-[normal] text-[4.364vw] lg:text-[2.5vw]">
+          {top.title1}
+        </h6>
         <h6 className="text-neutral-800 font-bold sm:font-semibold tracking-[0.025rem] leading-[normal] text-[4.364vw] lg:text-[2.083vw]">
           {top.title}
         </h6>

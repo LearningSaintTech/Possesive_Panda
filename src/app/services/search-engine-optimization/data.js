@@ -10,7 +10,7 @@ import banner from "../../../assets/seo/banners/seo.png";
 const top = {
     title: "Search Engine Optimization",
     paragraph: [
-      ` SEO team provides local, national, and global search engine optimization solutions. We will assist you in boostOuring ROI, generating leads, and obtaining top-ranking results on search engines such as Google, Yahoo, Bing, and many more. Our SEO experts can boost your website, attracting traffic and driving business growth.`,
+      ` SEO team provides local, national, and global search engine optimization solutions. We will assist you in boost ROI, generating leads, and obtaining top-ranking results on search engines such as Google, Yahoo, Bing, and many more. Our SEO experts can boost your website, attracting traffic and driving business growth.`,
       `We understand the power of organic SERPs and are here to help you stay in a competitive market. We offer the best SEO services to help businesses in all industries to achieve their goals. Our best SEO team will work with you to develop an SEO strategy that is needed for your business. Our services include keyword research, on-page optimization, market research, SEO audit, technical SEO, content creation, and link building.`,
     ],
     image: banner,

@@ -99,7 +99,7 @@ const mainSection = {
 };
 
 const statergy = {
-  title: `Our E-Commerce Website Development Strategy`,
+  title: `Our E-Commerce Website Development Strategies`,
   cards: [
     {
       num: "1",

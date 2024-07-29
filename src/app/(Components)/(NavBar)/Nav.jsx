@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import logo from "../../../assets/nav/nav-logo.png";
+import logo1 from "../../../assets/nav/nav-logo1.png";
 import Dropdown from "./Dropdown";
 import { usePathname } from "next/navigation";
 import PhoneNav from "./PhoneNav";
@@ -60,7 +61,7 @@ const Nav = () => {
       <div className="flex justify-between items-center relative">
         <Link href="/">
           <Image
-            src={logo}
+            src={logo1}
             alt="logo"
             className="w-[20vw] h-[15vw] sm:w-[5.521vw] sm:h-[4.167vw]"
           />

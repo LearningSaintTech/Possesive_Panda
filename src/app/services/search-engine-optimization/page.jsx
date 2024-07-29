@@ -25,7 +25,7 @@ const page = () => {
     <div>
       <Banner
         title={"Search Engine Optimization"}
-        desciption={"Holistic and integrated online commerce solutions"}
+        desciption={"Expert SEO Services to Drive Traffic & Increase Rankings"}
         page={"Search Engine Optimization"}
       image={banner}
       />
