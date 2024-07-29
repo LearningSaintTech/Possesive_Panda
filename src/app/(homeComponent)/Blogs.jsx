@@ -58,11 +58,13 @@ const Blogs = () => {
                   {blog.title}
                 </p>
                 <small className="text-zinc-600 text-[3.5vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw] w-[100px]">
-                  {new Date(blog.updated_at).toLocaleDateString("en-US", {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                  })}
+                {blog.author}
+                <span className="mx-2">•</span>
+                {new Date(blog.updated_at).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                })}
                 </small>
               </div>
               
