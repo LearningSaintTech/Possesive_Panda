@@ -16,7 +16,7 @@ const top = {
 
 const whyWe = {
   paragraph: [
-    `Possessive Panda Success mantra lies in the success of our clients. We focus on building brand awareness and engaging our clients on social media.`,
+    `Possessive Panda Success mantra lies in the success of our clients. We focus on building brand awareness and engaging our client on social media.`,
     `Our approach includes not just the audience but also proper viewer engagement. In today's Digital world, our expertise in various digital marketing channels like social media, content marketing, SEO, PPC, and more ensures our clients stand out in a competitive market. `,
   ],
   cards: [
