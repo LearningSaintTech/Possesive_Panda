@@ -1,9 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-
 import { BiPhoneCall } from "react-icons/bi";
-import { LiaFaxSolid } from "react-icons/lia";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import { useRouter } from 'next/navigation';
 
@@ -20,6 +18,7 @@ const Contact = () => {
   };
   const [form, setForm] = useState(initialForm);
   const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({});
 
   const handleKeyPress = (e) => {
     const allowedKeys = /[0-9\b]/;
@@ -50,8 +49,24 @@ const Contact = () => {
     }));
   };
 
+  const validateForm = () => {
+    let formErrors = {};
+    if (!form.fname) formErrors.fname = "Name is required";
+    if (!form.email) formErrors.email = "Email is required";
+    if (!form.phone) formErrors.phone = "Phone number is required";
+    if (!form.course) formErrors.course = "Course selection is required";
+    return formErrors;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const formErrors = validateForm();
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+      setMessage("Please fill in all required fields.");
+      return;
+    }
+
     const apiUrl =
       "https://crm.learningsaint.com/api/addLeads?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj";
     const response = await fetch(apiUrl, {
@@ -61,9 +76,8 @@ const Contact = () => {
       },
       body: JSON.stringify(form),
     });
-    
+
     if (response.ok) {
-      //setMessage("Form submitted successfully!");
       router.push("/thank-you"); // Redirect to Thank You page
     } else {
       setMessage("Failed to submit the form.");
@@ -90,15 +104,19 @@ const Contact = () => {
             name="fname"
             onChange={handleChange}
             maxLength={25}
-            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className={`border ${errors.fname ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5`}
           />
+          {errors.fname && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.fname}</p>}
+          
           <input
             type="email"
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className={`border ${errors.email ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5`}
           />
+          {errors.email && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.email}</p>}
+          
           <input
             type="text"
             required
@@ -107,14 +125,16 @@ const Contact = () => {
             onChange={handleChange}
             maxLength={10}
             name="phone"
-            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className={`border ${errors.phone ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5`}
           />
+          {errors.phone && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.phone}</p>}
+          
           <select
             name="course"
             onChange={handleChange}
-            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5"
+            className={`border ${errors.course ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5`}
           >
-            <option hidden value="course">
+            <option hidden value="">
               How did you find us?
             </option>
             <option value="Instagram">Instagram</option>
@@ -122,6 +142,8 @@ const Contact = () => {
             <option value="Advertisment">Advertisment</option>
             <option value="Other">Other</option>
           </select>
+          {errors.course && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.course}</p>}
+          
           <input
             type="hidden"
             value={form.ip}
