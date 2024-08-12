@@ -24,6 +24,29 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="Qi5NT1J6yKJpoaXZALZWAqKGg8qgKHGQeSsbgcHxqo0"
         />
+ {/* Google Tag Manager */}
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5K4LFW6H');
+          `,
+        }} />
+        {/* End Google Tag Manager */}
+
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16645945747"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16645945747');
+          `,
+        }} />
+
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-5VEQ1BPQLS"
@@ -58,11 +81,20 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        <noscript><img height="1" width="1" style="display:none"
+        <noscript><img height="1" width="1" style={{ display: 'none' }}
               src="https://www.facebook.com/tr?id=380882334679792&ev=PageView&noscript=1"
                /></noscript>
       </head>
+
       <body className={poppins.className}>
+<noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-5K4LFW6H"
+    height="0"
+    width="0"
+    style={{ display: 'none', visibility: 'hidden' }}
+  ></iframe>
+</noscript>
         <Nav />
         {children}
         {/* <Line /> */}
