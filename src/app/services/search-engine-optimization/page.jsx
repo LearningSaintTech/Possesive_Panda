@@ -9,7 +9,8 @@ import Grow from '../(Components)/Grow';
 import Faq from '../(Components)/(Faq)/Faq';
 import banner from "../../../assets/banners/Seo-slider.png";
 import Footer from "../../(Components)/Footer";
-
+import Head from 'next/head';
+import Script from 'next/script';
 
 import {
   top,
@@ -19,10 +20,142 @@ import {
   ourSeoProcess,
   faq,
 } from "./data";
-
+export const metadata = {
+  title:"Best SEO Services | SEO Service Provider Company",
+  description : `Looking For SEO Service for your Business & Service ?
+Possesive Panda is the right place for improving your website's visibility, driving organic traffic, and increasing quality leads.Contact us today.`
+}
 const page = () => {
   return (
     <div>
+
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Head>
+
+      <Script id="application/ld+json">
+  {`
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "How does SEO work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It works by optimizing various aspects of a website and content to improve its visibility and ranking. During this process, the website's keywords, content, links, user experience, and technical aspects are optimized."
+      }
+    },{
+      "@type": "Question",
+      "name": "What benefits will SEO provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When your website is on top, you can expect more traffic and queries from your potential clients, allowing you to do business with them."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is the difference between on-page and off-page SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On-page SEO refers to changes that are made directly to your website. On the other hand, off-page SEO refers to activities performed on other websites to benefit your website."
+      }
+    },{
+      "@type": "Question",
+      "name": "How long does SEO take to show results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With consistent effort and strategic optimization, significant improvements in rankings and traffic can be seen within 4-6 months."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do I measure SEO growth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO success can be measured by measuring organic traffic growth, keyword rankings, and conversion rates. Tools like Google Analytics and Search Console provide valuable insights into these metrics."
+      }
+    },{
+      "@type": "Question",
+      "name": "What are backlinks in SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Backlinks are also called inbound links because they represent another website's traffic coming to your website. The quality and quantity of your backlinks can help you rank higher in search engines such as Google and Bing."
+      }
+    },{
+      "@type": "Question",
+      "name": "Why has my organic traffic dropped?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Poor-quality content, outdated information, or content that doesn't match user intent can lead to a drop in organic traffic as search engines prioritize high-quality, valuable content."
+      }
+    }]
+  }
+  `}
+</Script>
+      
+      
+      <Script id="application/ld+json">
+          {`{
+            "@context": "https://schema.org/", 
+            "@type": "BreadcrumbList", 
+            "itemListElement": [{
+              "@type": "ListItem", 
+              "position": 1, 
+              "name": "Home",
+              "item": "https://possesivepanda.com/"  
+            },{
+              "@type": "ListItem", 
+              "position": 2, 
+              "name": "Digital Marketing",
+              "item": "https://possesivepanda.com/services/digital-marketing"  
+            },{
+              "@type": "ListItem", 
+              "position": 3, 
+              "name": "App Development",
+              "item": "https://possesivepanda.com/services/mobile-app-development"  
+            },{
+              "@type": "ListItem", 
+              "position": 4, 
+              "name": "Virtual Assistant",
+              "item": "https://possesivepanda.com/services/virtual-assistant"  
+            }]
+          }
+          `}
+        </Script>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Banner
         title={"Search Engine Optimization"}
         desciption={"Expert SEO Services to Drive Traffic & Increase Rankings"}
