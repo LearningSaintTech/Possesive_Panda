@@ -9,6 +9,8 @@ import Footer from "../(Components)/Footer";
 
 const MainPage = () => {
   const [blogs, setBlogs] = useState([]);
+  const [originalBlogs, setOriginalBlogs] = useState([]); // State to hold original blogs
+  const [elasticSearchData, setElasticSearchData] = useState([]); // State for filtered blogs
   const [categories, setCategories] = useState([]);
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -21,7 +23,8 @@ const MainPage = () => {
         );
         const data = await response.json();
         setBlogs(data.blogs);
-        console.log(data);
+        setOriginalBlogs(data.blogs); // Store original blogs
+        setElasticSearchData(data.blogs); // Initialize filtered blogs with all blogs
         setCategories(() => [...new Set(data.blogs.map((blog) => blog.title))]);
         setTags(() => [
           ...new Set(data.blogs.flatMap((blog) => blog.tags.split(" "))),
@@ -49,20 +52,25 @@ const MainPage = () => {
         ) : (
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[2vw] gap-y-[6vw]">
-              {blogs.map((blog, key) => (
-                <Blogs blog={blog} key={key} />
-              ))}
+              {elasticSearchData.length > 0 ? (
+                elasticSearchData.map((blog, key) => (
+                  <Blogs blog={blog} key={key} />
+                ))
+              ) : (
+                <p>No blogs found.</p>
+              )}
             </div>
             <Options
               categories={categories}
               tags={tags}
               blogs={blogs}
-              setBlogs={setBlogs}
+              setElasticSearchData={setElasticSearchData} // Pass filteredBlogs state to Options
+              originalBlogs={originalBlogs} // Pass original blogs to Options
             />
           </>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

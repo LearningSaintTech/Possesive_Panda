@@ -1,14 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import blog_1 from "../../assets/home/blogs/Blogs-1.png";
-import blog_2 from "../../assets/home/blogs/Blogs-2.png";
-import blog_3 from "../../assets/home/blogs/Blogs-3.png";
 import Link from "next/link";
 
 const Blogs = () => {
+  const [datablogs, setdatablogs] = useState({ blogs: [] });
+
+  useEffect(() => {
+    const fetchdata = async () => {
+      try {
+        const response = await fetch(
+          "https://crm.learningsaint.com/api/getBlogs/2?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj"
+        );
+        const data = await response.json();
+        setdatablogs(data);
+      } catch (error) {
+        console.log("Error fetching blogs", error);
+      }
+    };
+    fetchdata();
+  }, []);
+
   return (
     <div className="">
-      <div className="lg:w-[31.719vw] h-fit  mx-[6.771vw] flex flex-col gap-[3vw] lg:gap-[1.042vw]">
+      <div className="lg:w-[31.719vw] h-fit mx-[6.771vw] flex flex-col gap-[3vw] lg:gap-[1.042vw]">
         <p className="text-zinc-900 text-[5.128vw] md:text-[2.5vw] lg:text-[1.667vw] font-normal tracking-[0.051vw] md:tracking-[0.015rem] text-center lg:text-left lg:mt-0 mt-[5vw]">
           Our Blogs
         </p>
@@ -26,46 +40,38 @@ const Blogs = () => {
           ALL BLOG
         </Link>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mx-[6.771vw] mt-[5.2vw]">
-        <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0 ">
-          <Image
-            src={blog_1}
-            alt="blog-1"
-            className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
-          />
-          <p className="text-zinc-900 text-[3.846vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[2vw] md:my-0 lg:mt-[1.5vw]">
-            What is a Freelance Digital Marketer and How to Become a One?
-          </p>
-          <small className="text-zinc-600 text-[3.5vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 13 June 2024
-          </small>
-        </div>
-        <div className="lg:w-[27vw] justify-self-center mb-[3vw] lg:mb-0 ">
-          <Image
-            src={blog_2}
-            alt="blog-2"
-            className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
-          />
-          <p className="text-zinc-900 text-[3.846vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] md:my-0 lg:mt-[1.5vw]">
-            What is E-Commerece Website and How to Make One?
-          </p>
-          <small className="text-zinc-600 text-[3.5vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 19 June 2024
-          </small>
-        </div>
 
-        <div className="lg:w-[27vw] justify-self-end ">
-          <Image
-            src={blog_3}
-            alt="blog-3"
-            className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
-          />
-          <p className="text-zinc-900 text-[3.846vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[1.795vw] md:my-0 lg:mt-[1.5vw]">
-            What is AWS and How to Deploy a Website on AWS
-          </p>
-          <small className="text-zinc-600 text-[3.5vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw]">
-            Branding . 124 June 2024
-          </small>
+      <div className="mx-[6.771vw] mt-[5.2vw]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3vw]">
+          {datablogs.blogs.slice(0, 3).map((blog, index) => (
+            <div key={index} className="mx-auto lg:mx-0">
+              <Link href = {`/blog/${blog.url}`}>
+              <div className="mx-auto lg:mx-0 lg:w-[27vw] mb-[3vw] lg:mb-0">
+                <Image
+                  src={`https://crm.learningsaint.com/images/blogs/${blog.image}`}
+                  width={280}
+                  height={180}
+                  alt="Blog image"
+                  className="rounded-3xl w-fit md:w-full md:h-[40vh] lg:w-[27vw] h-[35vh] lg:h-[18vw]"
+                />
+                <p className="text-zinc-900 text-[3.846vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem] my-[2vw] md:my-0 lg:mt-[1.5vw]">
+                  {blog.title}
+                </p>
+                <small className="text-zinc-600 text-[3.5vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[194.8%] tracking-[0.013vw] w-[100px]">
+                {blog.author}
+                <span className="mx-2">•</span>
+                {new Date(blog.updated_at).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                })}
+                </small>
+              </div>
+              
+              </Link>
+              
+            </div>
+          ))}
         </div>
       </div>
     </div>
