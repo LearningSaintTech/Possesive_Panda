@@ -75,38 +75,38 @@ const page = () => {
         <Script id="application/ld+json">
           {`
         {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is Digital Marketing?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Digital marketing is also known as online marketing. We use marketing over online platforms and technologies to promote products, services, and brands. It includes strategies like social media marketing, content marketing, Search Engine Optimization, Pay-Per-Click, and email marketing."
-    }
-  },{
-    "@type": "Question",
-    "name": "Why is Digital Marketing important for my business?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Digital marketing is crucial as it enables us to reach a global customer base and engage with potential and existing customers at a cost-effective rate, allowing us to expand our business and target specific audiences efficiently."
-    }
-  },{
-    "@type": "Question",
-    "name": "How does Digital Marketing help my business grow?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Digital Marketing helps increase brand visibility, drive traffic to your website, and generate leads. It also helps increase brand awareness among valuable customers through engagement."
-    }
-  },{
-    "@type": "Question",
-    "name": "What are the components of Digital Marketing?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Digital Marketing components include Social Media Marketing, SEO (Search Engine Optimization), SEM (Search Engine Marketing), PPC ( Pay Per Click), Content Marketing, Email Marketing."
-    }
-  }]
-}
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What is Digital Marketing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Digital marketing is also known as online marketing. We use marketing over online platforms and technologies to promote products, services, and brands. It includes strategies like social media marketing, content marketing, Search Engine Optimization, Pay-Per-Click, and email marketing."
+                }
+              },{
+                "@type": "Question",
+                "name": "Why is Digital Marketing important for my business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Digital marketing is crucial as it enables us to reach a global customer base and engage with potential and existing customers at a cost-effective rate, allowing us to expand our business and target specific audiences efficiently."
+                }
+              },{
+                "@type": "Question",
+                "name": "How does Digital Marketing help my business grow?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Digital Marketing helps increase brand visibility, drive traffic to your website, and generate leads. It also helps increase brand awareness among valuable customers through engagement."
+                }
+              },{
+                "@type": "Question",
+                "name": "What are the components of Digital Marketing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Digital Marketing components include Social Media Marketing, SEO (Search Engine Optimization), SEM (Search Engine Marketing), PPC ( Pay Per Click), Content Marketing, Email Marketing."
+                }
+              }]
+            }
 
           `}
         </Script>
@@ -158,9 +158,9 @@ const page = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
             Why Your Business Should Be Using Digital Marketing Services?
-          </h4>
+          </h2>
           <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[2.5vw] sm:mt-[1.8vw] mb-[4.5vw] sm:mb-[3.8vw]">
             Digital Marketing is essential for many compelling reasons:-
           </p>

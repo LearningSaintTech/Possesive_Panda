@@ -11,7 +11,7 @@ import {
 import banner from "../../../assets/services/banners/E-commerce-solutions-that-matches-your-needs.png";
 
 const top = {
-  title: "E-commerce solutions that match your needs",
+  title: "Services, Benefits of E-commerce Management software",
   paragraph: [
     `E-commerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In E-commerce, customers shop whenever they want there is no time bound for shopping.`,
     `E-commerce services are platforms that help both small businesses and big businesses to create and manage online stores.`,
@@ -61,7 +61,7 @@ const features = [
   {
     num: nums[2],
     title: "Cost-Effective Solutions",
-    description: `At Possessive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
+    description: `At Possesive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
     image: feature[2],
   },
   {

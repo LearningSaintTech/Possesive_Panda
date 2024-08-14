@@ -14,7 +14,7 @@ const TopServices = () => {
     },
     {
       name: "Social Media",
-      link: "/services/social-media",
+      link: "/services/social-media-management",
     },
     {
       name: "Mobile App Development",

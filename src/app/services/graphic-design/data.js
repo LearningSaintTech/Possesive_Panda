@@ -67,14 +67,14 @@ const customgraphicdesign = [
   {
     title: "Everything Under One Roof",
     description: [
-      `Possessive Panda offers a one-stop solution for all your IT needs. We offer web development services, app development, digital marketing and more. That way, we give the clients consistent and uniform resources for all their IT projects under one roof.`,
+      `Possesive Panda offers a one-stop solution for all your IT needs. We offer web development services, app development, digital marketing and more. That way, we give the clients consistent and uniform resources for all their IT projects under one roof.`,
     ],
     image: service[3],
   },
   {
     title: "Cost-Effective Solutions",
     description: [
-      ` What we deliver at Possessive Panda are high-quality but cost-effective solutions. We work within the budget provided to give our clients solutions that don't compromise quality and performance.`,
+      ` What we deliver at Possesive Panda are high-quality but cost-effective solutions. We work within the budget provided to give our clients solutions that don't compromise quality and performance.`,
     ],
     image: service[4],
   },

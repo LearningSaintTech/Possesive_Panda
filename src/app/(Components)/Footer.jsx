@@ -21,13 +21,13 @@ const Footer = () => {
             alt="panda"
             className="mx-auto sm:hidden w-[54.45vw] h-[44.5vw]"
           />
-          <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] hidden sm:block">
+          <p className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] hidden sm:block">
             Possesive
-          </h1>
+          </p>
           <div className="flex mb-[2.708vw]">
-            <h1 className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] sm:mr-[0.417vw] sm:mb-[0.5vw] hidden sm:block">
+            <p className="text-zinc-800 text-[3.333vw] font-medium leading-[125%] tracking-[0.2rem] sm:mr-[0.417vw] sm:mb-[0.5vw] hidden sm:block">
               Panda
-            </h1>
+            </p>
             <Link href="/">
               <button className="h-fit hidden sm:block">
                 <BsArrowUpRightCircle className="size-[2vw] h-fit mt-4 hover:text-[#00AFF1]" />
@@ -36,9 +36,9 @@ const Footer = () => {
 
           </div>
 
-          <h5 className="hidden sm:block text-zinc-900 text-[1.25vw] font-medium leading-[125%] tracking-[0.075rem] mb-[1vw] text-start">
+          <p className="hidden sm:block text-zinc-900 text-[1.25vw] font-medium leading-[125%] tracking-[0.075rem] mb-[1vw] text-start">
             Get In Touch With Us
-          </h5>
+          </p>
           <div className="flex bg-[#FAFAFA] border border-black rounded-[3vw] sm:rounded-[0.26vw] w-full sm:w-fit px-[5.385vw] sm:px-[1vw] items-center sm:mb-[1vw] mx-auto sm:mx-0 my-[30px] sm:my-0">
             <input
               type="text"
@@ -81,9 +81,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full sm:w-fit lg:mt-0 mt-[3vw]">
-          <h6 className="text-[6.154vw] sm:text-[1.667vw] font-medium text-[#2A2A2A] leading-[125%] tracking-[0.1rem] my-[7.5vw] sm:my-[1.042vw] underline text-center sm:text-start">
+          <p className="text-[6.154vw] sm:text-[1.667vw] font-medium text-[#2A2A2A] leading-[125%] tracking-[0.1rem] my-[7.5vw] sm:my-[1.042vw] underline text-center sm:text-start">
             Our Services
-          </h6>
+          </p>
           <div className="flex sm:gap-[3.75vw] flex-col sm:flex-row">
             <div className="flex flex-col items-center sm:items-start">
               <Link
@@ -93,7 +93,7 @@ const Footer = () => {
                 E-Commerce Service
               </Link>
               <Link
-                href="services/social-media"
+                href="services/social-media-management"
                 className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[5.128vw] sm:mb-[1.042vw] cursor-pointer"
               >
                 Social Media Service
@@ -153,9 +153,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <h1 className="mt-[1.3vw] text-[3.5vw] sm:text-[1.25vw] leading-[183%] text-black tracking-[0.03rem] pb-[4vw] sm:pb-[1vw] mx-auto sm:mr-0 sm:ml-[20.833vw] w-fit">
+      <p className="mt-[1.3vw] text-[3.5vw] sm:text-[1.25vw] leading-[183%] text-black tracking-[0.03rem] pb-[4vw] sm:pb-[1vw] mx-auto sm:mr-0 sm:ml-[20.833vw] w-fit">
         © 2024 | All rights reserved by Possesive Panda
-      </h1>
+      </p>
 
       <Image
         src={panda}
