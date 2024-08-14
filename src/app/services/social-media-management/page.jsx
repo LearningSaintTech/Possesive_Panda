@@ -82,7 +82,7 @@ const page = () => {
     "name": "Why should you choose us as your Social Media Management partner?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Possessive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow."
+      "text": "possesive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow."
     }
   },{
     "@type": "Question",
