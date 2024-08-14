@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import not_found from "../assets/not-found/not_found.jpeg";
-
+import Footer from './(Components)/Footer';
 export default function Custom404() {
   return (
+    <div>
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#040104] text-white mt-8 mb-8">
       <Image
         src={not_found}
@@ -19,6 +20,8 @@ export default function Custom404() {
           Go back to Home
        
       </Link>
+</div>
+      <Footer/>
     </div>
   );
 };

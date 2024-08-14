@@ -46,7 +46,7 @@ const SeachBar = ({ originalBlogs, setElasticSearchData, setNotFound }) => {
     
     <div className="flex justify-between">
       
-    <p className="text-red-500 text-[1vw] mt-[0.5vw]">No blogs found.</p>
+    <p className="text-red-500 text-[1vw] mt-[0.5vw] ml-4">No blogs found.</p>
     {setElasticSearchData(originalBlogs)}
     </div>
      

@@ -93,7 +93,7 @@ const Footer = () => {
                 E-Commerce Service
               </Link>
               <Link
-                href="services/social-media"
+                href="services/social-media-management"
                 className="text-[#2A2A2A] hover:text-[#00AFF1] text-[5.128vw] sm:text-[1.25vw] font-normal tracking-[0.015rem] leading-[125%] mb-[5.128vw] sm:mb-[1.042vw] cursor-pointer"
               >
                 Social Media Service

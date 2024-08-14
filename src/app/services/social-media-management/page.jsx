@@ -45,7 +45,7 @@ const page = () => {
   "@type": "Organization",
   "name": "Social Media Management Service",
   "alternateName": "Top Social Media Management Services",
-  "url": "https://possesivepanda.com/services/social-media",
+  "url": "https://possesivepanda.com/services/social-media-management",
   "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
 }
 
@@ -105,7 +105,7 @@ const page = () => {
           `}
         </Script>
       <Banner
-        title={"Social Media Service"}
+        title={"Social Media Management Service"}
         desciption={"For catchy, engaging and organized social media handles"}
         page={"Social Media"}
         image={banner}
@@ -123,9 +123,9 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
             Our Social Media Management Services
-          </h4>
+          </h2>
           <p className="text-[#212121] text-[3.636vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] w-full sm:w-[47vw]">
             Social Media Management is about using social media platforms to
             connect with your target audience and organically achieve specific

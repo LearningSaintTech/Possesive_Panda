@@ -33,7 +33,7 @@ const serviceContent = {
     },
     {
       name: "Social Media",
-      link: "social-media"
+      link: "6-management"
     },
     {
       name: "Search Engine Optimization",
@@ -120,7 +120,7 @@ const services1= [
   },
   {
     name: "Social Media",
-    link: "social-media"
+    link: "social-media-management"
   },
   {
     name: "Search Engine Optimization",

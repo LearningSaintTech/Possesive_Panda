@@ -47,15 +47,15 @@ const page = () => {
        <Script id="application/ld+json">
           {`
           {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Graphic Design Service",
-  "alternateName": "Custom Graphic Design Agency",
-  "url": "https://possesivepanda.com/services/graphic-design",
-  "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
-}
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Graphic Design Service",
+            "alternateName": "Custom Graphic Design Agency",
+            "url": "https://possesivepanda.com/services/graphic-design",
+            "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
+          }
 
-          `}
+                    `}
         </Script>
 
         <Script id="application/ld+json">
@@ -70,13 +70,15 @@ const page = () => {
       "@type": "Answer",
       "text": "The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as less as one day and larger ones can take as much as 1-2 weeks to complete."
     }
-  },{
+  }
+,{
     "@type": "Question",
     "name": "What sets Possesive Panda apart from other graphic design services online?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more."
     }
+
   },{
     "@type": "Question",
     "name": "How much graphic design services cost?",
@@ -84,7 +86,34 @@ const page = () => {
       "@type": "Answer",
       "text": "The cost of completing a design depends on the level of its volume and intricacy. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction."
     }
-  }]
+  },
+  ,{
+    "@type": "Question",
+    "name": "How do graphic designers work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports and more"
+    }
+  },
+  {
+    "@type": "Question",
+    "name": "What are graphic illustrations?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media."
+    }
+  },
+  {
+    "@type": "Question",
+    "name": "Why is graphic design important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Graphic design is the most widely used medium of visual mass communication nowadays. This is because good graphic design not only captivates viewers, it also delivers information in a concise and simple way such that it is understandable to even laymen. Thus, graphics are the hub of visual communication in today’s digital age."
+    }
+  }
+
+
+]
 }
 
           `}
@@ -120,9 +149,9 @@ const page = () => {
         </div>
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
+        <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
           Graphic Design Services We Provide
-        </h4>
+        </h2>
         {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
           {weProvide.map((item, key) => (
             <Grow data={item} key={key} />
