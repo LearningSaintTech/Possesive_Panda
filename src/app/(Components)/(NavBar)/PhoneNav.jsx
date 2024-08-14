@@ -80,6 +80,14 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
         >
           Blogs
         </Link>
+        <Link
+          href="/contact"
+          className={`font-normal p-4 block border-b border-gray-200 ${
+            activeLabel === "Contact" ? "text-[#00AFF1]" : ""
+          }`}
+        >
+          Get In Touch
+        </Link>
       </div>
     </div>
   );
