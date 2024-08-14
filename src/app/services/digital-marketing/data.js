@@ -16,7 +16,7 @@ const top = {
 
 const whyWe = {
   paragraph: [
-    `Possessive Panda Success mantra lies in the success of our clients. We focus on building brand awareness and engaging our client on social media.`,
+    `Possesive Panda Success mantra lies in the success of our clients. We focus on building brand awareness and engaging our client on social media.`,
     `Our approach includes not just the audience but also proper viewer engagement. In today's Digital world, our expertise in various digital marketing channels like social media, content marketing, SEO, PPC, and more ensures our clients stand out in a competitive market. `,
   ],
   cards: [
@@ -33,7 +33,7 @@ const whyWe = {
     {
       num: "03",
       title: "Cost-Effective Solutions",
-      description: `At Possessive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
+      description: `At Possesive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
     },
     {
       num: "04",
@@ -163,7 +163,7 @@ const ourDigitalMarketingServices = [
   {
     title: "Social Media Marketing",
     description: [
-      `What else could be a great place for marketing other than social media? Nowadays, more than one-third of the world's population is on social media. As the best digital marketing company, our possessive Panda team is here to help you become visible by crafting social media strategies. With our time-tested methods, we prioritize organic reach, engagement, a real loyal follower base, and maintaining brand value. We craft traffic and attention towards your website through social media networks, such as Facebook, X, Instagram, YouTube, etc. `,
+      `What else could be a great place for marketing other than social media? Nowadays, more than one-third of the world's population is on social media. As the best digital marketing company, our possesive Panda team is here to help you become visible by crafting social media strategies. With our time-tested methods, we prioritize organic reach, engagement, a real loyal follower base, and maintaining brand value. We craft traffic and attention towards your website through social media networks, such as Facebook, X, Instagram, YouTube, etc. `,
     ],
     image: service[3],
   },

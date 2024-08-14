@@ -4,7 +4,7 @@ import banner from "../../../assets/services/banners/Mobile-App-Development-Serv
 const top = {
   title: "Mobile App Development Service",
   paragraph: [
-    `Stimulate your digital presence with mobile apps by Possessive Panda that combine form and function.`,
+    `Stimulate your digital presence with mobile apps by Possesive Panda that combine form and function.`,
   ],
 
   title2: `Custom Mobile App Development`,

@@ -47,7 +47,7 @@ const accordian = [
   {
     question: "Our Vision",
     answer:
-      "At Possessive Panda, we don't just aim to be at the top of the global IT services industry; we aspire to be a game-changer. Our vision is to lead digital innovation and shape the pathway of the IT industry. Join Possessive Panda on this exciting journey towards a digital future.",
+      "At Possesive Panda, we don't just aim to be at the top of the global IT services industry; we aspire to be a game-changer. Our vision is to lead digital innovation and shape the pathway of the IT industry. Join Possesive Panda on this exciting journey towards a digital future.",
     image: vision,
   },
   {

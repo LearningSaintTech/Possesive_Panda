@@ -22,7 +22,7 @@ const data = [
   {
     key: 5,
     title: "What services does Possesive Panda offer?",
-    data: "Possessive Panda offers multiple IT services, such as software development, app development, cloud services, web development, and digital marketing. We also provide a range of services to suit your business needs.",
+    data: "Possesive Panda offers multiple IT services, such as software development, app development, cloud services, web development, and digital marketing. We also provide a range of services to suit your business needs.",
   },
   {
     key: 6,

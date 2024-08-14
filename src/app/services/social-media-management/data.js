@@ -112,7 +112,7 @@ const whyChooseUs = [
   },
   {
     title: "Cost-Effective Solutions",
-    description: `At Possessive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
+    description: `At Possesive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
     image: benefit[2],
   },
   {
@@ -234,7 +234,7 @@ const faq = [
   },
   {
     title: "Why should you choose us as your Social Media Management partner?",
-    description: `Possessive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow.`,
+    description: `Possesive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow.`,
   },
   {
     title: "What is the role of a social media manager?",

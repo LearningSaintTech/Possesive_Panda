@@ -67,7 +67,7 @@ const feature = [
     {
       num: nums[2],
       title: "Cost-Effective Solutions",
-      description: `At Possessive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
+      description: `At Possesive Panda, we deliver high-quality but at the same time cost-effective solutions. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.`,
         image: features[2],
     },
     {
