@@ -139,9 +139,10 @@ export const metadata = {
             <div className="px-[5.2vw] pt-[5.2vw]">
                 <Hero top={top} />
                 <div className="mt-[5.2vw]">
-                    <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
-                        PPC services help you in many ways
-                    </h4>
+                    <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+                    Our PPC Marketing Services
+
+                    </h2>
                     <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
                         {ppcservices.map((item, key) => (
                             <Grow data={item} key={key} />

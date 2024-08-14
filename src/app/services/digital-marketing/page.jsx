@@ -158,9 +158,9 @@ const page = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
             Why Your Business Should Be Using Digital Marketing Services?
-          </h4>
+          </h2>
           <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[2.5vw] sm:mt-[1.8vw] mb-[4.5vw] sm:mb-[3.8vw]">
             Digital Marketing is essential for many compelling reasons:-
           </p>

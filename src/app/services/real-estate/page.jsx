@@ -3,7 +3,6 @@ import Banner from "@/app/(Components)/Banner";
 import banner from "../../../assets/banners/Real-Estate-slider.png"
 import Hero from '../(Components)/(Hero)/Hero';
 import Footer from "../../(Components)/Footer";
-import Head from 'next/head';
 import Script from 'next/script';
 
 import {
@@ -16,8 +15,10 @@ import OurFeatures from './OurFeatures';
 import Services from '../(Components)/Services';
 import BenefitCard from './BenefitCard';
 import Faq from '../(Components)/(Faq)/Faq';
+import Head from 'next/head';
+
 export const metadata = {
-    title:"Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant",
+    title:'Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
     description : `Boosting your real estate business is possible. Hire real estate virtual assistants available at a wide range of administrative support & services. Inquire now.`
   }
   const page = () => {
@@ -25,10 +26,10 @@ export const metadata = {
       <div>
   
         <Head>
-          <meta charSet="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>{metadata.title}</title>
-          <meta name="description" content={metadata.description} />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         </Head>
         <Script
         id="real-estate-faq-schema"
@@ -128,7 +129,7 @@ export const metadata = {
       />
             <Banner
                 title={"Real Estate Virtual Assistant"}
-                desciption={"For catchy, engaging and organized social media handles"}
+                desciption={"Hire A Real Estate Virtual Assistant"}
                 page={"Real Estate"}
                 image={banner}
             />
@@ -147,9 +148,9 @@ export const metadata = {
                 </div>
             </div>
             <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-                <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
+                <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
                     Our Real Estate Virtual Assistant Services
-                </h4>
+                </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
                     {ourRealEstate.map((item, key) => (
                         <Services data={item} key={key} />
