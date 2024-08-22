@@ -123,8 +123,10 @@ import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
 import Portfolio from "./(homeComponent)/Portfolio";
 import Contact from "./(Components)/Contact";
-import Loader from "./(Components)/Loader"; 
+import Loader from "./(Components)/Loader";
 import Footer from "./(Components)/Footer";
+import OurWorks from "./(homeComponent)/OurWorks";
+import Marquee from "./(homeComponent)/Marquee";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -150,7 +152,9 @@ const MainPage = () => {
       ) : (
         <>
           <Banner whyUsHeight={whyUsHeight} whyUsRef={whyUsRef} />
-          <Portfolio />
+          <OurWorks />
+          <Marquee/>
+          {/* <Portfolio /> */}
           <OurServices />
           <div ref={whyUsRef}>
             <WhyUs />
@@ -160,7 +164,7 @@ const MainPage = () => {
           <Blogs />
           <Faq />
           <Cross />
-          <Footer/>
+          <Footer />
         </>
       )}
     </div>
