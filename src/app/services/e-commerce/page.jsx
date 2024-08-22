@@ -175,9 +175,9 @@ const Page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Strategy statergy={statergy} />
         <div className="mt-[5.2vw]">
-          <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw]">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw]">
             Benefits of E-commerce Management software
-          </h3>
+          </h2>
           <div className="py-[5.2vw] grid grid-cols-2 sm:grid-cols-4 gap-[5vw] sm:gap-[2vw] ">
             {benefits.map((item, key) => (
               <Benefits data={item} key={key} />

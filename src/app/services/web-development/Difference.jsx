@@ -6,9 +6,9 @@ const Difference = () => {
 
     return (
         <div className="px-[5.2vw] pt-[5vw]">
-            <h2 className="w-[45vw] text-neutral-800 text-[2.083vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw] sm:w-[41.5vw]">
+            <h3 className="w-[45vw] text-neutral-800 text-[2.083vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw] sm:w-[41.5vw]">
                 Difference Between Web Development & Web Design
-            </h2>
+            </h3>
             <div className="flex justify-center">
                 <button
                     className={`w-[44.792vw] h-[4.167vw] rounded-tl-[0.26vw] rounded-bl-[0.26vw] shadow border border-neutral-300 text-zinc-600 text-[1.25vw] font-medium leading-[1.941vw] ${activeTab === "android" ? "bg-gray-200" : "bg-white"

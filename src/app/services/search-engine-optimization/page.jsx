@@ -218,9 +218,9 @@ const page = () => {
           </p>
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             What are the benefits of hiring an SEO agency?
-          </h4>
+          </h2>
           <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {seoAgency.map((item, key) => (
               <Types data={item} key={key} digital={true} />
@@ -247,9 +247,9 @@ const page = () => {
           ))}
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
+          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
             Our SEO Process
-          </h4>
+          </h2>
           <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
             {ourSeoProcess.map((item, key) => (
               <Grow data={item} key={key} />
