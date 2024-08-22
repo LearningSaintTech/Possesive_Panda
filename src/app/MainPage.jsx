@@ -126,6 +126,7 @@ import Contact from "./(Components)/Contact";
 import Loader from "./(Components)/Loader";
 import Footer from "./(Components)/Footer";
 import OurWorks from "./(homeComponent)/OurWorks";
+import Marquee from "./(homeComponent)/Marquee";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -152,7 +153,8 @@ const MainPage = () => {
         <>
           <Banner whyUsHeight={whyUsHeight} whyUsRef={whyUsRef} />
           <OurWorks />
-          <Portfolio />
+          <Marquee/>
+          {/* <Portfolio /> */}
           <OurServices />
           <div ref={whyUsRef}>
             <WhyUs />
