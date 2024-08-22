@@ -36,7 +36,7 @@ const OurWorks = () => {
     };
 
     return (
-        <div className="flex pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[7vw] pl-[6.692vw] lg:pl-[6.171vw] bg-[#161616] text-white relative">
+        <div className="flex pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[2vw] pl-[6.692vw] lg:pl-[6.171vw] bg-[#00111A] text-white relative">
             {/* Left Side Section */}
             <div className="w-[20.156vw] h-[23.073vw] flex flex-col justify-around gap-2 mt-[4vw]">
                 <h5 className="text-[5.128vw] md:text-[2vw] lg:text-[1.667vw] tracking-[0.015rem] text-center lg:text-left">
@@ -50,7 +50,7 @@ const OurWorks = () => {
                     accomplished and delivered exceptionally across various industries.
                 </p>
 
-                <button className="bg-stone-900 mt-[2.083vw] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] lg:w-auto hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
+                <button className="bg-[#00111A] mt-[2.083vw] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] lg:w-auto hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
                     View All
                     <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
                 </button>
@@ -74,7 +74,7 @@ const OurWorks = () => {
                         alt="HRMS Portal"
                     />
                     <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[50px] ml-[55px]">HRMS Portal</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw] ">HRMS Portal</h3>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ const OurWorks = () => {
                         alt="LearningSaint.in"
                     />
                     <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[2.604vw] ml-[2.865vw]">LearningSaint.in</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">LearningSaint.in</h3>
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@ const OurWorks = () => {
                         alt="Project 3"
                     />
                     <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[2.604vw] ml-[2.865vw]">Project 3</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 3</h3>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ const OurWorks = () => {
                         alt="Project 4"
                     />
                     <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[2.604vw] ml-[2.865vw]">Project 4</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 4</h3>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@ const OurWorks = () => {
                         alt="Project 4"
                     />
                     <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[2.604vw] ml-[2.865vw]">Project 4</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 5</h3>
                     </div>
                 </div>
 
@@ -134,7 +134,7 @@ const OurWorks = () => {
                         alt="Project 4"
                     />
                     <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-3xl font-bold text-white mb-[2.604vw] ml-[2.865vw]">Project 4</h3>
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 6</h3>
                     </div>
                 </div>
 

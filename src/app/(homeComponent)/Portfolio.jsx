@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
   return (
-    <div className="pt-[15.385vw] lg:pt-[7vw] pb-1 px-[7.692vw] lg:px-[6.771vw] bg-[#161616] text-white rounded-t-[2.083vw] relative">
+    <div className="pt-[15.385vw] lg:pt-[7vw] pb-1 px-[7.692vw] lg:px-[6.771vw] bg-[#00111A] text-white rounded-t-[2.083vw] relative">
       <div className="lg:w-[32.292vw] flex flex-col justify-around lg:gap-[1.042vw] gap-[2.5vw]">
         <h5 className="text-[5.128vw] md:text-[2vw] lg:text-[1.667vw] tracking-[0.015rem] text-center lg:text-left">
           Our Portfolio
