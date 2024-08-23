@@ -57,9 +57,9 @@ const page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[4vw]">
-          <h4 className="text-[#212121] text-[4.346vw]  sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[30vw]">
+          <h2 className="text-[#212121] text-[4.346vw]  sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[30vw]">
             Our Mobile Application Development Service
-          </h4>
+          </h2>
           <p className="text-[#212121]  text-[3.636vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] mb-[3.8vw] w-full sm:w-[59.74vw]">
             Mobile app developers use different programming languages according
             to the custom needs of their client in order to write the code that
@@ -73,9 +73,9 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] sm:mt-0 mt-8">
             Android Application Development For All Android Platforms
-          </h4>
+          </h2>
           <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
             {androidApp.map((item, key) => (
               <Grow data={item} key={key} />
@@ -83,9 +83,9 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] sm:mt-0 mt-8">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] sm:mt-0 mt-8">
             IOS Application Development For All Apple Platforms
-          </h4>
+          </h2>
           <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
             {iosApp.map((item, key) => (
               <Grow data={item} key={key} />
@@ -94,9 +94,9 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[5.2vw] bg-[#F3fcfe] bg-opacity-50 px-[5.2vw] hidden sm:block">
-        <h4 className="text-[#212121] text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[4vw] pt-[1vw] ">
+        <h2 className="text-[#212121] text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[4vw] pt-[1vw] ">
           Mobile Application Development Services For Various Purposes
-        </h4>
+        </h2>
         <div className="grid grid-cols-4 border-b-2 border-[#D9D9D9]">
           {servicesForVariousPurpose.row1.map((item, key) => (
             <IconCard data={item} key={key} />
@@ -123,9 +123,9 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[#F3FCFE] bg-opacity-50 py-[3.65vw] px-[5.2vw] mt-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.2vw]">
+        <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.2vw]">
           Why Leverage Mobile App Development Services?
-        </h4>
+        </h3>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-y-[7.8vw] sm:gap-x-[2.1vw]">
           {leverage.map((item, key) => (
             <WhyUs data={item} key={key} />

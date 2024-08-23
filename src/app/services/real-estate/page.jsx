@@ -157,9 +157,9 @@ export const metadata = {
                     ))}
                 </div>
                 <div className="pt-[5.2vw]">
-                    <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0 pb-[4.167vw]">
+                    <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0 pb-[4.167vw]">
                         Benefits of Real Estate Virtual Assistant
-                    </h3>
+                    </h2>
                     <BenefitCard benefits={benefits} />
                 </div>
             </div>

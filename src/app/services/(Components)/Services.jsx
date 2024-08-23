@@ -14,9 +14,9 @@ const Services = ({ data }) => {
             className="w-[30vw] h-[34vw] sm:w-[17.135vw] sm:h-[21.693vw] ml-[2vw] sm:ml-[1.042vw] sm:mb-0 mb-4"
           />
           <div className="flex-row ml-[1.563vw] mt-[2.1vw]">
-            <h2 className="text-neutral-800 text-[4.346vw] sm:text-3xl font-medium tracking-tight">
+            <h3 className="text-neutral-800 text-[4.346vw] sm:text-3xl font-medium tracking-tight">
               {data.title}
-            </h2>
+            </h3>
             <p className="w-full sm:w-[20.469vw] text-zinc-700 text-[3vw] sm:text-lg font-normal leading-[3.7vw] sm:leading-[1.814vw] sm:tracking-tight mt-[1.042vw]">
               {paragraph}.
             </p>

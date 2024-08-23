@@ -12,9 +12,9 @@ const Comparison = () => {
 
   return (
     <div className="px-[5.2vw] pt-[8vw] hidden sm:block">
-      <h2 className="w-[80vw] sm:w-[45vw] text-neutral-800 text-[4.346vw] sm:text-[2.083vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw]">
+      <h3 className="w-[80vw] sm:w-[45vw] text-neutral-800 text-[4.346vw] sm:text-[2.083vw] font-semibold tracking-[0.025rem] capitalize mb-[5.2vw]">
         Comparison Between Android and iOS Development Services
-      </h2>
+      </h3>
       <div className=" flex flex-col sm:flex-row justify-center sm:gap-0 gap-[70vw]">
         <button
           className={`w-full sm:w-[44.792vw] h-[7vw] sm:h-[4.167vw] rounded-tl-[1vw] rounded-bl-[1vw] sm:rounded-tl-[0.26vw] sm:rounded-bl-[0.26vw] shadow border border-neutral-300 text-zinc-600 text-[4.346vw] sm:text-[1.25vw] font-normal leading-[1.941vw] ${activeTab === "android" ? "bg-gray-200" : "bg-white"

@@ -139,9 +139,9 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[70vw] sm:w-[44vw] sm:mt-[2vw]">
+        <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[70vw] sm:w-[44vw] sm:mt-[2vw]">
           Why Choose Possesive Panda For Custom Graphic Design Services?
-        </h4>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
           {customgraphicdesign.map((item, key) => (
             <Services data={item} key={key} />
@@ -160,9 +160,9 @@ const page = () => {
         <ServicesCard />
       </div>
       <div className=" py-[3.65vw] px-[5.2vw] mt-[4vw]">
-        <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw]">
+        <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw]">
           We Ensure You Get The Best Graphic Design Solutions
-        </h4>
+        </h2>
         <p className="text-[#212121] sm:text-[1.25vw] text-[3.636vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[59.74vw] mt-[2.4vw] mb-10">
           Possesive Panda follows a standard yet dynamic process to deliver its
           services. It ensures that our solutions align with our clients’
