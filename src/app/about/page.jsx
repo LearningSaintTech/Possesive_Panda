@@ -9,7 +9,7 @@ import Footer from "../(Components)/Footer";
 
 const page = () => {
   return (
-    <div>
+    <div >
       <Banner
         title={"About Us"}
         desciption={"Professional IT Solution Service"}

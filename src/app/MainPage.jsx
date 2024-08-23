@@ -153,7 +153,7 @@ const MainPage = () => {
         <>
           <Banner whyUsHeight={whyUsHeight} whyUsRef={whyUsRef} />
           <OurWorks />
-          <Marquee/>
+          {/* <Marquee/> */}
           {/* <Portfolio /> */}
           <OurServices />
           <div ref={whyUsRef}>

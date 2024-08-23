@@ -29,7 +29,7 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
       ref={sidebarRef}
     >
       <IoClose
-        className="mt-[5vw] ml-[3vw] size-[10vw]"
+        className="mt-[5vw] ml-[3vw] size-[10vw] "
         onClick={() => setShowSidebar(false)}
       />
 

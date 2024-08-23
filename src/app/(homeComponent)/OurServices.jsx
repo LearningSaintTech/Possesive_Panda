@@ -60,7 +60,7 @@ const OurServices = () => {
           <p className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
             Our Services
           </p>
-          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw] ">
+          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw] text-center sm:text-left">
             Our Top IT Services
           </h1>
           <p className="text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
@@ -77,7 +77,7 @@ const OurServices = () => {
       </div>
 
       {/* main circle rotation */}
-        <div className="relative w-full h-[40.795vw] flex justify-center items-center bg-[#00111A] ">
+        <div className=" relative w-full h-[40.795vw] flex justify-center items-center bg-[#00111A] ">
           {/* Outer Circle */}
           <div className="hidden sm:block w-[40.795vw] h-[40.795vw] absolute rounded-full border border-gray-600"></div>
 

@@ -1,10 +1,14 @@
 "use client";
 import { useRef, useState } from "react";
 import Image from 'next/image';
+import Link from "next/link";
 import React from 'react';
 import { GoArrowRight } from "react-icons/go";
-import saint from "../../assets/portfolio/Saint.png";
-import hawkins from "../../assets/portfolio/Hawkins.png";
+import dotcom from "../../assets/portfolio/com.svg";
+import HRMS from "../../assets/portfolio/HRMS.svg";
+import dotin from "../../assets/portfolio/in.svg";
+import recess from "../../assets/portfolio/recess.svg";
+import trucks from "../../assets/portfolio/truck.svg";
 
 
 const OurWorks = () => {
@@ -36,24 +40,32 @@ const OurWorks = () => {
     };
 
     return (
-        <div className="flex pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[2vw] pl-[6.692vw] lg:pl-[6.171vw] bg-[#00111A] text-white relative">
+        <div className="flex sm:flex-row flex-col pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[2vw] pl-[6.692vw] lg:pl-[6.171vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw]">
             {/* Left Side Section */}
-            <div className="w-[20.156vw] h-[23.073vw] flex flex-col justify-around gap-2 mt-[4vw]">
-                <h5 className="text-[5.128vw] md:text-[2vw] lg:text-[1.667vw] tracking-[0.015rem] text-center lg:text-left">
+            <div className="sm:w-[20.156vw] sm:h-[23.073vw] flex flex-col justify-around gap-3 sm:mt-[4vw]">
+                <h5 className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
                     Portfolio
                 </h5>
-                <h2 className="text-[8.205vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-[0.001rem] lg:tracking-[0.04rem] text-center lg:text-left leading-none whitespace-nowrap">
+                <h2 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw] text-center sm:text-left">
                     Our Work
                 </h2>
-                <p className="text-[#F9F9F9] font-normal text-[3.6vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
+                <p className="text-[#F9F9F9] font-normal text-[3.846vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
                     Explore our world of standout projects that Possesive Panda
                     accomplished and delivered exceptionally across various industries.
                 </p>
 
-                <button className="bg-[#00111A] mt-[2.083vw] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] lg:w-auto hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
+                {/* <button className="bg-[#00111A] mt-[2.083vw] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] lg:w-auto hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
                     View All
                     <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
-                </button>
+                </button> */}
+
+                <Link
+                    href="/portfolio"
+                    className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] px-[3vw] py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#60E2FF] hover:border-none duration-500 hover:duration-500 hover:shadow-md mt-[1.042vw] lg:mb-0 mb-[8vw]"
+                >
+                    View All
+                    <GoArrowRight className="ml-[0.2vw] size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
+                </Link>
             </div>
 
             {/* Scrollable Section */}
@@ -63,71 +75,71 @@ const OurWorks = () => {
                 onMouseLeave={handleMouseLeave}
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
-                className="flex gap-6 w-full px-10 py-5 ml-[4.16vw] overflow-x-auto cursor-grab no-scrollbar"
+                className="sm:flex sm:gap-6 w-full sm:px-10 py-5 sm:ml-[4.16vw] sm:overflow-x-auto cursor-grab no-scrollbar"
                 style={{ scrollBehavior: 'smooth' }}
             >
                 {/* Image Card 1 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] -ml-10 relative rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:-ml-10 relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src={saint}
+                        className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
+                        src={dotcom}
                         alt="HRMS Portal"
                     />
-                    <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw] ">HRMS Portal</h3>
-                    </div>
+                    {/* <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw] "></h3>
+                    </div> */}
                 </div>
 
                 {/* Image Card 2 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src={saint}
+                        className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
+                        src={HRMS}
                         alt="LearningSaint.in"
                     />
-                    <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">LearningSaint.in</h3>
-                    </div>
+                    {/* <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]"></h3>
+                    </div> */}
                 </div>
 
                 {/* Image Card 3 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src={hawkins}
+                        className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
+                        src={dotin}
                         alt="Project 3"
                     />
-                    <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 3</h3>
-                    </div>
+                    {/* <div className="absolute inset-0 bg-gray-800 bg-opacity-50 flex items-end justify-start p-4">
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]"></h3>
+                    </div> */}
                 </div>
 
                 {/* Image Card 4 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src={hawkins}
+                        className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
+                        src={recess}
                         alt="Project 4"
                     />
-                    <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 4</h3>
-                    </div>
+                    {/* <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]"></h3>
+                    </div> */}
                 </div>
 
                 {/* Image Card 5 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="absolute inset-0 w-full h-full object-cover"
-                        src={hawkins}
+                        className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
+                        src={trucks}
                         alt="Project 4"
                     />
-                    <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
-                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 5</h3>
-                    </div>
+                    {/* <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
+                        <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]"></h3>
+                    </div> */}
                 </div>
 
                 {/* Image Card 6 */}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
+                {/* <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="absolute inset-0 w-full h-full object-cover"
                         src={hawkins}
@@ -136,17 +148,23 @@ const OurWorks = () => {
                     <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-end justify-start p-4">
                         <h3 className="text-[2.007vw] font-semibold text-white mb-[2.604vw] ml-[2.865vw]">Project 6</h3>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Button*/}
-                <div className="flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
-                    <div className="text-center">
+                <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
+                    <div className="text-center sm:mt-[9vw]">
                         <p className="text-[3.333vw] font-normal text-black mb-4">View More</p>
-                        <button className="bg-black text-white text-[2.007vw] font-normal px-[3.5vw] py-[1.2vw] rounded-full hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
+                        {/* <button className="bg-black text-white text-[2.007vw] font-normal px-[3.5vw] py-[1.2vw] rounded-full hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">
                             All Work
-                        </button>
+                        </button> */}
+                        <Link
+                            href="/portfolio"
+                            className="bg-black text-white text-[2.007vw] font-normal px-[3.5vw] py-[1.2vw] rounded-full hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300"
+                        >
+                            View All
+                        </Link>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     );

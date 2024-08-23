@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="Qi5NT1J6yKJpoaXZALZWAqKGg8qgKHGQeSsbgcHxqo0"
         />
- {/* Google Tag Manager */}
+        {/* Google Tag Manager */}
         <script dangerouslySetInnerHTML={{
           __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -82,19 +82,19 @@ export default function RootLayout({ children }) {
           }}
         />
         <noscript><img height="1" width="1" style={{ display: 'none' }}
-              src="https://www.facebook.com/tr?id=380882334679792&ev=PageView&noscript=1"
-               /></noscript>
+          src="https://www.facebook.com/tr?id=380882334679792&ev=PageView&noscript=1"
+        /></noscript>
       </head>
 
       <body className={poppins.className}>
-<noscript>
-  <iframe
-    src="https://www.googletagmanager.com/ns.html?id=GTM-5K4LFW6H"
-    height="0"
-    width="0"
-    style={{ display: 'none', visibility: 'hidden' }}
-  ></iframe>
-</noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5K4LFW6H"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
         <Nav />
         {children}
         {/* <Line /> */}

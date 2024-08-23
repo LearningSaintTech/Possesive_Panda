@@ -19,7 +19,7 @@ const Marquee = () => {
 
   return (
     <div className="overflow-hidden">
-      <div className="flex animate-marquee">
+      <div className="flex animate-marquee ">
         {images.map((src, index) => (
           <div key={index} className="flex-none mx-4">
             <Image src={src} alt={`Marquee Image ${index + 1}`} width={150} height={50} />
