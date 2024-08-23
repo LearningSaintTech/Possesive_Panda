@@ -94,9 +94,9 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[5.2vw] bg-[#F3fcfe] bg-opacity-50 px-[5.2vw] hidden sm:block">
-        <h3 className="text-[#212121] text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[4vw] pt-[1vw] ">
+        <h2 className="text-[#212121] text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[45vw] mb-[4vw] pt-[1vw] ">
           Mobile Application Development Services For Various Purposes
-        </h3>
+        </h2>
         <div className="grid grid-cols-4 border-b-2 border-[#D9D9D9]">
           {servicesForVariousPurpose.row1.map((item, key) => (
             <IconCard data={item} key={key} />
