@@ -1,0 +1,20 @@
+.large-blog-transition-in {
+    transform: scale(1) !important;
+    /* opacity: 1 !important; */
+  }
+  
+  .large-blog-transition-out {
+    transform: scale(0.7) !important;
+    /* opacity: 0.5 !important; */
+  }
+  
+  .small-blog-transition-in {
+    transform: scale(1) !important;
+    /* opacity: 1 !important; */
+  }
+  
+  .small-blog-transition-out {
+    transform: scale(0.7) !important;
+    /* opacity: 0.5 !important; */
+  }
+  

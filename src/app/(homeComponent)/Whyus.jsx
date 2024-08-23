@@ -1,17 +1,49 @@
+"use client";
 /* eslint-disable react/no-unescaped-entities */
 import "./why.css";
 import Image from "next/image";
-import React from "react";
-import card_1 from "../../assets/home/whyus/card-1.png";
-import card_2 from "../../assets/home/whyus/card-2.png";
-import card_3 from "../../assets/home/whyus/card-3.png";
-import panda from "../../assets/home/whyus/mountain-panda.png";
+import React, { useEffect, useRef } from "react";
+import banner_1 from "../../assets/home/banner/Banner-1.png";
+import banner_2 from "../../assets/home/banner/Banner-2.png";
+import banner_3 from "../../assets/home/banner/Banner-3.png";
+import banner_4 from "../../assets/home/banner/Banner-4.png";
+import banner_5 from "../../assets/home/banner/Banner-5.png";
+import banner_6 from "../../assets/home/banner/Banner-6.png";
+import banner_7 from "../../assets/home/banner/Banner-7.png";
+import banner_8 from "../../assets/home/banner/Banner-8.png";
+import banner_9 from "../../assets/home/banner/Banner-9.png";
+import shadow from "../../assets/home/banner/shadow.png";
 
 const WhyUs = () => {
+  const upRef = useRef(null);
+  const downRef = useRef(null);
+
+  useEffect(() => {
+    if (upRef.current) {
+      const ul = upRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (downRef.current) {
+      const ul = downRef.current;
+      const clone = ul.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      if (ul.parentNode) {
+        ul.parentNode.insertBefore(clone, ul);
+      }
+    }
+  }, []);
+
   return (
-    <div className="flex flex-col lg:flex-row px-[9.375vw] lg:pl-[6.771vw] lg:pr-[6.771vw] pb-[58px] bg-black rounded-t-[2.083vw] h-fit relative">
-      <div className="lg:w-[38.75vw] mt-[15.385vw] sm:mt-[10vw]">
-        <h6 className="text-[#fff] text-[5.128vw] lg:text-[1.667vw] font-normal tracking-[0.051vw] lg:tracking-[0.015rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
+    <div className="flex flex-col lg:flex-row lg:justify-between px-[7.69vw] lg:px-[3vw] lg:pl-[6.771vw] lg:mr-[5.2vw] relative overflow-hidden max-h-[110vh] lg:max-h-[80vh]">
+      <div className="lg:w-[36vw] mt-[15.385vw] sm:mt-[10vw]">
+        <h6 className="text-[#fff] text-[5.128vw] lg:text-[1.25vw] font-normal tracking-[0.051vw] lg:tracking-[0.015rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
           Why Us
         </h6>
         <h2 className="text-[#fff] font-medium text-[6.154vw] lg:text-[3.333vw] leading-[125%] tracking-[0.062vw] lg:tracking-[0.04rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
@@ -24,58 +56,86 @@ const WhyUs = () => {
           with the top-notch technologies.
         </p>
       </div>
-      <div className="lg:ml-[7.552vw]">
-        <div className="group card-container w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] relative mt-[58px] mb-[60.69px] lg:mb-0">
-          <div className="card-inner w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
-            <Image
-              src={card_1}
-              alt="card-1"
-              className="card-image absolute right-[7.051vw] lg:right-[3.563vw] lg:top-[1.458vw] top-[6.587vw] transition duration-500"
-            />
-            <h6 className="card-title w-[56.667vw] md:w-fit text-[5.128vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1vw] left-[9.403vw] lg:left-[2.083vw] transition duration-500">
-              Proven Track Record
-            </h6>
-            <p className="card-text absolute bottom-[25vw] lg:bottom-[4.2vw] left-[2.083vw] right-[2.083vw] text-[3.333vw] lg:text-[1.042vw] text-black opacity-0 transition duration-500 lg:px-0 px-[4vw] ">
-              Proven Track Record Review our track record, which showcases our dedication and expertise in providing exceptional services to trusted clients. Our achievements are clearly demonstrated by our numbers.
-            </p>
-          </div>
+      <div className="flex justify-around md:justify-end mt-[10vw] sm:mt-[8vw]">
+        <div className="h-full inline-flex flex-col overflow-hidden mr-[5.128vw] lg:mr-[3.125vw] ">
+          <ul
+            ref={upRef}
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-[3vw] lg:[&_li]:my-[1vw] md:[&_Image]:max-w-none md:animate-moveUp"
+          >
+            <li>
+              <Image
+                src={banner_1}
+                alt="banner-1"
+                className="w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_2}
+                alt="banner-2"
+                className="w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_6}
+                alt="banner-6"
+                className="hidden lg:block w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_8}
+                alt="banner-8"
+                className="hidden lg:block w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_9}
+                alt="banner-9"
+                className="hidden lg:block w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+          </ul>
         </div>
-        <div className="group w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative lg:ml-[20.833vw] mb-[60.69px] lg:mb-0">
-          <Image
-            src={card_2}
-            alt="card-2"
-            className="card-image absolute right-[7.051vw] lg:right-[3.563vw] lg:top-[1.458vw] top-[6.587vw] transition duration-500"
-          />
-          <h6 className="card-title w-[56.667vw] md:w-fit text-[5.128vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw] transition duration-500">
-            Industry Expertise
-          </h6>
-          <p className="card-text absolute bottom-[25vw] lg:bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[3.333vw] lg:text-[1.042vw] text-black opacity-0 transition duration-500 lg:px-0 px-[4vw] ">
-            We have years of various industry expertise, which makes our
-            experienced team of highly skilled members. With this expertise, we
-            are proud to develop a different tech world.
-          </p>
-        </div>
-        <div className="group w-full lg:w-[20.833vw] min-h-[45vh] lg:min-h-[21.85vw] bg-[#FAFAFA] relative">
-          <Image
-            src={card_3}
-            alt="card-3"
-            className="card-image absolute right-[7.051vw] lg:right-[3.563vw] lg:top-[1.458vw] top-[6.587vw] transition duration-500"
-          />
-          <h6 className="card-title w-[56.667vw] md:w-fit text-[5.128vw] md:text-[5vw] lg:text-[1.25vw] font-semibold leading-[125%] tracking-[0.013vw] absolute bottom-[8.782vw] lg:bottom-[1.946vw] left-[9.403vw] lg:left-[2.083vw] transition duration-500">
-            Client-centric approach
-          </h6>
-          <p className="card-text absolute bottom-[30vw] lg:bottom-[5vw] left-[2.083vw] right-[2.083vw] text-[3.333vw] lg:text-[1.042vw] text-black opacity-0 transition duration-500 lg:px-0 px-[4vw] ">
-            We understand clients’ requirements, goals, and challenges to
-            deliver them with the best possible services. High client
-            satisfaction is our priority, making this a reason to trust us.
-          </p>
+
+        <div className="h-full inline-flex flex-col overflow-hidden">
+          <ul
+            ref={downRef}
+            className="flex flex-col items-center justify-center md:justify-start [&_li]:my-[3vw] lg:[&_li]:my-[1vw] md:[&_Image]:max-w-none md:animate-moveDown"
+          >
+            <li>
+              <Image
+                src={banner_3}
+                alt="banner-3"
+                className="w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_4}
+                alt="banner-4"
+                className="w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_5}
+                alt="banner-5"
+                className="hidden lg:block w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+            <li>
+              <Image
+                src={banner_7}
+                alt="banner-7"
+                className="hidden lg:block w-[45vw] h-[55.128vw] lg:w-[17.188vw] lg:h-[15.104vw] rounded-[1vw]"
+              />
+            </li>
+          </ul>
         </div>
       </div>
-      <Image
-        src={panda}
-        alt="panda"
-        className="hidden lg:block absolute bottom-0 left-0 lg:h-[25vw] lg:w-[35.9vw] xl:h-[30.667vw]"
-      />
     </div>
   );
 };

@@ -146,7 +146,7 @@ const MainPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-[#00111A]">
       {loading ? (
         <Loader />
       ) : (
