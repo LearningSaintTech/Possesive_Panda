@@ -222,7 +222,7 @@ const Contact = () => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="mt-[3vw] filter grayscale invert contrast-125">
+      <div className="mt-[3vw] filter invert contrast-125">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.6454755034493!2d77.3838346!3d28.6123171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefa443812e1b%3A0x89693f7dd82b09fd!2sLearning%20Saint%20Private%20Limited!5e0!3m2!1sen!2sin!4v1717428098307!5m2!1sen!2sin"
           allowFullScreen=""

@@ -69,9 +69,8 @@ const Blogs = () => {
           <>
             {/* Large Blog */}
             <div
-              className={`transition-transform duration-500 ease-in-out transform w-full lg:w-[40vw] ${
-                transition ? "large-blog-transition-out" : "large-blog-transition-in"
-              }`}
+              className={`transition-transform duration-500 ease-in-out transform w-full lg:w-[40vw] ${transition ? "large-blog-transition-out" : "large-blog-transition-in"
+                }`}
             >
               <Link href={`/blog/${datablogs.blogs[currentIndex].url}`}>
                 <div className="relative overflow-hidden bg-[#00111A] shadow-lg">
@@ -80,7 +79,7 @@ const Blogs = () => {
                     width={500}
                     height={300}
                     alt="Blog image"
-                    className="w-full sm:h-[23vw] object-cover transition-transform duration-500 mt-4 sm:mb-0 mb-2"
+                    className="w-full sm:h-[24vw] object-cover transition-transform duration-500 mt-4 sm:mb-0 mb-2"
                   />
                   <div className="px-2 lg:px-1 sm:py-3 ">
                     <p className="text-white text-[3.846vw] md:text-[3.5vw] lg:text-[1.25vw] font-normal leading-[177.086%] tracking-[0.015rem]">
@@ -104,9 +103,8 @@ const Blogs = () => {
 
             {/* Small Blog (half-hidden) */}
             <div
-              className={`hidden sm:block transition-transform duration-500 ease-in-out transform w-[30vw] lg:absolute lg:top-[30%] lg:right-[-82%] lg:overflow-hidden ${
-                transition ? "small-blog-transition-in" : "small-blog-transition-out"
-              }`}
+              className={`hidden sm:block transition-transform duration-500 ease-in-out transform w-[36vw] lg:absolute lg:top-[35%] lg:right-[-85%] lg:overflow-hidden ${transition ? "small-blog-transition-in" : "small-blog-transition-out"
+                }`}
             >
               <Link href={`/blog/${datablogs.blogs[(currentIndex + 1) % datablogs.blogs.length].url}`}>
                 <div className="relative overflow-hidden bg-[#00111A] shadow-lg">
@@ -115,7 +113,7 @@ const Blogs = () => {
                     width={200}
                     height={120}
                     alt="Blog image"
-                    className="w-full h-[20vh] lg:h-[15vw] object-cover transition-transform duration-500"
+                    className="w-full h-[20vh] lg:h-[15.052vw] object-cover transition-transform duration-500"
                   />
                   <div className="sm:px-1 sm:py-3">
                     <p className="text-white text-[3.846vw] md:text-[3.5vw] lg:text-[1vw] font-normal leading-[177.086%] tracking-[0.015rem]">

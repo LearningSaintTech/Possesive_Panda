@@ -75,11 +75,11 @@ const OurWorks = () => {
                 onMouseLeave={handleMouseLeave}
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
-                className="sm:flex sm:gap-6 w-full sm:px-10 py-5 sm:ml-[4.16vw] sm:overflow-x-auto cursor-grab no-scrollbar"
+                className="sm:flex sm:gap-2 w-full sm:px-10 py-5 sm:ml-[3.5vw] sm:overflow-x-auto cursor-grab no-scrollbar"
                 style={{ scrollBehavior: 'smooth' }}
             >
                 {/* Image Card 1 */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:-ml-10 relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:-ml-10 relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
                         src={dotcom}
@@ -91,7 +91,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Image Card 2 */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
                         src={HRMS}
@@ -103,7 +103,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Image Card 3 */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
                         src={dotin}
@@ -115,7 +115,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Image Card 4 */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
                         src={recess}
@@ -127,7 +127,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Image Card 5 */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[2vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-10 inset-0 w-full h-full object-cover"
                         src={trucks}
