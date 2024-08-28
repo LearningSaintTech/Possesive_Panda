@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { GoArrowRight } from "react-icons/go";
 
-const Banner = () => {
+const Banner = ({ whyUsRef }) => {
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -31,13 +31,16 @@ const Banner = () => {
     };
   }, []);
 
+  const handleScrollToWhyUs = () => {
+    if (whyUsRef.current) {
+      whyUsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    // flex sm:flex-row flex-col
-
     <div className="relative w-auto h-auto sm:h-[55.417vw] sm:overflow-hidden ">
-
       {/* Text Content */}
-      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-0  relative sm:ml-[5.208vw] w-full z-10 lg:w-[43.333vw] mt-[18vw] lg:mt-[13.958vw] flex flex-col gap-[5vw] lg:gap-[1.042vw]">
+      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-0 relative sm:ml-[5.208vw] w-full z-10 lg:w-[43.333vw] mt-[18vw] lg:mt-[13.958vw] flex flex-col gap-[5vw] lg:gap-[1.042vw]">
         <h1 className="m:w-[46.875vw] text-center lg:text-left text-white text-[8vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide">
           Boost Your <span className="text-[#60e2ff]">Business</span> With Powerful IT Technology
         </h1>
@@ -46,18 +49,20 @@ const Banner = () => {
         </p>
 
         <button
-          className="bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-semibold sm:font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.821vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 sm:hover:text-[#2a2a2a] sm:hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none mb-[7vw] sm:mb-0 mt-[2.083vw]"
+          className="bg-stone-900 text-[4vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none"
+          onClick={handleScrollToWhyUs}
         >
           Why Us
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
         </button>
       </div>
+
       {/* Video Background */}
       <video
         ref={videoRef}
         autoPlay
         loop
-        muted // Start muted
+        muted
         className="sm:absolute sm:top-0 sm:left-0 w-full h-full object-cover z-0"
       >
         <source src="/Home.mp4" type="video/mp4" />
