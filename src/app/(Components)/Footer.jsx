@@ -48,7 +48,7 @@ const Footer = () => {
           <div className='flex flex-row mt-[5.585vw] gap-[5.748vw] '>
             <div >
               <p>TO CONNECT</p>
-              <p className='font-bold'>GET IN TOUCH</p>
+              <h5 className='font-bold'>GET IN TOUCH</h5>
             </div>
             <Link href="/contact">
               <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">

@@ -20,8 +20,8 @@ import {
 } from "./data";
 
 export const metadata = {
-    title:"PPC Services India | Best PPC Marketing Company In India | PPC Management Agency",
-    description : `Looking for a professional and reliable PPC Service for your Business or Services? Possesive Panda. Generate traffic and increase conversion. Partner with us for expert PPC advertising services`
+    title:"Best PPC Agency | Pay Per Click Marketing Services",
+    description : ` Looking for a professional and reliable PPC Service for your Business or Services? Possesive Panda. Generate traffic and increase conversion. Partner with us for expert PPC advertising services.`
   }
   const page = () => {
     return (
@@ -159,9 +159,9 @@ export const metadata = {
                     <Strategy statergy={marketingServices} />
                 </div>
                 <div className="pt-[5.2vw]">
-                    <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-[5vw] sm:mt-0">
+                    <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-[5vw] sm:mt-0">
                         PPC services help to increase your leads and sales
-                    </h3>
+                    </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-[5.2vw] gap-y-[9vw] sm:gap-y-[3vw] mt-[5.2vw]">
                         {leadsAndSales.map((item, key) => (
                             <Inventory data={item} key={key} />

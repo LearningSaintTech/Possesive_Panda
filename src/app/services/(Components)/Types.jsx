@@ -16,17 +16,18 @@ const Types = ({ data, digital }) => {
     data.title == "Cross-Platform App Development";
   return (
     <div className="relative min-w-[20.625vw] h-fit">
-       <h6 className="text-[#212121] text-[4.346vw] sm:text-[1.667vw] font-semibold tracking-[0.022rem] w-fit pt-[1.458vw] capitalize block sm:hidden">
+       <h3 className="text-[#212121] text-[4.346vw] sm:text-[1.667vw] font-semibold tracking-[0.022rem] w-fit pt-[1.458vw] capitalize block sm:hidden">
           {data.title}
-        </h6>
+          
+        </h3>
       {digital ? (
-        <h6
+        <h5
           className={`text-[#212121] text-[1.667vw] font-semibold tracking-[0.022rem] pt-[1.458vw] capitalize hidden sm:block ${
             edge ? "w-full" : "w-[15.1vw]"
           }`}
         >
           {data.title}
-        </h6>
+        </h5>
       ) : (
         <h6 className="text-[#212121] text-[4.346vw] sm:text-[1.667vw] font-semibold tracking-[0.022rem] w-fit pt-[1.458vw] capitalize hidden sm:block">
           {first} <br /> {second}

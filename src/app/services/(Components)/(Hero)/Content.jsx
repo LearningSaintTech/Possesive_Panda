@@ -25,9 +25,9 @@ const Content = ({ top }) => {
             {para}
           </p>
         ))}
-        <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+        <h2 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
           {top.title2}
-        </h6>
+        </h2>
         {top.paragraph2?.map((para, key) => (
           <p
             key={key}
@@ -36,9 +36,9 @@ const Content = ({ top }) => {
             {para}
           </p>
         ))}
-        <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+        <h3 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
           {top.title3}
-        </h6>
+        </h3>
         {top.paragraph3?.map((para, key) => (
           <p
             key={key}

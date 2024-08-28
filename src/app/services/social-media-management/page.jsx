@@ -137,9 +137,9 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] sm:mb-[3vw]">
+          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] sm:mb-[3vw]">
           Why Social Media Management?
-          </h4>
+          </h2>
           {/* <div className="sm:flex sm:flex-row flex-col sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
             {socialMediaManagement.map((feature, key) => (
               <Features data={feature} key={key} />
@@ -148,9 +148,9 @@ const page = () => {
           <WhySection />
         </div>
         <div className="mt-[5vw]"> 
-          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] mb-[2.6vw]  w-full sm:w-[37vw]">
+          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] mb-[2.6vw]  w-full sm:w-[37vw]">
           Why Choose Us for Your Social Media Management?
-          </h4>
+          </h2>
           <p className="text-[#212121] text-[3.636vw] sm:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.8vw] mb-[3.8vw] w-full sm:w-[55vw] sm:text-justify">
           Possesive Panda Prime focuses on building communities that boost brand awareness. We understand the power of strong and engaged social media for our clients. In a world where everyone uses the paid reach process, our team is here to help you become visible by crafting social media strategies.
           </p>
@@ -178,9 +178,9 @@ const page = () => {
         <ProcessCard />
       </div>
       <div className="px-[5.2vw] pt-[5.2vw]">
-        <h4 className="text-[#212121]  text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[60vw]">
+        <h2 className="text-[#212121]  text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[60vw]">
         How do Social Media Management services help Grow Social Media Accounts Organically and Inorganically?
-        </h4>
+        </h2>
         <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
           {howSocialMedia.map((item, key) => (
             <Grow data={item} key={key} />

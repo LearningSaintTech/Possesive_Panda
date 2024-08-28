@@ -106,12 +106,12 @@ const OurServices = () => {
     <div className="sm:pt-[5vw] sm:pb-[7.813vw] sm:px-[5.208vw] w-full h-full flex flex-col gap-4" ref={containerRef}>
       <div className="flex justify-between relative bg-[#00111A] ">
         <div className="flex flex-col justify-between w-full sm:w-[40.677vw] gap-[1vw] h-fit">
-          <p className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
+          <h3 className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
             Our Services
-          </p>
-          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw]">
+          </h3>
+          <h2 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw]">
             Our Top IT Services
-          </h1>
+          </h2>
           <p className="text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
             "Discover the extensive world of highly demanding IT Services that
             involve cutting-edge technologies and creativity to meet your IT

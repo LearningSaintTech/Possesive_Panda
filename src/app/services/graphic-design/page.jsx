@@ -128,9 +128,9 @@ const page = () => {
         <Hero top={top} />
 
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Why is Graphic Design Important?
-          </h4>
+          </h3>
           <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {whyIs.map((item, key) => (
               <Types data={item} key={key} digital={true} />
@@ -176,9 +176,9 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[5.2vw] bg-[#F3fcfe] bg-opacity-50 px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.636vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.8vw] pt-[4vw] sm:pt-[1vw]">
+        <h2 className="text-[#212121] text-[4.636vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.8vw] pt-[4vw] sm:pt-[1vw]">
           Mobile Application Development Services For Various Purposes
-        </h4>
+        </h2>
         <div className="sm:flex justify-center px-[2vw] hidden">
           {graphicDesignSoftware.row1.map((item, key) => (
             <IconCard data={item} key={key} image={true} />

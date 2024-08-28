@@ -15,11 +15,11 @@ const Features = ({ data }) => {
           alt="num"
           className={`w-[35.647vw] h-[15vw] sm:w-[29vw] sm:h-[10.89vw] relative top-[-7vw] sm:top-[-6vw]  select-none`}
         />
-        <h6
+        <h4
           className={`text-[#212121] text-[2.7vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] mt-[-7.4vw] sm:mt-[-5.5vw] mb-[1vw]  select-none`}
         >
           {data.title}
-        </h6>
+        </h4>
         <p className="text-[#212121] text-[2.5vw] sm:text-[1.25vw] leading-[normal] tracking-[0.013rem] text-justify w-fit sm:w-[27.5vw]  select-none">
           {data.description}
         </p>
