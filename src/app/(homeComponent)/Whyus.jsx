@@ -3,15 +3,15 @@
 import "./why.css";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import banner_1 from "../../assets/home/banner/Banner-1.png";
-import banner_2 from "../../assets/home/banner/Banner-2.png";
-import banner_3 from "../../assets/home/banner/Banner-3.png";
-import banner_4 from "../../assets/home/banner/Banner-4.png";
-import banner_5 from "../../assets/home/banner/Banner-5.png";
-import banner_6 from "../../assets/home/banner/Banner-6.png";
-import banner_7 from "../../assets/home/banner/Banner-7.png";
-import banner_8 from "../../assets/home/banner/Banner-8.png";
-import banner_9 from "../../assets/home/banner/Banner-9.png";
+import banner_1 from "../../assets/home/banner/Banner-1.svg";
+import banner_2 from "../../assets/home/banner/Banner-2.svg";
+import banner_3 from "../../assets/home/banner/Banner-3.svg";
+import banner_4 from "../../assets/home/banner/Banner-4.svg";
+import banner_5 from "../../assets/home/banner/Banner-5.svg";
+import banner_6 from "../../assets/home/banner/Banner-6.svg";
+import banner_7 from "../../assets/home/banner/Banner-7.svg";
+import banner_8 from "../../assets/home/banner/Banner-8.svg";
+import banner_9 from "../../assets/home/banner/Banner-3.svg";
 import shadow from "../../assets/home/banner/shadow.png";
 
 const WhyUs = () => {
