@@ -22,8 +22,8 @@ import WhyCard from "./WhyCard";
 import WebsitesCard from "./WebsitesCard";
 import Head from 'next/head';
 export const metadata = {
-  title: 'Website Development Service Company | Top Website design Services',
-  description: 'Leading website development service company providing top custom website design services. Elevate your online presence with our expert and innovative web solutions.',
+  title: 'Website Development Service Company | Top Website Design Services',
+  description: ' Leading website development service company providing top custom website design services. Elevate your online presence with our expert and innovative web solutions.',
  
   
 };
@@ -53,18 +53,18 @@ const page = () => {
           <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[38vw] ">
             Why Leverage Web Development & Design Services?
           </h2>
-          {/* <div className="sm:mt-[2vw] flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
+          { <div className="sm:mt-[2vw] flex flex-col sm:flex-row sm:overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
             {leverage.map((item, key) => (
               <Grow data={item} key={key} />
             ))}
-          </div> */}
+          </div> }
           <WhyCard />
         </div>
 
         <div className="mt-[5.2vw] ">
-          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Find Out How We Develop Top Quality Websites For You
-          </h5>
+          </h4>
           <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-fill sm:w-[56.5vw] pt-[1.3vw] mb-[4vw]">
             Possesive Panda follows a standard yet dynamic process to deliver
             its services. It ensures that our solutions align with our clients’

@@ -30,8 +30,8 @@ import Head from 'next/head';
 import Script from 'next/script';
 
 export const metadata = {
-  title: 'Best B2B E-commerce Solutions Platform | E-commerce Website Management Service',
-  description: 'Finding the best B2B e-commerce solutions platform for seamless e-commerce business services. Enhance your business operations with Possesive Panda on top-notch tools and support.',
+  title: 'Ecommerce Services | Ecommerce Management Solutions',
+  description: 'Possesive Panda a provider of e-commerce management services. we offer managed ecommerce services, infrastructure management, website development & customer support.',
   alternates: {
     canonical: 'https://www.possesivepanda.com/services/e-commerce'
   },
@@ -149,9 +149,9 @@ const Page = () => {
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[5.2vw]">
-          <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Types of E-Commerce:
-          </h4>
+          </h2>
           <div className="mt-[3.9vw] flex flex-col sm:flex-row gap-[2.3vw]">
             {typesOfECommerce.map((item, key) => (
               <Types data={item} key={key} />
@@ -195,9 +195,9 @@ const Page = () => {
           </div>
         </div>
         <div className="pt-[5.2vw]">
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
+          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0">
             Our E-commerce process
-          </h3>
+          </h2>
           <p className="text-[#212121] text-[3.5vw] sm:text-[1.25vw] leading-[normal] tracking-[0.02rem] w-full sm:w-[45vw] pt-[1.3vw] mb-[6.6vw] sm:mb-[5.2vw]">
             We follow a sequence to build an e-commerce store offering the best
             features. Our transparent process helps clients to have all access

@@ -43,17 +43,14 @@ const WhyUs = () => {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between px-[7.69vw] lg:px-[3vw] lg:pl-[6.771vw] lg:mr-[5.2vw] relative overflow-hidden max-h-[110vh] lg:max-h-[80vh]">
       <div className="lg:w-[36vw] mt-[15.385vw] sm:mt-[10vw]">
-        <h6 className="text-[#fff] text-[5.128vw] lg:text-[1.25vw] font-normal tracking-[0.051vw] lg:tracking-[0.015rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
+        <h3 className="text-[#fff] text-[5.128vw] lg:text-[1.25vw] font-normal tracking-[0.051vw] lg:tracking-[0.015rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
           Why Us
-        </h6>
-        <h2 className="text-[#fff] font-medium text-[6.154vw] lg:text-[3.333vw] leading-[125%] tracking-[0.062vw] lg:tracking-[0.04rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
+        </h3>
+        <h3 className="text-[#fff] font-medium text-[6.154vw] lg:text-[3.333vw] leading-[125%] tracking-[0.062vw] lg:tracking-[0.04rem] mb-[5.128vw] sm:mb-[1.042vw] text-center lg:text-left">
           Why collaborate with us?
-        </h2>
+        </h3>
         <p className="font-normal text-[#fff] text-[3.846vw] lg:text-[1.25vw] leading-[150%] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left">
-          Your one-stop IT service provider is here. Collaborate with us to get
-          the best IT services and solutions according to your requirements and
-          state-of-the-art technology. Give your business wings to soar high
-          with the top-notch technologies.
+        We are a leading global IT Service provider that adapts, overcomes, and solves complex technical and business problems. From building cutting-edge software to organizing seamless virtual assistant services, we propel your business’s growth to the next level. Let us be the catalyst that transforms your ambitions into achievements.
         </p>
       </div>
       <div className="flex justify-around md:justify-end mt-[10vw] sm:mt-[8vw]">

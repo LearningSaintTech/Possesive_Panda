@@ -23,7 +23,8 @@ import {
 export const metadata = {
   title:"Best SEO Services | SEO Service Provider Company",
   description : `Looking For SEO Service for your Business & Service ?
-Possesive Panda is the right place for improving your website's visibility, driving organic traffic, and increasing quality leads.Contact us today.`
+Possesive Panda is the right place for improving your website's visibility, driving organic traffic, and increasing quality leads.Contact us today.
+`
 }
 const page = () => {
   return (
@@ -164,55 +165,55 @@ const page = () => {
       />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
-        <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2vw]">
+        <h4 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2vw]">
           Some of Our Seo Results :
-        </h6>
+        </h4>
         <div className="container grid grid-cols-2 w-[61.875vw]">
           <div className="item">
-            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Campaigns ranked</h6>
+            <h4 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Campaigns ranked</h4>
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>2,000+</p>
           </div>
           <div className="item">
-            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Visits driven to clients websites annually</h6>
+            <h4 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Visits driven to clients websites annually</h4>
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>1.5+ Million</p>
           </div>
           <div className="item">
-            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Sites audited each year</h6>
+            <h4 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Sites audited each year</h4>
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>3,000+</p>
           </div>
           <div className="item">
-            <h6 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Content published annually</h6>
+            <h4 className='text-black text-[1.25vw] font-medium tracking-tight mt-[1.302vw]'>Content published annually</h4>
             <p className='text-black text-[1.25vw] font-normal tracking-tight mt-[1.042vw]'>1,000+</p>
           </div>
         </div>
         <div className='w-[61.875vw]'>
-          <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
             Things you should know before hiring an SEO Service
-          </h6>
+          </h4>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]">
             SEO (Search Engine Optimization) is a process of improving a websites visibility in search engines like Google, Yahoo, Bing, and many more. SEO includes fulfilling users search needs by creating relevant high-quality content.
           </p>
-          <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[1.823vw]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[1.823vw]">
             SEO Typically involves
-          </h6>
+          </h4>
           <ul className='list-disc grid grid-cols-2 ml-[1.823vw] mt-[1.823vw]'>
             <li className='text-black text-2xl font-normal tracking-tight'>SEO Typically involves</li>
             <li className='text-black text-2xl font-normal tracking-tight'>Technical Optimization </li>
             <li className='text-black text-2xl font-normal tracking-tight mt-[1.823vw]'>Content creation</li>
             <li className='text-black text-2xl font-normal tracking-tight mt-[1.823vw]'>Link building </li>
           </ul>
-          <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
             Our SEO team work
-          </h6>
+          </h4>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]">
             SEO company that performs to increase brand visibility, organic traffic from search engines, and generate leads. It is very difficult for business owners to have an SEO-friendly website. Many website issues, like broken links and slow pages, exist.
           </p>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[.56vw]">
             SEO companies will help you fix all these issues. To ensure your website works smoothly, the SEO team works on various strategies. Conduct in-depth research to understand the market, competitors, and target audience. By using various techniques, the SEO team finds keywords that can help attract website traffic.
           </p>
-          <h6 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
+          <h4 className="text-[#212121] text-[4.364vw] sm:text-[1.25vw] font-semibold leading-[normal] tracking-[0.015rem] mt-[2.5vw]">
             Industries that can benefit from SEO
-          </h6>
+          </h4>
           <p className="text-justify text-neutral-800 text-[3.363vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[1.56vw]">
             Health Industry, logistics, real estate, e-commerce, retailers, and others can take SEO services. It does not matter whether you are a small, medium, or big business you can promote your business online. Many industries rely on SEO services to reach their targeted audiences.
           </p>

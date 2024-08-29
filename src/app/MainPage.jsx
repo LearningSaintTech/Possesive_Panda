@@ -45,7 +45,7 @@ const MainPage = () => {
           <Contact />
           <Blogs />
           <Faq />
-          <Cross />
+          {/* <Cross /> */}
           <Footer />
         </>
       )}

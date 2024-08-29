@@ -104,19 +104,19 @@ const Contact = () => {
             name="fname"
             onChange={handleChange}
             maxLength={25}
-            className={`border ${errors.fname ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-[#00111A] `}
+            className={`border ${errors.fname ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-[#00111A] `}
           />
           {errors.fname && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.fname}</p>}
-          
+
           <input
             type="email"
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className={`border ${errors.email ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
+            className={`border ${errors.email ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
           />
           {errors.email && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.email}</p>}
-          
+
           <input
             type="text"
             required
@@ -125,10 +125,10 @@ const Contact = () => {
             onChange={handleChange}
             maxLength={10}
             name="phone"
-            className={`border ${errors.phone ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
+            className={`border ${errors.phone ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
           />
           {errors.phone && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.phone}</p>}
-          
+
           <select
             name="course"
             onChange={handleChange}
@@ -142,13 +142,23 @@ const Contact = () => {
             <option value="Advertisment">Advertisment</option>
             <option value="Other">Other</option>
           </select>
-          {errors.course && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.course}</p>}
-          
+
+          {/* <textarea
+            required
+            placeholder="Message"
+            name="message"
+            onChange={handleChange}
+            className={`border ${errors.message ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-[#00111A] resize-none`} // Added resize-none to prevent resizing
+          ></textarea>
+          {errors.message && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.message}</p>}
+
+          {errors.course && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.course}</p>} */}
+
           <input
             type="hidden"
             value={form.ip}
             name="ip"
-            className="border border-gray-300 text-gray-900 text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <button
             onClick={handleSubmit}
@@ -161,7 +171,7 @@ const Contact = () => {
               {message}
             </p>
           )}
-          <div className="flex flex-row lg:flex-row gap-[2vw] lg:gap-0 justify-between mt-[15px]">
+          <div className="flex flex-row lg:flex-row gap-[2vw] lg:gap-0 justify-between ">
             <Link
               className="flex flex-row items-center hover:opacity-60"
               href="tel:+14158003326"
@@ -222,13 +232,12 @@ const Contact = () => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="mt-[3vw] filter invert contrast-125">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.6454755034493!2d77.3838346!3d28.6123171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefa443812e1b%3A0x89693f7dd82b09fd!2sLearning%20Saint%20Private%20Limited!5e0!3m2!1sen!2sin!4v1717428098307!5m2!1sen!2sin"
+      <div className="mt-[3vw] filter  invert contrast-125">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0589796457366!2d77.37415457528887!3d28.627994375667253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce563c110213b%3A0x1874a657b756e9d9!2sPossesive%20Panda%20%7C%20Virtual%20Assistant%2C%20Mobile%20App%20%26%20Web%20Development%20Company%20Noida%20Delhi%20NCR!5e0!3m2!1sen!2sin!4v1724840334521!5m2!1sen!2sin"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full md:w-full h-[60vw] md:h-[40vh] lg:w-[35vw] lg:h-[70vh] mt-[30px] lg:mt-0"
+          className="w-full md:w-full h-[60vw] md:h-[40vh] lg:w-[35vw] lg:h-[32vw] mt-[30px] lg:mt-0"
         ></iframe>
       </div>
     </div>

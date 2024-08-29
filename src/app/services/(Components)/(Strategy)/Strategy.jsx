@@ -46,9 +46,9 @@ const Strategy = ({ statergy }) => {
 
   return (
     <div>
-      <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-4 sm:mt-[5.2vw] ">
+      <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[40vw] mt-4 sm:mt-[5.2vw] ">
         {statergy.title}
-      </h3>
+      </h2>
       <p className="text-[#212121] text-[3.363vw] sm:text-[1.25vw] font-normal capitalize leading-[normal] tracking-[0.015rem] w-full sm:w-[47.66vw] mt-[2vw] sm:mt-[0.8vw]">
         {statergy.paragraph}
         <span className="font-medium">{statergy.hilighted}</span>

@@ -26,8 +26,8 @@ import Head from 'next/head';
 import Script from 'next/script';
 
 export const metadata = {
-  title: 'Best Digital Marketing Services | PPC SEO Services Agency',
-  description: 'Possesive panda is one of the best digital marketing company. We provide SEO, SMO, PPC , SMM & brand awareness. contact us today to learn more about what services can help your business grow.',
+  title: 'Digital Marketing Services | Best Digital Marketing Agency',
+  description: ' Possesive Panda provides digital marketing services to companies across the U.S. & U.K. contact us today to learn more about what services can help your business grow.',
   alternates: {
     canonical: 'https://www.possesivepanda.com/services/e-commerce'
   },

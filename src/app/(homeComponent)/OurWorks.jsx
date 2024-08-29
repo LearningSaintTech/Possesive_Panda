@@ -59,8 +59,7 @@ const OurWorks = () => {
                     Our Work
                 </h2>
                 <p className="text-[#F9F9F9] font-normal text-[3.846vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
-                    Explore our world of standout projects that Possesive Panda
-                    accomplished and delivered exceptionally across various industries.
+                Explore how Possesive Panda shaped businesses by offering innovative, tech-driven solutions. Serving a plethora of companies to be at the forefront.
                 </p>
 
                 <Link
