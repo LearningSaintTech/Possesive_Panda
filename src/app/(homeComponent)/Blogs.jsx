@@ -52,8 +52,7 @@ const Blogs = () => {
           Our Knowledge Hub
         </h1>
         <p className="text-white text-[3.846vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] text-center lg:text-left">
-          Get access to our collection of the latest information from our blogs.
-          Explore the latest technological updates and services here!
+        Get updated with the latest industry trends and service insights. 
         </p>
         <Link
           href="/blog"

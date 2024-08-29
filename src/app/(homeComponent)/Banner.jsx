@@ -38,15 +38,14 @@ const Banner = () => {
 
       {/* Text Content */}
       <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-0  relative sm:ml-[5.208vw] w-full z-10 lg:w-[43.333vw] mt-[18vw] lg:mt-[13.958vw] flex flex-col gap-[5vw] lg:gap-[1.042vw]">
-        <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[6.818vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide">
+        <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.818vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide">
           Boost Your <span className="text-[#60e2ff]">Business</span> With Powerful IT Technology
         </h1>
-        <p className="text-white text-[3.5ovw] lg:text-[1.25vw] font-normal leading-[150%] lg:tracking-[0.015rem] tracking-[0.033vw] lg:w-[46.875vw] text-center lg:text-start">
+        <p className="text-white text-[4vw] lg:text-[1.25vw] font-normal leading-[150%] lg:tracking-[0.015rem] tracking-[0.033vw] lg:w-[46.875vw] text-center lg:text-start">
           Elevate your business with our cutting-edge IT services and solutions, designed to meet every need and fuel your tech-driven dreams.
         </p>
-
         <button
-          className="bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-semibold sm:font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.821vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 sm:hover:text-[#2a2a2a] sm:hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none mb-[7vw] sm:mb-0 mt-[2.083vw]"
+          className="bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-medium sm:font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.821vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 sm:hover:text-[#2a2a2a] sm:hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none mb-[7vw] sm:mb-0 mt-[2.083vw]"
         >
           Why Us
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
@@ -58,7 +57,7 @@ const Banner = () => {
         autoPlay
         loop
         muted // Start muted
-        className="sm:absolute sm:top-0 sm:left-0 w-full h-full object-cover z-0 sm:mt-0 mt-2"
+        className="sm:absolute sm:top-0 sm:left-0 w-full h-[60vw] sm:h-full object-cover z-0 sm:mt-0 mt-2"
       >
         <source src="/Home.mp4" type="video/mp4" />
         Your browser does not support the video tag.

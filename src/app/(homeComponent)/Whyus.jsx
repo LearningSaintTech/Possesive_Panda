@@ -50,10 +50,7 @@ const WhyUs = () => {
           Why collaborate with us?
         </h2>
         <p className="font-normal text-[#fff] text-[3.846vw] lg:text-[1.25vw] leading-[150%] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left">
-          Your one-stop IT service provider is here. Collaborate with us to get
-          the best IT services and solutions according to your requirements and
-          state-of-the-art technology. Give your business wings to soar high
-          with the top-notch technologies.
+        We are a leading global IT Service provider that adapts, overcomes, and solves complex technical and business problems. From building cutting-edge software to organizing seamless virtual assistant services, we propel your business’s growth to the next level. Let us be the catalyst that transforms your ambitions into achievements.
         </p>
       </div>
       <div className="flex justify-around md:justify-end mt-[10vw] sm:mt-[8vw]">

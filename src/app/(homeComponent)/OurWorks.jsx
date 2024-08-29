@@ -50,8 +50,7 @@ const OurWorks = () => {
                     Our Work
                 </h2>
                 <p className="text-[#F9F9F9] font-normal text-[3.846vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
-                    Explore our world of standout projects that Possesive Panda
-                    accomplished and delivered exceptionally across various industries.
+                Explore how Possesive Panda shaped businesses by offering innovative, tech-driven solutions. Serving a plethora of companies to be at the forefront.
                 </p>
 
                 {/* <button className="bg-[#00111A] mt-[2.083vw] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center font-normal items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.5vw] md:py-[1vw] lg:w-auto hover:text-[#2a2a2a] hover:bg-[#60E2FF] hover:duration-300 duration-300">

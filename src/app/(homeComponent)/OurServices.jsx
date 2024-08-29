@@ -107,21 +107,19 @@ const OurServices = () => {
       <div className="flex justify-between relative bg-[#00111A] ">
         <div className="flex flex-col justify-between w-full sm:w-[40.677vw] gap-[1vw] h-fit">
           <p className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
-            Our Services
+            Client Satisfaction
           </p>
-          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw]">
-            Our Top IT Services
+          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[45vw]">
+            Our Delivery Framework
           </h1>
           <p className="text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
-            "Discover the extensive world of highly demanding IT Services that
-            involve cutting-edge technologies and creativity to meet your IT
-            needs."
+            "We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant."
           </p>
         </div>
         <Image
           src={panda}
           alt="panda"
-          className="hidden md:block size-[23.865vw] relative -top-[4.4vw] h-fit"
+          className="hidden md:block size-[24.865vw] relative -top-[4.4vw] h-fit"
         />
       </div>
       <div>
