@@ -13,6 +13,7 @@ import Loader from "./(Components)/Loader";
 import Footer from "./(Components)/Footer";
 import OurWorks from "./(homeComponent)/OurWorks";
 import Marquee from "./(homeComponent)/Marquee";
+import ServicesList from "./(homeComponent)/ServicesList";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -35,6 +36,7 @@ const MainPage = () => {
           <Banner whyUsRef={whyUsRef} />
           <OurWorks />
           <Marquee/>
+          <ServicesList/>
           <OurServices />
           <div ref={whyUsRef}>
             <WhyUs />

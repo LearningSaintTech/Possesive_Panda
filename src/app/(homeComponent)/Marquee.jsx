@@ -5,6 +5,22 @@ import pands from '../../assets/banners/pands.png';
 import learningsaint from '../../assets/banners/learningsaint.png';
 import hawkins from '../../assets/banners/hawkins.png';
 import separator from '../../assets/banners/separator.png';
+import crst from '../../assets/banners/crst.png';
+import hansen from '../../assets/banners/hansen.png';
+import maine from '../../assets/banners/maine.png';
+import deep from '../../assets/banners/deep.png';
+import dht from '../../assets/banners/dht.png';
+import usx from '../../assets/banners/usx.png';
+import Land from '../../assets/banners/Land.png';
+import nats from '../../assets/banners/nats.png';
+import fleet from '../../assets/banners/fleet.png';
+import old from '../../assets/banners/old.png';
+import titan from '../../assets/banners/titan.png';
+import highway from '../../assets/banners/highway.png';
+import dohrn from '../../assets/banners/dohrn.png';
+import customized from '../../assets/banners/customized.png';
+
+
 
 const Marquee = () => {
   const images = [
@@ -12,18 +28,19 @@ const Marquee = () => {
     learningsaint,
     pands,
     montgmery,
-    hawkins,
-    learningsaint,
-    pands,
-    montgmery,
-    hawkins,
-    learningsaint,
-    pands,
-    montgmery,
-    hawkins,
-    learningsaint,
-    pands,
-    montgmery,
+    customized,
+    dohrn,
+    highway,
+    titan,
+    crst,
+    hansen,
+    maine,
+    deep,
+    dht,
+    usx,
+    Land,
+    nats,
+    fleet,
   ];
 
   const containerRef = useRef(null);
@@ -48,7 +65,7 @@ const Marquee = () => {
     const container = containerRef.current;
     if (container) {
       const scrollWidth = container.scrollWidth;
-      const animationDuration = 30; 
+      const animationDuration = 90; 
 
       const updateScroll = () => {
         container.style.transform = `translateX(-${scrollWidth}px)`;
