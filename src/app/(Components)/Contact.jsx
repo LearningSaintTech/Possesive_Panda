@@ -87,13 +87,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="mx-[6.771vw] flex flex-col lg:flex-row justify-between mb-[5.5vw] lg:mt-0 mt-[15.385vw] bg-[#00111A]">
+    <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] sm:mb-[7.813vw] flex flex-col lg:flex-row justify-between bg-[#00111A]">
       <div className="w-full lg:w-[34.688vw] gap-[1.042vw]">
-        <h2 className="text-center lg:text-left text-[6.154vw] lg:text-[3.333vw] font-semibold leading-[normal] lg:mb-[1.25vw] mb-[2vw] text-white">
+        <h2 className="text-center lg:text-left text-[8.205vw] lg:text-[3.333vw] font-semibold leading-[normal] lg:mb-[1.25vw] mb-[2vw] text-white">
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
         <div className="flex flex-col lg:gap-[1.042vw] gap-[5.128vw]">
-          <p className="text-[3.846vw] lg:text-[1.042vw] font-normal leading-[146.642%] tracking-[0.08rem] text-white sm:mb-[2vw] text-center lg:text-left">
+          <p className="text-[4.103vw] lg:text-[1.042vw] font-normal sm:leading-[146.642%] tracking-[0.08rem] text-white sm:mb-[2vw] text-center lg:text-left">
             Ready to learn more about our IT Service Solutions? Fill in the
             required details to obtain all the essential information.
           </p>
@@ -232,12 +232,12 @@ const Contact = () => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="mt-[3vw] filter  invert contrast-125">
+      <div className="sm:mt-[3vw] mt-[13.256vw] filter  invert contrast-125">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0589796457366!2d77.37415457528887!3d28.627994375667253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce563c110213b%3A0x1874a657b756e9d9!2sPossesive%20Panda%20%7C%20Virtual%20Assistant%2C%20Mobile%20App%20%26%20Web%20Development%20Company%20Noida%20Delhi%20NCR!5e0!3m2!1sen!2sin!4v1724840334521!5m2!1sen!2sin"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full md:w-full h-[60vw] md:h-[40vh] lg:w-[35vw] lg:h-[32vw] mt-[30px] lg:mt-0"
+          className="w-full md:w-full h-[70vw] md:h-[40vh] lg:w-[35vw] lg:h-[32vw]"
         ></iframe>
       </div>
     </div>

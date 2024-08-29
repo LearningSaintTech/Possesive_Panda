@@ -30,17 +30,19 @@ const Technologies = () => {
   }, []);
 
   return (
-    <div className="my-[50px] lg:mt-[5.208vw] mb-[7vw] overflow-hidden bg-[#00111A]">
-      <div className="flex flex-col md:flex-row justify-between items-center not-italic mx-[6.771vw]">
-        <h1 className="text-white w-[80vw] lg:w-[40vw] text-center md:text-start md:w-[45vw] xl:w-[38.25vw] text-[6.154vw] sm:text-[8.1vw] md:text-[4.5vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
-        Brands That Trust Us:
+    <div className="sm:py-[7.813vw] sm:px-[5.208vw] px-[7.692vw] py-[15.385vw] overflow-hidden bg-[#00111A]">
+      <div className="flex flex-col md:flex-row justify-between items-center not-italic">
+        <h1 className="text-white lg:w-[40vw] text-center md:text-start md:w-[45vw] xl:w-[38.25vw] text-[7vw] sm:text-[8.1vw] md:text-[4.5vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
+          Brands That Trust Us:
         </h1>
-        <button className="inline-flex self-start py-[2.727vw] lg:py-[1.042vw] px-[15vw] lg:px-[1.563vw] mx-auto md:mx-0 md:my-auto w-fit bg-[#00AFF1] sm:hover:opacity-55 text-[#FFF] rounded-[0.5vw] lg:rounded-[4.427vw] border border-[1px white solid] h-fit text-[3.846vw] sm:text-[3.5vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1.25vw] leading-[125%] tracking-[0.063vw] font-medium">
+        <button
+          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] lg:mb-0 mb-[4vw] font-medium "
+        >
           Partners with us Today
         </button>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 w-full sm:mt-[6.656vw] mt-[10vw] sm:px-[5.2vw] px-[7.692vw]">
+      <div className="grid grid-cols-2 md:grid-cols-5 w-full sm:mt-[6.656vw] mt-[10vw]">
         {data.map((icon, key) => (
           <div
             key={key}
