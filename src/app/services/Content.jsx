@@ -43,9 +43,9 @@ const Content = () => {
           className="w-[90vw] lg:w-[20vw] 2xl:w-[25.6vw]"
         />
         <div className="w-full lg:w-[27.083vw]">
-          <h6 className="text-neutral-800 lg:text-[2.083vw] font-semibold leading-[normal] tracking-[0.025rem] mb-[1.302vw]">
+          <h2 className="text-neutral-800 lg:text-[2.083vw] font-semibold leading-[normal] tracking-[0.025rem] mb-[1.302vw]">
             Our Features :
-          </h6>
+          </h2>
           <p className="text-neutral-800 lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[normal]">
             Loreum ipsum dolar sit amet,consectetur adipiscing elid, sed do
             eiusmod tempor.

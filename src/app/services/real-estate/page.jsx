@@ -18,8 +18,8 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
 
 export const metadata = {
-    title:'Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
-    description : `Boosting your real estate business is possible. Hire real estate virtual assistants available at a wide range of administrative support & services. Inquire now.`
+    title:' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
+    description : ` Boosting your real estate business is possible. Hire real estate virtual assistants available at a wide range of administrative support & services. Inquire now.`
   }
   const page = () => {
     return (
@@ -136,9 +136,9 @@ export const metadata = {
             <div className="px-[5.2vw] pt-[5.2vw]">
                 <Hero top={top} />
                 <div className="mt-[5.2vw] ">
-                    <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+                    <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
                         Our Features
-                    </h5>
+                    </h3>
                     {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
             {howWeDevelop.map((feature, key) => (
               <Features data={feature} key={key} />

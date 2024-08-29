@@ -1,30 +1,207 @@
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import React from 'react';
-import accenturewhite from '../../assets/aboutus/brands/accenturewhite.png';
-import capgeminiwhite from '../../assets/aboutus/brands/capgeminiwhite.png';
-import cognizantwhite from '../../assets/aboutus/brands/cognizantwhite.png';
-import hclwhite from '../../assets/aboutus/brands/hclwhite.png';
-import ibmwhite from '../../assets/aboutus/brands/ibmwhite.png';
-import tcswhite from '../../assets/aboutus/brands/tcswhite.png';
+import montgmery from '../../assets/banners/montgmery.png';
+import pands from '../../assets/banners/pands.png';
+import learningsaint from '../../assets/banners/learningsaint.png';
+import hawkins from '../../assets/banners/hawkins.png';
+import separator from '../../assets/banners/separator.png';
 
 const Marquee = () => {
   const images = [
-    accenturewhite,
-    capgeminiwhite,
-    cognizantwhite,
-    hclwhite,
-    ibmwhite,
-    tcswhite,
+    hawkins,
+    learningsaint,
+    pands,
+    montgmery,
+    hawkins,
+    learningsaint,
+    pands,
+    montgmery,
+    hawkins,
+    learningsaint,
+    pands,
+    montgmery,
+    hawkins,
+    learningsaint,
+    pands,
+    montgmery,
   ];
 
+  const containerRef = useRef(null);
+  const [marqueeWidth, setMarqueeWidth] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (containerRef.current) {
+        setMarqueeWidth(containerRef.current.scrollWidth);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); 
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (container) {
+      const scrollWidth = container.scrollWidth;
+      const animationDuration = 30; 
+
+      const updateScroll = () => {
+        container.style.transform = `translateX(-${scrollWidth}px)`;
+        container.style.transition = `transform ${animationDuration}s linear`;
+      };
+
+      const resetScroll = () => {
+        container.style.transform = 'translateX(0)';
+        container.style.transition = 'none';
+        container.offsetHeight;
+        requestAnimationFrame(updateScroll);
+      };
+
+      updateScroll();
+      container.addEventListener('transitionend', resetScroll);
+
+      return () => {
+        container.removeEventListener('transitionend', resetScroll);
+      };
+    }
+  }, [marqueeWidth]);
+
   return (
-    <div className="overflow-hidden">
-      <div className="flex animate-marquee ">
+    <div className="relative overflow-hidden w-full">
+      <div
+        ref={containerRef}
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          whiteSpace: 'nowrap',
+          transform: 'translateX(0)',
+          transition: 'none',
+        }}
+      >
+        {/* First copy of images with separator */}
         {images.map((src, index) => (
-          <div key={index} className="flex-none mx-4">
-            <Image src={src} alt={`Marquee Image ${index + 1}`} width={150} height={50} />
-          </div>
+          <React.Fragment key={index}>
+            <div
+              style={{
+                flex: '0 0 auto',
+                width: '10vw',
+                marginRight: '2vw', 
+                transform: src === montgmery ? 'translateY(20px)' : 'none',
+              }}
+            >
+              <Image
+                src={src}
+                alt={`Marquee Image ${index + 1}`}
+                layout="responsive"
+                width={150}
+                height={50}
+                objectFit="cover"
+              />
+            </div>
+            {/* Insert separator image between images */}
+            <div
+              style={{
+                flex: '0 0 auto',
+                width: '0.206vw',
+                height: '1vw',
+                marginRight: '2vw', 
+              }}
+            >
+              <Image
+                src={separator}
+                alt={`Separator ${index + 1}`}
+                layout="responsive"
+                width={150}
+                height={50}
+                objectFit="contain"
+              />
+            </div>
+          </React.Fragment>
         ))}
+
+        {/* Separator after the last image */}
+        <div
+          style={{
+            flex: '0 0 auto',
+            width: '0.206vw',
+            height: '1vw',
+            marginRight: '2vw', 
+          }}
+        >
+          <Image
+            src={separator}
+            alt="Final Separator"
+            layout="responsive"
+            width={150}
+            height={50}
+            objectFit="contain"
+          />
+        </div>
+
+        {/* Duplicate the images with separator for smooth infinite scroll */}
+        {images.map((src, index) => (
+          <React.Fragment key={index + images.length}>
+            <div
+              style={{
+                flex: '0 0 auto',
+                width: '10vw',
+                marginRight: '2vw', 
+                transform: src === montgmery ? 'translateY(20px)' : 'none',
+              }}
+            >
+              <Image
+                src={src}
+                alt={`Marquee Image ${index + 1}`}
+                layout="responsive"
+                width={150}
+                height={50}
+                objectFit="cover"
+              />
+            </div>
+            {/* Insert separator image between images */}
+            <div
+              style={{
+                flex: '0 0 auto',
+                width: '0.206vw',
+                height: '1vw',
+                marginRight: '2vw',
+              }}
+            >
+              <Image
+                src={separator}
+                alt={`Separator ${index + images.length + 1}`}
+                layout="responsive"
+                width={150}
+                height={50}
+                objectFit="contain"
+              />
+            </div>
+          </React.Fragment>
+        ))}
+
+        {/* Separator after the last duplicated image */}
+        <div
+          style={{
+            flex: '0 0 auto',
+            width: '0.206vw',
+            height: '1vw',
+            marginRight: '2vw', 
+          }}
+        >
+          <Image
+            src={separator}
+            alt="Final Separator Duplicate"
+            layout="responsive"
+            width={150}
+            height={50}
+            objectFit="contain"
+          />
+        </div>
       </div>
     </div>
   );

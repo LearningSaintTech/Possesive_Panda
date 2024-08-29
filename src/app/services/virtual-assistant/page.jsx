@@ -146,16 +146,16 @@ const page = () => {
           </div>
         </div>
         <div className="mt-[5.2vw] ">
-          <h5 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
+          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
             Our Features
-          </h5>
+          </h3>
           <Feature />
         </div>
       </div>
       <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h4 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
+        <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
           Services We Provide
-        </h4>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
           {services.map((item, key) => (
             <Services data={item} key={key} />

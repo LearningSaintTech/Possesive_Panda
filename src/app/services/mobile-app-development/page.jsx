@@ -24,8 +24,8 @@ import Comparison from "./Comparision";
 import Head from 'next/head';
 
 export const metadata = {
-  title: 'Mobile App Development Company | Android/IOS App Development Software Service',
-  description: 'Looking for top mobile application development company offering expert Android/iOS app development software services. Boost your business with innovative and reliable app solutions.',
+  title: ' Mobile App Development Company | Application Development Services ',
+  description: 'Looking for a top mobile application development company offering expert Android/iOS app development software services. Boost your business with innovative and reliable app solutions.',
   alternates: {
     canonical: ' https://www.possesivepanda.com/services/mobile-app-development '
   },
@@ -123,9 +123,9 @@ const page = () => {
         </div>
       </div>
       <div className="bg-[#F3FCFE] bg-opacity-50 py-[3.65vw] px-[5.2vw] mt-[5.2vw]">
-        <h3 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.2vw]">
+        <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw] mb-[2.2vw]">
           Why Leverage Mobile App Development Services?
-        </h3>
+        </h2>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-y-[7.8vw] sm:gap-x-[2.1vw]">
           {leverage.map((item, key) => (
             <WhyUs data={item} key={key} />
