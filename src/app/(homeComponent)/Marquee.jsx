@@ -14,13 +14,10 @@ import usx from '../../assets/banners/usx.png';
 import Land from '../../assets/banners/Land.png';
 import nats from '../../assets/banners/nats.png';
 import fleet from '../../assets/banners/fleet.png';
-import old from '../../assets/banners/old.png';
 import titan from '../../assets/banners/titan.png';
 import highway from '../../assets/banners/highway.png';
 import dohrn from '../../assets/banners/dohrn.png';
 import customized from '../../assets/banners/customized.png';
-
-
 
 const Marquee = () => {
   const images = [
@@ -36,7 +33,6 @@ const Marquee = () => {
     hansen,
     maine,
     deep,
-    dht,
     usx,
     Land,
     nats,
@@ -105,10 +101,13 @@ const Marquee = () => {
           <React.Fragment key={index}>
             <div
               style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 flex: '0 0 auto',
                 width: '10vw',
+                height: '8vw', // Add a consistent height to center all logos
                 marginRight: '2vw', 
-                transform: src === montgmery ? 'translateY(20px)' : 'none',
               }}
             >
               <Image
@@ -117,7 +116,7 @@ const Marquee = () => {
                 layout="responsive"
                 width={150}
                 height={50}
-                objectFit="cover"
+                objectFit="contain" // Ensure logos fit correctly
               />
             </div>
             {/* Insert separator image between images */}
@@ -165,10 +164,13 @@ const Marquee = () => {
           <React.Fragment key={index + images.length}>
             <div
               style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 flex: '0 0 auto',
                 width: '10vw',
+                height: '8vw', // Consistent height to align logos
                 marginRight: '2vw', 
-                transform: src === montgmery ? 'translateY(20px)' : 'none',
               }}
             >
               <Image
@@ -177,7 +179,7 @@ const Marquee = () => {
                 layout="responsive"
                 width={150}
                 height={50}
-                objectFit="cover"
+                objectFit="contain"
               />
             </div>
             {/* Insert separator image between images */}
