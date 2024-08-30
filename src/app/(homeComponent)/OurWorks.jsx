@@ -49,22 +49,23 @@ const OurWorks = () => {
     };
 
     return (
-        <div className="flex sm:flex-row flex-col pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[2vw] pl-[6.692vw] lg:pl-[6.171vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw]">
+        <div className="flex sm:flex-row flex-col pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[5vw] pl-[6.692vw] lg:pl-[5.208vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw]">
             {/* Left Side Section */}
-            <div className="sm:w-[20.156vw] sm:h-[23.073vw] flex flex-col justify-around gap-[0.625vw] sm:mt-[4vw]">
-                <h5 className="text-white font-normal tracking-[0.013vw] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
+            <div className="sm:w-[20.156vw] sm:h-[23.073vw] flex flex-col justify-around gap-1 sm:gap-0 sm:mt-[4vw]">
+                <h5 className="text-white sm:font-normal font-medium tracking-[0.015rem] text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left sm:mt-2">
                     Portfolio
                 </h5>
-                <h2 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.033vw] lg:w-[40vw] text-center sm:text-left">
+                <h2 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw] text-center sm:text-left sm:mt-[0.7vw] sm:mb-[0.5vw]">
                     Our Work
                 </h2>
-                <p className="text-[#F9F9F9] font-normal text-[3.846vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
-                Explore how Possesive Panda shaped businesses by offering innovative, tech-driven solutions. Serving a plethora of companies to be at the forefront.
+                <p className="text-[#F9F9F9] font-normal text-[4.103vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full lg:w-[20vw] text-center lg:text-left">
+                    Explore how Possesive Panda shaped businesses by offering innovative, tech-driven solutions. Serving a plethora of companies to be at the forefront.
                 </p>
 
                 <Link
                     href="/portfolio"
-                    className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.013vw] px-[3vw] py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#60E2FF] hover:border-none duration-500 hover:duration-500 hover:shadow-md mt-[1.042vw] lg:mb-0 mb-[8vw]"
+                    // className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] px-[3vw] py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#60E2FF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[4vw] lg:mb-0 mb-[8vw]"
+                    className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[7.692vw] lg:mb-0 mb-[8vw] font-medium "         
                 >
                     View All
                     <GoArrowRight className="ml-[0.2vw] size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />

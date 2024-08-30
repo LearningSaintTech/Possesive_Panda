@@ -42,17 +42,17 @@ const Blogs = () => {
   const progress = ((currentIndex + 1) / datablogs.blogs.length) * 100;
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-[7.813vw] px-[7vw] lg:px-0 lg:pb-[6.8vw] lg:pl-[7vw] bg-[#00111A] overflow-hidden ">
+    <div className="flex flex-col lg:flex-row lg:gap-[7.813vw] px-[7.692vw] lg:px-[5.208vw] sm:py-0 py-[15.385vw] lg:pb-[6.8vw] bg-[#00111A] overflow-hidden ">
       {/* Text Section */}
       <div className="sm:w-[30vw] flex flex-col gap-[3vw] lg:gap-[1.042vw] mt-4 sm:mt-0">
-        <h5 className="text-white text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal tracking-[0.051vw] md:tracking-[0.015rem] text-center lg:text-left lg:mt-[3vw] mt-[5vw]">
+        <h5 className="text-white text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] font-medium sm:font-normal tracking-[0.051vw] md:tracking-[0.015rem] text-center lg:text-left lg:mt-[3vw] mt-[6vw]">
           Our Blogs
         </h5>
-        <h3 className="text-white text-[6.154vw] md:w-[90%] lg:w-full md:text-[7.5vw] lg:text-[3.334vw] font-medium leading-[normal] tracking-[0.04rem] text-center lg:text-left">
+        <h3 className="text-white text-[8.205vw] md:w-[90%] lg:w-full md:text-[7.5vw] lg:text-[3.334vw] font-medium leading-[normal] tracking-[0.04rem] text-center lg:text-left">
           Our Knowledge Hub
         </h3>
-        <p className="text-white text-[3.846vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] text-center lg:text-left">
-        Get updated with the latest industry trends and service insights. 
+        <p className="text-white text-[4.103vw] md:text-[3vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.015rem] text-center lg:text-left">
+          Get updated with the latest industry trends and service insights.
         </p>
         <Link
           href="/blog"

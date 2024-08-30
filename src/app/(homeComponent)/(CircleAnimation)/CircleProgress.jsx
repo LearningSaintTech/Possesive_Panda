@@ -16,15 +16,18 @@ const CircleProgress = ({ progress, activeSection }) => {
   const getSectionHeading = () => {
     switch (activeSection) {
       case 1:
-        return "Onboarding"
+        return "Onboarding";
       case 2:
-        return "Planning"
+        return "Planning";
       case 3:
-        return "Product Delivery"
+        return "Product Delivery";
       case 4:
-        return "Support"
+        return "Support";
+      default:
+        return "";
     }
-  }
+  };
+
   const getSectionText = () => {
     switch (activeSection) {
       case 1:
@@ -32,7 +35,7 @@ const CircleProgress = ({ progress, activeSection }) => {
       case 2:
         return "After onboarding, the next step is to plan the product's implementation, which involves gathering customer requirements, developing a project charter, and ensuring stakeholder alignment to ensure a successful implementation process and a collaborative environment.";
       case 3:
-        return "At this stage, the focus shifts to executing the implementation plan. Key activities include using Agile metodology for iterative delivery, allowing continuous feedback and improvement based on customer input. Ensuring quality assurance via user acceptance testing (UAT).";
+        return "At this stage, the focus shifts to executing the implementation plan. Key activities include using Agile methodology for iterative delivery, allowing continuous feedback and improvement based on customer input. Ensuring quality assurance via user acceptance testing (UAT).";
       case 4:
         return "To ensure long-term success, it's crucial to gather customer feedback post-delivery through channels like surveys and support tickets. This feedback can be used for iterative updates, aligning with the Agile principle of continuous improvement. A customer success manager maintains customer relationships.";
       default:
@@ -41,15 +44,15 @@ const CircleProgress = ({ progress, activeSection }) => {
   };
 
   return (
-    <div className=" Circlecontainer relative w-full h-[40vw] flex justify-center items-center ">
-      <div
-        className="w-[33vw] h-[33vw] absolute rounded-full"
-        style={getCircleStyle()}
-      >
-      </div>
+    <div className="relative w-full h-[40vw] flex justify-center items-center my-8"> {/* Use margin here */}
+      <div className="Circlecontainer w-[33vw] h-[33vw] absolute rounded-full" style={getCircleStyle()}></div>
       <div className="absolute w-[25vw] flex justify-center items-center text-center flex-col">
-        <div className="text-white text-[2.5vw] font-normal mb-[1.5vw] mt-[1.2vw]">{getSectionHeading()}</div>
-        <span className="text-white text-[1.25vw] font-normal">{getSectionText()}</span>
+        <div className="text-white text-[2.5vw] font-normal mb-[1.5vw] mt-[1.2vw]">
+          {getSectionHeading()}
+        </div>
+        <span className="text-white text-[1.25vw] font-normal">
+          {getSectionText()}
+        </span>
       </div>
       <div className="absolute w-full h-full">
         {/* Sections */}
