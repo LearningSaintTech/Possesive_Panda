@@ -152,11 +152,11 @@ const page = () => {
         <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem] w-[60vw] sm:w-[45vw]">
           Graphic Design Services We Provide
         </h2>
-        {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
+        {/* { <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar gap-[1.25vw]">
           {weProvide.map((item, key) => (
             <Grow data={item} key={key} />
           ))}
-        </div> */}
+        </div> } */}
         <ServicesCard />
       </div>
       <div className=" py-[3.65vw] px-[5.2vw] mt-[4vw]">
