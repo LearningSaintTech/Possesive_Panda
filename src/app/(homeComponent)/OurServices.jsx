@@ -134,7 +134,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import panda from "../../assets/home/services/Panda.png";
-import CircleProgress from "./(CircleAnimation)/CircleProgress";
+// import CircleProgress from "./(CircleAnimation)/CircleProgress";
 
 const OurServices = () => {
   const [activeSection, setActiveSection] = useState(1);
@@ -277,9 +277,9 @@ const OurServices = () => {
       }
     }
   };
-
+  // sm:pb-[7.813vw]
   return (
-    <div className="sm:pt-[5vw] sm:pb-[7.813vw] sm:px-[5.208vw] px-[7.692vw] sm:py-0 py-[15.385vw] flex flex-col gap-4" ref={containerRef}>
+    <div className="sm:pt-[5vw]  sm:px-[5.208vw] px-[7.692vw] sm:py-0 py-[15.385vw] flex flex-col gap-4" ref={containerRef}>
       <div className="flex justify-between relative bg-[#00111A] ">
         <div className="flex flex-col justify-between w-full sm:w-[42vw] gap-[1vw] h-fit">
           <p className="text-white font-medium sm:font-normal tracking-[0.015rem] text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
@@ -289,7 +289,7 @@ const OurServices = () => {
             Our Delivery Framework
           </h1>
           <p className="text-white text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
-            "We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant."
+            &quote;We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant.&quote;
           </p>
         </div>
         <Image
@@ -306,7 +306,7 @@ const OurServices = () => {
             <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >01</p> </div>
             <p className="text-[6.154vw] text-white font-medium ">Planning</p>
           </div>
-          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">After onboarding, the next step is to plan the product's implementation, which involves gathering customer requirements, developing a project charter, and ensuring stakeholder alignment to ensure a successful implementation process and a collaborative environment.</p>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">After onboarding, the next step is to plan the product&apos;s implementation, which involves gathering customer requirements, developing a project charter, and ensuring stakeholder alignment to ensure a successful implementation process and a collaborative environment.</p>
         </div>
 
         <div className="mt-[7.692vw]">
@@ -314,7 +314,7 @@ const OurServices = () => {
             <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >02</p> </div>
             <p className="text-[6.154vw] text-white font-medium ">Support</p>
           </div>
-          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">To ensure long-term success, it's crucial to gather customer feedback post-delivery through channels like surveys and support tickets. This feedback can be used for iterative updates, aligning with the Agile principle of continuous improvement. A customer success manager maintains customer relationships.</p>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">To ensure long-term success, it&apos;s crucial to gather customer feedback post-delivery through channels like surveys and support tickets. This feedback can be used for iterative updates, aligning with the Agile principle of continuous improvement. A customer success manager maintains customer relationships.</p>
         </div>
 
         <div className="mt-[7.692vw]">
@@ -335,12 +335,11 @@ const OurServices = () => {
       </div>
 
 
-      <div className="hidden sm:block">
+      {/* <div className="hidden sm:block">
         <div id="progress" ref={progressRef} className="sticky top-0 z-10  ">
-          {/* Sticky and z-index styles */}
           <CircleProgress progress={progress} activeSection={activeSection} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

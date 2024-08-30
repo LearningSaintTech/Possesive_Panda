@@ -32,7 +32,7 @@ const Footer = () => {
           <div className='flex flex-row sm:mt-[5.585vw] gap-[22vw] sm:gap-[5.748vw] text-white'>
             <div className="sm:ml-0 ml-[2vw]">
               <p className="text-[3.59vw] sm:text-[1.25vw] text-white sm:font-medium">For Best IT Services</p>
-              <p className='text-[4.103vw] sm:text-[1.667vw] font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>CONTACT NOW</p>
+              <p className='text-[4.103vw] sm:text-[1.667vw] text-white font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>CONTACT NOW</p>
             </div>
             <button onClick={() => setOpen(true)}>
               <svg className="sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
@@ -59,7 +59,7 @@ const Footer = () => {
           <div className='flex flex-row sm:mt-[5.585vw] gap-[22vw] sm:gap-[5.748vw] text-white'>
             <div className="sm:ml-0 ml-[4vw]">
               <p className="text-[3.59vw] sm:text-[1.25vw] text-white sm:font-medium">Connect With Us</p>
-              <p className='text-[4.103vw] sm:text-[1.667vw] font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>Ask Your Doubt</p>
+              <p className='text-white text-[4.103vw] sm:text-[1.667vw] font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>Ask Your Doubt</p>
             </div>
             <Link href="mailto:hello@possesivepanda.com">
               <svg className="mt-[2vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
@@ -115,31 +115,31 @@ const Footer = () => {
         <div className="flex sm:flex-none sm:gap-0 gap-[8.205vw]  ">
           <div className='flex flex-col sm:flex-row flex-wrap gap-[10.256vw] sm:gap-[2vw] text-white sm:mt-[2.573vw]'>
             <div className='flex flex-col'>
-              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
+              <p className='text-white text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
               <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="130" height="2" viewBox="0 0 166 2" fill="none">
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/about">
                     About Us
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/services">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/services">
                   Services
                 </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/portfolio">
                     Portfolio
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/Insights">
                     Insights
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/blog">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/blog">
                   Blog
                 </Link>
                 </p>
@@ -147,30 +147,30 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col'>
-              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>SERVICES </p>
+              <p className='text-white text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>SERVICES </p>
               <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link
                     href="services/e-commerce"
                   >
                     E-Commerce
                   </Link></p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
                   href="services/graphic-design"
                 >
                   Graphic Design
                 </Link></p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link
                     href="services/mobile-app-development"
                   >
                     App Development
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link
                     href="services/web-development"
                   >
@@ -181,29 +181,29 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col'>
-              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>PREMIUM SERVICES</p>
+              <p className='text-white text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>PREMIUM SERVICES</p>
               <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
 
 
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="services/search-engine-optimization" >
                     SEO
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="services/social-media-management" >
                     Social Media
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/services/pay-per-click" >
                     Pay Per Click
                   </Link>
                 </p>
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/services/digital-marketing" >
                     DIgital Marketing
                   </Link>
@@ -211,20 +211,20 @@ const Footer = () => {
               </div>
             </div>
             <div className='flex flex-col'>
-              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>VIRTUAL SERVICES</p>
+              <p className='text-white text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>VIRTUAL SERVICES</p>
               <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
 
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
                   href="services/real-estate"
                 >
                   Real Estate
                 </Link>
                 </p>
 
-                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/services/virtual-assistant" >
                     Virtual Assistant
                   </Link>
