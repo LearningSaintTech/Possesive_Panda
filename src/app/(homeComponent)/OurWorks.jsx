@@ -78,11 +78,7 @@ const OurWorks = () => {
                 onMouseLeave={handleMouseLeave}
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
-<<<<<<< HEAD
-                className="flex sm:flex-row flex-col gap-5 sm:gap-[0.65vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[5.5vw] sm:overflow-x-auto cursor-grab no-scrollbar "
-=======
                 className="sm:flex sm:gap-[0.417vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[3.5vw] sm:overflow-x-auto cursor-grab no-scrollbar select-none" // Disable text selection
->>>>>>> 5626bf892430658ca290df21129b329ff64f3615
                 style={{ scrollBehavior: 'smooth' }}
             >
                 {/* Image Cards */}

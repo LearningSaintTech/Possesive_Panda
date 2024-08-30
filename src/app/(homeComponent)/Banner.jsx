@@ -69,7 +69,7 @@ const Banner = ({ whyUsRef }) => {
         {/* Mute/Unmute Button Positioned Below the "Why Us" Button */}
         <button
           onClick={handleMuteToggle}
-          className="bg-stone-900 text-white p-2 rounded-full mt-4 w-fit mx-auto lg:mx-0"
+          className= "hidden sm:block bg-stone-900 text-white p-2 rounded-full mt-4 w-fit mx-auto lg:mx-0"
         >
           {isMuted ? <FaVolumeMute size={24} /> : <FaVolumeUp size={24} />}
         </button>

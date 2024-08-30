@@ -4,7 +4,8 @@ import { FaAws, FaLinux } from "react-icons/fa6";
 import { SiGooglecloud, SiMicrosoftazure } from "react-icons/si";
 
 const ServicesList = () => (
-  <div className="bg-[#131d22] py-[6.2vw] flex flex-col lg:flex-row">
+  <div className='hidden sm:block'>
+      <div className="bg-[#131d22] py-[6.2vw] flex flex-col lg:flex-row">
     {/* Left Section */}
     <div className="flex flex-col mb-[1.667vw] lg:mb-[0vw] lg:w-1/2 ml-[5.208vw]">
       <h2 className="text-white text-[1.25vw] font-normal leading-[2.083vw]">Our Services</h2>
@@ -56,6 +57,7 @@ const ServicesList = () => (
         </div>
       ))}
     </div>
+  </div>
   </div>
 );
 

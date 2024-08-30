@@ -112,124 +112,127 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-col sm:flex-row flex-wrap gap-[10.256vw] sm:gap-[2vw] text-white sm:mt-[2.573vw]'>
-          <div className='flex flex-col'>
-            <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
-            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="130" height="2" viewBox="0 0 166 2" fill="none">
-              <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
-            </svg>
-            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/about">
-                  About Us
+        <div className="flex sm:flex-none sm:gap-0 gap-[8.205vw]  ">
+          <div className='flex flex-col sm:flex-row flex-wrap gap-[10.256vw] sm:gap-[2vw] text-white sm:mt-[2.573vw]'>
+            <div className='flex flex-col'>
+              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
+              <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="130" height="2" viewBox="0 0 166 2" fill="none">
+                <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
+              </svg>
+              <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/about">
+                    About Us
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/services">
+                  Services
                 </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/services">
-                Services
-              </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/portfolio">
-                  Portfolio
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/portfolio">
+                    Portfolio
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/Insights">
+                    Insights
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/blog">
+                  Blog
                 </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/Insights">
-                  Insights
-                </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/blog">
-                Blog
-              </Link>
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className='flex flex-col'>
-            <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>SERVICES </p>
-            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
-              <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
-            </svg>
-            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link
-                  href="services/e-commerce"
+            <div className='flex flex-col'>
+              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>SERVICES </p>
+              <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+                <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
+              </svg>
+              <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link
+                    href="services/e-commerce"
+                  >
+                    E-Commerce
+                  </Link></p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
+                  href="services/graphic-design"
                 >
-                  E-Commerce
+                  Graphic Design
                 </Link></p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
-                href="services/graphic-design"
-              >
-                Graphic Design
-              </Link></p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link
-                  href="services/mobile-app-development"
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link
+                    href="services/mobile-app-development"
+                  >
+                    App Development
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link
+                    href="services/web-development"
+                  >
+                    Web Development
+                  </Link>
+                </p>
+              </div>
+            </div>
+
+            <div className='flex flex-col'>
+              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>PREMIUM SERVICES</p>
+              <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+                <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
+              </svg>
+              <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
+
+
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="services/search-engine-optimization" >
+                    SEO
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="services/social-media-management" >
+                    Social Media
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/services/pay-per-click" >
+                    Pay Per Click
+                  </Link>
+                </p>
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/services/digital-marketing" >
+                    DIgital Marketing
+                  </Link>
+                </p>
+              </div>
+            </div>
+            <div className='flex flex-col'>
+              <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>VIRTUAL SERVICES</p>
+              <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+                <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
+              </svg>
+              <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
+
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
+                  href="services/real-estate"
                 >
-                  App Development
+                  Real Estate
                 </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link
-                  href="services/web-development"
-                >
-                  Web Development
-                </Link>
-              </p>
+                </p>
+
+                <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                  <Link href="/services/virtual-assistant" >
+                    Virtual Assistant
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className='flex flex-col'>
-            <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>PREMIUM SERVICES</p>
-            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
-              <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
-            </svg>
-            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-
-
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="services/search-engine-optimization" >
-                  SEO
-                </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="services/social-media-management" >
-                  Social Media
-                </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/services/pay-per-click" >
-                  Pay Per Click
-                </Link>
-              </p>
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/services/digital-marketing" >
-                  DIgital Marketing
-                </Link>
-              </p>
-            </div>
-          </div>
-          <div className='flex flex-col'>
-            <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>VIRTUAL SERVICES</p>
-            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
-              <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
-            </svg>
-            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
-                href="services/real-estate"
-              >
-                Real Estate
-              </Link>
-              </p>
-
-              <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                <Link href="/services/virtual-assistant" >
-                  Virtual Assistant
-                </Link>
-              </p>
-            </div>
-          </div>
+          <div className="sm:hidden w-[22.051vw] h-[134.103vw] "></div>
         </div>
       </div>
 
