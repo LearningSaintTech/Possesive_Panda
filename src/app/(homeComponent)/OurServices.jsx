@@ -279,28 +279,63 @@ const OurServices = () => {
   };
 
   return (
-    <div className="sm:pt-[5vw] sm:pb-[7.813vw] sm:px-[5.208vw] w-full h-full flex flex-col gap-4" ref={containerRef}>
+    <div className="sm:pt-[5vw] sm:pb-[7.813vw] sm:px-[5.208vw] px-[7.692vw] sm:py-0 py-[15.385vw] flex flex-col gap-4" ref={containerRef}>
       <div className="flex justify-between relative bg-[#00111A] ">
-        <div className="flex flex-col justify-between w-full sm:w-[40.677vw] gap-[1vw] h-fit">
-          <p className="text-white font-normal tracking-[0.015rem] text-[5.128vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
-            Our Services
+        <div className="flex flex-col justify-between w-full sm:w-[42vw] gap-[1vw] h-fit">
+          <p className="text-white font-medium sm:font-normal tracking-[0.015rem] text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] text-center lg:text-left">
+            Client Satisfaction
           </p>
-          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] lg:w-[40vw]">
-            Our Top IT Services
+          <h1 className="text-white text-[8.205vw] md:text-[5.3vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] text-center sm:text-left ">
+            Our Delivery Framework
           </h1>
-          <p className="text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
-            "Discover the extensive world of highly demanding IT Services that
-            involve cutting-edge technologies and creativity to meet your IT
-            needs."
+          <p className="text-white text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
+            "We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant."
           </p>
         </div>
         <Image
           src={panda}
           alt="panda"
-          className="hidden md:block size-[23.865vw] relative -top-[4.4vw] h-fit"
+          className="hidden md:block size-[24.865vw] relative -top-[4.4vw] h-fit"
         />
       </div>
-      <div className="">
+
+
+      <div className="sm:hidden w-full ">
+        <div className="">
+          <div className="flex gap-[5.128vw] text-center justify-center items-center  " >
+            <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >01</p> </div>
+            <p className="text-[6.154vw] text-white font-medium ">Planning</p>
+          </div>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">After onboarding, the next step is to plan the product's implementation, which involves gathering customer requirements, developing a project charter, and ensuring stakeholder alignment to ensure a successful implementation process and a collaborative environment.</p>
+        </div>
+
+        <div className="mt-[7.692vw]">
+          <div className="flex gap-[5.128vw] text-center justify-center items-center  " >
+            <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >02</p> </div>
+            <p className="text-[6.154vw] text-white font-medium ">Support</p>
+          </div>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">To ensure long-term success, it's crucial to gather customer feedback post-delivery through channels like surveys and support tickets. This feedback can be used for iterative updates, aligning with the Agile principle of continuous improvement. A customer success manager maintains customer relationships.</p>
+        </div>
+
+        <div className="mt-[7.692vw]">
+          <div className="flex gap-[5.128vw] text-center justify-center items-center " >
+            <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >03</p> </div>
+            <p className="text-[6.154vw] text-white font-medium ">Onboarding</p>
+          </div>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">The client onboarding process is vital for fostering engagement and begins with initial communication and a comprehensive product walkthrough. At Possesive Panda, we start by delving into your project needs and gaining insight into your vision.</p>
+        </div>
+
+        <div className="mt-[7.692vw]">
+          <div className="flex gap-[5.128vw] text-center justify-center items-center  " >
+            <div className="relative w-[14vw] h-[14vw] bg-[#00AFF1] rounded-full py-[3.205vw] px-[3.846vw] "> <p className="text-white text-[5.484vw] font-medium " >04</p> </div>
+            <p className="text-[6.154vw] text-white font-medium ">Product Delivery</p>
+          </div>
+          <p className="text-[4.103vw] text-white text-center font-normal mt-[5.128vw] leading-[normal] tracking-[0.038vw]">At this stage, the focus shifts to executing the implementation plan. Key activities include using Agile methodology for iterative delivery, allowing continuous feedback and improvement based on customer input. Ensuring quality assurance via user acceptance testing (UAT).</p>
+        </div>
+      </div>
+
+
+      <div className="hidden sm:block">
         <div id="progress" ref={progressRef} className="sticky top-0 z-10  ">
           {/* Sticky and z-index styles */}
           <CircleProgress progress={progress} activeSection={activeSection} />

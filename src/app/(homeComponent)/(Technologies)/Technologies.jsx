@@ -30,7 +30,7 @@ const Technologies = () => {
   }, []);
 
   return (
-    <div className="sm:py-[7.813vw] sm:px-[5.208vw] px-[7.692vw] py-[15.385vw] overflow-hidden bg-[#00111A]">
+    <div className="sm:py-[7.813vw] sm:px-[5.208vw] px-[7.692vw] py-[16.385vw] overflow-hidden bg-[#00111A]">
       <div className="flex flex-col md:flex-row justify-between items-center not-italic">
         <h1 className="text-white lg:w-[40vw] text-center md:text-start md:w-[45vw] xl:w-[38.25vw] text-[7vw] sm:text-[8.1vw] md:text-[4.5vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
           Brands That Trust Us:

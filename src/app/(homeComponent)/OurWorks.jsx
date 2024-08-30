@@ -79,7 +79,7 @@ const OurWorks = () => {
                 onMouseLeave={handleMouseLeave}
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
-                className="sm:flex sm:gap-[0.417vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[3.5vw] sm:overflow-x-auto cursor-grab no-scrollbar"
+                className="flex sm:flex-row flex-col gap-5 sm:gap-[0.65vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[5.5vw] sm:overflow-x-auto cursor-grab no-scrollbar "
                 style={{ scrollBehavior: 'smooth' }}
             >
                 {/* Image Cards */}
@@ -91,7 +91,7 @@ const OurWorks = () => {
                         onMouseDown={(e) => e.stopPropagation()} // Prevent click from affecting scroll
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover"
                         src={HRMS}
@@ -99,7 +99,7 @@ const OurWorks = () => {
                         onMouseDown={(e) => e.stopPropagation()} // Prevent click from affecting scroll
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover"
                         src={dotin}
@@ -107,7 +107,7 @@ const OurWorks = () => {
                         onMouseDown={(e) => e.stopPropagation()} // Prevent click from affecting scroll
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover"
                         src={recess}
@@ -115,7 +115,7 @@ const OurWorks = () => {
                         onMouseDown={(e) => e.stopPropagation()} // Prevent click from affecting scroll
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover"
                         src={trucks}
@@ -125,7 +125,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Button */}
-                <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
+                <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] sm:ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
                     <div className="text-center sm:mt-[9vw]">
                         <p className="text-[3.333vw] font-normal text-black mb-4">View More</p>
                         <Link

@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
               Hire<span className="hidden sm:inline"><br /></span> Possessive<span className="hidden sm:inline"><br /></span> Panda!
             </div>
-            <svg className="sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[8vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
+            <svg className="hidden sm:block sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
             </svg>
           </div>
@@ -112,13 +112,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='flex flex-col sm:flex-row flex-wrap gap-[2vw] text-white sm:mt-[2.573vw]'>
+        <div className='flex flex-col sm:flex-row flex-wrap gap-[10.256vw] sm:gap-[2vw] text-white sm:mt-[2.573vw]'>
           <div className='flex flex-col'>
             <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
-            <svg className="mb-[1.094vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="130" height="2" viewBox="0 0 166 2" fill="none">
+            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="130" height="2" viewBox="0 0 166 2" fill="none">
               <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
             </svg>
-            <div className="flex flex-col gap-[0.625vw]">
+            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
               <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                 <Link href="/about">
                   About Us
@@ -147,10 +147,10 @@ const Footer = () => {
 
           <div className='flex flex-col'>
             <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>SERVICES </p>
-            <svg className="mb-[1.094vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
               <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
             </svg>
-            <div className="flex flex-col gap-[0.625vw]">
+            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
               <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                 <Link
                   href="services/e-commerce"
@@ -181,10 +181,10 @@ const Footer = () => {
 
           <div className='flex flex-col'>
             <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>PREMIUM SERVICES</p>
-            <svg className="mb-[1.094vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
               <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
             </svg>
-            <div className="flex flex-col gap-[0.625vw]">
+            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
 
 
               <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
@@ -211,10 +211,10 @@ const Footer = () => {
           </div>
           <div className='flex flex-col'>
             <p className='text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>VIRTUAL SERVICES</p>
-            <svg className="mb-[1.094vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
+            <svg className="sm:mt-0 mt-[2.564vw] sm:mb-[1.094vw] mb-[2.564vw] sm:w-[8vw] w-[23vw]" xmlns="http://www.w3.org/2000/svg" width="166" height="2" viewBox="0 0 166 2" fill="none">
               <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
             </svg>
-            <div className="flex flex-col gap-[0.625vw]">
+            <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
 
               <p className="text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
                 href="services/real-estate"
@@ -233,23 +233,26 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='bg-[#6B6B6B] h-[0.1vh] mt-[4vw]'></div>
+      <div className='hidden sm:block bg-[#6B6B6B] h-[0.1vh] mt-[4vw]'></div>
 
       <div className='flex sm:flex-row flex-col mt-[1.927vw] sm:mb-[1.395vw] justify-between sm:px-[2vw]'>
-        <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center'>
+        <p className='hidden sm:block text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center'>
           Copyright © 2024 | Alrights reserved by Possessive Panda
         </p>
         <div className='flex sm:mt-0 mt-4 gap-[7vw] sm:gap-[1.296vw] text-center'>
-          <p className='text-white text-[3vw] sm:text-[1.042vw] font-normal'><Link href="/terms-and-conditions">
+          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'><Link href="/terms-and-conditions">
             Terms & Conditions
           </Link></p>
-          <p className='text-white text-[3vw] sm:text-[1.042vw] font-normal'>
+          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>
             <Link href="/privacy-policy">
               Privacy Policy
             </Link>
           </p>
-          <p className='text-white text-[3vw] sm:text-[1.042vw] font-normal'>Support</p>
+          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>Support</p>
         </div>
+        <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center sm:mt-0 mt-[5.128vw]'>
+          Copyright © 2024 | Alrights reserved by Possessive Panda
+        </p>
       </div>
     </div>
   );
