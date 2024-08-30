@@ -37,7 +37,7 @@ const MainPage = () => {
           <OurWorks />
           <Marquee/>
           <ServicesList/>
-          <OurServices />
+          {/* <OurServices /> */}
           <div ref={whyUsRef}>
             <WhyUs />
           </div>
