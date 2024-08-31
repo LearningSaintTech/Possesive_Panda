@@ -69,7 +69,7 @@ const Banner = ({ whyUsRef }) => {
         {/* Mute/Unmute Button Positioned Below the "Why Us" Button */}
         <button
           onClick={handleMuteToggle}
-          className="bg-stone-900 text-white p-2 rounded-full mt-4 w-fit mx-auto lg:mx-0"
+          className= "hidden sm:block bg-stone-900 text-white p-2 rounded-full mt-4 w-fit mx-auto lg:mx-0"
         >
           {isMuted ? <FaVolumeMute size={24} /> : <FaVolumeUp size={24} />}
         </button>
@@ -83,7 +83,7 @@ const Banner = ({ whyUsRef }) => {
         muted // Start muted
         className="sm:absolute sm:top-0 sm:left-0 w-full h-[60vw] sm:h-full object-cover z-0 sm:mt-0 mt-2"
       >
-        <source src="/Home.mp4" type="video/mp4" />
+        <source src="/home.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

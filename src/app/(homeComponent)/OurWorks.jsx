@@ -90,7 +90,7 @@ const OurWorks = () => {
                         onDragStart={(e) => e.preventDefault()} // Prevent drag event on image
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={HRMS}
@@ -98,7 +98,7 @@ const OurWorks = () => {
                         onDragStart={(e) => e.preventDefault()}
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={dotin}
@@ -106,7 +106,7 @@ const OurWorks = () => {
                         onDragStart={(e) => e.preventDefault()}
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={recess}
@@ -114,7 +114,7 @@ const OurWorks = () => {
                         onDragStart={(e) => e.preventDefault()}
                     />
                 </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
+                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
                         className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={trucks}
@@ -124,7 +124,7 @@ const OurWorks = () => {
                 </div>
 
                 {/* Button */}
-                <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
+                <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] sm:ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">
                     <div className="text-center sm:mt-[9vw]">
                         <p className="text-[3.333vw] font-normal text-black mb-4">View More</p>
                         <Link
