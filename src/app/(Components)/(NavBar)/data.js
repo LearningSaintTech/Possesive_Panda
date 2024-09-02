@@ -51,7 +51,7 @@ const serviceContent = {
     },
     {
       name: "Real Estate Virtual Assistant",
-      link: "real-estate",
+      link: "real-estate-virtual-assistant",
     },
   ],
   // "IT Recruitment Service": [

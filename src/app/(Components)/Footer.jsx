@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import HandlePage from "./(Input Form)/HandlePage";
+import { BiPhoneCall } from "react-icons/bi";
+import { SlEnvolopeLetter } from "react-icons/sl";
 
 const Footer = () => {
   const [open, setOpen] = useState(false);
@@ -11,12 +13,12 @@ const Footer = () => {
 
   return (
     <div className='sm:px-[5.208vw] px-[7.69vw] sm:py-0 py-[12.5vw] flex flex-col min-h-screen bg-[#00111A]'>
-      <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[2.5vw]'>
+      <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
         <div className='w-full sm:w-[27.187vw] sm:h-[35.5vh] sm:px-0 sm:py-0 py-[2.051vw] px-[4.103vw] bg-[#002E47]'>
           <p className="text-white text-[4.103vw] sm:text-[1.042vw] sm:ml-[2.077vw] mt-[3.906vw] mb-[1.146vw] sm:font-semibold ">Partner With Us</p>
           <div className="flex gap-[19.487vw] sm:gap-[4.748vw]">
             <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
-              Hire<span className="hidden sm:inline"><br /></span> Possessive<span className="hidden sm:inline"><br /></span> Panda!
+              Hire<span className="hidden sm:inline"><br /></span> Possesive<span className="hidden sm:inline"><br /></span> Panda!
             </div>
             <svg className="hidden sm:block sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
@@ -71,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-col sm:flex-row mt-[3.333vw] gap-[6.563vw]'>
+      <div className='flex flex-col sm:flex-row mt-[3.333vw] sm:gap-[9vw] gap-[6.563vw]'>
         <div className='flex flex-col items-center sm:items-start'>
           <Image
             src={logo1}
@@ -234,27 +236,73 @@ const Footer = () => {
           </div>
           <div className="sm:hidden w-[22.051vw] h-[134.103vw] "></div>
         </div>
-      </div>
+      </div>g
 
       <div className='hidden sm:block bg-[#6B6B6B] h-[0.1vh] mt-[4vw]'></div>
 
-      <div className='flex sm:flex-row flex-col mt-[1.927vw] sm:mb-[1.395vw] justify-between sm:px-[2vw]'>
+      <div className='flex sm:flex-row flex-col mt-[10vw] sm:mt-[1.927vw] sm:mb-[1.395vw] justify-between sm:px-[2vw]'>
         <p className='hidden sm:block text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center'>
-          Copyright © 2024 | Alrights reserved by Possessive Panda
+          Copyright © 2024 | Alrights reserved by Possesive Panda
         </p>
-        <div className='flex sm:mt-0 mt-4 gap-[7vw] sm:gap-[1.296vw] text-center'>
-          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'><Link href="/terms-and-conditions">
-            Terms & Conditions
-          </Link></p>
-          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>
-            <Link href="/privacy-policy">
-              Privacy Policy
+        <div className='flex flex-col sm:flex-row sm:mt-0 mt-4 gap-[1vw] sm:gap-[1.296vw] text-center justify-center items-center'>
+          <div className="flex sm:gap-[1.296vw] gap-[2vw] ">
+            <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'><Link href="/terms-and-conditions">
+              Terms & Conditions
             </Link>
-          </p>
-          <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>Support</p>
+            </p>
+            <div className="sm:hidden h-[4.487vw] bg-white w-[0.3vw] mt-[1vw] "></div>
+            <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>
+              <Link href="/privacy-policy">
+                Privacy Policy
+              </Link>
+            </p>
+          </div>
+          <div className=" flex gap-[2vw] ">
+            <div className="sm:hidden h-[4.487vw] bg-white w-[0.3vw] mt-[1vw] "></div>
+            <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>Support</p>
+          </div>
+          {/* <div className="sm:hidden">
+          <div>
+          < CiMail />
+            <p className="text-white text-[4.103vw] ">hello@Possesivepanda</p>
+            </div>
+            <div>
+            <CiPhone />
+            <p className="text-white text-[4.103vw] ">+91 8080555520</p>
+            </div>
+          </div> */}
+          <div className="sm:hidden flex flex-col gap-[2vw] text-center items-center justify-between mt-[4vw]">
+            <Link className="flex flex-row items-center gap-[2.564vw]" href="mailto:hello@possesivepanda.com">
+              <SlEnvolopeLetter className="size-[4.5vw]  mr-[0.521vw] text-white" />
+              <div>
+                {/* <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
+                  EMAIL
+                </p> */}
+                <p className="text-white text-[4.103vw] leading-[153.846%] tracking-[0.02rem]">
+                  hello@possesivepanda
+                </p>
+              </div>
+            </Link>
+
+            <Link className="flex flex-row items-center gap-[2.564vw]  "
+              href="tel:+91 8080555520"
+            >
+              <BiPhoneCall className="size-[4.5vw]  text-white" />
+
+              <div className="flex flex-col">
+                {/* <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
+                  PHONE
+                </p> */}
+                <p className="text-white text-[4.103vw] leading-[153.846%] tracking-[0.02rem]">
+                  +91 8080555520
+                </p>
+              </div>
+            </Link>
+
+          </div>
         </div>
-        <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center sm:mt-0 mt-[5.128vw]'>
-          Copyright © 2024 | Alrights reserved by Possessive Panda
+        <p className='sm:hidden text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center sm:mt-0 mt-[5.128vw]'>
+          Copyright © 2024 | Alrights reserved by Possesive Panda
         </p>
       </div>
     </div>

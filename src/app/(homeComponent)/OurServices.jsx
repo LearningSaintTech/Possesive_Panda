@@ -289,7 +289,7 @@ const OurServices = () => {
             Our Delivery Framework
           </h1>
           <p className="text-white text-[4.103vw] md:text-[2.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] lg:tracking-[0.015rem] text-center lg:text-left lg:mb-0 mb-[10vw]">
-            &quote;We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant.&quote;
+            &quot;We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant.&quot;
           </p>
         </div>
         <Image

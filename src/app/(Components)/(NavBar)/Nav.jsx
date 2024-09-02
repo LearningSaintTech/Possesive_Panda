@@ -117,12 +117,10 @@
 
 // export default Nav;
 
-
 "use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logo from "../../../assets/nav/nav-logo.png";
 import logo1 from "../../../assets/nav/nav-logo1.png";
 import Dropdown from "./Dropdown";
 import { usePathname } from "next/navigation";
@@ -170,10 +168,10 @@ const Nav = () => {
 
   const activeLabel = activeLink ? activeLink.label : "";
 
-  const hoverClass = isHomePage
-    ? "hover:text-[#00AFF1]"
-    : "hover:text-[#00AFF1]";
-  const activeClass = isHomePage ? "text-[#00AFF1]" : "text-[#00AFF1]";
+  // Hover and active class logic
+  const hoverClass = "hover:text-[#00AFF1]";
+  const activeClass = "text-[#00AFF1] font-semibold";
+  const inactiveClass = "font-normal";
 
   const toggleDropdown = () => {
     setShowDropdown((prev) => !prev);
@@ -216,22 +214,22 @@ const Nav = () => {
         <div className={`text-[1.25vw] ${isHomePage ? "text-white" : "text-black"} font-normal sm:flex gap-[3.49vw] py-auto items-center hidden`}>
           <Link
             href="/"
-            className={`${activeLabel === "Home" ? activeClass : hoverClass}`}
+            className={`${activeLabel === "Home" ? activeClass : inactiveClass} ${hoverClass}`}
           >
             Home
           </Link>
           <Link
             href="/about"
             className={`${
-              activeLabel === "About Us" ? activeClass : hoverClass
-            }`}
+              activeLabel === "About Us" ? activeClass : inactiveClass
+            } ${hoverClass}`}
           >
             About Us
           </Link>
           <button
             className={`${
-              activeLabel === "Services" ? activeClass : hoverClass
-            } flex gap-[0.2vw] items-center`}
+              activeLabel === "Services" ? activeClass : inactiveClass
+            } flex gap-[0.2vw] items-center ${hoverClass}`}
             onClick={toggleDropdown}
           >
             Services <FaChevronDown className="size-[1vw]" />
@@ -239,22 +237,22 @@ const Nav = () => {
           <Link
             href="/portfolio"
             className={`${
-              activeLabel === "Portfolio" ? activeClass : hoverClass
-            }`}
+              activeLabel === "Portfolio" ? activeClass : inactiveClass
+            } ${hoverClass}`}
           >
             Portfolio
           </Link>
           <Link
             href="/blog"
             className={`${
-              activeLabel === "Blogs" ? activeClass : hoverClass
-            }`}
+              activeLabel === "Blogs" ? activeClass : inactiveClass
+            } ${hoverClass}`}
           >
             Blogs
           </Link>
           <Link
             href="/contact"
-            className="py-[0.729vw] px-[1.823vw] bg-[#60E2FF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]"
+            className="py-[0.729vw] px-[1.823vw] bg-[#05B7DF] text-white rounded-[3.906vw] hover:bg-[#109AD6]"
           >
             Get In Touch
           </Link>
@@ -266,5 +264,7 @@ const Nav = () => {
 };
 
 export default Nav;
+
+
 
 

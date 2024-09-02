@@ -29,7 +29,7 @@ const Faq = () => {
           </a>
         </div>
         <div className="w-full ml-0 lg:ml-[4.219vw] mt-[7vw] lg:mt-0">
-          <div className="w-full lg:w-[58.542vw] min-h-full 2xl:min-h-full flex-shrink-0">
+          <div className="w-full lg:w-[58.542vw] min-h-full 2xl:min-h-full flex-shrink-0 ml-[1.75vw]">
             {data.map((item) => (
               <Accordian
                 key={item.key}

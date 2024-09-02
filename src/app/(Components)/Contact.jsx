@@ -162,7 +162,7 @@ const Contact = () => {
           />
           <button
             onClick={handleSubmit}
-            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#00AFF1] text-white font-bold text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal] "
+            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#05B7DF] sm:hover:bg-[#109AD6] text-white font-bold text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal] "
           >
             SEND
           </button>

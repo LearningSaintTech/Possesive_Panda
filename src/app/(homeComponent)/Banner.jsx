@@ -59,7 +59,7 @@ const Banner = ({ whyUsRef }) => {
 
         <button
           // className="bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center  items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.821vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 sm:hover:text-[#2a2a2a] sm:hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none mb-[7vw] sm:mb-0 mt-[1.083vw]"
-          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium "         
+          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium "         
           onClick={handleScrollToWhyUs}
         >
           Why Us
@@ -69,7 +69,7 @@ const Banner = ({ whyUsRef }) => {
         {/* Mute/Unmute Button Positioned Below the "Why Us" Button */}
         <button
           onClick={handleMuteToggle}
-          className= "hidden sm:block bg-stone-900 text-white p-2 rounded-full mt-4 w-fit mx-auto lg:mx-0"
+          className="hidden sm:block bg-stone-900 text-white p-2 rounded-full mt-6 w-fit mx-auto lg:mx-0"
         >
           {isMuted ? <FaVolumeMute size={24} /> : <FaVolumeUp size={24} />}
         </button>
@@ -83,7 +83,7 @@ const Banner = ({ whyUsRef }) => {
         muted // Start muted
         className="sm:absolute sm:top-0 sm:left-0 w-full h-[60vw] sm:h-full object-cover z-0 sm:mt-0 mt-2"
       >
-        <source src="/home.mp4" type="video/mp4" />
+        <source src="/Home.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
