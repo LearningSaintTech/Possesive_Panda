@@ -6,9 +6,7 @@ import Banner from "../(Components)/Banner";
 import Content from "./Content";
 import banner from "../../assets/banners/about-us.png";
 import Footer from "../(Components)/Footer";
-import Intro from "./Intro";
-
-
+import  Purpose  from "./Purpose";
 const page = () => {
   return (
     <div className="bg-[#00111A]">
@@ -22,6 +20,8 @@ const page = () => {
       <Intro />
       <Accordion />
       <Brands />
+      <Purpose/>
+      
       <Certificate />
       <Footer />
     </div>
