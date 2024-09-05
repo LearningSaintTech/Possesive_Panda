@@ -1,41 +1,70 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { GoArrowRight } from "react-icons/go";
-import { FaVolumeMute, FaVolumeUp } from "react-icons/fa";
+import React, { useRef, useState, useEffect } from 'react';
+import { GoArrowRight } from 'react-icons/go';
+import { MdVolumeUp, MdVolumeOff } from 'react-icons/md';
 
 const Banner = ({ whyUsRef }) => {
   const videoRef = useRef(null);
   const [isMuted, setIsMuted] = useState(true);
+  const [player, setPlayer] = useState(null);
 
   useEffect(() => {
-    const videoElement = videoRef.current;
-
-    const handleIntersection = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          videoElement.play();
-        } else {
-          videoElement.pause();
-          setIsMuted(true); // Mute the video when it's out of view
-          videoElement.muted = true;
-        }
+    const onYouTubeIframeAPIReady = () => {
+      const newPlayer = new window.YT.Player(videoRef.current, {
+        videoId: '3_N67lsN_Uc', // Replace with your YouTube video ID
+        events: {
+          onReady: (event) => {
+            event.target.mute();
+            event.target.playVideo();
+            event.target.setPlaybackQuality('hd1080'); // Set quality to HD 720p
+            setPlayer(event.target);
+          },
+          onStateChange: (event) => {
+            if (event.data === window.YT.PlayerState.ENDED) {
+              event.target.seekTo(0);
+              event.target.playVideo();
+            }
+          },
+        },
+        playerVars: {
+          autoplay: 1,
+          controls: 0,
+          rel: 0,
+          modestbranding: 1,
+          loop: 1,
+          iv_load_policy: 3,
+          mute: 1, // Ensure video starts muted on all devices
+        },
       });
     };
 
-    const observer = new IntersectionObserver(handleIntersection, {
-      threshold: 0.1,
-    });
-
-    observer.observe(videoElement.parentElement);
+    if (!window.YT) {
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      const firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+    } else {
+      onYouTubeIframeAPIReady();
+    }
 
     return () => {
-      observer.disconnect();
+      if (player) {
+        player.destroy();
+      }
     };
-  }, []);
+  }, [player]);
 
-  const handleMuteToggle = () => {
-    const videoElement = videoRef.current;
-    setIsMuted(!isMuted);
-    videoElement.muted = !isMuted;
+  const toggleMute = () => {
+    if (player) {
+      if (isMuted) {
+        // Forcing unmute by using user interaction event
+        player.unMute();
+        player.playVideo(); // Ensure the video starts playing again if it was paused
+      } else {
+        player.mute();
+      }
+      setIsMuted(!isMuted);
+    }
   };
 
   const handleScrollToWhyUs = () => {
@@ -44,10 +73,8 @@ const Banner = ({ whyUsRef }) => {
     }
   };
 
-
-
   return (
-    <div className="relative w-auto h-auto sm:h-[55.417vw] sm:overflow-hidden">
+    <div className="relative w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
       {/* Text Content */}
       <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 lg:w-[43.333vw] mt-[18vw] lg:mt-[13.958vw] flex flex-col gap-[5vw] lg:gap-[1.042vw]">
         <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide">
@@ -58,37 +85,36 @@ const Banner = ({ whyUsRef }) => {
         </p>
 
         <button
-          // className="bg-[#05B7DF] sm:bg-[#00111A] text-[3.846vw] md:text-[2.8vw] lg:text-[1.25vw] flex justify-center  items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white px-[3vw] py-[2.821vw] md:py-[1vw] w-full lg:w-fit mx-auto lg:mx-0 sm:hover:text-[#2a2a2a] sm:hover:bg-[#60E2FF] hover:duration-300 duration-300 border-none mb-[7vw] sm:mb-0 mt-[1.083vw]"
-          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium "         
+          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium"
           onClick={handleScrollToWhyUs}
         >
           Why Us
           <GoArrowRight className="ml-2 md:ml-5 size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
         </button>
-
-        {/* Mute/Unmute Button Positioned Below the "Why Us" Button */}
-        <button
-          onClick={handleMuteToggle}
-          className="hidden sm:block bg-stone-900 text-white p-2 rounded-full mt-6 w-fit mx-auto lg:mx-0"
-        >
-          {isMuted ? <FaVolumeMute size={24} /> : <FaVolumeUp size={24} />}
-        </button>
       </div>
 
-      {/* Video Background */}
-      <video
-        ref={videoRef}
-        autoPlay
-        loop
-        muted // Start muted
-        className="sm:absolute sm:top-0 sm:left-0 w-full h-[60vw] sm:h-full object-cover z-0 sm:mt-0 mt-2"
-      >
-        <source src="/Home.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* YouTube Video Background */}
+      <div className="sm:absolute sm:top-0 sm:left-0 w-full sm:h-full z-0 sm:mt-0 mt-2">
+        <div ref={videoRef} className="w-full h-[60vw] sm:h-full object-cover sm:scale-125"></div>
+      </div>
 
       {/* Overlay */}
       <div className="sm:absolute sm:top-0 sm:left-0 w-full h-full bg-black/50 z-1"></div>
+
+      {/* Mute/Unmute Button - adjusted for mobile */}
+      <div className="absolute sm:bottom-[6.833vw] sm:left-[5.458vw] bottom-[10vw] left-[5vw] z-10 flex items-center gap-2">
+        {isMuted ? (
+          <MdVolumeOff
+            className="text-white text-3xl cursor-pointer"
+            onClick={toggleMute}
+          />
+        ) : (
+          <MdVolumeUp
+            className="text-white text-3xl cursor-pointer"
+            onClick={toggleMute}
+          />
+        )}
+      </div>
 
       {/* Second Div Content Positioned at the Bottom Right */}
       <div className="absolute bottom-4 sm:bottom-[9vw] sm:px-2 px-[7.69vw] z-10 sm:text-left py-2 sm:right-[4vw]">
@@ -110,4 +136,3 @@ const Banner = ({ whyUsRef }) => {
 };
 
 export default Banner;
-

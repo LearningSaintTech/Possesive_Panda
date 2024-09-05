@@ -30,7 +30,7 @@ const Card = ({ card }) => {
           </div>
         </div>
       </div>
-      <h6 className="text-[#212121] sm:text-[1.25vw] text-[3.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[3.545vw] sm:mt-[0.5vw]">
+      <h6 className="text-white sm:text-[1.25vw] text-[3.25vw] font-normal leading-[normal] tracking-[0.015rem] mt-[3.545vw] sm:mt-[0.5vw]">
         {card.title}
       </h6>
     </div>

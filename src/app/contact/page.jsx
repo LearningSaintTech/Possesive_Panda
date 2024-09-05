@@ -1,25 +1,27 @@
 import React from "react";
 import Journey from "./Journey";
 import Joinpanda from "./Joinpanda";
-import Banner from "../(Components)/Banner";
+import NewBanner from "../(Components)/NewBanner";
 import Contact from "../(Components)/Contact";
 import banner from "../../assets/banners/contact-us.png";
 import Footer from "../(Components)/Footer";
+import Faq from "../(homeComponent)/(FaqSection)/section";
+
 
 
 const page = () => {
   return (
-    <div>
-      <Banner
-        title={"Contact Us"}
-        desciption={"Professional IT Solution Insights and Updates"}
-        page={"Contact Us"}
-        image={banner}
+    <div className="bg-[#00111A]">
+      <NewBanner
+        title={"Let Possesive Panda be Your Success Partner!"}
+        desciption={"Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."}
+      // image={banner}
       />
       <Journey />
       <Joinpanda />
       <Contact />
-      <Footer/>
+      <Faq />
+      <Footer />
     </div>
   );
 };
