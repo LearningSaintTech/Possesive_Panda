@@ -6,7 +6,7 @@ import Banner from "../(Components)/Banner";
 import Content from "./Content";
 import banner from "../../assets/banners/about-us.png";
 import Footer from "../(Components)/Footer";
-
+import  Purpose  from "./Purpose";
 const page = () => {
   return (
     <div >
@@ -19,6 +19,8 @@ const page = () => {
       <Content />
       <Accordion />
       <Brands />
+      <Purpose/>
+      
       <Certificate />
       <Footer />
     </div>
