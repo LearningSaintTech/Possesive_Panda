@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Blogs from "./Blogs";
 import Options from "./Options";
-import Banner from "../(Components)/Banner";
+import NewBanner from "../(Components)/NewBanner";
 import Loader from "../(Components)/Loader";
 import banner from "../../assets/banners/blog.png";
 import Footer from "../(Components)/Footer";
@@ -39,19 +39,18 @@ const MainPage = () => {
   }, []);
 
   return (
-    <div>
-      <Banner
-        title={"Blogs"}
-        desciption={"Think. Question. Feed your curiosity."}
-        page={"Blogs"}
-        image={banner}
+    <div className="bg-[#00111A]">
+      <NewBanner
+        title={"Enlighten Yourself with Latest Industry Trends and Insights!"}
+        desciption={"To keep you updated with all the latest insights and information in the tech industry, we have published a plethora of articles of various categories."}
+      // image={banner}
       />
       <div className="px-[5.2vw] mt-[9vw] flex gap-[3.2vw] mb-[5.2vw]">
         {loading ? (
           <Loader />
         ) : (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[2vw] gap-y-[6vw]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[4vw] gap-y-[6vw]">
               {elasticSearchData.length > 0 ? (
                 elasticSearchData.map((blog, key) => (
                   <Blogs blog={blog} key={key} />

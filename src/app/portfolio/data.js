@@ -7,23 +7,42 @@ import hawkins from "../../assets/portfolio/Hawkins.png";
 const projects = [
   {
     image: banner_1,
+    moto: "Leading EdTech Course Provider",
     title: "Learningsaint.com",
     description:
-      "Possesive Panda has designed the entire online platform of learningsaint.com, an ed-tech platform launched to train students with the latest technology and trends worldwide. It has been designed to upskill individuals for a flourishing future. ",
+      "A leading provider of educational technology, Learning Saint offers a range of courses with a 100% job guarantee in subjects including data science, cyber security, digital marketing, and SAP.",
     url: "https://learningsaint.com",
   },
   {
     image: banner_2,
-    title: "Learningsaint.in",
+    moto: "Human Resource Management System",
+    title: "HRMS",
     description:
-      "We have also worked for learningsaint.in, a platform that stands out with its exemplary education for NEET aspirants across India. It aims to educate aspiring students who want to crack these entrance exams successfully in one go, and we are proud to have been a part of this unique initiative.",
-    url: "https://learningsaint.in",
+      "Human Resource Management System (HRMS) enables organizations to handle all human resource functions in one system, hence reducing the expense and manpower needed to monitor employee performance.",
+    url: "https://www.pplazyhr.com/login",
   },
   {
     image: banner_3,
-    title: "Hawkinsuniversity.com",
+    moto: "Professional Course and Program Provider",
+    title: "hawkins ",
     description:
-      "With the complete support of Possesive Panda, a prestigious institution’s website was developed and designed successfully. This University provides Undergraduate, Graduate, and Doctrate programs globally, and we are proud to have played a significant role in its success.",
+      "Hawkins University, based in Austin, Texas, offers exemplary education through modern amenities and technology, offering online classes, study programs, and degree programs, focusing on transforming lives and communities",
+    url: "https://hawkinsuniversity.com",
+  },
+  {
+    image: banner_3,
+    moto: "Non-alcoholic Beverage Brand",
+    title: "RECESS",
+    description:
+      "Recess is a brand offering non-alcoholic beverages designed to help individuals relax and unwind, addressing the stress caused by having too many tabs open in both browsers and minds.",
+    url: "https://hawkinsuniversity.com",
+  },
+  {
+    image: banner_3,
+    moto: "Professional Transport Service Provider",
+    title: "Montgomery Transport Group",
+    description:
+      "Montgomery Transport Group, a UK-based privately owned company, operates under Ballyvesey Holdings, a family-owned conglomerate with over forty companies and an annual turnover exceeding £850 million.",
     url: "https://hawkinsuniversity.com",
   },
 ];
