@@ -64,7 +64,7 @@ const OurWorks = () => {
 
                 <Link
                     href="/portfolio"
-                    className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[7.692vw] lg:mb-0 mb-[8vw] font-medium"
+                    className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw]  sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[7.692vw] lg:mb-0 mb-[8vw] font-medium"
                 >
                     View All
                     <GoArrowRight className="ml-[0.2vw] size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
@@ -84,7 +84,7 @@ const OurWorks = () => {
                 {/* Image Cards */}
                 <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:-ml-[2.083vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="sm:absolute sm:mb-0 mb-[2.083vw] inset-[0vw] w-full h-full object-cover pointer-events-none" // Disable pointer events on images during drag
+                        className="sm:absolute sm:mb-0 mb-[7vw] inset-[0vw] w-full h-full object-cover pointer-events-none" // Disable pointer events on images during drag
                         src={dotcom}
                         alt="Project 1"
                         onDragStart={(e) => e.preventDefault()} // Prevent drag event on image
@@ -92,7 +92,7 @@ const OurWorks = () => {
                 </div>
                 <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
+                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={HRMS}
                         alt="Project 2"
                         onDragStart={(e) => e.preventDefault()}
@@ -100,7 +100,7 @@ const OurWorks = () => {
                 </div>
                 <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
+                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={dotin}
                         alt="Project 3"
                         onDragStart={(e) => e.preventDefault()}
@@ -108,7 +108,7 @@ const OurWorks = () => {
                 </div>
                 <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
+                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={recess}
                         alt="Project 4"
                         onDragStart={(e) => e.preventDefault()}
@@ -116,7 +116,7 @@ const OurWorks = () => {
                 </div>
                 <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
                     <Image
-                        className="sm:absolute sm:mb-0 mb-[2.083vw] inset-0 w-full h-full object-cover pointer-events-none"
+                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
                         src={trucks}
                         alt="Project 5"
                         onDragStart={(e) => e.preventDefault()}

@@ -15,7 +15,7 @@ const Banner = ({ whyUsRef }) => {
           onReady: (event) => {
             event.target.mute();
             event.target.playVideo();
-            event.target.setPlaybackQuality('hd720'); // Set quality to HD 720p
+            event.target.setPlaybackQuality('hd1080'); // Set quality to HD 720p
             setPlayer(event.target);
           },
           onStateChange: (event) => {
