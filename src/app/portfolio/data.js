@@ -45,6 +45,7 @@ const projects = [
       "Montgomery Transport Group, a UK-based privately owned company, operates under Ballyvesey Holdings, a family-owned conglomerate with over forty companies and an annual turnover exceeding £850 million.",
     url: "https://hawkinsuniversity.com",
   },
+  // REPEATED CARDS TEST PAGINATION 
 ];
 
 const cards = [

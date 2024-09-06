@@ -1,10 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { GoArrowRight } from "react-icons/go";
 
 const Content = () => {
   return (
-    <div className="pt-[8vw] sm:pt-[4.583vw] px-[7.692vw] sm:px-[5.2vw]">
+    <div className="pt-[8vw] sm:pt-[4.583vw] px-[7.692vw] sm:px-[5.2vw] bg-[#00111a]">
       <h3 className="text-[5.128vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] text-[#00AFF1] mb-[1.25vw] text-center lg:text-left">
         Our journey started
       </h3>

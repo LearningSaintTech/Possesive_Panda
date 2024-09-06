@@ -27,4 +27,4 @@ const Banner = ({ title, desciption }) => {
     // </div>
   );
 };
-export default NewBanner;
+export default Banner;
