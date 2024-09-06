@@ -9,12 +9,12 @@ const Content = () => {
         Our journey started
       </h3>
       <div className="flex sm:flex-row flex-col justify-between">
-        <h2 className="text-[#212121] text-[6.154vw] sm:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem] w-full sm:w-[37vw] text-center lg:text-left">
+          <h2 className="text-white text-[6.154vw] sm:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem] w-full sm:w-[37vw] text-center lg:text-left">
           Journey to Possesive Panda is inspiring with its dedication to IT
           Solutions
         </h2>
         <div className="w-full sm:w-[36.771vw]">
-          <p className="text-[#212121] text-[3.846vw] sm:text-[1.25vw] font-normal leading-[160%] tracking-[0.015rem] text-justify opacity-85 sm:mt-0 mt-[2vw]">
+          <p className="text-white text-[3.846vw] sm:text-[1.25vw] font-normal leading-[160%] tracking-[0.015rem] text-justify opacity-85 sm:mt-0 mt-[2vw]">
             Welcome to Possesive Panda, a global leader in IT services. We are
             dedicated to advancing digital transformation and supporting
             businesses in achieving their digital ambitions. We believe

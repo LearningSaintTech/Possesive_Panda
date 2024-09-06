@@ -6,14 +6,14 @@ import photo_3 from "../../assets/aboutus/photo-3.png";
 
 const Certificate = () => {
   return (
-    <div className="bg-sky-200 px-[7.692vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[4vw] mt-[7.5vw]">
-      <h6 className="text-[5.128vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-sky-500 mt-[10vw] lg:mt-[10.417vw]">
+    <div className="bg-[rgba(0,175,241,0.25)] px-[7.692vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[4vw] mt-[7.5vw]">
+      <h6 className="text-[5.128vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-[#00AFF1] mt-[10vw] lg:mt-[10.417vw]">
         Our Certificates
       </h6>
-      <h3 className="text-neutral-800 text-[6.154vw] lg:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem]">
+      <h3 className="text-white text-[6.154vw] lg:text-[2.5vw] font-medium leading-[130%] tracking-[0.03rem]">
         Registered Under
       </h3>
-      <p className="text-zinc-900 text-[3.846vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center lg:w-[66vw]">
+      <p className="text-white text-[3.846vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center lg:w-[66vw]">
         Our clients love working with us due to our hardcore service orientation
         as we look to align ourselves and take on our clients’ challenges head
         on. Our innovative engagement models have resulted in a track record of
@@ -53,12 +53,12 @@ const Certificate = () => {
         viewBox="0 0 1920 625"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-screen absolute z-[-1] top-[48%] hidden md:block"
+        className="w-screen absolute z-[-1] top-[48%] hidden md:block "
       >
-        <path d="M0 229.57V575.456L501 440.775L0 229.57Z" fill="white" />
+        <path d="M0 229.57V575.456L501 440.775L0 229.57Z" fill="black" />
         <path
           d="M1920 290.789L1419 0L960 388.739L501 153.047L0 495.872V624.431H1920V290.789Z"
-          fill="white"
+          fill="black"
         />
       </svg>
     </div>
