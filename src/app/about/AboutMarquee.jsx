@@ -33,7 +33,7 @@ const AboutMarquee = () => {
                 const elapsed = timestamp - start;
 
                 // Adjust the speed to achieve a 10,000ms (10s) scroll duration
-                const speed = container.clientWidth / 10000; 
+                const speed = container.clientWidth / 10000;
                 const scrollX = (elapsed * speed) % container.clientWidth;
 
                 container.style.transform = `translateX(-${scrollX}px)`;

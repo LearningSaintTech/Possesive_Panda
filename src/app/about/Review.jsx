@@ -20,7 +20,7 @@ const Review = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2  mt-[8.333vw] gap-x-[2vw] gap-y-[2vw]  sm:gap-x-[1.39vw] sm:gap-y-[1.39vw]  ">
+        <div className="grid grid-cols-2  mt-[8.333vw] mb-[3.5vw] gap-x-[2vw] gap-y-[2vw]  sm:gap-x-[1.39vw] sm:gap-y-[1.39vw]  ">
           <div className=" flex flex-row bg-white  rounded-[0.417vw] gap-[2.292vw] border-[0.139vw]  ">
             <div className="flex  flex-col gap-[0.417vw]  mt-[1.667vw] ">
               <FcGoogle className="sm:w-[3.5vw] sm:h-[3.5vw] w-[8.68vw] h-[8.928vw]  ml-[2.708vw] " />
