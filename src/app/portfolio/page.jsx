@@ -9,6 +9,8 @@ import Card from "./Card";
 import banner from "../../assets/banners/portfolio-details.png";
 import Footer from "../(Components)/Footer";
 import Pagination from "./Pagination"; // Import the Pagination component
+import AboutMarquee from "../(Components)/AboutMarquee";
+import Journey from "../(Components)/Journey";
 
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -27,6 +29,12 @@ const Portfolio = () => {
           "Possessive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."
         }
         // image={banner}
+      />
+      <AboutMarquee />
+      <Journey
+        title="Explore our tech-driven triumphs:"
+        subtitle="From pioneering startups to well-established enterprises, discover the ultimate success stories that redefine innovation. "
+        description="At Possesive Panda, we weave magic across various industries, transforming ideas into stunning digital realities. Our talented in-house team doesn't just build websites and software; they sculpt exceptional products that reflect their expertise and creativity. With every project, we blend innovation and skill to create masterpieces that stand out and shine."
       />
       <div className="sm:mx-[5.2vw] sm:my-[6vw] mx-[5.455vw] my-[6vw]">
         {currentPosts.map((project, index) => (
