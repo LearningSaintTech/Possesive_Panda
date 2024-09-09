@@ -9,7 +9,6 @@ import crst from '../../assets/banners/crst.png';
 import hansen from '../../assets/banners/hansen.png';
 import maine from '../../assets/banners/maine.png';
 import deep from '../../assets/banners/deep.png';
-import dht from '../../assets/banners/dht.png';
 import usx from '../../assets/banners/usx.png';
 import Land from '../../assets/banners/Land.png';
 import nats from '../../assets/banners/nats.png';
