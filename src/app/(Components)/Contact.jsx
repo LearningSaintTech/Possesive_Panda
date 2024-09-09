@@ -87,13 +87,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] sm:mb-[7.813vw] flex flex-col lg:flex-row justify-between bg-[#00111A]">
-      <div className="w-full lg:w-[34.688vw] gap-[1.042vw]">
-        <h2 className="text-center lg:text-left text-[8.205vw] lg:text-[3.333vw] font-semibold leading-[normal] lg:mb-[1.25vw] mb-[2vw] text-white">
+    <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] lg:mt-0 mt-[10vw] sm:mb-[7.813vw] flex flex-col sm:flex-row justify-between bg-[#00111A]">
+      <div className="w-full sm:w-[34.688vw] gap-[1.042vw]">
+        <h2 className="text-center sm:text-left text-[8.205vw] sm:text-[3.333vw] font-semibold leading-[normal] sm:mb-[1.25vw] mb-[2vw] text-white">
           Get in <span className="text-[#00AFF1]">Touch</span>
         </h2>
-        <div className="flex flex-col lg:gap-[1.042vw] gap-[5.128vw]">
-          <p className="text-[4.103vw] lg:text-[1.042vw] font-normal sm:leading-[146.642%] tracking-[0.08rem] text-white sm:mb-[2vw] text-center lg:text-left">
+        <div className="flex flex-col sm:gap-[1.042vw] gap-[5.128vw]">
+          <p className="text-[4.103vw] sm:text-[1.042vw] font-normal sm:leading-[146.642%] tracking-[0.08rem] text-white sm:mb-[2vw] text-center sm:text-left">
             Ready to learn more about our IT Service Solutions? Fill in the
             required details to obtain all the essential information.
           </p>
@@ -104,18 +104,18 @@ const Contact = () => {
             name="fname"
             onChange={handleChange}
             maxLength={25}
-            className={`border ${errors.fname ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-[#00111A] `}
+            className={`border ${errors.fname ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] sm:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-[#00111A] `}
           />
-          {errors.fname && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.fname}</p>}
+          {errors.fname && <p className="text-red-500 text-[3.846vw] sm:text-[1.25vw]">{errors.fname}</p>}
 
           <input
             type="email"
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className={`border ${errors.email ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
+            className={`border ${errors.email ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] sm:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
           />
-          {errors.email && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.email}</p>}
+          {errors.email && <p className="text-red-500 text-[3.846vw] sm:text-[1.25vw]">{errors.email}</p>}
 
           <input
             type="text"
@@ -125,14 +125,14 @@ const Contact = () => {
             onChange={handleChange}
             maxLength={10}
             name="phone"
-            className={`border ${errors.phone ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
+            className={`border ${errors.phone ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] sm:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  bg-[#00111A]`}
           />
-          {errors.phone && <p className="text-red-500 text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw]">{errors.phone}</p>}
+          {errors.phone && <p className="text-red-500 text-[3.846vw] sm:text-[1.25vw]">{errors.phone}</p>}
 
           <select
             name="course"
             onChange={handleChange}
-            className={`border ${errors.course ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] sm:h-auto h-[12vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5  bg-[#00111A]`}
+            className={`border ${errors.course ? 'border-red-500' : 'border-gray-300'} text-white text-[3.846vw] sm:h-auto h-[12vw] sm:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 md:py-[1vw] lg:p-2.5  bg-[#00111A]`}
           >
             <option hidden value="">
               How did you find us?
@@ -158,43 +158,43 @@ const Contact = () => {
             type="hidden"
             value={form.ip}
             name="ip"
-            className="border border-gray-300 text-white text-[3.846vw] md:text-[2.5vw] lg:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            className="border border-gray-300 text-white text-[3.846vw] sm:text-[1.042vw] rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
           <button
             onClick={handleSubmit}
-            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#05B7DF] sm:hover:bg-[#109AD6] text-white font-bold text-[3.846vw] md:text-[2.5vw] lg:text-[1.25vw] leading-[normal] "
+            className="w-full py-2.5 md:py-[1.3vw] lg:py-[0.8vw] bg-[#05B7DF] sm:hover:bg-[#109AD6] text-white font-bold text-[3.846vw] sm:text-[1.25vw] leading-[normal] "
           >
             SEND
           </button>
           {message && (
-            <p className="text-green-500 text-[4vw] md:text-[2.5vw] lg:text-[1.042vw] mt-2">
+            <p className="text-green-500 text-[4vw] sm:text-[1.042vw] mt-2">
               {message}
             </p>
           )}
-          <div className="flex flex-row lg:flex-row gap-[2vw] lg:gap-0 justify-between ">
+          <div className="flex flex-row sm:flex-row gap-[2vw] sm:gap-0 justify-between ">
             <Link
               className="flex flex-row items-center hover:opacity-60"
               href="tel:+14158003326"
             >
-              <BiPhoneCall className="size-[7vw] lg:size-[2vw] mr-[1v0.9] lg:mr-[0.521vw] text-white" />
+              <BiPhoneCall className="size-[7vw] sm:size-[2vw] mr-[1v0.9] sm:mr-[0.521vw] text-white" />
 
               <div className="flex flex-col">
-                <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
+                <p className="text-[3vw] sm:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
                   PHONE
                 </p>
-                <p className="text-[#00AFF1] text-[2.8vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+                <p className="text-[#00AFF1] text-[2.8vw] sm:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                   +1 (415) 800-3326
                 </p>
               </div>
             </Link>
 
             <Link className="flex items-center hover:opacity-60" href="mailto:hello@possesivepanda.com">
-              <SlEnvolopeLetter className="size-[7vw] lg:size-[2vw] mr-[0.521vw] text-white" />
+              <SlEnvolopeLetter className="size-[7vw] sm:size-[2vw] mr-[0.521vw] text-white" />
               <div>
-                <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
+                <p className="text-[3vw] sm:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
                   EMAIL
                 </p>
-                <p className="text-[#00AFF1] text-[2.8vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
+                <p className="text-[#00AFF1] text-[2.8vw] sm:text-[0.833vw] leading-[153.846%] tracking-[0.02rem]">
                   hello@possesivepanda.com
                 </p>
               </div>
@@ -237,7 +237,7 @@ const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full md:w-full h-[70vw] md:h-[40vh] lg:w-[35vw] lg:h-[32vw]"
+          className="w-full md:w-full h-[70vw] md:h-[70vh] lg:w-[35vw] lg:h-[32vw]"
         ></iframe>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className='sm:px-[5.208vw] px-[7.69vw] sm:py-0 py-[12.5vw] flex flex-col min-h-screen bg-[#00111A]'>
       <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
-        <div className='w-full sm:w-[27.187vw] sm:h-[35.5vh] sm:px-0 sm:py-0 py-[2.051vw] px-[4.103vw] bg-[#002E47]'>
+        <div className='w-full sm:w-[27.187vw] md:h-[28vh] lg:h-[35.5vh] sm:px-0 sm:py-0 py-[2.051vw] px-[4.103vw] bg-[#002E47]'>
           <p className="text-white text-[4.103vw] sm:text-[1.042vw] sm:ml-[2.077vw] mt-[3.906vw] mb-[1.146vw] sm:font-semibold ">Partner With Us</p>
           <div className="flex gap-[19.487vw] sm:gap-[4.748vw]">
             <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] sm:h-[35.5vh] bg-[#131D22]'>
+        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] md:h-[28vh] lg:h-[35.5vh] bg-[#131D22]'>
           <svg className="w-[12.308vw] h-[12.308vw] sm:w-[3.333vw] sm:h-[3.333vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
             <path d="M42.6667 29.3333V21.3333H34.6667V16H42.6667V8H48V16H56V21.3333H48V29.3333H42.6667ZM53.2 56C47.6444 56 42.1449 54.8 36.7013 52.4C31.2578 50 26.3129 46.5778 21.8667 42.1333C17.4204 37.6889 13.9982 32.7556 11.6 27.3333C9.20178 21.9111 8.00178 16.4 8 10.8V8H23.7333L26.2 21.4L18.6 29.0667C19.5778 30.8 20.6667 32.4444 21.8667 34C23.0667 35.5556 24.3556 37 25.7333 38.3333C27.0222 39.6222 28.4338 40.856 29.968 42.0347C31.5022 43.2133 33.1573 44.3129 34.9333 45.3333L42.6667 37.6L56 40.3333V56H53.2Z" fill="white" />
           </svg>
@@ -45,7 +45,7 @@ const Footer = () => {
             {open && <HandlePage setOpen={setOpen} />}
           </div>
         </div>
-        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] sm:h-[35.5vh] bg-[#131D22]'>
+        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] md:h-[28vh] lg:h-[35.5vh] bg-[#131D22]'>
           <svg className="w-[12.308vw] h-[12.308vw] sm:w-[3.333vw] sm:h-[3.333vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" fill="none">
             <g clip-path="url(#clip0_4769_1420)">
               <path d="M0.496094 20.1104V45.7104C0.496094 47.4077 1.17038 49.0356 2.37061 50.2358C3.57084 51.4361 5.19871 52.1104 6.89609 52.1104H58.0961C59.7935 52.1104 61.4213 51.4361 62.6216 50.2358C63.8218 49.0356 64.4961 47.4077 64.4961 45.7104V20.1104L32.4961 32.9104L0.496094 20.1104Z" fill="white" />
@@ -134,11 +134,6 @@ const Footer = () => {
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/portfolio">
                     Portfolio
-                  </Link>
-                </p>
-                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                  <Link href="/Insights">
-                    Insights
                   </Link>
                 </p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">  <Link href="/blog">
@@ -236,9 +231,9 @@ const Footer = () => {
           </div>
           <div className="sm:hidden w-[22.051vw] h-[134.103vw] "></div>
         </div>
-      </div>g
+      </div>
 
-      <div className='hidden sm:block bg-[#6B6B6B] h-[0.1vh] mt-[4vw]'></div>
+      <div className='hidden sm:block bg-[#6B6B6B] h-[0.1vh] mt-[3vw]'></div>
 
       <div className='flex sm:flex-row flex-col mt-[10vw] sm:mt-[1.927vw] sm:mb-[1.395vw] justify-between sm:px-[2vw]'>
         <p className='hidden sm:block text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center'>

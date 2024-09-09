@@ -4,18 +4,18 @@ import { MdVolumeUp, MdVolumeOff } from 'react-icons/md';
 
 const Banner = ({ whyUsRef }) => {
   const videoRef = useRef(null);
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false); // Initially unmuted
   const [player, setPlayer] = useState(null);
 
   useEffect(() => {
     const onYouTubeIframeAPIReady = () => {
       const newPlayer = new window.YT.Player(videoRef.current, {
-        videoId: '3_N67lsN_Uc', // Replace with your YouTube video ID
+        videoId: '3_N67lsN_Uc',
         events: {
           onReady: (event) => {
-            event.target.mute();
+            event.target.unMute(); // Unmute the video by default
+            event.target.setPlaybackQuality('hd1080');
             event.target.playVideo();
-            event.target.setPlaybackQuality('hd1080'); // Set quality to HD 720p
             setPlayer(event.target);
           },
           onStateChange: (event) => {
@@ -32,7 +32,6 @@ const Banner = ({ whyUsRef }) => {
           modestbranding: 1,
           loop: 1,
           iv_load_policy: 3,
-          mute: 1, // Ensure video starts muted on all devices
         },
       });
     };
@@ -47,7 +46,20 @@ const Banner = ({ whyUsRef }) => {
       onYouTubeIframeAPIReady();
     }
 
+    const handleScroll = () => {
+      if (videoRef.current) {
+        const bannerBottom = videoRef.current.getBoundingClientRect().bottom;
+        if (bannerBottom < 0 && player) {
+          player.mute();
+          setIsMuted(true);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       if (player) {
         player.destroy();
       }
@@ -57,13 +69,11 @@ const Banner = ({ whyUsRef }) => {
   const toggleMute = () => {
     if (player) {
       if (isMuted) {
-        // Forcing unmute by using user interaction event
-        player.unMute();
-        player.playVideo(); // Ensure the video starts playing again if it was paused
+        player.unMute(); // Unmute without affecting playback
       } else {
-        player.mute();
+        player.mute(); // Mute without affecting playback
       }
-      setIsMuted(!isMuted);
+      setIsMuted(!isMuted); // Toggle mute state
     }
   };
 
@@ -101,7 +111,7 @@ const Banner = ({ whyUsRef }) => {
       {/* Overlay */}
       <div className="sm:absolute sm:top-0 sm:left-0 w-full h-full bg-black/50 z-1"></div>
 
-      {/* Mute/Unmute Button - adjusted for mobile */}
+      {/* Mute/Unmute Button */}
       <div className="absolute sm:bottom-[6.833vw] sm:left-[5.458vw] bottom-[10vw] left-[5vw] z-10 flex items-center gap-2">
         {isMuted ? (
           <MdVolumeOff

@@ -5,7 +5,7 @@ import tech from "../../assets/aboutus/new.png";
 
 const JoinPanda = () => {
   return (
-    <div className="hidden sm:block m-[5.2vw] relative ">
+    <div className="hidden sm:block md:pt-2 lg:py-[5.8vw] m-[5.2vw] relative ">
       <Image src={Hand} alt="Background" objectFit="cover" className="w-full" />
       <div className="absolute top-0 flex mx-[11.302vw] justify-between w-[67vw] h-full">
         <div className="my-auto flex flex-col gap-[1.042vw]">
@@ -21,7 +21,7 @@ const JoinPanda = () => {
         <Image
           src={tech}
           alt="Tech Image"
-          className="rounded-full size-[26vw] h-full"
+          className="rounded-full w-[27.5vw] h-[27vw] md:mt-[1.6vw] lg:mt-[5.9vw] "
         />
       </div>
     </div>

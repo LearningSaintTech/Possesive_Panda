@@ -33,7 +33,7 @@ const AboutMarquee = () => {
                 const elapsed = timestamp - start;
 
                 // Adjust the speed to achieve a 10,000ms (10s) scroll duration
-                const speed = container.clientWidth / 10000; 
+                const speed = container.clientWidth / 10000;
                 const scrollX = (elapsed * speed) % container.clientWidth;
 
                 container.style.transform = `translateX(-${scrollX}px)`;
@@ -50,7 +50,7 @@ const AboutMarquee = () => {
     }, []);
 
     return (
-        <div className="relative overflow-hidden w-full pb-[7.813vw] bg-[#00111a]">
+        <div className="relative overflow-hidden w-full pb-[7.813vw] mt-[2.4vw] bg-[#00111a]">
             <div
                 ref={containerRef}
                 style={{
@@ -86,14 +86,14 @@ const AboutMarquee = () => {
             </div>
 
             {/* Watch the film button */}
-            <div className="absolute lg:px-[5.208vw] pt-[2.188vw] flex items-center">
+            <div className="absolute ml-[6.25vw] pt-[2.188vw] flex items-center">
                 <a
                     href="https://www.youtube.com/watch?v=RlRhHwoSw9A"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-white bg-transparent hover:text-gray-300"
                 >
-                    <FaPlayCircle className="mr-2 text-xl" /> {/* Icon */}
+                    <FaPlayCircle className="mr-2 text-gray-400  md:text-[2.8vw] lg:text-[1.25vw]" /> {/* Icon */}
                     Watch the film
                 </a>
             </div>

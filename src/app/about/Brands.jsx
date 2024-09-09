@@ -4,7 +4,7 @@ import { data } from "./data";
 
 const Brands = () => {
   return (
-    <div className="px-[7.692vw] sm:px-[5.2vw] mt-[10.5vw]">
+    <div className="bg-[#00111A] px-[7.692vw] sm:px-[5.2vw] mt-[10.5vw]">
       <div className="flex sm:flex-row flex-col justify-between">
         <h4 className="text-white text-[5.128vw] sm:text-[2.083vw] font-semibold leading-[130%] tracking-[0.03rem] text-center lg:text-left sm:mb-0 mb-[2vw]">
           Brands That Trust Us

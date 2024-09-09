@@ -6,6 +6,8 @@ import NewBanner from "../(Components)/NewBanner";
 import Loader from "../(Components)/Loader";
 import banner from "../../assets/banners/blog.png";
 import Footer from "../(Components)/Footer";
+import AboutMarquee from "../(Components)/AboutMarquee";
+import Journey from "../(Components)/Journey";
 
 const MainPage = () => {
   const [blogs, setBlogs] = useState([]);
@@ -44,6 +46,12 @@ const MainPage = () => {
         title={"Enlighten Yourself with Latest Industry Trends and Insights!"}
         desciption={"To keep you updated with all the latest insights and information in the tech industry, we have published a plethora of articles of various categories."}
       // image={banner}
+      />
+      <AboutMarquee />
+      <Journey
+        title="Explore our Blogs:"
+        subtitle="Web-App Development, eCommerce, Digital Marketing, Cybersecurity, Virtual Assistance, and many more - we have got it all covered."
+        description="Have a look into our comprehensive blogs for industry revelations, tech innovations, and many more. Whether you are willing to know about emerging technologies, building an online presence, being at the digital forefront, or enhancing security, we have got you all covered."
       />
       <div className="px-[5.2vw] mt-[9vw] flex gap-[3.2vw] mb-[5.2vw]">
         {loading ? (
