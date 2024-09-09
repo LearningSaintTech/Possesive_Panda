@@ -87,7 +87,7 @@ const Banner = ({ whyUsRef }) => {
     <div className="relative w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
       {/* Text Content */}
       <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 lg:w-[43.333vw] mt-[18vw] lg:mt-[13.958vw] flex flex-col gap-[5vw] lg:gap-[1.042vw]">
-        <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide">
+        <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide lg:w-[50vw] md:w-[40vw] md:text-[2.5vw] md:text-start">
           Boost Your <span className="text-[#60e2ff]">Business</span> With Powerful IT Technology
         </h1>
         <p className="text-white text-[4.103vw] lg:text-[1.25vw] font-normal leading-[150%] lg:tracking-[0.015rem] tracking-[0.033vw] lg:w-[46.875vw] text-center lg:text-start">
