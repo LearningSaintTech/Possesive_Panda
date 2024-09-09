@@ -8,6 +8,8 @@ import Footer from "../(Components)/Footer";
 import Faq from "../(homeComponent)/(FaqSection)/section";
 import Journey from "../(Components)/Journey";
 import AboutMarquee from "../(Components)/AboutMarquee";
+import Review from "../about/Review";
+
 
 
 
@@ -27,6 +29,7 @@ const page = () => {
       />
       <Joinpanda />
       <Contact />
+      <Review />
       <Faq />
       <Footer />
     </div>

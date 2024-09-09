@@ -93,7 +93,7 @@ const AboutMarquee = () => {
                     rel="noopener noreferrer"
                     className="flex items-center text-white bg-transparent hover:text-gray-300"
                 >
-                    <FaPlayCircle className="mr-2 text-gray-400 text-[1.25vw]" /> {/* Icon */}
+                    <FaPlayCircle className="mr-2 text-gray-400  md:text-[2.8vw] lg:text-[1.25vw]" /> {/* Icon */}
                     Watch the film
                 </a>
             </div>

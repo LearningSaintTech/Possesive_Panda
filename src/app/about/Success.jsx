@@ -54,38 +54,38 @@ const Success = () => {
   return (
     <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm:py-[6.813vw] py-[8vw]">
       <div className="text-white flex flex-col items-center lg:flex-row lg:gap-[7vw]">
-        <h2 className="w-full lg:w-[35.729vw] text-white text-[6vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
+        <h2 className="w-full lg:w-[35.729vw] text-white text-[6vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
           Numbers That Show Our Success
         </h2>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-[2.604vw] mt-8 lg:mt-0">
           <div className="flex items-center bg-[#131D22] pl-[4vw] py-[3vw] rounded-[4vw] lg:pl-[1.782vw] lg:py-[1.25vw] lg:rounded-[0.81vw]">
-            <FaGlobe className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.888vw] lg:h-[3.888vw]" />
+            <FaGlobe className="text-[#00AFF1] w-[10vw] h-[10vw] md:w-[6vw] md:h-[6vw] lg:w-[3.888vw] lg:h-[3.888vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
-              <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{globalCentre}</p>
+              <p className="text-[5vw] md:text-[3vw] lg:text-[1.944vw] font-semibold">{globalCentre}</p>
               <p className='text-[3vw] lg:text-[1.25vw] font-semibold'>Global Centre</p>
             </div>
           </div>
 
           <div className="flex items-center bg-[#131D22] pl-[4vw] py-[3vw] rounded-[4vw] lg:pl-[1.782vw] lg:py-[1.25vw] lg:rounded-[0.81vw]">
-            <FaUsers className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.75vw] lg:h-[3.75vw]" />
+            <FaUsers className="text-[#00AFF1] w-[10vw] h-[10vw] md:w-[6vw] md:h-[6vw]  lg:w-[3.75vw] lg:h-[3.75vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
-              <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{teamCount}+</p>
+              <p className="text-[5vw] md:text-[3vw] lg:text-[1.944vw] font-semibold">{teamCount}+</p>
               <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Our Team</p>
             </div>
           </div>
 
           <div className="flex items-center bg-[#131D22] px-[4vw] py-[3vw] rounded-[4vw] lg:px-[2vw] lg:py-[1vw] lg:rounded-[0.81vw]">
-            <FaHandshake className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.828vw] lg:h-[3.062vw]" />
+            <FaHandshake className="text-[#00AFF1] w-[10vw] h-[10vw] md:w-[6vw] md:h-[6vw]  lg:w-[3.828vw] lg:h-[3.062vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
-              <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{happyClients}+</p>
+              <p className="text-[5vw] md:text-[3vw] lg:text-[1.944vw] font-semibold">{happyClients}+</p>
               <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Happy Clients</p>
             </div>
           </div>
 
           <div className="flex items-center bg-[#131D22] px-[4vw] py-[3vw] rounded-[4vw] lg:px-[2vw] lg:py-[1vw] lg:rounded-[0.81vw]">
-            <FaProjectDiagram className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.828vw] lg:h-[3.062vw]" />
+            <FaProjectDiagram className="text-[#00AFF1] w-[10vw] h-[10vw] md:w-[6vw] md:h-[6vw] lg:w-[3.828vw] lg:h-[3.062vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
-              <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{projectsDelivered}+</p>
+              <p className="text-[5vw] md:text-[3vw] lg:text-[1.944vw] font-semibold">{projectsDelivered}+</p>
               <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Projects Delivered</p>
             </div>
           </div>
