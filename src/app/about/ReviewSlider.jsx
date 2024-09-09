@@ -118,9 +118,7 @@ const ReviewSlider = () => {
         </div>
 
         <div className="hidden sm:block sm:w-[0.139vw]  sm:h-[13.755vw] bg-white mx-6 sm:mr-[4vw]"></div>
-        <div className="sm:hidden w-full h-[0.5vw] bg-white px-[11.294vw] ">
-          {" "}
-        </div>
+        <div className="sm:hidden w-full h-[0.5vw] bg-white px-[11.294vw] "></div>
 
         <div className="text-white mt-[1.6vw]">
           <h2 className="  sm:mr-[7.708vw] text-[3.294vw] sm:text-[0.848vw] mt:[7.529vw] sm:px-0 px-[5vw] ">

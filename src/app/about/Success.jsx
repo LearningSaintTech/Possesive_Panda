@@ -52,7 +52,7 @@ const Success = () => {
   }, [hasAnimated]);
 
   return (
-    <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm::py-[7.813vw] py-[8vw]">
+    <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm:py-[6.813vw] py-[8vw]">
       <div className="text-white flex flex-col items-center lg:flex-row lg:gap-[7vw]">
         <h2 className="w-full lg:w-[35.729vw] text-white text-[6vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
           Numbers That Show Our Success
@@ -62,7 +62,7 @@ const Success = () => {
             <FaGlobe className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.888vw] lg:h-[3.888vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
               <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{globalCentre}</p>
-              <p className='text-[3vw] lg:text-[1.296vw] font-semibold'>Global Centre</p>
+              <p className='text-[3vw] lg:text-[1.25vw] font-semibold'>Global Centre</p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ const Success = () => {
             <FaUsers className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.75vw] lg:h-[3.75vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
               <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{teamCount}+</p>
-              <p className="text-[3vw] lg:text-[1.296vw] font-semibold">Our Team</p>
+              <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Our Team</p>
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const Success = () => {
             <FaHandshake className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.828vw] lg:h-[3.062vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
               <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{happyClients}+</p>
-              <p className="text-[3vw] lg:text-[1.296vw] font-semibold">Happy Clients</p>
+              <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Happy Clients</p>
             </div>
           </div>
 
@@ -86,7 +86,7 @@ const Success = () => {
             <FaProjectDiagram className="text-[#00AFF1] w-[10vw] h-[10vw] lg:w-[3.828vw] lg:h-[3.062vw]" />
             <div className='ml-[4vw] lg:ml-[0.81vw]'>
               <p className="text-[5vw] lg:text-[1.944vw] font-semibold">{projectsDelivered}+</p>
-              <p className="text-[3vw] lg:text-[1.296vw] font-semibold">Projects Delivered</p>
+              <p className="text-[3vw] lg:text-[1.25vw] font-semibold">Projects Delivered</p>
             </div>
           </div>
         </div>

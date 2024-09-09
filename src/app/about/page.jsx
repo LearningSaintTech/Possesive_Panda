@@ -1,17 +1,14 @@
 "use client"
 import React from "react";
 import Technologies from "../(homeComponent)/(Technologies)/Technologies";
-// import Accordion from "./(accordion)/Accordion";
 import Certificate from "./Certificate";
 import NewBanner from "../(Components)/NewBanner";
-// import Content from "./Content";
 import Footer from "../(Components)/Footer";
 import AboutMarquee from "../(Components)/AboutMarquee";
 import Values from "./Values";
 import Success from "./Success";
 import Intro from "../about/Intro";
 import Review from "./Review";
-import ReviewSlider from "./ReviewSlider";
 import Purpose from "../about/Purpose";
 import Journey from "../(Components)/Journey";
 
@@ -33,10 +30,8 @@ const page = () => {
       />
       <Intro />
       <Purpose />
-      {/* <Accordion /> */}
       <Values />
       <Review />
-      <ReviewSlider />
       <Technologies />
       <Certificate />
       <Success />

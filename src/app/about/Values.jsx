@@ -33,10 +33,10 @@ const Values = () => {
     }, []);
 
     return (
-        <div className="bg-[#00111a] text-white lg:px-[5.208vw] lg:py-[7.813vw] py-[10vw] px-[4vw]">
+        <div className="bg-[#00111a] text-white lg:px-[5.208vw] lg:py-[4.813vw] py-[10vw] px-[4vw]">
             <div className="container mx-auto">
                 <div className="text-center">
-                    <h2 className="text-[8vw] md:text-[4vw] lg:text-[2.5vw] font-semibold mb-[5vw] text-[#00aff1]">
+                    <h2 className="text-[8vw] md:text-[4vw] lg:text-[2.5vw] font-semibold mb-[2.865vw] text-[#00aff1]">
                         Our Values
                     </h2>
                     <p className="mb-[8vw] max-w-[90vw] md:max-w-[70vw] lg:max-w-[46.967vw] text-center text-[5vw] md:text-[2vw] lg:text-[1.25vw] font-normal mx-auto">
