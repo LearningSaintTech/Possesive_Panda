@@ -333,13 +333,6 @@ const OurServices = () => {
           <p className="md:text-[1.8vw] text-[4.103vw] text-white text-center font-normal md:mt-3 mt-[5.128vw] leading-[normal] tracking-[0.038vw]">At this stage, the focus shifts to executing the implementation plan. Key activities include using Agile methodology for iterative delivery, allowing continuous feedback and improvement based on customer input. Ensuring quality assurance via user acceptance testing (UAT).</p>
         </div>
       </div>
-
-
-      {/* <div className="hidden sm:block">
-        <div id="progress" ref={progressRef} className="sticky top-0 z-10  ">
-          <CircleProgress progress={progress} activeSection={activeSection} />
-        </div>
-      </div> */}
     </div>
   );
 };

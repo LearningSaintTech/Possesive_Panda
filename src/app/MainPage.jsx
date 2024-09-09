@@ -39,9 +39,7 @@ const MainPage = () => {
             <Marquee />
             <ServicesList />
             <OurServices />
-            <div style={{ marginTop: "500px" }}> {/* Add margin to avoid overlap with Canvas */}
-              <Canvas />
-            </div>
+            <Canvas />
             <div ref={whyUsRef}>
               <WhyUs />
             </div>

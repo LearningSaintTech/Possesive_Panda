@@ -121,7 +121,7 @@ const CircleAnimation = React.forwardRef((props, ref) => {
    
 <div
       ref={ref}
-      className="min-h-screen bg-[#00111A] flex flex-row justify-center items-center"
+      className="min-h-screen bg-[#00111A] flex flex-row justify-center items-center "
     >
       <svg ref={svgRef} height="600" width="700">
         {/* Background Grey Circle */}
