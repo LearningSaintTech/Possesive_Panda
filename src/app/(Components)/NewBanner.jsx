@@ -1,31 +1,33 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import bannerbg from "../../../public/assets/banner/bannerbg.png"
+import bannerbg from "../../../public/assets/banner/bannerbg.png";
 
 const NewBanner = ({ title, desciption }) => {
-  return (
-    <div className="flex justify-between relative ">
-      <Image
-        src={bannerbg}
-        alt="bannerbg"
-        className="w-screen h-full sm:h-auto relative  "
-      />
-      <div className="absolute md:top-[15vw] lg:top-[11.406vw] flex flex-col text-center justify-center items-center gap-[2.24vw] ">
-        <div className="flex flex-col gap-[1.042vw] ">
-          <h2 className="leading-[130%] text-[3.5vw] sm:text-[3vw] lg:text-[2.587vw] tracking-[0.03rem] text-white font-medium md:px-[30vw] lg:px-[28vw] ">
-            {title}
-          </h2>
-          <p className="lg:px-[32vw] text-white text-[3.2vw] sm:text-[3vw] lg:text-[1.104vw] ">
-            {desciption}
-          </p>
+    return (
+        <div className="relative w-screen h-[100vw] sm:h-[34.23vw] min-h-[34.323vw]">
+            <Image
+                src={bannerbg}
+                alt="bannerbg"
+                className="sm:block hidden w-screen relative object-cover "
+            />
+            <div className="absolute top-[60vw] sm:top-[21vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center text-center justify-center">
+                <div className="flex flex-col gap-[1.042vw] ">
+                    <h2 className="text-white text-[7.529vw] sm:text-[2.587vw] font-bold sm:font-medium leading-[130%] w-[81.882vw] sm:w-[38.542vw] ">
+                        {title}
+                    </h2>
+                    <p className="text-white text-[3.765vw] sm:text-[1.104vw] font-normal leading-[160%] w-[68vw] sm:w-[35vw] mx-auto">
+                        {desciption}
+                    </p>
+                </div>
+                <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw] ">
+                    Get In Touch
+                </button>
+                <p className="text-white text-[3.765vw] sm:text-[0.835vw] font-normal leading-[160%] mt-[4vw] sm:mt-[1.042vw] ">
+                    Feel Free to Connect with Us
+                </p>
+            </div>
         </div>
-        <div className="flex flex-col gap-[1.042vw] ">
-          <button className="bg-[#05B7DF] text-white text-[1.25vw] font-semibold lg:py-[0.729vw] lg:px-[1.328vw] rounded-[3.906vw] ">Get In Touch</button>
-          <p className="text-white text-[0.835vw] font-normal leading-6 ">Feel Free to Connect with Us</p>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
+
 export default NewBanner;

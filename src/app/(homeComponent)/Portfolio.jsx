@@ -12,7 +12,7 @@ const Portfolio = () => {
           Our Portfolio
         </h5>
         <h2 className="text-[8.205vw] md:text-[4vw] text-white lg:text-[3.333vw] font-medium tracking-[0.001rem] lg:tracking-[0.04rem] text-center lg:text-left">
-          Project Accomplishments 
+          Project Accomplishments
         </h2>
         <p className="text-[#F9F9F9] font-normal text-[3.6vw] md:text-[2vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.015rem] w-full lg:w-fit text-center lg:text-left">
           Explore our world of standout projects that Possesive Panda

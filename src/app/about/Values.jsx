@@ -33,7 +33,7 @@ const Values = () => {
     }, []);
 
     return (
-        <div className="bg-[#00111a] text-white lg:px-[5.208vw] lg:py-[4.813vw] py-[10vw] px-[4vw]">
+        <div className="bg-[#00111a] text-white sm:px-[5.208vw] sm:py-[4.813vw] py-[10vw] px-[4vw]">
             <div className="container mx-auto">
                 <div className="text-center">
                     <h2 className="text-[8vw] md:text-[4vw] lg:text-[2.5vw] font-semibold mb-[2.865vw] text-[#00aff1]">
@@ -43,21 +43,21 @@ const Values = () => {
                         Possessive Panda as a top-notch IT service and solution provider, doesn’t just aim for excellence - we count on delivering the best at what we deliver.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[8vw] lg:gap-[8vw] justify-items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[8vw] lg:gap-[8vw] justify-items-center">
                     {['Genuinity', 'Accountability', 'Advancement', 'Collaboration'].map((title, index) => (
                         <div
                             key={title}
                             ref={(el) => (cardRefs.current[index] = el)}
                             data-index={index}
-                            className="card bg-[#131d22] p-[8vw] sm:p-[2vw] lg:p-[2vw] relative w-[85vw] sm:w-[60vw] lg:w-[21vw]"
+                            className="card bg-[#131d22] p-[8vw] md:p-[2vw] lg:p-[2vw] relative w-[85vw] md:w-full lg:w-[21vw]"
                             style={{
                                 opacity: 0,
                                 transform: 'translateY(70px)',
                                 transition: 'opacity 1.2s ease-out, transform 1.2s ease-out',
                             }}
                         >
-                            <h3 className="text-center text-white text-[5.5vw] sm:text-[3vw] lg:text-[1.5vw] font-semibold">{title}</h3>
-                            <p className="text-center text-white text-[4.5vw] sm:text-[2.5vw] lg:text-[1.25vw] font-normal mt-[2vw]">
+                            <h3 className="text-center text-white text-[5.5vw] md:text-[2.5vw] lg:text-[1.5vw] md:font-medium lg:font-semibold">{title}</h3>
+                            <p className="text-center text-white text-[4.5vw] md:text-[2vw] lg:text-[1.25vw] font-normal mt-[2vw]">
                                 {title === 'Genuinity' ? (
                                     "We maintain the greatest levels of integrity and transparency, so our clients can rely on us to behave morally in all of our dealings."
                                 ) : title === 'Accountability' ? (

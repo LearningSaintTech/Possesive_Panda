@@ -7,13 +7,14 @@ import Footer from "../../(Components)/Footer";
 const BlogPage = ({ data }) => {
   return (
     <div>
-    <div className="px-[5.2vw] pt-[12vw] flex gap-[5.2vw] mb-[5.2vw]">
+    <div className="px-[5.2vw] pt-[12vw] flex gap-[5.2vw] mb-[5.2vw] bg-[#00111A]">
       <div>
         <Blog data={data} />
         <CommentForm />
       </div>
-      <Recent />
+     
     </div>
+    {/* <Recent /> */}
     <Footer/>
     </div>
   );

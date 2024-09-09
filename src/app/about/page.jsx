@@ -11,7 +11,7 @@ import Intro from "../about/Intro";
 import Review from "./Review";
 import Purpose from "../about/Purpose";
 import Journey from "../(Components)/Journey";
-
+import NewBannner from "../(Components)/NewBanner";
 
 const page = () => {
 
@@ -20,7 +20,6 @@ const page = () => {
       <NewBanner
         title={"Welcome to Possesive Panda We’re Possessive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
-      // image={banner}
       />
       <AboutMarquee />
       <Journey
@@ -28,6 +27,7 @@ const page = () => {
         subtitle="Our journey began with your success - Your achievements are the fuel that drives our excellence and dedication."
         description="Possessive Panda is a global powerhouse, renowned for its innovation and expertise. Our diverse team, from around the world, brings varied knowledge and perspectives. This cultural richness fuels our cutting-edge solutions and industry leadership. Our commitment to excellence keeps us at the forefront, meeting clients' evolving needs globally."
       />
+      {/* <NewBannner /> */}
       <Intro />
       <Purpose />
       <Values />
