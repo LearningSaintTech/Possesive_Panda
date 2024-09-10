@@ -261,5 +261,6 @@ const CircleAnimation = React.forwardRef((props, ref) => {
     </div>
   );
 });
+CircleAnimation.displayName = "CircleAnimation";
 
 export default CircleAnimation;
