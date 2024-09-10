@@ -48,6 +48,7 @@ const CircleAnimation = React.forwardRef((props, ref) => {
         };
     }
   };
+
   useEffect(() => {
     const animatedCircle = svgRef.current.querySelector(".animated-circle");
     const numberCircles = svgRef.current.querySelectorAll(".number-circle");
@@ -115,15 +116,17 @@ const CircleAnimation = React.forwardRef((props, ref) => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
   }, [toggleNavbar]);
-  
 
   return (
-   
-<div
+    <div
       ref={ref}
-      className="min-h-screen bg-[#00111A] flex flex-row justify-center items-center "
+      className="min-h-screen bg-[#00111A] flex flex-row justify-center items-center"
     >
-      <svg ref={svgRef} height="600" width="700">
+      <svg
+        ref={svgRef}
+        className="w-full h-full max-w-lg md:max-w-3xl lg:max-w-4xl xl:max-w-5xl "
+        viewBox="0 0 700 600"
+      >
         {/* Background Grey Circle */}
         <circle
           className="background-circle"
@@ -144,8 +147,8 @@ const CircleAnimation = React.forwardRef((props, ref) => {
           r="200"
           cx="330"
           cy="300"
-          stroke="#00AFF1" // Set the vibrant blue color
-          strokeWidth="6" // Increase the stroke width for better visibility
+          stroke="#00AFF1"
+          strokeWidth="6"
           fill="none"
           style={{
             transform: "rotate(-90deg)",
@@ -248,48 +251,13 @@ const CircleAnimation = React.forwardRef((props, ref) => {
             4
           </text>
         </g>
-
-        {/* Section description */}
-        <foreignObject
-          x="170"
-          y="210"
-          width="460"
-          height="300"
-          style={{
-            textAlign: "center",
-            overflow: "visible",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style={{
-              color: "white",
-              fontSize: "16px",
-              lineHeight: "1.5",
-              padding: "10px",
-              textAlign: "center",
-              wordWrap: "break-word",
-              maxWidth: "360px",
-              position: "relative",
-            }}
-          >
-            <strong
-              style={{
-                fontSize: "30px",
-                position: "relative",
-                top: "-40px",
-              }}
-            >
-              {currentText.title}
-            </strong>
-            <br />
-            <span>{currentText.description}</span>
-          </div>
-        </foreignObject>
       </svg>
+
+      {/* Text inside the circle */}
+      <div className="absolute">
+        <h2 className="text-white text-[2.083vw] font-bold text-center mt-[1.042vw] pb-[1.563vw]">{currentText.title}</h2>
+        <p className="text-white  mt-[1.563vw] text-center max-w-xs">{currentText.description}</p>
+      </div>
     </div>
   );
 });
