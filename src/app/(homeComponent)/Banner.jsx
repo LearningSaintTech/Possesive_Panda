@@ -95,7 +95,7 @@ const Banner = ({ whyUsRef }) => {
         </p>
 
         <button
-          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[1.5vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium md:w-[17vw] md:-mt-6"
+          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[1.5vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium md:w-[17vw] md:-mt-6 lg:mt-[3.125vw]"
           onClick={handleScrollToWhyUs}
         >
           Why Us
