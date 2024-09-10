@@ -39,7 +39,9 @@ const MainPage = () => {
             <Marquee />
             <ServicesList />
             <OurServices />
+            <div className=" hidden lg:block">
             <Canvas />
+            </div>
             <div ref={whyUsRef}>
               <WhyUs />
             </div>

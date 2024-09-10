@@ -4,7 +4,7 @@ import { MdVolumeUp, MdVolumeOff } from 'react-icons/md';
 
 const Banner = ({ whyUsRef }) => {
   const videoRef = useRef(null);
-  const [isMuted, setIsMuted] = useState(false); // Initially unmuted
+  const [isMuted, setIsMuted] = useState(true); 
   const [player, setPlayer] = useState(null);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Banner = ({ whyUsRef }) => {
         videoId: '3_N67lsN_Uc',
         events: {
           onReady: (event) => {
-            event.target.unMute(); // Unmute the video by default
+            event.target.mute(); 
             event.target.setPlaybackQuality('hd1080');
             event.target.playVideo();
             setPlayer(event.target);
@@ -69,11 +69,11 @@ const Banner = ({ whyUsRef }) => {
   const toggleMute = () => {
     if (player) {
       if (isMuted) {
-        player.unMute(); // Unmute without affecting playback
+        player.unMute(); 
       } else {
-        player.mute(); // Mute without affecting playback
+        player.mute(); 
       }
-      setIsMuted(!isMuted); // Toggle mute state
+      setIsMuted(!isMuted); 
     }
   };
 
