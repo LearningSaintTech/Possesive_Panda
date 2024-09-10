@@ -61,16 +61,16 @@ const Blog = ({ data }) => {
           {data.title}
         </p>
 
-        <div className="flex gap-[27.969vw]">
-          <div className="flex flex-row  sm:gap-[3.125vw] ml-[15.573vw] mt-[0.521vw]">
+        <div className="flex sm:flex-row flex-col sm:gap-[27.969vw]">
+          <div className="flex flex-row justify-between sm:gap-[3.125vw] ml-[1vw] sm:ml-[15.573vw] mt-[0.521vw]">
             <p className="text-white text-[3.765vw] sm:text-[1.25vw]">By {data.author}</p>
-            
+
             <p className="text-white text-[3.765vw] sm:text-[1.25vw]">{formatDate}</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row text-[1.25vw] text-white">
-            <p className="text-white hidden sm:text-[1.25vw]">Follow Us On:</p>
-            <div className="ml-[1.615vw] flex flex-row text-[3.765vw]  sm:text-[1.25vw] gap-[1.615vw] mt-[14.824vw] sm:mt-[0.321vw]">
+          <div className="flex flex-col sm:flex-row text-[1.25vw] text-white text-center justify-center items-center ">
+            <p className="text-white hidden sm:block sm:text-[1.25vw]">Follow Us On:</p>
+            <div className="ml-[1.615vw] flex flex-row text-[3.765vw]  sm:text-[1.25vw] gap-[1.615vw] mt-[4.5vw] sm:mt-[0.321vw]">
               <FaFacebookF />
               <FaXTwitter />
               <FaInstagram />
@@ -85,7 +85,7 @@ const Blog = ({ data }) => {
         width={800}
         height={600}
         alt="image"
-        className="w-full h-[28.646vw] mt-[4.167vw]" 
+        className="w-full h-[28.646vw] mt-[4.167vw]"
       />
 
       <div className="flex flex-col sm:flex-row gap-[4.134vw] mt-[4.167vw]">

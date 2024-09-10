@@ -1,28 +1,28 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import { useNavbar } from "./layout";
 import Banner from "./(homeComponent)/Banner";
 import OurServices from "./(homeComponent)/OurServices";
 import Blogs from "./(homeComponent)/Blogs";
-import Cross from "./(Components)/Cross";
-import Faq from "./(homeComponent)/(FaqSection)/section";
 import WhyUs from "./(homeComponent)/Whyus";
 import Technologies from "./(homeComponent)/(Technologies)/Technologies";
-import Portfolio from "./(homeComponent)/Portfolio";
 import Contact from "./(Components)/Contact";
 import Loader from "./(Components)/Loader";
 import Footer from "./(Components)/Footer";
 import OurWorks from "./(homeComponent)/OurWorks";
 import Marquee from "./(homeComponent)/Marquee";
 import ServicesList from "./(homeComponent)/ServicesList";
+import Canvas from "./(homeComponent)/Canvas";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
   const [loading, setLoading] = useState(true);
+  const { toggleNavbar } = useNavbar();
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // 1-second delay
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -34,23 +34,23 @@ const MainPage = () => {
       ) : (
         <>
           <Banner whyUsRef={whyUsRef} />
-          <OurWorks />
-          <Marquee/>
-          <ServicesList/>
-          <OurServices />
-          <div ref={whyUsRef}>
-            <WhyUs />
+          <div style={{ paddingTop: "60px" }}> {/* Adjust paddingTop to ensure content is visible */}
+            <OurWorks />
+            <Marquee />
+            <ServicesList />
+            <OurServices />
+            <Canvas />
+            <div ref={whyUsRef}>
+              <WhyUs />
+            </div>
+            <Technologies />
+            <Contact />
+            <Blogs />
+            <Footer />
           </div>
-          <Technologies />
-          <Contact />
-          <Blogs />
-          <Faq />
-          {/* <Cross /> */}
-          <Footer />
         </>
       )}
     </div>
   );
 };
-
 export default MainPage;

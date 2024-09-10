@@ -12,6 +12,7 @@
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.19",
     "framer-motion": "^11.3.28",
+    "gsap": "^3.12.5",
     "inflight": "^1.0.6",
     "latest": "^0.2.0",
     "lru-cache": "^11.0.0",

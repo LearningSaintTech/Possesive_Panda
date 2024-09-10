@@ -4,7 +4,7 @@ import bannerbg from "../../../public/assets/banner/bannerbg.png";
 
 const NewBanner = ({ title, desciption }) => {
     return (
-        <div className="relative w-screen h-[100vw] sm:h-[34.23vw] min-h-[34.323vw]">
+        <div className="relative h-[100vw] sm:h-[34.23vw] min-h-[34.323vw]">
             <Image
                 src={bannerbg}
                 alt="bannerbg"
