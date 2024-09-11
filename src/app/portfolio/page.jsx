@@ -24,9 +24,9 @@ const Portfolio = () => {
   return (
     <div className="bg-[#00111A]">
       <NewBanner
-        title={"Let Possessive Panda be Your Success Partner!"}
+        title={"Let Possesive Panda be Your Success Partner!"}
         desciption={
-          "Possessive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."
+          "Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."
         }
         // image={banner}
       />
