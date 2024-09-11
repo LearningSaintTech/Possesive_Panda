@@ -49,7 +49,7 @@ const OurWorks = () => {
     };
 
     return (
-        <div className="flex sm:flex-row flex-col pt-[15.385vw] lg:pt-[7vw] pb-0 lg:pb-[5vw] pl-[6.692vw] lg:pl-[5.208vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw] md:pl-[5.208vw] lg:px-0">
+        <div className="flex sm:flex-row flex-col pt-[13.385vw] sm:pt-[7vw] md:pt-[0vw] lg:pt-[7.813vw] pb-0 lg:pb-[5vw] pl-[6.692vw] lg:pl-[5.208vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw] md:pl-[5.208vw] lg:px-0">
             {/* Left Side Section */}
             <div className="sm:w-[20.156vw] lg:h-[23.073vw] flex flex-col justify-around gap-1 sm:gap-0 sm:mt-[4vw] md:mt-[0.417vw]">
                 <h5 className="text-white sm:font-normal font-medium tracking-[0.015rem] text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] text-center lg:text-left sm:mt-[0.417vw] md:-ml-[8.6vw] lg:ml-[0.5vw]">
