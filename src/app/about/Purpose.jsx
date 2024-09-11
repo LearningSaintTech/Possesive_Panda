@@ -23,7 +23,7 @@ const Purpose = () => {
           />
           <div>
             <p className='text-white sm:mt-[2.083vw] mt-[2vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Purpose</p>
-            <p className='text-white mt-[2.083vw] text-[3.765vw] sm:text-[1.209vw] font-normal '>With the minds of today, Possesive Panda is creating a better tomorrow. Innovation is ingrained in our DNA, and we believe in fostering the growth and improvement of our clients's business success. Our purpose lies in transforming your business to be the pinnacle of your industry.</p>
+            <p className='text-white mt-[2.083vw] text-[3.765vw] sm:text-[1.209vw] font-normal '>With the minds of today, Possesive Panda is creating a better tomorrow. Innovation is ingrained in our DNA, and we believe in fostering the growth and improvement of our clients&apos;s business success. Our purpose lies in transforming your business to be the pinnacle of your industry.</p>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ const Purpose = () => {
             />
             <div>
               <p className='text-white sm:mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Vision</p>
-              <p className='text-white mt-[2.083vw] sm:text-[1.209vw]  text-[3.765vw] font-normal  '>With the minds of today, Possesive Panda is creating a better tomorrow. Innovation is ingrained in our DNA, and we believe in fostering the growth and improvement of our clients's business success. Our purpose lies in transforming your business to be the pinnacle of your industry.</p>
+              <p className='text-white mt-[2.083vw] sm:text-[1.209vw]  text-[3.765vw] font-normal  '>With the minds of today, Possesive Panda is creating a better tomorrow. Innovation is ingrained in our DNA, and we believe in fostering the growth and improvement of our clients&apos;s business success. Our purpose lies in transforming your business to be the pinnacle of your industry.</p>
             </div>
           </div>
           <Image src={image2}

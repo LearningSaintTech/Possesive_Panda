@@ -133,7 +133,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import panda from "../../assets/home/services/Panda.png";
+import panda from "../../assets/home/services/panda.png";
 // import CircleProgress from "./(CircleAnimation)/CircleProgress";
 
 const OurServices = () => {
