@@ -21,7 +21,7 @@ const page = () => {
         desciption={"Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."}
       // image={banner}
       />
-      <AboutMarquee/>
+      {/* <AboutMarquee/> */}
       <Journey
         title="Like discussing your ideas in person?"
         subtitle="Swing by our office anytime! We're here to turn your tech dreams into reality and ensure you leave with a smile."

@@ -21,7 +21,7 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possessive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <AboutMarquee />
+      {/* <AboutMarquee /> */}
       <Journey
         title="Our journey started"
         subtitle="Our journey began with your success - Your achievements are the fuel that drives our excellence and dedication."

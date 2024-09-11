@@ -1,12 +1,15 @@
-import banner_1 from "../../assets/portfolio/banner-1.png";
-import banner_2 from "../../assets/portfolio/banner-2.png";
-import banner_3 from "../../assets/portfolio/banner-3.png";
+import Learningsaint from "../../../public/assets/portfolio/Learningsaint.svg";
+import HRMS from "../../../public/assets/portfolio/HRMS.svg";
+import Hawkins from "../../../public/assets/portfolio/Hawkins.svg";
+import Recess from "../../../public/assets/portfolio/Recess.svg";
+import MTG from "../../../public/assets/portfolio/MTG.svg";
+
 import saint from "../../assets/portfolio/Saint.png";
 import hawkins from "../../assets/portfolio/Hawkins.png";
 
 const projects = [
   {
-    image: banner_1,
+    image: Learningsaint,
     moto: "Leading EdTech Course Provider",
     title: "Learningsaint",
     description:
@@ -14,7 +17,7 @@ const projects = [
     url: "https://learningsaint.com",
   },
   {
-    image: banner_2,
+    image: HRMS,
     moto: "Human Resource Management System",
     title: "HRMS",
     description:
@@ -22,7 +25,7 @@ const projects = [
     url: "https://www.pplazyhr.com/login",
   },
   {
-    image: banner_3,
+    image: Hawkins,
     moto: "Professional Course and Program Provider",
     title: "hawkins ",
     description:
@@ -30,7 +33,7 @@ const projects = [
     url: "https://hawkinsuniversity.com",
   },
   {
-    image: banner_3,
+    image: Recess,
     moto: "Non-alcoholic Beverage Brand",
     title: "RECESS",
     description:
@@ -38,7 +41,7 @@ const projects = [
     url: "https://hawkinsuniversity.com",
   },
   {
-    image: banner_3,
+    image: MTG,
     moto: "Professional Transport Service Provider",
     title: "Montgomery Transport Group",
     description:

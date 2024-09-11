@@ -47,7 +47,7 @@ const MainPage = () => {
         desciption={"To keep you updated with all the latest insights and information in the tech industry, we have published a plethora of articles of various categories."}
       // image={banner}
       />
-      <AboutMarquee />
+      {/* <AboutMarquee /> */}
       <Journey
         title="Explore our Blogs:"
         subtitle="Web-App Development, eCommerce, Digital Marketing, Cybersecurity, Virtual Assistance, and many more - we have got it all covered."

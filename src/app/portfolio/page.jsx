@@ -30,7 +30,7 @@ const Portfolio = () => {
         }
         // image={banner}
       />
-      <AboutMarquee />
+      {/* <AboutMarquee /> */}
       <Journey
         title="Explore our tech-driven triumphs:"
         subtitle="From pioneering startups to well-established enterprises, discover the ultimate success stories that redefine innovation. "
