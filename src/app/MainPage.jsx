@@ -12,6 +12,7 @@ import Footer from "./(Components)/Footer";
 import OurWorks from "./(homeComponent)/OurWorks";
 import Marquee from "./(homeComponent)/Marquee";
 import ServicesList from "./(homeComponent)/ServicesList";
+import Faq from "./(homeComponent)/(FaqSection)/section";
 import Canvas from "./(homeComponent)/Canvas";
 
 const MainPage = () => {
@@ -48,6 +49,7 @@ const MainPage = () => {
             <Technologies />
             <Contact />
             <Blogs />
+            <Faq />
             <Footer />
           </div>
         </>
