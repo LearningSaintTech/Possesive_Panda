@@ -14,6 +14,8 @@ import Faq from '../(Components)/(Faq)/Faq';
 import FeatureCard from './FeatureCard';
 import ProcessCard from './ProcessCard';
 import Footer from "../../(Components)/Footer";
+import IntroServices from '../(CommonComponent)/IntroServices';
+import Customized from '../(CommonComponent)/Customized';
 
 
 import {
@@ -27,6 +29,7 @@ import {
   statergy,
   faq
 } from './data';
+
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -147,6 +150,8 @@ const Page = () => {
         page={"E-Commerce"}
         image={banner}
       />
+      <IntroServices />
+      <Customized />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[5.2vw]">
