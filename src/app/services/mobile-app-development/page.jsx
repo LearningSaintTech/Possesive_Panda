@@ -3,6 +3,11 @@ import React from "react";
 import banner from "../../../assets/banners/mobile-app-development-slider.png";
 import Hero from "../(Components)/(Hero)/Hero";
 import Footer from "../../(Components)/Footer";
+import Leverage from '../(CommonComponent)/Mobiledev/Leverage';
+import Tech from '../(CommonComponent)/Mobiledev/Tech';
+import Iphone from "../(CommonComponent)/Mobiledev/Iphone";
+
+
 
 import {
   androidApp,
@@ -42,11 +47,6 @@ const page = () => {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="canonical" href={metadata.canonical} />
-
-       
-
-       
-
       </Head>
       <Banner
         title={"Mobile App Development Service"}
@@ -54,6 +54,9 @@ const page = () => {
         page={"Mobile App Development"}
         image={banner}
       />
+      <Leverage />
+      <Tech />
+      <Iphone />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[4vw]">

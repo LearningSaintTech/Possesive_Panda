@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '@/app/(Components)/Banner';
+import NewBanner from "../../(Components)/NewBanner";
 import banner from "../../../assets/banners/e-commerce-slider.png";
 import Hero from '../(Components)/(Hero)/Hero';
 import Industries from './Industries';
@@ -14,9 +14,9 @@ import Faq from '../(Components)/(Faq)/Faq';
 import FeatureCard from './FeatureCard';
 import ProcessCard from './ProcessCard';
 import Footer from "../../(Components)/Footer";
-import IntroServices from '../(CommonComponent)/IntroServices';
-import Customized from '../(CommonComponent)/Customized';
-
+import IntroServices from '../(CommonComponent)/E-commerce/IntroServices';
+import Customized from '../(CommonComponent)/E-commerce/Customized';
+import Partner from '../(CommonComponent)/E-commerce/Partner';
 
 import {
   benefits,
@@ -57,7 +57,7 @@ export const metadata = {
 };
 const Page = () => {
   return (
-    <div>
+    <div className="bg-[#00111A]">
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -144,15 +144,15 @@ const Page = () => {
           }
           `}
       </Script>
-      <Banner
-        title={"E-Commerce Service"}
-        desciption={"E-commerce solutions that match your needs"}
-        page={"E-Commerce"}
-        image={banner}
+      <NewBanner
+        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
+        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <IntroServices />
       <Customized />
-      <div className="px-[5.2vw] pt-[5.2vw]">
+      <Partner />
+
+      {/* <div className="px-[5.2vw] pt-[5.2vw]">
         <Hero top={top} />
         <div className="mt-[5.2vw]">
           <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.083vw] font-semibold leading-[normal] tracking-[0.03rem]">
@@ -176,8 +176,8 @@ const Page = () => {
           </p>
           <FeatureCard />
         </div>
-      </div>
-      <Industries />
+      </div> */}
+      {/* <Industries />
       <div className="px-[5.2vw] pt-[5.2vw]">
         <Strategy statergy={statergy} />
         <div className="mt-[5.2vw]">
@@ -235,7 +235,7 @@ const Page = () => {
             <WhyUs data={item} key={key} />
           ))}
         </div>
-      </div>
+      </div> */}
       <Faq faq={faq} />
       <Footer />
     </div>
