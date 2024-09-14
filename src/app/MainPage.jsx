@@ -12,6 +12,7 @@ import Footer from "./(Components)/Footer";
 import OurWorks from "./(homeComponent)/OurWorks";
 import Marquee from "./(homeComponent)/Marquee";
 import ServicesList from "./(homeComponent)/ServicesList";
+import Faq from "./(homeComponent)/(FaqSection)/section";
 import Canvas from "./(homeComponent)/Canvas";
 
 const MainPage = () => {
@@ -29,9 +30,9 @@ const MainPage = () => {
 
   return (
     <div className="bg-[#00111A]">
-      {loading ? (
+      {/* {loading ? (
         <Loader />
-      ) : (
+      ) : ( */}
         <>
           <Banner whyUsRef={whyUsRef} />
           <div style={{ paddingTop: "60px" }}> {/* Adjust paddingTop to ensure content is visible */}
@@ -48,10 +49,11 @@ const MainPage = () => {
             <Technologies />
             <Contact />
             <Blogs />
+            <Faq />
             <Footer />
           </div>
         </>
-      )}
+      {/* )} */}
     </div>
   );
 };

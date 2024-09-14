@@ -14,6 +14,8 @@ import {
   top,
   whyWe,
 } from "./data";
+
+
 import Grow from "../(Components)/Grow";
 import Types from "../(Components)/Types";
 import Inventory from "../(Components)/Inventory";

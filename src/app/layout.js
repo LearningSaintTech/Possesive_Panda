@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}> {/* Apply here */}
       <head>
         {/* Meta tags and scripts */}
       </head>
-      <body className={poppins.className}>
+      <body>
         <NavbarContext.Provider value={{ toggleNavbar }}>
           {showNavbar && <Nav />}
           {children}
