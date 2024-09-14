@@ -1,24 +1,17 @@
 import React from 'react'
-import Banner from '@/app/(Components)/Banner';
-import banner from '../../../assets/banners/Virtual-Assistant-slider.png';
-import Hero from '../(Components)/(Hero)/Hero';
-import Grow from '../(Components)/Grow';
-import Services from '../(Components)/Services';
 import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
 
 import {
-  top,
-  benefits,
-  services,
+
   faq
 } from "./data";
-import Feature from './Feautre';
+
 export const metadata = {
-  title:"Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
-  description : `Hire reliable virtual assistants for all your business needs! From administrative tasks to customer support, our skilled freelancers are ready to help you succeed.`
+  title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
+  description: `Hire reliable virtual assistants for all your business needs! From administrative tasks to customer support, our skilled freelancers are ready to help you succeed.`
 }
 const page = () => {
   return (
@@ -90,6 +83,7 @@ const page = () => {
           })
         }}
       />
+
       <Script
         id="breadcrumb-schema"
         type="application/ld+json"
@@ -126,44 +120,14 @@ const page = () => {
           })
         }}
       />
-      <Banner
-        title={"Virtual Assistant"}
-        desciption={"Expert Virtual Assistants for Seamless Business Success"}
-        page={"Virtual Assistant"}
-      image={banner}
-      />
-      <div className="px-[5.2vw] pt-[5.2vw]">
-        <Hero top={top} />
 
-        <div className="mt-[5.2vw]">
-          <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] w-full sm:w-[45vw]">
-            Benefits of Hiring a Virtual Assistant
-          </h2>
-          <div className="py-[5.2vw] grid sm:grid-cols-4 gap-x-[1.25vw] gap-y-[6vw] sm:gap-y-[3.646vw]">
-            {benefits.map((item, key) => (
-              <Grow data={item} key={key} />
-            ))}
-          </div>
-        </div>
-        <div className="mt-[5.2vw] ">
-          <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
-            Our Features
-          </h3>
-          <Feature />
-        </div>
-      </div>
-      <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-        <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
-          Services We Provide
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
-          {services.map((item, key) => (
-            <Services data={item} key={key} />
-          ))}
-        </div>
-      </div>
+      <NewBanner
+        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
+        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      />
+
       <Faq faq={faq} />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

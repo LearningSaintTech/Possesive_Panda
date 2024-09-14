@@ -1,41 +1,58 @@
-import React from "react";
-import { mainSection } from "./data";
-import Image from "next/image";
+import React from 'react'
 
 const Industries = () => {
-  return (
-    <div className="w-full sm:w-full px-[0vw] py-[2.865vw] sm:px-[14.5vw] sm:py-[2.865vw] sm:bg-[#F1FAFF] relative">
-      <div className="bg-[#212121] rounded-[1.4vw] pl-[5.2vw] sm:pl-[2.9vw] w-full sm:h-auto h-[66.727vw]">
-        <h4 className="text-white text-[3.636vw] sm:text-[2.083vw] font-semibold capitalize leading-[normal] tracking-[0.028rem]  pt-[5.2vw] sm:pt-[4.5vw] mb-[2vw] sm:mb-[1.3vw] w-[252px] sm:w-auto">
-          {mainSection.title}
-        </h4>
-        <p className="text-white text-[3vw] sm:text-[1.25vw] leading-[normal] tracking-[0.017rem] w-full sm:w-[57vw]">
-          {mainSection.description}
-        </p>
-        <div className="flex gap-[7vw] sm:gap-[6vw] mt-[5vw] sm:mt-[2.95vw] text-white text-[2.545vw] sm:text-[1.25vw] leading-[normal] tracking-[0.04rem] pb-[3vw]">
-          <ul className="list-disc pl-[5.455vw] sm:pl-[1.8vw]">
-            {mainSection.list.slice(0, 3).map((item, key) => (
-              <li key={key} className="mb-[2vw]"> 
-                {item}
-              </li>
-            ))}
-          </ul>
-          <ul className="list-disc">
-            {mainSection.list.slice(-3).map((item, key) => (
-              <li key={key} className="mb-[1.8vw]">
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-      <Image
-        src={mainSection.logo}
-        alt="logo"
-        className="absolute bottom-0 w-[29vw] h-[33vw] sm:w-[20.833vw] sm:h-[22vw] right-[3vw] sm:right-[20vw]"
-      />
-    </div>
-  );
-};
+    return (
+        <div className=''>
+            <div className='hidden sm:block px-[5vw] bg-[#00111A] py-[5vw] '>
+                <div className='w-[89.479vw] h-[13.073vw]  bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] inline-flex pt-[3.958vw]'>
+                    <h5 className='opacity-80 text-center text-white text-[1.25vw] font-semibold leading-relaxed'>Industries We Have Worked With</h5>
+                    <div class="justify-start items-center gap-[6.25vw] inline-flex pb-[2vw]">
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>FMCG</p>
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Food and Groceries</p>
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Healthcare</p>
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Real estate</p>
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Hotel</p>
+                        <p className='text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Retails</p>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
 
-export default Industries;
+
+            {/* FOR MOBILE */}
+
+            <div className="sm:hidden bg-[#00111A] py-[60vw]">
+                <div className="w-[100.235vw] h-[87.059vw] pl-[7.294vw] pr-[7.059vw] pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center gap-[7.529vw] inline-flex">
+                    <h1 className="w-[80vw] text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
+                        Industries We Have Worked With
+                    </h1>
+
+                    {/* Cards */}
+                    {[
+                        'FMCG',
+                        'Food and Groceries',
+                        'HealthCare',
+                        'Real estate',
+                        'Hotel',
+                        'Retails',
+                    ].map((industry, index) => (
+                        <div
+                            key={index}
+                            className="w-[57.647vw] h-[18.353vw] px-[5.647vw] py-[7.529vw] bg-[#131d22] rounded-[2.824vw] border border-white flex flex-col justify-center items-center"
+                        >
+                            <p className="opacity-70 text-center text-white text-[4.706vw] font-semibold leading-relaxed">
+                                {industry}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+
+        </div>
+
+    )
+}
+
+export default Industries

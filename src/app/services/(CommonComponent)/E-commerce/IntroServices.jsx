@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import thumbnail from "../../../../public/assets/e-commerce/thumbnail.png"
+import thumbnail from "../../../../../public/assets/services/e-commerce/thumbnail.png"
 
 const IntroServices = () => {
     return (

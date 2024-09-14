@@ -26,7 +26,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/mobile-app/animation.svg" // Update with your image path
+                        src="/assets/services/mobile-app/animation.svg" // Update with your image path
                         alt="Fingertips"
                         width={500}
                         height={300}
@@ -43,7 +43,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/mobile-app/animation.svg" // Update with your image path
+                        src="/assets/services/mobile-app/animation.svg" // Update with your image path
                         alt="Precision"
                         width={500}
                         height={300}
@@ -60,7 +60,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/mobile-app/animation.svg" // Update with your image path
+                        src="/assets/services/mobile-app/animation.svg" // Update with your image path
                         alt="UI/UX"
                         width={500}
                         height={300}
