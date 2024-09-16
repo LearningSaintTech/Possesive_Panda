@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
-
+import Growth from "./Growth";
 
 import Head from 'next/head';
 import Script from 'next/script';
@@ -33,14 +33,14 @@ export const metadata = {
       },
     ],
   },
-  
+
 };
 
 
 const page = () => {
   return (
     <div className="bg-[#00111A]">
-       <Head>
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
@@ -48,7 +48,7 @@ const page = () => {
       </Head>
 
       <Script id="application/ld+json">
-          {`{
+        {`{
          "@context": "https://schema.org",
          "@type": "Organization",
          "name": "Digital Marketing Service",
@@ -57,10 +57,10 @@ const page = () => {
          "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
 
           }`}
-        </Script>
+      </Script>
 
-        <Script id="application/ld+json">
-          {`
+      <Script id="application/ld+json">
+        {`
         {
               "@context": "https://schema.org",
               "@type": "FAQPage",
@@ -96,16 +96,16 @@ const page = () => {
             }
 
           `}
-        </Script>
+      </Script>
 
 
       <NewBanner
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
+      <Growth />
       <Faq faq={faq} />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

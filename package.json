@@ -28,7 +28,8 @@
     "react-use-measure": "^2.1.1",
     "sharp": "^0.33.4",
     "slick-carousel": "^1.8.1",
-    "tailwind": "^4.0.0"
+    "tailwind": "^4.0.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "eslint": "^8",
