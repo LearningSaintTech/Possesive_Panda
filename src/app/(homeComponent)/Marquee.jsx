@@ -84,7 +84,7 @@ const Marquee = () => {
   }, [marqueeWidth]);
 
   return (
-    <div className="hidden sm:block relative overflow-hidden w-full pb-[7.813vw]">
+    <div className="hidden sm:block relative overflow-hidden w-full lg:pb-[7.813vw]">
       <div
         ref={containerRef}
         style={{

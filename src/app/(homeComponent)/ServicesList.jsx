@@ -18,7 +18,7 @@ const ServicesList = () => (
       </h2>
       <Link
         href="/services"
-        className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#00111A] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md lg:mb-0 mb-[8vw] font-medium"
+        className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md lg:mb-0 mb-[8vw] font-medium"
       >
         View Services
         <GoArrowRight className="ml-[0.2vw] size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />

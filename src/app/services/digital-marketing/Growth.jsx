@@ -99,13 +99,13 @@ const Growth = () => {
                     onClick={scrollLeftFunc}
                     className="rounded-full p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
                 >
-                    <FaAngleLeft className="size-[2vw] opacity-100" />
+                    <FaAngleLeft className="size-[1.5vw] opacity-100" />
                 </button>
                 <button
                     onClick={scrollRightFunc}
                     className="rounded-full p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
                 >
-                    <FaAngleRight className="size-[2vw] opacity-80" />
+                    <FaAngleRight className="size-[1.5vw] opacity-80" />
                 </button>
             </div>
         </div>

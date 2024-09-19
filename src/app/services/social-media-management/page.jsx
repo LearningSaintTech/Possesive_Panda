@@ -1,6 +1,7 @@
 import React from "react";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Footer from "../../(Components)/Footer";
+import Models from "../(CommonComponent)/Models";
 
 import {
   faq,
@@ -90,6 +91,7 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
 
+      <Models />
       <Faq faq={faq} />
       <Footer />
     </div>
