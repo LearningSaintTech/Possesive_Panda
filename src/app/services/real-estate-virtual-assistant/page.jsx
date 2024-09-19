@@ -1,37 +1,30 @@
 import React from 'react'
-import Banner from "@/app/(Components)/Banner";
-import banner from "../../../assets/banners/Real-Estate-slider.png"
-import Hero from '../(Components)/(Hero)/Hero';
+import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
 
 import {
-    top,
-    ourRealEstate,
-    benefits,
-    faq
+  faq
 } from './data'
-import OurFeatures from './OurFeatures';
-import Services from '../(Components)/Services';
-import BenefitCard from './BenefitCard';
+
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
 
 export const metadata = {
-    title:' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
-    description : ` Boosting your real estate business is possible. Hire real estate virtual assistants available at a wide range of administrative support & services. Inquire now.`
-  }
-  const page = () => {
-    return (
-      <div>
-  
-        <Head>
+  title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
+  description: ` Boosting your real estate business is possible. Hire real estate virtual assistants available at a wide range of administrative support & services. Inquire now.`
+}
+const page = () => {
+  return (
+    <div className="bg-[#00111A]">
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        </Head>
-        <Script
+      </Head>
+
+      <Script
         id="real-estate-faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -91,7 +84,8 @@ export const metadata = {
           })
         }}
       />
-       <Script
+
+      <Script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -127,46 +121,14 @@ export const metadata = {
           })
         }}
       />
-            <Banner
-                title={"Real Estate Virtual Assistant"}
-                desciption={"Hire A Real Estate Virtual Assistant"}
-                page={"Real Estate"}
-                image={banner}
-            />
-            <div className="px-[5.2vw] pt-[5.2vw]">
-                <Hero top={top} />
-                <div className="mt-[5.2vw] ">
-                    <h3 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem]">
-                        Our Features
-                    </h3>
-                    {/* <div className="flex flex-col sm:flex-row overflow-x-scroll py-[5.2vw] h-fit no-scrollbar">
-            {howWeDevelop.map((feature, key) => (
-              <Features data={feature} key={key} />
-            ))}
-          </div> */}
-                    <OurFeatures />
-                </div>
-            </div>
-            <div className="bg-[rgba(243,252,254,0.5)] py-[4.167vw] px-[5.2vw]">
-                <h2 className="text-[#212121] text-[4.346vw] sm:text-[2.5vw] font-semibold leading-[normal] tracking-[0.03rem] w-[80vw] sm:w-[45vw]">
-                    Our Real Estate Virtual Assistant Services
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3vw] sm:gap-x-[2.1vw] gap-y-[3vw] sm:gap-y-[2.6vw] pt-[5.2vw] pb-[5vw] sm:pb-[3vw]">
-                    {ourRealEstate.map((item, key) => (
-                        <Services data={item} key={key} />
-                    ))}
-                </div>
-                <div className="pt-[5.2vw]">
-                    <h2 className="text-[#212121] text-[4.364vw] sm:text-[2.5vw] font-semibold capitalize leading-[normal] tracking-[0.03rem] mt-[5vw] sm:mt-0 pb-[4.167vw]">
-                        Benefits of Real Estate Virtual Assistant
-                    </h2>
-                    <BenefitCard benefits={benefits} />
-                </div>
-            </div>
-            <Faq faq={faq} />
-            <Footer />
-        </div>
-    )
+      <NewBanner
+        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
+        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      />
+      <Faq faq={faq} />
+      <Footer />
+    </div>
+  )
 }
 
 export default page;

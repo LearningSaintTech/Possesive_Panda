@@ -12,7 +12,7 @@ const Leverage = () => {
 
             <div className='flex flex-row gap-[3.958vw] mt-[2.969vw]'>
                 <div className='flex flex-col  '>
-                    <img src="/assets/mobile-app/Fingertips.svg" alt="Fingertips" className='w-[27.199vw] rounded-[0.648vw] mb-[1.4vw] ' />
+                    <img src="/assets/services/mobile-app/Fingertips.svg" alt="Fingertips" className='w-[27.199vw] rounded-[0.648vw] mb-[1.4vw] ' />
                     <h3 className='text-white text-[1.25vw] font-semibold mb-1 '>
                         Instant Access at Your Fingertips
                     </h3>
@@ -28,11 +28,11 @@ const Leverage = () => {
                     <p className='text-white text-[1.042vw] font-normal mb-[1.4vw]'>
                         Relying solely on websites and web apps? Mobile apps wield unmatched power, tapping directly into device hardware, delivering superior performance, and crafting experiences tailored precisely to user needs.
                     </p>
-                    <img src="/assets/mobile-app/precision.svg" alt="precision" className='w-[27.199vw] rounded-[0.648vw] ' />
+                    <img src="/assets/services/mobile-app/precision.svg" alt="precision" className='w-[27.199vw] rounded-[0.648vw] ' />
                 </div>
 
                 <div className='flex flex-col '>
-                    <img src="/assets/mobile-app/uiux.svg" alt="uiux" className='w-[27.199vw] rounded-[0.648vw] mb-[1.4vw] ' />
+                    <img src="/assets/services/mobile-app/uiux.svg" alt="uiux" className='w-[27.199vw] rounded-[0.648vw] mb-[1.4vw] ' />
                     <h3 className='text-white text-[1.25vw] font-semibold mb-1 '>
                         Elevated Mobile UI/UX
                     </h3>

@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import newmap from '../../../../../public/assets/e-commerce/newmap.png';
+import newmap from "../../../../../public/assets/services/e-commerce/newmap.png"
 
 const Customized = () => {
     const [isExpanded, setIsExpanded] = useState(false);
