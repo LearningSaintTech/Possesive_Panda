@@ -6,11 +6,50 @@ import { FaHandHoldingDollar } from "react-icons/fa6";
 import { BiSolidShoppingBagAlt } from "react-icons/bi";
 import { MdPriceChange } from "react-icons/md";
 
+const leftColumnData = [
+    {
+      icon: <AiOutlineAreaChart  className="w-[5.833vw] h-[5.833vw]" />,
+      title: 'Expanded Reach',
+      description: 'With no limitation of geography, businesses can target worldwide clients to maximize their growth.'
+    },
+    {
+      icon: <HiMiniArrowTrendingDown className="w-[5.833vw] h-[5.833vw]" />,
+      title: 'Cost-Effectiveness',
+      description: 'Online shopping leads to lower expenses by eliminating the need for physical shops and improving margins.'
+    },
+    {
+      icon: <CgInsights className="w-[5.833vw] h-[5.833vw]" />,
+      title: 'Improved Customer Insights',
+      description: 'Offers insightful information on consumer behavior leading to customized marketing campaigns.'
+    }
+  ];
+  
+  const rightColumnData = [
+    {
+      icon: <FaHandHoldingDollar className="w-[5.833vw] h-[5.833vw] text-white" />,
+      title: 'Enhanced Sales and Revenue',
+      description: 'Increasing sales possibilities and revenue growth are the results of streamlining procedures.'
+    },
+    {
+      icon: <BiSolidShoppingBagAlt className="w-[5.833vw] h-[5.833vw]" />,
+      title: 'Convenient Shopping',
+      description: 'The ability for customers to purchase whenever and wherever they choose enhances their level of happiness.'
+    },
+    {
+      icon: <MdPriceChange className="w-[5.833vw] h-[5.833vw]" />,
+      title: 'Product and Price Comparison',
+      description: 'With the plethora of product options available, you can compare and choose the product of your liking.'
+    }
+  ];
+  
+
 const Benefits = () => {
     return (
         <div className="px-[5vw] bg-[#00111A] py-[5vw]">
+
+            {/* FOR WEB */}
             <div className="hidden sm:block">
-                <div className="flex justify-between items-center ">
+                <div className="flex justify-between items-center">
                     <div>
                         <h1 className="w-[30.729vw] text-white text-[2.5vw] font-normal leading-[3.229vw]">
                             Benefits of eCommerce Service and Solutions
@@ -20,7 +59,7 @@ const Benefits = () => {
                         </p>
                     </div>
                     <div>
-                        <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw] ">
+                        <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw]">
                             Get In Touch
                         </button>
                     </div>
@@ -30,86 +69,32 @@ const Benefits = () => {
                 <div className="flex flex-col sm:flex-row justify-between gap-[2vw] mt-8 w-full">
                     {/* Left Column Container */}
                     <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg p-[2vw] w-[48%] text-white space-y-[2.5vw]">
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <AiOutlineAreaChart className="w-[5.833vw] h-[5.833vw]" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Expanded Reach
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    With no limitation of geography, businesses can target worldwide
-                                    clients to maximize their growth.
-                                </p>
+                        {leftColumnData.map((item, index) => (
+                            <div key={index} className="flex items-start space-x-[0.833vw]">
+                                {item.icon}
+                                <div>
+                                    <h3 className="text-white text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
+                                        {item.description}
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <HiMiniArrowTrendingDown className="w-[5.833vw] h-[5.833vw]" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Cost-Effectiveness
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    Online shopping leads to lower expenses by eliminating the need
-                                    for physical shops and improving margins.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <CgInsights className="w-[5.833vw] h-[5.833vw]" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Improved Customer Insights
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    Offers insightful information on consumer behavior leading to
-                                    customized marketing campaigns.
-                                </p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
 
                     {/* Right Column Container */}
                     <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg p-[2vw] w-[48%] text-white space-y-[2.5vw]">
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <FaHandHoldingDollar className="w-[5.833vw] h-[5.833vw] text-white" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Enhanced Sales and Revenue
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    Increasing sales possibilities and revenue growth are the
-                                    results of streamlining procedures.
-                                </p>
+                        {rightColumnData.map((item, index) => (
+                            <div key={index} className="flex items-start space-x-[0.833vw]">
+                                {item.icon}
+                                <div>
+                                    <h3 className="text-white text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
+                                        {item.description}
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <BiSolidShoppingBagAlt className="w-[5.833vw] h-[5.833vw]" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Convenient Shopping
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    The ability for customers to purchase whenever and wherever they
-                                    choose enhances their level of happiness.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-start space-x-[0.833vw]">
-                            <MdPriceChange className="w-[5.833vw] h-[5.833vw]" />
-                            <div>
-                                <h3 className="text-white text-[1.667vw] font-semibold">
-                                    Product and Price Comparison
-                                </h3>
-                                <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
-                                    With the plethora of product options available, you can compare
-                                    and choose the product of your liking.
-                                </p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

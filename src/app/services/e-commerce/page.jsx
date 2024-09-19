@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import NewBanner from "../../(Components)/NewBanner";
 import Faq from '../(Components)/(Faq)/Faq';
@@ -8,47 +9,49 @@ import Partner from '../(CommonComponent)/E-commerce/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
 import Industries from './Industries';
-
 import {
-  faq
+  faq,
+  servicesData,
 } from './data';
-
 import Head from 'next/head';
 import Script from 'next/script';
+import AboutMarquee from '@/app/(Components)/AboutMarquee';
+import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
 
-export const metadata = {
-  title: 'Ecommerce Services | Ecommerce Management Solutions',
-  description: 'Possesive Panda a provider of e-commerce management services. we offer managed ecommerce services, infrastructure management, website development & customer support.',
-  alternates: {
-    canonical: 'https://www.possesivepanda.com/services/e-commerce'
-  },
-  openGraph: {
-    type: 'website',
-    url: 'https://www.possesivepanda.com/services/e-commerce',
-    title: 'Best B2B E-commerce Solutions Platform | E-commerce Website Management Service',
-    description: 'Finding the best B2B e-commerce solutions platform for seamless e-commerce business services. Enhance your business operations with Possesive Panda on top-notch tools and support.',
-    images: [
-      {
-        url: 'https://www.possesivepanda.com/path-to-image.jpg',
-        width: 800,
-        height: 600,
-        alt: 'E-commerce Service Banner',
-      },
-    ],
-  },
+// export const metadata = {
+//   title: 'Ecommerce Services | Ecommerce Management Solutions',
+//   description: 'Possesive Panda a provider of e-commerce management services. we offer managed ecommerce services, infrastructure management, website development & customer support.',
+//   alternates: {
+//     canonical: 'https://www.possesivepanda.com/services/e-commerce'
+//   },
+//   openGraph: {
+//     type: 'website',
+//     url: 'https://www.possesivepanda.com/services/e-commerce',
+//     title: 'Best B2B E-commerce Solutions Platform | E-commerce Website Management Service',
+//     description: 'Finding the best B2B e-commerce solutions platform for seamless e-commerce business services. Enhance your business operations with Possesive Panda on top-notch tools and support.',
+//     images: [
+//       {
+//         url: 'https://www.possesivepanda.com/path-to-image.jpg',
+//         width: 800,
+//         height: 600,
+//         alt: 'E-commerce Service Banner',
+//       },
+//     ],
+//   },
 
-};
+// };
 const Page = () => {
   return (
     <div className="bg-[#00111A]">
-      <Head>
+      {/* <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="canonical" href={metadata.canonical} />
 
-        {/* Open Graph Meta Tags */}
+        
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:title" content={metadata.openGraph.title} />
@@ -60,7 +63,7 @@ const Page = () => {
 
 
 
-      </Head>
+      </Head> */}
       {/* Schema Markup for Breadcrumbs */}
       <Script id="application/ld+json">
         {`
@@ -134,12 +137,16 @@ const Page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <IntroServices />
-      <Customized />
-      <Partner />
       <OurSevices />
+      <IntroServices />
       <Benefits />
+      <Customized />
+      <Partner />            
       <Industries />
+      <CardList/>
+      <div>
+      <ToolsTech/>
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>
