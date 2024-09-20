@@ -26,6 +26,8 @@ const faq = [
   },
 ];
 
+// arya data dynamic
+
 const growthData = {
   heading: "Our Web Application Development Process",
   description:

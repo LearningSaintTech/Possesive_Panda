@@ -1,3 +1,5 @@
+import dynamic from "next/dynamic";
+
 const faq = [
   {
     title: `How does SEO work?`,
@@ -29,6 +31,7 @@ const faq = [
   },
 ];
 
+// arya data dynamic
 const whyData = {
   mainHeading: "Why Choose Possesive Panda as Your SEO Service Partner?",
   subText1: "Possesive Panda is not your average SEO Services and Solution Provider.",
@@ -48,6 +51,8 @@ const whyData = {
     { title: "Prompt completion of the project" },
   ],
 };
+
+
 
 export {
   faq,
