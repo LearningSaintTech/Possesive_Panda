@@ -1,10 +1,9 @@
-"use client"; // Mark this as a Client Component
+"use client";
 
 import React, { useRef } from 'react';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-const Growth = () => {
-    const scrollContainerRef = useRef(null); // Reference for the scroll container
+const Growth = ({ heading, description, cards }) => {    const scrollContainerRef = useRef(null);
 
     const scrollLeftFunc = () => {
         if (scrollContainerRef.current) {
@@ -18,53 +17,14 @@ const Growth = () => {
         }
     };
 
-    const cards = [
-        {
-            id: 1,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-        {
-            id: 2,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-        {
-            id: 3,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-        {
-            id: 4,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-        {
-            id: 5,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-        {
-            id: 6,
-            title: 'Enhanced Brand Visibility',
-            category: 'Online Presence',
-            description: 'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.'
-        },
-    ];
-
     return (
         <div className='flex flex-col  px-[5.208vw] py-[6.25vw] relative'>
             <div className='flex justify-between'>
                 <h2 className='text-white text-[2.5vw] font-medium w-[35.052vw]'>
-                    Impact of Digital Marketing on Business Growth
+                    {heading}
                 </h2>
-                <p className='text-white text-[1.25vw] font-light leading-[185%] text-right w-[36.719vw]'>
-                    Digital marketing services enable companies of all sizes to effectively promote their brands, broaden market reach, and offer products and services to target customers.
+                <p className='text-white text-[1.25vw] font-light leading-[185%] text-right w-[39vw]'>
+                    {description}
                 </p>
             </div>
 

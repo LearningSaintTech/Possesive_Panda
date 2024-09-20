@@ -5,13 +5,16 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import IntroServices from '../(CommonComponent)/E-commerce/IntroServices';
 import Customized from '../(CommonComponent)/E-commerce/Customized';
-import Partner from '../(CommonComponent)/E-commerce/Partner';
+import Partner from '../(CommonComponent)/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
 import Industries from './Industries';
+
 import {
   faq,
+  introServicesData,
   servicesData,
+  titleData,
 } from './data';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -138,15 +141,17 @@ const Page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <OurSevices />
-      <IntroServices />
-      <Benefits />
-      <Customized />
-      <Partner />            
-      <Industries />
-      <CardList/>
       <div>
-      <ToolsTech/>
+        <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
+      <Benefits />
+      <div>
+        <Partner heading={titleData.heading}  title={titleData.title} />
+      </div>
+      <Customized />
+      <ToolsTech />
+      {/* <CardList /> */}
+      <Industries />
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -5,9 +5,12 @@ import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
 import BulbAnimation from '../(CommonComponent)/BulbAnimation';
+import Partner from '../(CommonComponent)/Partner';
+
 
 import {
-  faq
+  faq,
+  titleData,
 } from "./data";
 
 export const metadata = {
@@ -124,8 +127,10 @@ const page = () => {
       <NewBanner
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
-      />    
-
+      />
+      <div>
+        <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
+      </div>
       <BulbAnimation />
       <Faq faq={faq} />
       <Footer />
