@@ -109,6 +109,45 @@ module.exports = {
       filter: ["responsive", "hover"],
     },
   },
+
+  theme: {
+    extend: {
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'slide-up': {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'slide-down': {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 0.7s ease-in-out',
+        'slide-up': 'slide-up 0.7s ease-in-out',
+        'slide-down': 'slide-down 0.7s ease-in-out',
+      },
+    },
+  },
+
+  // tailwind.config.js
+  theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-custom': 'linear-gradient(180deg, #2A2A2A 0%, rgba(0, 17, 26, 0.00) 100%)',
+      },
+      opacity: {
+        '10': '0.1',
+      },
+    },
+  },
+
+
+
   plugins: [
     require("tailwind-scrollbar"),
     function ({ addUtilities }) {

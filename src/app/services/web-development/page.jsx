@@ -2,9 +2,11 @@ import React from "react";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
+import Growth from "../(CommonComponent)/Growth";
 
 import {
   faq,
+  growthData,
 } from "./data";
 
 import Head from 'next/head';
@@ -13,8 +15,8 @@ import Head from 'next/head';
 export const metadata = {
   title: 'Website Development Service Company | Top Website Design Services',
   description: ' Leading website development service company providing top custom website design services. Elevate your online presence with our expert and innovative web solutions.',
- 
-  
+
+
 };
 const page = () => {
   return (
@@ -26,14 +28,17 @@ const page = () => {
         <meta name="description" content={metadata.description} />
       </Head>
 
-
       <NewBanner
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
 
+      <div>
+        <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
+      </div>
+
       <Faq faq={faq} />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

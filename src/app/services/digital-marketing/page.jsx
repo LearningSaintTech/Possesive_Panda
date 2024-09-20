@@ -2,13 +2,14 @@ import React from "react";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
-import Growth from "./Growth";
+import Growth from "../(CommonComponent)/Growth";
 
 import Head from 'next/head';
 import Script from 'next/script';
 
 import {
   faq,
+  growthData,
 } from "./data";
 
 
@@ -103,7 +104,9 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <Growth />
+      <div>
+        <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -16,7 +16,7 @@
     "inflight": "^1.0.6",
     "latest": "^0.2.0",
     "lru-cache": "^11.0.0",
-    "next": "14.2.3",
+    "next": "^14.2.12",
     "nodemailer": "^6.9.14",
     "possesive_panda": "file:",
     "react": "^18",

@@ -42,7 +42,7 @@ const Technologies = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 w-full sm:mt-[6.656vw] mt-[10vw]">
+      <div className="grid grid-cols-2 md:grid-cols-5 w-full lg:mt-[6.656vw] md:mt-4 mt-[10vw]">
         {data.map((icon, key) => (
           <div
             key={key}

@@ -5,10 +5,11 @@ import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
 import Improve from './Improve';
-import Why from './Why';
+import Why from '../(CommonComponent)/Why';
 
 import {
   faq,
+  whyData,
 } from "./data";
 
 export const metadata = {
@@ -121,8 +122,16 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <Improve />
-      <Why />
-      <Faq faq={faq} />
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>      <Faq faq={faq} />
       <Footer />
     </div>
   )
