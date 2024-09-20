@@ -18,6 +18,7 @@ import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
 import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import OurWeb from '../(CommonComponent)/OurWeb';
 
 // export const metadata = {
 //   title: 'Ecommerce Services | Ecommerce Management Solutions',
@@ -143,7 +144,8 @@ const Page = () => {
       <Customized />
       <Partner />            
       <Industries />
-      <CardList/>
+      {/* <CardList/> */}
+      <OurWeb/>
       <div>
       <ToolsTech/>
       </div>
