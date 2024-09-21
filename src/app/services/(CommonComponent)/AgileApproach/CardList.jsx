@@ -3,45 +3,7 @@ import Card from "./Card";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 
-const cardData = [
-    {
-        title: "Initial Mapping",
-        step: "Step 1",
-        description: "For better client satisfaction, understanding clients requirements is necessary. To facilitate this, we conduct client meetings in which all the wants and needs are discussed and planned.",
-    },
-    {
-        title: "Web Designing & Development",
-        step: "Step 2",
-        description: "This stage necessitates custom eCommerce website design and development, keeping user-friendliness, responsiveness, intuitive navigation, and high-converting product page stores in mind.",
-    },
-    {
-        title: "Payment Processing",
-        step: "Step 3",
-        description: "At this stage, the integration of secure payment gateways is done to facilitate smooth transactions, offering various payment methods and options to cater to customer preferences.",
-    },
-    {
-        title: "Logistics and Shipping",
-        step: "Step 4",
-        description: "This stage solely deals with managing logistics involving order fulfillment, shipping, and returns. We have a tie with shipping carriers to ensure timely delivery, and we offer real-time order tracking.",
-    },
-    {
-        title: "Digital Marketing",
-        step: "Step 5",
-        description: "At this stage, we focus on establishing your eCommerce brand as a pioneer on the internet and maximizing the traffic and sales via audience engagement, including services like PPC and SEO, advertising, SMM, etc.",
-    },
-    {
-        title: "Customer Support",
-        step: "Step 6",
-        description: "This stage facilitates the 24/7 customer support services, including live chat and multichannel support, to assist customers with their queries and inquiries to enhance customer satisfaction.",
-    },
-    {
-        title: "Maintenance and Support",
-        step: "Step 7",
-        description: "Last but not least, we provide ongoing support and maintenance to ensure that your eCommerce platform remains functional, updated, and secure with cutting edge technology and industry best practices.",
-    },
-];
-
-const CardList = () => {
+const CardList = ({ cardData, cardList }) => {
     const [hoveredIndex, setHoveredIndex] = useState(0);
     const scrollContainerRef = useRef(null);
     const [isDragging, setIsDragging] = useState(false);
@@ -129,13 +91,13 @@ const CardList = () => {
         <div className="px-[7.059vw] sm:px-[5.208vw] bg-[#00111A] sm:rounded-[5.172vw] shadow-inner relative">
             <div className="flex flex-col gap-[3.765vw] sm:gap-[1.25vw] items-center justify-center">
                 <h5 className="text-center text-[#00aff1] text-[3.765vw] sm:text-[1.136vw] sm:font-semibold sm:leading-[1.759vw]">
-                    Agile Approach
+                    {cardList.subHeading}
                 </h5>
                 <h5 className="text-center text-[#fbfbfc] text-[7.529vw] sm:w-[46.51vw] sm:text-[3.504vw] font-semibold sm:font-medium leading-tight sm:leading-[4.104vw]">
-                    Our eCommerce Services Delivery Process
+                    {cardList.heading}
                 </h5>
                 <p className="text-center text-[#b9babf] text-[3.765vw] sm:text-[1.25vw] font-light sm:leading-[2.345vw] sm:w-[57vw]">
-                    With Possessive Panda’s eCommerce Services, we aim to deliver exemplary experiences that will have a long-lasting impression on our clients and their customers.
+                    {cardList.paragraph}
                 </p>
             </div>
 
