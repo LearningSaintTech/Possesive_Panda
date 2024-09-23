@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "./(Components)/(NavBar)/Nav";
 import { createContext, useContext, useState, useCallback } from "react";
+import Icon from "./(Components)/(Input Form)/Icon";
+
 
 const poppins = Poppins({
   subsets: ["latin", "latin-ext"],
@@ -33,6 +35,8 @@ export default function RootLayout({ children }) {
           {showNavbar && <Nav />}
           {children}
         </NavbarContext.Provider>
+        <Icon />
+
       </body>
     </html>
   );
