@@ -20,6 +20,11 @@ import {
   introServicesData,
   servicesData,
   titleData,
+  servicesData22,
+  iconMapping1,
+  ourService,
+  cardData,
+cardList,
   paragraphs,
   buttonData,
   sectionContent,
@@ -36,6 +41,9 @@ import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
 import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import OurWeb from '../(CommonComponent)/OurWeb';
+import IndustriesWe from '../(CommonComponent)/IndustriesWe';
+
 import Strategies from '../(CommonComponent)/Strategies';
 
 // export const metadata = {
@@ -156,14 +164,14 @@ const Page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
-      <OurSevices />
+      <OurSevices   iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading}  />
       <div>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
 
 
       <Benefits />
+      <IndustriesWe/>
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
@@ -176,7 +184,7 @@ const Page = () => {
 <Platforms platformsData={platformsData}/>
       <Customized />
       <ToolsTech />
-      {/* <CardList /> */}
+      {/* <CardList  cardData={cardData} cardList={cardList} /> */}
       <Industries />
       <Faq faq={faq} />
       <Footer />
