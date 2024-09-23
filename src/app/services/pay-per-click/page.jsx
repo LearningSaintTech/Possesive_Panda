@@ -147,18 +147,19 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <BulbAnimation />
+      <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
       <div>
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
       </div>
-      <BulbAnimation />
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? "/>
-     <NewContact/>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
       <div>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
+      <NewContact />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
+
       <Faq faq={faq} />
       <Footer />
     </div>

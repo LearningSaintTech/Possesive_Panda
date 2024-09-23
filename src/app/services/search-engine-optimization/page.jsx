@@ -27,6 +27,8 @@ import {
   cardList,
   cardData,
 } from "./data";
+import Industries from './Industries';
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: "Best SEO Services | SEO Service Provider Company",
@@ -140,7 +142,11 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
+      <HoverImageComp hoverImageData={hoverImageData} />
       <Improve />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <ToolTech />
+
       <div>
         <Why
           mainHeading={whyData.mainHeading}
@@ -151,24 +157,16 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-
-      <ToolTech />
       <div className='mt-[10vw]'>
         <Marquee />
       </div>
       <div>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-
-      <HoverImageComp hoverImageData={hoverImageData} />
+      <Industries />
+      <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-
-
-
-
-
-         <Faq faq={faq} />
+      <Faq faq={faq} />
       <Footer />
     </div>
   )

@@ -10,6 +10,7 @@ import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
+import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
 
 import {
 
@@ -151,8 +152,8 @@ const page = () => {
       </div>
       <HoverImageComp hoverImageData={hoverImageData} />
 
-{/* adi Components */}
-{/* harsh component 24*7 */}
+      <WhyChoose />
+      {/* harsh component 24*7 */}
 
       <NewContact />
       <div>

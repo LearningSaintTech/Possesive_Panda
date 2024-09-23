@@ -111,6 +111,17 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
+      <div>
+        <Models modelData={modelData} />
+      </div>
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
@@ -124,23 +135,16 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div>
-        <Mobile
-          heading={mobileData.heading}
-          sideImage={mobileData.sideImage}
-          paragraphs={mobileData.paragraphs}
-        />
-      </div>
-      <div>
-        <Models modelData={modelData} />
-      </div>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <NewContact/>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      
+      
 
       <div className='mt-[10vw]'>
         <Marquee />
       </div>
+      <NewContact/>
+
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <Faq faq={faq} />
       <Footer />
     </div>

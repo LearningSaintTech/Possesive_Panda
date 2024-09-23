@@ -306,7 +306,7 @@ const servicesData22 = [
 
 const cardList ={
   subHeading: "Agile Approach",
-  heading: "Our SEO Process",
+  heading: "SEO Services Delivery Approach",
   paragraph: "We have crafted an SEO services and solutions delivery process, keeping client satisfaction and result-oriented outcomes in mind.",
 }
 

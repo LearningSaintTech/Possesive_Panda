@@ -9,6 +9,7 @@ import OurServices from "../(CommonComponent)/OurSevices"
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
 import ToolsTech from "../(CommonComponent)/ToolsTech";
 import Marquee from "../../(homeComponent)/Marquee";
+import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 
 import {
   faq,
@@ -152,6 +153,7 @@ const page = () => {
         <Marquee />
       </div>
       <Platforms platformsData={platformsData} />
+      <IndustriesWe />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Faq faq={faq} />
