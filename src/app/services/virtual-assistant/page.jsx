@@ -3,7 +3,8 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
-
+import ServicesVa from './ServicesVa';
+import NewBanner from '@/app/(Components)/NewBanner';
 import {
 
   faq
@@ -125,7 +126,7 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
+      <ServicesVa />
       <Faq faq={faq} />
       <Footer />
     </div>

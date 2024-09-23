@@ -3,14 +3,19 @@ import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Growth from "../(CommonComponent)/Growth";
-
+import OurSevices from '../(CommonComponent)/OurSevices';
+import ToolsTech from '../(CommonComponent)/ToolsTech';
 import Head from 'next/head';
 import Script from 'next/script';
 
 import {
   faq,
   growthData,
+  iconMapping1,
+  ourService,
+  servicesData22,
 } from "./data";
+import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 
 
 
@@ -105,8 +110,13 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
+      <ToolsTech/>
+      <IndustriesWe/>
       <Faq faq={faq} />
       <Footer />
     </div>

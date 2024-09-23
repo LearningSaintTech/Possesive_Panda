@@ -2,9 +2,18 @@ import React from "react";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
+import OurServices from "../(CommonComponent)/OurSevices"
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import ToolsTech from "../(CommonComponent)/ToolsTech";
+import Marquee from "../../(homeComponent)/Marquee";
 
 import {
   faq,
+  ourService,
+  servicesData22,
+  iconMapping1,
+  cardList,
+  cardData,
 } from "./data";
 
 import Head from 'next/head';
@@ -107,7 +116,16 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
+      <div>
+        <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
+      <ToolsTech/>
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

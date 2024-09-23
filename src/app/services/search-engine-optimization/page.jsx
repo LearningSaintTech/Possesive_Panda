@@ -6,10 +6,18 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Improve from './Improve';
 import Why from '../(CommonComponent)/Why';
-
+import OurSevices from '../(CommonComponent)/OurSevices';
+import ToolTech from '../(CommonComponent)/ToolsTech';
+import Marquee from "../../(homeComponent)/Marquee";
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
 import {
   faq,
   whyData,
+  ourService,
+  servicesData22,
+  iconMapping1,
+  cardList,
+  cardData,
 } from "./data";
 
 export const metadata = {
@@ -121,6 +129,9 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
       <Improve />
       <div>
         <Why
@@ -131,7 +142,15 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-      </div>      <Faq faq={faq} />
+      </div>
+      <ToolTech />
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
+      <div>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
+      <Faq faq={faq} />
       <Footer />
     </div>
   )

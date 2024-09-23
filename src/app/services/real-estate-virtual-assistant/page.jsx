@@ -2,9 +2,14 @@ import React from 'react'
 import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
-
+import OurSevices from '../(CommonComponent)/OurSevices';
+import Marquee from "../../(homeComponent)/Marquee";
+import WhyChoose from "./WhyChoose";
 import {
-  faq
+  faq,
+  ourService,
+  servicesData22,
+  iconMapping1,
 } from './data'
 
 import Faq from '../(Components)/(Faq)/Faq';
@@ -125,6 +130,13 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
+      <WhyChoose/>
       <Faq faq={faq} />
       <Footer />
     </div>

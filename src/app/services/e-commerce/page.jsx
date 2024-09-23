@@ -19,7 +19,7 @@ import {
   iconMapping1,
   ourService,
   cardData,
-cardList,
+  cardList,
 } from './data';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -148,18 +148,21 @@ const Page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <OurSevices   iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading}  />
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
       <div>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
       <Benefits />
-      <IndustriesWe/>
       <div>
-        <Partner heading={titleData.heading}  title={titleData.title} />
+        <Partner heading={titleData.heading} title={titleData.title} />
       </div>
       <Customized />
       <ToolsTech />
-      {/* <CardList  cardData={cardData} cardList={cardList} /> */}
+      <div>
+      <CardList cardData={cardData} cardList={cardList} />
+      </div>
       <Industries />
       <Faq faq={faq} />
       <Footer />
