@@ -26,13 +26,9 @@ import {
   testimonialsData,
 } from "./data";
 
-<<<<<<< HEAD
-import Head from 'next/head';
 import NewContact from "../(CommonComponent)/NewContact";
-=======
 import OurWeb from "../(CommonComponent)/OurWeb";
 import OurEngagement from "./OurEngagement";
->>>>>>> 03682dbfac78c55bc9a05eb5c7268e1e1fe5a7e6
 
 
 export const metadata = {

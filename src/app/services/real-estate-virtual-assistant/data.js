@@ -74,6 +74,90 @@ const testimonialsData = [
       text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
   },
   {
+    name: "Carlos T.",
+    role: "Founder of Gadget Galaxy",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+},
+{
+  name: "Mia S.",
+  role: "Director of Luxe Living",
+  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+},
+];
+ const headingdata={
+
+      //testimonials
+      heading:" What our clients have to say",
+      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
+
+
+
+};
+const hoverImageData = {
+  text: {
+    subheading: "Thrive on Your Real Estate ",
+    heading: "Business with Possesive Panda ",
+    description:
+      "The greatest help and support should be provided to all real estate businesses so that realtors like you can concentrate more on their areas of expertise. Hire Possesive Panda’s Real Estate Virtual Assistants to get started right now!",
+  },
+  images: {
+    
+      image1: img1,
+     
+    
+    
+        image2: img2,
+     
+   
+        image3: img3,
+    
+    },
+  };
+const iconMapping1 = {
+  GrSettingsOption: <GrSettingsOption />,
+  PiTimerBold: <PiTimerBold />,
+  IoMdGitMerge: <IoMdGitMerge />,
+  RiSeoLine: <RiSeoLine />,
+  FaRegFile: <FaRegFile />,
+  BiCubeAlt: <BiCubeAlt />,
+  VscCircuitBoard: <VscCircuitBoard />,
+  IoEarthOutline: <IoEarthOutline />,
+  BsGraphUp: <BsGraphUp />,
+  FaIoxhost: <FaIoxhost />,
+  SiCoinmarketcap: <SiCoinmarketcap />,
+  SiGooglemarketingplatform: <SiGooglemarketingplatform />,
+};
+
+
+
+
+const ourService = {
+  heading: "Our Real Estate Virtual Assistant Services ",
+  subHeading:
+    "We offer real estate virtual assistants of various sorts for every realtor who wants to grow his/her business. With this wide range of virtual assistant services, we focus on client satisfaction and ensure your overall business success. ",
+};
+const servicesData22 = [
+  {
+    line: 1,
+    services: [
+      {
+        icon: "GrSettingsOption",
+        title: "Real Estate Research",
+        description: "Our Real Estate virtual assistants offer property research and listing research for various types of properties, including retail, residence, and commercial, to improve market insights.",
+      },
+      {
+        icon: "PiTimerBold",
+        title: "Lead Generation",
+        description: "Your virtual assistant for real estate will screen and track leads to maximize productivity and increase the chances of closing deals.",
+      },
+      {
+        icon: "IoMdGitMerge",
+        title: "Property Listings",
+        description: "Our Virtual Assistance's Property Listing service provides comprehensive property information, updated by virtual assistants who upload and remove duplicate entries to enhance leads and data quality.",
+      },
+    ],
+  },
+  {
     line: 2,
     services: [
       {
