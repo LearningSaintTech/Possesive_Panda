@@ -5,18 +5,24 @@ import Script from 'next/script';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Mobile from '../(CommonComponent)/Mobile';
-
+import OurSevices from '../(CommonComponent)/OurSevices';
+import Marquee from "../../(homeComponent)/Marquee";
+import WhyChoose from "./WhyChoose";
 import {
   faq,
   mobileData,
   testimonialsData,
   headingdata,
   hoverImageData
-
+,
+  ourService,
+  servicesData22,
+  iconMapping1,
 } from './data'
 
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
@@ -141,8 +147,16 @@ const page = () => {
         />
       </div>
       <HoverImageComp hoverImageData={hoverImageData} />
+      <NewContact/>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
+      <WhyChoose/>
       <Faq faq={faq} />
       <Footer />
     </div>

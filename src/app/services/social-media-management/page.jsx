@@ -6,6 +6,8 @@ import Growth from "../(CommonComponent)/Growth";
 import Why from "../(CommonComponent)/Why";
 import Mobile from "../(CommonComponent)/Mobile"; import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
+import OurSevices from '../(CommonComponent)/OurSevices';
+import Marquee from "../../(homeComponent)/Marquee";
 
 import {
   faq,
@@ -16,11 +18,15 @@ import {
   testimonialsData,
   paragraphs,
   buttonData,
+  ourService,
+  servicesData22,
+  iconMapping1,
   modelData,
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
 import Script from 'next/script';
+import NewContact from "../(CommonComponent)/NewContact";
 
 export const metadata = {
   title: 'Social Media Management Agency | Top Social Media Management Services',
@@ -103,6 +109,9 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
       <div>
@@ -126,8 +135,12 @@ const page = () => {
         <Models modelData={modelData} />
       </div>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

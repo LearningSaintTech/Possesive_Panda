@@ -2,6 +2,19 @@ import img1 from '../../../../public/assets/image_1821.svg';
 import img2 from '../../../../public/assets/image_1822.svg';
 import img3 from '../../../../public/assets/image.svg';
 
+import { IoMdGitMerge } from "react-icons/io";
+import { GrSettingsOption } from "react-icons/gr";
+import { PiTimerBold } from "react-icons/pi";
+import { RiSeoLine } from "react-icons/ri";
+import { FaRegFile } from "react-icons/fa";
+import { BiCubeAlt } from "react-icons/bi";
+import { VscCircuitBoard } from "react-icons/vsc";
+import { IoEarthOutline } from "react-icons/io5";
+import { BsGraphUp } from "react-icons/bs";
+import { FaIoxhost } from "react-icons/fa6";
+import { SiCoinmarketcap } from "react-icons/si";
+import { SiGooglemarketingplatform } from "react-icons/si";
+
 const faq = [
   {
     title: "What is a real estate  Virtual Assistant?",
@@ -16,7 +29,8 @@ const faq = [
     description: `Your real estate Virtual assistant can handle all the tasks you assign. These include listing properties, managing tasks, managing emails, scheduling appointments, lead generation, data entry, and more.`,
   },
   {
-    title: "How do I hire the right real estate virtual assistant for my business?",
+    title:
+      "How do I hire the right real estate virtual assistant for my business?",
     description: `We hire great employees who can work smartly and efficiently without much supervision. With our virtual assistant, you do not have to deal with a hiring process.`,
   },
   {
@@ -24,7 +38,8 @@ const faq = [
     description: `Yes, virtual assistants can manage social media accounts, create marketing campaigns, and implement digital marketing strategies.`,
   },
   {
-    title: "How do I check the performance of my real estate virtual assistant?",
+    title:
+      "How do I check the performance of my real estate virtual assistant?",
     description: `We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project.`,
   },
 ];
@@ -59,48 +74,46 @@ const testimonialsData = [
       text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
-];
- const headingdata={
-
-      //testimonials
-      heading:" What our clients have to say",
-      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
-
-
-
-};
-const hoverImageData = {
-  text: {
-    subheading: "Thrive on Your Real Estate ",
-    heading: "Business with Possesive Panda ",
-    description:
-      "The greatest help and support should be provided to all real estate businesses so that realtors like you can concentrate more on their areas of expertise. Hire Possesive Panda’s Real Estate Virtual Assistants to get started right now!",
+    line: 2,
+    services: [
+      {
+        icon: "RiSeoLine",
+        title: "Setup 3D Tours",
+        description: "To be with the trend and cutting edge technologies, our real estate virtual assistant services also offer seting up of 3D tours of assorted properties like residential, commercial, hotel, and more.",
+      },
+      {
+        icon: "FaRegFile",
+        title: "Expenses Management",
+        description: "Possesive Panda offers real estate assistants the expertise to maintain accurate and organized expense records, bills, reimbursements, and payments.",
+      },
+      {
+        icon: "BiCubeAlt",
+        title: "Appointment Scheduling ",
+        description: "Possesive Panda offers virtual assistant services for real estate, streamlining workflows by handling emails, meetings, client interactions, and maintaining a calendar to ensure important information is not missed.",
+      },
+    ],
   },
-  images: {
-    
-      image1: img1,
-     
-    
-    
-        image2: img2,
-     
-   
-        image3: img3,
-    
-    },
-  };
+  {
+    line: 3,
+    services: [
+      {
+        icon: "VscCircuitBoard",
+        title: "Manage Bids",
+        description: "Our real estate virtual assistants focus on managing online and offline bids for you so that you can invest your time and money at the right time and in the right place.",
+      },
+      {
+        icon: "IoEarthOutline",
+        title: "Manage Social Media Presence",
+        description: "Possesive Panda offers a variety of virtual assistant services to make sure your business can grow and reach your potential customers. Leverage our SMM VA(s) for better digital presence. ",
+      },
+    ],
+  },
+];
 
-export {
-  faq,
+export { faq, 
+  ourService, 
+  servicesData22, 
+  iconMapping1,
   testimonialsData,
   headingdata,
   hoverImageData,

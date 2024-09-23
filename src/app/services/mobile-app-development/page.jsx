@@ -8,6 +8,8 @@ import Strategies from '../(CommonComponent)/Strategies';
 import Solutions from '../(CommonComponent)/Solutions';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Clients from '../(CommonComponent)/Clients';
+import OurServices from "../(CommonComponent)/OurSevices"
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
 
 
 import {
@@ -19,11 +21,18 @@ import {
   headingdata,
   testimonialsData,
 
+  ourService,
+  servicesData22,
+  iconMapping1,
+  cardList,
+  cardData,
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
 import { smallfaqimage } from './images';
+import IndustriesWe from "../(CommonComponent)/IndustriesWe";
+import NewContact from "../(CommonComponent)/NewContact";
 
 export const metadata = {
   title: ' Mobile App Development Company | Application Development Services ',
@@ -50,15 +59,22 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
+      <div>
+        <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
       <Leverage />
       <Tech />
       <Iphone />
       <Strategies StrategyData={StrategyData} />
+      <NewContact/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
 
+      <IndustriesWe />
+      <div>
+      <CardList cardData={cardData} cardList={cardList} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

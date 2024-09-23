@@ -3,10 +3,12 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
+import ServicesVa from './ServicesVa';
+import NewBanner from '@/app/(Components)/NewBanner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
-import NewBanner from "../../(Components)/NewBanner";
+
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 
 import {
@@ -20,6 +22,7 @@ import {
   hoverDivData,
 
 } from "./data";
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -137,8 +140,11 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+           <ServicesVa />
       <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
+
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <div>
         <Hoverdiv

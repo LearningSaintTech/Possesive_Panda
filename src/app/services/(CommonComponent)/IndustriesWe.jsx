@@ -1,9 +1,12 @@
+"use client"
+
+
 import React, { useState, useEffect } from 'react';
 
 const IndustriesWe = () => {
     const industries = [
         ['Healthcare', 'Finance', 'Logistics', 'eCommerce', 'Real Estate'],
-        ['Manufacturing', 'Education', 'Technology', 'Automotive', 'Retail'],
+        ['Social Networking', 'Entertainment', 'Education', 'Travel', 'Finance'],
     ]; // Two groups of industries for sliding
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -17,7 +20,7 @@ const IndustriesWe = () => {
     useEffect(() => {
         const slideInterval = setInterval(() => {
             setCurrentSlide((prev) => (prev === industries.length - 1 ? 0 : prev + 1));
-        }, 3000); // 5 seconds interval for the auto-slide
+        }, 4000); // 4 seconds interval for the auto-slide
 
         return () => clearInterval(slideInterval); // Clean up the interval on component unmount
     }, [industries.length]);
@@ -27,7 +30,7 @@ const IndustriesWe = () => {
             <div className=' px-[5.208vw] py-[5vw]'>
                 <div className='hidden sm:block w-[89.479vw] py-[3.5vw] bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw]  pt-[3.958vw]'>
                     <h5 className='opacity-80 text-center text-white text-[1.25vw] font-semibold leading-relaxed'>
-                        Industries We Cater
+                        Industries We Cater To
                     </h5>
 
                     {/* Industries Display */}
@@ -58,13 +61,13 @@ const IndustriesWe = () => {
             <div className="sm:hidden bg-[#00111A] py-[60vw] px-[7.059vw] ">
                 <div className="pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center">
                     <h1 className=" text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
-                        Industries We Have Worked With
+                        Industries We Cater To
                     </h1>
 
                     {/* Cards */}
                     <div className="grid grid-cols-2 gap-[3.529vw] pt-[10.353vw] justify-center items-center">
                         {[
-                            'Healthcare', 'Finance', 'Logistics', 'eCommerce', 'Real Estate', 'Manufacturing', 'Education', 'Technology', 'Automotive', 'Retail'
+                            'Healthcare', 'Finance', 'Logistics', 'eCommerce', 'Real Estate', 'Social Networking', 'Entertainment', 'Education', 'Travel', 'Finance'
                         ].map((industry, index) => (
                             <div
                                 key={index}

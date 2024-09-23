@@ -3,6 +3,8 @@ import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Growth from "../(CommonComponent)/Growth";
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
+import OurSevices from '../(CommonComponent)/OurSevices';
+import ToolsTech from '../(CommonComponent)/ToolsTech';
 import Head from 'next/head';
 import Script from 'next/script';
 import Solutions from "../(CommonComponent)/Solutions";
@@ -19,9 +21,13 @@ import {
   servicesData1,
   hoverImageData,
   testimonialsData,
-  headingdata
+  headingdata,
+  iconMapping1,
+  ourService,
+  servicesData22,
 } from "./data";
 import {smallfaqimage} from './images';
+import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 
 
 
@@ -116,8 +122,13 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
+      <ToolsTech/>
+      <IndustriesWe/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
 <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />

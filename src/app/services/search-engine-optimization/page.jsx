@@ -9,7 +9,10 @@ import Why from '../(CommonComponent)/Why';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
-
+import OurSevices from '../(CommonComponent)/OurSevices';
+import ToolTech from '../(CommonComponent)/ToolsTech';
+import Marquee from "../../(homeComponent)/Marquee";
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
 import {
   faq,
   whyData,
@@ -17,7 +20,12 @@ import {
   buttonData,
   hoverImageData,
   headingdata,
-  testimonialsData
+  testimonialsData,
+  ourService,
+  servicesData22,
+  iconMapping1,
+  cardList,
+  cardData,
 } from "./data";
 
 export const metadata = {
@@ -129,6 +137,9 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
       <Improve />
       <div>
         <Why
@@ -140,10 +151,24 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
+
+      <ToolTech />
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
+      <div>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
+
       <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-      <Faq faq={faq} />
+
+
+
+
+
+         <Faq faq={faq} />
       <Footer />
     </div>
   )
