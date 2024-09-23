@@ -8,7 +8,7 @@ import NewBanner from '@/app/(Components)/NewBanner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
-
+import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 
 import {
@@ -140,11 +140,7 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-           <ServicesVa />
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <NewContact/>
-
+      <ServicesVa />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <div>
         <Hoverdiv
@@ -153,6 +149,19 @@ const page = () => {
           modelData={hoverDivData.models}
         />
       </div>
+      <HoverImageComp hoverImageData={hoverImageData} />
+
+{/* adi Components */}
+{/* harsh component 24*7 */}
+
+      <NewContact />
+      <div>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
+        <Marquee />
+      </div>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
+
       <Faq faq={faq} />
       <Footer />
     </div>
