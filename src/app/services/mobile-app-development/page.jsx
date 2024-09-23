@@ -10,7 +10,7 @@ import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Clients from '../(CommonComponent)/Clients';
 import OurServices from "../(CommonComponent)/OurSevices"
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
-
+import ToolsTech from '../(CommonComponent)/ToolsTech';
 
 import {
   faq,
@@ -62,19 +62,21 @@ const page = () => {
       <div>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Leverage />
-      <Tech />
-      <Iphone />
       <Strategies StrategyData={StrategyData} />
-      <NewContact/>
+      <Leverage />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
+      <Iphone />
       <IndustriesWe />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <div>
       <CardList cardData={cardData} cardList={cardList} />
       </div>
+      <ToolsTech />
+      <Tech />
+      <NewContact/>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
+
       <Faq faq={faq} />
       <Footer />
     </div>

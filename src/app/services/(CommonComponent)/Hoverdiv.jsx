@@ -22,7 +22,7 @@ const Hoverdiv = ({ heading, paragraph, modelData }) => {
                             <h2 className='text-white text-[7.529vw] sm:text-[1.875vw] font-medium transition-all duration-300 group-hover:text-[#131D22]'>
                                 {model.title}
                             </h2>
-                            <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-normal sm:w-[73.542vw] transition-all duration-300 group-hover:text-[#131D22] text-center '>
+                            <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-light sm:w-[73.542vw] transition-all duration-300 group-hover:text-[#131D22] text-center '>
                                 {model.paragraph}
                             </p>
 

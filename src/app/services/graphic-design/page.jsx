@@ -119,18 +119,12 @@ const page = () => {
           `}
       </Script>
 
-
-
       <NewBanner
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <div>
-        <Mobile
-          heading={mobileData.heading}
-          sideImage={mobileData.sideImage}
-          paragraphs={mobileData.paragraphs}
-        />
+        <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div>
         <Why
@@ -141,19 +135,25 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-      </div>      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <NewContact/>
-      <Platforms platformsData={platformsData} />
+      </div>
       <div>
-        <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
       </div>
       <div>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <ToolsTech/>
-      <div className='mt-[10vw]'>
+      <ToolsTech />
+      <div>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
+      <Platforms platformsData={platformsData} />
+      <NewContact />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Faq faq={faq} />
       <Footer />
     </div>
