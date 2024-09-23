@@ -4,6 +4,7 @@ import num3 from "../../../assets/ecommerce/features/3tail.png";
 import num4 from "../../../assets/ecommerce/features/4tail.png";
 import num5 from "../../../assets/ecommerce/features/5tail.png";
 import num6 from "../../../assets/ecommerce/features/6tail.png";
+import faqimg22 from  "../../../../public/assets/assets/services/e-commerce/faq222.png";
 
 import feature_1 from "../../../assets/ecommerce/features/feature-1.png";
 import feature_2 from "../../../assets/ecommerce/features/feature-2.png";
@@ -47,7 +48,9 @@ const feature = [
   feature_5,
   feature_6,
 ];
-
+const smallfaqimage={
+  img1:faqimg22
+}
 const panda = logo;
 
 const benefit = [benefits_1, benefits_2, benefits_3, benefits_4];
@@ -79,4 +82,5 @@ export {
   whyImages,
   processImages,
   inventoryImage,
+  smallfaqimage
 };

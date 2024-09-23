@@ -15,6 +15,7 @@ import {
 
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
@@ -132,6 +133,7 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <HoverImageComp hoverImageData={hoverImageData} />
+      <NewContact/>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       
       <Faq faq={faq} />

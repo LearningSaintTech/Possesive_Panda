@@ -18,6 +18,7 @@ import {
   smallfaqimage
 
 } from "./data";
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -137,6 +138,7 @@ const page = () => {
       />
  <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
 
       <Faq faq={faq} />

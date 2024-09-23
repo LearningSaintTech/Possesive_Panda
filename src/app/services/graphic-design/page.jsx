@@ -13,6 +13,7 @@ import {
 
 import Head from 'next/head';
 import Script from 'next/script';
+import NewContact from "../(CommonComponent)/NewContact";
 
 export const metadata = {
   title: 'Graphic Design Service | Custom Graphic Design Agency',
@@ -112,6 +113,7 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
       <Platforms platformsData={platformsData}/>
 
       <Faq faq={faq} />

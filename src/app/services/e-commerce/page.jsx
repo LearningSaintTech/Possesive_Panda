@@ -14,6 +14,8 @@ import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
 import Scrollbar from '../(CommonComponent)/Scrollbar'
 import Platforms from '../(CommonComponent)/Platforms'
+import Textanim from "../(CommonComponent)/TextAnimation"
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 
 import {
   faq,
@@ -36,6 +38,8 @@ cardList,
   platformsData,
   StrategyData
 } from './data';
+import {smallfaqimage} from './images';
+
 import Head from 'next/head';
 import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
@@ -45,6 +49,7 @@ import OurWeb from '../(CommonComponent)/OurWeb';
 import IndustriesWe from '../(CommonComponent)/IndustriesWe';
 
 import Strategies from '../(CommonComponent)/Strategies';
+import NewContact from '../(CommonComponent)/NewContact';
 
 // export const metadata = {
 //   title: 'Ecommerce Services | Ecommerce Management Solutions',
@@ -179,13 +184,16 @@ const Page = () => {
 
       <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
       <HoverImageComp hoverImageData={hoverImageData} />
+      <Textanim></Textanim>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 <Platforms platformsData={platformsData}/>
       <Customized />
       <ToolsTech />
-      {/* <CardList  cardData={cardData} cardList={cardList} /> */}
+      <NewContact/>
       <Industries />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
+
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -16,6 +16,7 @@ import {
 } from "./data";
 
 import Head from 'next/head';
+import NewContact from "../(CommonComponent)/NewContact";
 
 
 export const metadata = {
@@ -43,6 +44,7 @@ const page = () => {
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <Faq faq={faq} />
       <Footer />

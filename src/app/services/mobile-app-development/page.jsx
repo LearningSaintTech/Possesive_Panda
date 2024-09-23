@@ -25,6 +25,7 @@ import {
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
 import {smallfaqimage} from './images';
+import NewContact from "../(CommonComponent)/NewContact";
 
 export const metadata = {
   title: ' Mobile App Development Company | Application Development Services ',
@@ -56,6 +57,7 @@ const page = () => {
       <Tech />
       <Iphone />
       <Strategies StrategyData={StrategyData}/>
+      <NewContact/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />

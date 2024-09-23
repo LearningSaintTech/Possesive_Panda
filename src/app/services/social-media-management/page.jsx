@@ -18,6 +18,7 @@ import {
 
 import Faq from "../(Components)/(Faq)/Faq";
 import Script from 'next/script';
+import NewContact from "../(CommonComponent)/NewContact";
 
 export const metadata = {
   title: 'Social Media Management Agency | Top Social Media Management Services',
@@ -104,6 +105,7 @@ const page = () => {
       </div>
       <Models />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <NewContact/>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 
       <Faq faq={faq} />

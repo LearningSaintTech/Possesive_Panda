@@ -20,6 +20,7 @@ import {
   testimonialsData,
 
 } from "./data";
+import NewContact from '../(CommonComponent)/NewContact';
 
 export const metadata = {
   title: "Best PPC Agency | Pay Per Click Marketing Services",
@@ -142,6 +143,7 @@ const page = () => {
       <BulbAnimation />
       <HoverImageComp hoverImageData={hoverImageData} />
       <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? "/>
+     <NewContact/>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
 
       <Faq faq={faq} />
