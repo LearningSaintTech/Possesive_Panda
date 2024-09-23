@@ -14,7 +14,7 @@ import {
   testimonialsData,
   headingdata,
   hoverImageData
-,
+  ,
   ourService,
   servicesData22,
   iconMapping1,
@@ -139,6 +139,12 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+
+
       <div>
         <Mobile
           heading={mobileData.heading}
@@ -147,16 +153,17 @@ const page = () => {
         />
       </div>
       <HoverImageComp hoverImageData={hoverImageData} />
-      <NewContact/>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      
-      <div>
-        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
-      </div>
+      <WhyChoose />
+
+      <NewContact />
       <div className='mt-[10vw]'>
         <Marquee />
       </div>
-      <WhyChoose/>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
+
+
+
       <Faq faq={faq} />
       <Footer />
     </div>

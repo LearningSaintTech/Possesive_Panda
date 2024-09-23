@@ -38,7 +38,7 @@ import {
   platformsData,
   StrategyData
 } from './data';
-import {smallfaqimage} from './images';
+import { smallfaqimage } from './images';
 
 import Head from 'next/head';
 import Script from 'next/script';
@@ -175,29 +175,22 @@ const Page = () => {
       <div>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
-
-
       <Benefits />
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Strategies StrategyData={StrategyData}/>
-
-      <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <Textanim></Textanim>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-<Platforms platformsData={platformsData}/>
       <Customized />
       <ToolsTech />
       <div>
-      <CardList cardData={cardData} cardList={cardList} />
+        <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <NewContact/>
+      <Platforms platformsData={platformsData} />
       <Industries />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
-
+      <Strategies StrategyData={StrategyData} />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      <NewContact />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Faq faq={faq} />
       <Footer />
     </div>
