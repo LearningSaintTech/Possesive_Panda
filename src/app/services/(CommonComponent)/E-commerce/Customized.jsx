@@ -21,12 +21,10 @@ const Customized = () => {
                 </div>
                 <div className='flex flex-col'>
                     <p className='text-white text-[3.765vw] sm:text-[1.25vw] text-center sm:text-left font-normal sm:font-light sm:leading-[180%] sm:w-[47.24vw]'>
-                        Possessive Panda's eCommerce solutions cover every detail to guarantee that traffic and sales consistently exceed your growth objectives. We provide eCommerce services for global industry verticals in the domain of designing, development, hosting, marketing, and analytics.
-                    </p>
+                        Possesive Panda's eCommerce solutions cover every detail to guarantee that traffic and sales consistently exceed your growth objectives. We provide eCommerce services for global industry verticals in the domain of designing, development, hosting, marketing, and analytics.                    </p>
                     {isExpanded && (
                         <p className='text-white text-[3.765vw] sm:text-[1.25vw] text-center sm:text-left font-normal sm:font-light sm:leading-[180%] sm:w-[47.24vw] mt-[4vw] sm:mt-[1vw]'>
-                            We can tailor our services and solutions to each individual client's needs. You can rely on us to create user journeys that turn visitors into sales while also providing your online store with outstanding and robust designs, a secure Payment Getaway connection, and an efficient shopping cart. With eCommerce SEO and PPC campaigns, we can effectively drive relevant visitors from the backend.
-                        </p>
+                            You can rely on us to create user journeys that turn visitors into sales while also providing your online store with outstanding and robust designs, a secure Payment Getaway connection, and an efficient shopping cart. With eCommerce SEO and PPC campaigns, we can effectively drive relevant visitors from the backend.                        </p>
                     )}
                     <button
                         onClick={toggleExpand}

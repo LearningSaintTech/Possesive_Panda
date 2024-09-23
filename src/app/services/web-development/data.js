@@ -31,48 +31,85 @@ const faq = [
 const growthData = {
   heading: "Our Web Application Development Process",
   description:
-    "Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs. ",
+    "Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs. ",
   cards: [
     {
       id: 1,
-      title: 'Research and Targeting',
-      category: 'Online Presence ',
+      title: 'Understanding Client Needs',
+      category: 'Client Satisfaction ',
       description:
-        'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.',
+        "Our initial consultation involves understanding clients' business goals, target audience, and requirements, followed by detailed discussions and competitor analysis to identify industry standards, opportunities, and threats.",
     },
     {
       id: 2,
-      title: 'Strategy Development',
-      category: 'Maximized ROI',
+      title: 'Planning and Strategy ',
+      category: 'Bespoke Implementation',
       description:
-        'Digital marketing offers cost-effective alternatives to traditional methods, enabling businesses to reach a larger audience through channels like social media, email, and PPC advertising.',
+        'The phase involves mapping out website architecture, creating a structure, layout, and functionality blueprint, and developing a content strategy for clear, concise, and engaging messaging.',
     },
     {
       id: 3,
-      title: 'Content Creation and Optimization',
-      category: 'Audience Engagement',
+      title: 'Intuitive UI/UX Design ',
+      category: 'Enhanced CX',
       description:
-        'Digital marketing services enable businesses to target specific audience segments based on demographics, interests, and behaviors, ensuring marketing resonates with the right people and increasing conversions.',
+        'This phase involves combining creativity and strategy to create visually appealing, intuitive interfaces for clients, incorporating feedback for customer satisfaction through interactive development.',
     },
     {
       id: 4,
-      title: 'Increased Conversion Rates',
-      category: 'Sales Boost',
+      title: 'Coding the Website',
+      category: 'Agile Development',
       description:
-        'With analytics and data-driven strategies, businesses can optimize their marketing efforts and see an increase in conversions and sales.',
+        'At this stage, our well-experienced web developers proceed to the development of the web applications. They employ best practices for frontend and backend development to create intuitive and scalable web applications.',
     },
     {
       id: 5,
-      title: 'Measurable Results',
+      title: 'Testing and Quality Assurance',
       category: 'Performance Tracking',
       description:
-        'Digital marketing offers real-time data tracking, allowing businesses to measure the effectiveness of their campaigns and make adjustments accordingly.',
+        'We conduct thorough testing before launching a website, including features, interactivity, cross-browser compatibility, and optimal device experience, to ensure optimal SEO and website visibility.',
+    },
+    {
+      id: 6,
+      title: 'Successful & Scalable Launch',
+      category: 'New Heights',
+      description:
+        ' Once testing is complete and any necessary adjustments are made, we prepare for the official launch. Deployment is done on Amazon Web Services (AWS) and our live site monitoring approach ensures everything runs smoothly after launch.',
+    },
+    {
+      id: 7,
+      title: 'Post Launch Support ',
+      category: 'Further Maintenance',
+      description:
+        'Our commitment to client success extends beyond website launch, transferring source code for web development support and maintenance, and providing regular updates, performance monitoring, and content updates.',
     },
   ],
 };
 
 
+const whyData = {
+  mainHeading: "Partner with Possesive Panda for Your Web Application Development Success",
+  subText1: "Possesive Panda is a professional web application development company that specializes in creating customized, innovative web apps for various industries, including eCommerce, finance, and e-learning. ",
+  subText2:
+    "Our team of developers is skilled in creating generic and native apps with enthusiasm and dexterity. We offer long-term support contracts for our work, ensuring that our clients' imaginations are shaped perfectly.",
+  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  listHeading:
+    "Possesive Panda is a pioneer IT solution provider and deliver outstanding web application development services:",
+  titles: [
+    { title: "Dynamic Pricing " },
+    { title: "SEO Integration" },
+    { title: "24/7 Assistance" },
+    { title: "Scalable Solutions" },
+    { title: "Maximized ROI(s)" },
+    { title: "DEffective applications" },
+    { title: "Customer Interaction & Business Automation" },
+    { title: "Cross-platform Capability" },
+  ],
+};
+
+
+
 export {
   faq,
   growthData,
+  whyData,
 };

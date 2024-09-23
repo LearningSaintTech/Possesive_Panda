@@ -1,9 +1,9 @@
 import NewBanner from "@/app/(Components)/NewBanner";
 import React from "react";
 import Footer from "../../(Components)/Footer";
-import Leverage from '../(CommonComponent)/Mobiledev/Leverage';
-import Tech from '../(CommonComponent)/Mobiledev/Tech';
-import Iphone from "../(CommonComponent)/Mobiledev/Iphone";
+import Leverage from './Leverage';
+import Tech from './Tech';
+import Iphone from "./Iphone";
 
 
 

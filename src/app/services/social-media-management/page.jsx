@@ -3,11 +3,14 @@ import NewBanner from "@/app/(Components)/NewBanner";
 import Footer from "../../(Components)/Footer";
 import Models from "../(CommonComponent)/Models";
 import Growth from "../(CommonComponent)/Growth";
-
+import Why from "../(CommonComponent)/Why";
+import Mobile from "../(CommonComponent)/Mobile";
 
 import {
   faq,
   growthData,
+  whyData,
+  mobileData,
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
@@ -95,6 +98,23 @@ const page = () => {
       />
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
+      </div>
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
       </div>
       <Models />
       <Faq faq={faq} />

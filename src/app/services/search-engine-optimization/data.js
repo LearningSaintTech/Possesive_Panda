@@ -41,7 +41,7 @@ const whyData = {
   listHeading:
     "When you work with us to increase the growth and organic rankings of your website, we make sure you receive:",
   titles: [
-    { title: "A Committed Team of SEO Experts" },
+    { title: "A Committed Team of SEO Experts " },
     { title: "Outstanding white-hat connections" },
     { title: "Quality Control and Data security" },
     { title: "24/7 Assistance" },

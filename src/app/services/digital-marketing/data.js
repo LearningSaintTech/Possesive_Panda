@@ -12,31 +12,31 @@ const growthData = {
     },
     {
       id: 2,
-      title: 'Targeted Audience Reach',
-      category: 'Customer Engagement',
+      title: 'Targeted Audience Engagement',
+      category: 'Customer Interaction',
       description:
-        'Through personalized ad campaigns, businesses can target specific demographics and ensure that their message reaches the right audience.',
+        'Digital marketing services enable businesses to target specific audience segments based on demographics, interests, and behaviors, ensuring marketing resonates with the right people and increasing conversions.',
     },
     {
       id: 3,
       title: 'Cost-Effective Marketing',
-      category: 'Budget-Friendly Solutions',
+      category: 'Maximized ROI',
       description:
-        'Compared to traditional advertising methods, digital marketing offers a more cost-effective way to promote products and services, maximizing ROI.',
+        'Digital marketing offers cost-effective alternatives to traditional methods, enabling businesses to reach a larger audience through channels like social media, email, and PPC advertising.',
     },
     {
       id: 4,
-      title: 'Increased Conversion Rates',
-      category: 'Sales Boost',
+      title: 'Flexibility and Scalability',
+      category: 'No Boundation',
       description:
-        'With analytics and data-driven strategies, businesses can optimize their marketing efforts and see an increase in conversions and sales.',
+        'Digital marketing services provide flexibility, enabling businesses to adapt strategies based on market conditions and customer feedback, ensuring growth in a fast-paced digital environment.',
     },
     {
       id: 5,
-      title: 'Measurable Results',
-      category: 'Performance Tracking',
+      title: 'Results and Insights',
+      category: 'Performance Benchmarking',
       description:
-        'Digital marketing offers real-time data tracking, allowing businesses to measure the effectiveness of their campaigns and make adjustments accordingly.',
+        'Digital marketing offers accurate measurement of results through real-time tracking of KPIs like website traffic, conversion rates, and ROI, enabling continuous optimization & effective resource allocation.',
     },
   ],
 };

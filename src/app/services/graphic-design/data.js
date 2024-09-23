@@ -25,7 +25,45 @@ const faq = [
   },
 ];
 
+// arya data dynamic
+
+const mobileData = {
+  heading: "What are Graphic Design Services?",
+  sideImage: "/assets/aboutus/Side component.png",
+  paragraphs: [
+    "Graphic design services offer a variety of benefits for businesses. They help you capture potential audiences and customers by visually communicating your ideas, products, and services",
+    "These creative solutions help engage audiences, differentiate businesses, and create engaging visuals for online presence, product information, and marketing campaigns.",
+    "Graphic design services enable businesses to create a buzz of their brand in potential customer spectrum. Consistent use of visual elements fosters brand recognition and consistency. ",
+    "Graphic design enhances communication, increases engagement and conversion, and reduces the need for revisions. Investing in professional graphic design saves time and money, ensuring high-quality outputs that meet marketing goals, leading to a better return on investment.",
+    "Possesive Panda is a professional graphic design service provider that specializes in creating unique digital designs for businesses, including branding, print, web, UI/UX, illustration, motion graphics, and AI generative graphics. ",
+    "We take pride in delivering outstanding and exceptional graphic design services and solutions solely aiming at your business’s overall growth and success."
+  ]
+};
+
+const whyData = {
+  mainHeading: "Why Choose Possesive Panda as Your Graphic Design Success Partner? ",
+  subText1: "We don't just simply deliver personalized designs to our clients, we craft visual masterpieces that give your brand the wings of success. ",
+  subText2:
+    "Possesive Panda offers a diverse range of graphic design services across various creative disciplines, with a team of 50+ talented professionals. Our leadership drives the business, serving as the primary point of contact for clients. ",
+  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  listHeading:
+    "Partnering with Possesive Panda, provides the following benefits:",
+  titles: [
+    { title: "Dynamic Pricing " },
+    { title: "24/7 Assistance" },
+    { title: "Client Satisfaction" },
+    { title: "Real-time Project Tracking " },
+    { title: "Dedicated Project Managers" },
+    { title: "Personalized Design Delivery" },
+    { title: "360 Graphic Design Services " },
+    { title: "Team of Expereinced Professionals" },
+
+  ],
+};
+
 
 export {
   faq,
+  mobileData,
+  whyData,
 };

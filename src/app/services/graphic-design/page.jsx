@@ -2,9 +2,13 @@ import React from "react";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
+import Mobile from "../(CommonComponent)/Mobile";
+import Why from "../(CommonComponent)/Why";
 
 import {
   faq,
+  mobileData,
+  whyData,
 } from "./data";
 
 import Head from 'next/head';
@@ -107,7 +111,23 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

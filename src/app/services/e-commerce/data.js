@@ -72,7 +72,7 @@ const introServicesData = {
   content: [
     "eCommerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In eCommerce, customers shop whenever they want; there is no time bound for shopping.",
     "eCommerce services and solutions comprise a wide range of tools and technologies that allow businesses to sell products and services on the internet.",
-    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly."
+    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothlyIn order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly."
   ]
 };
 
@@ -80,12 +80,12 @@ const titleData = {
   heading: "Choose Possesive Panda as Your eCommerce Success Partner",
   title: [
     "Delivered 50+ eCommerce websites across industries",
-    "Live Video Consultation",
-    "Expertise with all eCommerce development platforms.",
-    "Voice-Assisted Shopping",
-    "Enhanced traffic and sales",
-    "Decentralized Marketplaces",
+    "Expertise with all eCommerce development platforms",
+    "Enhanced traffic and sales.",
     "Google Partnership",
+    "Live Video Consultation",
+    "Voice-Assisted Shopping ",
+    "Decentralized Marketplaces",
     "Interactive User Manuals",
     "Provide eCommerce solutions powered by AI/AR",
     "IOT-Powered eCommerce Operations",

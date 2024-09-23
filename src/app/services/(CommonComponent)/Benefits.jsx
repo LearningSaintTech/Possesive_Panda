@@ -8,40 +8,40 @@ import { MdPriceChange } from "react-icons/md";
 
 const leftColumnData = [
     {
-      icon: <AiOutlineAreaChart  className="w-[5.833vw] h-[5.833vw]" />,
-      title: 'Expanded Reach',
-      description: 'With no limitation of geography, businesses can target worldwide clients to maximize their growth.'
+        icon: <AiOutlineAreaChart className="w-[5.833vw] h-[5.833vw]" />,
+        title: 'Expanded Reach',
+        description: 'With no limitation of geography, businesses can target worldwide clients to maximize their growth.'
     },
     {
-      icon: <HiMiniArrowTrendingDown className="w-[5.833vw] h-[5.833vw]" />,
-      title: 'Cost-Effectiveness',
-      description: 'Online shopping leads to lower expenses by eliminating the need for physical shops and improving margins.'
+        icon: <HiMiniArrowTrendingDown className="w-[5.833vw] h-[5.833vw]" />,
+        title: 'Cost-Effectiveness',
+        description: 'Online shopping leads to lower expenses by eliminating the need for physical shops and improving margins.'
     },
     {
-      icon: <CgInsights className="w-[5.833vw] h-[5.833vw]" />,
-      title: 'Improved Customer Insights',
-      description: 'Offers insightful information on consumer behavior leading to customized marketing campaigns.'
+        icon: <CgInsights className="w-[5.833vw] h-[5.833vw]" />,
+        title: 'Improved Customer Insights',
+        description: 'Offers insightful information on consumer behavior leading to customized marketing campaigns.'
     }
-  ];
-  
-  const rightColumnData = [
+];
+
+const rightColumnData = [
     {
-      icon: <FaHandHoldingDollar className="w-[5.833vw] h-[5.833vw] text-white" />,
-      title: 'Enhanced Sales and Revenue',
-      description: 'Increasing sales possibilities and revenue growth are the results of streamlining procedures.'
+        icon: <FaHandHoldingDollar className="w-[5.833vw] h-[5.833vw] text-white" />,
+        title: 'Enhanced Sales and Revenue',
+        description: 'Increasing sales possibilities and revenue growth are the results of streamlining procedures.'
     },
     {
-      icon: <BiSolidShoppingBagAlt className="w-[5.833vw] h-[5.833vw]" />,
-      title: 'Convenient Shopping',
-      description: 'The ability for customers to purchase whenever and wherever they choose enhances their level of happiness.'
+        icon: <BiSolidShoppingBagAlt className="w-[5.833vw] h-[5.833vw]" />,
+        title: 'Convenient Shopping',
+        description: 'The ability for customers to purchase whenever and wherever they choose enhances their level of happiness.'
     },
     {
-      icon: <MdPriceChange className="w-[5.833vw] h-[5.833vw]" />,
-      title: 'Product and Price Comparison',
-      description: 'With the plethora of product options available, you can compare and choose the product of your liking.'
+        icon: <MdPriceChange className="w-[5.833vw] h-[5.833vw]" />,
+        title: 'Product and Price Comparison',
+        description: 'With the plethora of product options available, you can compare and choose the product of your liking.'
     }
-  ];
-  
+];
+
 
 const Benefits = () => {
     return (

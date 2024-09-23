@@ -131,7 +131,8 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-      </div>      <Faq faq={faq} />
+      </div>
+      <Faq faq={faq} />
       <Footer />
     </div>
   )

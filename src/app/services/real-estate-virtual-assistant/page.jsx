@@ -2,9 +2,11 @@ import React from 'react'
 import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
+import Mobile from '../(CommonComponent)/Mobile';
 
 import {
-  faq
+  faq,
+  mobileData,
 } from './data'
 
 import Faq from '../(Components)/(Faq)/Faq';
@@ -125,6 +127,13 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

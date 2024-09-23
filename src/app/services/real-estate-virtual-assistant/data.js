@@ -25,7 +25,21 @@ const faq = [
   },
 ];
 
+const mobileData = {
+  heading: "Why should you hire a Real Estate Virtual Assistant? ",
+  sideImage: "/assets/aboutus/Side component.png",
+  paragraphs: [
+    "A virtual assistant is a remote professional who you can hire for your businesses or individualistic professional needs. If your work can be done remotely and especially on computers, then you can even set up your virtual offices, which can save your time and monetary resources. ",
+    "Virtual assistants can manage various sorts of work and responsibilities for you and your businesses that can result in maximizing productivity and profits. At this moment, the virtual assistant industry is growing for two reasons: Easy Accessibility and Cost-Effectiveness",
+    "They can perform various tasks ranging from your administrative tasks to closing deals. They are the individuals who can help you in your business growth by providing you professional assistance leading to better work-life balance and save your time and money.",
+    "Many lack the resources to manage their company while expanding their business. Virtual assistants in real estate can help with marketing, listing coordination, lead generation, and follow-up. ",
+    "Real estate virtual assistants are committed to helping agents achieve their goals and enjoy their industry more. By trusting their ability to handle tasks that agents don't have time for, agents can work less and make more money while enjoying themselves.",
+    "Possesive Panda offers real estate virtual assistants who are pioneers of their industry and deliver the best client handling and property management and source the best available properties for your business growth and client acquisition."
+  ]
+};
+
 
 export {
   faq,
+  mobileData,
 };

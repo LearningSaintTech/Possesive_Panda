@@ -1,17 +1,18 @@
 const titleData = {
-  heading: "Why Choose US?",
+  heading: "Why Choose Possesive Panda as Your Pay-Per-Click (PPC) Success Partner?",
   heading2: "Possesive Panda is renowned for its Pay-Per-Click services, dedicated to improving online performance, offering services from PPC audits to ad management. We are solely aiming at developing your business’s online presence and delivering a high return on ad spend.",
   title: [
-    "Comprehensive PPC Audit",
     "Certified search and analytics experts for Google and Bing",
-    "Equiped with the best tools and technologies",
-    "Multi-Location PPC",
-    "Customer-Focused PPC Services",
-    "Detailed Reporting",
-    "Results-oriented methodology",
     "Increased ROI (return on investment)",
-    "Adaptable Perspective and Dedicated Deliverables",
+    "Comprehensive PPC Audit",
+    "Multi-Location PPC",
+    "Results-oriented methodology",
+    "Detailed Reporting",
+    "Customer-Focused PPC Services",
     "Outstanding Client Support",
+    "Equiped with the best tools and technologies",
+    "Adaptable Perspective and Dedicated Deliverables",
+
   ]
 };
 
