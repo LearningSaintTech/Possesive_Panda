@@ -4,6 +4,7 @@ import NewBanner from "@/app/(Components)/NewBanner";
 import Growth from "../(CommonComponent)/Growth";
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import OurSevices from '../(CommonComponent)/OurSevices';
+import Faq from '../(Components)/(Faq)/Faq';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -26,8 +27,9 @@ import {
   ourService,
   servicesData22,
 } from "./data";
-import {smallfaqimage} from './images';
+import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
+import NewContact from "../(CommonComponent)/NewContact";
 
 
 
@@ -124,17 +126,18 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <ToolsTech/>
-      <IndustriesWe/>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-<FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
-<Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
-<HoverImageComponent hoverImageData={hoverImageData} />
-<Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
+      <ToolsTech />
+      <IndustriesWe />
+      <HoverImageComponent hoverImageData={hoverImageData} />
+      <NewContact/>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Faq faq={faq} />
       <Footer />
     </div>
   );
