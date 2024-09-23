@@ -6,6 +6,9 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Improve from './Improve';
 import Why from '../(CommonComponent)/Why';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
+import Solutions from '../(CommonComponent)/Solutions';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import ToolTech from '../(CommonComponent)/ToolsTech';
 import Marquee from "../../(homeComponent)/Marquee";
@@ -13,6 +16,11 @@ import CardList from '../(CommonComponent)/AgileApproach/CardList';
 import {
   faq,
   whyData,
+  paragraphs,
+  buttonData,
+  hoverImageData,
+  headingdata,
+  testimonialsData
   ourService,
   servicesData22,
   iconMapping1,
@@ -142,7 +150,9 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
+<<<<<<< HEAD
       </div>
+
       <ToolTech />
       <div className='mt-[10vw]'>
         <Marquee />
@@ -151,6 +161,19 @@ const page = () => {
         <CardList cardData={cardData} cardList={cardList} />
       </div>
       <Faq faq={faq} />
+=======
+      </div>   
+      
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+
+      
+      
+      
+      
+         <Faq faq={faq} />
+>>>>>>> a2c19a2258106ba4396db8b018292dd8a2f47219
       <Footer />
     </div>
   )

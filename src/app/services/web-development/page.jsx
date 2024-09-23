@@ -11,7 +11,22 @@ import {
   growthData,
   ourService,
   servicesData22,
-  iconMapping1
+  iconMapping1,
+}
+import Why from "../(CommonComponent)/Why";
+
+import Solutions from '../(CommonComponent)/Solutions';
+import Clients from '../(CommonComponent)/Clients';
+
+import {
+  faq,
+  growthData,
+  whyData,
+  paragraphs,
+  buttonData,
+  headingdata,
+  testimonialsData,
+>>>>>>> b18dbf48d3a5a043adae9d27431d63256cc4d590
 } from "./data";
 
 import Head from 'next/head';
@@ -52,6 +67,20 @@ const page = () => {
       <OurWeb/>
       <ToolsTech/>
       <OurEngagement/>
+
+
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <Faq faq={faq} />
       <Footer />
     </div>

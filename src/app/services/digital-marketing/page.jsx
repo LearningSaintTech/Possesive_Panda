@@ -1,20 +1,31 @@
 import React from "react";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
-import Faq from "../(Components)/(Faq)/Faq";
 import Growth from "../(CommonComponent)/Growth";
-import OurSevices from '../(CommonComponent)/OurSevices';
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"import OurSevices from '../(CommonComponent)/OurSevices';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
 import Head from 'next/head';
 import Script from 'next/script';
-
+import Solutions from "../(CommonComponent)/Solutions";
+import Scrollbar from "../(CommonComponent)/Scrollbar";
+import HoverImageComponent from "../(CommonComponent)/HoverImageComp";
+import Clients from "../(CommonComponent)/Clients";
 import {
   faq,
   growthData,
+  paragraphs,
+  buttonData,
+  smallfaqdata,
+  sectionContent,
+  servicesData1,
+  hoverImageData,
+  testimonialsData,
+  headingdata
   iconMapping1,
   ourService,
   servicesData22,
 } from "./data";
+import {smallfaqimage} from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 
 
@@ -117,7 +128,12 @@ const page = () => {
       </div>
       <ToolsTech/>
       <IndustriesWe/>
-      <Faq faq={faq} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+<FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
+<Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
+<HoverImageComponent hoverImageData={hoverImageData} />
+<Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <Footer />
     </div>
   );

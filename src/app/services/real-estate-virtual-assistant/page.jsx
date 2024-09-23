@@ -2,11 +2,19 @@ import React from 'react'
 import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
+import Mobile from '../(CommonComponent)/Mobile';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
 import WhyChoose from "./WhyChoose";
 import {
   faq,
+  mobileData,
+  testimonialsData,
+  headingdata,
+  hoverImageData
+,
   ourService,
   servicesData22,
   iconMapping1,
@@ -130,6 +138,16 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>

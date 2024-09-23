@@ -10,17 +10,17 @@ const leftColumnData = [
     {
         icon: <AiOutlineAreaChart className="w-[5.833vw] h-[5.833vw]" />,
         title: 'Expanded Reach',
-        description: 'With no limitation of geography, businesses can target worldwide clients to maximize their growth'
+        description: 'With no limitation of geography, businesses can target worldwide clients to maximize their growth.'
     },
     {
         icon: <HiMiniArrowTrendingDown className="w-[5.833vw] h-[5.833vw]" />,
         title: 'Cost-Effectiveness',
-        description: 'Online shopping leads to lower expenses by eliminating the need for physical shops and manpower.'
+        description: 'Online shopping leads to lower expenses by eliminating the need for physical shops and improving margins.'
     },
     {
         icon: <CgInsights className="w-[5.833vw] h-[5.833vw]" />,
         title: 'Improved Customer Insights',
-        description: 'Offers insightful information on consumer behavior, leadin customized marketing campaigns possible.'
+        description: 'Offers insightful information on consumer behavior leading to customized marketing campaigns.'
     }
 ];
 
@@ -33,7 +33,7 @@ const rightColumnData = [
     {
         icon: <BiSolidShoppingBagAlt className="w-[5.833vw] h-[5.833vw]" />,
         title: 'Convenient Shopping',
-        description: ' The ability for customers to purchase whenever and wherever they choose enhances their level of happiness.'
+        description: 'The ability for customers to purchase whenever and wherever they choose enhances their level of happiness.'
     },
     {
         icon: <MdPriceChange className="w-[5.833vw] h-[5.833vw]" />,

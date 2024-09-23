@@ -28,14 +28,19 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
 
   return (
     <div
-      ref={dropdownRef}
-      className={`absolute flex gap-[2.344vw] top-[4.3vw] bg-white pl-[3.646vw] py-[2.083vw] pr-[3.6vw] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[0.2vw] w-[90vw] h-[31.5vw] ${
-        showDropdown ? "block" : "hidden"
-      }`}
-      onMouseLeave={() => setShowDropdown(false)}
-    >
+    ref={dropdownRef}
+    className={`absolute flex gap-[2.344vw] top-[4.3vw] pl-[3.646vw] py-[2.083vw] pr-[3.6vw] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[0.2vw] w-[90vw] h-[31.5vw] ${
+    showDropdown ? "block" : "hidden"
+    }`}
+   style={{
+    background: "rgba(255, 255, 255, 0.10)",
+    backdropFilter: "blur(9px)"
+    }}
+     onMouseLeave={() => setShowDropdown(false)}
+  >
+
       <div className="">
-        <h1 className="text-zinc-800 text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem] underline mb-[1.563vw]">
+        <h1 className="text-white text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem] underline mb-[1.563vw]">
           Browse Our Services
         </h1>
         <div className="w-[22.5vw]">

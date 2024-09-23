@@ -3,12 +3,21 @@ import NewBanner from "@/app/(Components)/NewBanner";
 import Footer from "../../(Components)/Footer";
 import Models from "../(CommonComponent)/Models";
 import Growth from "../(CommonComponent)/Growth";
+import Why from "../(CommonComponent)/Why";
+import Mobile from "../(CommonComponent)/Mobile";import Clients from '../(CommonComponent)/Clients';
+import Solutions from '../(CommonComponent)/Solutions';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
 
 import {
   faq,
   growthData,
+  whyData,
+  mobileData,
+  headingdata,
+  testimonialsData,
+  paragraphs,
+  buttonData,
   ourService,
   servicesData22,
   iconMapping1,
@@ -103,7 +112,27 @@ const page = () => {
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
       <Models />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+
       <div className='mt-[10vw]'>
         <Marquee />
       </div>

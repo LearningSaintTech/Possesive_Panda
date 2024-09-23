@@ -1,6 +1,13 @@
 import NewBanner from "@/app/(Components)/NewBanner";
 import React from "react";
 import Footer from "../../(Components)/Footer";
+import Leverage from './Leverage';
+import Tech from './Tech';
+import Iphone from "./Iphone";
+import Strategies from '../(CommonComponent)/Strategies';
+import Solutions from '../(CommonComponent)/Solutions';
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
+import Clients from '../(CommonComponent)/Clients';
 import Leverage from '../(CommonComponent)/Mobiledev/Leverage';
 import Tech from '../(CommonComponent)/Mobiledev/Tech';
 import Iphone from "../(CommonComponent)/Mobiledev/Iphone";
@@ -10,6 +17,13 @@ import CardList from '../(CommonComponent)/AgileApproach/CardList';
 
 import {
   faq,
+  StrategyData,
+  paragraphs,
+  buttonData,
+  smallfaqdata,
+  headingdata,
+  testimonialsData,
+
   ourService,
   servicesData22,
   iconMapping1,
@@ -19,6 +33,7 @@ import {
 
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
+import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 
 export const metadata = {
@@ -52,6 +67,11 @@ const page = () => {
       <Leverage />
       <Tech />
       <Iphone />
+      <Strategies StrategyData={StrategyData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <IndustriesWe />
       <div>
       <CardList cardData={cardData} cardList={cardList} />
