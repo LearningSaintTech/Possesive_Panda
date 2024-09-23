@@ -12,13 +12,12 @@ import services_5 from "../../../assets/digitalMarketing/Content-Creation.png";
 import services_6 from "../../../assets/digitalMarketing/Search-Engine-Optimisation.png";
 import services_7 from "../../../assets/digitalMarketing/Pay-Per-Click.png";
 import services_8 from "../../../assets/digitalMarketing/Performance--Marketing.png";
-
+import faqimg22 from  "../../../../public/assets/assets/services/e-commerce/faq222.png";
 import { PiTargetDuotone, PiStrategyDuotone } from "react-icons/pi";
 import { GoGoal } from "react-icons/go";
 import { MdCampaign } from "react-icons/md";
 import { IoMdAnalytics } from "react-icons/io";
 import { GiRelationshipBounds } from "react-icons/gi";
-
 const benefit = [benefits_1, benefits_2, benefits_3, benefits_4, benefits_5];
 
 const service = [
@@ -31,7 +30,9 @@ const service = [
   services_7,
   services_8,
 ];
-
+const smallfaqimage={
+  img1:faqimg22
+}
 const icons = [
   PiTargetDuotone,
   GoGoal,
@@ -41,4 +42,4 @@ const icons = [
   GiRelationshipBounds,
 ];
 
-export { benefit, service, icons };
+export { benefit, service, icons,smallfaqimage };

@@ -2,9 +2,15 @@ import React from 'react'
 import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
 
 import {
-  faq
+  faq,
+  testimonialsData,
+  headingdata,
+  hoverImageData
+
 } from './data'
 
 import Faq from '../(Components)/(Faq)/Faq';
@@ -125,6 +131,9 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      
       <Faq faq={faq} />
       <Footer />
     </div>

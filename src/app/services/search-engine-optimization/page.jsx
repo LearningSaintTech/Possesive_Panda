@@ -6,10 +6,18 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Improve from './Improve';
 import Why from '../(CommonComponent)/Why';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
+import Solutions from '../(CommonComponent)/Solutions';
 
 import {
   faq,
   whyData,
+  paragraphs,
+  buttonData,
+  hoverImageData,
+  headingdata,
+  testimonialsData
 } from "./data";
 
 export const metadata = {
@@ -131,7 +139,17 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-      </div>      <Faq faq={faq} />
+      </div>   
+      
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+
+      
+      
+      
+      
+         <Faq faq={faq} />
       <Footer />
     </div>
   )

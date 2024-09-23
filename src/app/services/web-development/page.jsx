@@ -3,10 +3,16 @@ import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import Growth from "../(CommonComponent)/Growth";
+import Solutions from '../(CommonComponent)/Solutions';
+import Clients from '../(CommonComponent)/Clients';
 
 import {
   faq,
   growthData,
+  paragraphs,
+  buttonData,
+  headingdata,
+  testimonialsData,
 } from "./data";
 
 import Head from 'next/head';
@@ -36,7 +42,8 @@ const page = () => {
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
       <Faq faq={faq} />
       <Footer />
     </div>

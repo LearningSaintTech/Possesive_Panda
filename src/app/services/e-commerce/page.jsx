@@ -9,18 +9,34 @@ import Partner from '../(CommonComponent)/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
 import Industries from './Industries';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
+import Solutions from '../(CommonComponent)/Solutions';
+import Scrollbar from '../(CommonComponent)/Scrollbar'
+import Platforms from '../(CommonComponent)/Platforms'
 
 import {
   faq,
   introServicesData,
   servicesData,
   titleData,
+  paragraphs,
+  buttonData,
+  sectionContent,
+  servicesData1,
+  hoverImageData,
+  smallfaqdata,
+  headingdata,
+  testimonialsData,
+  platformsData,
+  StrategyData
 } from './data';
 import Head from 'next/head';
 import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
 import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import Strategies from '../(CommonComponent)/Strategies';
 
 // export const metadata = {
 //   title: 'Ecommerce Services | Ecommerce Management Solutions',
@@ -140,14 +156,24 @@ const Page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+
       <OurSevices />
       <div>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
+
+
       <Benefits />
       <div>
-        <Partner heading={titleData.heading}  title={titleData.title} />
+        <Partner heading={titleData.heading} title={titleData.title} />
       </div>
+      <Strategies StrategyData={StrategyData}/>
+
+      <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+<Platforms platformsData={platformsData}/>
       <Customized />
       <ToolsTech />
       {/* <CardList /> */}

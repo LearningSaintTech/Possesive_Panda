@@ -2,9 +2,13 @@ import React from "react";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
-
+import Clients from "../(CommonComponent)/Clients";
+import Platforms from "../(CommonComponent)/Platforms";
 import {
   faq,
+  headingdata,
+  testimonialsData,
+  platformsData
 } from "./data";
 
 import Head from 'next/head';
@@ -107,6 +111,8 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Platforms platformsData={platformsData}/>
 
       <Faq faq={faq} />
       <Footer />

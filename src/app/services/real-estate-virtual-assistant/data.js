@@ -1,3 +1,7 @@
+import img1 from '../../../../public/assets/image_1821.svg';
+import img2 from '../../../../public/assets/image_1822.svg';
+import img3 from '../../../../public/assets/image.svg';
+
 const faq = [
   {
     title: "What is a real estate  Virtual Assistant?",
@@ -25,7 +29,66 @@ const faq = [
   },
 ];
 
+const testimonialsData = [
+  {
+      name: "Emily R.",
+      role: "Owner of EcoTrend Boutique",
+      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+  },
+  {
+      name: "Jake M.",
+      role: "Founder of Urban Gear Co.",
+      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+  },
+  {
+      name: "Lisa K.",
+      role: "CEO of Artisan Delights",
+      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+  },
+  {
+    name: "Carlos T.",
+    role: "Founder of Gadget Galaxy",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+},
+{
+  name: "Mia S.",
+  role: "Director of Luxe Living",
+  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+},
+];
+ const headingdata={
+
+      //testimonials
+      heading:" What our clients have to say",
+      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
+
+
+
+};
+const hoverImageData = {
+  text: {
+    subheading: "Thrive on Your Real Estate ",
+    heading: "Business with Possesive Panda ",
+    description:
+      "The greatest help and support should be provided to all real estate businesses so that realtors like you can concentrate more on their areas of expertise. Hire Possesive Panda’s Real Estate Virtual Assistants to get started right now!",
+  },
+  images: {
+    
+      image1: img1,
+     
+    
+    
+        image2: img2,
+     
+   
+        image3: img3,
+    
+    },
+  };
 
 export {
   faq,
+  testimonialsData,
+  headingdata,
+  hoverImageData
 };

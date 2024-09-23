@@ -1,6 +1,10 @@
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";
 import { IoMdGitMerge } from "react-icons/io";
+import img1 from '../../../../public/assets/image_1821.svg';
+import img2 from '../../../../public/assets/image_1822.svg';
+import img3 from '../../../../public/assets/image.svg';
+import platformImg1 from '../../../../public/assets/wordpress.png';
 
 
 const faq = [
@@ -93,10 +97,272 @@ const titleData = {
 };
 
 
+// pushkar data dynamic
+ const testimonialsData = [
+  {
+      name: "Emily R.",
+      role: "Owner of EcoTrend Boutique",
+      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+  },
+  {
+      name: "Jake M.",
+      role: "Founder of Urban Gear Co.",
+      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+  },
+  {
+      name: "Lisa K.",
+      role: "CEO of Artisan Delights",
+      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+  },
+  {
+    name: "Carlos T.",
+    role: "Founder of Gadget Galaxy",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+},
+{
+  name: "Mia S.",
+  role: "Director of Luxe Living",
+  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+},
+];
+ const headingdata={
+
+      //testimonials
+      heading:" What our clients have to say",
+      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
+
+
+
+};
+
+
+const smallfaqdata = [
+  {
+    key: 1,
+    title: "Expert Guidance with Industry Expertise",
+    data: "Possesive Panda encompasses experienced eCommerce professionals and industry experts. With top-notch technologies and strategies, we transform online stores into powerful assets ensuring your digital presence is nothing short of extraordinary. ",
+  },
+  {
+    key: 2,
+    title: "Time and Cost Efficiency",
+    data: "Why waste time and money setting up your own eCommerce infrastructure when Possesive Panda can do it for you? Our streamlined processes get your online store up and running swiftly, allowing you to focus on what you do best.",
+  },
+  {
+    key: 3,
+    title: "Technical support and maintenance",
+    data: "We provide ongoing support and maintenance, keeping your site secure and running smoothly. Possesive Panda’s technical support ensures your online store adapts to new trends and features seamlessly, keeping you ahead of the curve.",
+  },
+  {
+    key: 4,
+    title: " Competitive Advantage",
+    data: "With Possesive Panda’s eCommerce solution, stay ahead in your industry. We design and strategize our eCommerce solutions in order to outshine your competitors and make you at the forefront. ",
+  },
+ 
+  {
+    key: 5,
+    title: "Flexibility",
+    data: "Whether you are B2B, B2C, C2B, or something unique, Possesive Panda has you covered. We can easily add new products and services to your store and quickly adapt to market needs.",
+  },
+];
+
+
+ const hoverImageData = {
+  text: {
+    subheading: "With Possessive Panda",
+    heading: "Implement a Data-driven SEO Strategy to Boost Sales",
+    description:
+      "We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+  },
+  images: {
+    
+      image1: img1,
+     
+    
+    
+        image2: img2,
+     
+   
+        image3: img3,
+    
+    },
+  };
+
+   const servicesData1 = [
+    { title: "Variety of services", description: "Make sure a digital marketing services provider has a comprehensive service suite before deciding to work with them." },
+    { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
+    { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
+    { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
+    { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
+    { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
+
+];
+
+ const sectionContent = {
+    title: "How to Choose a Digital Marketing Service Provider for Your Business",
+    description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements."
+};
+ const buttonData= [
+  "eCommerce Stores ",
+  "eCommerce Portals ",
+  "Logistics Software",
+  "eCommerce CRM",
+  "Inventory Management"
+];
+
+ const paragraphs=[
+  {
+      number: "1",
+      heading1: "What we Provide?",
+      text1: "We create eCommerce stores of various sorts, i.e., Business-to-Business, Business-to-Consumers, and Consumers-to-Consumers offering features like product cataloging, product reviews, shipping, and optimum customer service for a better experience. ",
+      heading2: "How we Provide? ",
+      text2: "Ensuring seamless and a user-friendly shopping experience from browsing to checkout is the goal of developing responsive online eCommerce stores. Our emphasis on simple checkout procedures and easy navigation, together with the integration of necessary retail tools. ",
+      dotPoints: [
+        "Instinctive Navigation",
+        "Streamlined checkout procedures",
+        "Combination with key retail instruments",
+      ]
+
+  },
+  {
+      number: "2",
+      heading1: "What we Provide?",
+      text1: "Our eCommerce portal development solutions involve robust infrastructure for order management, payment integration, and inventory management that enhance brand visibility and sales. ",
+      heading2: "How we Provide? ",
+      text2: "Possesive Panda’s expertise lies in exceptional eCommerce portals equipped with powerful analytics tailored to customer needs, resulting in more successful consumer engagement and individualized shopping experiences.",
+      dotPoints: [
+        "Strong Analytics Planning ",
+        "Bespoke Strategies",
+        "Captivating UI/UX",
+      ]
+  }, {
+      number: "3",
+      heading1: "What we Provide?",
+      text1: "Possesive Panda aims to deliver the logistic software development, that will reduce cost, improve efficiency, and enhance customer satisfaction. We deliver automated solutions like order tracking, routing, and delivery planning for better business outcomes.",
+      heading2: "How we Provide? ",
+      text2: "We provide specialized logistics software to improve the efficiency of your online storefront. Our solutions are made with the goal of improving overall logistics efficiency, with a particular emphasis on the best delivery routes, real-time status tracking, and effective invoice creation. ",
+      dotPoints: [
+        "The best routes for deliveries",
+        "The best routes for deliveries",
+        "Effective creation of invoices",
+      ]
+  }, {
+      number: "4",
+      heading1: "What we Provide?",
+      text1: "We provide reliable and secure customer relationship management (CRM) systems to store your customer details, information, and leads that will be leveraged for better sale opportunities.  ",
+      heading2: "How we Provide? ",
+      text2: "With the help of our CRM solutions, businesses can offer individualized shopping experiences by gaining comprehensive insights into their customers. They are intended to increase client interactions and sales efficiency. ",
+      dotPoints: [
+        "Cutomized Shopping Experience",
+        "Optimization of Sales Campaign",
+        "Enhanced Pipeline Management",
+      ]
+  }, {
+      number: "5",
+      heading1: "What we Provide?",
+      text1: "Possesive Panda’s inventory management solutions include the management of various supplies and processes. We focus on managing the flow of raw materials from production to finished goods. ",
+      heading2: "How we Provide? ",
+      text2: "Our real-time stock tracking capabilities in inventory management systems help to streamline the supply chain, avoid stock-outs, and give better merchandising tactics. The main objective is to enhance the overall efficiency of inventory and shipping procedures.",
+      dotPoints: [
+        "Preventing shortages of inventory",
+        "Optimization of the supply chain",
+        "Improved shipping and merchandise techniques"
+      ]
+  },
+];
+
+const platformsData = [
+  {
+    images: [
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
+        altText: "Magento"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
+        altText: "Magento"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  
+        altText: "Magento"
+      },
+    ],
+    text: {
+      heading: "eCommerce Platforms we worked with",
+      paragraph: "We've collaborated with various eCommerce platforms, each with its own unique strengths. These platforms have enabled us to optimize eCommerce solutions, boost sales, and enhance customer experiences."
+    }
+  }
+];
+const StrategyData = [
+  {
+      num: "01",
+      title: "Strategic Planning",
+      description:
+          "We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.",
+  },
+  {
+      num: "02",
+      title: "Design Concept",
+      description:"We create a design that matches your brand and attracts your customers. Our designs are easy to use and reflect your brand. "
+    },
+  {
+      num: "03",
+      title: "Development",
+      description:
+          "With the help of the latest technologies, we develop our solutions. Our team uses the best ways to add features.",
+  },
+  {
+      num: "04",
+      title: "Testing and QA",
+      description:
+          "Before finalizing, we check our solutions on various devices and web browsers to make sure they work perfectly.",
+  },
+  {
+      num: "05",
+      title: "Support and Upgrade",
+      description:
+          "We provide regular help and updates to improve your website's performance.",
+  },
+];
+
 
 export {
   faq,
   servicesData,
   introServicesData,
   titleData,
+  paragraphs,
+  buttonData,
+  sectionContent,
+  servicesData1,
+  hoverImageData,
+  smallfaqdata,
+  headingdata,
+  testimonialsData,
+  platformsData,
+  StrategyData
+
 };

@@ -3,10 +3,20 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
+import NewBanner from "../../(Components)/NewBanner";
 
 import {
 
-  faq
+  faq,
+  hoverImageData,
+  headingdata,
+  testimonialsData,
+  smallfaqdata,
+  smallfaqimage
+
 } from "./data";
 
 export const metadata = {
@@ -125,6 +135,9 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
+ <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
 
       <Faq faq={faq} />
       <Footer />

@@ -4,15 +4,27 @@ import Footer from "../../(Components)/Footer";
 import Leverage from '../(CommonComponent)/Mobiledev/Leverage';
 import Tech from '../(CommonComponent)/Mobiledev/Tech';
 import Iphone from "../(CommonComponent)/Mobiledev/Iphone";
+import Strategies from '../(CommonComponent)/Strategies';
+import Solutions from '../(CommonComponent)/Solutions';
 
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
+import Clients from '../(CommonComponent)/Clients';
 
 
 import {
   faq,
+  StrategyData,
+  paragraphs,
+  buttonData,
+  smallfaqdata,
+  headingdata,
+  testimonialsData,
+
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
+import {smallfaqimage} from './images';
 
 export const metadata = {
   title: ' Mobile App Development Company | Application Development Services ',
@@ -43,6 +55,11 @@ const page = () => {
       <Leverage />
       <Tech />
       <Iphone />
+      <Strategies StrategyData={StrategyData}/>
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <Faq faq={faq} />
       <Footer/>
     </div>
