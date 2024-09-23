@@ -4,11 +4,11 @@ import { HiLightBulb } from "react-icons/hi";
 const BulbAnimation = () => {
     // Array to hold the content for the paragraphs
     const ppcParagraphs = [
-        "Pay-per-click or PPC, encompasses various methods and aspects to boost online sales.",
-        "PPC advertising is a keyword-based marketing strategy where search terms and phrases are assigned value based on search volume, difficulty, and competition.",
+        "Pay-per-click or PPC, encompasses various methods and aspects to boost online sales. ",
+        "PPC advertising is a keyword-based marketing strategy where search terms and phrases are assigned value based on search volume, difficulty, and competition. ",
         "Limited Google pay-per-click advertising slots make it challenging for advertisers to claim their spot. Ads are subject to ad auction, an automated process used by search engines to determine relevance and validity.",
         "To improve ad position and lower cost per click, ads must be relevant to target demographics, include valuable keywords, receive high click-through rates, and drive prospects to an SEO-optimized landing page.",
-        "If you don't have time for a PPC audit, consider outsourcing your PPC services to a PPC management company."
+        "If you don’t have time and resources for PPC operations, you can consider outsourcing the best pay-per-click professionals from Possesive Panda for better outcomes. "
     ];
 
     const contentData = [
@@ -46,35 +46,34 @@ const BulbAnimation = () => {
     };
 
     return (
-        <div className='relative px-[5.208vw] bg-[#00111A] flex flex-col mt-40'>
-            <div className='relative flex items-center justify-center mx-[10vw]'>
-                <div className='absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full z-20'>
+        <div className='relative px-[7.059vw] sm:px-[5.208vw] bg-[#00111A] flex flex-col sm:gap-0 gap-[7.059vw] sm:mt-40'>
+            <div className='relative flex items-center sm:justify-center sm:mx-[10vw]'>
+                <div className='sm:absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full z-20'>
 
                     <img
                         src="/assets/services/payPerClick/bulbanim1.svg"
                         alt="bulbanim1"
-                        className='relative w-full'
+                        className='hidden sm:block relative w-full'
                     />
 
-                    <div className='absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full px-[4vw]'>
-                        <h2 className='text-white text-[2.5vw] font-medium text-center mb-[0.2vw]'>
+                    <div className='sm:absolute flex flex-col items-center justify-center sm:top-0 sm:left-0 w-full h-full sm:px-[4vw]'>
+                        <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium text-center mb-[2.353vw] sm:mb-[0.2vw]'>
                             What is PPC Marketing
                         </h2>
-                        <p className='text-white text-[1.25vw] font-light text-center'>
-                            Pay Per Click (PPC) is an online advertising model where advertisers pay a fixed amount for every click on their ad, driving immediate traffic to a website. PPC ads can be targeted based on demographics, location, or device type.
-                        </p>
+                        <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light text-center'>
+                            Pay-Per-Click or PPC, is a digital marketing strategy that allows you to market your products and services for a fixed amount, and you can choose where you want to show your ads and spend money. It drives immediate traffic to your website and amplify the sales of your products and services.                        </p>
                     </div>
                 </div>
             </div>
 
-            <div className='pt-[8.333vw] pb-[0.9vw] items-center justify-center bg-[#131D22] relative flex flex-col text-center overflow-hidden '>
+            <div className='sm:py-0 py-[5.647vw] sm:pt-[8.333vw] px-[3.2vw] sm:px-0 sm:pb-[0.9vw] items-center justify-center bg-[#131D22] relative flex flex-col rounded-[2.824vw] sm:rounded-none  text-center sm:overflow-hidden '>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="502"
                     height="545"
                     viewBox="0 0 502 836"
                     fill="none"
-                    className='absolute -left-10  '
+                    className='absolute hidden sm:block sm:-left-10  '
                 >
                     <g opacity="0.71" filter="url(#filter0_f_7485_7118)">
                         <path
@@ -101,18 +100,18 @@ const BulbAnimation = () => {
                     </defs>
                 </svg>
 
-                <h2 className='text-white text-[2.5vw] tracking-wide font-medium mb-[1.563vw] w-[55.729vw]'>
+                <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] sm:tracking-wide font-medium sm:mb-[1.563vw] mb-[2.353vw] sm:w-[55.729vw]'>
                     How Does PPC Work?
                 </h2>
 
                 {ppcParagraphs.map((paragraph, index) => (
-                    <p key={index} className='text-white text-[1.25vw] font-light mb-[1.563vw] w-[55.729vw] opacity-70 '>
+                    <p key={index} className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light sm:mb-[1.563vw] mb-[2.353vw] sm:w-[55.729vw] sm:opacity-70 '>
                         {paragraph}
                     </p>
                 ))}
 
 
-                <div className="absolute flex justify-center bottom-10 right-16">
+                <div className="hidden absolute sm:flex justify-center bottom-10 right-16">
                     <div
                         className={`flex gap-[0.469vw] items-center justify-between w-full rounded-full border-[0.052vw] cursor-pointer transition-all duration-300 ${isOn ? 'bg-[#00AFF1]' : 'bg-[#00111A]'
                             }`}
@@ -134,7 +133,7 @@ const BulbAnimation = () => {
 
             {/* i have added the bulb on the wall */}
 
-            <div className='flex justify-between px-[8.333vw]'>
+            <div className='hidden sm:flex justify-between px-[8.333vw]'>
                 {Array(4)
                     .fill(null)
                     .map((_, index) => (
@@ -205,19 +204,19 @@ const BulbAnimation = () => {
             </div>
 
 
-            <div className={`relative overflow-hidden  flex gap-[1.25vw] ${isOn ? '' : 'opacity-10'}`}>
+            <div className={`relative overflow-hidden  flex sm:flex-row flex-col gap-[2.353vw] sm:gap-[1.25vw] sm:${isOn ? '' : 'opacity-10'}`}>
                 {contentData.map((content, index) => (
                     <div
                         key={index}
-                        className='glowup flex flex-col px-[1.35vw] gap-[0.833vw] pt-[1.667vw] text-center items-center'
+                        className='glowup flex flex-col px-[1.35vw] gap-[2.353vw] sm:gap-[0.833vw]  py-[7.529vw] sm:py-0 sm:pt-[1.667vw] text-center items-center'
                         style={{
                             background: 'linear-gradient(180deg, #2A2A2A 0%, rgba(0, 17, 26, 0.00) 100%)',
                         }}
                     >
-                        <div className="absolute rounded-[261px] bg-[rgba(255,255,255,0.60)] filter blur-[50px] w-[13.594vw] h-[13.594vw] -top-24 ">
+                        <div className="absolute rounded-[261px] bg-[rgba(255,255,255,0.60)] filter blur-[50px] w-[61.412vw] h-[15vw] sm:w-[13.594vw] sm:h-[13.594vw] sm:-top-24 ">
                         </div>
-                        <h2 className='text-white text-[1.667vw] font-medium w-[18.75vw]'>{content.title}</h2>
-                        <p className='text-white text-[1.25vw] font-light w-[17.344vw] mb-[7.24vw]'>{content.description}</p>
+                        <h2 className='text-white text-[7.529vw] sm:text-[1.667vw] font-medium sm:w-[18.75vw]'>{content.title}</h2>
+                        <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light sm:w-[17.344vw] sm:mb-[7.24vw] sm:mx-0 mx-[3.765vw] '>{content.description}</p>
                     </div>
                 ))}
             </div>

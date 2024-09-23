@@ -1,4 +1,17 @@
 
+import { IoMdGitMerge } from "react-icons/io";
+import { GrSettingsOption } from "react-icons/gr";
+import { PiTimerBold } from "react-icons/pi";
+import { RiSeoLine } from "react-icons/ri";
+import { FaRegFile } from "react-icons/fa";
+import { BiCubeAlt } from "react-icons/bi";
+import { VscCircuitBoard } from "react-icons/vsc";
+import { IoEarthOutline } from "react-icons/io5";
+import { BsGraphUp } from "react-icons/bs";
+import { FaIoxhost } from "react-icons/fa6";
+import { SiCoinmarketcap } from "react-icons/si";
+import { SiGooglemarketingplatform } from "react-icons/si";
+
 const faq = [
   {
     title: "What is Social Media Management?",
@@ -27,47 +40,88 @@ const faq = [
 ];
 
 const growthData = {
-  heading: "Our Social Media Marketing Services Delivery Approach",
+  heading: "Our  Social Media Marketing Services Delivery Approach",
   description:
-    "We believe that SMM services approach is vital for ensuring customer satisfaction, retention, and overall business growth. ",
+    "We believe that SMM services approach is vital for ensuring customer satisfaction, retention, and overall business growth.  ",
   cards: [
     {
       id: 1,
-      title: 'Research and Targeting',
-      category: 'Audience',
+      title: "Research and Targeting",
+      category: "Audience",
       description:
-        'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.',
+        'Our team conducts thorough market research to understand your target audience, preferences, and pain points, utilizing demographic data and industry trends to create a tailored social media strategy.',
     },
     {
       id: 2,
-      title: 'Strategy Development',
-      category: 'Social Media',
+      title: "Strategy Development",
+      category: "Social Media",
       description:
-        'Digital marketing offers cost-effective alternatives to traditional methods, enabling businesses to reach a larger audience through channels like social media, email, and PPC advertising.',
+        'We develop a tailored social media marketing strategy, incorporating brand voice, content themes, posting frequency, and engagement tactics to effectively communicate with your audience.',
     },
     {
       id: 3,
-      title: 'Content Creation and Optimization',
-      category: 'Audience Engagement',
+      title: "Content Creation and Optimization",
+      category: "Audience Engagement",
       description:
-        'Digital marketing services enable businesses to target specific audience segments based on demographics, interests, and behaviors, ensuring marketing resonates with the right people and increasing conversions.',
+        'Our content team creates visually appealing content for delivery services, highlighting unique value propositions, and building brand trust, optimizing it for each social media platform.',
     },
     {
       id: 4,
-      title: 'Increased Conversion Rates',
+      title: 'Management and Engagement',
       category: 'Sales Boost',
       description:
-        'With analytics and data-driven strategies, businesses can optimize their marketing efforts and see an increase in conversions and sales.',
+        'Our social media managers study and monitor our social media accounts and then focus on building strategies that will boost the number of followers and engagement of your content. ',
     },
     {
       id: 5,
-      title: 'Measurable Results',
+      title: 'Paid Social Media Advertising',
+      category: 'Enhanced ROAS',
+      description:
+        'We provide targeted paid advertising campaigns on Facebook, Instagram, and LinkedIn, utilizing audience research, and performance data optimization to enhance organic social media efforts.',
+    },
+    {
+      id: 6,
+      title: 'Analytics and Reporting',
       category: 'Performance Tracking',
       description:
-        'Digital marketing offers real-time data tracking, allowing businesses to measure the effectiveness of their campaigns and make adjustments accordingly.',
+        "Our team utilizes advanced analytics tools and MarketingCloudFX software to analyze your social media campaigns' performance, providing regular reports on key metrics and actionable insights to optimize your strategy.",
     },
   ],
 };
+
+const whyData = {
+  mainHeading: "Why Choose Possesive Panda’s Social Media Marketing Services and Solutions?",
+  subText2:
+    "Possesive Panda provides complete transparency, allowing you to witness firsthand how our efforts are elevating your ROI(s). Our dedication to successful social media management and marketing tactics results in a significant network resource for your online marketing requirements.",
+  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  listHeading:
+    "Partnering with Possesive Panda, provides the following benefits:",
+  titles: [
+    { title: "Dynamic Pricing" },
+    { title: "Devoted Project Managers" },
+    { title: "Extensive Onboarding Method" },
+    { title: "Personalized Social Media Marketing Plan" },
+    { title: "Reports on Social Media Campaigns" },
+    { title: "Both a Paid and Organic Team" },
+    { title: "24/7 Assistance" },
+    { title: "Various Marketing Specialties" },
+
+  ],
+};
+
+const mobileData = {
+  heading: "Social Media Marketing and Its Benefits",
+  sideImage: "/assets/aboutus/Side component.png",
+  paragraphs: [
+    "Social media marketing enables businesses to amplify their revenue and customer reach by showcasing their products and services to their potential customers for various demographics at the right time.",
+    "High search rankings are achieved when users share content across social media channels, leading to better search rankings.",
+    "Being successful in reaching out to your potential customers and making their minds opt for your products and services could be difficult, but not with social media marketing. It allows businesses to display their products and services on the screens of people in order to captivate a larger customer base. ",
+    "Social media marketing is a powerful tool for online marketing or digital marketing for businesses of every sort and size. You can leverage social media like Facebook, Instagram, Twitter, Reddit, LinkedIn, or many more, as they have a plethora of targeted customers to generate more leads and enhance the conversion rate.",
+    "Improved customer reach is another key benefit of social media marketing. By identifying and categorizing ideal customers by age, location, and online activities, marketers can craft relevant content and ads that address their needs.",
+    "Complete brand control is achieved through social media marketing packages that are tailored to specific needs and financial capacity, allowing businesses to create and maintain an image that appeals to their target audience. Enhanced customer trust is achieved through sharing valuable content, engaging in online conversations, and using social media video marketing to showcase client testimonials and case studies."
+  ]
+};
+
 const buttonData= [
   "Facebook Marketing",
   "Instagram Marketing ",
@@ -162,12 +216,107 @@ const testimonialsData = [
 
 
 };
+const iconMapping1 = {
+  GrSettingsOption: <GrSettingsOption />,
+  PiTimerBold: <PiTimerBold />,
+  IoMdGitMerge: <IoMdGitMerge />,
+  RiSeoLine: <RiSeoLine />,
+  FaRegFile: <FaRegFile />,
+  BiCubeAlt: <BiCubeAlt />,
+  VscCircuitBoard: <VscCircuitBoard />,
+  IoEarthOutline: <IoEarthOutline />,
+  BsGraphUp: <BsGraphUp />,
+  FaIoxhost: <FaIoxhost />,
+  SiCoinmarketcap: <SiCoinmarketcap />,
+  SiGooglemarketingplatform: <SiGooglemarketingplatform />,
+};
 
-export {
-  faq,
-  growthData,
+const ourService = {
+  heading: "Our Social Media Services",
+  subHeading:
+    "Possesive Panda offers a full suite of Social Media Marketing (SMM) services for your business growth.",
+};
+const servicesData22 = [
+  {
+    line: 1,
+    services: [
+      {
+        icon: "GrSettingsOption",
+        title: "Content Development",
+        description:
+          "Our team of social media marketers crafts compelling content and content calendars of various sorts to captivate the target audience for peak visibility across various social media platforms, i.e., Facebook, Instagram, LinkedIn, Twitter, etc.",
+      },
+      {
+        icon: "PiTimerBold",
+        title: "Social Media Management ",
+        description:
+          "Possesive Panda offers ongoing social media management services, staying updated on trends and market developments to maximize brand potential, using advanced technologies for account management and campaign configuration.",
+      },
+      {
+        icon: "IoMdGitMerge",
+        title: "Social Media Advertising",
+        description:
+          "Our team is responsible for creating and managing paid ad campaigns to enhance brand visibility and reach specific audience segments, involving performance analysis and budget optimization.",
+      },
+    ],
+  },
+  {
+    line: 2,
+    services: [
+      {
+        icon: "RiSeoLine",
+        title: "Social Media Account Handling",
+        description:
+          "At Possesive Panda, our team of experts keeps a keen eye on your social media accounts and manages various tasks such as regular posting, replying to comments and messages, and regularly updating stories and thoughts.",
+      },
+      {
+        icon: "FaRegFile",
+        title: "Engagement Growth",
+        description:
+          "Our engagement growth strategy in social media marketing prospects involves user interaction with the brand's content, i.e., running targeted ads, using engagement driving features, and leveraging user-generated content.",
+      },
+      {
+        icon: "BiCubeAlt",
+        title: "Influencer Collaboration",
+        description:
+          "Collaborating with influencers to enhance brand reach and credibility, leveraging their audience for effective brand promotion.",
+      },
+    ],
+  },
+  {
+    line: 3,
+    services: [
+      {
+        icon: "VscCircuitBoard",
+        title: "Reputation Management",
+        description:
+          "The text outlines the responsibility of managing online reviews and feedback to maintain a positive brand reputation, address customer concerns, and implement strategies to mitigate negative impacts, thereby reinforcing trust and credibility.",
+      },
+      {
+        icon: "IoEarthOutline",
+        title: "SEO Integration",
+        description:
+          "Social media marketing requires best SEO practices for ad campaigns and content credibility. Keeping this in mind, our expert social media marketers integrate best SEO practices for better online visibility and overall business success.",
+      },
+      {
+        icon: "BsGraphUp",
+        title: "Online Reputation Management",
+        description:
+          "The nature of digital success is very dynamic and ever-evolving. Our Online Reputation Management (ORM) services allow businesses to have a strong and lasting customer success. It helps shape consumer perception, manage crises, foster engagement, and create positive content.",
+      },
+    ],
+  },
+];
+
+export { faq, 
+  growthData, 
+  whyData,
+  mobileData,
   headingdata,
   testimonialsData,
   paragraphs,
   buttonData,
+  ourService, 
+  servicesData22, 
+  iconMapping1,
 };

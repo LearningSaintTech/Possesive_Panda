@@ -4,7 +4,7 @@ import { MdVolumeUp, MdVolumeOff } from 'react-icons/md';
 
 const Banner = ({ whyUsRef }) => {
   const videoRef = useRef(null);
-  const [isMuted, setIsMuted] = useState(true); 
+  const [isMuted, setIsMuted] = useState(true);
   const [player, setPlayer] = useState(null);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Banner = ({ whyUsRef }) => {
         videoId: '3_N67lsN_Uc',
         events: {
           onReady: (event) => {
-            event.target.mute(); 
+            event.target.mute();
             event.target.setPlaybackQuality('hd1080');
             event.target.playVideo();
             setPlayer(event.target);
@@ -69,11 +69,11 @@ const Banner = ({ whyUsRef }) => {
   const toggleMute = () => {
     if (player) {
       if (isMuted) {
-        player.unMute(); 
+        player.unMute();
       } else {
-        player.mute(); 
+        player.mute();
       }
-      setIsMuted(!isMuted); 
+      setIsMuted(!isMuted);
     }
   };
 
@@ -86,16 +86,16 @@ const Banner = ({ whyUsRef }) => {
   return (
     <div className="relative w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
       {/* Text Content */}
-      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 sm:w-[43.333vw] mt-[18vw] sm:mt-[13.958vw] flex flex-col gap-[5vw] md:gap-[6vw] lg:gap-[1.042vw]">
+      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 sm:w-[43.333vw] mt-[18vw] sm:mt-[13.958vw] flex flex-col gap-[5vw] md:gap-[6vw] lg:gap-[1.083vw]">
         <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide lg:w-[50vw] md:w-[40vw] md:text-[2.5vw] md:text-start">
           Boost Your <span className="text-[#60e2ff]">Business</span> With Powerful IT Technology
         </h1>
-        <p className="text-white text-[4.103vw] lg:text-[1.25vw] font-normal leading-[150%] lg:tracking-[0.015rem] tracking-[0.033vw] lg:w-[46.875vw] text-center lg:text-start md:text-[1.5vw] md:text-start md:w-[30vw] md:-mt-7 lg:mt-[1vw]">
+        <p className="text-white text-[4.103vw] lg:text-[1.25vw] font-normal leading-[150%] lg:tracking-[0.015rem] tracking-[0.033vw] lg:w-[46.875vw] text-center lg:text-start md:text-[1.5vw] md:text-start md:w-[30vw] md:-mt-7 lg:mt-0">
           Elevate your business with our cutting-edge IT services and solutions, designed to meet every need and fuel your tech-driven dreams.
         </p>
 
         <button
-          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[1.5vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] mt-[1vw] lg:mb-0 mb-[8vw] font-medium md:w-[17vw] md:-mt-6 lg:mt-[3.125vw]"
+          className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[1.5vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md  lg:mb-0 mb-[8vw] font-medium md:w-[17vw] mt-[1vw] md:-mt-6 lg:mt-[1vw]"
           onClick={handleScrollToWhyUs}
         >
           Why Us

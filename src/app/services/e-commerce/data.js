@@ -103,20 +103,20 @@ const introServicesData = {
   content: [
     "eCommerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In eCommerce, customers shop whenever they want; there is no time bound for shopping.",
     "eCommerce services and solutions comprise a wide range of tools and technologies that allow businesses to sell products and services on the internet.",
-    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly.",
-  ],
+    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothlyIn order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly."
+  ]
 };
 
 const titleData = {
   heading: "Choose Possesive Panda as Your eCommerce Success Partner",
   title: [
     "Delivered 50+ eCommerce websites across industries",
-    "Live Video Consultation",
-    "Expertise with all eCommerce development platforms.",
-    "Voice-Assisted Shopping",
-    "Enhanced traffic and sales",
-    "Decentralized Marketplaces",
+    "Expertise with all eCommerce development platforms",
+    "Enhanced traffic and sales.",
     "Google Partnership",
+    "Live Video Consultation",
+    "Voice-Assisted Shopping ",
+    "Decentralized Marketplaces",
     "Interactive User Manuals",
     "Provide eCommerce solutions powered by AI/AR",
     "IOT-Powered eCommerce Operations",
@@ -140,8 +140,8 @@ const iconMapping1 = {
 
 const ourService = 
   {
-    heading: "Our E-commerce Services",
-    subHeading:"At Possesive Panda, we deliver a unique and personalized eCommerce experience for your business. For eCommerce design, eCommerce development platforms, eCommerce SEO, shopping campaigns, analytics, and hosting, we integrate our experience and expertise to make your business at the forefront.",
+    heading: "Our eCommerce Services",
+    subHeading:"At Possesive Panda, we deliver a unique and personalized eCommerce experience for your business. For eCommerce design, eCommerce development platforms, eCommerce SEO, shopping campaigns, analytics, and hosting, we integrate our experience and expertise to make your business at the forefront. ",
   
 };
 const servicesData22 = [
@@ -156,7 +156,7 @@ const servicesData22 = [
       },
       {
         icon: "PiTimerBold",
-        title: "eCommerce Implementation",
+        title: "eCommerce implementation",
         description:
           "Get cloud platforms, payment gateways, POS systems, and CRMs implemented to your eCommerce web stores and mobile applications.",
       },
@@ -208,7 +208,7 @@ const servicesData22 = [
       },
       {
         icon: "BsGraphUp",
-        title: "Conversion Rate Optimization",
+        title: "Conversion Rate Optimization (CRO)",
         description:
           "Possesive Panda also provides CRO services to amplify your eCommerce website visitors and maximize your product and service sales.",
       },
@@ -242,18 +242,18 @@ const servicesData22 = [
 
 const cardList ={
   subHeading: "Agile Approach",
-  heading: " Our eCommerce Services Delivery Process",
-  paragraph: "With Possessive Panda’s eCommerce Services, we aim to deliver exemplary experiences that will have a long-lasting impression on our clients and their customers.",
+  heading: "Our eCommerce Services Delivery Process",
+  paragraph: "With Possesive Panda’s eCommerce Services, we aim to deliver exemplary experiences that will have a long-lasting impression on our clients and their customers.",
 }
 
 const cardData = [
   {
-      title: "Initial Mapping",
+      title: " Initial Mapping ",
       step: "Step 1",
       description: "For better client satisfaction, understanding clients requirements is necessary. To facilitate this, we conduct client meetings in which all the wants and needs are discussed and planned.",
   },
   {
-      title: "Web Designing & Development",
+      title: "Web Designing and Development",
       step: "Step 2",
       description: "This stage necessitates custom eCommerce website design and development, keeping user-friendliness, responsiveness, intuitive navigation, and high-converting product page stores in mind.",
   },
@@ -278,7 +278,7 @@ const cardData = [
       description: "This stage facilitates the 24/7 customer support services, including live chat and multichannel support, to assist customers with their queries and inquiries to enhance customer satisfaction.",
   },
   {
-      title: "Maintenance and Support",
+      title: "Maintenance and Support ",
       step: "Step 7",
       description: "Last but not least, we provide ongoing support and maintenance to ensure that your eCommerce platform remains functional, updated, and secure with cutting edge technology and industry best practices.",
   },

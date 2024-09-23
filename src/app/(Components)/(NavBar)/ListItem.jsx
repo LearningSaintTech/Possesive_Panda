@@ -5,7 +5,7 @@ const ListItem = ({ name, clickFunction, link, selected }) => {
   const normalWidth = "w-[18vw]";
   const subWidth = "w-[21vw]";
   const baseClasses =
-    "flex gap-[0.4vw] pl-[2.083vw] items-center py-[0.5vw] text-neutral-800";
+    "flex gap-[0.4vw] pl-[2.083vw] items-center py-[0.5vw] text-white";
   const hoverClasses =
     "hover:bg-cyan-300 hover:border-l-[0.4vw] hover:border-sky-500 hover:text-white";
   const selectedClasses =
@@ -16,13 +16,11 @@ const ListItem = ({ name, clickFunction, link, selected }) => {
     "text-[1.04vw] font-medium leading-[normal] tracking-[0.013rem]";
   return (
     <button
-      className={`${baseClasses} ${
-        isSelected ? selectedClasses : hoverClasses
-      } ${
-        name === "Premium Services" || name === "Services"
+      className={`${baseClasses} ${isSelected ? selectedClasses : hoverClasses
+        } ${name === "Premium Services" || name === "Services"
           ? normalWidth
           : subWidth
-      }`}
+        }`}
       onClick={clickFunction}
     >
       <svg
@@ -58,7 +56,7 @@ const ListItem = ({ name, clickFunction, link, selected }) => {
         </svg>
       )}
     </button>
-    
+
   );
 };
 

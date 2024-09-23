@@ -7,6 +7,8 @@ import Script from 'next/script';
 import BulbAnimation from '../(CommonComponent)/BulbAnimation';
 import Partner from '../(CommonComponent)/Partner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import OurSevices from '../(CommonComponent)/OurSevices';
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
 
 import Strategies from '../(CommonComponent)/Strategies';
 import Clients from '../(CommonComponent)/Clients';
@@ -19,6 +21,11 @@ import {
   headingdata,
   testimonialsData,
 
+  iconMapping1,
+  ourService,
+  servicesData22,
+  cardList,
+  cardData,
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
 
@@ -138,6 +145,9 @@ const page = () => {
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
       <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
       </div>
       <BulbAnimation />
@@ -146,6 +156,9 @@ const page = () => {
      <NewContact/>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
 
+      <div>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

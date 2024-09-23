@@ -26,7 +26,7 @@ import {
   iconMapping1,
   ourService,
   cardData,
-cardList,
+  cardList,
   paragraphs,
   buttonData,
   sectionContent,
@@ -169,14 +169,15 @@ const Page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <OurSevices   iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading}  />
+      <div>
+        <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
       <div>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
 
 
       <Benefits />
-      <IndustriesWe/>
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
@@ -190,6 +191,9 @@ const Page = () => {
 <Platforms platformsData={platformsData}/>
       <Customized />
       <ToolsTech />
+      <div>
+      <CardList cardData={cardData} cardList={cardList} />
+      </div>
       <NewContact/>
       <Industries />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>

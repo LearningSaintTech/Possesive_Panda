@@ -3,12 +3,25 @@ import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Clients from "../(CommonComponent)/Clients";
-import Platforms from "../(CommonComponent)/Platforms";
+import Platforms from "../(CommonComponent)/Platforms"; import Mobile from "../(CommonComponent)/Mobile";
+import Why from "../(CommonComponent)/Why";
+import OurServices from "../(CommonComponent)/OurSevices"
+import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import ToolsTech from "../(CommonComponent)/ToolsTech";
+import Marquee from "../../(homeComponent)/Marquee";
+
 import {
   faq,
   headingdata,
   testimonialsData,
-  platformsData
+  platformsData,
+  mobileData,
+  whyData,
+  ourService,
+  servicesData22,
+  iconMapping1,
+  cardList,
+  cardData,
 } from "./data";
 
 import Head from 'next/head';
@@ -112,10 +125,35 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <div>
+        <Mobile
+          heading={mobileData.heading}
+          sideImage={mobileData.sideImage}
+          paragraphs={mobileData.paragraphs}
+        />
+      </div>
+      <div>
+        <Why
+          mainHeading={whyData.mainHeading}
+          subText1={whyData.subText1}
+          subText2={whyData.subText2}
+          thumbnail={whyData.thumbnail}
+          listHeading={whyData.listHeading}
+          titles={whyData.titles}
+        />
+      </div>      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <NewContact/>
-      <Platforms platformsData={platformsData}/>
-
+      <Platforms platformsData={platformsData} />
+      <div>
+        <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
+      </div>
+      <div>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
+      <ToolsTech/>
+      <div className='mt-[10vw]'>
+        <Marquee />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

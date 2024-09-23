@@ -1,3 +1,16 @@
+import { IoMdGitMerge } from "react-icons/io";
+import { GrSettingsOption } from "react-icons/gr";
+import { PiTimerBold } from "react-icons/pi";
+import { RiSeoLine } from "react-icons/ri";
+import { FaRegFile } from "react-icons/fa";
+import { BiCubeAlt } from "react-icons/bi";
+import { VscCircuitBoard } from "react-icons/vsc";
+import { IoEarthOutline } from "react-icons/io5";
+import { BsGraphUp } from "react-icons/bs";
+import { FaIoxhost } from "react-icons/fa6";
+import { SiCoinmarketcap } from "react-icons/si";
+import { SiGooglemarketingplatform } from "react-icons/si";
+
 const testimonialsData = [
   {
       name: "Emily R.",
@@ -130,52 +143,183 @@ const faq = [
 const growthData = {
   heading: "Our Web Application Development Process",
   description:
-    "Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs. ",
+    "Possesive Panda follows a standard yet dynamic process to deliver its services. It ensures that our solutions align with our clients’ specific needs. ",
   cards: [
     {
       id: 1,
-      title: 'Research and Targeting',
-      category: 'Online Presence ',
+      title: 'Understanding Client Needs',
+      category: 'Client Satisfaction ',
       description:
-        'Digital marketing services enhance brand visibility through search engine optimization (SEO), enabling businesses to achieve higher rankings in search results, crucial for consumers search engine discovery.',
+        "Our initial consultation involves understanding clients' business goals, target audience, and requirements, followed by detailed discussions and competitor analysis to identify industry standards, opportunities, and threats.",
     },
     {
       id: 2,
-      title: 'Strategy Development',
-      category: 'Maximized ROI',
+      title: 'Planning and Strategy ',
+      category: 'Bespoke Implementation',
       description:
-        'Digital marketing offers cost-effective alternatives to traditional methods, enabling businesses to reach a larger audience through channels like social media, email, and PPC advertising.',
+        'The phase involves mapping out website architecture, creating a structure, layout, and functionality blueprint, and developing a content strategy for clear, concise, and engaging messaging.',
     },
     {
       id: 3,
-      title: 'Content Creation and Optimization',
-      category: 'Audience Engagement',
+      title: 'Intuitive UI/UX Design ',
+      category: 'Enhanced CX',
       description:
-        'Digital marketing services enable businesses to target specific audience segments based on demographics, interests, and behaviors, ensuring marketing resonates with the right people and increasing conversions.',
+        'This phase involves combining creativity and strategy to create visually appealing, intuitive interfaces for clients, incorporating feedback for customer satisfaction through interactive development.',
     },
     {
       id: 4,
-      title: 'Increased Conversion Rates',
-      category: 'Sales Boost',
+      title: 'Coding the Website',
+      category: 'Agile Development',
       description:
-        'With analytics and data-driven strategies, businesses can optimize their marketing efforts and see an increase in conversions and sales.',
+        'At this stage, our well-experienced web developers proceed to the development of the web applications. They employ best practices for frontend and backend development to create intuitive and scalable web applications.',
     },
     {
       id: 5,
-      title: 'Measurable Results',
+      title: 'Testing and Quality Assurance',
       category: 'Performance Tracking',
       description:
-        'Digital marketing offers real-time data tracking, allowing businesses to measure the effectiveness of their campaigns and make adjustments accordingly.',
+        'We conduct thorough testing before launching a website, including features, interactivity, cross-browser compatibility, and optimal device experience, to ensure optimal SEO and website visibility.',
+    },
+    {
+      id: 6,
+      title: 'Successful & Scalable Launch',
+      category: 'New Heights',
+      description:
+        ' Once testing is complete and any necessary adjustments are made, we prepare for the official launch. Deployment is done on Amazon Web Services (AWS) and our live site monitoring approach ensures everything runs smoothly after launch.',
+    },
+    {
+      id: 7,
+      title: 'Post Launch Support ',
+      category: 'Further Maintenance',
+      description:
+        'Our commitment to client success extends beyond website launch, transferring source code for web development support and maintenance, and providing regular updates, performance monitoring, and content updates.',
     },
   ],
 };
+
+const iconMapping1 = {
+  GrSettingsOption: <GrSettingsOption />,
+  PiTimerBold: <PiTimerBold />,
+  IoMdGitMerge: <IoMdGitMerge />,
+  RiSeoLine: <RiSeoLine />,
+  FaRegFile: <FaRegFile />,
+  BiCubeAlt: <BiCubeAlt />,
+  VscCircuitBoard: <VscCircuitBoard />,
+  IoEarthOutline: <IoEarthOutline />,
+  BsGraphUp: <BsGraphUp />,
+  FaIoxhost: <FaIoxhost />,
+  SiCoinmarketcap: <SiCoinmarketcap />,
+  SiGooglemarketingplatform: <SiGooglemarketingplatform />,
+};
+
+const ourService = {
+  heading: "Our Web Application  Development Services",
+  subHeading:
+    "We offer tailored web application development services, including web designing, web application crafting, maintenance, and support for web applications, also involving seamless and scalable testing, debugging, and deployment. ",
+};
+const servicesData22 = [
+  {
+    line: 1,
+    services: [
+      {
+        icon: "GrSettingsOption",
+        title: "Custom Web Application Development",
+        description:
+          "Possesive Panda offers customized, bespoke web application development via industry experts and experienced developers. We prioritize client satisfaction over quantitative work. Our developers build intuitive, user-friendly, and secure web applications for your businesses.",
+      },
+      {
+        icon: "PiTimerBold",
+        title: "Enterprise Web Application Development",
+        description:
+          "Possesive Panda’s experienced web application developers specialize in the development of enterprise applications, focusing on dynamic CRM, ERP, cost management, and project management for your business.",
+      },
+      {
+        icon: "IoMdGitMerge",
+        title: "Web Portal Solutions",
+        description:
+          "Possesive Panda offers flawless web portal solutions, enabling businesses to have immersive connectivity and user engagement. Our developers use advanced, cutting edge technologies and functionalities.",
+      },
+    ],
+  },
+  {
+    line: 2,
+    services: [
+      {
+        icon: "RiSeoLine",
+        title: "Progressive Web Application Development",
+        description:
+          "Our team of expert developers delivers top-notch progressive web applications (PWA) development with interactive UI/UX and seamless navigation aligning with your business tailored needs.",
+      },
+      {
+        icon: "FaRegFile",
+        title: "Cross Platform Web Application Development",
+        description:
+          "Possesive Panda offers cross platform web application development services catering to responsiveness, compatibility, and scalability using best-suited tools and technologies, ensuring an immersive customer experience (CX).",
+      },
+      {
+        icon: "BiCubeAlt",
+        title: "eCommerce Web Application Development",
+        description:
+          "From building your online stores to managing your marketplace, Possesive Padna offers a wide range of eCommerce services and solutions. Our eCommerce web app development services include building eCommerce websites on various platforms like Shopify or Magento.",
+      },
+    ],
+  },
+  {
+    line: 3,
+    services: [
+      {
+        icon: "VscCircuitBoard",
+        title: "SaaS Application Development Services",
+        description:
+          "Possesive Panda’s SaaS developers are proficient in a variety of technologies, they write excellent code, and our PMO uses well-established KPIs to ensure that engineers are producing their best work.",
+      },
+      {
+        icon: "IoEarthOutline",
+        title: "Web Application Integration Services",
+        description:
+          "Possesive Panda excels at delivering top-notch web application integration services, from simple database updates to intricate web application integration. Our team of expert professionals drives data-driven cooperation for better results.",
+      },
+      {
+        icon: "BsGraphUp",
+        title: "Web Application Modernization Services",
+        description:
+          "Possesive Panda offers web application modernization services consisting upgrading web apps to new technologies and enhance performance with the integration of internet of things (IoT), machine learning and artificial intelligence (AI).",
+      },
+    ],
+  },
+];
+
+const whyData = {
+  mainHeading: "Partner with Possesive Panda for Your Web Application Development Success",
+  subText1: "Possesive Panda is a professional web application development company that specializes in creating customized, innovative web apps for various industries, including eCommerce, finance, and e-learning. ",
+  subText2:
+    "Our team of developers is skilled in creating generic and native apps with enthusiasm and dexterity. We offer long-term support contracts for our work, ensuring that our clients' imaginations are shaped perfectly.",
+  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  listHeading:
+    "Possesive Panda is a pioneer IT solution provider and deliver outstanding web application development services:",
+  titles: [
+    { title: "Dynamic Pricing " },
+    { title: "SEO Integration" },
+    { title: "24/7 Assistance" },
+    { title: "Scalable Solutions" },
+    { title: "Maximized ROI(s)" },
+    { title: "DEffective applications" },
+    { title: "Customer Interaction & Business Automation" },
+    { title: "Cross-platform Capability" },
+  ],
+};
+
 
 
 export {
   faq,
   growthData,
+  whyData,
   paragraphs,
   buttonData,
   headingdata,
   testimonialsData,
+  iconMapping1,
+  ourService,
+  servicesData22,
 };
