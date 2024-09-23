@@ -6,11 +6,19 @@ import Head from 'next/head';
 import Script from 'next/script';
 import BulbAnimation from '../(CommonComponent)/BulbAnimation';
 import Partner from '../(CommonComponent)/Partner';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 
+import Strategies from '../(CommonComponent)/Strategies';
+import Clients from '../(CommonComponent)/Clients';
 
 import {
   faq,
   titleData,
+  hoverImageData,
+  StrategyData,
+  headingdata,
+  testimonialsData,
+
 } from "./data";
 
 export const metadata = {
@@ -132,6 +140,10 @@ const page = () => {
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
       </div>
       <BulbAnimation />
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? "/>
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <Faq faq={faq} />
       <Footer />
     </div>

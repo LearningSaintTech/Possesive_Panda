@@ -1,3 +1,4 @@
+import platformImg1 from '../../../../public/assets/wordpress.png';
 const faq = [
   {
     title: `How long does it take to complete a custom graphic design?`,
@@ -60,10 +61,93 @@ const whyData = {
 
   ],
 };
+const headingdata={
+
+  //testimonials
+  heading:" What our clients have to say",
+  description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
 
 
+
+};
+const testimonialsData = [
+  {
+      name: "Emily R.",
+      role: "Owner of EcoTrend Boutique",
+      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+  },
+  {
+      name: "Jake M.",
+      role: "Founder of Urban Gear Co.",
+      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+  },
+  {
+      name: "Lisa K.",
+      role: "CEO of Artisan Delights",
+      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+  },
+  {
+    name: "Carlos T.",
+    role: "Founder of Gadget Galaxy",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+},
+{
+  name: "Mia S.",
+  role: "Director of Luxe Living",
+  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+},
+];
+const platformsData = [
+  {
+    images: [
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
+        altText: "Magento"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
+        altText: "Magento"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        altText: "WordPress"
+      },
+      {
+        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
+        altText: "Shopify"
+      },
+      {
+        imageSrc: platformImg1,  
+        altText: "Magento"
+      },
+    ],
+    text: {
+      heading: "Graphic Design Tools and Technologies We Use to Provide Tailored Experiences",
+      paragraph: "Graphic design tools and technologies are crucial for creating visually appealing content, ranging from vector graphics to layout design and digital illustrations."
+    }
+  }
+];
 export {
   faq,
+  headingdata,
+  testimonialsData,
+  platformsData,
   mobileData,
   whyData,
 };

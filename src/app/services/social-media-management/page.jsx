@@ -4,13 +4,19 @@ import Footer from "../../(Components)/Footer";
 import Models from "../(CommonComponent)/Models";
 import Growth from "../(CommonComponent)/Growth";
 import Why from "../(CommonComponent)/Why";
-import Mobile from "../(CommonComponent)/Mobile";
+import Mobile from "../(CommonComponent)/Mobile";import Clients from '../(CommonComponent)/Clients';
+import Solutions from '../(CommonComponent)/Solutions';
+
 
 import {
   faq,
   growthData,
   whyData,
   mobileData,
+  headingdata,
+  testimonialsData,
+  paragraphs,
+  buttonData,
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
@@ -117,6 +123,9 @@ const page = () => {
         />
       </div>
       <Models />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -2,11 +2,15 @@ import React from "react";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
-import Mobile from "../(CommonComponent)/Mobile";
+import Clients from "../(CommonComponent)/Clients";
+import Platforms from "../(CommonComponent)/Platforms"; import Mobile from "../(CommonComponent)/Mobile";
 import Why from "../(CommonComponent)/Why";
 
 import {
   faq,
+  headingdata,
+  testimonialsData,
+  platformsData,
   mobileData,
   whyData,
 } from "./data";
@@ -127,7 +131,9 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-      </div>
+      </div>      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <Platforms platformsData={platformsData} />
+
       <Faq faq={faq} />
       <Footer />
     </div>

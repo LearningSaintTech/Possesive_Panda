@@ -2,11 +2,17 @@ import React from 'react'
 import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
+import HoverImageComp from '../(CommonComponent)/HoverImageComp';
+import Clients from '../(CommonComponent)/Clients';
 import Mobile from '../(CommonComponent)/Mobile';
 
 import {
   faq,
   mobileData,
+  testimonialsData,
+  headingdata,
+  hoverImageData
+
 } from './data'
 
 import Faq from '../(Components)/(Faq)/Faq';
@@ -134,6 +140,9 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
+      <HoverImageComp hoverImageData={hoverImageData} />
+      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      
       <Faq faq={faq} />
       <Footer />
     </div>

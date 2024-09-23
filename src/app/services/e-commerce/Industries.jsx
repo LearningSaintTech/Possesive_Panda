@@ -39,7 +39,7 @@ const Industries = () => {
                     ].map((industry, index) => (
                         <div
                             key={index}
-                            className="w-[57.647vw] h-[18.353vw] px-[5.647vw] py-[7.529vw] bg-[#131d22] rounded-[2.824vw] border border-white flex flex-col justify-center items-center"
+                            className="w-[57.647vw] h-[18.353vw] px-[5.647vw] py-[7.529vw] bg-[#131d22]  flex flex-col justify-center items-center"
                         >
                             <p className="opacity-70 text-center text-white text-[4.706vw] font-semibold leading-relaxed">
                                 {industry}

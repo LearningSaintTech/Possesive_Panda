@@ -1,16 +1,27 @@
 import React from "react";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
-import Faq from "../(Components)/(Faq)/Faq";
 import Growth from "../(CommonComponent)/Growth";
-
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Head from 'next/head';
 import Script from 'next/script';
-
+import Solutions from "../(CommonComponent)/Solutions";
+import Scrollbar from "../(CommonComponent)/Scrollbar";
+import HoverImageComponent from "../(CommonComponent)/HoverImageComp";
+import Clients from "../(CommonComponent)/Clients";
 import {
   faq,
   growthData,
+  paragraphs,
+  buttonData,
+  smallfaqdata,
+  sectionContent,
+  servicesData1,
+  hoverImageData,
+  testimonialsData,
+  headingdata
 } from "./data";
+import {smallfaqimage} from './images';
 
 
 
@@ -107,7 +118,12 @@ const page = () => {
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <Faq faq={faq} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+<FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
+<Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
+<HoverImageComponent hoverImageData={hoverImageData} />
+<Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+
       <Footer />
     </div>
   );

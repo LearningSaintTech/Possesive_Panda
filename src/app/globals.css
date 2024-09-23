@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .scroll::-webkit-scrollbar-track {
@@ -50,4 +51,25 @@ html, body {
   50% {
     transform: translateY(-10px);
   }
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 0.208vw; 
+  height: 3.542vw;
+   
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #00AFF1;
+  border-radius: 0.208vw ;
+  width: 0.208vw; 
+
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+}
+
+.scrollbar-custom::-webkit-scrollbar-button {
+  display: none;
 }

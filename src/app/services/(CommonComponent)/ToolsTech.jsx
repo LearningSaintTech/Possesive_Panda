@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useRef, useState, useEffect } from 'react';
 import { FaAngular } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
@@ -134,40 +134,103 @@ const data = {
 };
 
 function TechComponent() {
-    const [activeCategory, setActiveCategory] = useState('frontend');
+    const scrollerRef = useRef(null);
+    const [scrollProgress, setScrollProgress] = useState(0);
+    const [activeCategory, setActiveCategory] = useState(Object.keys(data)[0]); // Set default category
+
+    // Handle the scrolling event to update the progress bar
+    const handleScroll = () => {
+        const scrollLeft = scrollerRef.current.scrollLeft;
+        const maxScrollLeft = scrollerRef.current.scrollWidth - scrollerRef.current.clientWidth;
+        setScrollProgress((scrollLeft / maxScrollLeft) * 100);
+    };
+
+    useEffect(() => {
+        const scroller = scrollerRef.current;
+        if (scroller) {
+            scroller.addEventListener('scroll', handleScroll);
+            return () => scroller.removeEventListener('scroll', handleScroll);
+        }
+    }, []);
 
     return (
         <div className="px-[5.208vw] py-[5.3vw] bg-[#00111a]">
             <div className="flex flex-col items-center justify-center ">
-                <h1 className="w-[36.89vw] text-center text-[#fbfbfc] text-[3.104vw] font-medium leading-[4.104vw]">Tools and Technologies We Work With</h1>
-                <p className="text-center text-[#b9babf] text-2xl font-normal leading-[45.03px]">
+                <h1 className="sm:w-[36.89vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium sm:leading-[4.104vw]">
+                    Tools and Technologies We Work With
+                </h1>
+                <p className="text-center text-[#b9babf] sm:text-[1.25vw] text-[3.765vw] sm:font-normal font-normal sm:leading-[45.03px]">
                     Customized, cutting-edge tools and technologies for resolving your queries and developing intuitive and updated solutions.
                 </p>
 
-                <div className="rounded-[0.26vw] justify-center items-center gap-[2.188vw] inline-flex mt-[3.646vw]">
+                {/* Button Card For Mobile*/}
+
+                <div>
+                    {/* Scroller Container */}
+                    <div
+                        ref={scrollerRef}
+                        className="rounded-[0.26vw] inline-flex sm:hidden sm:mt-[3.646vw] mt-[7.059vw] gap-[2.824vw] overflow-x-auto scrollbar-hide"
+                        style={{ width: '100vw' }} // Ensures it spans the width of the viewport
+                    >
+                        {/* Buttons inside the scroller */}
+                        {Object.keys(data).map(category => (
+                            <button
+                                key={category}
+                                onClick={() => setActiveCategory(category)}
+                                className={`shrink-0 w-[33.3333vw] sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[0.417vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
+                                    ? 'bg-[#00aff1] text-white'
+                                    : 'bg-white text-black'
+                                    } hover:bg-[#00aff1] hover:text-white`}
+                            >
+                                {category.charAt(0).toUpperCase() + category.slice(1)}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Progress Bar */}
+                    <div className="mt-[1vw] h-[0.4vw] bg-gray-200 rounded-full">
+                        <div
+                            className="h-full bg-[#00aff1] rounded-full"
+                            style={{ width: `${scrollProgress}%` }}
+                        />
+                    </div>
+                </div>
+
+
+
+                {/* Button Card For Web */}
+
+                <div className="hidden sm:flex rounded-[0.26vw] sm:gap-[2.188vw] sm:mt-[3.646vw] gap-[2.824vw]">
                     {Object.keys(data).map(category => (
                         <button
                             key={category}
                             onClick={() => setActiveCategory(category)}
-                            className={`px-[1.563vw] py-[0.55vw] rounded-[0.417vw] text-[1.25vw] font-semibold  ${activeCategory === category
-                                    ? 'bg-[#00aff1] text-white'
-                                    : 'bg-white text-black'
+                            className={`sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[0.417vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
+                                ? 'bg-[#00aff1] text-white'
+                                : 'bg-white text-black'
                                 } hover:bg-[#00aff1] hover:text-white`}
                         >
                             {category.charAt(0).toUpperCase() + category.slice(1)}
                         </button>
                     ))}
                 </div>
-
-
-                <div className="flex flex-row gap-[1.563vw] mt-[3.646vw]">
+                {/* Technologies CARD */}
+                <div className="grid sm:grid-flow-col grid-cols-2 gap-[7.529vw]  sm:gap-[1.45vw] sm:mt-[3.646vw] mt-[7.294vw] justify-center">
                     {data[activeCategory].map(tech => (
-                        <div key={tech.name} className="px-[1.563vw] py-[0.833vw] bg-white rounded-[0.26vw] shadow justify-start items-center gap-[0.521vw]  inline-flex">
-                            <div className="text-[1.875vw] relative hover:bg-red">{tech.icon}</div>
-                            <p className="group text-[#212121] text-[1.25vw] font-semibold">{tech.name}</p>
+                        <div
+                            key={tech.name}
+                            className="flex sm:px-[1vw] sm:py-[0.533vw] px-[3.765vw] py-[1.882vw] bg-white rounded-[0.26vw] shadow justify-center items-center sm:gap-[0.521vw] gap-[1.882vw]"
+                        >
+                            <div className="sm:text-[1.875vw] text-[7vw] relative hover:bg-red">
+                                {tech.icon}
+                            </div>
+                            <p className="text-[#212121] sm:text-[1vw] text-[3.765vw] font-semibold sm:font-semibold">
+                                {tech.name}
+                            </p>
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     );

@@ -1,3 +1,4 @@
+
 const faq = [
   {
     title: "What is Social Media Management?",
@@ -108,11 +109,108 @@ const mobileData = {
   ]
 };
 
+const buttonData= [
+  "Facebook Marketing",
+  "Instagram Marketing ",
+  "LinkedIn Marketing ",
+  "Youtube Marketing ",
+  "WhatsApp Marketing"
+];
 
+ const paragraphs=[
+  {
+      number: "1",
+      heading1: "What we Provide?",
+      text1: "Possesive Panda offers Facebook marketing services, including budget management, profile optimization, and post cleaning, to help businesses showcase customer support, drive traffic, and establish brand authority on the platform.",
+      heading2: "How we Provide? ",
+      text2: "Possesive Panda offers Facebook marketing strategies to enhance brand visibility and conversions. We provide well-written posts, professional images, and reels, manage Facebook ads, and offer smart remarketing, demographic targeting, and performance monitoring through Facebook Pixel  ",
+      dotPoints: [
+      
+      ]
+
+  },
+  {
+      number: "2",
+      heading1: "What we Provide?",
+      text1: "Possesive Panda’s Instagram advertising experts help businesses connect with customers, build a community, and refine their strategy with analytics, enhancing their business profile and content. ",
+      heading2: "How we Provide? ",
+      text2: "Our Instagram marketing services enhance user engagement rates by building brand image and managing organic and paid campaigns. We provide high-end visuals, stories, videos, interactive bios, live rooms, and shopping destinations, analyzing strategies, managing posts, and monitoring competitors.",
+      dotPoints: [
+      
+      ]
+  }, {
+      number: "3",
+      heading1: "What we Provide?",
+      text1: "Our LinkedIn marketing services focus on establishing your professional reputation on social media, utilizing effective strategies, managing company pages, crafting valuable posts, connecting with industry leaders, and implementing best practices.",
+      heading2: "How we Provide? ",
+      text2: "Our LinkedIn marketing experts aim to enhance your professional networks, improve connections, and generate leads for both B2B and B2C companies. We include professionally written articles, high-quality images, carousel posts, InMail marketing, retargeting, email marketing, and group participation. ",
+      dotPoints: [
+       
+      ]
+  }, {
+      number: "4",
+      heading1: "What we Provide?",
+      text1: "With the majority of consumers finding companies through online channels, YouTube marketing videos are an important resource for prospective customers. Our YouTube marketing company connects with target viewers and enhances the quality of videos. ",
+      heading2: "How we Provide? ",
+      text2: "Youtube marketing is not just about running advertisement campaigns on various keywords, it's about creating a lasting and credible audience base so that you can leverage the number of views and subscribers in order to boost your business success. Ultimately resulting in enhanced customer reach and conversions.  ",
+      dotPoints: [
+        
+      ]
+  }, {
+      number: "5",
+      heading1: "What we Provide?",
+      text1: "Possesive Panda offers comprehensive WhatsApp marketing services involving approaching your targeted and potential customers for showcasing your products and services, effectively running campaigns, and accelerating sales.",
+      heading2: "How we Provide? ",
+      text2: "With our WhatsApp marketing services, we enable your business to reach a new level via bulk messaging, automated notifications, direct WhatsApp ads, catalog and cart features, audience segmentation, and rich media messaging. ",
+      dotPoints: [
+       
+      ]
+  },
+];
+const testimonialsData = [
+  {
+      name: "Emily R.",
+      role: "Owner of EcoTrend Boutique",
+      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+  },
+  {
+      name: "Jake M.",
+      role: "Founder of Urban Gear Co.",
+      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+  },
+  {
+      name: "Lisa K.",
+      role: "CEO of Artisan Delights",
+      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+  },
+  {
+    name: "Carlos T.",
+    role: "Founder of Gadget Galaxy",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+},
+{
+  name: "Mia S.",
+  role: "Director of Luxe Living",
+  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+},
+];
+ const headingdata={
+
+      //testimonials
+      heading:" What our clients have to say",
+      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
+
+
+
+};
 
 export {
   faq,
   growthData,
   whyData,
   mobileData,
+  headingdata,
+  testimonialsData,
+  paragraphs,
+  buttonData,
 };
