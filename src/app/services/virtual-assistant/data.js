@@ -1,7 +1,7 @@
 import img1 from '../../../../public/assets/image_1821.svg';
 import img2 from '../../../../public/assets/image_1822.svg';
 import img3 from '../../../../public/assets/image.svg';
-import faqimg22 from  "../../../../public/assets/assets/services/e-commerce/faq222.png";
+import faqimg22 from "../../../../public/assets/assets/services/e-commerce/faq222.png";
 
 const faq = [
   {
@@ -29,41 +29,45 @@ const faq = [
     description: `Provide clear instructions, access to necessary tools, and continuous feedback.`,
   },
 ];
-const smallfaqimage={
-  img1:faqimg22
+
+
+const smallfaqimage = {
+  img1: faqimg22
 }
 const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Emily R.",
+    role: "Owner of EcoTrend Boutique",
+    text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Jake M.",
+    role: "Founder of Urban Gear Co.",
+    text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Lisa K.",
+    role: "CEO of Artisan Delights",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
   },
   {
     name: "Carlos T.",
     role: "Founder of Gadget Galaxy",
     text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+  },
+  {
+    name: "Mia S.",
+    role: "Director of Luxe Living",
+    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+  },
 ];
- const headingdata={
 
-      //testimonials
-      heading:" Hiring virtual assistants offers numerous benefits for your business growth:",
-      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
+
+const headingdata = {
+
+  //testimonials
+  heading: " Hiring virtual assistants offers numerous benefits for your business growth:",
+  description: "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
 
 
 
@@ -91,7 +95,7 @@ const smallfaqdata = [
     title: "Access to Specialized Skills",
     data: "As mentioned above, you can find virtual assistants for every industry and domain, with their industry expertise and skillset, virtual assistants enable businesses to improve their operations without the worry of extensive hiring processes. ",
   },
- 
+
   {
     key: 5,
     title: "Scalability ",
@@ -106,7 +110,7 @@ const smallfaqdata = [
     key: 7,
     title: "Better Work-Life Balance ",
     data: "By hiring a virtual assistant for your businesses, you can thrive on your personal and professional work-life balance, allowing you to have a strong hold on your business deadlines and family commitments.",
-  },{
+  }, {
     key: 8,
     title: "Enhanced Online Presence  ",
     data: "Digital success is what every business owner seeks, because it can provide you with many customer-entrancing opportunities. You can hire virtual assistants to help your business grow online. ",
@@ -114,7 +118,7 @@ const smallfaqdata = [
 ];
 
 
- const hoverImageData = {
+const hoverImageData = {
   text: {
     subheading: "Hire Virtual Assistants",
     heading: " who can handle your tasks, so you can focus on core Business development. ",
@@ -122,18 +126,34 @@ const smallfaqdata = [
       "Possesive Panda offers 360 virtual assistant services with dynamic pricing, tailored to your business needs and requirements. Covering 30+ services, we aim at delivering industry experts for your business’s overall success. If you want to check out our services, then just scroll up a little. With Possesive Panda’s cost-effective virtual assistant services, we are enabling current and future leaders to delegate tasks such as email handling, client handling, document management, digital marketing, eCommerce support, and more, so that they can focus on business strategy and growth. With pocket-friendly costs and long-term economic benefits, Possesive Panda offers an efficient and experienced solutions.",
   },
   images: {
-    
-      image1: img1,
-     
-    
-    
-        image2: img2,
-     
-   
-        image3: img3,
-    
+
+    image1: img1,
+    image2: img2,
+    image3: img3,
+  },
+};
+
+// arya data dynamic
+// data.js
+export const hoverDivData = {
+  heading: "Why do you need Virtual Assistants?",
+  paragraph: "Business of all sizes from entrepreneurs to enterprises, small businesses to well-established organizations are increasingly relying on virtual assistants for various reasons: ",
+  models: [
+    {
+      title: 'Entrepreneurs and Small Businesses',
+      paragraph: 'Possesive Panda excels at providing the best e-commerce services to elevate your business. From creating UI/UX designs to managing your online stores, our expert e-commerce services have success at every step. With 24/7 support, we thrive on expanding your business in the digital world. Partner with us to climb up the ladder of success. '
     },
-  };
+    {
+      title: 'Startup and Growing Businesses',
+      paragraph: 'Startups can quickly scale by hiring a Virtual Assistant (VA) to add support staff without full-time commitment. VAs can assist with social media management, content creation, and customer service. They can also take on administrative tasks, freeing up employees to focus on strategic initiatives.'
+    },
+    {
+      title: 'Enterprises and Well-established Organizationss',
+      paragraph: 'VAs can provide consistent support across locations for employees working remotely or geographically. They can handle heavy workloads like data entry, research, and customer service, allowing in-house staff to focus on core responsibilities. VAs can also offer language-specific support for international clients.'
+    }
+  ]
+};
+
 
 export {
   faq,

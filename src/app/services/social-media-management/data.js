@@ -26,6 +26,23 @@ const faq = [
   },
 ];
 
+// arya data dynamic
+export const modelData = [
+  {
+      title: 'Project Based',
+      paragraph: 'Have a one-time project, such as a social media account audit, ad budget recommendation, social media account reporting, creative design, or just posting on social media? We guarantee nothing but perfection to help you accomplish your ROI goals.',
+  },
+  {
+      title: 'Recurring Projects',
+      paragraph: 'Looking for a partner to assist you in reaching your social media objectives? Our social media marketing service can handle everything from publishing to managing and reporting. We also handle your paid marketing, from ad production to budgeting, optimization, and month-to-month reporting.',
+  },
+  {
+      title: 'Dedicated Resources and Teams',
+      paragraph: 'Want a trained resource to serve as an extension of your in-house social media marketing team? We have skilled, experienced social media experts who will work just for you, with the goal of establishing your brand on the digital platform.',
+  },
+];
+
+
 const growthData = {
   heading: "Our  Social Media Marketing Services Delivery Approach",
   description:

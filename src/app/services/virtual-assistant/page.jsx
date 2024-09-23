@@ -7,6 +7,7 @@ import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import NewBanner from "../../(Components)/NewBanner";
+import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 
 import {
 
@@ -15,7 +16,8 @@ import {
   headingdata,
   testimonialsData,
   smallfaqdata,
-  smallfaqimage
+  smallfaqimage,
+  hoverDivData,
 
 } from "./data";
 
@@ -25,7 +27,7 @@ export const metadata = {
 }
 const page = () => {
   return (
-    <div>
+    <div className="bg-[#00111A]">
 
       <Head>
         <meta charSet="UTF-8" />
@@ -135,10 +137,16 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
- <HoverImageComp hoverImageData={hoverImageData} />
+      <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
-
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      <div>
+        <Hoverdiv
+          heading={hoverDivData.heading}
+          paragraph={hoverDivData.paragraph}
+          modelData={hoverDivData.models}
+        />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

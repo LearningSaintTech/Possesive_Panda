@@ -4,9 +4,8 @@ import Footer from "../../(Components)/Footer";
 import Models from "../(CommonComponent)/Models";
 import Growth from "../(CommonComponent)/Growth";
 import Why from "../(CommonComponent)/Why";
-import Mobile from "../(CommonComponent)/Mobile";import Clients from '../(CommonComponent)/Clients';
+import Mobile from "../(CommonComponent)/Mobile"; import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
-
 
 import {
   faq,
@@ -17,6 +16,7 @@ import {
   testimonialsData,
   paragraphs,
   buttonData,
+  modelData,
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
@@ -122,7 +122,9 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <Models />
+      <div>
+        <Models modelData={modelData} />
+      </div>
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 

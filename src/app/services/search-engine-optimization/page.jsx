@@ -139,22 +139,11 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-<<<<<<< HEAD
       </div>
-      <Faq faq={faq} />
-=======
-      </div>   
-      
       <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-
-      
-      
-      
-      
-         <Faq faq={faq} />
->>>>>>> a2c19a2258106ba4396db8b018292dd8a2f47219
+      <Faq faq={faq} />
       <Footer />
     </div>
   )

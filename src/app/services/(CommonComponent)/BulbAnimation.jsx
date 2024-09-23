@@ -204,7 +204,7 @@ const BulbAnimation = () => {
             </div>
 
 
-            <div className={`relative overflow-hidden  flex sm:flex-row flex-col gap-[2.353vw] sm:gap-[1.25vw] sm:${isOn ? '' : 'opacity-10'}`}>
+            <div className={`relative overflow-hidden  flex sm:flex-row flex-col gap-[2.353vw] sm:gap-[1.25vw] ${isOn ? '' : 'sm:opacity-10 opacity-100'}`}>
                 {contentData.map((content, index) => (
                     <div
                         key={index}
