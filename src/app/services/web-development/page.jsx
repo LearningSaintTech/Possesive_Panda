@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from "react";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Faq from "../(Components)/(Faq)/Faq";
@@ -7,14 +8,11 @@ import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
 import ToolsTech from "../(CommonComponent)/ToolsTech";
 import {
-  faq,
-  growthData,
   ourService,
   servicesData22,
   iconMapping1,
-}
-import Why from "../(CommonComponent)/Why";
-
+} from "./data";
+import Why from '../(CommonComponent)/Why';
 import Solutions from '../(CommonComponent)/Solutions';
 import Clients from '../(CommonComponent)/Clients';
 
@@ -26,10 +24,8 @@ import {
   buttonData,
   headingdata,
   testimonialsData,
->>>>>>> b18dbf48d3a5a043adae9d27431d63256cc4d590
 } from "./data";
 
-import Head from 'next/head';
 import OurWeb from "../(CommonComponent)/OurWeb";
 import OurEngagement from "./OurEngagement";
 

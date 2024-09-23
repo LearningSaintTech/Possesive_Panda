@@ -8,9 +8,6 @@ import Strategies from '../(CommonComponent)/Strategies';
 import Solutions from '../(CommonComponent)/Solutions';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Clients from '../(CommonComponent)/Clients';
-import Leverage from '../(CommonComponent)/Mobiledev/Leverage';
-import Tech from '../(CommonComponent)/Mobiledev/Tech';
-import Iphone from "../(CommonComponent)/Mobiledev/Iphone";
 import OurServices from "../(CommonComponent)/OurSevices"
 import CardList from '../(CommonComponent)/AgileApproach/CardList';
 

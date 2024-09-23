@@ -189,16 +189,6 @@ const hoverImageData = {
     },
   ];
 
-export {
-  faq,
-  whyData,
-  paragraphs,
-  buttonData,
-  hoverImageData,
-  headingdata,
-  testimonialsData
-}
-
 const iconMapping1 = {
   GrSettingsOption: <GrSettingsOption />,
   PiTimerBold: <PiTimerBold />,
@@ -358,11 +348,17 @@ const cardData = [
   },
 ];
 
-export { faq, 
+export { 
+  faq, 
   whyData, 
   ourService, 
   servicesData22, 
   iconMapping1,
   cardList,
   cardData,
+  paragraphs,
+  buttonData,
+  hoverImageData,
+  headingdata,
+  testimonialsData
 };

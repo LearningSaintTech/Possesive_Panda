@@ -2,7 +2,8 @@ import React from "react";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Growth from "../(CommonComponent)/Growth";
-import FaqSection from "../(CommonComponent)/(FaqSection)/section"import OurSevices from '../(CommonComponent)/OurSevices';
+import FaqSection from "../(CommonComponent)/(FaqSection)/section"
+import OurSevices from '../(CommonComponent)/OurSevices';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -20,7 +21,7 @@ import {
   servicesData1,
   hoverImageData,
   testimonialsData,
-  headingdata
+  headingdata,
   iconMapping1,
   ourService,
   servicesData22,

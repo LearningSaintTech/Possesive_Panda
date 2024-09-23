@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";
@@ -12,7 +11,6 @@ import { FaIoxhost } from "react-icons/fa6";
 import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
 
-=======
 const testimonialsData = [
   {
       name: "Emily R.",
@@ -112,7 +110,6 @@ const buttonData= [
       ]
   },
 ];
->>>>>>> b18dbf48d3a5a043adae9d27431d63256cc4d590
 const faq = [
   {
     title: `How long does it take to make a website?`,
@@ -322,4 +319,7 @@ export {
   buttonData,
   headingdata,
   testimonialsData,
+  iconMapping1,
+  ourService,
+  servicesData22,
 };

@@ -20,7 +20,7 @@ import {
   buttonData,
   hoverImageData,
   headingdata,
-  testimonialsData
+  testimonialsData,
   ourService,
   servicesData22,
   iconMapping1,
@@ -150,7 +150,6 @@ const page = () => {
           listHeading={whyData.listHeading}
           titles={whyData.titles}
         />
-<<<<<<< HEAD
       </div>
 
       <ToolTech />
@@ -160,20 +159,16 @@ const page = () => {
       <div>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <Faq faq={faq} />
-=======
-      </div>   
-      
+
       <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Solutions paragraphs={paragraphs} buttonData={buttonData} />
 
-      
-      
-      
-      
+
+
+
+
          <Faq faq={faq} />
->>>>>>> a2c19a2258106ba4396db8b018292dd8a2f47219
       <Footer />
     </div>
   )

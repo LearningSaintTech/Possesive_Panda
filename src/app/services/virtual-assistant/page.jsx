@@ -3,16 +3,13 @@ import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
-<<<<<<< HEAD
 import ServicesVa from './ServicesVa';
 import NewBanner from '@/app/(Components)/NewBanner';
-=======
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
-import NewBanner from "../../(Components)/NewBanner";
 
->>>>>>> b18dbf48d3a5a043adae9d27431d63256cc4d590
+
 import {
 
   faq,
@@ -140,14 +137,11 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-<<<<<<< HEAD
       <ServicesVa />
-=======
- <HoverImageComp hoverImageData={hoverImageData} />
+      <HoverImageComp hoverImageData={hoverImageData} />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner "/>
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
 
->>>>>>> b18dbf48d3a5a043adae9d27431d63256cc4d590
       <Faq faq={faq} />
       <Footer />
     </div>

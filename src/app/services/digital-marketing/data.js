@@ -374,8 +374,7 @@ export { faq,
   servicesData1,
   hoverImageData,
   testimonialsData,
-  headingdata
-  
+  headingdata,
   iconMapping1, 
   ourService, 
   servicesData22 
