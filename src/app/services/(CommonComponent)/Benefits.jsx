@@ -55,7 +55,7 @@ const Benefits = () => {
                             Benefits of eCommerce Service and Solutions
                         </h1>
                         <p className="w-[43.542vw] text-white text-[1.258vw] font-normal leading-[2.266vw] pt-[0.5vw]">
-                            There are many benefits of using e-commerce solutions
+                            There are many benefits of using eCommerce solutions:
                         </p>
                     </div>
                     <div>

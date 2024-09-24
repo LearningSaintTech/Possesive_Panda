@@ -8,7 +8,7 @@ import Customized from '../(CommonComponent)/E-commerce/Customized';
 import Partner from '../(CommonComponent)/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
-import Industries from './Industries';
+import Industries from '../(CommonComponent)/IndustriesWe'
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
@@ -179,7 +179,7 @@ const Page = () => {
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop"  />
       <Customized />
       <ToolsTech />
       <div>
@@ -187,7 +187,7 @@ const Page = () => {
       </div>
       <Platforms platformsData={platformsData} />
       <Industries />
-      <Strategies StrategyData={StrategyData} />
+      <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />

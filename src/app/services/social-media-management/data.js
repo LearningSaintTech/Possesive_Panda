@@ -73,7 +73,7 @@ const growthData = {
       title: "Strategy Development",
       category: "Social Media",
       description:
-        'We develop a tailored social media marketing strategy, incorporating brand voice, content themes, posting frequency, and engagement tactics to effectively communicate with your audience.',
+        'We develop a tailored social media marketing strategy, incorporating brand voice, content themes, posting frequency, and engagement tactics to effectively communicate with your audience across various platforms.',
     },
     {
       id: 3,
@@ -101,7 +101,7 @@ const growthData = {
       title: 'Analytics and Reporting',
       category: 'Performance Tracking',
       description:
-        "Our team utilizes advanced analytics tools and MarketingCloudFX software to analyze your social media campaigns' performance, providing regular reports on key metrics and actionable insights to optimize your strategy.",
+        "Our team utilizes advanced analytics tools and MarketingCloudFX software to analyze your social media campaign's performance, providing regular reports on key metrics and actionable insights to optimize your strategy for better results.",
     },
   ],
 };
@@ -119,7 +119,7 @@ const whyData = {
     { title: "Extensive Onboarding Method" },
     { title: "Personalized Social Media Marketing Plan" },
     { title: "Reports on Social Media Campaigns" },
-    { title: "Both a Paid and Organic Team" },
+    { title: "Both Paid and Organic Team" },
     { title: "24/7 Assistance" },
     { title: "Various Marketing Specialties" },
 
@@ -130,13 +130,16 @@ const mobileData = {
   heading: "Social Media Marketing and Its Benefits",
   sideImage: "/assets/aboutus/Side component.png",
   paragraphs: [
-    "Social media marketing enables businesses to amplify their revenue and customer reach by showcasing their products and services to their potential customers for various demographics at the right time.",
-    "High search rankings are achieved when users share content across social media channels, leading to better search rankings.",
-    "Being successful in reaching out to your potential customers and making their minds opt for your products and services could be difficult, but not with social media marketing. It allows businesses to display their products and services on the screens of people in order to captivate a larger customer base. ",
-    "Social media marketing is a powerful tool for online marketing or digital marketing for businesses of every sort and size. You can leverage social media like Facebook, Instagram, Twitter, Reddit, LinkedIn, or many more, as they have a plethora of targeted customers to generate more leads and enhance the conversion rate.",
-    "Improved customer reach is another key benefit of social media marketing. By identifying and categorizing ideal customers by age, location, and online activities, marketers can craft relevant content and ads that address their needs.",
-    "Complete brand control is achieved through social media marketing packages that are tailored to specific needs and financial capacity, allowing businesses to create and maintain an image that appeals to their target audience. Enhanced customer trust is achieved through sharing valuable content, engaging in online conversations, and using social media video marketing to showcase client testimonials and case studies."
-  ]
+
+     "Social media marketing enables businesses to amplify their revenue and customer reach by showcasing their products and services to their potential customers for various demographics at the right time.",
+     "Being successful in reaching out to your potential customers and making their minds opt for your products and services could be difficult, but not with social media marketing. It allows businesses to display their products and services on the screens of people in order to captivate a larger customer base. ",
+      "Social media marketing is a powerful tool for online marketing or digital marketing for businesses of every sort and size. You can leverage social media like Facebook, Instagram, Twitter, Reddit, LinkedIn, or many more, as they have a plethora of targeted customers to generate more leads and enhance the conversion rate. ",
+   "High search rankings are achieved when users share content across social media channels, leading to better search rankings.",
+   "Improved customer reach is another key benefit of social media marketing. By identifying and categorizing ideal customers by age, location, and online activities, marketers can craft relevant content and ads that address their needs.",
+   "Complete brand control is achieved through social media marketing packages that are tailored to specific needs and financial capacity, allowing businesses to create and maintain an image that appeals to their target audience. Enhanced customer trust is achieved through sharing valuable content, engaging in online conversations, and using social media video marketing to showcase client testimonials and case studies.",
+    ]
+
+
 };
 
 const buttonData= [

@@ -100,7 +100,7 @@ const buttonData= [
       heading2: "How we Provide? ",
       text2: "With tailored digital marketing solutions, we excel at making your business reach in the minds of your targeted customers, eventually increasing sales with your business upliftment.  ",
       dotPoints: [
-        "With tailored digital marketing solutions, we excel at making your business reach in the minds of your targeted customers, eventually increasing sales with your business upliftment.",
+        "Customized Digital Marketing Solutions",
         "Enhanced Customer Reach, Ultimately Advanced Business Growth",
       ]
 
@@ -130,7 +130,7 @@ const buttonData= [
   }, {
       number: "4",
       heading1: "What we Provide?",
-      text1: "Possesive Panda offers various analytics models like descriptive analytics, predictive analytics, and prescriptive analytics, enabling businesses to make informed decisions, optimize strategies, and enhance customer engagement",
+      text1: "Possesive Panda offers various analytics models like descriptive analytics, predictive analytics, and prescriptive analytics, enabling businesses to make informed decisions, optimize strategies, and enhance customer engagement.",
       heading2: "How we Provide? ",
       text2: "Our team of expert digital marketers uses tools like GA4, Google Search Console, etc., to monitor website performance, social media analytics, and email marketing analytics for better outcomes.  ",
       dotPoints: [
@@ -160,12 +160,12 @@ const smallfaqdata = [
   {
     key: 2,
     title: "Cost-Effective Solutions",
-    data: "Why waste time and money setting up your own eCommerce infrastructure when Possesive Panda can do it for you? Our streamlined processes get your online store up and running swiftly, allowing you to focus on what you do best.",
+    data: "Possesive Panda delivers outstanding dynamic pricing for reduced expenses. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.",
   },
   {
     key: 3,
     title: "Experienced Team",
-    data: "Possesive Panda deliver outstanding dynamic pricing for reduced expenses. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.",
+    data: "The professionals in our team are highly qualified with all the relevant industry experience. Everyone brings skills, expertise, and knowledge to the table that, among other factors, assure excellent service delivery and complete client satisfaction.",
   },
   {
     key: 4,
@@ -197,7 +197,7 @@ const hoverImageData = {
     subheading: "With Possessive Panda",
     heading: "Generate Leads and Maximize Your ROI",
     description:
-      "With our expertise as digital marketing consultants and exposure to cross-industry knowledge, we select the marketing mix and overall approach that best meet your demands and goals.We maximize your marketing investment by excelling at what we do: using various tools and digital platforms to increase campaign effectiveness and developing plans that produce outstanding results. Customer growth is always a key priority for us; our values and skills ensure that we provide excellent ROI to our customers.We value open communication and feedback, and we'd like to hear what your short- and long-term goals are, whether they're new customer acquisition, increased engagement, or creating awareness, loyalty, and affinity. We plan, strategize, execute, and review properly.",
+      "With our expertise as digital marketing consultants and exposure to cross-industry knowledge, we select the marketing mix and overall approach that best meet your demands and goals. We maximize your marketing investment by excelling at what we do: using various tools and digital platforms to increase campaign effectiveness and developing plans that produce outstanding results. Customer growth is always a key priority for us; our values and skills ensure that we provide excellent ROI to our customers. We value open communication and feedback, and we'd like to hear what your short-term and long-term goals are, whether they're new customer acquisition, increased engagement, or creating awareness, loyalty, and affinity. We plan, strategize, execute, and review properly.",
   },
   images: {
     
@@ -278,13 +278,13 @@ const servicesData22 = [
         icon: "GrSettingsOption",
         title: "Search Engine Optimization (SEO)",
         description:
-          "Possesive Panda offers SEO services to make your website rank higher. With white hat SEO practices, we enable you to get organic traffic, which ultimately leads to higher conversions. Our SEO experts employ on-page SEO, off-page SEO, and technical SEO for high quality lead generation.",
+          "Possesive Panda offers SEO services to make your website rank higher. With white hat SEO practices, we enable you to get organic traffic, which ultimately leads to higher conversions. Our SEO experts employ on-page SEO, off-page SEO, and technical SEO for high-quality lead generation.",
       },
       {
         icon: "PiTimerBold",
         title: "Social Media Marketing (SMM)",
         description:
-          "Our social media marketing services cater to building strategies for customer reach and engagement. We identify your requirements, perform competitor analysis, and evaluate your customer digital behavior to enhance organic reach and create social media marketing campaigns that enhance getting leads and elevated revenue.",
+          "Our social media marketing services cater to building strategies for customer reach and engagement. We identify your requirements, perform competitor analysis, and evaluate your customer digital behavior to enhance organic reach and create social media marketing campaigns that enhance getting leads and elevate revenue.",
       },
       {
         icon: "IoMdGitMerge",
