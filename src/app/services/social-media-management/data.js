@@ -202,31 +202,32 @@ const buttonData= [
 ];
 const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Mark J.",
+    role: "Business Owner",
+    text: "Posessive Panda exceeded expectations with their attention to detail, adapting to our needs, resulting in higher online engagement and an authentic brand voice.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Lisa P.",
+    role: "Marketing Manager",
+    text: "Possesive Panda significantly increased our follower count and facilitated customer interactions, showcasing their creativity and dedication in every post they created.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Tom W.",
+    role: "Sales Director",
+    text: "Possesive Panda's strategic insights and unique content ideas have significantly increased sales in a crowded market, providing a fresh perspective for businesses.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+    name: "Rachel S.",
+    role: "Community Organizer",
+    text: "Possesive Panda has been instrumental in helping our community navigate social media complexities with their knowledgeable, supportive, and innovative team.",
+  },
+  {
+    name: "Kevin H.",
+    role: "Social Media Specialist",
+    text: "Possesive Panda effectively manages social media, provides valuable insights, and demonstrates passion in every campaign, making them highly recommended for exceptional service.",
+  },
 ];
+
  const headingdata={
 
       //testimonials

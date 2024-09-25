@@ -13,31 +13,32 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 
 const testimonialsData = [
   {
-    name: "Emily R.",
-    role: "Owner of EcoTrend Boutique",
-    text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Alex J.",
+    role: "Startup Founder",
+    text: "Possesive Panda exceeded our expectations by transforming our concept into a fully functional web app, with their knowledgeable and responsive team guiding us through every step.",
   },
   {
-    name: "Jake M.",
-    role: "Founder of Urban Gear Co.",
-    text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Maya T.",
+    role: "E-commerce Manager",
+    text: "Possesive Panda provided a comprehensive web app for our online store, showcasing their attention to detail and commitment to our timeline, resulting in a visually appealing and functional product.",
   },
   {
-    name: "Lisa K.",
-    role: "CEO of Artisan Delights",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Ryan K.",
+    role: "Digital Marketing Specialist",
+    text: "Possesive Panda has significantly improved our web app development by integrating innovative features and ensuring user-friendly design, leading to a significant increase in client engagement.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Lisa G.",
+    role: "Nonprofit Director",
+    text: "Possesive Panda's team successfully implemented our vision with a web app, enhancing our outreach efforts with their professionalism and creativity.",
   },
   {
-    name: "Mia S.",
-    role: "Director of Luxe Living",
-    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+    name: "Sam W.",
+    role: "Product Manager",
+    text: "Possesive Panda revolutionized web app development with a scalable solution, seamless project management, and ongoing support, setting the standard for business goals. Highly recommended.",
   },
 ];
+
 
 const headingdata = {
   //testimonials

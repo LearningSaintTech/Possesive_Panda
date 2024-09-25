@@ -36,31 +36,32 @@ const smallfaqimage = {
 }
 const testimonialsData = [
   {
+    name: "Karen L.",
+    role: "Entrepreneur",
+    text: "Possesive Panda's skilled virtual assistants have been instrumental in my business, enabling me to concentrate on growth while managing administrative tasks. Highly recommended.",
+  },
+  {
+    name: "Michael T.",
+    role: "Small Business Owner",
+    text: "I experienced a significant increase in productivity after hiring Possesive Panda, who efficiently managed my daily operations and allowed me to focus on strategic planning.",
+  },
+  {
     name: "Emily R.",
-    role: "Owner of EcoTrend Boutique",
-    text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    role: "Freelance Consultant",
+    text: "Possesive Panda provides exceptional support, with their virtual assistant being organized, anticipating needs, and understanding the business, making them a valuable addition to any team.",
   },
   {
-    name: "Jake M.",
-    role: "Founder of Urban Gear Co.",
-    text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "David S.",
+    role: "Marketing Director",
+    text: "Possesive Panda's efficient, reliable, and resourceful virtual assistants have significantly improved my workload management, making my life easier and a fantastic investment.",
   },
   {
-    name: "Lisa K.",
-    role: "CEO of Artisan Delights",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-  },
-  {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-  },
-  {
-    name: "Mia S.",
-    role: "Director of Luxe Living",
-    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
+    name: "Sarah J.",
+    role: "Nonprofit Founder",
+    text: "Possesive Panda's exceptional virtual assistant services have greatly impacted our organization, allowing me to concentrate on my mission with their dedication and professionalism.",
   },
 ];
+
 
 
 const headingdata = {

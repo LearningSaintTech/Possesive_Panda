@@ -174,31 +174,27 @@ const smallfaqdata = [
 ];
 const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Alex G.",
+    text: "Possessive Panda exceeded expectations with their exceptional attention to detail and creativity, transforming an app idea into a reality with positive user feedback.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Priya S.",
+    text: "Possessive Panda's team was highly responsive, understood our vision, and launched our app on time, resulting in positive reviews and a high rating.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "John M.",
+    text: "Possessive Panda provided a user-friendly mobile app that met our needs, demonstrating their expertise in app development and outstanding support.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+    name: "Emily T.",
+    text: "Possessive Panda successfully executed a mobile app concept with professionalism, skill, and innovation, resulting in a successful product and high engagement since launch.",
+  },
+  {
+    name: "Kevin J.",
+    text: "Possessive Panda provided exceptional service, delivering a stunning app and guiding the process with their commitment to success and technical expertise.",
+  },
 ];
+
  const headingdata={
 
       //testimonials

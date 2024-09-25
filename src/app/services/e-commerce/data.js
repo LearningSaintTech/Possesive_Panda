@@ -285,33 +285,34 @@ const cardData = [
 ];
 
 // pushkar data dynamic
- const testimonialsData = [
+const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Emily R.",
+    role: "Owner of EcoTrend Boutique",
+    text: "Possesive Panda transformed our online store into a user-friendly one, resulting in increased traffic and sales, a testament to their expertise and dedication.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Jake M.",
+    role: "Founder of Urban Gear Co.",
+    text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Lisa K.",
+    role: "CEO of Artisan Delights",
+    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
   },
   {
     name: "Carlos T.",
     role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+    text: "Possesive Panda revitalized our outdated online store with modern, responsive design, proactive issue resolution, and efficient support, resulting in increased sales and improved user experience.",
+  },
+  {
+    name: "Mia S.",
+    role: "Director of Luxe Living",
+    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction.",
+  },
 ];
+
  const headingdata={
 
       //testimonials

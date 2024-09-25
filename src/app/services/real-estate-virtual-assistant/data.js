@@ -59,31 +59,32 @@ const mobileData = {
 
 const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Lisa M.",
+    role: "Real Estate Agent",
+    text: "Possesive Panda has significantly improved my real estate business by providing a virtual assistant to handle lead management and appointment scheduling, allowing me to concentrate on closing deals.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Tom R.",
+    role: "Real Estate Broker",
+    text: "Possesive Panda's virtual assistants are highly knowledgeable about the real estate industry, enhancing productivity in marketing and client follow-ups, and making their services indispensable for businesses.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Emily J.",
+    role: "Property Manager",
+    text: "Possesive Panda is a highly recommended virtual assistant for real estate professionals, enhancing property management tasks by handling tenant inquiries and paperwork efficiently.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+    name: "Mark T.",
+    role: "Investment Property Owner",
+    text: "Possesive Panda has revolutionized my investment properties portfolio by handling administrative tasks and research, allowing me to concentrate on portfolio growth with their extensive real estate expertise.",
+  },
+  {
+    name: "Sarah W.",
+    role: "Real Estate Team Leader",
+    text: "Possesive Panda's team is exceptional, with a virtual assistant who understands the real estate market, ensuring organization and efficiency, and providing exceptional service.",
+  },
 ];
+
  const headingdata={
 
       //testimonials

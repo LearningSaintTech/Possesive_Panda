@@ -215,31 +215,32 @@ const hoverImageData = {
 
   const testimonialsData = [
     {
-        name: "Emily R.",
-        role: "Owner of EcoTrend Boutique",
-        text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+      name: "Emili C.",
+      role: "Ed-Tech Firm Owner",
+      text: "Possessive Panda has transformed our online presence! Their team crafted a comprehensive digital marketing strategy that significantly boosted our website traffic and engagement. I’m thrilled with the results and the ongoing support they provide.",
     },
     {
-        name: "Jake M.",
-        role: "Founder of Urban Gear Co.",
-        text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+      name: "Mark R.",
+      role: "E-commerce Manager",
+      text: "The expertise of Possessive Panda in digital marketing is unmatched. They helped us optimize our ad campaigns, leading to a substantial increase in conversions. Their data-driven approach and creativity have made a huge impact on our bottom line.",
     },
     {
-        name: "Lisa K.",
-        role: "CEO of Artisan Delights",
-        text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+      name: "Emily S.",
+      role: "Nonprofit Director",
+      text: "I cannot recommend Possessive Panda enough! They understood our mission and created a digital marketing plan that resonated with our audience. Their ability to engage supporters through social media and email campaigns has been invaluable for our fundraising efforts.",
     },
     {
-      name: "Carlos T.",
-      role: "Founder of Gadget Galaxy",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-  },
-  {
-    name: "Mia S.",
-    role: "Director of Luxe Living",
-    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-  },
+      name: "Ryan K.",
+      role: "Startup Founder",
+      text: "Possessive Panda has been instrumental in launching our brand. From SEO to content marketing, their tailored strategies helped us build a solid online foundation. Their team is responsive, innovative, and truly invested in our success.",
+    },
+    {
+      name: "Sarah H.",
+      role: "Marketing Coordinator",
+      text: "Working with Possessive Panda has been a fantastic experience! They took the time to understand our goals and crafted a digital marketing strategy that delivered results. Their professionalism and dedication to our success are second to none.",
+    },
   ];
+  
   const headingdata={
 
     //testimonials

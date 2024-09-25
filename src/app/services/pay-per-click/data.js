@@ -119,31 +119,27 @@ const hoverImageData = {
   ];
   const testimonialsData = [
     {
-        name: "Emily R.",
-        role: "Owner of EcoTrend Boutique",
-        text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+      name: "Samantha L.",
+      text: "Possessive Panda significantly improved our PPC strategy by identifying key opportunities, leading to a 200% conversion increase, thanks to their invaluable expertise and support.",
     },
     {
-        name: "Jake M.",
-        role: "Founder of Urban Gear Co.",
-        text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+      name: "Michael B.",
+      text: "Possessive Panda's targeted ad campaign significantly increased visibility and budget optimization, resulting in impressive ROI and a positive impression of the investment.",
     },
     {
-        name: "Lisa K.",
-        role: "CEO of Artisan Delights",
-        text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+      name: "Jessica K.",
+      text: "Possessive Panda's data-driven approach and constant optimization have significantly reduced cost-per-click and increased leads, making their services highly recommended for businesses.",
     },
     {
-      name: "Carlos T.",
-      role: "Founder of Gadget Galaxy",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-  },
-  {
-    name: "Mia S.",
-    role: "Director of Luxe Living",
-    text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-  },
+      name: "Daniel R.",
+      text: "Possessive Panda significantly improved our PPC campaigns through their in-depth analysis and creative ad strategies, leading to significant growth and a positive working relationship.",
+    },
+    {
+      name: "Olivia H.",
+      text: "Possessive Panda's comprehensive understanding of PPC dynamics led to a high click-through rate, demonstrating their proactive, responsive, and dedicated approach to success.",
+    },
   ];
+  
    const headingdata={
   
         //testimonials

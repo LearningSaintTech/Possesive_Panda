@@ -71,31 +71,32 @@ const whyData = {
 
 const testimonialsData = [
   {
-      name: "Emily R.",
-      role: "Owner of EcoTrend Boutique",
-      text: "Possesive Panda transformed our online store into a user-friendly, eco-friendly platform, resulting in increased traffic and sales, a testament to their expertise and dedication.",
+    name: "Sarah T.",
+    role: "Small Business Owner",
+    text: "Possesive Panda's SEO strategy significantly improved my online presence, resulting in a 150% increase in website traffic within months. Highly recommend.",
   },
   {
-      name: "Jake M.",
-      role: "Founder of Urban Gear Co.",
-      text: "Possesive Panda's innovative e-commerce solutions exceeded expectations, optimizing our site and providing valuable market trends insights, leading to increased conversion rates.",
+    name: "Mark R.",
+    role: "E-commerce Manager",
+    text: "Possesive Panda's exceptional SEO services significantly improved our product pages, leading to a significant sales boost, demonstrating their expertise and dedication as a true partner in our digital marketing efforts.",
   },
   {
-      name: "Lisa K.",
-      role: "CEO of Artisan Delights",
-      text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
+    name: "Lisa M.",
+    role: "Digital Marketing Specialist",
+    text: "Possesive Panda's comprehensive SEO approach improved search rankings, educated the team, and led to higher visibility, increased leads, and a solid ROI, making them a must-have for serious businesses.",
   },
   {
-    name: "Carlos T.",
-    role: "Founder of Gadget Galaxy",
-    text: "Possesive Panda demonstrated professionalism and creativity in creating a functional and visually appealing e-commerce platform, resulting in higher customer satisfaction scores.",
-},
-{
-  name: "Mia S.",
-  role: "Director of Luxe Living",
-  text: "Possesive Panda's team expertly revamped our online store, enhancing its design and SEO, resulting in increased organic traffic and a strong client satisfaction",
-},
+    name: "James K.",
+    role: "Startup Founder",
+    text: "Possesive Panda's strategic analysis and recommendations significantly improved organic traffic within months, making it a crucial decision for a startup's competitive landscape.",
+  },
+  {
+    name: "Emily W.",
+    role: "Blogger",
+    text: "Partnering with Possesive Panda significantly improved blog traction, optimizing content and providing keyword strategies, leading to a significant increase in readership and engagement.",
+  },
 ];
+
  const headingdata={
 
       //testimonials
