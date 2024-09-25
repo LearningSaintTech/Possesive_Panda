@@ -18,7 +18,7 @@ const Models = ({ modelData }) => {
                                 {model.title}
                             </h2>
                             <div className='flex justify-between'>
-                                <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-normal sm:w-[64.063vw] transition-all duration-300 group-hover:text-[#131D22]'>
+                                <p className='text-white text-[3.765vw] sm:text-[1.25vw]  font-normal sm:w-[64.063vw] transition-all duration-300 group-hover:text-[#131D22]'>
                                     {model.paragraph}
                                 </p>
                                 <div className='hidden sm:block'>

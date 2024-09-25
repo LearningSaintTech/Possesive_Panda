@@ -4,14 +4,14 @@ import Accordian from "../(FaqSection)/Accordian.jsx";
 import Image from "next/image";
 // import faqImage from '../../../../../public/assets/e-commerce/faqImage.png';
 
-const Faq = ({smallfaqdata, smallfaqImg,heading}) => {
+const Faq = ({ smallfaqdata, smallfaqImg, heading }) => {
   const [activeIndex, setActiveIndex] = useState(-1);
   return (
     <div className="bg-[#00111A] sm:px-[5.208vw] px-[7.059vw] py-[5.469vw]">
       <div className="flex sm:flex-row flex-col">
         <div className="flex sm:gap-[3.438vw] flex-col">
           <h2 className="text-white text-[5vw] sm:text-[2.5vw] font-medium leading-[6vw] sm:leading-[3.8vw] tracking-[-0.088vw] sm:w-[33.854vw] w-full">
-{heading}
+            {heading}
           </h2>
           {/* Image visible on larger screens, hidden on small screens */}
           <Image
