@@ -27,9 +27,7 @@ const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }
             </div>
 
             <div className='flex flex-col gap-[7.529vw] sm:gap-[3.646vw] bg-[#00111A]'>
-                <h2 className='text-white text-[3.765vw] sm:text-[1.667vw] font-normal sm:w-[57.396vw] text-center sm:text-left'>
-                    {listHeading}
-                </h2>
+                
                 <div className='grid sm:grid-cols-2 sm:gap-x-[4.479vw] gap-y-[2.353vw] sm:gap-y-[1.042vw]'>
                     {titles.map((item, index) => (
                         <div

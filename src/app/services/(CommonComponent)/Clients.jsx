@@ -41,7 +41,7 @@ const Clients = ({testimonialsData,headingdata}) => {
             setIsAnimating(true);
             setTimeout(() => {
                 setCurrentSlide(
-                    (prev) => (prev - 1 + testimonials.length) % testimonials.length
+                    (prev) => (prev - 1 + testimonialsData.length) % testimonialsData.length
                 );
                 setIsAnimating(false);
             }, 500);
@@ -82,7 +82,7 @@ const Clients = ({testimonialsData,headingdata}) => {
                         {testimonialsData.map((testimonial, index) => (
                             <div
                                 key={index}
-                                className="min-w-full flex flex-col items-center justify-center bg-[#131D22] sm:pt-[0.3vw] pt-[8vw] sm:pb-[0.7vw] pb-[10vw] rounded-lg text-center"
+                                className="min-w-full flex flex-col items-center justify-center bg-[#131D22] sm:pt-[1.3vw] pt-[8vw] sm:pb-[0.7vw] pb-[10vw] rounded-lg text-center"
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="39" viewBox="0 0 45 39" fill="none"
                                 
@@ -93,7 +93,7 @@ const Clients = ({testimonialsData,headingdata}) => {
                                 <p className="text-white sm:text-[1.392vw] text-[3.765vw] sm:mt-[1.3vw] mt-[10.261vw] sm:w-[36.56vw] w-[85.882vw] ">
                                     {testimonial.text}
                                 </p>
-                                <div className="flex flex-row sm:gap-[0.818vw] gap-[2vw] justify-center items-center ">
+                                <div className="flex sm:mb-[1vw] mb-[0vw] flex-row sm:gap-[0.818vw] gap-[2vw] justify-center items-center ">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none"
                                         className=" rounded-full sm:mt-[1.5vw] mt-[8vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[12.567vw] h-[12.567vw]  "
                                     >
@@ -115,13 +115,13 @@ const Clients = ({testimonialsData,headingdata}) => {
             </div>
             <button
                     onClick={prevSlide}
-                    className="absolute sm:left-[12.529vw] left-[35%] sm:top-[62%] top-[90%] bg-white sm:rounded-[0.521vw] rounded-[4vw]  text-[#6D758F] sm:p-[0.8vw] p-[4vw] hover:bg-[#00AFF1]"
+                    className="absolute sm:left-[12.529vw] left-[35%] sm:top-[62%] top-[90%] bg-white sm:rounded-[0.521vw] rounded-[3vw]  text-[#6D758F] sm:p-[0.8vw] p-[3.5vw] hover:bg-[#00AFF1]"
                 >
                     <FaArrowLeft />
                 </button>
             <button
                     onClick={nextSlide}
-                    className="absolute sm:right-[12.529vw] right-[35%] sm:top-[62%] top-[90%] bg-white sm:rounded-[0.521vw] rounded-[4vw]  text-[#6D758F] sm:p-[0.8vw] p-[4vw] hover:bg-[#00AFF1] "
+                    className="absolute sm:right-[12.529vw] right-[35%] sm:top-[62%] top-[90%] bg-white sm:rounded-[0.521vw] rounded-[3vw]  text-[#6D758F] sm:p-[0.8vw] p-[3.5vw] hover:bg-[#00AFF1] "
                 >
                     <FaArrowRight className=""/>
                 </button>

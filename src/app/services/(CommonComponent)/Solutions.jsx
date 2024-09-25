@@ -5,7 +5,7 @@ import Circle from '../../../../public/assets/Circle.svg'
 import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] })
 
-const Solutions = ({ paragraphs, buttonData }) => {
+const Solutions = ({ paragraphs, buttonData,title }) => {
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [isSliding, setIsSliding] = useState(false);
 
@@ -57,8 +57,8 @@ const Solutions = ({ paragraphs, buttonData }) => {
 
 
     return (
-        <div>
-
+        <div className='flex gap-[0vw] flex-col'>
+                             
             <div className='bg-[#00111A] sm:flex hidden  h-[100vh] relative overflow-hidden ' >
                 <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", height: "100vh", overflow: "hidden", position: "relative" }}>
                     <Image
@@ -114,8 +114,11 @@ const Solutions = ({ paragraphs, buttonData }) => {
                     })}
 
                 </div>
-                <div style={{}} >
-                    <div style={{ position: "relative", overflow: "visible", top: "7.813vw", left: "-19.271vw" }}>
+                <div className='flex flex-col' >
+                <p className='text-white text-[0.833vw] ml-[-3vw]'>Possesive Panda</p>
+                                    <p className='text-white text-[2.5vw] ml-[-20vw] '>{title}</p>
+      
+                    <div style={{ position: "relative", overflow: "visible", top: "3.813vw", left: "-19.271vw" }}>
                         <div style={{ position: "absolute", }}>
                             {paragraphs.map((paragraph, index) => (
                                 <div
@@ -160,8 +163,8 @@ const Solutions = ({ paragraphs, buttonData }) => {
                                     >
                                         {paragraph.number}
                                     </p>
-
-                                    <div
+                                  <div className='flex flex-col'>
+                                   <div
                                         className="text-white flex flex-col gap-[1.667vw]"
                                         style={{
                                             zIndex: 2,
@@ -174,6 +177,7 @@ const Solutions = ({ paragraphs, buttonData }) => {
                                                         : "translateY(100%)",
                                         }}
                                     >
+                                        
                                         <div className="relative flex flex-col bg-[#131D22] border-none  rounded-[0.521vw] overflow-hidden justify-center gap-[0.833vw] py-[1.667vw] px-[1.615vw]"
                                             style={{
 
@@ -253,6 +257,7 @@ const Solutions = ({ paragraphs, buttonData }) => {
                                             </ul>
                                         </div>
                                     </div>
+                                  </div>
                                 </div>
                             ))}
                         </div>
@@ -265,6 +270,10 @@ const Solutions = ({ paragraphs, buttonData }) => {
 
             <div className='sm:hidden block'>
                 {/* Flexbox container for all buttons */}
+                <div className='flex flex-col text-center justify-center items-center'>
+                <p className='text-white  text-[2.353vw] '>Possesive Panda</p>
+                                    <p className='text-white w-[85.882vw] text-[7.529vw] '>{title}</p>
+                                    </div>
                 <div className='flex items-center flex-wrap justify-center gap-x-[1.941vw] gap-y-[1.941vw] '>
                     {buttonData.map((text, index) => (
                         <button

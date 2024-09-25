@@ -17,17 +17,17 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const titleData = {
   heading: "Why Choose Possesive Panda as Your Pay-Per-Click (PPC) Success Partner?",
-  heading2: "Possesive Panda is renowned for its Pay-Per-Click services, dedicated to improving online performance, offering services from PPC audits to ad management. We are solely aiming at developing your business’s online presence and delivering a high return on ad spend.",
+  heading2: "Possesive Panda is renowned for its Pay-Per-Click services, dedicated to improving online performance, offering services from PPC audits to ad management. We are solely aiming at developing your business’s online presence and delivering a high return on ad spend(ROAS).",
   title: [
     "Certified search and analytics experts for Google and Bing",
-    "Increased ROI (return on investment)",
+    "Increased ROI (Return On Investment)",
     "Comprehensive PPC Audit",
     "Multi-Location PPC",
-    "Results-oriented methodology",
+    "Results-Oriented Methodology",
     "Detailed Reporting",
     "Customer-Focused PPC Services",
     "Outstanding Client Support",
-    "Equiped with the best tools and technologies",
+    "Equiped with the Best Tools and Technologies",
     "Adaptable Perspective and Dedicated Deliverables",
 
   ]
@@ -65,7 +65,7 @@ const hoverImageData = {
     subheading: "Generate Leads and Elevate ",
     heading: "Your Revenue with Possesive Panda’s PPC Services",
     description:
-      "In order to increase website traffic and lower PPC management costs, Possesive Panda will help you define your pay per click (PPC) search engine marketing (SEM) objectives, as well as your PPC campaign KPIs and campaign structure.Our pay-per-click services assist you in navigating the PPC nuances and incorporating them into your online marketing and SEO operations in an efficient manner. Take advantage of our pay per click management agency's affordable PPC advertising services by partnering with us.",
+      "In order to increase website traffic and lower PPC management costs, Possesive Panda will help you define your pay per click (PPC) search engine marketing (SEM) objectives, as well as your PPC campaign KPIs and campaign structure. Our pay-per-click services assist you in navigating the PPC nuances and incorporating them into your online marketing and SEO operations in an efficient manner. Take advantage of our pay per click management agency's affordable PPC advertising services by partnering with us.",
   },
   images: {
     

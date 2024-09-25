@@ -10,6 +10,7 @@ import CardList from '../(CommonComponent)/AgileApproach/CardList';
 import ToolsTech from "../(CommonComponent)/ToolsTech";
 import Marquee from "../../(homeComponent)/Marquee";
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
+import Scrollbar2 from "../(CommonComponent)/Scrollbar2";
 
 import {
   faq,
@@ -23,6 +24,9 @@ import {
   iconMapping1,
   cardList,
   cardData,
+  servicesData2,
+  dynamicContent2
+
 } from "./data";
 
 import Head from 'next/head';
@@ -154,6 +158,7 @@ const page = () => {
       </div>
       <Platforms platformsData={platformsData} />
       <IndustriesWe />
+      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Faq faq={faq} />

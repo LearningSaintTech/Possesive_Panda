@@ -21,7 +21,7 @@ const OurWeb = () => {
                             Agile Approach
                         </h5>
                         <p className='w-[15.365vw] text-center text-white text-[1.25vw] font-normal'>
-                            Our team utilizes collaborative and customer feedback-driven agile development processes to adapt to evolving project requirements through iterative cycles.
+                        Our team of developers employs a collaborative approach for agile development processes, seeking client feedback at every stage of the development cycle. 
                         </p>
                     </div>
 
@@ -30,8 +30,7 @@ const OurWeb = () => {
                             Scrum
                         </h5>
                         <p className='w-[15.365vw] text-center text-white text-[1.25vw] font-normal'>
-                            Scrum is a collaborative framework that allows for efficient planning, review, and adaptation of changes through sprints, ensuring continuous value generation in development.
-                        </p>
+                        Scrum is a collaborative framework that allows for efficient planning, review, and adaptation of changes through sprints, ensuring continuous value generation in development.                        </p>
                     </div>
 
                     <div className='absolute shadow-2xl w-[21.458vw] h-[26.313vw] bg-[#131d22] py-[3.498vw] px-[3.047vw] flex flex-col gap-[1vw] rounded-[0.625vw] transition-transform duration-500 transform translate-x-[2vw] translate-y-[2vw] group-hover:translate-x-[45.417vw] group-hover:translate-y-0 z-[2]'>
@@ -39,8 +38,7 @@ const OurWeb = () => {
                             DevOps
                         </h5>
                         <p className='w-[15.365vw] text-center text-white text-[1.25vw] font-normal'>
-                            The integration of development and operations teams can improve collaboration, automate processes, ensure swift change responses, enhance quality, and reduce costs.
-                        </p>
+                        DevOps is a new age practice involving development and operation at the same time by collaborations ensuring swift change response, enhanced quality and minimize costs.                         </p>
                     </div>
 
                     <div className='absolute shadow-2xl w-[21.458vw] h-[26.313vw] bg-[#131d22] py-[3.498vw] px-[3.047vw] flex flex-col gap-[1vw] rounded-[0.625vw] transition-transform duration-500 transform translate-x-[3vw] translate-y-[3vw] group-hover:translate-x-[68.125vw] group-hover:translate-y-0 z-[1]'>
@@ -48,8 +46,7 @@ const OurWeb = () => {
                             Lean
                         </h5>
                         <p className='w-[15.365vw] text-center text-white text-[1.25vw] font-normal'>
-                            Our Lean Model enhances your development process by streamlining workflows and promoting a lean and agile development cycle, ensuring maximum impact.
-                        </p>
+                        We use the Lean model for enhanced development processes by integrating seamless workflows and combining agile and lean development cycles, ensuring positive outcomes.                         </p>
                     </div>
                 </div>
             </div>

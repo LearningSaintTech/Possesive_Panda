@@ -126,7 +126,7 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Digital Marketing Solutions we Develope" />
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>

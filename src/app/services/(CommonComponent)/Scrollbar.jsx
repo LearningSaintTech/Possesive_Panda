@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-const Scrollbar = ({servicesData1,sectionContent}) => {
+const Scrollbar = ({ servicesData1, sectionContent }) => {
     // const [services] = useState([
     //     { title: "Variety of services", description: "Make sure a digital marketing services provider has a comprehensive service suite before deciding to work with them." },
     //     { title: "Authenticity", description: "After you've narrowed down your list of potential agencies, check their credibility and dependability by reading internet reviews and client endorsements." },
@@ -17,9 +17,9 @@ const Scrollbar = ({servicesData1,sectionContent}) => {
             {/* Left Section */}
             <div className="bg-[#00111A]">
                 <h1 className="sm:w-[37.604vw] w-[85.882vw] sm:text-[2.5vw] text-[7.529vw] sm:text-start text-center  font-medium">
-{sectionContent.title}                </h1>
+                    {sectionContent.title}                </h1>
                 <p className="sm:text-[1.25vw] text-[3.765vw] sm:text-start text-center w-[85.882vw] sm:w-[37.604vw]">
-{sectionContent.description}                </p>
+                    {sectionContent.description}                </p>
             </div>
 
             {/* Right Section (with scrollable content) */}

@@ -121,7 +121,7 @@ const smallfaqdata = [
 const hoverImageData = {
   text: {
     subheading: "Hire Virtual Assistants",
-    heading: " who can handle your tasks, so you can focus on core Business development. ",
+    heading: " Who can handle your tasks, so you can focus on core Business development. ",
     description:
       "Possesive Panda offers 360 virtual assistant services with dynamic pricing, tailored to your business needs and requirements. Covering 30+ services, we aim at delivering industry experts for your business’s overall success. If you want to check out our services, then just scroll up a little. With Possesive Panda’s cost-effective virtual assistant services, we are enabling current and future leaders to delegate tasks such as email handling, client handling, document management, digital marketing, eCommerce support, and more, so that they can focus on business strategy and growth. With pocket-friendly costs and long-term economic benefits, Possesive Panda offers an efficient and experienced solutions.",
   },
@@ -137,19 +137,19 @@ const hoverImageData = {
 // data.js
 export const hoverDivData = {
   heading: "Why do you need Virtual Assistants?",
-  paragraph: "Business of all sizes from entrepreneurs to enterprises, small businesses to well-established organizations are increasingly relying on virtual assistants for various reasons: ",
+  paragraph: "Whether you are an entrepreneur, have a small business, or own a well-established organization, businesses of various sorts are relying on virtual assistants because of their accessibility and efficiency.  ",
   models: [
     {
       title: 'Entrepreneurs and Small Businesses',
-      paragraph: 'Possesive Panda excels at providing the best e-commerce services to elevate your business. From creating UI/UX designs to managing your online stores, our expert e-commerce services have success at every step. With 24/7 support, we thrive on expanding your business in the digital world. Partner with us to climb up the ladder of success. '
+      paragraph: 'Not everyone, but being new to business often requires your time and attention, and many entrepreneurs struggle with business operations. To overcome this challenge, successful entrepreneurs hire virtual assistants because they want to focus on core business functions and delegate tasks like administrative tasks and more to them.  '
     },
     {
       title: 'Startup and Growing Businesses',
-      paragraph: 'Startups can quickly scale by hiring a Virtual Assistant (VA) to add support staff without full-time commitment. VAs can assist with social media management, content creation, and customer service. They can also take on administrative tasks, freeing up employees to focus on strategic initiatives.'
+      paragraph: 'Every founder or CEO wants his/her business to reach the top. If you are voting for the same, you can grow and scale your business with the help of virtual assistants. Before setting up in house teams, you can set up a virtual office consisting of virtual assistants of your requirements. They can help your startup grow by delivering various services like social media management, content creation, customer service, bookkeeping, and more. '
     },
     {
       title: 'Enterprises and Well-established Organizationss',
-      paragraph: 'VAs can provide consistent support across locations for employees working remotely or geographically. They can handle heavy workloads like data entry, research, and customer service, allowing in-house staff to focus on core responsibilities. VAs can also offer language-specific support for international clients.'
+      paragraph: 'Virtual assistants deliver constant support for any demographic and any time. If you want productivity while handling in-house employees, you can hire virtual assistants for your professional needs. They also come in handy when it comes to regional or local client dealings of different sorts. '
     }
   ]
 };

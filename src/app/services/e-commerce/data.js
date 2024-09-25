@@ -103,22 +103,22 @@ const introServicesData = {
   content: [
     "eCommerce refers to buying and selling goods and services using the Internet. It includes activities like selecting products and services to transactions and processes that include online shopping. In eCommerce, customers shop whenever they want; there is no time bound for shopping.",
     "eCommerce services and solutions comprise a wide range of tools and technologies that allow businesses to sell products and services on the internet.",
-    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothlyIn order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly."
+    "In order to sell your products and services, you have an eCommerce platform that attracts your targeted customers. We not only provide e-commerce solutions but also ensure that they run smoothly."
   ]
 };
 
 const titleData = {
   heading: "Choose Possesive Panda as Your eCommerce Success Partner",
   title: [
-    "Delivered 50+ eCommerce websites across industries",
-    "Expertise with all eCommerce development platforms",
-    "Enhanced traffic and sales.",
+    "Delivered 50+ eCommerce Websites across Industries",
+    "Expertise with all eCommerce Development Platforms",
+    "Enhanced Traffic and Sales",
     "Google Partnership",
     "Live Video Consultation",
     "Voice-Assisted Shopping ",
     "Decentralized Marketplaces",
     "Interactive User Manuals",
-    "Provide eCommerce solutions powered by AI/AR",
+    "Provide eCommerce Solutions Powered by AI/AR",
     "IOT-Powered eCommerce Operations",
   ],
 };
@@ -156,7 +156,7 @@ const servicesData22 = [
       },
       {
         icon: "PiTimerBold",
-        title: "eCommerce implementation",
+        title: "eCommerce Implementation",
         description:
           "Get cloud platforms, payment gateways, POS systems, and CRMs implemented to your eCommerce web stores and mobile applications.",
       },
@@ -275,7 +275,7 @@ const cardData = [
   {
       title: "Customer Support",
       step: "Step 6",
-      description: "This stage facilitates the 24/7 customer support services, including live chat and multichannel support, to assist customers with their queries and inquiries to enhance customer satisfaction.",
+      description: "This stage facilitates 24/7 customer support services, including live chat and multichannel support, to assist customers with their queries and inquiries to enhance customer satisfaction.",
   },
   {
       title: "Maintenance and Support ",
@@ -327,7 +327,7 @@ const smallfaqdata = [
   {
     key: 1,
     title: "Expert Guidance with Industry Expertise",
-    data: "Possesive Panda encompasses experienced eCommerce professionals and industry experts. With top-notch technologies and strategies, we transform online stores into powerful assets ensuring your digital presence is nothing short of extraordinary. ",
+    data: "Possesive Panda encompasses experienced eCommerce professionals and industry experts. With top-notch technologies and strategies, we transform online stores into powerful assets ensuring your digital presence is nothing short of extra-ordinary. ",
   },
   {
     key: 2,
@@ -429,7 +429,7 @@ const smallfaqdata = [
       text2: "We provide specialized logistics software to improve the efficiency of your online storefront. Our solutions are made with the goal of improving overall logistics efficiency, with a particular emphasis on the best delivery routes, real-time status tracking, and effective invoice creation. ",
       dotPoints: [
         "The best routes for deliveries",
-        "The best routes for deliveries",
+        "Tracking conditions in real-time",
         "Effective creation of invoices",
       ]
   }, {
