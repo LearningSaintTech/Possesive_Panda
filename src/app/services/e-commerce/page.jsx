@@ -8,7 +8,7 @@ import Customized from '../(CommonComponent)/E-commerce/Customized';
 import Partner from '../(CommonComponent)/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
-import Industries from '../../services/search-engine-optimization/Industries';
+import Industries from '../search-engine-optimization/Industries';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
