@@ -305,6 +305,60 @@ const cardData = [
   },
 ];
 
+
+// data.js
+ const servicesData2 = [
+  {
+    title: "Brand Identity",
+    description: [
+"Graphic design services create a unique brand identity, from logo to color scheme, fostering recognition and trust with the audience across all platforms."
+    ],
+  },
+  {
+    title: "First Impressions",
+    description: [
+"Graphic design services enable brands to have an outstanding first impression in the eyes and minds of their audience and customers through various marketing creatives. "
+    ],
+  },
+  {
+    title: "Visual Communication ",
+    description: [
+"Graphic design services visually communicate your brand identity by providing creatives of various sorts leading to lasting impressions and captivating audiences. "
+    ],
+  },
+  {
+    title: "Engagement and Conversions",
+    description: [
+"Graphic design services allow businesses to enhance the customer experience by engaging digital media, thereby amplifying the conversion rates significantly. "
+    ],
+  },
+  {
+    title: "Competition ",
+    description: [
+"Graphic design services allow your business to have a unique brand value and identity, captivating potential audiences and being better than competitors. "
+    ],
+  },
+  {
+    title: "Sreamline Marketing ",
+    description: [
+"Graphic design services ensure consistent branding and visually appealing content in marketing materials, streamlining efforts and enhancing their impact."
+    ],
+  },
+
+];
+
+ const dynamicContent2 = [
+ { headingLarge: "Leverage Graphic Design Services to Elevate Your Business Successes",
+  headingSmall: "Our Engagement Model",
+  paragraphs: [
+    "Enhancing your business's online presence through professional graphic design services by Possesive Panda can boost brand recognition, customer engagement, and credibility. We offer 360-degree graphic design services for your business delivered by industry-expert graphic designers.",
+
+"By leveraging the power of visuals or graphics, you can have the ability to thrive on your business success that attracts and captivates larger audiences. "
+  ]
+}
+ ];
+
+
 export { faq, 
   iconMapping1, 
   ourService, 
@@ -316,4 +370,7 @@ export { faq,
   platformsData,
   mobileData,
   whyData,
+  servicesData2,
+  dynamicContent2,
+
 };

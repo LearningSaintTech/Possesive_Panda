@@ -327,6 +327,54 @@ const servicesData22 = [
     ],
   },
 ];
+const servicesData2 = [
+  {
+    title: "Increased Visibility Online",
+    description: [
+"Social media marketing allows businesses to boost their online visibility through best marketing practices and strategies, leading to better growth and success. "
+    ],
+  },
+  {
+    title: "Higher Search Engine Rankings",
+    description: [
+"Social media marketing attracts potential clients and customers, leading to a boosted number of traffic and higher SERP(s), involving SEO strategies and more. "
+    ],
+  },
+  {
+    title: "Targeting Intended Audiences  ",
+    description: [
+"All businesses involved in the fuss of attaining as many potential customers as possible, to do so, social marketing focuses on captivating audiences. "
+    ],
+  },
+  {
+    title: "Enhanced Consumer Outreach",
+    description: [
+"Social media marketing offers enhanced customer engagement and outreach so that they can track the behavior of their customers and provide enhanced customer growth. "
+    ],
+  },
+  {
+    title: "Total Brand Mastery ",
+    description: [
+"Businesses want to have a brand identity that has credibility and customers trust. Social media marketing allows you to create a brand identity that can enhance your customer success. "
+    ],
+  },
+  {
+    title: "Amplified Profitability",
+    description: [
+"Social media marketing offers great ability to market your business within the reach of your potential customers for increased profitability and capturing audiences of various sorts. "
+    ],
+  },
+
+];
+
+ const dynamicContent2 = [
+ { headingLarge: "What is the Need for Social Media Marketing Services for Business Growth?",
+  headingSmall: "Our Engagement Model",
+  paragraphs: [
+"Social media marketing services provide both new and well-established brands many benefits. Social media content marketing may boost search traffic, improve SEO, foster better consumer engagement, and strengthen brand loyalty when combined with the appropriate social media marketing strategy and campaign monitoring system."
+, "With the variety of 360 Social Media Marketing solutions, Possesive Panda takes pride in boosting your overall business growth. You can leverage digital success with the help of Possesive Panda’s SMM services. "  ]
+}
+ ];
 
 export { faq, 
   growthData, 
@@ -339,4 +387,6 @@ export { faq,
   ourService, 
   servicesData22, 
   iconMapping1,
+  servicesData2,
+  dynamicContent2,
 };

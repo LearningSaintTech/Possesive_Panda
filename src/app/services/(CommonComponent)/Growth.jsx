@@ -1,20 +1,37 @@
 "use client";
 
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const Growth = ({ heading, description, cards }) => {
     const scrollContainerRef = useRef(null);
+    const [cardWidth, setCardWidth] = useState(0);
+
+    useEffect(() => {
+        const updateCardWidth = () => {
+            if (scrollContainerRef.current) {
+                const firstCard = scrollContainerRef.current.children[0];
+                if (firstCard) {
+                    setCardWidth(firstCard.offsetWidth); 
+                }
+            }
+        };
+
+        updateCardWidth();
+
+        window.addEventListener('resize', updateCardWidth);
+        return () => window.removeEventListener('resize', updateCardWidth);
+    }, [cards]); 
 
     const scrollLeftFunc = () => {
         if (scrollContainerRef.current) {
-            scrollContainerRef.current.scrollLeft -= 200;
+            scrollContainerRef.current.scrollLeft -= cardWidth; 
         }
     };
 
     const scrollRightFunc = () => {
         if (scrollContainerRef.current) {
-            scrollContainerRef.current.scrollLeft += 200;
+            scrollContainerRef.current.scrollLeft += cardWidth; 
         }
     };
 
@@ -30,7 +47,7 @@ const Growth = ({ heading, description, cards }) => {
             </div>
 
             <div
-                ref={scrollContainerRef} // Attach ref to the scroll container
+                ref={scrollContainerRef} 
                 className="flex items-center overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth gap-[7.529vw] sm:gap-[5.208vw] mt-[7.059vw] sm:mt-[4.5vw] "
             >
                 {cards.map((card) => (

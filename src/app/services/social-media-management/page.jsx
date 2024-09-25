@@ -8,6 +8,7 @@ import Mobile from "../(CommonComponent)/Mobile"; import Clients from '../(Commo
 import Solutions from '../(CommonComponent)/Solutions';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
+import Scrollbar2 from "../(CommonComponent)/Scrollbar2";
 
 import {
   faq,
@@ -22,6 +23,8 @@ import {
   servicesData22,
   iconMapping1,
   modelData,
+  servicesData2,
+  dynamicContent2
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
@@ -119,6 +122,8 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
+      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
+
       <div>
         <Models modelData={modelData} />
       </div>
