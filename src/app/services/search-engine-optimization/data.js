@@ -108,10 +108,9 @@ const testimonialsData = [
 const hoverImageData = {
   text: {
     subheading: "With Possessive Panda",
-    heading: "Generate Leads and Maximize Your ROI",
-    description:
-      "Digital marketing can only be successful if it generates a return on investment. We are committed to helping your business achieve long-term revenue development. With our expertise as digital marketing consultants and exposure to cross-industry knowledge, we select the marketing mix and overall approach that best meets your demands and goals.",
-  },
+    heading: "Implement Data-driven SEO Strategies to Boost Sales",
+    description:"We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall."
+    },
   images: {
     
       image1: img1,
@@ -181,7 +180,7 @@ const hoverImageData = {
         heading1: "What we Provide?",
         text1: "Possesive Panda provides a smooth and seamless Google Analytics configuration to enhance website performance and better search engine rankings, delivering actionable insights.",
         heading2: "How we Provide? ",
-        text2: "Our SEO experts deliver GA configuration solutions that deliver comprehensive Google Analytics setup, account structure, data validation, quality assurance, and integration of other tools like Google Tag Manager, Google Ads, and CRM systems",
+        text2: "Our SEO experts deliver GA configuration solutions that deliver comprehensive Google Analytics setup, account structure, data validation, quality assurance, and integration of other tools like Google Tag Manager, Google Ads, and CRM systems.",
         dotPoints: [
           "Custom Reports and Analysis ",
           "GA4 and GTM Support",

@@ -6,10 +6,11 @@ const barlow = Barlow({
 });
 
 
-const Strategies = ({StrategyData,heading}) => {
+const Strategies = ({StrategyData,heading,title}) => {
     return (
 
-        <div className='flex px-[7.396vw] flex-col'>
+        <div className='flex px-[7.396vw] justify-center items-center text-center flex-col'>
+            <p className='sm:text-[2.5vw] text-[7.529vw] sm:w-[34.167vw] w-[85.882vw] text-white '>{title}</p>
             <div className='justify-center flex items-center'>
             <h1 className='text-white sm:text-[2.5vw] text-[7.529vw] sm:w-[34.167vw] w-[85.882vw] font-medium justify-center items-center text-center 	 '>{heading}</h1>
             </div>
@@ -28,7 +29,7 @@ const Strategies = ({StrategyData,heading}) => {
 
                         </div>
                         <div className='sm:w-[34.87vw] w-[77.412vw]'>
-                            <p className='text-[#98989A] sm:text-[1.25vw] text-[2.624vw] font-medium '> {strategy.description}</p>
+                            <p className='text-[#98989A] sm:text-[1.25vw] text-start text-[2.624vw] font-medium '> {strategy.description}</p>
 
                         </div>
 

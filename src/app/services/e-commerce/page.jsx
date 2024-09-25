@@ -179,7 +179,7 @@ const Page = () => {
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop"  />
       <Customized />
       <ToolsTech />
       <div>
@@ -187,7 +187,7 @@ const Page = () => {
       </div>
       <Platforms platformsData={platformsData} />
       <Industries />
-      <Strategies StrategyData={StrategyData} />
+      <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />

@@ -8,6 +8,7 @@ import Mobile from "../(CommonComponent)/Mobile"; import Clients from '../(Commo
 import Solutions from '../(CommonComponent)/Solutions';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
+import Scrollbar2 from "../(CommonComponent)/Scrollbar2";
 
 import {
   faq,
@@ -22,6 +23,8 @@ import {
   servicesData22,
   iconMapping1,
   modelData,
+  servicesData2,
+  dynamicContent2
 } from "./data";
 
 import Faq from "../(Components)/(Faq)/Faq";
@@ -111,7 +114,7 @@ const page = () => {
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Personalized Social Media Marketing Solutions" />
       <div>
         <Mobile
           heading={mobileData.heading}
@@ -119,6 +122,8 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
+      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
+
       <div>
         <Models modelData={modelData} />
       </div>

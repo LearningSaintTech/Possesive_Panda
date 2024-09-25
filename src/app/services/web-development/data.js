@@ -57,9 +57,9 @@ const paragraphs = [
   {
     number: "1",
     heading1: "What we Provide?",
-    text1: "Possesive Panda delivers top-notch website design services. Our expert UI/UX designers craft visually appealing, use-friendly, and functional websites for your business, ensuring scalability, adaptability, and website responsiveness.  ",
+    text1: "We offer exceptional web-design services customized to your needs. With the keen focus on user experience and client satisfaction, our UI/UX designers create web designs that are visually stunning and highly interactive. ",
     heading2: "How we Provide? ",
-    text2: "We offer exceptional web-design services customized to your needs. With the keen focus on user experience and client satisfaction, our UI/UX designers create web designs that are visually stunning and highly interactive.  ",
+    text2: "Possesive Panda’s team of expert UI/UX designers and developers dedicatedly build layout design for websites and visual elements such as logos, images, vectors, and color schemes, for better customer experience and lasting engagement.   ",
     dotPoints: [
       "User Centric, Custom Design ",
       "Responsive Layouts with SEO Friendliness",
@@ -281,7 +281,7 @@ const servicesData22 = [
         icon: "BsGraphUp",
         title: "Web Application Modernization Services",
         description:
-          "Possesive Panda offers web application modernization services consisting upgrading web apps to new technologies and enhance performance with the integration of internet of things (IoT), machine learning and artificial intelligence (AI).",
+          "Possesive Panda offers web application modernization services consisting upgrading web apps to new technologies and enhance performance with the integration of Internet of Things (IoT), machine learning and artificial intelligence (AI).",
       },
     ],
   },

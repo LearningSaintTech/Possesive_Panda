@@ -62,12 +62,12 @@ const page = () => {
       <div>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Strategies StrategyData={StrategyData} />
+      <Strategies StrategyData={StrategyData} title="Benefits of Mobile App Development Services" />
       <Leverage />
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Mobile App Solutions We Develop" />
       <Iphone />
       <IndustriesWe />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Us as Your Mobile App Development Partner " />
       <div>
       <CardList cardData={cardData} cardList={cardList} />
       </div>

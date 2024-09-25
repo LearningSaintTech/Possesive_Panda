@@ -5,7 +5,7 @@ import Image from "next/image";
 // import faqImage from '../../../../../public/assets/e-commerce/faqImage.png';
 
 const Faq = ({smallfaqdata, smallfaqImg,heading}) => {
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [activeIndex, setActiveIndex] = useState(1);
   return (
     <div className="bg-[#00111A] sm:px-[5.208vw] px-[7.059vw] py-[5.469vw]">
       <div className="flex sm:flex-row flex-col">

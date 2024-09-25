@@ -18,7 +18,7 @@ const Partner = ({ heading, heading2, title }) => {
             key={index}
             className='flex items-center justify-center px-[3vw] sm:px-[1.667vw] py-[3vw] sm:py-[1.406vw] rounded-[1.176vw] sm:rounded-[0.521vw] border-[0.447px] sm:border sm:cursor-pointer hover:bg-[rgba(217,217,217,0.2)]'
           >
-            <p className='text-white text-[2.824vw] sm:text-[1.25vw] font-normal capitalize text-center'>{text}</p>
+            <p className='text-white text-[2.824vw] sm:text-[1.25vw] font-normal  text-center'>{text}</p>
           </div>
         ))}
       </div>

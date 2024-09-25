@@ -70,7 +70,7 @@ const whyData = {
     { title: "Dedicated Project Managers" },
     { title: "Personalized Design Delivery" },
     { title: "360 Graphic Design Services " },
-    { title: "Team of Expereinced Professionals" },
+    { title: "Team of Experienced Professionals" },
 
   ],
 };
@@ -151,7 +151,7 @@ const platformsData = [
       },
     ],
     text: {
-      heading: "Graphic Design Tools and Technologies We Use to Provide Tailored Experiences",
+      heading: "Graphic Design Tools and Technologies ",
       paragraph: "Graphic design tools and technologies are crucial for creating visually appealing content, ranging from vector graphics to layout design and digital illustrations."
     }
   }
@@ -173,7 +173,7 @@ const platformsData = [
 const ourService = {
   heading: "Our Graphic Design Services",
   subHeading:
-    "Possesive Panda offers a full suite of first-rated Graphic Design Services to establish your brand identity, market your brand with aesthetics, and create a buzz of your brand in the minds of your targeted customers and audiences. ",
+    "Possesive Panda offers a full suite of first-rated Graphic Design Services to establish your brand identity, market your brand with aesthetics, and create a buzz for your brand in the minds of your targeted customers and audiences. ",
 };
 const servicesData22 = [
   {
@@ -289,21 +289,75 @@ const cardData = [
     title: "Finalization & Delivery",
     step: "Step 6",
     description:
-      "After approval, we proceed to the finalization stage, ensuring all design elements are integrated and holistic. The final design is delivered in various formats for web, print, or other mediums, including.jpg,.jpeg,.png,.svg,.webp,.pdf,.avif,.gif, facilitating diverse visual marketing channels for clients.",
+      "After approval, we proceed to this stage, ensuring all design elements are integrated and holistic. The final design is delivered in various formats for web, or print, including. jpg,.jpeg,.png,.svg,.etc., facilitating diverse channels for clients.",
   },
   {
     title: "Follow-Up Support",
     step: "Step 7",
     description:
-      "Our support extends beyond delivery, providing technical assistance during the implementation phase, ongoing support for websites, social media, and print materials, and future updates to ensure seamless integration and effectiveness.",
+      "Our support extends beyond delivery, providing technical assistance during this phase, ongoing support, social media, and print materials, and future updates to ensure seamless integration and effectiveness.",
   },
   {
     title: "Feedback & Improvement",
     step: "Step 8",
     description:
-      "We value customer feedback and identify areas for improvement, ensuring a continuous cycle of feedback that enhances our work processes and results in better performance and higher quality graphic designs for future projects.",
+      "We value customer feedback and identify areas for improvement, ensuring a continuous cycle of feedback that enhances our work processes and results in better performance and higher-quality graphic designs for future projects.",
   },
 ];
+
+
+// data.js
+ const servicesData2 = [
+  {
+    title: "Brand Identity",
+    description: [
+"Graphic design services create a unique brand identity, from logo to color scheme, fostering recognition and trust with the audience across all platforms."
+    ],
+  },
+  {
+    title: "First Impressions",
+    description: [
+"Graphic design services enable brands to have an outstanding first impression in the eyes and minds of their audience and customers through various marketing creatives. "
+    ],
+  },
+  {
+    title: "Visual Communication ",
+    description: [
+"Graphic design services visually communicate your brand identity by providing creatives of various sorts leading to lasting impressions and captivating audiences. "
+    ],
+  },
+  {
+    title: "Engagement and Conversions",
+    description: [
+"Graphic design services allow businesses to enhance the customer experience by engaging digital media, thereby amplifying the conversion rates significantly. "
+    ],
+  },
+  {
+    title: "Competition ",
+    description: [
+"Graphic design services allow your business to have a unique brand value and identity, captivating potential audiences and being better than competitors. "
+    ],
+  },
+  {
+    title: "Sreamline Marketing ",
+    description: [
+"Graphic design services ensure consistent branding and visually appealing content in marketing materials, streamlining efforts and enhancing their impact."
+    ],
+  },
+
+];
+
+ const dynamicContent2 = [
+ { headingLarge: "Leverage Graphic Design Services to Elevate Your Business Successes",
+  headingSmall: "Our Engagement Model",
+  paragraphs: [
+    "Enhancing your business's online presence through professional graphic design services by Possesive Panda can boost brand recognition, customer engagement, and credibility. We offer 360-degree graphic design services for your business delivered by industry-expert graphic designers.",
+
+"By leveraging the power of visuals or graphics, you can have the ability to thrive on your business success that attracts and captivates larger audiences. "
+  ]
+}
+ ];
+
 
 export { faq, 
   iconMapping1, 
@@ -316,4 +370,7 @@ export { faq,
   platformsData,
   mobileData,
   whyData,
+  servicesData2,
+  dynamicContent2,
+
 };

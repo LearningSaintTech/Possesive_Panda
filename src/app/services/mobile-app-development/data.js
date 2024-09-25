@@ -46,128 +46,130 @@ const faq = [
 const StrategyData = [
   {
       num: "01",
-      title: "Strategic Planning",
+      title: "Enhanced Performance",
       description:
-          "We focus on learning about your business goals and competitors. This helps us plan and move forward with the project.",
+          "Mobile apps are built and optimized in order to attain maximum proficiency and speed. They leverage devices' capabilities and faster load times, leading to improved user experience and customer retention. ",
   },
   {
       num: "02",
-      title: "Design Concept",
-      description:"We create a design that matches your brand and attracts your customers. Our designs are easy to use and reflect your brand. "
+      title: "Access to Device Features",
+      description:"Mobile apps can utilize features and functionalities of mobile devices such as GPS, cameras, push notifications, etc., allowing developers to create or craft interactive applications that enhance the user experience. "
     },
   {
       num: "03",
-      title: "Development",
+      title: "Higher Security  ",
       description:
-          "With the help of the latest technologies, we develop our solutions. Our team uses the best ways to add features.",
+          "Because they may use the device's built-in security capabilities and apply strong encryption, mobile apps usually offer superior security protections. As a result, they are less susceptible to cyberattacks than web-based apps.",
   },
   {
       num: "04",
-      title: "Testing and QA",
+      title: "Offline Functionality ",
       description:
-          "Before finalizing, we check our solutions on various devices and web browsers to make sure they work perfectly.",
+          "A lot of mobile apps have the ability to function offline by saving data locally for later use. This functionality is especially helpful for apps that users might need to access even when they are not connected, such as productivity tools or games.",
   },
   {
       num: "05",
-      title: "Support and Upgrade",
+      title: "Increased App Store Visibility",
       description:
-          "We provide regular help and updates to improve your website's performance.",
+          " Native apps have a higher priority in app stores, which increases the likelihood that consumers will find and highlight them. Increased downloads and a bigger user base may result from this visibility.",
   },
+  {
+    num: "06",
+    title: "Long-Term Cost-Effectiveness: ",
+    description:
+        "Although native apps may have greater initial development costs, their performance, user retention, and cheaper maintenance expenses can result in a longer-term, higher return investment.",
+},
 ];
 const buttonData= [
-  "eCommerce Stores ",
-  "eCommerce Portals ",
-  "Logistics Software",
-  "eCommerce CRM",
-  "Inventory Management"
+  "Bespoke Development  ",
+  "App Modernization ",
+  "App Maintenance ",
+  "App Management ",
+  "App Integration "
 ];
 
  const paragraphs=[
   {
       number: "1",
       heading1: "What we Provide?",
-      text1: "We create eCommerce stores of various sorts, i.e., Business-to-Business, Business-to-Consumers, and Consumers-to-Consumers offering features like product cataloging, product reviews, shipping, and optimum customer service for a better experience. ",
+      text1: "Possesive Panda encompasses a team of well-experienced and dedicated developers with the aim of delivering bespoke mobile application development. Whether it is native app development or PWA development, we focus on client satisfaction and strengthening their business. ",
       heading2: "How we Provide? ",
-      text2: "Ensuring seamless and a user-friendly shopping experience from browsing to checkout is the goal of developing responsive online eCommerce stores. Our emphasis on simple checkout procedures and easy navigation, together with the integration of necessary retail tools. ",
+      text2: "With the use of new-age tools and technologies, our developer specializes in building user-friendly, responsive apps that drive business growth. Thriving on the whole lifecycle of the app development, we excel at providing exceptional custom mobile app development services.  ",
       dotPoints: [
-        "Instinctive Navigation",
-        "Streamlined checkout procedures",
-        "Combination with key retail instruments",
+        "Multi-Platform Deployment ",
+        "Rapid UI/UX and Seamless API Integration",
       ]
 
   },
   {
       number: "2",
       heading1: "What we Provide?",
-      text1: "Our eCommerce portal development solutions involve robust infrastructure for order management, payment integration, and inventory management that enhance brand visibility and sales. ",
+      text1: "Possesive Panda provides Application Modernization Services, with an emphasis on zero-disruption solutions for businesses. This includes fixing technological flaws, and strategic mismatches, reconstructing procedures, and developing future preparedness plans.",
       heading2: "How we Provide? ",
-      text2: "Possesive Panda’s expertise lies in exceptional eCommerce portals equipped with powerful analytics tailored to customer needs, resulting in more successful consumer engagement and individualized shopping experiences.",
+      text2: "As a leading provider of application modernization services, we enhance the security, performance, and overall app experience by updating antiquated products. We carry out comprehensive evaluations, restructure codebases, and cloud migration, and provide containerization, replatforming, and reworking.",
       dotPoints: [
-        "Strong Analytics Planning ",
-        "Bespoke Strategies",
-        "Captivating UI/UX",
+        "Increased Scalability without Quality Compromising",
+        "Enhanced Technical Capabilities and Decreased Security Risks",
       ]
   }, {
       number: "3",
       heading1: "What we Provide?",
-      text1: "Possesive Panda aims to deliver the logistic software development, that will reduce cost, improve efficiency, and enhance customer satisfaction. We deliver automated solutions like order tracking, routing, and delivery planning for better business outcomes.",
+      text1: "Possesive Panda provides reliable application maintenance and support services, ensuring app efficiency and allowing businesses to focus on core operations. We offer regular updates, security patches, bug fixes, and debugging.",
       heading2: "How we Provide? ",
-      text2: "We provide specialized logistics software to improve the efficiency of your online storefront. Our solutions are made with the goal of improving overall logistics efficiency, with a particular emphasis on the best delivery routes, real-time status tracking, and effective invoice creation. ",
+      text2: "As a leading custom app development and maintenance company, we excel in tackling ever-evolving challenges and are dedicated to enhancing efficiency through top-tier IT support and maintenance. By harnessing versatile IT application support, we craft scalable solutions.  ",
       dotPoints: [
-        "The best routes for deliveries",
-        "The best routes for deliveries",
-        "Effective creation of invoices",
+        "Extensive User Support ",
+        "Post Deployment Maintenance ",
+      
       ]
   }, {
       number: "4",
       heading1: "What we Provide?",
-      text1: "We provide reliable and secure customer relationship management (CRM) systems to store your customer details, information, and leads that will be leveraged for better sale opportunities.  ",
+      text1: "Possesive Panda’s application management offers comprehensive IT support, KPI-based app management, and external support for long-term strategy development, ensuring app sync, business value, and reduced maintenance costs.  ",
       heading2: "How we Provide? ",
-      text2: "With the help of our CRM solutions, businesses can offer individualized shopping experiences by gaining comprehensive insights into their customers. They are intended to increase client interactions and sales efficiency. ",
+      text2: "Our Application Management Services ensure client applications and technology infrastructure maintenance, enabling businesses to transition to an integrated full-stack model through optimization, monitoring, and support. It also helps IT managers limit data sharing and manage personal data. ",
       dotPoints: [
-        "Cutomized Shopping Experience",
-        "Optimization of Sales Campaign",
-        "Enhanced Pipeline Management",
+        "Database Management",
+        "Support and Maintenance",
       ]
   }, {
       number: "5",
       heading1: "What we Provide?",
-      text1: "Possesive Panda’s inventory management solutions include the management of various supplies and processes. We focus on managing the flow of raw materials from production to finished goods. ",
+      text1: "Possesive Panda’s Application Integration services focus on enhancing functionality, addressing data quality issues, improving visibility, eliminating silos, accelerating information exchange, reducing IT complexity, and facilitating automation. ",
       heading2: "How we Provide? ",
-      text2: "Our real-time stock tracking capabilities in inventory management systems help to streamline the supply chain, avoid stock-outs, and give better merchandising tactics. The main objective is to enhance the overall efficiency of inventory and shipping procedures.",
+      text2: "To improve business processes and streamline functionality, we establish and maintain data control systems, automated processes in correct and proper order, overcome setbacks of IT complexity, and combine functionalities into single interfaces. ",
       dotPoints: [
-        "Preventing shortages of inventory",
-        "Optimization of the supply chain",
-        "Improved shipping and merchandise techniques"
+        "Consistent and Reliable Workflows ",
+        "Ensures Flexibility of your Information Systems",
       ]
   },
 ];
 const smallfaqdata = [
   {
     key: 1,
-    title: "Dedicated Project Manager",
-    data: "For immersive client satisfaction and transparent communication, we provide dedicated project managers so that you don’t have to worry about your project and lead to smooth service delivery. ",
+    title: "Dynamic Pricing",
+    data: "You need a partner who puts your vision and your consumers' safety first when it comes to creating custom mobile apps. Here's where we get involved. What distinguishes us is this: ",
   },
   {
     key: 2,
-    title: "Cost-Effective Solutions",
-    data: "Why waste time and money setting up your own eCommerce infrastructure when Possesive Panda can do it for you? Our streamlined processes get your online store up and running swiftly, allowing you to focus on what you do best.",
+    title: "Top-Notch Quality",
+    data: "We take pride in creating outstanding, tailored mobile applications. With the use of prime tools and technologies, we believe in delivering the best mobile application development in the industry. We guarantee that each and every time, you will receive a polished, excellent product.",
   },
   {
     key: 3,
-    title: "Experienced Team",
-    data: "Possesive Panda deliver outstanding dynamic pricing for reduced expenses. We work within the budget provided to give our clients services that don't compromise quality and performance. This makes sure that clients get the most optimal solution possible.",
+    title: "Expert Developers",
+    data: "Possesive Panda has the ability to provide you with global talents when it comes to providing expert and experienced developers. This guarantees smooth project management and collaboration.",
   },
   {
     key: 4,
-    title: " Customized Solutions",
-    data: "We understand each project's requirement is different. Hence, our services are tailor-made and created exclusively in tune with the client's needs. This approach guarantees that the final output aligns with their project goals",
+    title: "Security and Propriety",
+    data: "We place a high premium on security, unlike many offshore businesses. Your information and intellectual property are kept totally private, and you will always own the right to the source code.",
   },
  
   {
     key: 5,
-    title: "Innovative Approach",
-    data: "We keep researching new technologies and methodologies to apply in our service delivery, coming up with creative solutions that will let our clients stand out amongst the competition.",
+    title: "Timely Delivery",
+    data: "To keep your project moving forward, we employ agile development techniques and state-of-the-art project management systems. This implies that you'll receive premium goods just when you need them.",
   },
 ];
 const testimonialsData = [
