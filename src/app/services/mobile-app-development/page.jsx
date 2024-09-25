@@ -9,7 +9,7 @@ import Solutions from '../(CommonComponent)/Solutions';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Clients from '../(CommonComponent)/Clients';
 import OurServices from "../(CommonComponent)/OurSevices"
-import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import CardList from './Madp/CardList';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
 
 import {

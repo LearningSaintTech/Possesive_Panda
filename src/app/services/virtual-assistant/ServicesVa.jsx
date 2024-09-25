@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect  } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const services = [
     {
@@ -170,9 +170,12 @@ export default function VirtualAssistantServices() {
                                 onClick={() => toggleServiceExpansion(index)}
                             >
                                 {service.name}
-                                <span>{expandedService === index ? '▲' : '▼'}</span>
+                                <span className={`transform transition-transform duration-300 ${expandedService === index ? 'rotate-180' : ''}`}>▼</span>
                             </button>
-                            {expandedService === index && (
+                            <div
+                                className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedService === index ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+                                    }`}
+                            >
                                 <div className="px-6 py-4 space-y-4">
                                     {service.details.map((detail, detailIndex) => (
                                         <div key={detailIndex} className="bg-[#00111a] rounded-lg p-4">
@@ -184,7 +187,7 @@ export default function VirtualAssistantServices() {
                                         </div>
                                     ))}
                                 </div>
-                            )}
+                            </div>
                         </div>
                     ))}
                 </div>

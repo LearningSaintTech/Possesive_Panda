@@ -68,13 +68,13 @@ const Benefits = () => {
                 {/* Left and Right Container Division */}
                 <div className="flex flex-col sm:flex-row justify-between gap-[2vw] mt-8 w-full">
                     {/* Left Column Container */}
-                    <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg p-[2vw] w-[48%] text-white space-y-[2.5vw]">
+                    <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg px-[3.906vw] py-[4.531vw] w-[50%] text-white space-y-[2.5vw]">
                         {leftColumnData.map((item, index) => (
                             <div key={index} className="flex items-start space-x-[0.833vw]">
                                 {item.icon}
                                 <div>
-                                    <h3 className="text-white text-[1.667vw] font-semibold">{item.title}</h3>
-                                    <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
+                                    <h3 className="text-white  text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <p className="text-white opacity-80 text-[1.25vw] font-light w-[28.229vw]">
                                         {item.description}
                                     </p>
                                 </div>
@@ -83,13 +83,13 @@ const Benefits = () => {
                     </div>
 
                     {/* Right Column Container */}
-                    <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg p-[2vw] w-[48%] text-white space-y-[2.5vw]">
+                    <div className="bg-[#131d22] rounded-[0.625vw] shadow-lg px-[3.906vw] py-[4.531vw] w-[50%] text-white space-y-[2.5vw]">
                         {rightColumnData.map((item, index) => (
                             <div key={index} className="flex items-start space-x-[0.833vw]">
                                 {item.icon}
                                 <div>
-                                    <h3 className="text-white text-[1.667vw] font-semibold">{item.title}</h3>
-                                    <p className="text-white text-[1.25vw] font-light w-[28.229vw]">
+                                    <h3 className=" text-white  text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <p className="text-white opacity-80 text-[1.25vw] font-light w-[28.229vw]">
                                         {item.description}
                                     </p>
                                 </div>
@@ -102,15 +102,15 @@ const Benefits = () => {
             {/* FOR MOBILE  */}
 
             <div className="sm:hidden bg-[#00111A]">
-                <div className="pb-[15vw]">
-                    <div className="w-[100.235vw] h-[87.059vw] pr-[10.059vw] pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center gap-[7.529vw] inline-flex">
+                <div className="">
+                    <div className="w-[100.235vw] pr-[10.059vw] pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center gap-[7.529vw] inline-flex">
                         <h1 className="w-[85.882vw] text-center text-white text-[7.529vw] font-medium">Benefits of eCommerce Service and Solutions</h1>
                         <p className="w-[65.882vw] text-center text-white text-[3.765vw] font-normal">There are many benefits of using e-commerce solutions</p>
 
 
                         {/* Main box */}
 
-                        <div class="w-[85.882vw] h-[120.882vw] p-[4.235vw] bg-[#131d22] rounded-[3.765vw] flex-col justify-start items-start gap-[5.647vw] inline-flex">
+                        <div class="w-[85.882vw] p-[4.235vw] bg-[#131d22] rounded-[3.765vw] flex-col justify-start items-start gap-[5.647vw] inline-flex">
 
                             {/* First container */}
 
@@ -171,7 +171,7 @@ const Benefits = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="py-[3.353vw] w-[85.882vw] sm:py-[0.729vw] px-[33vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3vw] sm:text-[1.25vw] font-semibold mt-[2.24vw] ">
+                        <button className="py-[3.353vw] w-[85.882vw]  px-[33vw]  bg-[#05B7DF] rounded-[1.882vw]  text-white text-[3vw]  font-semibold mt-[2.24vw]">
                             Get In Touch
                         </button>
 
