@@ -75,13 +75,13 @@ const Growth = ({ heading, description, cards }) => {
             <div className='flex gap-1 sm:gap-[0.625vw] items-center justify-center mt-[6vw] sm:mt-1 '>
                 <button
                     onClick={scrollLeftFunc}
-                    className="rounded-full p-[4vw] sm:p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
+                    className="rounded-full p-[2vw] sm:p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
                 >
                     <FaAngleLeft className="size-4 sm:size-[1.5vw] opacity-100" />
                 </button>
                 <button
                     onClick={scrollRightFunc}
-                    className="rounded-full p-[4vw] sm:p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
+                    className="rounded-full p-[2vw] sm:p-[0.586vw] bg-[rgba(255,255,255,0.1)] text-white hover:text-black hover:bg-[#00AFF1] duration-500"
                 >
                     <FaAngleRight className="size-4 sm:size-[1.5vw] opacity-80" />
                 </button>

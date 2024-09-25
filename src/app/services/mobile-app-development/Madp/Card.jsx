@@ -1,4 +1,3 @@
-"use client"
 import React, { useEffect, useState } from "react";
 
 const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
@@ -31,7 +30,7 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
 
             <div className="w-[50vw] sm:w-[23.229vw] sm:h-[16.979vw] absolute left-[1.25vw] sm:top-0">
                 <div
-                    className={`left-2 sm:mt-0 mt-1 w-[10vw] h-[5vw] sm:w-[4.479vw] sm:h-[1.771vw] rounded-[1.759vw] shadow-inner flex items-center justify-center absolute sm:left-0 sm:top-0 transition-all duration-500 ease-in-out ${isHovered ? "bg-[#00aff1]" : "bg-[#2f2f31]"
+                    className={`left-[0.417vw] sm:mt-0 mt-[0.208vw] w-[10vw] h-[5vw] sm:w-[4.479vw] sm:h-[1.771vw] rounded-[1.759vw] shadow-inner flex items-center justify-center absolute sm:left-0 sm:top-0 transition-all duration-500 ease-in-out ${isHovered ? "bg-[#00aff1]" : "bg-[#2f2f31]"
                         }`}
                 >
                     <div className="text-white text-[1.882vw] sm:text-[0.833vw] font-semibold">{data.step}</div>
@@ -46,19 +45,30 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
 
                 <p
                     className={`sm:pl-0 pl-2 absolute left-0 top-16 sm:top-[5.729vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-white" : "opacity-70 text-white"
-                        } text-[2.824vw] sm:text-[1.25vw] font-normal`}
+                        } text-[2.824vw] sm:text-[1.042vw] font-normal mb-4`}
                 >
                     {data.description}
                 </p>
+
+                {/* Unlisted points */}
+                <ul className="list-disc list-inside pl-[0.417vw] mb-0 sm:mt-[15vw]">
+                    <li className={`w-[22.917vw] text-white text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                        {data.point1}
+                    </li>
+                    <li className={`w-[22.917vw] text-white text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                        {data.point2}
+                    </li>
+                </ul>
             </div>
 
+            {/* Horizontal line with reduced height */}
             {Array.from({ length: barLength }).map((_, i) => (
                 <div
                     key={i}
-                    className={`w-[0.25vw] h-[10vw] sm:w-[0.156vw] sm:h-[4.201vw] absolute transition-all duration-300 ease-linear`}
+                    className={`w-[0.25vw] h-[5vw] sm:w-[0.156vw] sm:h-[2.101vw] absolute transition-all duration-300 ease-linear`}
                     style={{
                         left: `${0.729 + i * 0.729}vw`,
-                        top: isSmallScreen ? "50vw" : "19.757vw",
+                        bottom: "0",
                         backgroundColor: isFilled ? "#00aff1" : "rgba(255, 255, 255, 0.2)",
                         opacity: isFilled ? 1 : 0.7,
                         transitionDelay: isHovered ? `${i * 0.01}s` : "0s",

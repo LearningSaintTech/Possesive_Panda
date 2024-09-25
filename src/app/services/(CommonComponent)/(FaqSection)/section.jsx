@@ -11,7 +11,7 @@ const Faq = ({smallfaqdata, smallfaqImg,heading}) => {
       <div className="flex sm:flex-row flex-col">
         <div className="flex sm:gap-[3.438vw] flex-col">
           <h2 className="text-white text-[5vw] sm:text-[2.5vw] font-medium leading-[6vw] sm:leading-[3.8vw] tracking-[-0.088vw] sm:w-[33.854vw] w-full">
-{heading}
+            {heading}
           </h2>
           {/* Image visible on larger screens, hidden on small screens */}
           <Image

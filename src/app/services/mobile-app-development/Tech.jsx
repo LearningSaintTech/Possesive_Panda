@@ -17,7 +17,6 @@ const Tech = () => {
 
 
             <div className=" flex flex-col sm:flex-row  w-full sm:h-[60vh] gap-[5vw] sm:gap-[1vw] mt-[5vw] sm:mt-[2vw]">
-
                 <div
                     className={` relative  transition-all duration-500 ease-in-out ${hovered === 1 ? 'flex-[2]' : hovered ? 'flex-[1]' : 'flex-[2]'
                         }`}
@@ -29,7 +28,7 @@ const Tech = () => {
                         alt="Fingertips"
                         width={500}
                         height={300}
-                        className="relative object-cover w-full h-[85.882vw] sm:h-full rounded-lg"
+                        className="relative object-cover w-full h-[85.882vw] md:h-[40vw] lg:h-full rounded-lg"
                     />
 
 
@@ -52,7 +51,7 @@ const Tech = () => {
                         alt="Precision"
                         width={500}
                         height={300}
-                        className=" relative object-cover w-full h-[85.882vw] sm:h-full rounded-lg"
+                        className=" relative object-cover w-full h-[85.882vw] md:h-[40vw] lg:h-full rounded-lg"
                     />
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
                         <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>
@@ -72,7 +71,7 @@ const Tech = () => {
                         alt="UI/UX"
                         width={500}
                         height={300}
-                        className=" relative object-cover w-full h-[85.882vw] sm:h-full rounded-lg"
+                        className=" relative object-cover w-full h-[85.882vw] md:h-[40vw] lg:h-full rounded-lg"
                     />
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
                         <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>

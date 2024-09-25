@@ -61,7 +61,7 @@ const BulbAnimation = () => {
                             What is PPC Marketing
                         </h2>
                         <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light text-center'>
-                            Pay-Per-Click or PPC, is a digital marketing strategy that allows you to market your products and services for a fixed amount, and you can choose where you want to show your ads and spend money. It drives immediate traffic to your website and amplify the sales of your products and services.                        </p>
+                            Pay-Per-Click or PPC, is a digital marketing strategy that allows you to market your products & services for a fixed amount, & you can choose where you want to show your ads & spend money. It drives immediate traffic to your website & amplify the sales of your products & services.                        </p>
                     </div>
                 </div>
             </div>
@@ -110,25 +110,30 @@ const BulbAnimation = () => {
                     </p>
                 ))}
 
-
                 <div className="hidden absolute sm:flex justify-center bottom-10 right-16">
                     <div
-                        className={`flex gap-[0.469vw] items-center justify-between w-full rounded-full border-[0.052vw] cursor-pointer transition-all duration-300 ${isOn ? 'bg-[#00AFF1]' : 'bg-[#00111A]'
+                        className={`flex items-center w-[6vw] h-[2.5vw] rounded-full border-[0.052vw] cursor-pointer transition-all duration-300 ${isOn ? 'bg-[#00AFF1]' : 'bg-[#00111A]'
                             }`}
                         onClick={toggleButton}
                     >
+                        {/* Bulb Icon */}
                         <div
-                            className={`ml-[0.208vw] flex items-center justify-center w-[1.667vw] h-[1.667vw] p-[0.208vw] rounded-full transition-all duration-300 ${isOn ? 'bg-white text-[#00AFF1] md:translate-x-4 lg:translate-x-9' : 'bg-white text-black '
-                                }`}
+                            className={`ml-[0.4vw] flex items-center justify-center w-[1.667vw] h-[1.667vw] rounded-full transition-all duration-300 ${isOn ? 'translate-x-[3.5vw] bg-white text-[#00AFF1]' : 'translate-x-0 bg-white text-black'}`}
+                            style={{
+                                transition: 'transform 0.3s ease-in-out',
+                            }}
                         >
                             <HiLightBulb size={20} />
                         </div>
 
-                        <span className={`text-[1.042vw] font-medium py-[0.208vw] mr-[1.042vw]  ${isOn ? 'text-white md:-translate-x-3 lg:-translate-x-4 ' : 'text-white'}`}>
+                        {/* ON/OFF Text */}
+                        <span className={`text-[1.042vw] font-medium px-[0.5vw] ${isOn ? 'text-white -translate-x-[1.4vw]' : 'text-white'}`}>
                             {isOn ? 'ON' : 'OFF'}
                         </span>
                     </div>
                 </div>
+
+
             </div>
 
             {/* i have added the bulb on the wall */}

@@ -156,14 +156,12 @@ function TechComponent() {
     return (
         <div className="px-[5.208vw] py-[5.3vw] bg-[#00111a]">
             <div className="flex flex-col items-center justify-center ">
-                <h1 className="sm:w-[36.89vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium sm:leading-[4.104vw]">
+                <h1 className="sm:w-[46.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium  sm:mb-[2.135vw]">
                     Tools and Technologies We Work With
                 </h1>
-                <p className="text-center text-[#b9babf] sm:text-[1.25vw] text-[3.765vw] sm:font-normal font-normal sm:leading-[45.03px]">
+                <p className="text-center text-[#b9babf] sm:text-[1.25vw] text-[3.765vw] sm:font-normal font-normal ">
                     Customized, cutting-edge tools and technologies for resolving your queries and developing intuitive and updated solutions.
                 </p>
-
-                {/* Button Card For Mobile*/}
 
                 <div>
                     {/* Scroller Container */}
@@ -177,7 +175,7 @@ function TechComponent() {
                             <button
                                 key={category}
                                 onClick={() => setActiveCategory(category)}
-                                className={`shrink-0 w-[33.3333vw] sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[0.417vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
+                                className={`shrink-0 w-[33.3333vw] sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[1.476vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
                                     ? 'bg-[#00aff1] text-white'
                                     : 'bg-white text-black'
                                     } hover:bg-[#00aff1] hover:text-white`}
@@ -188,7 +186,7 @@ function TechComponent() {
                     </div>
 
                     {/* Progress Bar */}
-                    <div className="mt-[1vw] h-[0.4vw] bg-gray-200 rounded-full">
+                    <div className="mt-[1vw] h-[0.4vw] bg-gray-200 rounded-[full]">
                         <div
                             className="h-full bg-[#00aff1] rounded-full"
                             style={{ width: `${scrollProgress}%` }}
@@ -219,9 +217,9 @@ function TechComponent() {
                     {data[activeCategory].map(tech => (
                         <div
                             key={tech.name}
-                            className="flex sm:px-[1vw] sm:py-[0.533vw] px-[3.765vw] py-[1.882vw] bg-white rounded-[0.26vw] shadow justify-center items-center sm:gap-[0.521vw] gap-[1.882vw]"
+                            className="flex sm:px-[1vw] sm:py-[0.533vw] px-[3.765vw] py-[1.882vw] bg-white sm:rounded-[0.26vw] rounded-[1.176vw] shadow justify-center items-center sm:gap-[0.521vw] gap-[1.882vw]"
                         >
-                            <div className="sm:text-[1.875vw] text-[7vw] relative hover:bg-red">
+                            <div className="sm:text-[1.875vw] text-[7vw] relative ">
                                 {tech.icon}
                             </div>
                             <p className="text-[#212121] sm:text-[1vw] text-[3.765vw] font-semibold sm:font-semibold">
