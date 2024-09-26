@@ -237,7 +237,7 @@ const Contact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full md:w-full h-[70vw] md:h-[70vh] lg:w-[35vw] lg:h-[32vw]"
+          className="w-full md:w-full h-[70vw] md:h-[46vh] lg:w-[35vw] lg:h-[32vw]"
         ></iframe>
       </div>
     </div>
