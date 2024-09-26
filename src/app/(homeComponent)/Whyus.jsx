@@ -24,21 +24,22 @@ const WhyUs = () => {
       const clone = ul.cloneNode(true);
       clone.setAttribute("aria-hidden", "true");
       if (ul.parentNode) {
-        ul.parentNode.insertBefore(clone, ul);
+        ul.parentNode.appendChild(clone); // Change `insertBefore` to `appendChild`
       }
     }
   }, []);
-
+  
   useEffect(() => {
     if (downRef.current) {
       const ul = downRef.current;
       const clone = ul.cloneNode(true);
       clone.setAttribute("aria-hidden", "true");
       if (ul.parentNode) {
-        ul.parentNode.insertBefore(clone, ul);
+        ul.parentNode.appendChild(clone); // Change `insertBefore` to `appendChild`
       }
     }
   }, []);
+  
 
   // 2nd line: mt-[10.385vw]
 

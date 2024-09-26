@@ -109,7 +109,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          
+
         </div>
 
         <div className="flex sm:flex-none sm:gap-0 gap-[8.205vw]  ">

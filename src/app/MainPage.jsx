@@ -30,9 +30,9 @@ const MainPage = () => {
 
   return (
     <div className="bg-[#00111A]">
-      {/* {loading ? (
+      {loading ? (
         <Loader />
-      ) : ( */}
+      ) : (
         <>
           <Banner whyUsRef={whyUsRef} />
           <div style={{ paddingTop: "60px" }}> {/* Adjust paddingTop to ensure content is visible */}
@@ -53,7 +53,7 @@ const MainPage = () => {
             <Footer />
           </div>
         </>
-      {/* )} */}
+      )}
     </div>
   );
 };
