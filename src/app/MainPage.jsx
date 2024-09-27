@@ -60,8 +60,10 @@ const MainPage = () => {
           <div className="sm:mt-[7.188vw] mt-[14.118vw] ">
             <Contact />
           </div>
+          <div className="sm:mt-[7.969vw] ">
+          <WorldClocks/>
+          </div>
           <div className="sm:mt-[5.208vw] mt-[14.118vw] ">
-            <WorldClocks/>
             <Blogs />
           </div>
           <div className="sm:mt-[3vw] mt-[14.118vw] ">

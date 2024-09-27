@@ -313,14 +313,14 @@ const cardData = [
   {
       title: "Planning ",
       step: "Step 2",
-      description: "This stage deals with the analysis of researched data to create a detailed plan for the development of the app, keeping clients in the loop to enable transparency and identify practical details and functionalities essential for the app.",
+      description: "This stage deals with the analysis of researched data to create a detailed plan for the development of the app, keeping clients in the loop to enable transparency and identify practical details and functionalities.",
       point1:"Project Roadmap Creation",
       point2:"Scope and Resource Allocation",
     },
   {
       title: "Designing",
       step: "Step 3",
-      description: "This stage deals with the analysis of researched data to create a detailed plan for the development of the app, keeping clients in the loop to enable transparency and identify practical details and functionalities essential for the app.",
+      description: "This stage will include brainstorming and designing your vision into UI/UX designing software. Our designers put your vision and requirements into vibrant reality by creating user friendly and appealing designs.",
       point1:"UI/UX Design and Wireframing",
       point2:"Prototyping and Approval",
     },
