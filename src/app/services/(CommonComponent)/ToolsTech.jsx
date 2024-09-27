@@ -154,7 +154,7 @@ function TechComponent() {
     }, []);
 
     return (
-        <div className="px-[5.208vw] py-[5.3vw] bg-[#00111a]">
+        <div className="px-[5.208vw] bg-[#00111a]">
             <div className="flex flex-col items-center justify-center ">
                 <h1 className="sm:w-[46.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium  sm:mb-[2.135vw]">
                     Tools and Technologies We Work With

@@ -102,20 +102,7 @@ const smallfaqdata = [
     title: "Scalability ",
     data: "Based on your industry-led projects and requirements, virtual assistants can be a great asset in amplifying your business scale, whether it is a startup, a growing business, or an enterprise.",
   },
-  {
-    key: 6,
-    title: "Improved Customer Success ",
-    data: "Virtual assistants are considered masters of handling customers because of their specialized people handling skills and they also enable customer success and loyalty, which is important for overall business success. ",
-  },
-  {
-    key: 7,
-    title: "Better Work-Life Balance ",
-    data: "By hiring a virtual assistant for your businesses, you can thrive on your personal and professional work-life balance, allowing you to have a strong hold on your business deadlines and family commitments.",
-  }, {
-    key: 8,
-    title: "Enhanced Online Presence  ",
-    data: "Digital success is what every business owner seeks, because it can provide you with many customer-entrancing opportunities. You can hire virtual assistants to help your business grow online. ",
-  },
+
 ];
 
 

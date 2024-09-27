@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { FaPlayCircle } from 'react-icons/fa'; // Font Awesome icon for play button

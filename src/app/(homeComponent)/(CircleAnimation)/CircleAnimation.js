@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useNavbar } from "../../layout";
 import React from "react";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,9 +56,9 @@ const CircleAnimation = React.forwardRef((props, ref) => {
     const textElements = svgRef.current.querySelectorAll(".circle-title");
     const totalCircumference = 1256;
     const quarterCircumference = totalCircumference / 6; // 314
-  
+
     let prevSection = -1;
-  
+
     gsap.fromTo(
       animatedCircle,
       { strokeDashoffset: totalCircumference },
@@ -72,7 +73,7 @@ const CircleAnimation = React.forwardRef((props, ref) => {
           onUpdate: (self) => {
             const progress = self.progress * totalCircumference;
             const currentIndex = Math.floor(progress / quarterCircumference);
-  
+
             // Check if progress is back to the start
             if (progress >= totalCircumference) {
               prevSection = -1; // Reset section tracking
@@ -85,14 +86,14 @@ const CircleAnimation = React.forwardRef((props, ref) => {
               gsap.to(textElements[0], { fill: "#00AFF1", duration: 0.2 });
               return;
             }
-  
+
             // Check if the current section is different
             if (currentIndex !== prevSection) {
               prevSection = currentIndex;
-  
+
               // Update section text based on the current index
               setCurrentText(getSectionText(currentIndex + 1));
-  
+
               // Update the styling of the number circles and text elements
               numberCircles.forEach((circle, index) => {
                 if (index === currentIndex) {
@@ -111,7 +112,7 @@ const CircleAnimation = React.forwardRef((props, ref) => {
         },
       }
     );
-  
+
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
@@ -122,6 +123,14 @@ const CircleAnimation = React.forwardRef((props, ref) => {
       ref={ref}
       className="min-h-screen bg-[#00111A] flex flex-row justify-center items-center"
     >
+      <Image
+        src="/assets/homepage/canvasbg.svg"
+        alt="canvasbg"
+        className="absolute h-[52vw] w-full"
+        width={700} 
+        height={600} 
+      />
+
       <svg
         ref={svgRef}
         className="w-full h-full max-w-lg md:max-w-3xl lg:max-w-4xl xl:max-w-5xl "

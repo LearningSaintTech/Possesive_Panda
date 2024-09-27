@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import './blog.css'; // Import CSS file
+import './blog.css';
 
 const Blogs = () => {
   const [datablogs, setdatablogs] = useState({ blogs: [] });
@@ -42,7 +42,7 @@ const Blogs = () => {
   const progress = ((currentIndex + 1) / datablogs.blogs.length) * 100;
 
   return (
-    <div className="flex flex-col sm:flex-row sm:gap-[7.813vw] px-[7.692vw] sm:px-[5.208vw] sm:py-0 py-[15.385vw] sm:pb-[6.8vw] bg-[#00111A] overflow-hidden ">
+    <div className="flex flex-col sm:flex-row sm:gap-[7.813vw] sm:pb-[10vw] px-[7.692vw] sm:px-[5.208vw] bg-[#00111A] overflow-hidden ">
       {/* Text Section */}
       <div className="sm:w-[30vw] flex flex-col gap-[3vw] sm:gap-[1.042vw] mt-4 sm:mt-0">
         <h5 className="text-white text-[4.103vw] sm:text-[1.25vw] font-medium sm:font-normal tracking-[0.051vw]  text-center sm:text-left sm:mt-[3vw] mt-[6vw]">

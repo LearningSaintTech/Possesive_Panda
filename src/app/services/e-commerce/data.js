@@ -14,8 +14,15 @@ import { IoMdGitMerge } from "react-icons/io";
 import img1 from '../../../../public/assets/image_1821.svg';
 import img2 from '../../../../public/assets/image_1822.svg';
 import img3 from '../../../../public/assets/image.svg';
-import platformImg1 from '../../../../public/assets/wordpress.png';
-
+import Img1 from "../../../../public/assets/wordpress.svg"
+import Img2 from "../../../../public/assets/wix.svg"
+import Img3 from "../../../../public/assets/sellfy.svg"
+import Img4 from "../../../../public/assets/woocommerce.svg"
+import Img5 from "../../../../public/assets/weebly.svg"
+import Img6 from "../../../../public/assets/shopify.svg"
+import Img7 from "../../../../public/assets/magento.svg"
+import Img8 from "../../../../public/assets/sap.svg"
+import Img9 from "../../../../public/assets/salesforce.svg"
 
 const faq = [
   {
@@ -462,40 +469,40 @@ const platformsData = [
   {
     images: [
       {
-        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
+        imageSrc: Img1,  // Ensure `platformImg1` is defined or imported
         altText: "WordPress"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
-        altText: "Shopify"
+        imageSrc:Img2,  // Ensure `platformImg2` is defined or imported
+        altText: "wix"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
-        altText: "Magento"
+        imageSrc: Img3,  // Ensure `platformImg3` is defined or imported
+        altText: "sellfy"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
-        altText: "WordPress"
+        imageSrc: Img4,  // Ensure `platformImg1` is defined or imported
+        altText: "woocommerce"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
-        altText: "Shopify"
+        imageSrc: Img5,  // Ensure `platformImg2` is defined or imported
+        altText: "weebly"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg3` is defined or imported
-        altText: "Magento"
+        imageSrc: Img6,  // Ensure `platformImg3` is defined or imported
+        altText: "shopify"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg1` is defined or imported
-        altText: "WordPress"
+        imageSrc: Img7,  // Ensure `platformImg1` is defined or imported
+        altText: "magento"
       },
       {
-        imageSrc: platformImg1,  // Ensure `platformImg2` is defined or imported
-        altText: "Shopify"
+        imageSrc: Img8,  // Ensure `platformImg2` is defined or imported
+        altText: "sap"
       },
       {
-        imageSrc: platformImg1,  
-        altText: "Magento"
+        imageSrc: Img9,  
+        altText: "salesforce"
       },
     ],
     text: {

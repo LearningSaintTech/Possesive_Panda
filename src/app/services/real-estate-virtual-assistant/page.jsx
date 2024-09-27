@@ -8,6 +8,7 @@ import Mobile from '../(CommonComponent)/Mobile';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Marquee from "../../(homeComponent)/Marquee";
 import WhyChoose from "./WhyChoose";
+import TextAnimation from '../(CommonComponent)/TextAnimation'
 import {
   faq,
   mobileData,
