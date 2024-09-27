@@ -140,7 +140,7 @@ const iconMapping1 = {
 
 const ourService = 
   {
-    heading: "Our eCommerce Services",
+    heading: "eCommerce Services",
     subHeading:"At Possesive Panda, we deliver a unique and personalized eCommerce experience for your business. For eCommerce design, eCommerce development platforms, eCommerce SEO, shopping campaigns, analytics, and hosting, we integrate our experience and expertise to make your business at the forefront. ",
   
 };

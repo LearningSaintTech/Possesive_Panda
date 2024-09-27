@@ -212,7 +212,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our Web Application  Development Services",
+  heading: "Web Application Development Services",
   subHeading:
     "We offer tailored web application development services, including web designing, web application crafting, maintenance, and support for web applications, also involving seamless and scalable testing, debugging, and deployment. ",
 };

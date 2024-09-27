@@ -14,6 +14,7 @@ import Marquee from "./(homeComponent)/Marquee";
 import ServicesList from "./(homeComponent)/ServicesList";
 import Faq from "./(homeComponent)/(FaqSection)/section";
 import Canvas from "./(homeComponent)/Canvas";
+import WorldClocks from "./(homeComponent)/WorldClocks";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -48,6 +49,7 @@ const MainPage = () => {
             </div>
             <Technologies />
             <Contact />
+            <WorldClocks/>
             <Blogs />
             <Faq />
             <Footer />

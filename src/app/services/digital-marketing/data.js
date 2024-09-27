@@ -266,7 +266,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our Services",
+  heading: "Digital Marketing Services",
   subHeading:
     "With Possesive Panda’s result-driven Digital Marketing Services and Solutions, be the pinnacle of your domain. Via our digital marketing services, you can leverage seamless product and service marketing across every digital platform. We solely aim at building your lasting and credible online presence for your business success.",
 };

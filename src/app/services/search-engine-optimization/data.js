@@ -205,7 +205,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our SEO Services",
+  heading: "SEO Services & Solutions",
   subHeading:
     "Possessive Panda excels in crafting top-tier SEO strategies that not only drive enhanced engagement and boost website traffic but also amplify sales and build a formidable brand reputation. Our team of seasoned SEO specialists are dedicated to delivering cutting-edge solutions that fuel your business’s growth and success, blending expertise with innovation to elevate your online presence and achieve remarkable results.",
 };
@@ -314,12 +314,12 @@ const cardData = [
   {
       title: "Explore ",
       step: "Step 1",
-      description: "Our search engine optimization experts conduct a thorough discovery phase, including client meetings, site reviews, KPI identification, conversion path determination, and keyword research, to gain a comprehensive understanding of your business needs.",
+      description: "Our SEO experts conduct a thorough discovery phase, including client meetings, site reviews, KPI identification, conversion path determination, & keyword research, to gain a comprehensive understanding of your business.",
   },
   {
       title: "Analysis",
       step: "Step 2",
-      description: "The analysis stage involves competitive benchmarking, site audit, analytics review, and link risk assessment to determine factors affecting digital presence, analyze historical traffic patterns, technical issues, competitor strategies, and link building tactics.",
+      description: "The analysis stage involves competitive benchmarking, site audit, & link risk assessment to determine factors affecting digital presence, analyze traffic patterns, technical issues, competitor strategies, & link building tactics.",
   },
   {
       title: "Strategy ",
@@ -329,17 +329,17 @@ const cardData = [
   {
       title: "Implement ",
       step: "Step 4",
-      description: "In this phase, we optimize your web pages and blog posts with high-performing keywords, improve your site structure, and manage your business listings. We implement social media management campaigns and reach out to third-party websites to increase your online reach.",
+      description: "In this phase, we optimize your web pages & blog posts with high-performing keywords, improve your site structure, & manage your business listings. We implement SMM campaigns & reach out to third-party websites integrations.",
   },
   {
       title: "Monitor",
       step: "Step 5",
-      description: "Our SEO experts establish a tracking system to monitor online progress, analyze analytics, keyword rankings, KPIs, organic traffic, bounce rate, conversion rate, local visibility, and click-through rates, providing actionable insights for optimization strategies.",
+      description: "Our SEO experts establish a tracking system to monitor online progress, analyze analytics, keyword rankings, KPIs, organic traffic, bounce rate, conversion rate, local visibility, & CTR(s), providing actionable insights for optimization strategies.",
   },
   {
       title: "Review ",
       step: "Step 6",
-      description: "Our SEO team schedules regular consultations and monthly reports with your project managers to keep you up-to-date with your campaign progress. During our consultation, we present a comprehensive report that provides an overview of your site performance.",
+      description: "Our SEO team schedules regular consultations & monthly reports with your project managers to keep you updated with your campaign progress. Afterwards, we present reports for your performance enhancement.",
   },
   {
       title: "Support",

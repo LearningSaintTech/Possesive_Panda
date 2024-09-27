@@ -172,7 +172,7 @@ const platformsData = [
 };
 
 const ourService = {
-  heading: "Our Graphic Design Services",
+  heading: "Graphic Design Services",
   subHeading:
     "Possesive Panda offers a full suite of first-rated Graphic Design Services to establish your brand identity, market your brand with aesthetics, and create a buzz for your brand in the minds of your targeted customers and audiences. ",
 };

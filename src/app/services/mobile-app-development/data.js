@@ -220,7 +220,7 @@ const testimonialsData = [
 
 
 const ourService = {
-  heading: "Our Mobile App Services ",
+  heading: "Mobile App Development Services ",
   subHeading:
     "Possesive Panda brings success for mobile app development, building customized solutions designed and implemented to ignite your business growth and ensure long-term success. Our team of seasoned and visionary developers creates immersive, tailored experiences focusing on captivating your audience and propelling your business to be at the forefront.",
 };

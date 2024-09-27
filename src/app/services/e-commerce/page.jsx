@@ -39,7 +39,7 @@ import {
   StrategyData
 } from './data';
 import { smallfaqimage } from './images';
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Head from 'next/head';
 import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
@@ -50,6 +50,7 @@ import IndustriesWe from '../(CommonComponent)/IndustriesWe';
 
 import Strategies from '../(CommonComponent)/Strategies';
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 // export const metadata = {
 //   title: 'Ecommerce Services | Ecommerce Management Solutions',
@@ -165,10 +166,8 @@ const Page = () => {
 
 
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
-      />
+      <FinalBanner />
+      <ReviewCardContainer/>
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
@@ -179,7 +178,7 @@ const Page = () => {
       <div>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop"  />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
       <Customized />
       <ToolsTech />
       <div>

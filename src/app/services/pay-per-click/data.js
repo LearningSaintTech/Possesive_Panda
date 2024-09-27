@@ -166,7 +166,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our Services",
+  heading: "Pay-Per-Click Services",
   subHeading:
     "Renowned for Pay-Per-Click services, Possesive Panda is committed to enhancing online performance and provides everything from ad management to PPC audits. Our only goals are to increase the web presence of your company and provide a good return on advertising investment.",
 };
@@ -255,7 +255,7 @@ const cardData = [
     title: "Initial Consultation",
     step: "Step 1",
     description:
-      "We start the process of providing PPC services by understanding your wants and needs. Our PPC consultants reach you within 24 hours of your raised query and discuss your goals and what could be done to improve your PPC operations and overall business growth.",
+      "We start the process of providing PPC services by understanding your wants and needs. Our PPC consultants reach you within 24 hours of your raised query and discuss your goals and what could be done for improvement.",
   },
   {
     title: "Market Research",
