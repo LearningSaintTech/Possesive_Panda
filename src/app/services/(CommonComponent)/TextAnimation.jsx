@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef } from 'react';
 
 const TextAnimation = () => {
@@ -40,11 +41,12 @@ const TextAnimation = () => {
   }, []);
 
   return (
-    <div className=" flex flex-col items-center justify-center bg-[#00111A]">
-      <div className="text-center">
+    <>
+    <div className="hidden lg:flex   flex-col items-center justify-center bg-[#00111A]">
+      <div className=" text-center">
         <h1
           ref={firstLineRef}
-          className="text-[3rem] md:text-[5rem] font-medium max-w-[90vw] leading-tight"
+          className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
           24/7 Professional Assistance -
         </h1>
@@ -52,12 +54,17 @@ const TextAnimation = () => {
       <div className="text-center mt-4">
         <h1
           ref={secondLineRef}
-          className="text-[3rem] md:text-[5rem] font-medium max-w-[90vw] leading-tight"
+          className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
           Wherever You Are, Whenever You Need
         </h1>
       </div>
     </div>
+    <div class="block lg:hidden w-[100vw] text-center text-white text-[7.529vw] font-medium">
+  24/7 Professional Assistance - Wherever You Are, Whenever You Need
+</div>
+
+    </>
   );
 };
 
