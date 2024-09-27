@@ -1,6 +1,8 @@
 "use client";
 import { useState } from 'react';
 import { HiLightBulb } from "react-icons/hi";
+import Image from 'next/image';
+import img1 from '../../../../public/assets/services/payPerClick/bulbanim1.svg'
 const BulbAnimation = () => {
     // Array to hold the content for the paragraphs
     const ppcParagraphs = [
@@ -50,8 +52,8 @@ const BulbAnimation = () => {
             <div className='relative flex items-center sm:justify-center sm:mx-[10vw]'>
                 <div className='sm:absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full z-20'>
 
-                    <img
-                        src="/assets/services/payPerClick/bulbanim1.svg"
+                    <Image
+                        src={img1}
                         alt="bulbanim1"
                         className='hidden sm:block relative w-full'
                     />

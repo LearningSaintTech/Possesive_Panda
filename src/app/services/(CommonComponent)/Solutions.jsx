@@ -59,8 +59,8 @@ const Solutions = ({ paragraphs, buttonData,title }) => {
     return (
         <div className='flex gap-[0vw] flex-col'>
                              
-            <div className='bg-[#00111A] sm:flex hidden  h-[100vh] relative overflow-hidden ' >
-                <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", height: "100vh", overflow: "hidden", position: "relative" }}>
+            <div className='bg-[#00111A] sm:flex hidden  h-[50vw] relative overflow-hidden ' >
+                <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "center", height: "50vw", overflow: "hidden", position: "relative" }}>
                     <Image
                         src={Circle}
                         alt="circle"

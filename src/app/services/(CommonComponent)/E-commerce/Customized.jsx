@@ -26,7 +26,7 @@ const Customized = () => {
                 </div>
                 <div className='flex flex-col'>
                     <p className='text-white text-[3.765vw] sm:text-[1.25vw] text-center sm:text-left font-normal sm:font-light sm:leading-[180%] sm:w-[47.24vw]'>
-                        Possesive Panda's eCommerce solutions cover every detail to guarantee that traffic and sales consistently exceed your growth objectives. We provide eCommerce services for global industry verticals in the domain of designing, development, hosting, marketing, and analytics.
+                        Possesive Panda&apos;s eCommerce solutions cover every detail to guarantee that traffic and sales consistently exceed your growth objectives. We provide eCommerce services for global industry verticals in the domain of designing, development, hosting, marketing, and analytics.
                     </p>
 
                     {/* Expanding Section */}
@@ -56,7 +56,7 @@ const Customized = () => {
             <div
                 className={`hidden sm:block absolute right-0 w-[48.438vw] overflow-hidden transition-all duration-700 ease-in-out bottom-0`}
                 style={{
-                    height: isExpanded ? '38.802vw' : '27.135vw', // Expands fully or shows only part of the image
+                    height: isExpanded ? '38.802vw' : '27.135vw', 
                 }}
             >
                 <Image
@@ -64,7 +64,7 @@ const Customized = () => {
                     alt="newmap"
                     className='w-full h-full object-cover'
                     style={{
-                        objectPosition: 'top', // Keep the top of the image fixed
+                        objectPosition: 'top', 
                     }}
                 />
             </div>

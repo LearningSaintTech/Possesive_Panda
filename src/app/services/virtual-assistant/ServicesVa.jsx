@@ -119,7 +119,7 @@ export default function VirtualAssistantServices() {
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className=" w-[43.542vw] text-center text-[#fbfbfc] text-[2.5vw] font-semibold">Our Virtual Assistant Services</h1>
                     <p className="w-[59.844vw] text-center text-white text-[1.25vw] font-medium mt-[1.667vw]">
-                        It doesn't matter if you are a small business, start-up, or well-established organization,
+                        It doesn&apos;t matter if you are a small business, start-up, or well-established organization,
                         Possesive Panda offers virtual assistants across the globe for seamless and elevated services.
                     </p>
                 </div>
