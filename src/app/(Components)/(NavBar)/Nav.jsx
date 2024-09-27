@@ -74,11 +74,10 @@ const Nav = () => {
 
   return (
     <nav
-      className={`w-full h-[18vw] sm:h-[5.58vw] pl-[4.635vw] pr-[5.208vw] py-[1.15vw] shadow-sm fixed top-0 z-30 transition-all duration-300 ${
-        isScrolled
+      className={`w-full h-[18vw] sm:h-[5vw] px-[5.208vw] py-[0.964vw] shadow-sm fixed top-0 z-30 transition-all duration-300 ${isScrolled
           ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[9px]"
           : "bg-transparent"
-      }`}
+        }`}
       style={{ backdropFilter: isScrolled ? "blur(9px)" : "none" }}
     >
       <div className="flex justify-between items-center relative">
@@ -86,7 +85,7 @@ const Nav = () => {
           <Image
             src={logo1}
             alt="logo"
-            className="w-[20vw] h-[15vw] sm:w-[5.521vw] sm:h-[4.167vw]"
+            className="w-[20vw] h-[15vw] sm:w-[4.792vw] sm:h-[3.594vw]"
           />
         </Link>
         <div className="sm:hidden">
@@ -111,7 +110,7 @@ const Nav = () => {
             <PhoneNav setShowSidebar={setShowSidebar} activeLabel={activeLabel} />
           )}
         </div>
-        <div className="text-[1.25vw] text-white font-normal sm:flex gap-[3.49vw] py-auto items-center hidden">
+        <div className="text-[1.042vw] text-white font-normal capitalize sm:flex gap-[2.813vw] py-auto items-center hidden">
           <Link href="/" className={`${activeLabel === "Home" ? activeClass : hoverClass}`}>
             Home
           </Link>
@@ -130,7 +129,7 @@ const Nav = () => {
           <Link href="/blog" className={`${activeLabel === "Blogs" ? activeClass : hoverClass}`}>
             Blogs
           </Link>
-          <Link href="/contact" className="py-[0.729vw] px-[1.823vw] bg-[#60E2FF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]">
+        <Link href="/contact" className="ml-[0.521vw] py-[0.885vw] px-[1.563vw] bg-[#05B7DF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]">
             Get In Touch
           </Link>
         </div>
