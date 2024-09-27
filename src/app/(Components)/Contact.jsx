@@ -87,7 +87,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] lg:mt-0 mt-[10vw] sm:mb-[7.813vw] flex flex-col sm:flex-row justify-between bg-[#00111A]">
+    <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] flex flex-col sm:flex-row justify-between bg-[#00111A]">
       <div className="w-full sm:w-[34.688vw] gap-[1.042vw]">
         <h2 className="text-center sm:text-left text-[8.205vw] sm:text-[3.333vw] font-semibold leading-[normal] sm:mb-[1.25vw] mb-[2vw] text-white">
           Get in <span className="text-[#00AFF1]">Touch</span>

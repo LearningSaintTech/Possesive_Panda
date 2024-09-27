@@ -12,7 +12,7 @@ const Footer = () => {
 
 
   return (
-    <div className='sm:px-[5.208vw] px-[7.69vw] sm:py-0 py-[12.5vw] flex flex-col min-h-screen bg-[#00111A]'>
+    <div className='sm:px-[5.208vw] px-[7.69vw] flex flex-col min-h-screen bg-[#00111A]'>
 
       <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
 

@@ -41,10 +41,9 @@ const WhyUs = () => {
   }, []);
   
 
-  // 2nd line: mt-[10.385vw]
 
   return (
-    <div className="flex flex-col sm:flex-row sm:justify-between md:gap-[4vw] px-[7.69vw] sm:px-[5.208vw] relative overflow-hidden max-h-[100vh] md:mt-10 md:mb-8 md:max-h-[45vh] lg:max-h-[80vh]">
+    <div className="flex flex-col sm:flex-row sm:justify-between md:gap-[4vw] px-[7.69vw] sm:px-[5.208vw] relative overflow-hidden max-h-[97.5vh] md:max-h-[45vh] lg:max-h-[80vh]">
       <div className="sm:w-[36vw]  sm:mt-[10vw]">
         <h3 className="text-[#fff] text-[4.103vw] sm:text-[1.25vw] font-medium sm:font-normal tracking-[0.051vw] sm:tracking-[0.015rem] mb-[4vw] sm:mb-[1.042vw] text-center sm:text-left">
           Why Us

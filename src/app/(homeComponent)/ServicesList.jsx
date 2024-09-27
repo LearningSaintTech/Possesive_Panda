@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 const ServicesList = () => (
-  <div className="bg-[#131d22] sm:px-0 px-[7.692vw] lg:py-[4.2vw] py-[10vw]  flex flex-col lg:flex-row lg:mt-0 mt-[15.385vw]">
+  <div className="bg-[#131d22] sm:px-0 px-[7.692vw] lg:py-[4.2vw] py-[10vw] flex flex-col lg:flex-row lg:mt-0 mt-[15.385vw]">
 
     {/* Left Section */}
     <div className="lg:w-[32.292vw] lg:ml-[5.208vw] ml-[1.692vw] flex flex-col justify-around lg:gap-[1.042vw] gap-[2.5vw]">
