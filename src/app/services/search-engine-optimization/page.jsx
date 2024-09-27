@@ -144,7 +144,7 @@ const page = () => {
       </div>
       <HoverImageComp hoverImageData={hoverImageData} />
       <Improve />
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develope"/>
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develop"/>
       <ToolTech />
 
       <div>

@@ -16,7 +16,7 @@ import Scrollbar from '../(CommonComponent)/Scrollbar'
 import Platforms from '../(CommonComponent)/Platforms'
 import Textanim from "../(CommonComponent)/TextAnimation"
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
-
+//import CostCalculator from "../(CommonComponent)/CostCalculator"
 import {
   faq,
   introServicesData,
@@ -187,6 +187,7 @@ const Page = () => {
       <Platforms platformsData={platformsData} />
       <Industries />
       <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
+     {/* <CostCalculator/> */}
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />

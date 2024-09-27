@@ -9,7 +9,11 @@ import Link from "next/link";
 
 
 const ServicesList = () => (
+<<<<<<< HEAD
   <div className="bg-[#131d22] sm:px-0 px-[7.692vw] sm:py-[4.2vw] py-[10vw]  flex flex-col sm:flex-row sm:mt-0 mt-[15.385vw]">
+=======
+  <div className="bg-[#131d22] sm:px-0 px-[7.692vw] lg:py-[4.2vw] py-[10vw] flex flex-col lg:flex-row lg:mt-0 mt-[15.385vw]">
+>>>>>>> 077a9d578128a2e15ce7d0663a0909a390098601
 
     {/* Left Section */}
     <div className="sm:w-[32.292vw] sm:ml-[5.208vw] ml-[1.692vw] flex flex-col justify-center items-center sm:justify-start sm:items-start sm:gap-[1.042vw] gap-[2.5vw]">

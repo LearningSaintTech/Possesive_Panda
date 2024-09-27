@@ -12,40 +12,67 @@ const Footer = () => {
 
 
   return (
-    <div className='sm:px-[5.208vw] px-[7.69vw] sm:py-0 py-[12.5vw] flex flex-col min-h-screen bg-[#00111A]'>
-      <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
-        <div className='w-full sm:w-[27.187vw] md:h-[35vh] lg:h-[35.5vh] sm:px-0 sm:py-0 py-[2.051vw] px-[4.103vw] bg-[#002E47]'>
-          <p className="text-white text-[4.103vw] sm:text-[1.042vw] sm:ml-[2.077vw] mt-[3.906vw] mb-[1.146vw] sm:font-semibold ">Partner With Us</p>
-          <div className="flex gap-[19.487vw] sm:gap-[4.748vw]">
-            <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
-              Hire<span className="hidden sm:inline"><br /></span> Possesive<span className="hidden sm:inline"><br /></span> Panda!
-            </div>
-            <svg className="hidden sm:block sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
-              <path fillRule="evenodd" clipRule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
-            </svg>
-          </div>
-        </div>
+    <div className='sm:px-[5.208vw] px-[7.69vw] flex flex-col min-h-screen bg-[#00111A]'>
 
-        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] md:h-[35vh] lg:h-[35.5vh] bg-[#131D22]'>
-          <svg className="w-[12.308vw] h-[12.308vw] sm:w-[3.333vw] sm:h-[3.333vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-            <path d="M42.6667 29.3333V21.3333H34.6667V16H42.6667V8H48V16H56V21.3333H48V29.3333H42.6667ZM53.2 56C47.6444 56 42.1449 54.8 36.7013 52.4C31.2578 50 26.3129 46.5778 21.8667 42.1333C17.4204 37.6889 13.9982 32.7556 11.6 27.3333C9.20178 21.9111 8.00178 16.4 8 10.8V8H23.7333L26.2 21.4L18.6 29.0667C19.5778 30.8 20.6667 32.4444 21.8667 34C23.0667 35.5556 24.3556 37 25.7333 38.3333C27.0222 39.6222 28.4338 40.856 29.968 42.0347C31.5022 43.2133 33.1573 44.3129 34.9333 45.3333L42.6667 37.6L56 40.3333V56H53.2Z" fill="white" />
+      <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
+
+        <Link href="/contact" passHref>
+          <div className='w-full  sm:rounded-none rounded-[0.847vw]  sm:w-[27.187vw] sm:gap-[5.208vw] sm:px-0 sm:py-[1vw] py-[3.051vw] px-[5vw] bg-[#002E47] cursor-pointer'>
+            <p className="text-white text-[4.103vw] sm:text-[1.042vw] sm:ml-[2.077vw] mt-[1vw]  mb-[1.146vw] sm:font-semibold ">Partner With Us</p>
+            <div className="flex gap-[19.487vw] sm:gap-[4.748vw]">
+              <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
+                Hire<span className="hidden sm:inline"><br /></span> Possesive<span className="hidden sm:inline"><br /></span> Panda!
+              </div>
+              <svg className="hidden sm:block sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
+                <path fillRule="evenodd" clipRule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+        </Link>
+
+        <div
+          onClick={() => setOpen(true)} // Handle click on the entire div
+          className='w-full sm:rounded-none rounded-[0.847vw]  sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col sm:gap-[3vw] flex-row md:w-[27.187vw] bg-[#131D22] cursor-pointer'
+        >
+          <svg
+            className="w-[12.308vw] h-[12.308vw] sm:w-[3.333vw] sm:h-[3.333vw]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            fill="none"
+          >
+            <path
+              d="M42.6667 29.3333V21.3333H34.6667V16H42.6667V8H48V16H56V21.3333H48V29.3333H42.6667ZM53.2 56C47.6444 56 42.1449 54.8 36.7013 52.4C31.2578 50 26.3129 46.5778 21.8667 42.1333C17.4204 37.6889 13.9982 32.7556 11.6 27.3333C9.20178 21.9111 8.00178 16.4 8 10.8V8H23.7333L26.2 21.4L18.6 29.0667C19.5778 30.8 20.6667 32.4444 21.8667 34C23.0667 35.5556 24.3556 37 25.7333 38.3333C27.0222 39.6222 28.4338 40.856 29.968 42.0347C31.5022 43.2133 33.1573 44.3129 34.9333 45.3333L42.6667 37.6L56 40.3333V56H53.2Z"
+              fill="white"
+            />
           </svg>
 
-          <div className='flex flex-row sm:mt-[5.585vw] gap-[22vw] sm:gap-[5.748vw] text-white'>
+          <div className='flex flex-row gap-[22vw] sm:gap-[5.748vw] text-white'>
             <div className="sm:ml-0 ml-[2vw]">
               <p className="text-[3.59vw] sm:text-[1.25vw] text-white sm:font-medium">For Best IT Services</p>
               <p className='text-[4.103vw] sm:text-[1.667vw] text-white font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>CONTACT NOW</p>
             </div>
-            <button onClick={() => setOpen(true)}>
-              <svg className="sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
-                <path fillRule="evenodd" clipRule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
-              </svg>
 
+            <button onClick={() => setOpen(true)}> {/* Keep the arrow button */}
+              <svg
+                className="sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 55 55"
+                fill="none"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z"
+                  fill="white"
+                />
+              </svg>
             </button>
+
             {open && <HandlePage setOpen={setOpen} />}
           </div>
         </div>
-        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] md:h-[35vh] lg:h-[35.5vh] bg-[#131D22]'>
+
+        <div className='w-full sm:py-0 sm:mt-0 py-[5vw] sm:rounded-none rounded-[0.847vw] sm:pl-[2.188vw] sm:gap-[3vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col flex-row md:w-[27.187vw] bg-[#131D22]'>
           <svg className="w-[12.308vw] h-[12.308vw] sm:w-[3.333vw] sm:h-[3.333vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" fill="none">
             <g clip-path="url(#clip0_4769_1420)">
               <path d="M0.496094 20.1104V45.7104C0.496094 47.4077 1.17038 49.0356 2.37061 50.2358C3.57084 51.4361 5.19871 52.1104 6.89609 52.1104H58.0961C59.7935 52.1104 61.4213 51.4361 62.6216 50.2358C63.8218 49.0356 64.4961 47.4077 64.4961 45.7104V20.1104L32.4961 32.9104L0.496094 20.1104Z" fill="white" />
@@ -57,20 +84,19 @@ const Footer = () => {
               </clipPath>
             </defs>
           </svg>
-
-          <div className='flex flex-row sm:mt-[5.585vw] gap-[22vw] sm:gap-[5.748vw] text-white'>
-            <div className="sm:ml-0 ml-[4vw]">
-              <p className="text-[3.59vw] sm:text-[1.25vw] text-white sm:font-medium">Connect With Us</p>
-              <p className='text-white text-[4.103vw] sm:text-[1.667vw] font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>Ask Your Doubt</p>
-            </div>
-            <Link href="mailto:hello@possesivepanda.com">
+          <Link href="mailto:hello@possesivepanda.com" passHref>
+            <div className='flex flex-row  gap-[22vw] sm:gap-[5.748vw] text-white cursor-pointer'>
+              <div className="sm:ml-0 ml-[4vw]">
+                <p className="text-[3.59vw] sm:text-[1.25vw] text-white sm:font-medium">Connect With Us</p>
+                <p className='text-white text-[4.103vw] sm:text-[1.667vw] font-bold sm:mt-[0.521vw] sm:mb-[1.719vw]'>Ask Your Doubt</p>
+              </div>
               <svg className="mt-[2vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
               </svg>
-            </Link>
-          </div>
-
+            </div>
+          </Link>
         </div>
+
       </div>
 
       <div className='flex flex-col sm:flex-row mt-[3.333vw] sm:gap-[9vw] gap-[6.563vw]'>
@@ -108,11 +134,9 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
-
-          
         </div>
 
-        <div className="flex sm:flex-none sm:gap-0 gap-[8.205vw]  ">
+        <div className="flex sm:flex-none items-center ">
           <div className='flex flex-col sm:flex-row flex-wrap gap-[10.256vw] sm:gap-[2vw] text-white sm:mt-[2.573vw]'>
             <div className='flex flex-col'>
               <p className='text-white text-[6.154vw] sm:text-[1.25vw] font-medium mb-[1.094vw]'>MENU</p>
@@ -181,8 +205,6 @@ const Footer = () => {
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-
-
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="services/search-engine-optimization" >
                     SEO
@@ -211,14 +233,12 @@ const Footer = () => {
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
                   href="services/real-estate"
                 >
                   Real Estate
                 </Link>
                 </p>
-
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/services/virtual-assistant" >
                     Virtual Assistant
@@ -227,12 +247,13 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <div class="sm:hidden w-[30.235vw] h-[123.059vw] pl-[5.412vw] pr-6 pt-[43px] pb-[10.118vw] bg-[#002e46] flex-col justify-center items-start gap-[14.212vw] inline-flex">
+          </div>
           <div className="sm:hidden w-[22.051vw] h-[134.103vw] "></div>
         </div>
       </div>
 
       <div className='hidden sm:block bg-[#6B6B6B] h-[0.1vh] mt-[3vw]'></div>
-
       <div className='flex sm:flex-row flex-col mt-[10vw] sm:mt-[1.927vw] sm:mb-[1.395vw] justify-between sm:px-[2vw]'>
         <p className='hidden sm:block text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center'>
           Copyright © 2024 | Alrights reserved by Possesive Panda
@@ -254,38 +275,20 @@ const Footer = () => {
             <div className="sm:hidden h-[4.487vw] bg-white w-[0.3vw] mt-[1vw] "></div>
             <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>Support</p>
           </div>
-          {/* <div className="sm:hidden">
-          <div>
-          < CiMail />
-            <p className="text-white text-[4.103vw] ">hello@Possesivepanda</p>
-            </div>
-            <div>
-            <CiPhone />
-            <p className="text-white text-[4.103vw] ">+91 8080555520</p>
-            </div>
-          </div> */}
           <div className="sm:hidden flex flex-col gap-[2vw] text-center items-center justify-between mt-[4vw]">
             <Link className="flex flex-row items-center gap-[2.564vw]" href="mailto:hello@possesivepanda.com">
               <SlEnvolopeLetter className="size-[4.5vw]  mr-[0.521vw] text-white" />
               <div>
-                {/* <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
-                  EMAIL
-                </p> */}
                 <p className="text-white text-[4.103vw] leading-[153.846%] tracking-[0.02rem]">
                   hello@possesivepanda
                 </p>
               </div>
             </Link>
-
             <Link className="flex flex-row items-center gap-[2.564vw]  "
               href="tel:+91 8080555520"
             >
               <BiPhoneCall className="size-[4.5vw]  text-white" />
-
               <div className="flex flex-col">
-                {/* <p className="text-[3vw] lg:text-[0.833vw] leading-[153.846%] tracking-[0.02rem] text-white">
-                  PHONE
-                </p> */}
                 <p className="text-white text-[4.103vw] leading-[153.846%] tracking-[0.02rem]">
                   +91 8080555520
                 </p>
