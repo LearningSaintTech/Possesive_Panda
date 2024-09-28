@@ -25,13 +25,21 @@ import {
     headingdata,
     faq
 } from "./data";
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 const page = () => {
     return (
         <div className='bg-[#00111A]'>
-            <FinalBanner title={"Our Accounting & Finance Services"}
-                desciption={"Thrive on scalability, cost-effectiveness, and specialized expertise with Possesive Panda’s Finance and Accounting Services. "}
+            <FinalBanner
+                title={"Our Accounting & Finance Services"}
+                desciption={"Thrive on scalability, cost-effectiveness, and specialized expertise with Possesive Panda’s Finance and Accounting Services"}
+                pointone={"Intuitive"}
+                pointtwo={"Secure"}
+                pointthree={"Scalable"}
+                pointfour={"Tailored"}
             />
+
+            <ReviewCardContainer/>
             <div>
                 <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
             </div>

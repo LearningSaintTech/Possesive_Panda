@@ -17,17 +17,17 @@ const platforms = [
 
 const ReviewCardContainer = () => {
     return (
-        <div className='bg-[#00111a] px-[7.059vw] sm:px-[13.802vw] py-4 sm:pt-[6.094vw]'>
-            <div className='bg-white/10 rounded-lg sm:rounded-[0.625vw] flex flex-col justify-center items-center gap-4 sm:gap-[1.667vw] sm:w-[71.927vw] sm:py-[1.563vw]'>
-                <div className='px-4 sm:px-[4.01vw] mt-4 sm:mt-0'>
-                    <h6 className='text-center text-white text-base sm:text-[1.25vw] font-light sm:w-[41.042vw]'>
-                        Possesive Panda has been top ranked as an IT service provider by many of the B2B review platforms.
+        <div className='bg-[#00111a] px-[7.059vw] sm:px-[13.802vw] py-[3.765vw] sm:pt-[6.094vw]'>
+            <div className='bg-white/10 rounded-lg sm:rounded-[0.625vw] flex flex-col justify-center items-center gap-[3.765vw] sm:gap-[1.667vw] sm:w-[71.927vw] sm:py-[1.563vw]'>
+                <div className='px-[3.765vw] sm:px-[7.01vw] mt-[3.765vw] sm:mt-0'>
+                    <h6 className='text-center text-white text-[3.765vw] sm:text-[1.25vw] py-0 sm:py-[0.2vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
+                        Possessive Panda has been top ranked as an IT service provider by many of the B2B review platforms.
                     </h6>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-[1.25vw] px-4 sm:px-0 pb-4 sm:pb-0">
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-[1.25vw] px-[3.765vw] sm:px-0 pb-[0vw] sm:pb-0">
                     {platforms.map((platform, index) => (
-                        <div key={index} className="flex flex-row relative bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[15.078vw] h-24 sm:h-[6.302vw] gap-4 sm:gap-[1.719vw]">
+                        <div key={index} className="flex flex-row relative bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[15.078vw] h-[22.588vw] sm:h-[6.302vw] gap-[3.765vw] sm:gap-[1.719vw]">
                             <div className="flex flex-col gap-[0.941vw] sm:gap-[0.313vw] pt-[7.765vw] sm:pt-[1.25vw] pl-[3.765vw] sm:pl-[1.979vw]">
                                 <Image
                                     src={platform.image}
@@ -46,11 +46,11 @@ const ReviewCardContainer = () => {
                                 <p className="text-white text-[1.716vw] sm:text-[0.729vw] font-medium sm:w-[4.323vw]">
                                     {platform.reviews} Reviews
                                 </p>
-                                <div className="flex flex-row gap-[0.941vw] sm:gap-[0.417vw] mr-4 sm:mr-[4.167vw]">
+                                <div className="flex flex-row gap-[0.941vw] sm:gap-[0.417vw] mr-4 sm:mr-[4.167vw] mb-0 sm:mb-[0.938vw]">
                                     {[...Array(Math.floor(platform.rating))].map((_, i) => (
                                         <HiMiniStar
                                             key={i}
-                                        className="w-[2.353vw] h-[2.353vw] sm:w-[1vw] sm:h-[1vw] text-orange-400"
+                                            className="w-[2.353vw] h-[2.353vw] sm:w-[1vw] sm:h-[1vw] text-orange-400"
                                         />
                                     ))}
                                     {platform.rating % 1 !== 0 && (

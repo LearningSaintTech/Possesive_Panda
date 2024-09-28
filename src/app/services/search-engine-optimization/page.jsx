@@ -27,8 +27,10 @@ import {
   cardList,
   cardData,
 } from "./data";
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Industries from './Industries';
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 export const metadata = {
   title: "Best SEO Services | SEO Service Provider Company",
@@ -135,10 +137,15 @@ const page = () => {
           `}
       </Script>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Search Engine Optimization Services and Solutions"}
+        desciption={"Augment your website performance, increase traffic, and rank better with Possesive Panda’s top-notch, personalized SEO services and solutions"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+      <ReviewCardContainer/>
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>

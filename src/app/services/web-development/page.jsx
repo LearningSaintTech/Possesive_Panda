@@ -25,10 +25,11 @@ import {
   headingdata,
   testimonialsData,
 } from "./data";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import NewContact from "../(CommonComponent)/NewContact";
 import OurWeb from "../(CommonComponent)/OurWeb";
 import OurEngagement from "./OurEngagement";
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 
 export const metadata = {
@@ -47,10 +48,15 @@ const page = () => {
         <meta name="description" content={metadata.description} />
       </Head>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Web App Development Services and Solutions"}
+        desciption={"With Possesive Panda’s Web Application Development Services, unleash your business’s true potential and enable an unbeatable customer experience."}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+      <ReviewCardContainer/>
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>

@@ -19,10 +19,11 @@ import {
   servicesData22,
   iconMapping1,
 } from './data'
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 export const metadata = {
   title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
@@ -135,11 +136,15 @@ const page = () => {
           })
         }}
       />
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Real Estate Virtual Assistant Services"}
+        desciption={"Embark on the journey of your business success with Possesive Panda’s versatile virtual assistant services. We thrive on providing personal virtual assistants, helping your business grow"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+<ReviewCardContainer/>      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
