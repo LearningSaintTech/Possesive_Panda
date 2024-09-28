@@ -11,7 +11,7 @@ import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import {
 
   faq,
@@ -24,6 +24,7 @@ import {
 
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -137,10 +138,15 @@ const page = () => {
         }}
       />
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Virtual Assistant Services"}
+        desciption={"Embark on the journey of your business success with Possesive Panda’s versatile virtual assistant services. We thrive on providing personal virtual assistants, helping your business grow"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+      <ReviewCardContainer/>
       <ServicesVa />
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <div>

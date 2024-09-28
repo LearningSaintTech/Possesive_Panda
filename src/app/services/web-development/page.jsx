@@ -25,10 +25,11 @@ import {
   headingdata,
   testimonialsData,
 } from "./data";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import NewContact from "../(CommonComponent)/NewContact";
 import OurWeb from "../(CommonComponent)/OurWeb";
 import OurEngagement from "./OurEngagement";
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 
 export const metadata = {
@@ -47,22 +48,27 @@ const page = () => {
         <meta name="description" content={metadata.description} />
       </Head>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Web App Development Services and Solutions"}
+        desciption={"With Possesive Panda’s Web Application Development Services, unleash your business’s true potential and enable an unbeatable customer experience."}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+      <ReviewCardContainer/>
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop"  />
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop" />
       <div>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
 
 
-      
-      
+
+
       <div>
         <Why
           mainHeading={whyData.mainHeading}
@@ -74,16 +80,16 @@ const page = () => {
         />
       </div>
 
-     
-      <OurWeb/>
+
+      <OurWeb />
       <div>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <OurEngagement/>
+      <OurEngagement />
 
-      <ToolsTech/>
+      <ToolsTech />
 
-      <NewContact/>
+      <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
 
       <Faq faq={faq} />

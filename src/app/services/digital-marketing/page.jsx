@@ -30,7 +30,8 @@ import {
 import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import NewContact from "../(CommonComponent)/NewContact";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
+import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 
 export const metadata = {
@@ -118,11 +119,16 @@ const page = () => {
           `}
       </Script>
 
-
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Digital Marketing Services and Solutions"}
+        desciption={"Elevate your business growth, derive sales, and boost ROI with our result-driven Digital Marketing Services and Solutions."}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+
+      <ReviewCardContainer/>
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
@@ -135,7 +141,7 @@ const page = () => {
       <ToolsTech />
       <IndustriesWe />
       <HoverImageComponent hoverImageData={hoverImageData} />
-      <NewContact/>
+      <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       <Faq faq={faq} />
       <Footer />

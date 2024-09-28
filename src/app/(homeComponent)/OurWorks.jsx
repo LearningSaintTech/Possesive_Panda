@@ -105,9 +105,9 @@ const OurWorks = () => {
                             {/* A separate div for the blur effect */}
                         </div>
 
-                        <div className="absolute inset-x-0 bottom-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out">
-                            <span className="block text-[5.647vw]  sm:text-[2.083vw] font-semibold text-white sm:mb-[0.138vw] sm:ml-[2.135vw] opacity-85 tracking-wide">{card.text}</span>
-                            <span className="block text-[3.765vw] sm:text-[1.25vw] text-white sm:ml-[2.135vw] sm:mb-[1.875vw] mb-[8vw] opacity-70">{card.info}</span>
+                        <div className="absolute inset-x-0 bottom-0 p-[0.8vw] transform transition-transform duration-300 ease-out">
+                            <span className="block text-[5.647vw] sm:text-[2.083vw] font-semibold text-white sm:mb-[0.138vw] sm:ml-[2.135vw] opacity-85 tracking-wide transform group-hover:translate-y-[-1vw] transition-transform duration-300 ease-out">{card.text}</span>
+                            <span className="block text-[3.765vw] sm:text-[1.25vw] text-white sm:ml-[2.135vw] sm:mb-[1.875vw] mb-[8vw] opacity-0 group-hover:opacity-70 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-out">{card.info}</span>
                         </div>
                     </div>
                 ))}

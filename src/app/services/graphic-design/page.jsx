@@ -12,6 +12,7 @@ import ToolsTech from "../(CommonComponent)/ToolsTech";
 import Marquee from "../../(homeComponent)/Marquee";
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import Scrollbar2 from "../(CommonComponent)/Scrollbar2";
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 
 import {
   faq,
@@ -33,6 +34,7 @@ import {
 import Head from 'next/head';
 import Script from 'next/script';
 import NewContact from "../(CommonComponent)/NewContact";
+import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 export const metadata = {
   title: 'Graphic Design Service | Custom Graphic Design Agency',
@@ -125,10 +127,16 @@ const page = () => {
           `}
       </Script>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Graphic Design Services and Solutions"}
+        desciption={"Unlock your brand’s true potential with Possesive Panda’s Graphic Design Services. We turn your visions into vibrant reality and elevate your identity with innovation and creativity."}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+
+      <ReviewCardContainer/>
       <div>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>

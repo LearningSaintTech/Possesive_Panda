@@ -26,10 +26,11 @@ import {
   servicesData2,
   dynamicContent2
 } from "./data";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Script from 'next/script';
 import NewContact from "../(CommonComponent)/NewContact";
+import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 export const metadata = {
   title: 'Social Media Management Agency | Top Social Media Management Services',
@@ -107,10 +108,15 @@ const page = () => {
           `}
       </Script>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Social Media Marketing Services and Solutions"}
+        desciption={"Witness successful brand promotions and enhanced social media growth for your business with Possesive Panda’s Social Media Management Services and Solutions"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
+      <ReviewCardContainer/>
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
@@ -140,13 +146,13 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      
-      
+
+
 
       <div className='mt-[10vw]'>
         <Marquee />
       </div>
-      <NewContact/>
+      <NewContact />
 
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
 

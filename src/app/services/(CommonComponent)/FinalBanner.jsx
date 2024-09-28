@@ -7,7 +7,7 @@ import Leftbottom from "../../../../public/assets/banner/whitebottom.svg";
 import Righttop from "../../../../public/assets/banner/bluebottom.svg";
 import Rightbottom from "../../../../public/assets/banner/bluetop.svg";
 
-const FinalBanner = ({ title, desciption }) => {
+const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointfour }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const FinalBanner = ({ title, desciption }) => {
       <Image
         src={Banner}
         alt="bannerbg"
-        className="absolute inset-0 object-cover object-center"
+        className="absolute inset-0 object-cover object-center backdrop-blur-xl"
         layout="fill"
       />
 
@@ -55,7 +55,7 @@ const FinalBanner = ({ title, desciption }) => {
             alt="Intuitive"
             className="sm:w-[7.594vw] w-[20vw] h-auto mb-[0.833vw]"
           />
-          <p className="absolute inset-0 flex items-center justify-center sm:pb-[1.8vw] sm:pr-[0.938vw] pb-[4vw] text-[2.824vw] text-[#00111a] sm:text-[0.833vw] font-semibold capitalize">Intuitive</p>
+          <p className="absolute inset-0 flex items-center justify-center sm:pb-[1.8vw] sm:pr-[0.938vw] pb-[4vw] text-[2.824vw] text-[#00111a] sm:text-[0.833vw] font-semibold capitalize">{pointone}</p>
         </div>
       </div>
       <div className={`absolute sm:left-[15.365vw] sm:bottom-[11.354vw] left-[5vw] bottom-[20vw] transition-all duration-[1500ms] ease-in-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-[3.333vw]'}`}>
@@ -65,7 +65,7 @@ const FinalBanner = ({ title, desciption }) => {
             alt="Secure"
             className="sm:w-[7.594vw] w-[20vw] h-auto"
           />
-          <p className="absolute inset-0 flex sm:pt-[2.2vw] pt-[5vw] sm:pl-[1.5vw] pl-[3vw] text-[#00111a] sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">Secure</p>
+          <p className="absolute inset-0 flex sm:pt-[2.2vw] pt-[5vw] sm:pl-[1.5vw] pl-[3vw] text-[#00111a] sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">{pointtwo}</p>
         </div>
       </div>
       <div className={`absolute sm:right-[14.01vw] sm:top-[9.021vw] right-[5vw] top-[43vw] transition-all duration-[1500ms] ease-in-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[3.333vw]'}`}>
@@ -75,7 +75,7 @@ const FinalBanner = ({ title, desciption }) => {
             alt="Scalable"
             className="sm:w-[7.594vw] w-[20vw] h-auto mb-[0.833vw]"
           />
-          <p className="absolute inset-0 flex origin-top-left sm:pl-[2.5vw] pl-[3.5vw] sm:pt-[0.6vw] pt-[1vw] text-white sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">Scalable</p>
+          <p className="absolute inset-0 flex origin-top-left sm:pl-[2.5vw] pl-[3.5vw] sm:pt-[0.6vw] pt-[1vw] text-white sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">{pointthree}</p>
         </div>
       </div>
       <div className={`absolute sm:right-[23.698vw] right-[5vw] bottom-[10vw] sm:bottom-[11.354vw] transition-all duration-[1500ms] ease-in-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-[3.333vw]'}`}>
@@ -85,7 +85,7 @@ const FinalBanner = ({ title, desciption }) => {
             alt="Tailored"
             className="sm:w-[7.594vw] w-[20vw] h-auto"
           />
-          <p className="absolute inset-0 flex origin-top-left sm:pt-[2.2vw] pt-[5vw] sm:pl-[3vw] pl-[5vw] text-white sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">Tailored</p>
+          <p className="absolute inset-0 flex origin-top-left sm:pt-[2.2vw] pt-[5vw] sm:pl-[3vw] pl-[5vw] text-white sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">{pointfour}</p>
         </div>
       </div>
     </div>
