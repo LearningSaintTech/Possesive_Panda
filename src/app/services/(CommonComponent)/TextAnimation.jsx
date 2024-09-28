@@ -48,8 +48,8 @@ const TextAnimation = () => {
           ref={firstLineRef}
           className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
-          24/7 Professional Assistance -
-        </p>
+          24/7 Professional Assistance
+        </h1>
       </div>
       <div className="text-center mt-4">
         <p
@@ -61,7 +61,7 @@ const TextAnimation = () => {
       </div>
     </div>
     <div class="block lg:hidden w-[100vw] text-center text-white text-[7.529vw] font-medium">
-  24/7 Professional Assistance - Wherever You Are, Whenever You Need
+  24/7 Professional Assistance Wherever You Are, Whenever You Need
 </div>
 
     </>

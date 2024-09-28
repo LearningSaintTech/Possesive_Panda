@@ -3,7 +3,7 @@ import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Clients from "../(CommonComponent)/Clients";
-import Platforms from "../(CommonComponent)/Platforms"; 
+import Platforms from "../(CommonComponent)/Platforms";
 import Mobile from "../(CommonComponent)/Mobile";
 import Why from "../(CommonComponent)/Why";
 import OurServices from "../(CommonComponent)/OurSevices"
