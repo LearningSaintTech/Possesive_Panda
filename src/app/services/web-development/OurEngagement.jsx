@@ -16,7 +16,6 @@ const Card = ({ title, content, isMobile }) => {
             className={`bg-[#131d22] text-white p-6 rounded-[0.833vw] transition-colors duration-500 overflow-hidden relative ${isMobile ? "h-auto mb-6" : "h-full"
                 } group`}
         >
-            {/* Updated hover effect */}
             <div className="absolute inset-0 bg-white rounded-[0.833vw] transform origin-bottom-left scale-0 group-hover:scale-100 transition-transform duration-700 ease-in-out" />
             <div className="relative z-10">
                 <h4

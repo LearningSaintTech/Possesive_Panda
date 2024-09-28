@@ -28,6 +28,8 @@ import {
   cardData,
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
+import FinalBanner from "../(CommonComponent)/FinalBanner";
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 export const metadata = {
   title: "Best PPC Agency | Pay Per Click Marketing Services",
@@ -140,26 +142,40 @@ const page = () => {
         }}
       />
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Pay-Per-Click (PPC) Services"}
+        desciption={"Amplify your traffic, leads, and conversion rate with Possesive Panda’s exceptional Pay-Per-Click (PPC) management services"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
-      <div>
+
+      <ReviewCardContainer/>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <BulbAnimation />
-      <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+        <HoverImageComp hoverImageData={hoverImageData} />
+      </div>
+      <div className='sm:mt-[15vw] mt-[14.118vw] '>
+        <BulbAnimation />
+      </div>
+      <div className='sm:mt-[5.5vw] mt-[6vw] '>
+        <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
+      </div>
+      <div className='sm:mt-[6.8vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
       </div>
-      <div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
-
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -16,7 +16,7 @@ const NewContact = () => {
     };
 
     return (
-        <div className='bg-[#00111A] flex flex-col-reverse sm:flex-row  gap-[4.323vw] px-[5.208vw] py-[5.208vw] min-h-full'>
+        <div className='bg-[#00111A] flex flex-col-reverse sm:flex-row  gap-[4.323vw] px-[5.208vw] min-h-full'>
             {/* Left Section with consistent gradient border */}
             <div className="flex-1" style={gradientBorderStyle}>
                 <div
@@ -73,9 +73,9 @@ const NewContact = () => {
                         <button className='text-white flex flex-row  font-semibold sm:text-[1.042vw] text-[3.765vw] gap-[0.617vw] justify-center text-center items-center'><span>Consult With Expert</span>
 
 
-                        <FaArrowRight className='sm:block hidden text-white' />
+                            <FaArrowRight className='sm:block hidden text-white' />
                         </button>
-                        
+
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ const NewContact = () => {
                             <div className='flex  opacity-[0.7] items-center  sm:gap-[1vw] gap-[4vw]sm:text-[3.765vw] md:text-[1.5vw] lg:text-[1.042vw]'>
                                 <p >hello@possessivepanda.com</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]'
+                                    className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]'
                                 >
                                     <path d="M10.1406 3.13477L17.3329 10.0001L10.1406 16.8655" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M17.3319 10L3.33203 10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -111,7 +111,7 @@ const NewContact = () => {
                             <div className='flex  opacity-[0.7] items-center sm:text-[3.765vw] md:text-[1.5vw] lg:text-[1.042vw] sm:gap-[1vw] gap-[4vw]  '>
                                 <p className=''>+1 (415) 800 - 3326</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]'
+                                    className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]'
                                 >
                                     <path d="M10.1406 3.13477L17.3329 10.0001L10.1406 16.8655" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M17.3319 10L3.33203 10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -127,7 +127,7 @@ const NewContact = () => {
                             <div className='flex opacity-[0.7] items-center sm:text-[3.765vw] md:text-[1.5vw] lg:text-[1.042vw] sm:gap-[1vw] gap-[4vw] '>
                                 <p>help@company.com</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]   '
+                                    className='lg:h-[1.042vw] lg:w-[1.094vw]  md:h-[2vw] md:w-[2vw]   '
                                 >
                                     <path d="M10.1406 3.13477L17.3329 10.0001L10.1406 16.8655" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M17.3319 10L3.33203 10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

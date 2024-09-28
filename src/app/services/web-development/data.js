@@ -109,6 +109,7 @@ const paragraphs = [
     ]
   },
 ];
+
 const faq = [
   {
     title: `How long does it take to make a website?`,
@@ -116,7 +117,7 @@ const faq = [
   },
   {
     title: `How much do web development services cost?`,
-    description: `Cost of getting your website built and ready depends on the structure, features, web development and design software and tools that are employed, and other such requirements of the website. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction.`,
+    description: `The cost of getting your website built and ready depends on the structure, features, web development and design software and tools that are employed, and other such requirements of the website. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction.`,
   },
   {
     title: `Why should you choose Possesive Panda for making your website?`,
@@ -124,9 +125,8 @@ const faq = [
   },
   {
     title: `What are web development frameworks?`,
-    description: `Web development frameworks, web application frameworks or web frameworks are sets of resources and tools used by developers in order to build and maintain websites, web applications, web services and also to develop APIs.`,
+    description: `Web development frameworks, web application frameworks, or web frameworks are sets of resources and tools used by developers in order to build and maintain websites, web applications, web services, and also to develop APIs.`,
   },
-
   {
     title: `What is the website development process?`,
     description: `Web development and design is a complex and integrated process that commences with defining and planning the project before designing the layout and structure of the website. The content of the website is then created in alignment with the project planning, after which developers code the website into life. Testing of the site is done thoroughly before its final deployment, and regular maintenance is performed afterwards.`,
@@ -136,6 +136,7 @@ const faq = [
     description: `Having a website for your business is not a luxury, but a necessity in today’s age where businesses exist online more than they do traditionally. It helps you deliver information about your business offerings to the audience of your site, and market them by showing their importance and unique selling points.`,
   },
 ];
+
 
 // arya data dynamic
 

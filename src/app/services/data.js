@@ -1,30 +1,31 @@
 export const faq = [
   {
-    title: "Why do I need E-commerce solutions?",
-    description: `E-commerce solutions help in smooth-running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics. `,
+    title: `What does Possesive Panda do?`,
+    description: `Possesive Panda tailors solutions according to clients’s expectations by providing a unique blend of onshore and offshore services. Client satisfaction and quick turnaround enable us to achieve success day by day. We offer a comprehensive range of IT services, covering every aspect, from software development and digital marketing to cloud services and beyond. From early-age startups to seasoned organizations in Fintech, Healthcare, Travel, Retail and many more, we deliver the best services across the globe. `,
   },
   {
-    title: "Is your e-commerce target mobile-friendly?",
-    description: `Each site we have worked on has been mobile-friendly. With our unique plans, strategies, we assure that the site works on a variety of screen sizes, from cell phones and tablets to large desktops.`,
+    title: `What services and solutions does Possesive Panda provide?`,
+    description: `Possesive Panda as a global leader offers IT services across varied domains like Web Development, Mobile App Development, Software Development, Digital Marketing, Search Engine Optimization, Social Media Management, Search Engine Marketing, Performance Marketing, eCommerce, Cloud Services, UI & UX Design, Cybersecurity, PPC, ORM, and Virtual Assistant Services. With this wide range of services, we are uplifting budding startups and enterprises of assorted domains.`,
   },
   {
-    title: "How will I follow up on my e-commerce website development project?",
-    description: `We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project.`,
-  },
-  {
-    title: "How long does it take to design and launch an e-commerce website?",
-    description: `This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline. `,
-  },
-  {
-    title: "How do I choose the right e-commerce platform?",
-    description: `When choosing an e-commerce platform, consider factors such as ease of use, scalability, cost, customization options, and your business's specific needs.
+    title: `What are Possesive Panda’s pricing models, and how do you estimate project costs?
 `,
+    description: `Possesive Panda’s flexible pricing structure ensures that you may satisfy your company objectives without going over budget. A developer's estimated cost depends on several variables, such as project need, skill level, and experience. With this strategy, you can quickly scale your staff up or down to meet your needs, which will save costs and increase efficiency.`,
   },
   {
-    title: "How do I increase traffic to my e-commerce website?",
-    description: `By optimizing for search engines, running targeted ads, engaging on social media, and creating valuable content that attracts visitors.`,
+    title: `What is Possesive Panda’s process for onboarding new clients and project delivery?`,
+    description: `Possesive Panda’s process for onboarding consists of 4 steps, first, fill out our form, then within 24 hours for consultation. Our industry expert consultants scrutinize your project and require your wants and needs for better project delivery. Afterward, price and budget discussion leads to the onboarding. `,
+  },
+  {
+    title: `How do you provide virtual assistants?`,
+    description: `Possesive Panda offers virtual assistant services for various domains and processes such as web app development, mobile development, digital marketing, PPC, social media marketing, eCommerce, real estate services, health care services, and many more. We provide onshore and offshore virtual assistants for the betterment and overall growth of your business. `,
+  },
+  {
+    title: `How does Possesive Panda handle project timelines and deadlines?`,
+    description: `We use an Agile Project Execution Methodology in conjunction with AI-driven planning to manage projects. We ensure that your project stays on schedule and is delivered on time by using advanced tools like JIRA and TFS for effective tracking and monitoring.`,
   },
 ];
+
 
 
 export const dataSet1 = {

@@ -11,7 +11,7 @@ import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import {
 
   faq,
@@ -24,6 +24,7 @@ import {
 
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -137,32 +138,45 @@ const page = () => {
         }}
       />
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Virtual Assistant Services"}
+        desciption={"Embark on the journey of your business success with Possesive Panda’s versatile virtual assistant services. We thrive on providing personal virtual assistants, helping your business grow"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
-      <ServicesVa />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
-      <div>
+      <ReviewCardContainer/>
+      <div className='sm:mt-[5.5vw] mt-[10vw] '>
+        <ServicesVa />
+      </div>
+      <div className='sm:mt-[7.5vw] mt-[14.118vw]'>
+        <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      </div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw]'>
         <Hoverdiv
           heading={hoverDivData.heading}
           paragraph={hoverDivData.paragraph}
           modelData={hoverDivData.models}
         />
       </div>
-      <HoverImageComp hoverImageData={hoverImageData} />
+      <div className='sm:mt-[6.5vw] mt-[14.118vw]'>
+        <HoverImageComp hoverImageData={hoverImageData} />
+      </div>
 
-      <WhyChoose />
-      {/* harsh component 24*7 */}
-
-      <NewContact />
-      <div>
+      <div className='sm:mt-[6.5vw] mt-[12vw]'>
+        <WhyChoose />
+      </div>
+      <div className='sm:block hidden mt-[7vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
-
+      <div className='sm:mt-[1vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

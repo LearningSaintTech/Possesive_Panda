@@ -60,30 +60,59 @@ const growthData = {
 
 const faq = [
   {
-    title: "What is Digital Marketing?",
-    description: `Digital marketing is also known as online marketing. We use marketing over online platforms and technologies to promote products, services, and brands. It includes strategies like social media marketing, content marketing, Search Engine Optimization, Pay-Per-Click, and email marketing.`,
+    title: `What is Digital Marketing?`,
+    description: `Digital marketing refers to all parts and actions of marketing an organization, business, or brand via digital channels on the internet. Digital marketing strategies and approaches are designed to reach specific online audiences via a wide range of internet-connected devices.
+Digital marketing comprises search engine optimization (e.g., Google and Bing), social media visibility and interaction, email marketing communications, website design and development, and integrated applications for connecting and engaging with prospects and consumers.`,
   },
   {
-    title: "Why is Digital Marketing important for my business?",
-    description: `Digital marketing is crucial as it enables us to reach a global customer base and engage with potential and existing customers at a cost-effective rate, allowing us to expand our business and target specific audiences efficiently.`,
+    title: `Why is Digital Marketing important for my business?`,
+    description: `Digital marketing offers you the opportunity to captivate new customers and clients by strategies and marketing campaigns. You can monitor and enhance your ROI (s) and market campaign and be sure that you are investing your money and time for the right customer or audience. `,
   },
   {
-    title: "How does Digital Marketing help my business grow?",
-    description: `Digital Marketing helps increase brand visibility, drive traffic to your website, and generate leads. It also helps increase brand awareness among valuable customers through engagement.`,
+    title: `How does Digital Marketing help my business grow?`,
+    description: `Digital marketing directly correlates with business growth by enabling your businesses to have brand value. It also helps increase brand awareness among valuable customers through engagement.`,
   },
   {
-    title: "What are the components of Digital Marketing?",
-    description: `Digital Marketing components include Social Media Marketing, SEO (Search Engine Optimization), SEM (Search Engine Marketing), PPC ( Pay Per Click), Content Marketing, Email Marketing.`,
+    title: `What services and solutions does Possesive Panda provide?`,
+    description: `Ultimately, we offer a plethora of digital marketing services and solutions, to name a few. Below is the list: 
+
+Search Engine Optimization (SEO),
+Social Media Marketing (SMM),
+Copywriting & Content Marketing,
+Conversion Rate Optimization (CRO),
+App Store Management (ASO),
+Email Marketing,
+Influencer Marketing,
+Website Design & Development,
+Online Reputation Management,
+Youtube Optimization and Video Marketing,
+Affiliate Marketing ,
+Web Hosting.
+
+And we also provide outstanding digital marketing solutions to make your business at the forefront of your industry. Below is the list: 
+
+Brand Building, 
+Content and Web Personalization, 
+B2B Marketing, 
+Analytics and Data Insights, 
+Voice Search Optimization.
+`,
   },
   {
-    title: "What are the latest trends in digital marketing?",
+    title: `What are the latest trends in digital marketing?`,
     description: `Current trends include video marketing, influencer marketing, personalized marketing, content marketing, and the use of chatbots.`,
   },
   {
-    title: "How can I stay updated with digital marketing trends?",
-    description: `You can stay updated by following industry blogs and attending webinars and conferences.`,
+    title: `Why to choose Possesive Panda for your Digital Marketing Success? `,
+    description: `Possesive Panda is one of the leading digital marketing companies, providing onshore and offshore digital marketing services and solutions. With the primary intent of getting your business or brand at the top of your domain. `,
+  },
+  {
+    title: `How cost-effective is digital marketing as compared to traditional marketing?`,
+    description: `Digital marketing is cost-effective since it allows you to directly reach your target audience. Consider how traditional marketing reaches a broad audience. In contrast, digital marketing employs a targeted strategy, engaging the consumer with the appropriate message at the appropriate moment. You can quickly measure your digital marketing activities and associated costs, reducing wasteful spending. This is far more challenging in typical marketing campaigns.`,
   },
 ];
+
+
 const buttonData= [
   "Brand Building",
   "User-Specific Content",
@@ -194,7 +223,7 @@ const sectionContent = {
 };
 const hoverImageData = {
   text: {
-    subheading: "With Possessive Panda",
+    subheading: "With Possesive Panda",
     heading: "Generate Leads and Maximize Your ROI",
     description:
       "Digital marketing can only be successful if it generates a return on investment. We are committed to helping your business achieve long-term revenue development. With our  expertise as digital marketing consultants and exposure to cross-industry knowledge, we select the marketing mix and overall approach that best meet your demands and goals.",
@@ -217,27 +246,27 @@ const hoverImageData = {
     {
       name: "Emili C.",
       role: "Ed-Tech Firm Owner",
-      text: "Possessive Panda has transformed our online presence! Their team crafted a comprehensive digital marketing strategy that significantly boosted our website traffic and engagement. I’m thrilled with the results and the ongoing support they provide.",
+      text: "Possesive Panda has transformed our online presence! Their team crafted a comprehensive digital marketing strategy that significantly boosted our website traffic and engagement. I’m thrilled with the results and the ongoing support they provide.",
     },
     {
       name: "Mark R.",
       role: "E-commerce Manager",
-      text: "The expertise of Possessive Panda in digital marketing is unmatched. They helped us optimize our ad campaigns, leading to a substantial increase in conversions. Their data-driven approach and creativity have made a huge impact on our bottom line.",
+      text: "The expertise of Possesive Panda in digital marketing is unmatched. They helped us optimize our ad campaigns, leading to a substantial increase in conversions. Their data-driven approach and creativity have made a huge impact on our bottom line.",
     },
     {
       name: "Emily S.",
       role: "Nonprofit Director",
-      text: "I cannot recommend Possessive Panda enough! They understood our mission and created a digital marketing plan that resonated with our audience. Their ability to engage supporters through social media and email campaigns has been invaluable for our fundraising efforts.",
+      text: "I cannot recommend Possesive Panda enough! They understood our mission and created a digital marketing plan that resonated with our audience. Their ability to engage supporters through social media and email campaigns has been invaluable for our fundraising efforts.",
     },
     {
       name: "Ryan K.",
       role: "Startup Founder",
-      text: "Possessive Panda has been instrumental in launching our brand. From SEO to content marketing, their tailored strategies helped us build a solid online foundation. Their team is responsive, innovative, and truly invested in our success.",
+      text: "Possesive Panda has been instrumental in launching our brand. From SEO to content marketing, their tailored strategies helped us build a solid online foundation. Their team is responsive, innovative, and truly invested in our success.",
     },
     {
       name: "Sarah H.",
       role: "Marketing Coordinator",
-      text: "Working with Possessive Panda has been a fantastic experience! They took the time to understand our goals and crafted a digital marketing strategy that delivered results. Their professionalism and dedication to our success are second to none.",
+      text: "Working with Possesive Panda has been a fantastic experience! They took the time to understand our goals and crafted a digital marketing strategy that delivered results. Their professionalism and dedication to our success are second to none.",
     },
   ];
   

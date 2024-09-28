@@ -45,7 +45,7 @@ const rightColumnData = [
 
 const Benefits = () => {
     return (
-        <div className="px-[5vw] bg-[#00111A] py-[5vw]">
+        <div className="px-[5vw] bg-[#00111A] ">
 
             {/* FOR WEB */}
             <div className="hidden sm:block">

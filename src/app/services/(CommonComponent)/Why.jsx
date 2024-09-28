@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }) => {
     return (
-        <div className='relative flex flex-col bg-[#00111A] gap-[3.646vw] sm:px-[5.208vw] sm:py-[6.25vw] px-[7.059vw] py-[14.118vw] '>
+        <div className='relative flex flex-col bg-[#00111A] gap-[3.646vw] sm:px-[5.208vw] px-[7.059vw] '>
             <h2 className='text-white sm:text-[2.5vw] text-[7.529vw] font-medium tracking-[0.025vw] sm:w-[52.969vw] leading-normal text-center sm:text-left'>
                 {mainHeading}
             </h2>
@@ -27,7 +27,7 @@ const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }
             </div>
 
             <div className='flex flex-col gap-[7.529vw] sm:gap-[3.646vw] bg-[#00111A]'>
-                
+
                 <div className='grid sm:grid-cols-2 sm:gap-x-[4.479vw] gap-y-[2.353vw] sm:gap-y-[1.042vw]'>
                     {titles.map((item, index) => (
                         <div

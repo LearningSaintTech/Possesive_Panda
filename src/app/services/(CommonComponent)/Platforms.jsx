@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const Platforms = ({ platformsData }) => {
   return (
-    <div className='px-[9vw] py-[5vw] text-left bg-[#00111A] justify-center items-center gap-[10.99vw] flex sm:flex-row flex-col'>
+    <div className='px-[9vw] text-left bg-[#00111A] justify-center items-center gap-[10.99vw] flex sm:flex-row flex-col'>
       <div className='flex  gap-[0.5vw] flex-col ml-[3vw]'>
         <h3 className='sm:w-[33.906vw] w-[85.882vw]  sm:items-start justify-center sm:text-start text-center items-center text-white sm:text-[2.5vw] text-[7.529vw] font-semibold leading-[normal]'>
           {platformsData[0].text.heading}

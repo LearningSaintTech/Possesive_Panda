@@ -25,7 +25,7 @@ const page = () => {
       <Journey
         title="Our journey started"
         subtitle="Our journey began with your success - Your achievements are the fuel that drives our excellence and dedication."
-        description="Possessive Panda is a global powerhouse, renowned for its innovation and expertise. Our diverse team, from around the world, brings varied knowledge and perspectives. This cultural richness fuels our cutting-edge solutions and industry leadership. Our commitment to excellence keeps us at the forefront, meeting clients' evolving needs globally."
+        description="We are enabling businesses success over the globe with our cutting-edge IT services and solutions. We are on a mission to hike up your business growth via transformative technologies. As a global leader, we are passionate about driving digital transformation in order to unlock your business’s true potential."
       />
       {/* <NewBannner /> */}
       <Intro />

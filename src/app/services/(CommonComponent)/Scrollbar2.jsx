@@ -6,23 +6,19 @@ import btnImage from '../../../../public/assets/btn.svg';
 const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
   return (
     <div className="flex flex-col items-center justify-center text-center">
-      
-      {/* Dynamic heading for larger screens */}
-      <h1 className="sm:block hidden w-[57.552vw] text-[2.5vw] text-white">
-        {dynamicContent2[0].headingLarge}
-      </h1>
 
-      {/* Dynamic heading for smaller screens */}
-      <h1 className="sm:hidden block w-[85.882vw] text-[7.529vw] text-white">
-        {dynamicContent2[0].headingSmall}
-      </h1>
+      {/* Dynamic heading for larger screens */}
+      <h2 className=" sm:w-[57.552vw] sm:px-0 px-[7.059vw] text-[7.529vw] sm:text-[2.5vw] text-white">
+        {dynamicContent2[0].headingLarge}
+      </h2>
+
 
       {/* Content Section */}
       <div className="flex sm:flex-row flex-col bg-[#00111A] text-white gap-[7.813vw] px-[7.059vw] sm:px-[5.208vw] py-[5.208vw]">
 
         {/* Left Section */}
         <div className="flex sm:w-[40.417vw] w-[85.882vw] gap-[1.042vw] opacity-[0.8] font-light sm:text-[1.25vw] text-[3.765vw] sm:items-start sm:text-start sm:justify-start items-center justify-center text-center flex-col">
-          
+
           {/* Dynamic paragraphs */}
           {dynamicContent2[0].paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>

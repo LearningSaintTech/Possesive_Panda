@@ -29,6 +29,11 @@ const data = [
     title: "How do you guarantee the security of my business data?",
     data: "The security of your business data is our responsibility. We implement standard cybersecurity measures, such as encryption, firewalls, intrusion detection systems, and regular security audits in accordance with data protection regulations.",
   },
+  {
+    key: 7,
+    title: "Why choose Possesive Panda as your IT services and success partner?",
+    data: "Possesive Panda tailors solutions according to clients’s expectations by providing a unique blend of onshore and offshore services. Client satisfaction and quick turnaround enable us to achieve success day by day. We offer a comprehensive range of IT services, covering every aspect, from software development and digital marketing to cloud services. From early-age startups to seasoned organizations in Fintech, Healthcare, Travel, Retail, and many more, we deliver the best services across the globe.",
+  },
 ];
 
 export default data;

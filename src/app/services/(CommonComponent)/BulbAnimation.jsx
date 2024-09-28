@@ -48,7 +48,7 @@ const BulbAnimation = () => {
     };
 
     return (
-        <div className='relative px-[7.059vw] sm:px-[5.208vw] bg-[#00111A] flex flex-col sm:gap-0 gap-[7.059vw] sm:mt-40'>
+        <div className='relative px-[7.059vw] sm:px-[5.208vw] bg-[#00111A] flex flex-col sm:gap-0 gap-[7.059vw]'>
             <div className='relative flex items-center sm:justify-center sm:mx-[10vw]'>
                 <div className='sm:absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full z-20'>
 

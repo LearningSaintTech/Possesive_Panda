@@ -37,25 +37,35 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
                 </div>
 
                 <h4
-                    className={`sm:pl-0 pl-2 absolute left-0 top-10 sm:top-[3.073vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-[#00aff1]" : "opacity-70 text-white"
+                    className={`sm:pl-0 pl-2 absolute left-0 top-[7.083vw] sm:top-[3.073vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-[#00aff1]" : "opacity-70 text-white"
                         } text-[2.824vw] sm:text-[1.25vw] font-semibold sm:leading-[1.759vw]`}
                 >
                     {data.title}
                 </h4>
 
                 <p
-                    className={`sm:pl-0 pl-2 absolute left-0 top-16 sm:top-[5.729vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-white" : "opacity-70 text-white"
+                    className={`sm:pl-0 pl-2 absolute left-0 top-[12vw] sm:top-[5.729vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-white" : "opacity-70 text-white"
                         } text-[2.824vw] sm:text-[1.042vw] font-normal mb-4`}
                 >
                     {data.description}
                 </p>
 
                 {/* Unlisted points */}
-                <ul className="list-disc list-inside pl-[0.417vw] mb-0 sm:mt-[15vw]">
-                    <li className={`w-[22.917vw] text-white text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                <ul className="hidden sm:flex flex-col mt-[17vw] space-y-[0.5vw] list-none pl-0">
+                    <li className={`text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                        • {data.point1}
+                    </li>
+                    <li className={`text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                        • {data.point2}
+                    </li>
+                </ul>
+
+                {/* Mobile view unlisted points */}
+                <ul className="sm:hidden list-disc list-inside pl-[0.417vw] mb-0 mt-[47vw]">
+                    <li className={`w-[50.588vw] text-white text-[2.353vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
                         {data.point1}
                     </li>
-                    <li className={`w-[22.917vw] text-white text-[1.042vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
+                    <li className={`w-[50.588vw] text-white text-[2.353vw] font-normal ${isHovered ? "text-white" : "opacity-70 text-[#b9babf]"}`}>
                         {data.point2}
                     </li>
                 </ul>

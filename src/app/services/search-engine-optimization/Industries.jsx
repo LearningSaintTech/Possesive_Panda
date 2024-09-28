@@ -17,7 +17,7 @@ const Industries = () => {
     return (
         <div className=''>
       {!isMobile ? (
-            <div className='hidden sm:block px-[5vw] bg-[#00111A] py-[5vw] '>
+            <div className='hidden sm:block px-[5vw] bg-[#00111A] '>
                 <div className='w-[89.531vw] h-[14.063vw]  bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] inline-flex pt-[3.958vw]'>
                     <h3 className=' text-center text-white text-[2.5vw] font-medium leading-relaxed'>Industries We Have Worked With</h3>
                     <div class="justify-start items-center gap-[6.25vw] inline-flex pb-[2vw]">
@@ -35,7 +35,7 @@ const Industries = () => {
 
 
       ):(
-            <div className="sm:hidden bg-[#00111A] py-[60vw]">
+            <div className="sm:hidden bg-[#00111A] ">
                 <div className="w-[100.235vw] h-[87.059vw] pl-[7.294vw] pr-[7.059vw] pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center gap-[1.469vw] inline-flex ">
                     <h3 className="w-[80vw] text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
                         Industries We Have Worked With

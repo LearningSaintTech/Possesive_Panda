@@ -127,7 +127,7 @@ export default function VirtualAssistantServices() {
     };
 
     return (
-        <div className='bg-[#00111a] px-[5.208vw] py-[5.508vw]'>
+        <div className='bg-[#00111a] px-[5.208vw] '>
             {!isMobile ? (
             <div className=" text-white hidden md:block ">
                 <div className='flex flex-col justify-center items-center'>

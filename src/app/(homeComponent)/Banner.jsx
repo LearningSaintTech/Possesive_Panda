@@ -10,7 +10,7 @@ const Banner = ({ whyUsRef }) => {
   useEffect(() => {
     const onYouTubeIframeAPIReady = () => {
       const newPlayer = new window.YT.Player(videoRef.current, {
-        videoId: '3_N67lsN_Uc',
+        videoId: 'qXHJhmCrL3E',
         events: {
           onReady: (event) => {
             event.target.mute();
@@ -132,14 +132,44 @@ const Banner = ({ whyUsRef }) => {
           Trust us to keep your technology running smoothly,
           <span className='text-[#60e2ff] font-normal'> so you can focus on what truly matters</span>—growing your business.
         </p>
-        <div className="hidden sm:block w-[14.688vw] overflow-hidden z-10">
-          <div className="whitespace-nowrap animate-marquee text-white text-[0.938vw] font-normal leading-[35px] mt-[20px]">
-            <span className="mx-4">Scroll down to discover how it works</span>
-            <span className="mx-4">Scroll down to discover how it works</span>
-            <span className="mx-4">Scroll down to discover how it works</span>
-            <span className="mx-4">Scroll down to discover how it works</span>
+        {/* Marque */}
+        <div>
+          <style>
+            {`
+      @keyframes marquee {
+        0% {
+          transform: translateX(50%); /* Start closer to the visible area */
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .animate-marquee {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 40s linear infinite; /* Reduced time to make it appear sooner */
+      }
+    `}
+          </style>
+
+          <div className="hidden sm:block w-[14.688vw] overflow-hidden z-10">
+            <div className="whitespace-nowrap animate-marquee text-white text-[0.938vw] font-normal leading-[35px] mt-[20px]">
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+              <span className="mx-4">Scroll down to discover how it works</span>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   );

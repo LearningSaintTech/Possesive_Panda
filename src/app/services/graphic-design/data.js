@@ -1,12 +1,12 @@
-import Img1 from '../../../../public/assets/wordpress.svg';
-import Img2 from '../../../../public/assets/wix.svg';
-import Img3 from '../../../../public/assets/sellfy.svg';
-import Img4 from '../../../../public/assets/woocommerce.svg';
-import Img5 from '../../../../public/assets/weebly.svg';
-import Img6 from '../../../../public/assets/shopify.svg';
-import Img7 from '../../../../public/assets/magento.svg';
-import Img8 from '../../../../public/assets/sap.svg';
-import Img9 from '../../../../public/assets/salesforce.svg';
+import Img1 from "../../../../public/assets/wordpress.svg";
+import Img2 from "../../../../public/assets/wix.svg";
+import Img3 from "../../../../public/assets/sellfy.svg";
+import Img4 from "../../../../public/assets/woocommerce.svg";
+import Img5 from "../../../../public/assets/weebly.svg";
+import Img6 from "../../../../public/assets/shopify.svg";
+import Img7 from "../../../../public/assets/magento.svg";
+import Img8 from "../../../../public/assets/sap.svg";
+import Img9 from "../../../../public/assets/salesforce.svg";
 
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
@@ -24,27 +24,42 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 const faq = [
   {
     title: `How long does it take to complete a custom graphic design?`,
-    description: `The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as less as one day and larger ones can take as much as 1-2 weeks to complete.`,
+    description: `The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as little as one day and larger ones can take as much as 1-2 weeks to complete.`,
   },
   {
     title: `What sets Possesive Panda apart from other graphic design services online?`,
     description: `Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more.`,
   },
   {
-    title: `How much graphic design services cost?`,
+    title: `How much do graphic design services cost?`,
     description: `The cost of completing a design depends on the level of its volume and intricacy. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction.`,
   },
   {
     title: `How do graphic designers work?`,
-    description: `Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports and more`,
+    description: `Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports, and more.`,
   },
   {
     title: `What are graphic illustrations?`,
-    description: `Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media.`,
+    description: `Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators, usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media.`,
   },
   {
     title: `Why is graphic design important?`,
     description: `Graphic design is the most widely used medium of visual mass communication nowadays. This is because good graphic design not only captivates viewers, it also delivers information in a concise and simple way such that it is understandable to even laymen. Thus, graphics are the hub of visual communication in today’s digital age.`,
+  },
+  {
+    title: `What are the Graphic Design services and solutions Possesive Panda offers?`,
+    description: `Possesive Panda Provides 360 Graphic Design Services for your business growth and success. Below is the list of graphic design services: 
+
+Logo and Brand Designs,
+Advertising and Marketing Design ,
+UI/UX Design,
+Web Design,
+Packaging Design ,
+Typographic Design ,
+Art and Illustration, 
+Social Media Posts ,
+Motion Graphic Design. 
+`,
   },
 ];
 
@@ -59,16 +74,18 @@ const mobileData = {
     "Graphic design services enable businesses to create a buzz of their brand in potential customer spectrum. Consistent use of visual elements fosters brand recognition and consistency. ",
     "Graphic design enhances communication, increases engagement and conversion, and reduces the need for revisions. Investing in professional graphic design saves time and money, ensuring high-quality outputs that meet marketing goals, leading to a better return on investment.",
     "Possesive Panda is a professional graphic design service provider that specializes in creating unique digital designs for businesses, including branding, print, web, UI/UX, illustration, motion graphics, and AI generative graphics. ",
-    "We take pride in delivering outstanding and exceptional graphic design services and solutions solely aiming at your business’s overall growth and success."
-  ]
+    "We take pride in delivering outstanding and exceptional graphic design services and solutions solely aiming at your business’s overall growth and success.",
+  ],
 };
 
 const whyData = {
-  mainHeading: "Why Choose Possesive Panda as Your Graphic Design Success Partner? ",
-  subText1: "We don't just simply deliver personalized designs to our clients, we craft visual masterpieces that give your brand the wings of success. ",
+  mainHeading:
+    "Why Choose Possesive Panda as Your Graphic Design Success Partner? ",
+  subText1:
+    "We don't just simply deliver personalized designs to our clients, we craft visual masterpieces that give your brand the wings of success. ",
   subText2:
     "Possesive Panda offers a diverse range of graphic design services across various creative disciplines, with a team of 50+ talented professionals. Our leadership drives the business, serving as the primary point of contact for clients. ",
-  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  thumbnail: "/assets/services/e-commerce/thumbnail.png",
   listHeading:
     "Partnering with Possesive Panda, provides the following benefits:",
   titles: [
@@ -80,17 +97,13 @@ const whyData = {
     { title: "Personalized Design Delivery" },
     { title: "360 Graphic Design Services " },
     { title: "Team of Experienced Professionals" },
-
   ],
 };
-const headingdata={
-
+const headingdata = {
   //testimonials
-  heading:" What our clients have to say",
-  description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
-
-
-
+  heading: " What our clients have to say",
+  description:
+    "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients.",
 };
 const testimonialsData = [
   {
@@ -124,48 +137,51 @@ const platformsData = [
   {
     images: [
       {
-        imageSrc:Img1,  // Ensure `platformImg1` is defined or imported
-        altText: "WordPress"
+        imageSrc: Img1, // Ensure `platformImg1` is defined or imported
+        altText: "WordPress",
       },
       {
-        imageSrc: Img2,  // Ensure `platformImg2` is defined or imported
-        altText: "wix"
+        imageSrc: Img2, // Ensure `platformImg2` is defined or imported
+        altText: "wix",
       },
       {
-        imageSrc: Img3,  // Ensure `platformImg3` is defined or imported
-        altText: "sellfy"
+        imageSrc: Img3, // Ensure `platformImg3` is defined or imported
+        altText: "sellfy",
       },
       {
-        imageSrc: Img4,  // Ensure `platformImg1` is defined or imported
-        altText: "Woocommerce"
+        imageSrc: Img4, // Ensure `platformImg1` is defined or imported
+        altText: "Woocommerce",
       },
       {
-        imageSrc: Img5,  // Ensure `platformImg2` is defined or imported
-        altText: "weebly"
+        imageSrc: Img5, // Ensure `platformImg2` is defined or imported
+        altText: "weebly",
       },
       {
-        imageSrc: Img6,  // Ensure `platformImg3` is defined or imported
-        altText: "shopify"
+        imageSrc: Img6, // Ensure `platformImg3` is defined or imported
+        altText: "shopify",
       },
       {
-        imageSrc: Img7,  // Ensure `platformImg1` is defined or imported
-        altText: "Magento"
+        imageSrc: Img7, // Ensure `platformImg1` is defined or imported
+        altText: "Magento",
       },
       {
-        imageSrc: Img8,  // Ensure `platformImg2` is defined or imported
-        altText: "Sap"
+        imageSrc: Img8, // Ensure `platformImg2` is defined or imported
+        altText: "Sap",
       },
       {
-        imageSrc: Img9,  
-        altText: "salesforce"
+        imageSrc: Img9,
+        altText: "salesforce",
       },
     ],
     text: {
       heading: "Graphic Design Tools and Technologies ",
-      paragraph: "Graphic design tools and technologies are crucial for creating visually appealing content, ranging from vector graphics to layout design and digital illustrations."
-    }
-  }
-];const iconMapping1 = {
+      paragraph:
+        "Graphic design tools and technologies are crucial for creating visually appealing content, ranging from vector graphics to layout design and digital illustrations.",
+    },
+  },
+];
+
+const iconMapping1 = {
   GrSettingsOption: <GrSettingsOption />,
   PiTimerBold: <PiTimerBold />,
   IoMdGitMerge: <IoMdGitMerge />,
@@ -315,63 +331,63 @@ const cardData = [
   },
 ];
 
-
 // data.js
- const servicesData2 = [
+const servicesData2 = [
   {
     title: "Brand Identity",
     description: [
-"Graphic design services create a unique brand identity, from logo to color scheme, fostering recognition and trust with the audience across all platforms."
+      "Graphic design services create a unique brand identity, from logo to color scheme, fostering recognition and trust with the audience across all platforms.",
     ],
   },
   {
     title: "First Impressions",
     description: [
-"Graphic design services enable brands to have an outstanding first impression in the eyes and minds of their audience and customers through various marketing creatives. "
+      "Graphic design services enable brands to have an outstanding first impression in the eyes and minds of their audience and customers through various marketing creatives. ",
     ],
   },
   {
     title: "Visual Communication ",
     description: [
-"Graphic design services visually communicate your brand identity by providing creatives of various sorts leading to lasting impressions and captivating audiences. "
+      "Graphic design services visually communicate your brand identity by providing creatives of various sorts leading to lasting impressions and captivating audiences. ",
     ],
   },
   {
     title: "Engagement and Conversions",
     description: [
-"Graphic design services allow businesses to enhance the customer experience by engaging digital media, thereby amplifying the conversion rates significantly. "
+      "Graphic design services allow businesses to enhance the customer experience by engaging digital media, thereby amplifying the conversion rates significantly. ",
     ],
   },
   {
     title: "Competition ",
     description: [
-"Graphic design services allow your business to have a unique brand value and identity, captivating potential audiences and being better than competitors. "
+      "Graphic design services allow your business to have a unique brand value and identity, captivating potential audiences and being better than competitors. ",
     ],
   },
   {
     title: "Sreamline Marketing ",
     description: [
-"Graphic design services ensure consistent branding and visually appealing content in marketing materials, streamlining efforts and enhancing their impact."
+      "Graphic design services ensure consistent branding and visually appealing content in marketing materials, streamlining efforts and enhancing their impact.",
     ],
   },
-
 ];
 
- const dynamicContent2 = [
- { headingLarge: "Leverage Graphic Design Services to Elevate Your Business Successes",
-  headingSmall: "Our Engagement Model",
-  paragraphs: [
-    "Enhancing your business's online presence through professional graphic design services by Possesive Panda can boost brand recognition, customer engagement, and credibility. We offer 360-degree graphic design services for your business delivered by industry-expert graphic designers.",
+const dynamicContent2 = [
+  {
+    headingLarge:
+      "Leverage Graphic Design Services to Elevate Your Business Successes",
+    headingSmall: "Our Engagement Model",
+    paragraphs: [
+      "Enhancing your business's online presence through professional graphic design services by Possesive Panda can boost brand recognition, customer engagement, and credibility. We offer 360-degree graphic design services for your business delivered by industry-expert graphic designers.",
 
-"By leveraging the power of visuals or graphics, you can have the ability to thrive on your business success that attracts and captivates larger audiences. "
-  ]
-}
- ];
+      "By leveraging the power of visuals or graphics, you can have the ability to thrive on your business success that attracts and captivates larger audiences. ",
+    ],
+  },
+];
 
-
-export { faq, 
-  iconMapping1, 
-  ourService, 
+export {
+  faq,
+  iconMapping1,
+  ourService,
   servicesData22,
   cardList,
   cardData,
@@ -382,5 +398,4 @@ export { faq,
   whyData,
   servicesData2,
   dynamicContent2,
-
 };

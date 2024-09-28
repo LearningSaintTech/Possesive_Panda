@@ -11,13 +11,10 @@ const Certificate = () => {
         Our Certificates
       </h6>
       <h3 className="text-white text-[6.154vw] md:text-[4vw] lg:text-[2.5vw] font-medium leading-[130%] tracking-[0.03rem]">
-        Registered Under
+        Accreditations
       </h3>
       <p className="text-white text-[3.846vw] md:text-[2vw] lg:text-[1.25vw] font-normal tracking-[0.015rem] leading-[160%] text-center  lg:w-[66vw]">
-        Our clients love working with us due to our hardcore service orientation
-        as we look to align ourselves and take on our clients’ challenges head
-        on. Our innovative engagement models have resulted in a track record of
-        highly satisfied customer relationships.
+        Our clients trust us not just for our reliable product delivery but for our unwavering commitment to their satisfaction. With tailored services and bespoke solutions, we’ve earned a place of distinction in their eyes. Our dedication is further validated by the prestigious certifications we hold.
       </p>
       <svg
         xmlns="http://www.w3.org/2000/svg"

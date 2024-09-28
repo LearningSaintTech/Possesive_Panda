@@ -27,12 +27,13 @@ import {
   cardList,
   cardData,
 } from "./data";
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
 import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import NewContact from "../(CommonComponent)/NewContact";
+import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 export const metadata = {
   title: ' Mobile App Development Company | Application Development Services ',
@@ -55,27 +56,52 @@ const page = () => {
         <link rel="canonical" href={metadata.canonical} />
       </Head>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Mobile App Development Services and Solutions"}
+        desciption={"With Possesive Panda, thrive on custom Mobile App Development that captivates your audience, drives engagement, and turns your vision into a vibrant reality"}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
-      <div>
+
+      <ReviewCardContainer/>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Strategies StrategyData={StrategyData} title="Benefits of Mobile App Development Services" />
-      <Leverage />
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Mobile App Solutions We Develop" />
-      <Iphone />
-      <IndustriesWe />
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Us as Your Mobile App Development Partner " />
-      <div>
-      <CardList cardData={cardData} cardList={cardList} />
+      <div className="sm:mt-[6.25vw] mt-[14.118vw]  ">
+        <Strategies StrategyData={StrategyData} title="Benefits of Mobile App Development Services" />
       </div>
-      <ToolsTech />
-      <Tech />
-      <NewContact/>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
+      <div className="sm:mt-[7.813vw] mt-[14.118vw]  ">
+        <Leverage />
+      </div>
+      <div className="sm:mt-[7.813vw] mt-[14.118vw]  ">
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Mobile App Solutions We Develop" />
+      </div>
+      <div>
+        <Iphone />
+      </div>
+      <div>
+        <IndustriesWe />
+      </div>
+      <div className='sm:mt-[7.813vw] mt-[14vw]'>
+        <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Us as Your Mobile App Development Partner " />
+      </div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+        <CardList cardData={cardData} cardList={cardList} />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+        <ToolsTech />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+        <Tech />
+      </div>
+      <div className='sm:mt-[7.813vw] mt-[14.118vw] '>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
 
       <Faq faq={faq} />
       <Footer />

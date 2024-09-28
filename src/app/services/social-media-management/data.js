@@ -14,28 +14,46 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 
 const faq = [
   {
-    title: "What is Social Media Management?",
-    description: `Social Media Management is the process of creating content for social media platforms to promote your products and services to your target audience and engage website traffic.`,
+    title: `What is Social Media Marketing?`,
+    description: `Social media marketing promotes a brand, product, or service through platforms like Facebook, Twitter, and Instagram, aiming to drive website traffic, generate leads, and increase conversions while building brand awareness, fostering customer relationships, and staying competitive.`,
   },
   {
-    title: "Why is Social Media Management important?",
-    description: `Social media management is important because it helps with audience engagement, increases brand visibility, and drives traffic to your website. Social media helps reach an audience globally.`,
+    title: `Why is Social Media Marketing important?`,
+    description: `Social media marketing is crucial for businesses as it increases brand awareness, drives website traffic, and builds trust. With over 3.8 billion active users, it provides valuable insights into consumer behavior, preferences, and demographics.`,
   },
   {
-    title: "How do you measure the results of social media campaigns?",
+    title: `What are the services offered by Possesive Panda?`,
+    description: `Possesive Panda offers a full suite of Social Media Marketing services, here is the list: 
+
+Content Development, 
+Social Media Management, 
+Social Media Advertising,
+Engagement Growth ,
+Influencer Collaboration, 
+Reputation Management, 
+SEO Integration ,
+Online Reputation Management ,
+Social Media Account Handling .
+`,
+  },
+  {
+    title: `Can I get a dedicated team for my social media management? `,
+    description: `Yes, you can hire a dedicated team for social media management. You can hire Possesive Panda’s social media management services in three ways: 
+Project Based,
+Recurring Projects,
+Dedicated Resources and Teams.`,
+  },
+  {
+    title: `Why choose Possesive Panda for Social Media Marketing?`,
+    description: `Possesive Panda provides complete transparency, allowing you to witness firsthand how our efforts are elevating your ROI(s). Our dedication to successful social media management and marketing tactics results in a significant network resource for your online marketing requirements.`,
+  },
+  {
+    title: `What is the role of a social media manager?`,
+    description: `The role of a social media manager is very crucial as they have to manage a company's online presence across various social media platforms. Their responsibilities include strategy, creativity, maintaining the brand's image, and engaging with the audience.`,
+  },
+  {
+    title: `How do you measure the results of social media campaigns?`,
     description: `Our team tracks key performance indicators such as engagement rates, reach, website traffic, and conversion. Using advanced tools, we provide detailed reports. We also continuously optimize your social media for optimal results.`,
-  },
-  {
-    title: "Why should you choose us as your Social Media Management partner?",
-    description: `Possesive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow.`,
-  },
-  {
-    title: "What is the role of a social media manager?",
-    description: `Role of a social media manager is very crucial as they have to manage a company's online presence across various social media platforms. Their responsibilities include strategy, creativity, maintaining the brand's image, and engaging with the audience.`,
-  },
-  {
-    title: "What is needed for social media management?",
-    description: `Social Media Management requires a combination of strategic planning, content creation, and analytical skills.`,
   },
 ];
 

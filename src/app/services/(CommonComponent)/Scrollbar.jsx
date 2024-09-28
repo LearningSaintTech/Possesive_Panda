@@ -13,7 +13,7 @@ const Scrollbar = ({ servicesData1, sectionContent }) => {
     // ]);
 
     return (
-        <div className="flex sm:flex-row flex-col bg-[#00111A] text-white gap-[7.813vw] px-[7.059vw] sm:px-[5.208vw] py-[5.208vw] ">
+        <div className="flex sm:flex-row flex-col bg-[#00111A] text-white gap-[7.813vw] px-[7.059vw] sm:px-[5.208vw]  ">
             {/* Left Section */}
             <div className="bg-[#00111A]">
                 <h3 className="sm:w-[37.604vw] w-[85.882vw] sm:text-[2.5vw] text-[7.529vw] sm:text-start text-center  font-medium">

@@ -13,7 +13,7 @@ const HoverImageComponent = ({ hoverImageData }) => {
 
     return (
         <div
-            className="relative gap-[6.618vw] flex px-[5.208vw] py-[5.208vw] bg-[#00111A]"
+            className="relative gap-[6.618vw] flex px-[5.208vw] bg-[#00111A] "
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
         >

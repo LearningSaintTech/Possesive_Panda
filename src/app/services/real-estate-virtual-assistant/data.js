@@ -1,6 +1,6 @@
-import img1 from '../../../../public/assets/image_1821.svg';
-import img2 from '../../../../public/assets/image_1822.svg';
-import img3 from '../../../../public/assets/image.svg';
+import img1 from "../../../../public/assets/image_1821.svg";
+import img2 from "../../../../public/assets/image_1822.svg";
+import img3 from "../../../../public/assets/image.svg";
 
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
@@ -17,30 +17,42 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 
 const faq = [
   {
-    title: "What is a real estate  Virtual Assistant?",
-    description: `A real estate virtual assistant is an professional who provides administrative, marketing, and operational support to real estate agents.`,
+    title: `What is a real estate Virtual Assistant?`,
+    description: `A real estate virtual assistant is a professional who provides administrative, marketing, and operational support to real estate agents.`,
   },
   {
-    title: "How good are your resources at closing deals?",
+    title: `How good are your resources at closing deals?`,
     description: `You will get a professional who is are expert in their field. We know how to close deals.`,
   },
   {
-    title: "What tasks will my real estate virtual assistant be handling?",
+    title: `What tasks will my real estate virtual assistant be handling?`,
     description: `Your real estate Virtual assistant can handle all the tasks you assign. These include listing properties, managing tasks, managing emails, scheduling appointments, lead generation, data entry, and more.`,
   },
   {
-    title:
-      "How do I hire the right real estate virtual assistant for my business?",
-    description: `We hire great employees who can work smartly and efficiently without much supervision. With our virtual assistant, you do not have to deal with a hiring process.`,
+    title: `How do I hire the right real estate virtual assistant for my business?`,
+    description: `We hire great employees who can work smartly and efficiently without much supervision. You do not have to deal with a hiring process with our virtual assistant.`,
   },
   {
-    title: " Can a real estate virtual assistant help with marketing?",
+    title: `Can a real estate virtual assistant help with marketing?`,
     description: `Yes, virtual assistants can manage social media accounts, create marketing campaigns, and implement digital marketing strategies.`,
   },
   {
-    title:
-      "How do I check the performance of my real estate virtual assistant?",
+    title: `How do I check the performance of my real estate virtual assistant?`,
     description: `We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project.`,
+  },
+  {
+    title: `What are the real estate virtual assistant services Possesive Panda offers?`,
+    description: `Possesive Panda delivers various real estate virtual assistant services. Here is the list: 
+
+Real Estate ,
+Research Lead Generation,
+Property Listings ,
+Setup 3D Tours ,
+Expenses Management ,
+Appointment Scheduling, 
+Manage Bids ,
+Manage Social Media Presence. 
+`,
   },
 ];
 
@@ -53,8 +65,8 @@ const mobileData = {
     "They can perform various tasks ranging from your administrative tasks to closing deals. They are the individuals who can help you in your business growth by providing you professional assistance leading to better work-life balance and save your time and money.",
     "Many lack the resources to manage their company while expanding their business. Virtual assistants in real estate can help with marketing, listing coordination, lead generation, and follow-up. ",
     "Real estate virtual assistants are committed to helping agents achieve their goals and enjoy their industry more. By trusting their ability to handle tasks that agents don't have time for, agents can work less and make more money while enjoying themselves.",
-    "Possesive Panda offers real estate virtual assistants who are pioneers of their industry and deliver the best client handling and property management and source the best available properties for your business growth and client acquisition."
-  ]
+    "Possesive Panda offers real estate virtual assistants who are pioneers of their industry and deliver the best client handling and property management and source the best available properties for your business growth and client acquisition.",
+  ],
 };
 
 const testimonialsData = [
@@ -85,14 +97,11 @@ const testimonialsData = [
   },
 ];
 
- const headingdata={
-
-      //testimonials
-      heading:" What our clients have to say",
-      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
-
-
-
+const headingdata = {
+  //testimonials
+  heading: " What our clients have to say",
+  description:
+    "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients.",
 };
 const hoverImageData = {
   text: {
@@ -102,18 +111,13 @@ const hoverImageData = {
       "The greatest help and support should be provided to all real estate businesses so that realtors like you can concentrate more on their areas of expertise. Hire Possesive Panda’s Real Estate Virtual Assistants to get started right now!",
   },
   images: {
-    
-      image1: img1,
-     
-    
-    
-        image2: img2,
-     
-   
-        image3: img3,
-    
-    },
-  };
+    image1: img1,
+
+    image2: img2,
+
+    image3: img3,
+  },
+};
 const iconMapping1 = {
   GrSettingsOption: <GrSettingsOption />,
   PiTimerBold: <PiTimerBold />,
@@ -129,9 +133,6 @@ const iconMapping1 = {
   SiGooglemarketingplatform: <SiGooglemarketingplatform />,
 };
 
-
-
-
 const ourService = {
   heading: " Real Estate Virtual Assistant Services ",
   subHeading:
@@ -144,17 +145,20 @@ const servicesData22 = [
       {
         icon: "GrSettingsOption",
         title: "Real Estate Research",
-        description: "Our Real Estate virtual assistants offer property research and listing research for various types of properties, including retail, residence, and commercial, to improve market insights.",
+        description:
+          "Our Real Estate virtual assistants offer property research and listing research for various types of properties, including retail, residence, and commercial, to improve market insights.",
       },
       {
         icon: "PiTimerBold",
         title: "Lead Generation",
-        description: "Your virtual assistant for real estate will screen and track leads to maximize productivity and increase the chances of closing deals.",
+        description:
+          "Your virtual assistant for real estate will screen and track leads to maximize productivity and increase the chances of closing deals.",
       },
       {
         icon: "IoMdGitMerge",
         title: "Property Listings",
-        description: "Our Virtual Assistance's Property Listing service provides comprehensive property information, updated by virtual assistants who upload and remove duplicate entries to enhance leads and data quality.",
+        description:
+          "Our Virtual Assistance's Property Listing service provides comprehensive property information, updated by virtual assistants who upload and remove duplicate entries to enhance leads and data quality.",
       },
     ],
   },
@@ -164,17 +168,20 @@ const servicesData22 = [
       {
         icon: "RiSeoLine",
         title: "Setup 3D Tours",
-        description: "To be with the trend and cutting edge technologies, our real estate virtual assistant services also offer seting up of 3D tours of assorted properties like residential, commercial, hotel, and more.",
+        description:
+          "To be with the trend and cutting edge technologies, our real estate virtual assistant services also offer seting up of 3D tours of assorted properties like residential, commercial, hotel, and more.",
       },
       {
         icon: "FaRegFile",
         title: "Expenses Management",
-        description: "Possesive Panda offers real estate assistants the expertise to maintain accurate and organized expense records, bills, reimbursements, and payments.",
+        description:
+          "Possesive Panda offers real estate assistants the expertise to maintain accurate and organized expense records, bills, reimbursements, and payments.",
       },
       {
         icon: "BiCubeAlt",
         title: "Appointment Scheduling ",
-        description: "Possesive Panda offers virtual assistant services for real estate, streamlining workflows by handling emails, meetings, client interactions, and maintaining a calendar to ensure important information is not missed.",
+        description:
+          "Possesive Panda offers virtual assistant services for real estate, streamlining workflows by handling emails, meetings, client interactions, and maintaining a calendar to ensure important information is not missed.",
       },
     ],
   },
@@ -184,20 +191,23 @@ const servicesData22 = [
       {
         icon: "VscCircuitBoard",
         title: "Manage Bids",
-        description: "Our real estate virtual assistants focus on managing online and offline bids for you so that you can invest your time and money at the right time and in the right place.",
+        description:
+          "Our real estate virtual assistants focus on managing online and offline bids for you so that you can invest your time and money at the right time and in the right place.",
       },
       {
         icon: "IoEarthOutline",
         title: "Manage Social Media Presence",
-        description: "Possesive Panda offers a variety of virtual assistant services to make sure your business can grow and reach your potential customers. Leverage our SMM VA(s) for better digital presence. ",
+        description:
+          "Possesive Panda offers a variety of virtual assistant services to make sure your business can grow and reach your potential customers. Leverage our SMM VA(s) for better digital presence. ",
       },
     ],
   },
 ];
 
-export { faq, 
-  ourService, 
-  servicesData22, 
+export {
+  faq,
+  ourService,
+  servicesData22,
   iconMapping1,
   testimonialsData,
   headingdata,

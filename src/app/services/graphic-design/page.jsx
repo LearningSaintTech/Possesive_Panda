@@ -3,7 +3,8 @@ import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
 import NewBanner from "@/app/(Components)/NewBanner";
 import Clients from "../(CommonComponent)/Clients";
-import Platforms from "../(CommonComponent)/Platforms"; import Mobile from "../(CommonComponent)/Mobile";
+import Platforms from "../(CommonComponent)/Platforms"; 
+import Mobile from "../(CommonComponent)/Mobile";
 import Why from "../(CommonComponent)/Why";
 import OurServices from "../(CommonComponent)/OurSevices"
 import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
@@ -11,6 +12,7 @@ import ToolsTech from "../(CommonComponent)/ToolsTech";
 import Marquee from "../../(homeComponent)/Marquee";
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import Scrollbar2 from "../(CommonComponent)/Scrollbar2";
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 
 import {
   faq,
@@ -32,6 +34,7 @@ import {
 import Head from 'next/head';
 import Script from 'next/script';
 import NewContact from "../(CommonComponent)/NewContact";
+import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 export const metadata = {
   title: 'Graphic Design Service | Custom Graphic Design Agency',
@@ -124,14 +127,20 @@ const page = () => {
           `}
       </Script>
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our Graphic Design Services and Solutions"}
+        desciption={"Unlock your brand’s true potential with Possesive Panda’s Graphic Design Services. We turn your visions into vibrant reality and elevate your identity with innovation and creativity."}
+        pointone={"Intuitive"}
+        pointtwo={"Secure"}
+        pointthree={"Scalable"}
+        pointfour={"Tailored"}
       />
-      <div>
+
+      <ReviewCardContainer/>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}
@@ -141,26 +150,38 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Mobile
           heading={mobileData.heading}
           sideImage={mobileData.sideImage}
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <ToolsTech />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+        <ToolsTech />
+      </div>
+      <div className='sm:block hidden mt-[4vw] '>
         <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
-      <Platforms platformsData={platformsData} />
-      <IndustriesWe />
-      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <div className="mt-[14vw] sm:mt-[1vw] ">
+        <Platforms platformsData={platformsData} />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+        <IndustriesWe />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[5vw] '>
+        <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
+      </div>
+      <div className='sm:mt-[5vw] mt-[14.118vw] '>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>
