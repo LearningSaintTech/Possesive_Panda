@@ -21,13 +21,12 @@ const HoverImageComponent = ({ hoverImageData }) => {
                 <p className="text-[#00AFF1] sm:text-[0.833vw] text-[3.765vw] text-center sm:text-start mt-[6.094vw]">
                     {hoverImageData.text.subheading}
                 </p>
-                <h1 className="text-white sm:text-[1.667vw] text-[7.529vw] text-center sm:text-start mt-[1.25vw]">
+                <h3 className="text-white sm:text-[1.667vw] text-[7.529vw] text-center sm:text-start mt-[1.25vw]">
                     {hoverImageData.text.heading}
-                </h1>
+                </h3>
                 <p className="text-[#D1D1D1] sm:w-[51.823vw] w-[85.882vw] text-center sm:text-start mt-[0.833vw] sm:text-[1.25vw] text-[3.765vw]">
                     {hoverImageData.text.description}
                 </p>
-                {/* Expanding Section */}
                 <div
                     ref={contentRef}
                     className='overflow-hidden transition-all duration-700 ease-in-out'
@@ -50,13 +49,18 @@ const HoverImageComponent = ({ hoverImageData }) => {
                 </button>
             </div>
 
-            {/* Images Section */}
-            <div className="relative sm:block hidden pl-[6vw] h-[28.438vw] justify-items-center mt-[2.656vw] w-1/2 overflow-hidden">
-                {/* Image 1 */}
+            <div
+    className="relative sm:block hidden pl-[6vw] h-[28.438vw] justify-items-center mt-[2.656vw] w-1/2 overflow-hidden transition-[top] duration-700 ease-in-out"
+    style={{
+        top: isExpanded ? '10vw' : '0vw', // Define a default value for smoother transition
+    }}
+>
+
                 <div
                     className={`absolute mt-[1.563vw] ml-[2.917vw] w-[13.021vw] h-[23.438vw] transition-transform duration-500 ease-in-out ${
-                        hover || isExpanded ? 'transform -translate-y-[1vw] translate-x-[4vw] rotate-[11deg]' : 'transform translate-y-0 translate-x-0 rotate-0'
+                        hover  ? 'transform -translate-y-[1vw] translate-x-[4vw] rotate-[11deg]' : 'transform translate-y-0 translate-x-0 rotate-0'
                     }`}
+                    
                 >
                     <Image
                         src={hoverImageData.images.image1}
@@ -67,11 +71,13 @@ const HoverImageComponent = ({ hoverImageData }) => {
                     />
                 </div>
 
-                {/* Image 2 */}
                 <div
                     className={`absolute mt-[1.563vw] w-[13.021vw] h-[23.438vw] transition-transform duration-500 ease-in-out ${
-                        hover || isExpanded ? 'transform -translate-y-[1vw] -translate-x-[4vw] rotate-[-11deg]' : 'transform translate-y-0 translate-x-0 rotate-0'
-                    }`}
+                        hover  ? 'transform -translate-y-[1vw] -translate-x-[4vw] rotate-[-11deg]' : 'transform translate-y-0 translate-x-0 rotate-0'
+                    }`
+                
+                   
+                }
                 >
                     <Image
                         src={hoverImageData.images.image2}
@@ -82,7 +88,6 @@ const HoverImageComponent = ({ hoverImageData }) => {
                     />
                 </div>
 
-                {/* Image 3 */}
                 <div className="absolute w-[15.929vw] h-[26.07vw] transition-transform duration-500 ease-in-out">
                     <Image
                         src={hoverImageData.images.image3}

@@ -6,7 +6,7 @@ import Clients from "../(CommonComponent)/Clients";
 import Platforms from "../(CommonComponent)/Platforms"; import Mobile from "../(CommonComponent)/Mobile";
 import Why from "../(CommonComponent)/Why";
 import OurServices from "../(CommonComponent)/OurSevices"
-import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
 import ToolsTech from "../(CommonComponent)/ToolsTech";
 import Marquee from "../../(homeComponent)/Marquee";
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
@@ -153,7 +153,7 @@ const page = () => {
       </div>
       <ToolsTech />
       <div>
-        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
+        <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
       <Platforms platformsData={platformsData} />

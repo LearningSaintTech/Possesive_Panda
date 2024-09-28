@@ -8,7 +8,7 @@ import BulbAnimation from '../(CommonComponent)/BulbAnimation';
 import Partner from '../(CommonComponent)/Partner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import OurSevices from '../(CommonComponent)/OurSevices';
-import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
 
 import Strategies from '../(CommonComponent)/Strategies';
 import Clients from '../(CommonComponent)/Clients';

@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import { HiMiniStar } from "react-icons/hi2";
 import Image from "next/image";

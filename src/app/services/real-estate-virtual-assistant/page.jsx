@@ -23,7 +23,6 @@ import {
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
 import NewContact from '../(CommonComponent)/NewContact';
-import TextAnimation from '../(CommonComponent)/TextAnimation';
 
 export const metadata = {
   title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',

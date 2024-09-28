@@ -16,8 +16,8 @@ const Scrollbar = ({ servicesData1, sectionContent }) => {
         <div className="flex sm:flex-row flex-col bg-[#00111A] text-white gap-[7.813vw] px-[7.059vw] sm:px-[5.208vw] py-[5.208vw] ">
             {/* Left Section */}
             <div className="bg-[#00111A]">
-                <h1 className="sm:w-[37.604vw] w-[85.882vw] sm:text-[2.5vw] text-[7.529vw] sm:text-start text-center  font-medium">
-                    {sectionContent.title}                </h1>
+                <h3 className="sm:w-[37.604vw] w-[85.882vw] sm:text-[2.5vw] text-[7.529vw] sm:text-start text-center  font-medium">
+                    {sectionContent.title}                </h3>
                 <p className="sm:text-[1.25vw] text-[3.765vw] sm:text-start text-center w-[85.882vw] sm:w-[37.604vw]">
                     {sectionContent.description}                </p>
             </div>
@@ -53,7 +53,7 @@ const Scrollbar = ({ servicesData1, sectionContent }) => {
                             </div>
 
                             <div className="mr-[2.083vw] mb-[2.656vw]">
-                                <h3 className="sm:text-[1.25vw] text-[3.765vw] font-semibold">{service.title}</h3>
+                                <h4 className="sm:text-[1.25vw] text-[3.765vw] font-semibold">{service.title}</h4>
                                 <p className="sm:w-[33.281vw] w-[61.647vw] sm:text-[1.25vw] text-[3.765vw] font-normal opacity-[0.8]">{service.description}</p>
                             </div>
                         </div>

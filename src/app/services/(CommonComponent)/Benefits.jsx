@@ -51,9 +51,9 @@ const Benefits = () => {
             <div className="hidden sm:block">
                 <div className="flex justify-between items-center">
                     <div>
-                        <h1 className="w-[30.729vw] text-white text-[2.5vw] font-normal leading-[3.229vw]">
+                        <h2 className="w-[30.729vw] text-white text-[2.5vw] font-normal leading-[3.229vw]">
                             Benefits of eCommerce Service and Solutions
-                        </h1>
+                        </h2>
                         <p className="w-[43.542vw] text-white text-[1.258vw] font-normal leading-[2.266vw] pt-[0.5vw]">
                             There are many benefits of using eCommerce solutions:
                         </p>

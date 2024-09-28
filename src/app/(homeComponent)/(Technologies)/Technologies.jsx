@@ -32,9 +32,9 @@ const Technologies = () => {
   return (
   <div className=" sm:px-[5.208vw] px-[7.692vw] overflow-hidden bg-[#00111A]">
       <div className="flex flex-col md:flex-row justify-between items-center not-italic">
-        <h1 className="text-white lg:w-[40vw] text-center md:text-start md:w-[50vw] xl:w-[38.25vw] text-[7vw] md:text-[3vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
+        <h2 className="text-white lg:w-[40vw] text-center md:text-start md:w-[50vw] xl:w-[38.25vw] text-[7vw] md:text-[3vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
           Brands That Trust Us:
-        </h1>
+        </h2>
         <button
           className="w-full sm:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[2vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] lg:mb-0 mb-[4vw] font-medium "
         >

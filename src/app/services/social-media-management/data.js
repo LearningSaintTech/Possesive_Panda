@@ -253,7 +253,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our Social Media Services",
+  heading: "Social Media Marketing Services",
   subHeading:
     "Possesive Panda offers a full suite of Social Media Marketing (SMM) services for your business growth.",
 };

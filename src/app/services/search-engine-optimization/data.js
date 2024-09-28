@@ -205,7 +205,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "Our SEO Services",
+  heading: "Search Engine Optimization",
   subHeading:
     "Possessive Panda excels in crafting top-tier SEO strategies that not only drive enhanced engagement and boost website traffic but also amplify sales and build a formidable brand reputation. Our team of seasoned SEO specialists are dedicated to delivering cutting-edge solutions that fuel your business’s growth and success, blending expertise with innovation to elevate your online presence and achieve remarkable results.",
 };

@@ -56,8 +56,8 @@ const Clients = ({testimonialsData,headingdata}) => {
     }, []);
     return (
         <div className="relative flex sm:px-[21.25vw] px-[7.059vw] sm:py-[6.25vw] py-[30vw] flex-col bg-[#00111A] items-center justify-center ">
-            <h2 className="text-white sm:text-[3.333vw] text-[7.529vw] items-center justify-center text-center sm:w-[47.188vw]  w-[85.882vw] ">
-{headingdata.heading}            </h2>
+            <h4 className="text-white sm:text-[3.333vw] text-[7.529vw] items-center justify-center text-center sm:w-[47.188vw]  w-[85.882vw] ">
+{headingdata.heading}            </h4>
             <p className="text-white sm:text-[1.25vw] text-[3.765vw] items-center justify-center text-center sm:w-[38.906vw] w-[85.882vw] mb-[3.2vw]">
                {headingdata.description}
             </p>
@@ -102,7 +102,7 @@ const Clients = ({testimonialsData,headingdata}) => {
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6932 30.2608C22.2044 29.3587 24.2491 28.7578 27.0012 28.7578C29.7534 28.7578 31.798 29.3587 33.3093 30.2608C34.8211 31.1633 35.7508 32.3384 36.3173 33.4108L36.3173 33.4109C36.8242 34.3707 36.6583 35.3665 36.083 36.089C35.5296 36.7838 34.6289 37.1986 33.6621 37.1986H20.3404C19.3735 37.1986 18.4728 36.7838 17.9194 36.089C17.3441 35.3665 17.1783 34.3706 17.6852 33.4108C18.2516 32.3384 19.1813 31.1633 20.6932 30.2608ZM21.5409 31.6809C20.3286 32.4046 19.5954 33.3356 19.1477 34.1832L19.1477 34.1832C18.9653 34.5287 19.0233 34.8201 19.2132 35.0586C19.4251 35.3247 19.8311 35.5447 20.3404 35.5447H33.6621C34.1713 35.5447 34.5773 35.3247 34.7892 35.0586C34.9791 34.8201 35.0372 34.5287 34.8548 34.1832C34.4071 33.3356 33.6738 32.4046 32.4615 31.6809C31.2486 30.9569 29.5079 30.4117 27.0012 30.4117C24.4945 30.4117 22.7538 30.9569 21.5409 31.6809Z" fill="#6D758F" />
                                     </svg>
                                     <div>
-                                        <h4 className="text-[#00AFF1] sm:mt-[1.396vw] mt-[8.706vw] sm:text-[1.25vw] text-[3.765vw] ">{testimonial.name}</h4>
+                                        <h5 className="text-[#00AFF1] sm:mt-[1.396vw] mt-[8.706vw] sm:text-[1.25vw] text-[3.765vw] ">{testimonial.name}</h5>
                                         <p className="text-gray-400 mt-[0.005vw] sm:text-[0.833vw] text-[3.765vw]">{testimonial.role}</p>
                                     </div>
                                 </div>

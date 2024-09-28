@@ -59,9 +59,9 @@ const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
                     className="h-[9.882vw] w-[9.882vw] sm:h-[4.479vw] sm:w-[4.479vw]"
                   />
                   <div className="flex flex-col items-start text-start gap-[1.146vw] justify-start">
-                    <h3 className="sm:text-[2.024vw] text-[3.765vw] font-normal">
+                    <h4 className="sm:text-[2.024vw] text-[3.765vw] font-normal">
                       {service.title}
-                    </h3>
+                    </h4>
                     {service.description.map((desc, i) => (
                       <p key={i} className="sm:w-[26.667vw] w-[74.588vw] sm:text-[1.042vw] text-[3.765vw] font-medium opacity-[0.7]">
                         {desc}

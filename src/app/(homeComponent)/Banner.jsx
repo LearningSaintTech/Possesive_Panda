@@ -128,10 +128,10 @@ const Banner = ({ whyUsRef }) => {
 
       {/* Second Div Content Positioned at the Bottom Right */}
       <div className="absolute bottom-4 sm:bottom-[9vw] sm:px-2 px-[7.69vw] z-10 sm:text-left py-2 sm:right-[4vw]">
-        <h1 className='sm:w-[15.208vw] w-[85vw] text-white text-[3.3vw] sm:text-left sm:text-[1.406vw] font-normal sm:font-extralight sm:leading-[2.083vw]'>
+        <p className='sm:w-[15.208vw] w-[85vw] text-white text-[3.3vw] sm:text-left sm:text-[1.406vw] font-normal sm:font-extralight sm:leading-[2.083vw]'>
           Trust us to keep your technology running smoothly,
           <span className='text-[#60e2ff] font-normal'> so you can focus on what truly matters</span>—growing your business.
-        </h1>
+        </p>
         <div className="hidden sm:block w-[14.688vw] overflow-hidden z-10">
           <div className="whitespace-nowrap animate-marquee text-white text-[0.938vw] font-normal leading-[35px] mt-[20px]">
             <span className="mx-4">Scroll down to discover how it works</span>

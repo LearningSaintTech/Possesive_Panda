@@ -133,7 +133,7 @@ const iconMapping1 = {
 
 
 const ourService = {
-  heading: "Our Real Estate Virtual Assistant Services ",
+  heading: " Real Estate Virtual Assistant Services ",
   subHeading:
     "We offer real estate virtual assistants of various sorts for every realtor who wants to grow his/her business. With this wide range of virtual assistant services, we focus on client satisfaction and ensure your overall business success. ",
 };

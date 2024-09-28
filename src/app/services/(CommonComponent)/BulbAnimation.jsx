@@ -59,9 +59,9 @@ const BulbAnimation = () => {
                     />
 
                     <div className='sm:absolute flex flex-col items-center justify-center sm:top-0 sm:left-0 w-full h-full sm:px-[4vw]'>
-                        <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium text-center mb-[2.353vw] sm:mb-[0.2vw]'>
+                        <p className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium text-center mb-[2.353vw] sm:mb-[0.2vw]'>
                             What is PPC Marketing
-                        </h2>
+                        </p>
                         <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light text-center'>
                             Pay-Per-Click or PPC, is a digital marketing strategy that allows you to market your products & services for a fixed amount, & you can choose where you want to show your ads & spend money. It drives immediate traffic to your website & amplify the sales of your products & services.                        </p>
                     </div>
@@ -222,7 +222,7 @@ const BulbAnimation = () => {
                     >
                         <div className="absolute rounded-[261px] bg-[rgba(255,255,255,0.60)] filter blur-[50px] w-[61.412vw] h-[15vw] sm:w-[13.594vw] sm:h-[13.594vw] sm:-top-24 ">
                         </div>
-                        <h2 className='text-white text-[7.529vw] sm:text-[1.667vw] font-medium sm:w-[18.75vw]'>{content.title}</h2>
+                        <h3 className='text-white text-[7.529vw] sm:text-[1.667vw] font-medium sm:w-[18.75vw]'>{content.title}</h3>
                         <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:font-light sm:w-[17.344vw] sm:mb-[7.24vw] sm:mx-0 mx-[3.765vw] '>{content.description}</p>
                     </div>
                 ))}

@@ -19,7 +19,7 @@ const OurWorks = () => {
     const handleMouseDown = (e) => {
         if (scrollContainerRef.current) {
             e.preventDefault();
-            e.stopPropagation(); // Prevent default behavior and stop event propagation
+            e.stopPropagation(); 
             setIsDragging(true);
             setStartX(e.pageX - scrollContainerRef.current.offsetLeft);
             setScrollLeft(scrollContainerRef.current.scrollLeft);
@@ -53,12 +53,12 @@ const OurWorks = () => {
         <div className="flex sm:flex-row flex-col pt-[13.385vw] sm:pt-[7vw] md:pt-[0vw] lg:pt-[7.813vw] pb-0 lg:pb-[5vw] pl-[6.692vw] lg:pl-[5.208vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw] md:pl-[5.208vw] lg:px-0">
             {/* Left Side Section */}
             <div className="sm:w-[20.156vw] lg:h-[23.073vw] flex flex-col justify-around gap-1 sm:gap-0 sm:mt-[4vw] md:mt-[2.5vw]">
-                <h5 className="text-white sm:font-normal font-medium tracking-[0.015rem] text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] text-center md:text-left md:mt-4 lg:mt-[0.417vw]  lg:ml-[0.5vw]">
+                <h3 className="text-white sm:font-normal font-medium tracking-[0.015rem] text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] text-center md:text-left md:mt-4 lg:mt-[0.417vw]  lg:ml-[0.5vw]">
                     Portfolio
-                </h5>
-                <h2 className="text-white text-[8.205vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] sm:w-[40vw] text-center sm:text-left sm:mt-[0.7vw] sm:mb-[0.5vw] md:text-[2.5vw]">
+                </h3>
+                <h3 className="text-white text-[8.205vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] sm:w-[40vw] text-center sm:text-left sm:mt-[0.7vw] sm:mb-[0.5vw] md:text-[2.5vw]">
                     Our Work
-                </h2>
+                </h3>
                 <p className="text-[#F9F9F9] font-normal text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] tracking-[0.04vw] lg:tracking-[0.023vw] w-full sm:w-[20vw] text-center sm:text-left md:text-start">
                     Explore how Possesive Panda shaped businesses by offering innovative, tech-driven solutions. Serving a plethora of companies to be at the forefront.
                 </p>

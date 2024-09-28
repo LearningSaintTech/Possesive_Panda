@@ -10,12 +10,12 @@ const ServicesList = () => (
 
     {/* Left Section */}
     <div className="lg:w-[32.292vw] lg:ml-[5.208vw] ml-[1.692vw] flex flex-col justify-around lg:gap-[1.042vw] gap-[2.5vw]">
-      <h5 className="text-[4.103vw] sm:text-[4vw] md:text-[2vw] lg:text-[1.667vw] tracking-[0.015rem] text-center lg:text-left text-white">
+      <h2 className="text-[4.103vw] sm:text-[4vw] md:text-[2vw] lg:text-[1.667vw] tracking-[0.015rem] text-center lg:text-left text-white">
         Our Services
-      </h5>
-      <h2 className="text-[8.205vw] sm:text-[6vw] md:text-[3.5vw] lg:text-[3.333vw] text-white font-medium tracking-tight text-center lg:text-left">
-        Check Our Services
       </h2>
+      <h3 className="text-[8.205vw] sm:text-[6vw] md:text-[3.5vw] lg:text-[3.333vw] text-white font-medium tracking-tight text-center lg:text-left">
+        Check Our Services
+      </h3>
       <Link
         href="/services"
         className="w-full lg:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[3vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md lg:mb-0 mb-[8vw] font-medium"
@@ -43,9 +43,9 @@ const ServicesList = () => (
             <p className="text-white text-[4vw] sm:text-[0.729vw] font-normal leading-[6vw] sm:leading-[1.563vw] px-[5vw] sm:px-[1.3vw]">
               {deployText}
             </p>
-            <h4 className="text-white text-[6vw] sm:text-[1.25vw] font-medium leading-[8vw] sm:leading-[2.083vw] mb-[3vw] sm:mb-[1.563vw] px-[5vw] sm:px-[1.3vw]">
+            <p className="text-white text-[6vw] sm:text-[1.25vw] font-medium leading-[8vw] sm:leading-[2.083vw] mb-[3vw] sm:mb-[1.563vw] px-[5vw] sm:px-[1.3vw]">
               {platform}
-            </h4>
+            </p>
           </div>
         </div>
       ))}

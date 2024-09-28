@@ -44,20 +44,20 @@ const TextAnimation = () => {
     <>
     <div className="hidden lg:flex   flex-col items-center justify-center bg-[#00111A]">
       <div className=" text-center">
-        <h1
+        <p
           ref={firstLineRef}
           className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
           24/7 Professional Assistance -
-        </h1>
+        </p>
       </div>
       <div className="text-center mt-4">
-        <h1
+        <p
           ref={secondLineRef}
           className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
           Wherever You Are, Whenever You Need
-        </h1>
+        </p>
       </div>
     </div>
     <div class="block lg:hidden w-[100vw] text-center text-white text-[7.529vw] font-medium">
