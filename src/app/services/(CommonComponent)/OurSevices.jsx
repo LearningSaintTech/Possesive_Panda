@@ -33,7 +33,7 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
     return (
         <div className="bg-[#00111A]">
             {/* FOR DESKTOP AND TABLET */}
-            <div className="px-[5.208vw] py-[5.508vw] hidden sm:block">
+            <div className="px-[5.208vw] hidden sm:block">
                 <div>
                     <h6 className="text-white text-[2.5vw] font-medium tracking-wide pb-[1.442vw]">
                         {heading}
@@ -91,7 +91,7 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
 
             {/* FOR MOBILE */}
             <div className="sm:hidden">
-                <div className="px-[30px] py-[16.471vw]">
+                <div className="px-[30px]">
                     <h6 className="w-full text-center text-white text-[7.529vw] font-medium">
                         Our E-commerce Services
                     </h6>

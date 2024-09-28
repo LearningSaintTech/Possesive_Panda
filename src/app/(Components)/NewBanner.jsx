@@ -12,9 +12,9 @@ const NewBanner = ({ title, desciption }) => {
             />
             <div className="absolute top-[60vw] sm:top-[21vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center text-center justify-center">
                 <div className="flex flex-col gap-[1.042vw] ">
-                    <h2 className="text-white text-[7.529vw] sm:text-[2.587vw] font-bold sm:font-medium leading-[130%] w-[81.882vw] sm:w-[38.542vw] ">
+                    <p className="text-white text-[7.529vw] sm:text-[2.587vw] font-bold sm:font-medium leading-[130%] w-[81.882vw] sm:w-[38.542vw] ">
                         {title}
-                    </h2>
+                    </p>
                     <p className="text-white text-[3.765vw] sm:text-[1.104vw] font-normal leading-[160%] w-[68vw] sm:w-[35vw] mx-auto">
                         {desciption}
                     </p>

@@ -7,7 +7,7 @@ const Tech = () => {
     const [hovered, setHovered] = useState(null);
 
     return (
-        <div className='px-[7.059vw] sm:px-[5.208vw] py-4 sm:py-[6.25vw] flex flex-col gap-[2.824vw] sm:gap-[1.563vw] bg-[#00111A] items-center'>
+        <div className='px-[7.059vw] sm:px-[5.208vw] flex flex-col gap-[2.824vw] sm:gap-[1.563vw] bg-[#00111A] items-center'>
             <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:leading-[120%] text-center'>
                 Our Tech-Driven Triumphs
             </h2>

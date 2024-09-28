@@ -114,7 +114,7 @@ export default function VirtualAssistantServices() {
     };
 
     return (
-        <div className='bg-[#00111a] px-[5.208vw] py-[5.508vw]'>
+        <div className='bg-[#00111a] px-[5.208vw] '>
             <div className=" text-white hidden md:block ">
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className=" w-[43.542vw] text-center text-[#fbfbfc] text-[2.5vw] font-semibold">Our Virtual Assistant Services</h1>

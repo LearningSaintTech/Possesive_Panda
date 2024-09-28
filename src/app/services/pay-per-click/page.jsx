@@ -144,22 +144,30 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <BulbAnimation />
-      <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+        <HoverImageComp hoverImageData={hoverImageData} />
+      </div>
+      <div className='sm:mt-[15vw] mt-[14.118vw] '>
+        <BulbAnimation />
+      </div>
+      <div className='sm:mt-[5.5vw] mt-[6vw] '>
+        <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
+      </div>
+      <div className='sm:mt-[6.8vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
       </div>
-      <div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
-
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Leverage = () => {
     return (
-        <div className='px-[7.059vw] sm:px-[5.208vw] sm:py-[6.25vw] flex flex-col gap-[8vw] sm:gap-[4.167vw] bg-[#00111A] items-center'>
+        <div className='px-[7.059vw] sm:px-[5.208vw] flex flex-col gap-[8vw] sm:gap-[4.167vw] bg-[#00111A] items-center'>
             <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:leading-[120%] sm:w-[32.76vw] text-center'>
                 Why Leverage Mobile App Development Services?
             </h2>

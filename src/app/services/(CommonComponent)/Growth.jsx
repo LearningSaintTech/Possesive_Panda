@@ -36,7 +36,7 @@ const Growth = ({ heading, description, cards }) => {
     };
 
     return (
-        <div className='relative flex flex-col px-[7.059vw] sm:px-[5.208vw] sm:py-[6.25vw] '>
+        <div className='relative flex flex-col px-[7.059vw] sm:px-[5.208vw] '>
             <div className='flex sm:flex-row flex-col sm:gap-0 gap-[7.059vw] sm:justify-between'>
                 <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:w-[35.052vw] text-center sm:text-left '>
                     {heading}

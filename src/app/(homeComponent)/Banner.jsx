@@ -10,7 +10,7 @@ const Banner = ({ whyUsRef }) => {
   useEffect(() => {
     const onYouTubeIframeAPIReady = () => {
       const newPlayer = new window.YT.Player(videoRef.current, {
-        videoId: '3_N67lsN_Uc',
+        videoId: 'qXHJhmCrL3E',
         events: {
           onReady: (event) => {
             event.target.mute();

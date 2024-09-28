@@ -5,7 +5,7 @@ const Hoverdiv = ({ heading, paragraph, modelData }) => {
     return (
         <div className='flex flex-col gap-[7.059vw] sm:gap-[4.167vw] px-[7.059vw] sm:px-[5.208vw]'>
             <div className='flex sm:flex-row flex-col sm:gap-0 gap-[3.529vw] sm:justify-between'>
-                <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] text-center font-medium sm:w-[37.708vw]'>
+                <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] sm:text-left text-center font-medium sm:w-[37.708vw]'>
                     {heading}
                 </h2>
                 <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-light leading-[187%] text-center sm:text-right sm:w-[37vw]'>

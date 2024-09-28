@@ -128,10 +128,10 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}
@@ -141,26 +141,38 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Mobile
           heading={mobileData.heading}
           sideImage={mobileData.sideImage}
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <ToolsTech />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+        <ToolsTech />
+      </div>
+      <div className='sm:block hidden mt-[4vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <Platforms platformsData={platformsData} />
-      <IndustriesWe />
-      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <div className="mt-[14vw] sm:mt-[1vw] ">
+        <Platforms platformsData={platformsData} />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+        <IndustriesWe />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[5vw] '>
+        <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
+      </div>
+      <div className='sm:mt-[5vw] mt-[14.118vw] '>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

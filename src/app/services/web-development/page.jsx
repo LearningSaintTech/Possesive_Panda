@@ -51,18 +51,16 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} />
-      <div>
+      <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} />
+      </div>
+      <div className='sm:block hidden mt-[4vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-
-
-      
-      
       <div>
         <Why
           mainHeading={whyData.mainHeading}
@@ -73,19 +71,22 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-
-     
-      <OurWeb/>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+      <OurWeb />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <OurEngagement/>
-
-      <ToolsTech/>
-
-      <NewContact/>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
+      <div>
+        <OurEngagement />
+      </div>
+      <ToolsTech />
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

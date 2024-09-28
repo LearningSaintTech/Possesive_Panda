@@ -111,26 +111,29 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
+      <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
       <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Personalized Social Media Marketing Solutions" />
-      <div>
+      </div>
+      <div className="sm:mt-[6.25vw] mt-[2vw] ">
         <Mobile
           heading={mobileData.heading}
           sideImage={mobileData.sideImage}
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
-
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14vw] '>
+        <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
+      </div>
+      <div className="sm:mt-[5.5vw] mt-[14vw]  ">
         <Models modelData={modelData} />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14vw] '>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}
@@ -140,15 +143,16 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      
-      
-
-      <div className='mt-[10vw]'>
+      <div className='sm:block hidden mt-[5.5vw] '>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <NewContact/>
-
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <div className='sm:mt-[2vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
 
       <Faq faq={faq} />
       <Footer />

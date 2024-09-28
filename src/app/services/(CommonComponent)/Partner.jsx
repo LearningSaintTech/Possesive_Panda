@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const Partner = ({ heading, heading2, title }) => {
   return (
-    <div className='flex flex-col gap-[7.529vw] sm:gap-[4.167vw] bg-[#00111A] px-[7.059vw] sm:px-[5.208vw] py-[14.118vw] sm:py-[5.729vw]'>
+    <div className='flex flex-col gap-[7.529vw] sm:gap-[4.167vw] bg-[#00111A] px-[7.059vw] sm:px-[5.208vw] '>
       <div className='flex sm:flex-row  flex-col gap-[2.353vw] sm:gap-0 sm:justify-between '>
         <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:w-[42.552vw] text-center sm:text-left '>
           {heading}

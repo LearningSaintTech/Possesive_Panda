@@ -47,7 +47,7 @@ const IndustriesWe = () => {
 
     return (
         <div className="w-full bg-[#00111A]">
-            <div className="px-[5.208vw] py-[5vw]">
+            <div className="px-[5.208vw] ">
                 <div className="hidden sm:block w-[89.479vw] py-[3.5vw] bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] pt-[3.958vw]">
                     <h5 className="text-center text-[#6c748f] text-[1.25vw] font-semibold">
                         Industries We Cater To
@@ -97,8 +97,8 @@ const IndustriesWe = () => {
             </div>
 
             {/* Mobile view */}
-            <div className="sm:hidden bg-[#00111A] py-[15vw] px-[7.059vw]">
-                <div className="pt-[11.529vw] pb-[11.765vw] flex-col justify-center items-center">
+            <div className="sm:hidden bg-[#00111A] px-[7.059vw]">
+                <div className=" pb-[11.765vw] flex-col justify-center items-center">
                     <h1 className="text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
                         Industries We Cater To
                     </h1>

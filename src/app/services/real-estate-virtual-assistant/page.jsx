@@ -139,31 +139,32 @@ const page = () => {
         title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
         desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
       />
-
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-
-
-      <div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Mobile
           heading={mobileData.heading}
           sideImage={mobileData.sideImage}
           paragraphs={mobileData.paragraphs}
         />
       </div>
+      <div className='sm:mt-[6.25vw] mt-[11.118vw] '>
       <HoverImageComp hoverImageData={hoverImageData} />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
       <WhyChoose />
-
-      <NewContact />
-      <div className='mt-[10vw]'>
+      </div>
+      <div className='sm:block hidden mt-[7vw] '>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
-
-
-
+      <div className='sm:mt-[1vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>
