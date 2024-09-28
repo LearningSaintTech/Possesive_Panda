@@ -27,7 +27,7 @@ const projects = [
   {
     image: Hawkins,
     moto: "Professional Course and Program Provider",
-    title: "hawkins ",
+    title: "hawkins university",
     description:
       "Hawkins University, based in Austin, Texas, offers exemplary education through modern amenities and technology, offering online classes, study programs, and degree programs, focusing on transforming lives and communities",
     url: "https://hawkinsuniversity.com",
@@ -38,7 +38,7 @@ const projects = [
     title: "RECESS",
     description:
       "Recess is a brand offering non-alcoholic beverages designed to help individuals relax and unwind, addressing the stress caused by having too many tabs open in both browsers and minds.",
-    url: "https://hawkinsuniversity.com",
+    url: "https://takearecess.com/",
   },
   {
     image: MTG,
@@ -46,7 +46,7 @@ const projects = [
     title: "Montgomery Transport Group",
     description:
       "Montgomery Transport Group, a UK-based privately owned company, operates under Ballyvesey Holdings, a family-owned conglomerate with over forty companies and an annual turnover exceeding £850 million.",
-    url: "https://hawkinsuniversity.com",
+    url: "https://montgomerytransportgroup.com/",
   },
   // REPEATED CARDS TEST PAGINATION 
 ];

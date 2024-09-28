@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
-import img1 from '../../../../public/assets/image_1821.svg';
-import img2 from '../../../../public/assets/image_1822.svg';
-import img3 from '../../../../public/assets/image.svg';
+import img1 from "../../../../public/assets/image_1821.svg";
+import img2 from "../../../../public/assets/image_1822.svg";
+import img3 from "../../../../public/assets/image.svg";
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";
@@ -18,32 +18,55 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const faq = [
   {
-    title: `How does SEO work?`,
-    description: `It works by optimizing various aspects of a website and content to improve its visibility and ranking. During this process, the website's keywords, content, links, user experience, and technical aspects are optimized.`,
+    title: `What is Search Engine Optimization (SEO)?`,
+    description: `Search engine optimization is most usually abbreviated as SEO. Optimization is the foundation of all SEO techniques. When your brand's presence (website, content, and social media platforms) is maximized across the internet, it gains online visibility. Your website will rank on the first page of search engine results pages (SERPs). Your online customers will also find your business far more quickly.`,
   },
   {
     title: `What benefits will SEO provide?`,
     description: `When your website is on top, you can expect more traffic and queries from your potential clients, allowing you to do business with them.`,
   },
   {
-    title: `What is the difference between on-page and off-page SEO?`,
-    description: `On-page SEO refers to changes that are made directly to your website. On the other hand, off-page SEO refers to activities performed on other websites to benefit your website.`,
+    title: `What impacts your business SEO?`,
+    description: `SEO ranking is directly influenced by three factors: page load time, keyword selection, and content creation. Slow page load time can lead to visitors bouncing and going to competitors. The Core Web Vitals update in March 2021 will focus on these aspects, ensuring a higher ranking. Careful keyword selection ensures your website is listed under the right search terms. Quality content increases dwell time, boosting SEO rankings.`,
   },
   {
-    title: `How long does SEO take to show results?`,
-    description: `With consistent effort and strategic optimization, significant improvements in rankings and traffic can be seen within 4-6 months.`,
+    title: `What are the SEO services and solutions Possesive Panda provides?`,
+    description: `Possesive Panda provides various SEO services and solutions, below is the list: 
+
+Our SEO Services:
+
+Enterprise SEO,
+On-page SEO,
+Off-page SEO,
+Technical SEO,
+Local SEO,
+Mobile SEO,
+eCommerce SEO,
+Multilingual SEO,
+Content Marketing Services,
+Conversion Rate Optimization,
+Google Penalty Assessment and Recovery,
+Reporting and Analysis.
+
+Our SEO Solutions: 
+
+Audit and Optimization,
+Traffic Generation, 
+Keyword Research, 
+Competitor Analaysis, 
+Google Analytics Configuration.`,
   },
   {
     title: `How do I measure SEO growth?`,
     description: `SEO success can be measured by measuring organic traffic growth, keyword rankings, and conversion rates. Tools like Google Analytics and Search Console provide valuable insights into these metrics.`,
   },
   {
-    title: `What are backlinks in SEO?`,
-    description: `Backlinks are also called inbound links because they represent another website's traffic coming to your website. The quality and quantity of your backlinks can help you rank higher in search engines such as Google and Bing.`,
+    title: `How does Possesive Panda help you with SEO services and solutions?`,
+    description: `Possesive Panda is a dedicated SEO services provider that focuses on enduring partnerships with clients. They use a network of specialists and industry expertise to create tailored plans, ensuring quality control, data security, 24/7 assistance, frequent updates, dynamic pricing, store evaluation, and prompt completion of projects.`,
   },
   {
-    title: `Why has my organic traffic dropped?`,
-    description: `Poor-quality content, outdated information, or content that doesn't match user intent can lead to a drop in organic traffic as search engines prioritize high-quality, valuable content.`,
+    title: `Why has my organic growth dropped?`,
+    description: `There may be several reasons for that, but the most important aspect considered is AI-curated or poor quality content, poor SEO implementation, and outdated content. `,
   },
 ];
 
@@ -97,97 +120,99 @@ const testimonialsData = [
   },
 ];
 
- const headingdata={
-
-      //testimonials
-      heading:" What our clients have to say",
-      description:"Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
-
-
-
+const headingdata = {
+  //testimonials
+  heading: " What our clients have to say",
+  description:
+    "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients.",
 };
 const hoverImageData = {
   text: {
-    subheading: "With Possessive Panda",
+    subheading: "With Possesive Panda",
     heading: "Implement Data-driven SEO Strategies to Boost Sales",
-    description:"We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall."
-    },
+    description:
+      "We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+  },
   images: {
-    
-      image1: img1,
-     
-    
-    
-        image2: img2,
-     
-   
-        image3: img3,
-    
-    },
-  };
-  const buttonData= [
-    "Audit and Optimization ",
-    "Traffic Generation",
-    "Keyword Research",
-    "Competitor Analaysis",
-    "GA4 Configuration"
-  ];
-  
-   const paragraphs=[
-    {
-        number: "1",
-        heading1: "What we Provide?",
-        text1: "Website audit and optimization are very crucial for website performance and better ranking on search engines. Our SEO experts assess your website and identify issues that are holding your website back from ranking. ",
-        heading2: "How we Provide? ",
-        text2: "We evaluate your website on various core web vitals and resolve every SEO-related issue, including the implementation of strategies of technical SEO, content optimization, and link building.  ",
-        dotPoints: [
-          "Resolving Broken Link Issues",
-          "Indexing and Database Structure Issue Resolution",
-        ]
-  
-    },
-    {
-        number: "2",
-        heading1: "What we Provide?",
-        text1: "Our SEO experts utilize various marketing tools, including social media, PR, mobile SEO, multimedia SEO, and local and international search optimization, to effectively generate high online traffic. ",
-        heading2: "How we Provide? ",
-        text2: "After evaluation of your existing website, we craft strategies for traffic generation that are personalized and improve your public relations, including landing page creation, business promotions, local SEO reputation, and many more. ",
-        dotPoints: [
-          "Paid Advertising Solutions",
-          "Top-notch Utilization of Marketing Tools",
-        ]
-    }, {
-        number: "3",
-        heading1: "What we Provide?",
-        text1: "Our team of SEO experts uses a variety of tools and techniques to deliver comprehensive, industry-relevant keyword research to help your website rank higher in search results, leading to high-quality and lasting traffic.",
-        heading2: "How we Provide? ",
-        text2: "At Possesive Panda, we utilize the best keyword research strategies, including analysis of your business and target audience, search volume and competition, optimizing various sorts of contents according to the trending keywords, and regular monitoring and updating.  ",
-        dotPoints: [
-          "Industry-relevant Keyword Research",
-          "Google Updates Oriented Content",
-        ]
-    }, {
-        number: "4",
-        heading1: "What we Provide?",
-        text1: "As a leading SEO service provider, we conduct competitor analysis to help your business improve your search engine ranking and implement best practices to make you reach new heights. ",
-        heading2: "How we Provide? ",
-        text2: "We perform competitor analysis on various aspects for better results, including the utilization of tools like Ahrefs, SEMrush, or platforms alike, keyword and content analysis, backlink analysis, technical SEO assessments, and many more. ",
-        dotPoints: [
-          "Benchmarking Performance for Better Results",
-          "Identifying Content Gaps",
-        ]
-    }, {
-        number: "5",
-        heading1: "What we Provide?",
-        text1: "Possesive Panda provides a smooth and seamless Google Analytics configuration to enhance website performance and better search engine rankings, delivering actionable insights.",
-        heading2: "How we Provide? ",
-        text2: "Our SEO experts deliver GA configuration solutions that deliver comprehensive Google Analytics setup, account structure, data validation, quality assurance, and integration of other tools like Google Tag Manager, Google Ads, and CRM systems.",
-        dotPoints: [
-          "Custom Reports and Analysis ",
-          "GA4 and GTM Support",
-        ]
-    },
-  ];
+    image1: img1,
+
+    image2: img2,
+
+    image3: img3,
+  },
+};
+const buttonData = [
+  "Audit and Optimization ",
+  "Traffic Generation",
+  "Keyword Research",
+  "Competitor Analaysis",
+  "GA4 Configuration",
+];
+
+const paragraphs = [
+  {
+    number: "1",
+    heading1: "What we Provide?",
+    text1:
+      "Website audit and optimization are very crucial for website performance and better ranking on search engines. Our SEO experts assess your website and identify issues that are holding your website back from ranking. ",
+    heading2: "How we Provide? ",
+    text2:
+      "We evaluate your website on various core web vitals and resolve every SEO-related issue, including the implementation of strategies of technical SEO, content optimization, and link building.  ",
+    dotPoints: [
+      "Resolving Broken Link Issues",
+      "Indexing and Database Structure Issue Resolution",
+    ],
+  },
+  {
+    number: "2",
+    heading1: "What we Provide?",
+    text1:
+      "Our SEO experts utilize various marketing tools, including social media, PR, mobile SEO, multimedia SEO, and local and international search optimization, to effectively generate high online traffic. ",
+    heading2: "How we Provide? ",
+    text2:
+      "After evaluation of your existing website, we craft strategies for traffic generation that are personalized and improve your public relations, including landing page creation, business promotions, local SEO reputation, and many more. ",
+    dotPoints: [
+      "Paid Advertising Solutions",
+      "Top-notch Utilization of Marketing Tools",
+    ],
+  },
+  {
+    number: "3",
+    heading1: "What we Provide?",
+    text1:
+      "Our team of SEO experts uses a variety of tools and techniques to deliver comprehensive, industry-relevant keyword research to help your website rank higher in search results, leading to high-quality and lasting traffic.",
+    heading2: "How we Provide? ",
+    text2:
+      "At Possesive Panda, we utilize the best keyword research strategies, including analysis of your business and target audience, search volume and competition, optimizing various sorts of contents according to the trending keywords, and regular monitoring and updating.  ",
+    dotPoints: [
+      "Industry-relevant Keyword Research",
+      "Google Updates Oriented Content",
+    ],
+  },
+  {
+    number: "4",
+    heading1: "What we Provide?",
+    text1:
+      "As a leading SEO service provider, we conduct competitor analysis to help your business improve your search engine ranking and implement best practices to make you reach new heights. ",
+    heading2: "How we Provide? ",
+    text2:
+      "We perform competitor analysis on various aspects for better results, including the utilization of tools like Ahrefs, SEMrush, or platforms alike, keyword and content analysis, backlink analysis, technical SEO assessments, and many more. ",
+    dotPoints: [
+      "Benchmarking Performance for Better Results",
+      "Identifying Content Gaps",
+    ],
+  },
+  {
+    number: "5",
+    heading1: "What we Provide?",
+    text1:
+      "Possesive Panda provides a smooth and seamless Google Analytics configuration to enhance website performance and better search engine rankings, delivering actionable insights.",
+    heading2: "How we Provide? ",
+    text2:
+      "Our SEO experts deliver GA configuration solutions that deliver comprehensive Google Analytics setup, account structure, data validation, quality assurance, and integration of other tools like Google Tag Manager, Google Ads, and CRM systems.",
+    dotPoints: ["Custom Reports and Analysis ", "GA4 and GTM Support"],
+  },
+];
 
 const iconMapping1 = {
   GrSettingsOption: <GrSettingsOption />,
@@ -207,7 +232,7 @@ const iconMapping1 = {
 const ourService = {
   heading: "SEO Services & Solutions",
   subHeading:
-    "Possessive Panda excels in crafting top-tier SEO strategies that not only drive enhanced engagement and boost website traffic but also amplify sales and build a formidable brand reputation. Our team of seasoned SEO specialists are dedicated to delivering cutting-edge solutions that fuel your business’s growth and success, blending expertise with innovation to elevate your online presence and achieve remarkable results.",
+    "Possesive Panda excels in crafting top-tier SEO strategies that not only drive enhanced engagement and boost website traffic but also amplify sales and build a formidable brand reputation. Our team of seasoned SEO specialists are dedicated to delivering cutting-edge solutions that fuel your business’s growth and success, blending expertise with innovation to elevate your online presence and achieve remarkable results.",
 };
 const servicesData22 = [
   {
@@ -304,55 +329,63 @@ const servicesData22 = [
   },
 ];
 
-const cardList ={
+const cardList = {
   subHeading: "Agile Approach",
   heading: "SEO Services Delivery Approach",
-  paragraph: "We have crafted an SEO services and solutions delivery process, keeping client satisfaction and result-oriented outcomes in mind.",
-}
+  paragraph:
+    "We have crafted an SEO services and solutions delivery process, keeping client satisfaction and result-oriented outcomes in mind.",
+};
 
 const cardData = [
   {
-      title: "Explore ",
-      step: "Step 1",
-      description: "Our SEO experts conduct a thorough discovery phase, including client meetings, site reviews, KPI identification, conversion path determination, & keyword research, to gain a comprehensive understanding of your business.",
+    title: "Explore ",
+    step: "Step 1",
+    description:
+      "Our SEO experts conduct a thorough discovery phase, including client meetings, site reviews, KPI identification, conversion path determination, & keyword research, to gain a comprehensive understanding of your business.",
   },
   {
-      title: "Analysis",
-      step: "Step 2",
-      description: "The analysis stage involves competitive benchmarking, site audit, & link risk assessment to determine factors affecting digital presence, analyze traffic patterns, technical issues, competitor strategies, & link building tactics.",
+    title: "Analysis",
+    step: "Step 2",
+    description:
+      "The analysis stage involves competitive benchmarking, site audit, & link risk assessment to determine factors affecting digital presence, analyze traffic patterns, technical issues, competitor strategies, & link building tactics.",
   },
   {
-      title: "Strategy ",
-      step: "Step 3",
-      description: "Our SEO experts create an aggressive strategic plan for online marketing plan, prioritizing critical aspects for immediate, targeted results, after identifying marketing gaps and opportunities, ensuring successful campaign completion.",
+    title: "Strategy ",
+    step: "Step 3",
+    description:
+      "Our SEO experts create an aggressive strategic plan for online marketing plan, prioritizing critical aspects for immediate, targeted results, after identifying marketing gaps and opportunities, ensuring successful campaign completion.",
   },
   {
-      title: "Implement ",
-      step: "Step 4",
-      description: "In this phase, we optimize your web pages & blog posts with high-performing keywords, improve your site structure, & manage your business listings. We implement SMM campaigns & reach out to third-party websites integrations.",
+    title: "Implement ",
+    step: "Step 4",
+    description:
+      "In this phase, we optimize your web pages & blog posts with high-performing keywords, improve your site structure, & manage your business listings. We implement SMM campaigns & reach out to third-party websites integrations.",
   },
   {
-      title: "Monitor",
-      step: "Step 5",
-      description: "Our SEO experts establish a tracking system to monitor online progress, analyze analytics, keyword rankings, KPIs, organic traffic, bounce rate, conversion rate, local visibility, & CTR(s), providing actionable insights for optimization strategies.",
+    title: "Monitor",
+    step: "Step 5",
+    description:
+      "Our SEO experts establish a tracking system to monitor online progress, analyze analytics, keyword rankings, KPIs, organic traffic, bounce rate, conversion rate, local visibility, & CTR(s), providing actionable insights for optimization strategies.",
   },
   {
-      title: "Review ",
-      step: "Step 6",
-      description: "Our SEO team schedules regular consultations & monthly reports with your project managers to keep you updated with your campaign progress. Afterwards, we present reports for your performance enhancement.",
+    title: "Review ",
+    step: "Step 6",
+    description:
+      "Our SEO team schedules regular consultations & monthly reports with your project managers to keep you updated with your campaign progress. Afterwards, we present reports for your performance enhancement.",
   },
   {
-      title: "Support",
-      step: "Step 7",
-      description: "Our SEO team constantly adjusts strategies based on algorithm updates and market trends to ensure your website ranks high in search results, keeping you informed of campaign progress.",
+    title: "Support",
+    step: "Step 7",
+    description:
+      "Our SEO team constantly adjusts strategies based on algorithm updates and market trends to ensure your website ranks high in search results, keeping you informed of campaign progress.",
   },
 ];
 
-export { 
-  faq, 
-  whyData, 
-  ourService, 
-  servicesData22, 
+export {
+  faq,
+  whyData,
+  ourService,
+  servicesData22,
   iconMapping1,
   cardList,
   cardData,
@@ -360,5 +393,5 @@ export {
   buttonData,
   hoverImageData,
   headingdata,
-  testimonialsData
+  testimonialsData,
 };

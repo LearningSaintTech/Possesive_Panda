@@ -5,12 +5,12 @@ import faqimg22 from "../../../../public/assets/assets/services/e-commerce/faq22
 
 const faq = [
   {
-    title: `What is a virtual assistant?`,
-    description: `A virtual assistant is a person who provides administrative, technical, or creative support to clients remotely.`,
+    title: `Who is a Virtual Assistant? `,
+    description: `A virtual assistant is an individual who specializes in a particular skillset and offers the services of relevant businesses and industries remotely. `,
   },
   {
-    title: `What services can a virtual assistant provide?`,
-    description: `Virtual assistants can handle a wide range of tasks, including email management, scheduling, data entry, customer service, social media management, content creation, research, and more.`,
+    title: `Which services can a virtual assistant provide? `,
+    description: `You just name it. Virtual assistants come with many benefits and also industry expertise offering services like administrative operations, email management, client handling, meeting management, real estate services, healthcare services, digital marketing, eCommerce support, customer support, and many more.`,
   },
   {
     title: `What are the benefits of hiring virtual assistants?`,
@@ -28,7 +28,12 @@ const faq = [
     title: `How do I train a virtual assistant?`,
     description: `Provide clear instructions, access to necessary tools, and continuous feedback.`,
   },
+  {
+    title: `What are the prices for virtual assistants provided by Possesive Panda?`,
+    description: `Depending on the processes or services you want to hire, we assure dynamic pricing at best. If you want to know more, kindly click on the circle.`,
+  },
 ];
+
 
 
 const smallfaqimage = {

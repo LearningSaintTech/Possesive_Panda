@@ -155,7 +155,7 @@ const page = () => {
       </div>
       <HoverImageComp hoverImageData={hoverImageData} />
       <WhyChoose />
-<TextAnimation/>
+      <TextAnimation />
       <NewContact />
       <div className='mt-[10vw]'>
         <Marquee />

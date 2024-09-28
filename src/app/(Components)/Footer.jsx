@@ -107,7 +107,7 @@ const Footer = () => {
             className="w-[57.783vw] h-[43.704vw] sm:w-[10.156vw] sm:h-[7.682vw]"
           />
           <p className='text-white text-[3.59vw] sm:text-[1.042vw] mt-5 sm:mt-[1.954vw] sm:text-justify text-center font-normal w-full sm:w-[30.104vw]'>
-            Founded in 2024, Possesive Panda thrives on innovation, delivering premier IT solutions to clients around the globe. With a sharp focus on digital marketing, web and software development, and virtual assistance, we proudly serve over 50 clients. Join us as we transform challenges into opportunities and ideas into impact.
+            Possesive Panda thrives on innovation, delivering premier IT solutions to clients around the globe. With a sharp focus on digital marketing, web and software development, and virtual assistance, we proudly serve over 50 clients. Join us as we transform challenges into opportunities and ideas into impact.
           </p>
 
           <div className='flex flex-row mt-4 sm:mt-[1.719vw] sm:justify-center gap-[2vw] sm:gap-[5vw]'>
@@ -171,11 +171,11 @@ const Footer = () => {
                 <path d="M166 1H0" stroke="#6B6B6B" stroke-width="1.42433" />
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
-                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
+                <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal">
                   <Link
                     href="services/e-commerce"
                   >
-                    E-Commerce
+                    eCommerce
                   </Link></p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
                   href="services/graphic-design"
@@ -222,7 +222,7 @@ const Footer = () => {
                 </p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link href="/services/digital-marketing" >
-                    DIgital Marketing
+                    Digital Marketing
                   </Link>
                 </p>
               </div>
@@ -236,7 +236,7 @@ const Footer = () => {
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"><Link
                   href="services/real-estate"
                 >
-                  Real Estate
+                  Real Estate VAs
                 </Link>
                 </p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
@@ -271,10 +271,10 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div className=" flex gap-[2vw] ">
+          {/* <div className=" flex gap-[2vw] ">
             <div className="sm:hidden h-[4.487vw] bg-white w-[0.3vw] mt-[1vw] "></div>
             <p className='text-white text-[4.103vw] sm:text-[1.042vw] font-normal'>Support</p>
-          </div>
+          </div> */}
           <div className="sm:hidden flex flex-col gap-[2vw] text-center items-center justify-between mt-[4vw]">
             <Link className="flex flex-row items-center gap-[2.564vw]" href="mailto:hello@possesivepanda.com">
               <SlEnvolopeLetter className="size-[4.5vw]  mr-[0.521vw] text-white" />

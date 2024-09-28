@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import Banner from "../../../../public/assets/banner/finalbanner.png";
@@ -6,7 +7,7 @@ import Leftbottom from "../../../../public/assets/banner/whitebottom.svg";
 import Righttop from "../../../../public/assets/banner/bluebottom.svg";
 import Rightbottom from "../../../../public/assets/banner/bluetop.svg";
 
-const FinalBanner = () => {
+const FinalBanner = ({ title, desciption }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -29,11 +30,11 @@ const FinalBanner = () => {
 
       <div className={`relative z-10 h-full mt-[2.9vw] flex flex-col items-center justify-center text-white px-[0.833vw] transition-opacity duration-[1500ms] ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
         <h1 className={`px-[7.059vw] text-center text-white sm:text-[3.333vw] text-[7.529vw] font-normal mb-[0.938vw] transform transition-transform duration-[1500ms] ease-in-out ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
-          Our eCommerce Services and Solutions
+          {title}
         </h1>
 
         <p className={`sm:w-[32.135vw] w-[76.941vw] text-center text-white sm:text-[1.042vw] text-[3.765vw] font-light mb-[3.385vw] transform transition-transform duration-[1500ms] ease-in-out delay-200 ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
-          We Create, Enhance, and Oversee - Allowing You to Focus on What's More Important: Growing Your Business
+          {desciption}
         </p>
 
         <div className={`flex flex-col sm:flex-row space-x-0 sm:space-x-[0.833vw] transform transition-transform duration-[1500ms] ease-in-out delay-300 ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>

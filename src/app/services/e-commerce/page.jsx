@@ -166,8 +166,10 @@ const Page = () => {
 
 
 
-      <FinalBanner />
-      <ReviewCardContainer/>
+      <FinalBanner
+        title={"Our eCommerce Services and Solutions"}
+        desciption={"We Create, Enhance, and Oversee - Allowing You to Focus on What’s More Important: Growing Your Business"}
+      />      <ReviewCardContainer />
       <div>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
@@ -187,7 +189,7 @@ const Page = () => {
       <Platforms platformsData={platformsData} />
       <Industries />
       <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
-     {/* <CostCalculator/> */}
+      {/* <CostCalculator/> */}
       <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
       <NewContact />
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />

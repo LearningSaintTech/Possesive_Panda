@@ -26,12 +26,24 @@ import Img9 from "../../../../public/assets/salesforce.svg"
 
 const faq = [
   {
-    title: "Why do I need E-commerce solutions?",
-    description: `E-commerce solutions help in smooth-running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics. `,
+    title: "Why should you choose Possesive Panda as your eCommerce partner?",
+    description: `Possesive Panda is a reliable and reputable eCommerce service and solutions provider, catering to each and every need of the clients. We deliver eCommerce solutions in their totality, ranging from building an eCommerce platform to delivering your products seamlessly.`,
   },
   {
-    title: "Is your e-commerce target mobile-friendly?",
-    description: `Each site we have worked on has been mobile-friendly. With our unique plans, strategies, we assure that the site works on a variety of screen sizes, from cell phones and tablets to large desktops.`,
+    title: "How much will it cost to build an eCommerce platform?",
+    description: `Depending on the features required, the intricacy of the platform, and the resources and experience of the development team, the price of creating an eCommerce website can vary greatly. Working with an experienced development team that can provide accurate estimates and milestones is crucial. If you want to know about this, then have a quick meeting with our consultant and resolve every doubt of yours.`,
+  },
+  {
+    title: "Do we integrate third-party tools and services into your eCommerce site?",
+    description: `Yes, we incorporate necessary third-party solutions to improve your online store. We can help with everything from payments (Stripe, PayPal) and marketing automation (Mailchimp, Klaviyo) to shipping (ShipStation, EasyPost), analytics (Google Analytics), and shipment.`,
+  },
+  {
+    title: "Why do I need E-commerce solutions?",
+    description: `E-commerce solutions help in the smooth running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics.`,
+  },
+  {
+    title: "How do I choose the right e-commerce platform?",
+    description: `When choosing an e-commerce platform, consider factors such as ease of use, scalability, cost, customization options, and your business's specific needs.`,
   },
   {
     title: "How will I follow up on my e-commerce website development project?",
@@ -39,16 +51,7 @@ const faq = [
   },
   {
     title: "How long does it take to design and launch an e-commerce website?",
-    description: `This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline. `,
-  },
-  {
-    title: "How do I choose the right e-commerce platform?",
-    description: `When choosing an e-commerce platform, consider factors such as ease of use, scalability, cost, customization options, and your business's specific needs.
-`,
-  },
-  {
-    title: "How do I increase traffic to my e-commerce website?",
-    description: `By optimizing for search engines, running targeted ads, engaging on social media, and creating valuable content that attracts visitors.`,
+    description: `This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline.`,
   },
 ];
 

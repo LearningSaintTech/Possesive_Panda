@@ -103,7 +103,6 @@ const OurWorks = () => {
                         {/* Hover effect text */}
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             {/* A separate div for the blur effect */}
-                            <div className="w-full h-full backdrop-blur-0"></div>
                         </div>
 
                         <div className="absolute inset-x-0 bottom-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out">
