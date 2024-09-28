@@ -1,10 +1,10 @@
 import React from 'react'
-
-
+import Image from 'next/image'
+import img1 from '../../../../public/assets/services/seo/improvebackground.svg'
 const Improve = () => {
     return (
         <div className='bg-[#00111A] h-full relative flex flex-col items-center justify-center '>
-            <img src="/assets/services/seo/improvebackground.svg"
+            <Image src={img1}
                 alt=""
                 className='hidden sm:block relative inset-0 w-full h-full object-cover mix-blend-overlay'
             />

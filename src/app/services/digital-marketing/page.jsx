@@ -127,7 +127,7 @@ const page = () => {
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Digital Marketing Solutions we Develope" />
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Digital Marketing Solutions we Develop" />
       </div>
       <div className='sm:mt-[5.729vw] mt-[7.5vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />

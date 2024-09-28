@@ -69,7 +69,7 @@ const WhyChoose = () => {
                     Why choose Possesive Panda for Hiring Virtual Assistants?
                 </h2>
                 <p className="text-white text-[1.25vw] font-normal">
-                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business's sustainability and growth.
+                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business&apos;s sustainability and growth.
                 </p>
             </div>
 
@@ -105,7 +105,7 @@ const WhyChoose = () => {
                     Why choose Possesive Panda for Hiring Virtual Assistants?
                 </h2>
                 <p className="text-white text-[3.765vw] font-normal">
-                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business's sustainability and growth.
+                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business&apos;s sustainability and growth.
                 </p>
             </div>
 

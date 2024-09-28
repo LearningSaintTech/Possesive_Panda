@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 export const Platforms = ({ platformsData }) => {
   return (
     <div className='px-[9vw] text-left bg-[#00111A] justify-center items-center gap-[10.99vw] flex sm:flex-row flex-col'>

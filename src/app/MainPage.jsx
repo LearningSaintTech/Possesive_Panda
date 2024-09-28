@@ -16,6 +16,7 @@ import Faq from "./(homeComponent)/(FaqSection)/section";
 import Canvas from "./(homeComponent)/Canvas";
 import ToolsTech from '../app/services/(CommonComponent)/ToolsTech';
 
+import WorldClocks from "./(homeComponent)/WorldClocks";
 
 const MainPage = () => {
   const whyUsRef = useRef(null);
@@ -58,6 +59,9 @@ const MainPage = () => {
           </div>
           <div className="sm:mt-[7.188vw] mt-[14.118vw] ">
             <Contact />
+          </div>
+          <div className="sm:mt-[7.969vw] ">
+          <WorldClocks/>
           </div>
           <div className="sm:mt-[5.208vw] mt-[14.118vw] ">
             <Blogs />

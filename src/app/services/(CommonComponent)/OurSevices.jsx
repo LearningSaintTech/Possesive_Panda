@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { FaArrowRight } from "react-icons/fa6";
+import React, { useState, useRef, useEffect } from "react";
+import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa6";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,7 +26,7 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: '0px',
+        centerPadding: "0px",
         arrows: false,
     };
 
@@ -52,18 +52,17 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                                     <div className="flex items-center gap-[0.573vw]">
                                         <div className="text-[#04b7df] w-[2vw] h-[2vw] relative flex-shrink-0">
                                             {React.cloneElement(iconMapping1[service.icon], {
-                                                className: 'w-full h-full'
+                                                className: "w-full h-full",
                                             })}
                                         </div>
                                         <h5 className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.title}
                                         </h5>
                                     </div>
+                                    {/* Smooth expanding/collapsing with dynamic max-height */}
                                     <div
-                                        className={`pt-[1.094vw] w-[23.719vw] transition-all duration-300 ease-in-out ${expandedLines[lineData.line] || lineData.line === 4
-                                            ? ""
-                                            : "line-clamp-2"
-                                            }`}
+                                        className={`pt-[1.094vw] w-[23.719vw] transition-all duration-700 ease-in-out overflow-hidden ${expandedLines[lineData.line] ? "max-h-[50vw]" : "max-h-[4.5vw]"}`
+                                        }
                                     >
                                         <p className="text-[#babcd2] text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.description}
@@ -73,16 +72,19 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                             ))}
                         </div>
 
-                        {lineData.line < 4 && (
-                            <div className="text-left mt-[2vw]">
-                                <button
-                                    onClick={() => toggleExpandLine(lineData.line)}
-                                    className="text-white/75 text-[1.146vw] font-normal border border-[#2a2b3a] rounded-full px-[1.5vw] py-[0.5vw] hover:bg-[#04b7df] hover:text-white transition duration-300 ease-in-out"
-                                >
-                                    {expandedLines[lineData.line] ? "See Less" : "See More"}
-                                </button>
-                            </div>
-                        )}
+                        <div className="text-left mt-[2vw]">
+                            <button
+                                onClick={() => toggleExpandLine(lineData.line)}
+                                className="text-white/75 text-[1.146vw] font-normal border border-[#2a2b3a] rounded-full px-[1.5vw] py-[0.5vw] hover:bg-[#04b7df] hover:text-white transition duration-300 ease-in-out flex items-center gap-[0.5vw]" // Added flex and gap for icon spacing
+                            >
+                                {expandedLines[lineData.line] ? "See Less" : "See More"}
+                                {expandedLines[lineData.line] ? (
+                                    <FaChevronUp className="ml-2" /> // Upward icon for "See Less"
+                                ) : (
+                                    <FaChevronDown className="ml-2" /> // Downward icon for "See More"
+                                )}
+                            </button>
+                        </div>
 
                         <div className="h-[0.2vw] w-full bg-[#2a2b3a] mt-[4.167vw]"></div>
                     </React.Fragment>
@@ -93,14 +95,10 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
             <div className="sm:hidden">
                 <div className="px-[30px]">
                     <h6 className="w-full text-center text-white text-[7.529vw] font-medium">
-                        Our E-commerce Services
+                        {heading}
                     </h6>
                     <p className="w-full text-center text-white text-[3.765vw] font-normal mt-[3.765vw]">
-                        At Possesive Panda, we deliver a unique and personalized eCommerce
-                        experience for your business. For eCommerce design, eCommerce
-                        development platforms, eCommerce SEO, shopping campaigns, analytics,
-                        and hosting, we integrate our experience and expertise to make your
-                        business at the forefront.
+                        {subHeading}
                     </p>
                     <div className="w-[43.294vw] h-[8.471vw] mx-auto mt-[7.529vw] mb-[7.529vw] rounded-[14.118vw] border border-white/60 flex justify-center items-center gap-[2.824vw]">
                         <p className="text-white/70 text-[2.824vw] font-medium">
@@ -113,11 +111,14 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                         <div key={index} className="w-full mt-[3.765vw]">
                             <Slider {...settings}>
                                 {row.services.map((service, serviceIndex) => (
-                                    <div key={serviceIndex} className="flex flex-col px-2">
+                                    <div
+                                        key={serviceIndex}
+                                        className="flex flex-col px-2"
+                                    >
                                         <div className="flex gap-[3vw] items-center">
                                             <div className="text-[#04b7df] w-[6vw] h-[6vw] relative flex-shrink-0">
                                                 {React.cloneElement(iconMapping1[service.icon], {
-                                                    className: 'w-full h-full'
+                                                    className: "w-full h-full",
                                                 })}
                                             </div>
                                             <h6 className="text-white text-[3.765vw] font-medium">

@@ -16,7 +16,7 @@ import Scrollbar from '../(CommonComponent)/Scrollbar'
 import Platforms from '../(CommonComponent)/Platforms'
 import Textanim from "../(CommonComponent)/TextAnimation"
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
-
+//import CostCalculator from "../(CommonComponent)/CostCalculator"
 import {
   faq,
   introServicesData,
@@ -39,7 +39,7 @@ import {
   StrategyData
 } from './data';
 import { smallfaqimage } from './images';
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Head from 'next/head';
 import Script from 'next/script';
 import AboutMarquee from '@/app/(Components)/AboutMarquee';
@@ -50,6 +50,7 @@ import IndustriesWe from '../(CommonComponent)/IndustriesWe';
 
 import Strategies from '../(CommonComponent)/Strategies';
 import NewContact from '../(CommonComponent)/NewContact';
+import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 
 // export const metadata = {
 //   title: 'Ecommerce Services | Ecommerce Management Solutions',
@@ -164,10 +165,11 @@ const Page = () => {
       </Script>
 
 
-      <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+      <FinalBanner
+        title={"Our eCommerce Services and Solutions"}
+        desciption={"We Create, Enhance, and Oversee - Allowing You to Focus on What’s More Important: Growing Your Business"}
       />
+      <ReviewCardContainer />
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
@@ -180,16 +182,10 @@ const Page = () => {
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
-      </div>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
-        <Customized />
-      </div>
-      <div className='sm:mt-[9.896vw] mt-[14.118vw] '>
-        <ToolsTech />
-      </div>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
+      <Customized />
+      <ToolsTech />
+      <div>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
       <div className='sm:mt-[7.292vw] mt-[14.118vw] '>

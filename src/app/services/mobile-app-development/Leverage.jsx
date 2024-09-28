@@ -1,4 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
+import img1 from '../../../../public/assets/services/mobile-app/Fingertips.svg'
+import img2 from '../../../../public/assets/services/mobile-app/precision.svg'
+import img3 from '../../../../public/assets/services/mobile-app/precision.svg'
+import img4 from '../../../../public/assets/services/mobile-app/uiux.svg'
 
 const Leverage = () => {
     return (
@@ -8,12 +13,12 @@ const Leverage = () => {
             </h2>
             <div className='flex flex-col sm:flex-row gap-[7.529vw] sm:gap-[3.958vw] '>
                 <div className='flex flex-col sm:gap-0 gap-[4vw] '>
-                    <img src="/assets/services/mobile-app/Fingertips.svg" alt="Fingertips" className='sm:w-[27.199vw] rounded-[0.648vw] sm:mb-[1.4vw] ' />
+                    <Image src={img1} alt="Fingertips" className='sm:w-[27.199vw] rounded-[0.648vw] sm:mb-[1.4vw] ' />
                     <h3 className='text-white text-[3.765vw] sm:text-[1.25vw] font-bold sm:font-semibold sm:mb-1 '>
                         Instant Access at Your Fingertips
                     </h3>
                     <p className='text-white text-[3.765vw] sm:text-[1.042vw] font-normal text-justify  sm:text-left hyphens-auto sm:w-[27.199vw] '>
-                        Imagine your brand always within reach, nestled comfortably in your customers' pockets. Mobile apps offer seamless access, sending timely notifications and keeping your brand’s icon front and center on their screens.                    </p>
+                        Imagine your brand always within reach, nestled comfortably in your customer&apos;s pockets. Mobile apps offer seamless access, sending timely notifications and keeping your brand&apos;s icon front and center on their screens.                    </p>
                 </div>
 
                 <div className='hidden sm:flex flex-col'>
@@ -22,11 +27,11 @@ const Leverage = () => {
                     </h3>
                     <p className='text-white text-[3.765vw] sm:text-[1.042vw] font-normal  sm:mb-[1.4vw]'>
                         Relying solely on websites and web apps? Mobile apps wield unmatched power, tapping directly into device hardware, delivering superior performance, and crafting experiences tailored precisely to user needs.                    </p>
-                    <img src="/assets/services/mobile-app/precision.svg" alt="precision" className='sm:w-[27.199vw] rounded-[0.648vw] ' />
+                    <Image src={img2} alt="precision" className='sm:w-[27.199vw] rounded-[0.648vw] ' />
                 </div>
 
                 <div className='sm:hidden flex flex-col sm:gap-0 gap-[5.647vw]'>
-                    <img src="/assets/services/mobile-app/precision.svg" alt="precision" className='sm:w-[27.199vw] rounded-[0.648vw] ' />
+                    <Image src={img3} alt="precision" className='sm:w-[27.199vw] rounded-[0.648vw] ' />
 
                     <h3 className='text-white text-[3.765vw] sm:text-[1.25vw] font-bold sm:font-semibold sm:mb-1'>
                         Outpacing Web Apps with Precision
@@ -36,7 +41,7 @@ const Leverage = () => {
                 </div>
 
                 <div className='flex flex-col sm:gap-0 gap-[5.647vw] '>
-                    <img src="/assets/services/mobile-app/uiux.svg" alt="uiux" className='sm:w-[27.199vw] rounded-[0.648vw] sm:mb-[1.4vw] ' />
+                    <Image src={img4} alt="uiux" className='sm:w-[27.199vw] rounded-[0.648vw] sm:mb-[1.4vw] ' />
                     <h3 className='text-white text-[3.765vw] sm:text-[1.25vw] font-bold sm:font-semibold sm:mb-1 '>
                         Elevated Mobile UI/UX
                     </h3>

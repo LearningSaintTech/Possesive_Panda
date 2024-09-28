@@ -17,13 +17,13 @@ const TextAnimation = () => {
         const firstScrollProgress = Math.min(1, Math.max(0, (windowHeight - firstTop) / firstHeight));
         const secondScrollProgress = Math.min(1, Math.max(0, (windowHeight - secondTop) / secondHeight));
 
-        firstTextElement.style.backgroundImage = linear-gradient(to right, white ${firstScrollProgress * 100}%, grey ${firstScrollProgress * 100}%);
+        firstTextElement.style.backgroundImage = linear-gradient('to right, white ${firstScrollProgress * 100}%, grey ${firstScrollProgress * 100}%');
         firstTextElement.style.webkitBackgroundClip = 'text';
         firstTextElement.style.backgroundClip = 'text';
         firstTextElement.style.color = 'transparent';
 
         if (firstScrollProgress === 1) {
-          secondTextElement.style.backgroundImage = linear-gradient(to right, white ${secondScrollProgress * 100}%, grey ${secondScrollProgress * 100}%);
+          secondTextElement.style.backgroundImage = linear-gradient('to right, white ${secondScrollProgress * 100}%, grey ${secondScrollProgress * 100}%');
           secondTextElement.style.webkitBackgroundClip = 'text';
           secondTextElement.style.backgroundClip = 'text';
           secondTextElement.style.color = 'transparent';

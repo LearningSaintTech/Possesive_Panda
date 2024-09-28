@@ -155,7 +155,7 @@ const OurServices = () => {
             Our Delivery Framework
           </h1>
           <p className="text-white text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] sm:tracking-[0.015rem] text-center sm:text-left sm:mb-0 mb-[10vw]">
-            &quot;We believe in delivering success with every step we take. Possesive Panda excels at providing IT services like E-Commerce, Mobile App Development, Web Development, Digital Marketing, and Virtual Assistant.&quot;
+            To thrive on customer satisfaction, we've crafted a dynamic project delivery model that's all about synergy and stellar results. Our approach blends collaboration with success, ensuring that each project not only meets but exceeds expectations.
           </p>
         </div>
         <Image
@@ -163,7 +163,7 @@ const OurServices = () => {
           alt="panda"
           className="hidden md:block size-[24.865vw] relative -top-[4.4vw] h-fit"
         />
-        
+
       </div>
 
 
@@ -200,7 +200,7 @@ const OurServices = () => {
           <p className="md:text-[1.8vw] text-[4.103vw] text-white text-center font-normal md:mt-3 mt-[5.128vw] leading-[normal] tracking-[0.038vw]">At this stage, the focus shifts to executing the implementation plan. Key activities include using Agile methodology for iterative delivery, allowing continuous feedback and improvement based on customer input. Ensuring quality assurance via user acceptance testing (UAT).</p>
         </div>
       </div>
-      
+
     </div>
   );
 };

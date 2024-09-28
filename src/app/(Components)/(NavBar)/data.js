@@ -10,7 +10,7 @@ const premiumServicesData = [
 const serviceContent = {
   Services: [
     {
-      name: "E-Commerce Solutions",
+      name: "eCommerce Solutions",
       link: "e-commerce"
     },
     {
@@ -22,7 +22,7 @@ const serviceContent = {
       link: "graphic-design",
     },
     {
-      name: "Web Development",
+      name: "Web App Development",
       link: "web-development",
     },
   ],

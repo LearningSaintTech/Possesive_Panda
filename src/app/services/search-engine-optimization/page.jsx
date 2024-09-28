@@ -149,7 +149,7 @@ const page = () => {
         <Improve />
       </div>
       <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develope" />
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develop" />
       </div>
       <div className='sm:mt-[6.5vw] mt-[9vw] '>
         <ToolTech />

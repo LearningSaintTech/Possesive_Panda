@@ -3,12 +3,11 @@ import { useRef, useState } from "react";
 import Image from 'next/image';
 import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
-import dotcom from "../../assets/portfolio/com.svg";
-import HRMS from "../../assets/portfolio/HRMS.svg";
-import dotin from "../../assets/portfolio/in.svg";
-import recess from "../../assets/portfolio/recess.svg";
-import trucks from "../../assets/portfolio/truck.svg";
-
+import dotcom from "../../../public/assets/portfolio/com.svg";
+import HRMS from "../../../public/assets/portfolio/hr.svg";
+import dotin from "../../../public/assets/portfolio/learin.svg";
+import recess from "../../../public/assets/portfolio/rec.svg";
+import trucks from "../../../public/assets/portfolio/trucking.svg";
 
 const OurWorks = () => {
     const scrollContainerRef = useRef(null);
@@ -19,7 +18,7 @@ const OurWorks = () => {
     const handleMouseDown = (e) => {
         if (scrollContainerRef.current) {
             e.preventDefault();
-            e.stopPropagation(); // Prevent default behavior and stop event propagation
+            e.stopPropagation();
             setIsDragging(true);
             setStartX(e.pageX - scrollContainerRef.current.offsetLeft);
             setScrollLeft(scrollContainerRef.current.scrollLeft);
@@ -45,9 +44,17 @@ const OurWorks = () => {
         if (!isDragging || !scrollContainerRef.current) return;
         e.preventDefault();
         const x = e.pageX - scrollContainerRef.current.offsetLeft;
-        const walk = (x - startX) * 1; // Adjust scroll speed for smoother effect
+        const walk = (x - startX) * 1;
         scrollContainerRef.current.scrollLeft = scrollLeft - walk;
     };
+
+    const cardData = [
+        { src: dotcom, alt: "Project 1", text: "Learning Saint", info: "Leading EdTech Course Provider" },
+        { src: HRMS, alt: "Project 2", text: "HRMS PORTAL", info: "Human Resource Management System" },
+        { src: dotin, alt: "Project 3", text: "Learning Saint Bharat", info: "Indian Competitive Exam Preparation Platform" },
+        { src: recess, alt: "Project 4", text: "Recess", info: "Non-alcoholic Beverage Brand" },
+        { src: trucks, alt: "Project 5", text: "M.T.G.", info: "Professional Transport Service Provide" },
+    ];
 
     return (
         <div className="flex sm:flex-row flex-col pt-[13.385vw] sm:pt-[7vw] md:pt-[0vw] lg:pt-[7.813vw] pb-0 lg:pb-[5vw] pl-[6.692vw] lg:pl-[5.208vw] bg-[#00111A] text-white relative sm:px-0 px-[7.69vw] md:pl-[5.208vw] lg:px-0">
@@ -79,50 +86,31 @@ const OurWorks = () => {
                 onMouseLeave={handleMouseLeave}
                 onMouseUp={handleMouseUp}
                 onMouseMove={handleMouseMove}
-                className="sm:flex sm:gap-[0.417vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[3.5vw] sm:overflow-x-auto cursor-grab no-scrollbar select-none" // Disable text selection
+                className="sm:flex sm:gap-[0.417vw] w-full sm:px-[2.083vw] py-[1.042vw] sm:ml-[3.5vw] sm:overflow-x-auto cursor-grab no-scrollbar select-none"
                 style={{ scrollBehavior: 'smooth' }}
             >
-                {/* Image Cards */}
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:-ml-[2.083vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
-                    <Image
-                        className="sm:absolute sm:mb-0 mb-[7vw] inset-[0vw] w-full h-full object-cover pointer-events-none" // Disable pointer events on images during drag
-                        src={dotcom}
-                        alt="Project 1"
-                        onDragStart={(e) => e.preventDefault()} // Prevent drag event on image
-                    />
-                </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
-                    <Image
-                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
-                        src={HRMS}
-                        alt="Project 2"
-                        onDragStart={(e) => e.preventDefault()}
-                    />
-                </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
-                    <Image
-                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
-                        src={dotin}
-                        alt="Project 3"
-                        onDragStart={(e) => e.preventDefault()}
-                    />
-                </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
-                    <Image
-                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
-                        src={recess}
-                        alt="Project 4"
-                        onDragStart={(e) => e.preventDefault()}
-                    />
-                </div>
-                <div className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden">
-                    <Image
-                        className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
-                        src={trucks}
-                        alt="Project 5"
-                        onDragStart={(e) => e.preventDefault()}
-                    />
-                </div>
+                {cardData.map((card, index) => (
+                    <div
+                        key={index}
+                        className="flex-none sm:w-[31.25vw] h-auto sm:h-[31.25vw] sm:ml-[1vw] relative rounded-[0.909vw] sm:rounded-[1.254vw] overflow-hidden group"
+                    >
+                        <Image
+                            className="sm:absolute sm:mb-0 mb-[7vw] inset-0 w-full h-full object-cover pointer-events-none"
+                            src={card.src}
+                            alt={card.alt}
+                            onDragStart={(e) => e.preventDefault()}
+                        />
+                        {/* Hover effect text */}
+                        <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            {/* A separate div for the blur effect */}
+                        </div>
+
+                        <div className="absolute inset-x-0 bottom-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out">
+                            <span className="block text-[5.647vw]  sm:text-[2.083vw] font-semibold text-white sm:mb-[0.138vw] sm:ml-[2.135vw] opacity-85 tracking-wide">{card.text}</span>
+                            <span className="block text-[3.765vw] sm:text-[1.25vw] text-white sm:ml-[2.135vw] sm:mb-[1.875vw] mb-[8vw] opacity-70">{card.info}</span>
+                        </div>
+                    </div>
+                ))}
 
                 {/* Button */}
                 <div className="hidden sm:block flex-none w-[31.25vw] h-[31.25vw] sm:ml-[1vw] relative rounded-[1.254vw] bg-white flex items-center justify-center">

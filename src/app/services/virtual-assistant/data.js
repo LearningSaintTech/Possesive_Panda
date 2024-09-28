@@ -5,12 +5,12 @@ import faqimg22 from "../../../../public/assets/assets/services/e-commerce/faq22
 
 const faq = [
   {
-    title: `What is a virtual assistant?`,
-    description: `A virtual assistant is a person who provides administrative, technical, or creative support to clients remotely.`,
+    title: `Who is a Virtual Assistant? `,
+    description: `A virtual assistant is an individual who specializes in a particular skillset and offers the services of relevant businesses and industries remotely. `,
   },
   {
-    title: `What services can a virtual assistant provide?`,
-    description: `Virtual assistants can handle a wide range of tasks, including email management, scheduling, data entry, customer service, social media management, content creation, research, and more.`,
+    title: `Which services can a virtual assistant provide? `,
+    description: `You just name it. Virtual assistants come with many benefits and also industry expertise offering services like administrative operations, email management, client handling, meeting management, real estate services, healthcare services, digital marketing, eCommerce support, customer support, and many more.`,
   },
   {
     title: `What are the benefits of hiring virtual assistants?`,
@@ -28,7 +28,12 @@ const faq = [
     title: `How do I train a virtual assistant?`,
     description: `Provide clear instructions, access to necessary tools, and continuous feedback.`,
   },
+  {
+    title: `What are the prices for virtual assistants provided by Possesive Panda?`,
+    description: `Depending on the processes or services you want to hire, we assure dynamic pricing at best. If you want to know more, kindly click on the circle.`,
+  },
 ];
+
 
 
 const smallfaqimage = {
@@ -102,20 +107,7 @@ const smallfaqdata = [
     title: "Scalability ",
     data: "Based on your industry-led projects and requirements, virtual assistants can be a great asset in amplifying your business scale, whether it is a startup, a growing business, or an enterprise.",
   },
-  {
-    key: 6,
-    title: "Improved Customer Success ",
-    data: "Virtual assistants are considered masters of handling customers because of their specialized people handling skills and they also enable customer success and loyalty, which is important for overall business success. ",
-  },
-  {
-    key: 7,
-    title: "Better Work-Life Balance ",
-    data: "By hiring a virtual assistant for your businesses, you can thrive on your personal and professional work-life balance, allowing you to have a strong hold on your business deadlines and family commitments.",
-  }, {
-    key: 8,
-    title: "Enhanced Online Presence  ",
-    data: "Digital success is what every business owner seeks, because it can provide you with many customer-entrancing opportunities. You can hire virtual assistants to help your business grow online. ",
-  },
+
 ];
 
 
