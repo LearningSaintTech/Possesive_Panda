@@ -49,7 +49,7 @@ const TextAnimation = () => {
           className="sm:text-[3.53vw] md:text-[4.1667vw] text-[1.667vw] font-medium max-w-[90vw] leading-tight"
         >
           24/7 Professional Assistance
-        </h1>
+        </p>
       </div>
       <div className="text-center mt-4">
         <p
