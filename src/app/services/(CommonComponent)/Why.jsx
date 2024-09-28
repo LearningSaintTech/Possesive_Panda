@@ -16,6 +16,9 @@ const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }
                     <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-light text-center sm:text-left sm:w-[55.729vw]'>
                         {subText2}
                     </p>
+
+
+
                 </div>
                 <Image
                     src={thumbnail}
@@ -27,7 +30,9 @@ const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }
             </div>
 
             <div className='flex flex-col gap-[7.529vw] sm:gap-[3.646vw] bg-[#00111A]'>
-
+                <p className='text-white text-[3.765vw] sm:text-[1.667vw] font-normal text-center sm:text-left sm:w-[55.729vw]'>
+                    {listHeading}
+                </p>
                 <div className='grid sm:grid-cols-2 sm:gap-x-[4.479vw] gap-y-[2.353vw] sm:gap-y-[1.042vw]'>
                     {titles.map((item, index) => (
                         <div
@@ -40,6 +45,7 @@ const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     );
