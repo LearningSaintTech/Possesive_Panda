@@ -23,7 +23,6 @@ import {
 import Faq from '../(Components)/(Faq)/Faq';
 import Head from 'next/head';
 import NewContact from '../(CommonComponent)/NewContact';
-import TextAnimation from '../(CommonComponent)/TextAnimation';
 
 export const metadata = {
   title: ' Real Estate Virtual Assistant Services | Hire Realtor Virtual Assistant',
@@ -155,7 +154,8 @@ const page = () => {
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <WhyChoose />
-        <TextAnimation />      </div>
+        <TextAnimation />      
+        </div>
       <div className='sm:block hidden mt-[7vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />

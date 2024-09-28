@@ -176,16 +176,22 @@ const Page = () => {
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
-      <div className='sm:mt-[6.042vw] mt-[14.118vw] '>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
         <Benefits />
       </div>
-      <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
-      <Customized />
-      <ToolsTech />
-      <div>
+      <div className="sm:mt-[7.813vw] mt-[14.118vw]  ">
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
+      </div>
+      <div className='sm:mt-[5.5vw] mt-[14.118vw] '>
+        <Customized />
+      </div>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
+        <ToolsTech />
+      </div>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
       <div className='sm:mt-[7.292vw] mt-[14.118vw] '>
