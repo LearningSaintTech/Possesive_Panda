@@ -146,15 +146,22 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer/>
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <HoverImageComp hoverImageData={hoverImageData} />
-      <Improve />
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develop" />
-      <ToolTech />
-
-      <div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
+        <HoverImageComp hoverImageData={hoverImageData} />
+      </div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
+        <Improve />
+      </div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develop" />
+      </div>
+      <div className='sm:mt-[6.5vw] mt-[9vw] '>
+        <ToolTech />
+      </div>
+      <div className='sm:mt-[6.5vw] mt-[14vw] '>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}
@@ -164,15 +171,22 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div className='mt-[10vw]'>
+      <div className='sm:block hidden mt-[7vw] '>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <div>
+      <div className='sm:mt-[2vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <Industries />
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      <div className='sm:mt-[6.5vw] mt-[14vw] '>
+        <Industries />
+      </div>
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

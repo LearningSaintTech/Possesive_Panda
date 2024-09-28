@@ -5,7 +5,7 @@ import Circle from '../../../../public/assets/Circle.svg'
 import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] })
 
-const Solutions = ({ paragraphs, buttonData,title }) => {
+const Solutions = ({ paragraphs, buttonData, title }) => {
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [isSliding, setIsSliding] = useState(false);
 
@@ -115,9 +115,9 @@ const Solutions = ({ paragraphs, buttonData,title }) => {
 
                 </div>
                 <div className='flex flex-col' >
-                <p className='text-white text-[0.833vw] ml-[-3vw]'>Possesive Panda</p>
-                                    <p className='text-white text-[2.5vw] ml-[-20vw] '>{title}</p>
-      
+                    <p className='text-white text-[0.833vw] ml-[-3vw]'>Possesive Panda</p>
+                    <p className='text-white text-[2.5vw] ml-[-20vw] '>{title}</p>
+
                     <div style={{ position: "relative", overflow: "visible", top: "3.813vw", left: "-19.271vw" }}>
                         <div style={{ position: "absolute", }}>
                             {paragraphs.map((paragraph, index) => (
@@ -163,101 +163,101 @@ const Solutions = ({ paragraphs, buttonData,title }) => {
                                     >
                                         {paragraph.number}
                                     </p>
-                                  <div className='flex flex-col'>
-                                   <div
-                                        className="text-white flex flex-col gap-[1.667vw]"
-                                        style={{
-                                            zIndex: 2,
-                                            transition: "transform 0.5s ease, opacity 0.5s ease",
-                                            transform:
-                                                selectedIndex === index
-                                                    ? "translateY(0)"
-                                                    : selectedIndex > index
-                                                        ? "translateY(-100%)"
-                                                        : "translateY(100%)",
-                                        }}
-                                    >
-                                        
-                                        <div className="relative flex flex-col bg-[#131D22] border-none  rounded-[0.521vw] overflow-hidden justify-center gap-[0.833vw] py-[1.667vw] px-[1.615vw]"
+                                    <div className='flex flex-col'>
+                                        <div
+                                            className="text-white flex flex-col gap-[1.667vw]"
                                             style={{
-
-                                                background: "linear-gradient(180deg, rgba(135, 156, 196, 0.00) 0.16%, rgba(135, 156, 196, 0.25) 158.15%), linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%), #131D22",
-
+                                                zIndex: 2,
+                                                transition: "transform 0.5s ease, opacity 0.5s ease",
+                                                transform:
+                                                    selectedIndex === index
+                                                        ? "translateY(0)"
+                                                        : selectedIndex > index
+                                                            ? "translateY(-100%)"
+                                                            : "translateY(100%)",
                                             }}
                                         >
-                                            <div className="absolute rounded-[13.594vw] w-[16.594vw] h-[4.594vw] left-60 -top-5"
+
+                                            <div className="relative flex flex-col bg-[#131D22] border-none  rounded-[0.521vw] overflow-hidden justify-center gap-[0.833vw] py-[1.667vw] px-[1.615vw]"
                                                 style={{
-                                                    background: "linear-gradient(180deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.10) 50%), radial-gradient(circle, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.10) 70%)",
-                                                    filter: 'blur(2.604vw)',
-                                                    boxShadow: '0 0.417vw 0.833vw rgba(0, 0, 0, 0.2)',
-                                                }}>
+
+                                                    background: "linear-gradient(180deg, rgba(135, 156, 196, 0.00) 0.16%, rgba(135, 156, 196, 0.25) 158.15%), linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%), #131D22",
+
+                                                }}
+                                            >
+                                                <div className="absolute rounded-[13.594vw] w-[16.594vw] h-[4.594vw] left-60 -top-5"
+                                                    style={{
+                                                        background: "linear-gradient(180deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.10) 50%), radial-gradient(circle, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.10) 70%)",
+                                                        filter: 'blur(2.604vw)',
+                                                        boxShadow: '0 0.417vw 0.833vw rgba(0, 0, 0, 0.2)',
+                                                    }}>
+                                                </div>
+
+                                                <p className="text-white font-medium text-[1.667vw]"
+                                                    style={{
+                                                        background: "linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.10) 45%)",
+                                                        WebkitBackgroundClip: "text",
+                                                        backgroundClip: "text",
+                                                        color: "transparent",
+                                                    }}
+
+
+                                                >
+
+                                                    {paragraph.heading1}</p>
+                                                <p className="w-[41.354vw] text-white text-[1.042vw] opacity-[0.65]">{paragraph.text1}</p>
                                             </div>
 
-                                            <p className="text-white font-medium text-[1.667vw]"
+
+
+
+
+
+                                            <div className="py-[1.667vw] bg-[#131D22] relative overflow-hidden border-none  rounded-[0.521vw] justify-center gap-[1.667vw] px-[1.615vw]"
                                                 style={{
-                                                    background: "linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.10) 45%)",
-                                                    WebkitBackgroundClip: "text",
-                                                    backgroundClip: "text",
-                                                    color: "transparent",
+
+                                                    background: "linear-gradient(180deg, rgba(135, 156, 196, 0.00) 0.16%, rgba(135, 156, 196, 0.25) 158.15%), linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%), #131D22",
+
                                                 }}
-
-
                                             >
 
-                                                {paragraph.heading1}</p>
-                                            <p className="w-[41.354vw] text-white text-[1.042vw] opacity-[0.65]">{paragraph.text1}</p>
-                                        </div>
 
 
 
 
 
 
-                                        <div className="py-[1.667vw] bg-[#131D22] relative overflow-hidden border-none  rounded-[0.521vw] justify-center gap-[1.667vw] px-[1.615vw]"
-                                            style={{
+                                                <div className="absolute rounded-[13.594vw] w-[16.594vw] h-[4.594vw] left-60 -top-8"
+                                                    style={{
+                                                        background: "linear-gradient(180deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.10) 50%), radial-gradient(circle, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.10) 70%)",
+                                                        filter: 'blur(2.604vw)',
+                                                        boxShadow: '0 0.417vw 0.833vw rgba(0, 0, 0, 0.2)',
 
-                                                background: "linear-gradient(180deg, rgba(135, 156, 196, 0.00) 0.16%, rgba(135, 156, 196, 0.25) 158.15%), linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%), #131D22",
-
-                                            }}
-                                        >
-
-
-
+                                                    }}>
+                                                </div>
 
 
 
+                                                <p className="text-[1.667vw] font-medium text-white "
+                                                    style={{
+                                                        background: "linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.10) 45%)",
+                                                        WebkitBackgroundClip: "text",
+                                                        backgroundClip: "text",
+                                                        color: "transparent",
+                                                    }}
+                                                >{paragraph.heading2}</p>
+                                                <p className="w-[41.354vw] mt-[1.667vw] text-white text-[1.042vw]  opacity-[0.65]">{paragraph.text2}</p>
+                                                <ul className="gap-[0.417vw] ml-[1.667vw] mt-[1.667vw] flex list-disc	 flex-col">
 
-                                            <div className="absolute rounded-[13.594vw] w-[16.594vw] h-[4.594vw] left-60 -top-8"
-                                                style={{
-                                                    background: "linear-gradient(180deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.10) 50%), radial-gradient(circle, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.10) 70%)",
-                                                    filter: 'blur(2.604vw)',
-                                                    boxShadow: '0 0.417vw 0.833vw rgba(0, 0, 0, 0.2)',
-
-                                                }}>
+                                                    {paragraph.dotPoints.map((dot, i) => (
+                                                        <li key={i}
+                                                            className='opacity-[0.8] text-[1.042vw]'
+                                                        >{dot}</li>
+                                                    ))}
+                                                </ul>
                                             </div>
-
-
-
-                                            <p className="text-[1.667vw] font-medium text-white "
-                                                style={{
-                                                    background: "linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.10) 45%)",
-                                                    WebkitBackgroundClip: "text",
-                                                    backgroundClip: "text",
-                                                    color: "transparent",
-                                                }}
-                                            >{paragraph.heading2}</p>
-                                            <p className="w-[41.354vw] mt-[1.667vw] text-white text-[1.042vw]  opacity-[0.65]">{paragraph.text2}</p>
-                                            <ul className="gap-[0.417vw] ml-[1.667vw] mt-[1.667vw] flex list-disc	 flex-col">
-
-                                                {paragraph.dotPoints.map((dot, i) => (
-                                                    <li key={i}
-                                                        className='opacity-[0.8] text-[1.042vw]'
-                                                    >{dot}</li>
-                                                ))}
-                                            </ul>
                                         </div>
                                     </div>
-                                  </div>
                                 </div>
                             ))}
                         </div>
@@ -271,9 +271,9 @@ const Solutions = ({ paragraphs, buttonData,title }) => {
             <div className='sm:hidden block'>
                 {/* Flexbox container for all buttons */}
                 <div className='flex flex-col text-center justify-center items-center'>
-                <p className='text-white  text-[2.353vw] '>Possesive Panda</p>
-                                    <p className='text-white w-[85.882vw] text-[7.529vw] '>{title}</p>
-                                    </div>
+                    <p className='text-white  text-[2.353vw] '>Possesive Panda</p>
+                    <p className='text-white w-[85.882vw] text-[7.529vw] '>{title}</p>
+                </div>
                 <div className='flex items-center flex-wrap justify-center gap-x-[1.941vw] gap-y-[1.941vw] '>
                     {buttonData.map((text, index) => (
                         <button

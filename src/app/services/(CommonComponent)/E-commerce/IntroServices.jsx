@@ -4,7 +4,7 @@ import thumbnail from "../../../../../public/assets/services/e-commerce/thumbnai
 
 const IntroServices = ({ heading, content }) => {
     return (
-        <div className='flex flex-col bg-[#00111A] gap-[4.375vw] sm:px-[5.208vw] sm:py-[6.25vw] px-[7.059vw] py-[14.118vw]'>
+        <div className='flex flex-col bg-[#00111A] gap-[4.375vw] sm:px-[5.208vw] px-[7.059vw]'>
             <h2 className='text-white sm:text-[2.5vw] text-[7.529vw] font-medium tracking-[0.025vw] sm:w-[40.885vw] leading-normal text-center sm:text-left'>
                 {heading}
             </h2>

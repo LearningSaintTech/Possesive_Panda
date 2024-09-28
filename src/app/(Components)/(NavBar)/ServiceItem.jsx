@@ -33,10 +33,7 @@ const ServiceItem = ({ name = "", link = "" }) => {
     <Link href={link}>
       <div className="relative rounded-[0.3vw] border-l border-black border-opacity-20 pl-[1.563vw] pr-[4.7vw] h-[6.771vw] cursor-pointer">
         <h5
-          className="text-white hover:text-cyan-300 hover:font-bold text-[1.042vw] my-[1.823vw] font-medium leading-[normal] tracking-[0.013rem] h-fit w-[12vw]"
-          style={{
-            textShadow: "2px 2px 0px black, -2px 2px 0px black, 2px -2px 0px black, -2px -2px 0px black",
-          }}
+          className="text-white hover:text-[#60e2ff] hover:font-bold text-[1.042vw] my-[1.823vw] font-medium leading-[normal] tracking-[0.013rem] h-fit w-[12vw]"
         >
           {firstPart}
           <br />

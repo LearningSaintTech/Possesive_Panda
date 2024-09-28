@@ -62,7 +62,7 @@ const WhyChoose = () => {
 
     // Desktop and Tablet View
     const DesktopTabletView = () => (
-        <div className="bg-[#00111A] flex px-[5.208vw] py-[5.508vw] relative">
+        <div className="bg-[#00111A] flex px-[5.208vw]  relative">
             {/* Left Side Box */}
             <div className="w-[56.771vw] bg-[#131d22] relative py-[3.385vw] pl-[2.604vw] pr-[11.198vw]">
                 <h2 className="text-white text-[2.5vw] font-medium mb-[1.042vw]">

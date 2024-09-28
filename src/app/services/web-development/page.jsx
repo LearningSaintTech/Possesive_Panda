@@ -57,18 +57,16 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer/>
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop" />
-      <div>
+      <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop"  />
+      </div>
+      <div className='sm:block hidden mt-[4vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-
-
-
-
       <div>
         <Why
           mainHeading={whyData.mainHeading}
@@ -79,19 +77,22 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-
-
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
       <OurWeb />
-      <div>
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
-      <OurEngagement />
-
+      <div>
+        <OurEngagement />
+      </div>
       <ToolsTech />
-
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

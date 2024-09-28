@@ -165,7 +165,6 @@ const Page = () => {
       </Script>
 
 
-
       <FinalBanner
         title={"Our eCommerce Services and Solutions"}
         desciption={"We Create, Enhance, and Oversee - Allowing You to Focus on What’s More Important: Growing Your Business"}
@@ -174,32 +173,56 @@ const Page = () => {
         pointthree={"Scalable"}
         pointfour={"Tailored"}
       />
+
       <ReviewCardContainer />
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <div>
+      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <IntroServices heading={introServicesData.heading} content={introServicesData.content} />
       </div>
-      <Benefits />
-      <div>
+      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
+        <Benefits />
+      </div>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} title={titleData.title} />
       </div>
-      <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
-      <Customized />
-      <ToolsTech />
-      <div>
+      <div className="sm:mt-[7.813vw] mt-[14.118vw]  ">
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions We Develop" />
+      </div>
+      <div className='sm:mt-[5.5vw] mt-[14.118vw] '>
+        <Customized />
+      </div>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
+        <ToolsTech />
+      </div>
+      <div className='sm:mt-[6vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <Platforms platformsData={platformsData} />
-      <Industries />
-      <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
-      {/* <CostCalculator/> */}
-      <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
-      <NewContact />
-      <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
-      <Faq faq={faq} />
-      <Footer />
+      <div className='sm:mt-[7.292vw] mt-[14.118vw] '>
+        <Platforms platformsData={platformsData} />
+      </div>
+      <div className='sm:mt-[7.292vw] mt-[14.118vw] '>
+        <Industries />
+      </div>
+      <div className='sm:mt-[5.208vw] mt-[40.118vw]'>
+        <Strategies StrategyData={StrategyData} title="Our eCommerce Website Development Strategies" />
+      </div>
+      <div className='sm:mt-[7.813vw] mt-[14.118vw]'>
+        <FaqSection smallfaqdata={smallfaqdata} smallfaqImg={smallfaqimage} heading="Choose Possesive Panda as Your Digital Success Partner " />
+      </div>
+      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+        <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
+      <div>
+        <Faq faq={faq} />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

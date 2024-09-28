@@ -75,10 +75,10 @@ const Nav = () => {
   return (
     <nav
       className={`w-full h-[18vw] sm:h-[5vw] px-[5.208vw] py-[0.964vw] shadow-sm fixed top-0 z-30 transition-all duration-300 ${isScrolled
-          ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[9px]"
+          ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[25px]"
           : "bg-transparent"
         }`}
-      style={{ backdropFilter: isScrolled ? "blur(9px)" : "none" }}
+      style={{ backdropFilter: isScrolled ? "none" : "none" }}
     >
       <div className="flex justify-between items-center relative">
         <Link href="/">
