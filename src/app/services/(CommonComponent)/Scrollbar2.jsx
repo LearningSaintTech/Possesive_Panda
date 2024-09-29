@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import btnImage from '../../../../public/assets/btn.svg';
+import btnImage from '../../../../public/assets/scrollbar2.svg';
 
 // Define the component to accept props
 const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
@@ -8,7 +8,7 @@ const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
     <div className="flex flex-col items-center justify-center text-center">
 
       {/* Dynamic heading for larger screens */}
-      <h2 className=" sm:w-[57.552vw] sm:px-0 px-[7.059vw] text-[7.529vw] sm:text-[2.5vw] text-white">
+      <h2 className=" sm:w-[57.552vw] sm:px-0 px-[7.059vw] font-medium text-[7.529vw] sm:text-[2.5vw] text-white">
         {dynamicContent2[0].headingLarge}
       </h2>
 
@@ -24,7 +24,7 @@ const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
             <p key={index}>{paragraph}</p>
           ))}
 
-          <div className="sm:flex hidden flex-row items-center ml-[15.729vw] justify-center gap-[1.563vw]">
+          <div className=" hidden flex-row items-center ml-[15.729vw] justify-center gap-[1.563vw]">
             <p className="text-[1.25vw]">Scroll To See More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Scrollbar2 = ({ servicesData2, dynamicContent2 }) => {
         </div>
 
         {/* Right Section (scrollable services) */}
-        <div className="bg-[#0001A] overflow-y-auto sm:max-h-[30vw] max-h-[100vw] scrollbar-custom2">
+        <div className="bg-[#0001A] overflow-y-auto sm:max-h-[30vw] max-h-[100vw] scrollbar-custom">
           <div className="ml-[4.235vw] flex flex-col gap-[1vw]">
             {servicesData2.map((service, index) => (
               <div key={index} className="flex items-start gap-[1.188vw]">

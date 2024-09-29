@@ -132,6 +132,8 @@ const hoverImageData = {
     heading: "Implement Data-driven SEO Strategies to Boost Sales",
     description:
       "We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+      description1:"With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+
   },
   images: {
     image1: img1,
