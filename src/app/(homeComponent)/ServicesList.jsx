@@ -13,12 +13,12 @@ const ServicesList = () => (
 
     {/* Left Section */}
     <div className="sm:w-[32.292vw] sm:ml-[5.208vw] ml-[1.692vw] flex flex-col justify-center items-center sm:justify-start sm:items-start sm:gap-[1.042vw] gap-[2.5vw]">
-      <h5 className="sm:w-[7.76vw] w-[23.529vw] sm:text-[1.25vw] text-[3.765vw] text-white">
+      <h2 className="sm:w-[7.76vw] w-[23.529vw] sm:text-[1.25vw] text-[3.765vw] text-white">
         Our Services
-      </h5>
-      <h2 className="sm:w-[32.396vw] w-[72.235vw] sm:text-[3.333vw] text-[7.529vw]  text-white font-medium tracking-tight ">
-        Check Our Services
       </h2>
+      <h3 className="sm:w-[32.396vw] w-[72.235vw] sm:text-[3.333vw] text-[7.529vw]  text-white font-medium tracking-tight ">
+        Check Our Services
+      </h3>
       <Link
         href="/services"
         className="w-full sm:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] sm:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] hover:text-black sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mb-0 mb-[8vw] font-medium"
@@ -46,9 +46,9 @@ const ServicesList = () => (
             <p className="text-white opacity-80 text-[2.353vw] sm:text-[0.729vw] font-normal leading-[6vw] sm:leading-[1.563vw] px-[5vw] sm:px-[1.3vw]">
               {deployText}
             </p>
-            <h4 className="text-white text-[3.765vw] sm:text-[1.25vw] font-medium leading-[8vw] sm:leading-[2.083vw] mb-[3vw] sm:mb-[1.563vw] px-[5vw] sm:px-[1.3vw]">
+            <p className="text-white text-[3.765vw] sm:text-[1.25vw] font-medium leading-[8vw] sm:leading-[2.083vw] mb-[3vw] sm:mb-[1.563vw] px-[5vw] sm:px-[1.3vw]">
               {platform}
-            </h4>
+            </p>
           </div>
         </div>
       ))}

@@ -26,7 +26,17 @@ const Contact = () => {
       e.preventDefault();
     }
   };
-
+  const handleConversion = () => {
+    if (typeof window !== "undefined" && window.uetq) {
+      window.uetq.push("set", {
+        pid: {
+          em: form.email || "",
+          ph: form.phone || "",
+        },
+      });
+      window.uetq.push("event", "contact", {});
+    }
+  };
   const getData = async () => {
     const res = await fetch("https://api.ipify.org/?format=json");
     const data = await res.json();
@@ -78,7 +88,8 @@ const Contact = () => {
     });
 
     if (response.ok) {
-      router.push("/thank-you"); // Redirect to Thank You page
+      handleConversion(); 
+      router.push("/thank-you");
     } else {
       setMessage("Failed to submit the form.");
     }
@@ -89,9 +100,9 @@ const Contact = () => {
   return (
     <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] flex flex-col sm:flex-row justify-between bg-[#00111A]">
       <div className="w-full sm:w-[34.688vw] gap-[1.042vw]">
-        <h2 className="text-center sm:text-left text-[8.205vw] sm:text-[3.333vw] font-semibold leading-[normal] sm:mb-[1.25vw] mb-[2vw] text-white">
+        <h4 className="text-center sm:text-left text-[8.205vw] sm:text-[3.333vw] font-semibold leading-[normal] sm:mb-[1.25vw] mb-[2vw] text-white">
           Get in <span className="text-[#00AFF1]">Touch</span>
-        </h2>
+        </h4>
         <div className="flex flex-col sm:gap-[1.042vw] gap-[5.128vw]">
           <p className="text-[4.103vw] sm:text-[1.042vw] font-normal sm:leading-[146.642%] tracking-[0.08rem] text-white sm:mb-[2vw] text-center sm:text-left">
             Ready to learn more about our IT Service Solutions? Fill in the

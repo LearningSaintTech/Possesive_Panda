@@ -14,9 +14,9 @@ const Models = ({ modelData }) => {
                         className='group sm:pt-[2.344vw] sm:pb-[1.5vw] sm:pl-[4.115vw] sm:pr-[1.25vw] p-[5.647vw] sm:p-0 bg-[#131D22] rounded-[4.706vw] sm:rounded-[1.042vw] transition-all duration-300 hover:bg-[#D6D6D6]'
                     >
                         <div className='flex flex-col gap-[4vw] sm:gap-[0.5vw]'>
-                            <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium leading-[125%] sm:leading-[84%] transition-all duration-300 group-hover:text-[#131D22]'>
+                            <h3 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium leading-[125%] sm:leading-[84%] transition-all duration-300 group-hover:text-[#131D22]'>
                                 {model.title}
-                            </h2>
+                            </h3>
                             <div className='flex justify-between'>
                                 <p className='text-white text-[3.765vw] sm:text-[1.25vw]  font-normal sm:w-[64.063vw] transition-all duration-300 group-hover:text-[#131D22]'>
                                     {model.paragraph}

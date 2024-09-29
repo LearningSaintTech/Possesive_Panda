@@ -37,12 +37,12 @@ const Card = ({ data, index, hoveredIndex, setHoveredIndex }) => {
                     <div className="text-white text-[1.882vw] sm:text-[0.833vw] font-semibold">{data.step}</div>
                 </div>
 
-                <h5
+                <h3
                     className={`sm:pl-0 pl-2 absolute left-0 top-10 sm:top-[3.073vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-[#00aff1]" : "opacity-70 text-white"
                         } text-[2.824vw] sm:text-[1.25vw] font-semibold sm:leading-[1.759vw]`}
                 >
                     {data.title}
-                </h5>
+                </h3>
 
                 <p
                     className={`sm:pl-0 pl-2 absolute left-0 top-16 sm:top-[5.729vw] transition-colors duration-500 ease-in-out ${isHovered ? "text-white" : "opacity-70 text-white"

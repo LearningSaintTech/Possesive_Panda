@@ -20,13 +20,18 @@ const Card = ({ title, content, isMobile }) => {
                 } group`}
         >
             <div className="absolute inset-0 bg-white rounded-[0.833vw] transform origin-bottom-left scale-0 group-hover:scale-100 transition-transform duration-700 ease-in-out" />
+<<<<<<< HEAD
             <div className="relative z-10 flex-grow">
                 <h2
+=======
+            <div className="relative z-10">
+                <h4
+>>>>>>> b95e213134e61af3dcd444ed9329cb6e42851da6
                     className={`${isMobile ? "text-[5vw]" : "text-[2.5vw]"
                         } font-medium leading-loose group-hover:text-black transition-colors duration-500`}
                 >
                     {title}
-                </h2>
+                </h4>
                 <div className="flex flex-col gap-[0.625vw]">
                     {displayContent.map((paragraph, index) => (
                         <p
@@ -96,9 +101,9 @@ const OurEngagement = () => {
             {/* Desktop View */}
             <div className="hidden lg:block md:block px-[5.208vw] py-[5.508vw]">
                 <div className="flex justify-center items-center mb-[4.896vw]">
-                    <h5 className="text-white text-[2.5vw] font-bold leading-[2.083vw]">
+                    <h3 className="text-white text-[2.5vw] font-bold leading-[2.083vw]">
                         Our Engagement Models
-                    </h5>
+                    </h3>
                 </div>
                 <div className="flex space-x-[2.083vw]">
                     {cards.map((card, index) => (
@@ -112,9 +117,9 @@ const OurEngagement = () => {
             {/* Mobile View */}
             <div className="sm:hidden px-6 py-8">
                 <div className="flex justify-center items-center mb-6">
-                    <h5 className="text-white text-[6vw] font-bold leading-tight text-center">
+                    <h3 className="text-white text-[6vw] font-bold leading-tight text-center">
                         Our Engagement Models
-                    </h5>
+                    </h3>
                 </div>
                 {cards.map((card, index) => (
                     <Card key={index} title={card.title} content={card.content} isMobile={true} />

@@ -12,7 +12,7 @@ import Solutions from '../(CommonComponent)/Solutions';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import ToolTech from '../(CommonComponent)/ToolsTech';
 import Marquee from "../../(homeComponent)/Marquee";
-import CardList from '../(CommonComponent)/AgileApproach/CardList';
+import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
 import {
   faq,
   whyData,

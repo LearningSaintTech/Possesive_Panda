@@ -61,10 +61,14 @@ const page = () => {
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
+<<<<<<< HEAD
         <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop" />
+=======
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Web Application Development we Develop"  />
+>>>>>>> b95e213134e61af3dcd444ed9329cb6e42851da6
       </div>
       <div className='sm:block hidden mt-[4vw] '>
-        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
+        <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
       <div>

@@ -102,6 +102,19 @@ const services = [
 ];
 
 export default function VirtualAssistantServices() {
+
+    const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <=425); // 640px as the breakpoint for mobile
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
     const [selectedService, setSelectedService] = useState(0);
     const [expandedService, setExpandedService] = useState(0); // Default to 0 (first service)
 
@@ -115,15 +128,17 @@ export default function VirtualAssistantServices() {
 
     return (
         <div className='bg-[#00111a] px-[5.208vw] '>
+            {!isMobile ? (
             <div className=" text-white hidden md:block ">
                 <div className='flex flex-col justify-center items-center'>
-                    <h1 className=" w-[43.542vw] text-center text-[#fbfbfc] text-[2.5vw] font-semibold">Our Virtual Assistant Services</h1>
+                    <h1 className=" w-[43.542vw] text-center text-[#fbfbfc] text-[2.5vw] font-semibold"> Virtual Assistant Services</h1>
                     <p className="w-[59.844vw] text-center text-white text-[1.25vw] font-medium mt-[1.667vw]">
                         It doesn&apos;t matter if you are a small business, start-up, or well-established organization,
                         Possesive Panda offers virtual assistants across the globe for seamless and elevated services.
                     </p>
                 </div>
                 {/* Desktop View */}
+                
                 <div className="flex flex-col md:flex-row gap-8 mt-[3.229vw]">
                     <div className=''>
                         <div className="w-[24.427vw] h-[37.604vw] pt-[1.25vw] pb-[1.354vw] bg-[#131d22] flex-col justify-center items-center gap-[0.625vw] inline-flex">
@@ -155,10 +170,10 @@ export default function VirtualAssistantServices() {
                     </div>
                 </div>
             </div>
-            {/* Mobile View */}
+        ) : (
 
             <div className="md:hidden text-white">
-                <h1 className="text-center text-[#fbfbfc] text-[6vw] font-semibold mb-4">Our Virtual Assistant Services</h1>
+                <h1 className="text-center text-[#fbfbfc] text-[6vw] font-semibold mb-4">Virtual Assistant Services</h1>
                 <p className="text-center text-white text-[3.5vw] font-medium mb-8">
                     Possessive Panda offers a full suite of Virtual Assistant services for your business growth.
                 </p>
@@ -192,6 +207,7 @@ export default function VirtualAssistantServices() {
                     ))}
                 </div>
             </div>
+     )}
 
         </div>
     );

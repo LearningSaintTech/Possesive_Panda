@@ -11,7 +11,8 @@ import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
-import FinalBanner from "../(CommonComponent)/FinalBanner";
+import FinalBanner from "../(CommonComponent)/FinalBanner";import TextAnimation from '../(CommonComponent)/TextAnimation'
+
 import {
 
   faq,
@@ -165,12 +166,10 @@ const page = () => {
         <HoverImageComp hoverImageData={hoverImageData} />
       </div>
 
-      <div className='sm:mt-[6.5vw] mt-[12vw]'>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <WhyChoose />
-      </div>
-      <div className='mt-[]'>
-        <TextAnimation />
-      </div>
+        <TextAnimation />      
+        </div>
       <div className='sm:block hidden mt-[7vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />

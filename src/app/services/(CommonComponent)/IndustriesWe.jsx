@@ -50,9 +50,9 @@ const IndustriesWe = () => {
         <div className="w-full bg-[#00111A]">
             <div className="px-[5.208vw] ">
                 <div className="hidden sm:block w-[89.479vw] py-[3.5vw] bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] pt-[3.958vw]">
-                    <h5 className="text-center text-[#6c748f] text-[1.25vw] font-semibold">
+                    <h3 className="text-center text-[#6c748f] text-[1.25vw] font-semibold">
                         Industries We Cater To
-                    </h5>
+                    </h3>
 
                     <div className="relative w-full overflow-hidden h-[5vw]">
                         {/* Slides container */}
@@ -100,9 +100,9 @@ const IndustriesWe = () => {
             {/* Mobile view */}
             <div className="sm:hidden bg-[#00111A] px-[7.059vw]">
                 <div className=" pb-[11.765vw] flex-col justify-center items-center">
-                    <h1 className="text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
+                    <h3 className="text-center text-white text-[7.529vw] font-medium leading-[8.471vw]">
                         Industries We Cater To
-                    </h1>
+                    </h3>
 
                     {/* Cards with delayed appearance */}
                     <div className="grid grid-cols-2 gap-[3.529vw] pt-[10.353vw] justify-center items-center ">

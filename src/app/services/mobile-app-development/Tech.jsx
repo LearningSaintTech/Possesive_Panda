@@ -8,9 +8,9 @@ const Tech = () => {
 
     return (
         <div className='px-[7.059vw] sm:px-[5.208vw] flex flex-col gap-[2.824vw] sm:gap-[1.563vw] bg-[#00111A] items-center'>
-            <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:leading-[120%] text-center'>
+            <h3 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:leading-[120%] text-center'>
                 Our Tech-Driven Triumphs
-            </h2>
+            </h3>
             <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-normal sm:font-light sm:w-[41.51vw] text-center'>
                 Explore our mobile app development victories in assorted domains, enabling businesses to attain success.
             </p>
@@ -34,7 +34,7 @@ const Tech = () => {
 
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
                         <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>
-                        <h2 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Mobile App Development</h2>
+                        <h3 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Mobile App Development</h3>
                     </div>
                 </div>
 

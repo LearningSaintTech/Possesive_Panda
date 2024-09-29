@@ -32,9 +32,9 @@ const Accordian = ({ title, children, index, activeIndex, setActiveIndex }) => {
     >
       <div className="flex flex-col w-full">
         <div className="flex justify-between">
-          <p className="text-[#FFF] sm:text-[1.25vw] text-[3.294vw] sm:font-medium font-normal capitalize">
+          <h4 className="text-[#FFF] sm:text-[1.25vw] text-[3.294vw] sm:font-medium font-normal capitalize">
             {title}
-          </p>
+          </h4>
         </div>
         <div
           className={`overflow-hidden transition-all duration-[1.2s] ease-in-out`}

@@ -51,9 +51,9 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
             {/* FOR DESKTOP AND TABLET */}
             <div className="px-[5.208vw] hidden sm:block">
                 <div>
-                    <h6 className="text-white text-[2.5vw] font-medium tracking-wide pb-[1.442vw]">
+                    <h1 className="text-white text-[2.5vw] font-medium tracking-wide pb-[1.442vw]">
                         {heading}
-                    </h6>
+                    </h1>
                     <p className="w-[55.729vw] text-justify text-white text-[1.25vw] font-light">
                         {subHeading}
                     </p>
@@ -71,9 +71,9 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                                                 className: "w-full h-full",
                                             })}
                                         </div>
-                                        <h5 className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
+                                        <h3 className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.title}
-                                        </h5>
+                                        </h3>
                                     </div>
                                     <div
                                         ref={(el) => contentRefs.current[lineData.line] = el}
@@ -117,51 +117,49 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
 
             {/* FOR MOBILE */}
             <div className="sm:hidden">
-                <div className="sm:hidden">
-                    <div className="px-[30px]">
-                        <h6 className="w-full text-center text-white text-[7.529vw] font-medium">
-                            {heading}
-                        </h6>
-                        <p className="w-full text-center text-white text-[3.765vw] font-normal mt-[3.765vw]">
-                            {subHeading}
+                <div className="px-[30px]">
+                    <h1 className="w-full text-center text-white text-[7.529vw] font-medium">
+                        {heading}
+                    </h1>
+                    <p className="w-full text-center text-white text-[3.765vw] font-normal mt-[3.765vw]">
+                        {subHeading}
+                    </p>
+                    <div className="w-[43.294vw] h-[8.471vw] mx-auto mt-[7.529vw] mb-[7.529vw] rounded-[14.118vw] border border-white/60 flex justify-center items-center gap-[2.824vw]">
+                        <p className="text-white/70 text-[2.824vw] font-medium">
+                            Drag to see more
                         </p>
-                        <div className="w-[43.294vw] h-[8.471vw] mx-auto mt-[7.529vw] mb-[7.529vw] rounded-[14.118vw] border border-white/60 flex justify-center items-center gap-[2.824vw]">
-                            <p className="text-white/70 text-[2.824vw] font-medium">
-                                Drag to see more
-                            </p>
-                            <FaArrowRight className="w-[2.824vw] h-[3.765vw] text-white/70" />
-                        </div>
-
-                        {servicesData22.map((row, index) => (
-                            <div key={index} className="w-full mt-[3.765vw]">
-                                <Slider {...settings}>
-                                    {row.services.map((service, serviceIndex) => (
-                                        <div
-                                            key={serviceIndex}
-                                            className="flex flex-col px-2"
-                                        >
-                                            <div className="flex gap-[3vw] items-center">
-                                                <div className="text-[#04b7df] w-[6vw] h-[6vw] relative flex-shrink-0">
-                                                    {React.cloneElement(iconMapping1[service.icon], {
-                                                        className: "w-full h-full",
-                                                    })}
-                                                </div>
-                                                <h6 className="text-white text-[3.765vw] font-medium">
-                                                    {service.title}
-                                                </h6>
-                                            </div>
-                                            <div className="mt-3">
-                                                <p className="opacity-70 text-white text-[3.765vw] font-normal">
-                                                    {service.description}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </Slider>
-                                <div className="h-[0.2vw] w-full bg-[#2a2b3a] mt-[4.167vw]"></div>
-                            </div>
-                        ))}
+                        <FaArrowRight className="w-[2.824vw] h-[3.765vw] text-white/70" />
                     </div>
+
+                    {servicesData22.map((row, index) => (
+                        <div key={index} className="w-full mt-[3.765vw]">
+                            <Slider {...settings}>
+                                {row.services.map((service, serviceIndex) => (
+                                    <div
+                                        key={serviceIndex}
+                                        className="flex flex-col px-2"
+                                    >
+                                        <div className="flex gap-[3vw] items-center">
+                                            <div className="text-[#04b7df] w-[6vw] h-[6vw] relative flex-shrink-0">
+                                                {React.cloneElement(iconMapping1[service.icon], {
+                                                    className: "w-full h-full",
+                                                })}
+                                            </div>
+                                            <h3 className="text-white text-[3.765vw] font-medium">
+                                                {service.title}
+                                            </h3>
+                                        </div>
+                                        <div className="mt-3">
+                                            <p className="opacity-70 text-white text-[3.765vw] font-normal">
+                                                {service.description}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
+                            <div className="h-[0.2vw] w-full bg-[#2a2b3a] mt-[4.167vw]"></div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
