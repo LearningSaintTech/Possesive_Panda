@@ -62,7 +62,7 @@ const OurWorks = () => {
             <div className="sm:w-[20.156vw] flex flex-col sm:mt-[4vw] mt-0">
                 <h5 className="text-white sm:font-normal font-medium text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] text-center md:text-left md:mt-4 lg:mt-[0.417vw]">
                     Portfolio
-                </h3>
+                </h5>
                 <h3 className="text-white text-[8.205vw] lg:text-[3.34vw] font-medium leading-[normal] tracking-[0.082vw] lg:tracking-[0.04rem] sm:w-[40vw] text-center sm:text-left sm:mt-[0.7vw] sm:mb-[0.5vw] md:text-[2.5vw]">
                     Our Work
                 </h3>

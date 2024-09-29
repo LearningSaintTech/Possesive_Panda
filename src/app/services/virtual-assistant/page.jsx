@@ -4,15 +4,13 @@ import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
 import ServicesVa from './ServicesVa';
-import NewBanner from '@/app/(Components)/NewBanner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
-import FinalBanner from "../(CommonComponent)/FinalBanner";import TextAnimation from '../(CommonComponent)/TextAnimation'
-
+import FinalBanner from "../(CommonComponent)/FinalBanner";
 import {
 
   faq,

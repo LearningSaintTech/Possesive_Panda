@@ -20,13 +20,8 @@ const Card = ({ title, content, isMobile }) => {
                 } group`}
         >
             <div className="absolute inset-0 bg-white rounded-[0.833vw] transform origin-bottom-left scale-0 group-hover:scale-100 transition-transform duration-700 ease-in-out" />
-<<<<<<< HEAD
             <div className="relative z-10 flex-grow">
-                <h2
-=======
-            <div className="relative z-10">
                 <h4
->>>>>>> b95e213134e61af3dcd444ed9329cb6e42851da6
                     className={`${isMobile ? "text-[5vw]" : "text-[2.5vw]"
                         } font-medium leading-loose group-hover:text-black transition-colors duration-500`}
                 >
