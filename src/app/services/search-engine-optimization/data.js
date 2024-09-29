@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/seo/1.jpg";
+import img2 from "../../../../public/assets/services/seo/2.jpg";
+import img3 from "../../../../public/assets/services/seo/3.jpg";
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";
@@ -77,7 +77,7 @@ const whyData = {
     "Possesive Panda is not your average SEO Services and Solution Provider.",
   subText2:
     "At Possesive Panda, we're dedicated to creating enduring partnerships with our clients by using our extensive network of SEO specialists and industry expertise. We collaborate closely with you to create a tailored plan that will yield results over time since we understand that SEO is a marathon, not a sprint.",
-  thumbnail: "/assets/services/e-commerce/thumbnail.png",
+  thumbnail: "/assets/services/seo/4.svg",
   listHeading:
     "When you work with us to increase the growth and organic rankings of your website, we make sure you receive:",
   titles: [

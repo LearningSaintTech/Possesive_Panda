@@ -1,6 +1,6 @@
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/real-estate/1.jpg";
+import img2 from "../../../../public/assets/services/real-estate/2.jpg";
+import img3 from "../../../../public/assets/services/real-estate/3.jpg";
 
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";

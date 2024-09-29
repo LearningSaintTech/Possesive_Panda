@@ -294,7 +294,7 @@ const whyData = {
   subText1: "Possesive Panda is a professional web application development company that specializes in creating customized, innovative web apps for various industries, including eCommerce, finance, and e-learning. ",
   subText2:
     "Our team of developers is skilled in creating generic and native apps with enthusiasm and dexterity. We offer long-term support contracts for our work, ensuring that our clients' imaginations are shaped perfectly.",
-  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  thumbnail: '/assets/services/web-development/8.png',
   listHeading:
     "Possesive Panda is a pioneer IT solution provider and deliver outstanding web application development services:",
   titles: [

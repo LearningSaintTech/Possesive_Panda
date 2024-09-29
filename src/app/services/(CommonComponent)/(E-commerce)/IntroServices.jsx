@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import thumbnail from "../../../../../public/assets/services/e-commerce/thumbnail.png";
+import thumbnail from "../../../../../public/assets/services/e-commerce/1.png";
 
 const IntroServices = ({ heading, content }) => {
     return (

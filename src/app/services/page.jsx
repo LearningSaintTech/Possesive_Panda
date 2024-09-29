@@ -7,7 +7,7 @@ import Faq from '../services/(Components)/(Faq)/Faq';
 import Footer from "../(Components)/Footer";
 import Clients from '../services/(CommonComponent)/Clients';
 import NewContact from "./(CommonComponent)/NewContact";
-
+import FinalBanner from "./(CommonComponent)/FinalBanner";
 import { dataSet1, dataSet2, dataSet3, testimonialsData, headingdata, faq, } from './data';
 import ReviewCardContainer from "./(CommonComponent)/ReviewCardContainer";
 const Services = () => {
