@@ -5,6 +5,7 @@ import { CgInsights } from "react-icons/cg";
 import { FaHandHoldingDollar } from "react-icons/fa6";
 import { BiSolidShoppingBagAlt } from "react-icons/bi";
 import { MdPriceChange } from "react-icons/md";
+import Link from "next/link";
 
 const leftColumnData = [
     {
@@ -59,9 +60,11 @@ const Benefits = () => {
                         </p>
                     </div>
                     <div>
-                        <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw]">
+                        <Link
+                            href="/contact" passHref
+                            className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw]">
                             Get In Touch
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -73,7 +76,7 @@ const Benefits = () => {
                             <div key={index} className="flex items-start space-x-[0.833vw]">
                                 {item.icon}
                                 <div>
-                                    <h3 className="text-white  text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <h3 className="text-white  text-[1.667vw] font-medium">{item.title}</h3>
                                     <p className="text-white opacity-80 text-[1.25vw] font-light w-[28.229vw]">
                                         {item.description}
                                     </p>
@@ -88,7 +91,7 @@ const Benefits = () => {
                             <div key={index} className="flex items-start space-x-[0.833vw]">
                                 {item.icon}
                                 <div>
-                                    <h3 className=" text-white  text-[1.667vw] font-semibold">{item.title}</h3>
+                                    <h3 className=" text-white  text-[1.667vw] font-medium">{item.title}</h3>
                                     <p className="text-white opacity-80 text-[1.25vw] font-light w-[28.229vw]">
                                         {item.description}
                                     </p>
@@ -171,9 +174,11 @@ const Benefits = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="py-[3.353vw] w-[85.882vw]  px-[33vw]  bg-[#05B7DF] rounded-[1.882vw]  text-white text-[3vw]  font-semibold mt-[2.24vw]">
+                        <Link
+                            href="/contact" passHref
+                            className="py-[3.353vw] w-[85.882vw]  px-[33vw]  bg-[#05B7DF] rounded-[1.882vw]  text-white text-[3vw]  font-semibold mt-[2.24vw]">
                             Get In Touch
-                        </button>
+                        </Link>
 
                     </div>
                 </div>

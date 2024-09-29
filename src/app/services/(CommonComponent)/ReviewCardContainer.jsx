@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+import React, { useState, useEffect } from 'react';
 import { HiMiniStar } from "react-icons/hi2";
 import Image from "next/image";
 import { TiStarHalf } from "react-icons/ti";
@@ -16,10 +17,20 @@ const platforms = [
 ];
 
 const ReviewCardContainer = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 400);
+
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
         <div className='bg-[#00111a] px-[7.059vw] sm:px-[13.802vw] py-[3.765vw] sm:pt-[6.094vw]'>
             <div className='bg-white/10 rounded-lg sm:rounded-[0.625vw] flex flex-col justify-center items-center gap-[3.765vw] sm:gap-[1.667vw] sm:w-[71.927vw] sm:py-[1.563vw]'>
-                <div className='px-[3.765vw] sm:px-[7.01vw] mt-[3.765vw] sm:mt-0'>
+                <div className={`px-[3.765vw] sm:px-[7.01vw] mt-[3.765vw] sm:mt-0 transition-all duration-1000 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
                     <h6 className='text-center text-white text-[3.765vw] sm:text-[1.25vw] py-0 sm:py-[0.2vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
                         Possessive Panda has been top ranked as an IT service provider by many of the B2B review platforms.
                     </h6>
@@ -27,7 +38,11 @@ const ReviewCardContainer = () => {
 
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-[1.25vw] px-[3.765vw] sm:px-0 pb-[0vw] sm:pb-0">
                     {platforms.map((platform, index) => (
-                        <div key={index} className="flex flex-row relative bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[15.078vw] h-[22.588vw] sm:h-[6.302vw] gap-[3.765vw] sm:gap-[1.719vw]">
+                        <div
+                            key={index}
+                            className={`flex flex-row relative bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[15.078vw] h-[22.588vw] sm:h-[6.302vw] gap-[3.765vw] sm:gap-[1.719vw] transition-all duration-3000 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                            style={{ transitionDelay: `${index * 400}ms` }}
+                        >
                             <div className="flex flex-col gap-[0.941vw] sm:gap-[0.313vw] pt-[7.765vw] sm:pt-[1.25vw] pl-[3.765vw] sm:pl-[1.979vw]">
                                 <Image
                                     src={platform.image}

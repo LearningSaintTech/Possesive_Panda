@@ -3,13 +3,14 @@ import React, { useState, useEffect } from "react";
 
 const IndustriesWe = () => {
     const industries = [
-        ["Healthcare", "Finance", "Logistics", "eCommerce", "Real Estate"],
-        ["Social Networking", "Entertainment", "Education", "Travel", "Finance"],
+        ["eCommerce", "Healthcare", "Finance", "Education", "Travel & Hospitality"],
+        ["Real Estate", "Retail", "Manufacturing", "Non-Profits", "Marketing"],
+        ["Advertisements", "Legal Services", "FMCG", "HR and Recruitment ", "Logistics & Transportation"],
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
-    const [visibleCards, setVisibleCards] = useState([]); // Store visible cards for mobile
+    const [visibleCards, setVisibleCards] = useState([]); 
 
     const nextSlide = () => {
         if (!isAnimating) {
@@ -17,23 +18,23 @@ const IndustriesWe = () => {
             setTimeout(() => {
                 setCurrentSlide((prev) => (prev + 1) % industries.length);
                 setIsAnimating(false);
-            }, 500); // Animation duration should match CSS transition
+            }, 500); 
         }
     };
 
-    // Delay effect for mobile view
+    
     useEffect(() => {
         let timeouts = [];
         industries.flat().forEach((_, index) => {
             timeouts.push(
                 setTimeout(() => {
                     setVisibleCards((prev) => [...prev, index]);
-                }, index * 200) // Delay of 200ms per card
+                }, index * 200) 
             );
         });
 
         return () => {
-            timeouts.forEach((timeout) => clearTimeout(timeout)); // Cleanup
+            timeouts.forEach((timeout) => clearTimeout(timeout)); 
         };
     }, []);
 
@@ -42,7 +43,7 @@ const IndustriesWe = () => {
             nextSlide();
         }, 5000); // 5000ms = 5 seconds
 
-        return () => clearInterval(interval); // Cleanup the interval when the component unmounts
+        return () => clearInterval(interval); 
     }, []);
 
     return (
@@ -65,7 +66,7 @@ const IndustriesWe = () => {
                             {industries.map((slide, index) => (
                                 <div key={index} className="min-w-full flex justify-center gap-[5vw] mt-[1.2vw]">
                                     {slide.map((industry, i) => (
-                                        <div key={i} className="text-center text-white text-[1.667vw] font-semibold">
+                                        <div key={i} className="text-center text-white text-[1.667vw] font-medium">
                                             {industry}
                                         </div>
                                     ))}
@@ -104,15 +105,15 @@ const IndustriesWe = () => {
                     </h3>
 
                     {/* Cards with delayed appearance */}
-                    <div className="grid grid-cols-2 gap-[3.529vw] pt-[10.353vw] justify-center items-center">
+                    <div className="grid grid-cols-2 gap-[3.529vw] pt-[10.353vw] justify-center items-center ">
                         {industries.flat().map((industry, index) => (
                             <div
                                 key={index}
-                                className={`h-[18.353vw] px-[1vw] py-[2vw] bg-[#131d22] flex justify-center items-center transition-opacity duration-500 ease-in-out ${visibleCards.includes(index) ? 'opacity-100' : 'opacity-0'
+                                className={`h-[18.353vw] rounded-md px-[1vw] py-[2vw] bg-[#131d22] flex justify-center items-center transition-opacity duration-500 ease-in-out ${visibleCards.includes(index) ? 'opacity-100' : 'opacity-0'
                                     }`}
                                 style={{ transitionDelay: `${index * 0.1}s` }} // Optional extra delay
                             >
-                                <p className="text-center text-white text-[4vw] font-semibold leading-relaxed">
+                                <p className="text-center text-white text-[4vw] font-medium leading-relaxed">
                                     {industry}
                                 </p>
                             </div>

@@ -56,7 +56,7 @@ const AboutMarquee = () => {
     }, []);
 
     return (
-        <div className="relative overflow-hidden w-full pb-[7.813vw] mt-[2.4vw] bg-[#00111a]">
+        <div className="relative overflow-hidden w-full bg-[#00111a]">
             <div
                 ref={containerRef}
                 style={{

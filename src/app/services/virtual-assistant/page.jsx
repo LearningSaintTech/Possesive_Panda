@@ -4,7 +4,6 @@ import Footer from "../../(Components)/Footer";
 import Head from 'next/head';
 import Script from 'next/script';
 import ServicesVa from './ServicesVa';
-import NewBanner from '@/app/(Components)/NewBanner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
@@ -12,7 +11,6 @@ import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
 import FinalBanner from "../(CommonComponent)/FinalBanner";
-import TextAnimation from '../(CommonComponent)/TextAnimation'
 
 import {
 
@@ -27,6 +25,7 @@ import {
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
 import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
+import TextAnimation from '../(CommonComponent)/TextAnimation';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -148,7 +147,7 @@ const page = () => {
         pointthree={"Scalable"}
         pointfour={"Tailored"}
       />
-      <ReviewCardContainer/>
+      <ReviewCardContainer />
       <div className='sm:mt-[5.5vw] mt-[10vw] '>
         <ServicesVa />
       </div>

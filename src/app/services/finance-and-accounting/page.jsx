@@ -25,7 +25,8 @@ import {
     headingdata,
     faq
 } from "./data";
-import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
+import ReviewSection from './ReviewSection';
+import IndustriesWe from '../(CommonComponent)/IndustriesWe';
 
 const page = () => {
     return (
@@ -38,29 +39,28 @@ const page = () => {
                 pointthree={"Scalable"}
                 pointfour={"Tailored"}
             />
-
-            <ReviewCardContainer/>
-            <div>
+            <ReviewSection />
+            <div className='mt-[9.647vw] sm:mt-[3.125vw]'>
                 <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[5.208vw]'>
                 <Mobile
                     heading={mobileData.heading}
                     sideImage={mobileData.sideImage}
                     paragraphs={mobileData.paragraphs}
                 />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-0'>
                 <HoverImageComp hoverImageData={hoverImageData} />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[5.208vw]'>
                 <Strategies StrategyData={StrategyData} title="Benefits of Outsourcing F&A Services" />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[5.313vw]'>
                 <Platforms platformsData={platformsData} />
             </div>
 
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[8.646vw]'>
                 <Why
                     mainHeading={whyData.mainHeading}
                     subText1={whyData.subText1}
@@ -70,19 +70,21 @@ const page = () => {
                     titles={whyData.titles}
                 />
             </div>
-            <div>
-                <Industries />
+            <div className='mt-[14.118vw] sm:mt-[4.167vw]'>
+                <IndustriesWe />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[5.208vw]'>
                 <NewContact />
-            </div>
-            <div>
+            </div >
+            <div className='mt-[14.118vw] sm:mt-[6.25vw]'>
                 <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
             </div>
-            <div>
+            <div className='mt-[14.118vw] sm:mt-[6.25vw]'>
                 <Faq faq={faq} />
             </div>
-            <Footer />
+            <div className='mt-[14.118vw] sm:mt-[5.208vw]'>
+                <Footer />
+            </div>
         </div>
     )
 }

@@ -158,7 +158,7 @@ export default function VirtualAssistantServices() {
                         {services[selectedService].details.map((detail, index) => (
                             <div
                                 key={index}
-                                className="w-[18.125vw] h-[16.927vw] bg-[#00111a] rounded-[1.042vw] flex-col justify-start items-start gap-[0.833vw] inline-flex px-[1.25vw] py-[1.25vw] relative transition-shadow duration-300 hover:shadow-[3px_7px_13.8px_0px_rgba(112,110,110,0.20)]"
+                                className="w-[18.125vw] h-[16.927vw] bg-[#00111a] rounded-[1.042vw] flex-col justify-start items-start gap-[0.833vw] inline-flex px-[1.25vw] py-[1.25vw] relative transition-shadow duration-300 hover:shadow-[3px_7px_13.8px_0px_rgba(112,110,110,0.20)] hover:bg-[#131d22] hover:border hover:border-white/40"
                             >
                                 <h3 className="text-white text-[1.25vw] font-medium">{detail.title}</h3>
                                 <p className="text-white text-[0.833vw] font-normal overflow-y-auto max-h-[8vw]">{detail.description}</p>

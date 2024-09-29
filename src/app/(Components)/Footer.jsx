@@ -31,7 +31,7 @@ const Footer = () => {
         </Link>
 
         <div
-          onClick={() => setOpen(true)} // Handle click on the entire div
+          onClick={() => setOpen(true)} 
           className='w-full sm:rounded-none rounded-[0.847vw]  sm:py-0 sm:mt-0 py-[5vw] sm:pl-[2.188vw] sm:pt-[2.188vw] px-[4.103vw] sm:px-0 flex sm:flex-col sm:gap-[3vw] flex-row md:w-[27.187vw] bg-[#131D22] cursor-pointer'
         >
           <svg
