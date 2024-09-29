@@ -7,12 +7,12 @@ const Industries = () => {
                 <div className='w-[89.531vw] h-[14.063vw]  bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] inline-flex pt-[3.958vw]'>
                     <h5 className=' text-center text-white text-[2.5vw] font-medium leading-relaxed'>Industries We Have Worked With</h5>
                     <div class="justify-start items-center gap-[6.25vw] inline-flex pb-[2vw]">
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>FMCG</p>
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Food and Groceries</p>
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Healthcare</p>
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Real estate</p>
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Hotel</p>
-                        <p className='opacity-80 text-center text-white text-[1.667vw] font-semibold leading-relaxed'>Retails</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>FMCG</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>Food and Groceries</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>Healthcare</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>Real estate</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>Hotel</p>
+                        <p className='opacity-80 text-center text-white text-[1.667vw] font-medium leading-relaxed'>Retails</p>
                     </div>
                 </div>
                 <div>

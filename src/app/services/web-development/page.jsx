@@ -56,12 +56,12 @@ const page = () => {
         pointthree={"Scalable"}
         pointfour={"Tailored"}
       />
-      <ReviewCardContainer/>
+      <ReviewCardContainer />
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop"  />
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop" />
       </div>
       <div className='sm:block hidden mt-[4vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
@@ -78,7 +78,7 @@ const page = () => {
         />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
-      <OurWeb />
+        <OurWeb />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />

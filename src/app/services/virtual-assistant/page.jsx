@@ -25,6 +25,7 @@ import {
 } from "./data";
 import NewContact from '../(CommonComponent)/NewContact';
 import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
+import TextAnimation from '../(CommonComponent)/TextAnimation';
 
 export const metadata = {
   title: "Best Virtual Assistant Services | Hire Freelancer Virtual Assistants",
@@ -146,7 +147,7 @@ const page = () => {
         pointthree={"Scalable"}
         pointfour={"Tailored"}
       />
-      <ReviewCardContainer/>
+      <ReviewCardContainer />
       <div className='sm:mt-[5.5vw] mt-[10vw] '>
         <ServicesVa />
       </div>
@@ -166,6 +167,9 @@ const page = () => {
 
       <div className='sm:mt-[6.5vw] mt-[12vw]'>
         <WhyChoose />
+      </div>
+      <div className='mt-[]'>
+        <TextAnimation />
       </div>
       <div className='sm:block hidden mt-[7vw] '>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>

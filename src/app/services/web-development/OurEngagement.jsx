@@ -1,9 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
+import HandlePage from "../../(Components)/(Input Form)/HandlePage";
+import Link from "next/link";
 
 const Card = ({ title, content, isMobile }) => {
     const [expanded, setExpanded] = useState(false);
+    const [open, setOpen] = useState(false);
 
     const toggleExpand = () => {
         setExpanded(!expanded);
@@ -13,11 +16,11 @@ const Card = ({ title, content, isMobile }) => {
 
     return (
         <div
-            className={`bg-[#131d22] text-white p-6 rounded-[0.833vw] transition-colors duration-500 overflow-hidden relative ${isMobile ? "h-auto mb-6" : "h-full"
+            className={`bg-[#131d22] text-white p-6 rounded-[0.833vw] transition-colors duration-500 overflow-hidden relative ${isMobile ? "h-auto mb-6" : "h-full flex flex-col"
                 } group`}
         >
             <div className="absolute inset-0 bg-white rounded-[0.833vw] transform origin-bottom-left scale-0 group-hover:scale-100 transition-transform duration-700 ease-in-out" />
-            <div className="relative z-10">
+            <div className="relative z-10 flex-grow">
                 <h2
                     className={`${isMobile ? "text-[5vw]" : "text-[2.5vw]"
                         } font-medium leading-loose group-hover:text-black transition-colors duration-500`}
@@ -28,32 +31,38 @@ const Card = ({ title, content, isMobile }) => {
                     {displayContent.map((paragraph, index) => (
                         <p
                             key={index}
-                            className={`${isMobile ? "w-full text-[3.5vw]" : "w-[39.167vw] text-[1.25vw]"
+                            className={`${isMobile ? "w-[full] text-[3.5vw]" : "w-[39.167vw] text-[1.25vw]"
                                 } text-white/70 font-normal group-hover:text-black/70 transition-colors duration-500`}
                         >
                             {isMobile ? paragraph.split(".")[0] + "." : paragraph}
                         </p>
                     ))}
                 </div>
-                {isMobile && (
-                    <div className="flex justify-between mt-4">
-                        <button
-                            onClick={toggleExpand}
-                            className="text-blue-400 text-[3vw] group-hover:text-blue-600 transition-colors duration-500"
-                        >
-                            {expanded ? "See Less" : "See More"}
-                        </button>
-                        <button className="bg-gray-700 text-white text-[3vw] py-2 px-4 rounded group-hover:bg-gray-900 transition-colors duration-500">
-                            Contact Us
-                        </button>
-                    </div>
-                )}
-                {!isMobile && (
-                    <div className="mt-auto self-end ml-[37.656vw] w-[3.802vw] h-[4.01vw] relative bg-white/10 rounded-[0.729vw] shadow flex justify-center items-center group-hover:bg-black/10 transition-colors duration-500">
-                        <FaChevronRight className="w-[1.25vw] h-[1.25vw] group-hover:text-black transition-colors duration-500" />
-                    </div>
-                )}
             </div>
+            {isMobile ? (
+                <div className="flex justify-between mt-4">
+                    <button
+                        onClick={toggleExpand}
+                        className="w-[34.824vw] relative h-[10vw] px-[10vw] text-[2.824vw] shadow font-normal bg-transparent group-hover:bg-[#00aff1] border-white group-hover:border-[#00aff1] border group-hover:fill-[#00aff1] rounded-lg justify-between items-center inline-flex transition-colors duration-500"
+                    >
+                        {expanded ? "See Less" : "See More"}
+                    </button>
+                    <Link href="/contact" passHref
+                        className="w-[34.824vw] relative h-[10vw] px-[10vw] text-[2.824vw] shadow font-normal bg-white/10 rounded-lg justify-between items-center inline-flex group-hover:bg-black/10 group-hover:text-black transition-colors duration-500">
+                        Contact Us
+                    </Link>
+                </div>
+            ) : (
+                <div
+                    onClick={() => setOpen(true)}
+                    className="mt-auto flex justify-between items-center">
+                    <button onClick={() => setOpen(true)}
+                        className="w-[3.802vw] h-[4.01vw] relative ml-[35vw] bg-white/10 rounded-[0.729vw] shadow flex justify-center items-center group-hover:bg-black/10 transition-colors duration-500">
+                        <FaChevronRight className="w-[1.25vw] h-[1.25vw] group-hover:text-black transition-colors duration-500" />
+                    </button>
+                    {open && <HandlePage setOpen={setOpen} />}
+                </div>
+            )}
         </div>
     );
 };

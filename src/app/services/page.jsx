@@ -13,15 +13,12 @@ import ReviewCardContainer from "./(CommonComponent)/ReviewCardContainer";
 const Services = () => {
   return (
     <div className="bg-[#00111A]">
-      <FinalBanner
-        title={"Our eCommerce Services and Solutions"}
-        desciption={"We Create, Enhance, and Oversee - Allowing You to Focus on What’s More Important: Growing Your Business"}
-        pointone={"Intuitive"}
-        pointtwo={"Secure"}
-        pointthree={"Scalable"}
-        pointfour={"Tailored"}
+      <NewBanner
+        title={"Welcome to Possesive Panda - Your Premier IT Solution Partner"}
+        desciption={"Possesive Panda strives to deliver top-tier IT services that empower your business to thrive in the digital age."}
+
       />
-      <ReviewCardContainer/>
+      <ReviewCardContainer />
       <AboutMarquee />
       <Journey
         title="Possesive Panda Service Suite"

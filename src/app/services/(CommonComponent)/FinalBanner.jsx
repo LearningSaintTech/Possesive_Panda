@@ -6,9 +6,13 @@ import Lefttop from "../../../../public/assets/banner/whitetop.svg";
 import Leftbottom from "../../../../public/assets/banner/whitebottom.svg";
 import Righttop from "../../../../public/assets/banner/bluebottom.svg";
 import Rightbottom from "../../../../public/assets/banner/bluetop.svg";
+import Link from 'next/link';
+import HandlePage from "../../(Components)/(Input Form)/HandlePage";
+
 
 const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointfour }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,6 +21,10 @@ const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointf
 
     return () => clearTimeout(timer);
   }, []);
+
+  const handleGetQuote = () => {
+    setOpen(true);
+  };
 
   return (
     <div className="relative h-[155.059vw] sm:h-[34.323vw] pt-[20vw] sm:pt-0 sm:w-full overflow-hidden">
@@ -37,11 +45,14 @@ const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointf
           {desciption}
         </p>
 
-        <div className={`flex flex-col sm:flex-row space-x-0 sm:space-x-[0.833vw] transform transition-transform duration-[1500ms] ease-in-out delay-300 ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
-          <button className="bg-transparent hover:bg-[#00aff1] text-white sm:text-[0.833vw] text-[3.765vw] font-normal capitalize sm:py-[0.417vw] sm:px-[0.833vw] px-[8.235vw] py-[2.118vw] sm:rounded-[0.417vw] rounded-[1.882vw] border border-white hover:border-[#00aff1] transition duration-300">
+        <div
+          className={`flex flex-col sm:flex-row space-x-0 sm:space-x-[0.833vw] transform transition-transform duration-[1500ms] ease-in-out delay-300 ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
+          <Link href="/contact" passHref
+            className="bg-transparent hover:bg-[#00aff1] text-white sm:text-[0.833vw] text-[3.765vw] font-normal capitalize sm:py-[0.417vw] sm:px-[0.833vw] px-[8.235vw] py-[2.118vw] sm:rounded-[0.417vw] rounded-[1.882vw] border border-white hover:border-[#00aff1] transition duration-300">
             Talk To Expert
-          </button>
-          <button className="bg-transparent hover:bg-[#00aff1] text-white sm:text-[0.833vw] text-[3.765vw] font-normal capitalize sm:py-[0.417vw] sm:px-[0.833vw] px-[8.235vw] py-[2.118vw] sm:rounded-[0.417vw] rounded-[1.882vw] mt-[1.882vw] sm:mt-0 border border-white hover:border-[#00aff1] transition duration-300">
+          </Link>
+          <button onClick={handleGetQuote}
+            className="bg-transparent hover:bg-[#00aff1] text-white sm:text-[0.833vw] text-[3.765vw] font-normal capitalize sm:py-[0.417vw] sm:px-[0.833vw] px-[8.235vw] py-[2.118vw] sm:rounded-[0.417vw] rounded-[1.882vw] mt-[1.882vw] sm:mt-0 border border-white hover:border-[#00aff1] transition duration-300">
             Get A Quote
           </button>
         </div>
@@ -88,6 +99,7 @@ const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointf
           <p className="absolute inset-0 flex origin-top-left sm:pt-[2.2vw] pt-[5vw] sm:pl-[3vw] pl-[5vw] text-white sm:text-[0.833vw] text-[2.824vw] font-semibold capitalize">{pointfour}</p>
         </div>
       </div>
+      {open && <HandlePage setOpen={setOpen} />}
     </div>
   );
 };
