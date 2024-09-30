@@ -1,5 +1,4 @@
 import React from 'react'
-import NewBanner from '@/app/(Components)/NewBanner';
 import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Head from 'next/head';

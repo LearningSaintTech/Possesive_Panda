@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import back from "../../../assets/home/back-arrow.png";
+
 
 const HandlePage1 = ({ setOpen }) => {
   return (

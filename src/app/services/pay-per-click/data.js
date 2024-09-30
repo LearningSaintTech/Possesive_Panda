@@ -13,7 +13,6 @@ import { BsGraphUp } from "react-icons/bs";
 import { FaIoxhost } from "react-icons/fa6";
 import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa6";
 
 const titleData = {
   heading:

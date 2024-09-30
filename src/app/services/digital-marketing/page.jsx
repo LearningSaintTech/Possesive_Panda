@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../../(Components)/Footer";
-import NewBanner from "@/app/(Components)/NewBanner";
 import Growth from "../(CommonComponent)/Growth";
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import OurSevices from '../(CommonComponent)/OurSevices';
@@ -26,8 +25,8 @@ import {
   iconMapping1,
   ourService,
   servicesData22,
+  smallfaqimage
 } from "./data";
-import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import NewContact from "../(CommonComponent)/NewContact";
 import FinalBanner from "../(CommonComponent)/FinalBanner";

@@ -9,7 +9,6 @@ import { BsGraphUp } from "react-icons/bs";
 import { FaIoxhost } from "react-icons/fa6";
 import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa6";
 import { IoMdGitMerge } from "react-icons/io";
 import img1 from '../../../../public/assets/image_1821.svg';
 import img2 from '../../../../public/assets/image_1822.svg';
@@ -24,6 +23,11 @@ import Img7 from "../../../../public/assets/magento.svg"
 import Img8 from "../../../../public/assets/sap.svg"
 import Img9 from "../../../../public/assets/salesforce.svg"
 
+import faqimg22 from  "../../../../public/assets/services/e-commerce/8.jpg";
+
+const smallfaqimage={
+  img1:faqimg22
+}
 const faq = [
   {
     title: "Why should you choose Possesive Panda as your eCommerce partner?",
@@ -566,6 +570,7 @@ export {
   headingdata,
   testimonialsData,
   platformsData,
-  StrategyData
+  StrategyData,
+  smallfaqimage
 
 };

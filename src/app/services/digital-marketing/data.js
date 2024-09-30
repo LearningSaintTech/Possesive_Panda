@@ -13,8 +13,12 @@ import { IoEarthOutline } from "react-icons/io5";
 import { BsGraphUp } from "react-icons/bs";
 import { FaIoxhost } from "react-icons/fa6";
 import { SiCoinmarketcap } from "react-icons/si";
-import { SiGooglemarketingplatform } from "react-icons/si";
+import faqimg22 from  "../../../../public/assets/services/digital-marketing/1.png";
 
+import { SiGooglemarketingplatform } from "react-icons/si";
+const smallfaqimage={
+  img1:faqimg22
+}
 const growthData = {
   heading: "Impact of Digital Marketing on Business Growth",
   description:
@@ -409,5 +413,6 @@ export { faq,
   headingdata,
   iconMapping1, 
   ourService, 
-  servicesData22 
+  servicesData22,
+  smallfaqimage 
 };

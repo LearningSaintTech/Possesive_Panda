@@ -1,11 +1,9 @@
 "use client"
 import React, { useState } from "react";
-import Content from "./Content";
-import RelatedPortfolio from "./RelatedPortfolio";
+
 import NewBanner from "../(Components)/NewBanner";
-import { cards, projects } from "./data";
+import {  projects } from "./data";
 import Project from "./Project";
-import Card from "./Card";
 import Footer from "../(Components)/Footer";
 import Pagination from "./Pagination";
 import AboutMarquee from "../(Components)/AboutMarquee";

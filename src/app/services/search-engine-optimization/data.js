@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import img1 from "../../../../public/assets/services/seo/1.jpg";
 import img2 from "../../../../public/assets/services/seo/2.jpg";
 import img3 from "../../../../public/assets/services/seo/3.jpg";
@@ -14,7 +13,6 @@ import { BsGraphUp } from "react-icons/bs";
 import { FaIoxhost } from "react-icons/fa6";
 import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa6";
 
 const faq = [
   {

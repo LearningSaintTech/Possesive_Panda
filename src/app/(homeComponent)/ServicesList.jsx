@@ -1,6 +1,5 @@
 import React from 'react';
 import { GoArrowRight } from "react-icons/go";
-import { FaAws, FaLinux } from "react-icons/fa6";
 import { IoPeopleOutline } from "react-icons/io5";
 import { CiMobile3 } from "react-icons/ci";
 import { RiSeoLine } from "react-icons/ri";

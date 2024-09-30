@@ -1,5 +1,4 @@
 import React from 'react'
-import NewBanner from '@/app/(Components)/NewBanner';
 import Footer from "../../(Components)/Footer";
 import Script from 'next/script';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';

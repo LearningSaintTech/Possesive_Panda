@@ -1,5 +1,4 @@
 import React from 'react';
-import NewBanner from "../../(Components)/NewBanner";
 import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import IntroServices from '../(CommonComponent)/(E-commerce)/IntroServices';
@@ -8,18 +7,14 @@ import Partner from '../(CommonComponent)/Partner';
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Benefits from '../(CommonComponent)/Benefits';
 import Industries from '../search-engine-optimization/Industries';
-import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Solutions from '../(CommonComponent)/Solutions';
-import Scrollbar from '../(CommonComponent)/Scrollbar'
 import Platforms from '../(CommonComponent)/Platforms'
-import Textanim from "../(CommonComponent)/TextAnimation"
 import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 //import CostCalculator from "../(CommonComponent)/CostCalculator"
 import {
   faq,
   introServicesData,
-  servicesData,
   titleData,
   servicesData22,
   iconMapping1,
@@ -28,24 +23,21 @@ import {
   cardList,
   paragraphs,
   buttonData,
-  sectionContent,
-  servicesData1,
-  hoverImageData,
+ 
   smallfaqdata,
   headingdata,
   testimonialsData,
   platformsData,
-  StrategyData
+  StrategyData,
+  smallfaqimage
+  
 } from './data';
-import { smallfaqimage } from './images';
 import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Head from 'next/head';
 import Script from 'next/script';
-import AboutMarquee from '@/app/(Components)/AboutMarquee';
 import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
 import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
-import OurWeb from '../(CommonComponent)/OurWeb';
-import IndustriesWe from '../(CommonComponent)/IndustriesWe';
+
 
 import Strategies from '../(CommonComponent)/Strategies';
 import NewContact from '../(CommonComponent)/NewContact';

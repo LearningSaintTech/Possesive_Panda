@@ -12,7 +12,6 @@ import banner_6 from "../../assets/home/banner/Banner-6.svg";
 import banner_7 from "../../assets/home/banner/Banner-7.svg";
 import banner_8 from "../../assets/home/banner/Banner-8.svg";
 import banner_9 from "../../assets/home/banner/Banner-3.svg";
-import shadow from "../../assets/home/banner/shadow.png";
 
 const WhyUs = () => {
   const upRef = useRef(null);

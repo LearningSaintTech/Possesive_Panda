@@ -1,7 +1,6 @@
 // Pagination.js
 import React from 'react';
-import Line9 from '../../../public/assets/Line9.svg'
-import Image from 'next/image';
+
 
 const Pagination = ({ totalPosts, postsPerPage, setCurrentPage, currentPage }) => {
   const pageNumbers = [];
