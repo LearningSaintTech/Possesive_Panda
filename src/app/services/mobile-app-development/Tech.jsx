@@ -1,4 +1,7 @@
 "use client";
+import img1 from '../../../../public/assets/services/mobile-app/Our-Tech-Driven-Triumphs/1.png'
+import img2 from '../../../../public/assets/services/mobile-app/Our-Tech-Driven-Triumphs/2.png'
+import img3 from '../../../../public/assets/services/mobile-app/Our-Tech-Driven-Triumphs/3.png'
 
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -24,7 +27,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/services/mobile-app/animation.svg"
+                        src={img1}
                         alt="Fingertips"
                         width={500}
                         height={300}
@@ -47,7 +50,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/services/mobile-app/animation.svg"
+                        src={img2}
                         alt="Precision"
                         width={500}
                         height={300}
@@ -67,7 +70,7 @@ const Tech = () => {
                     onMouseLeave={() => setHovered(null)}
                 >
                     <Image
-                        src="/assets/services/mobile-app/animation.svg"
+                        src={img3}
                         alt="UI/UX"
                         width={500}
                         height={300}

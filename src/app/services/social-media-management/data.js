@@ -128,7 +128,7 @@ const whyData = {
   mainHeading: "Why Choose Possesive Panda’s Social Media Marketing Services and Solutions?",
   subText2:
     "Possesive Panda provides complete transparency, allowing you to witness firsthand how our efforts are elevating your ROI(s). Our dedication to successful social media management and marketing tactics results in a significant network resource for your online marketing requirements.",
-  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  thumbnail: '/assets/services/social-media/7.png',
   listHeading:
     "Partnering with Possesive Panda, provides top-notch and reliable benefits that can last long:",
   titles: [

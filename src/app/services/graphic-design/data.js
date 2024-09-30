@@ -85,7 +85,7 @@ const whyData = {
     "We don't just simply deliver personalized designs to our clients, we craft visual masterpieces that give your brand the wings of success. ",
   subText2:
     "Possesive Panda offers a diverse range of graphic design services across various creative disciplines, with a team of 50+ talented professionals. Our leadership drives the business, serving as the primary point of contact for clients. ",
-  thumbnail: "/assets/services/e-commerce/thumbnail.png",
+  thumbnail: "/assets/services/graphic-design/11.png",
   listHeading:
     "Partnering with Possesive Panda, provides the following benefits:",
   titles: [

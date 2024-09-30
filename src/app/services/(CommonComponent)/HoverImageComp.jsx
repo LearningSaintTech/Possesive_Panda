@@ -75,7 +75,7 @@ const HoverImageComponent = ({ hoverImageData }) => {
             >
                 <div
                     className={`absolute mt-[1.563vw] ml-[2.917vw] w-[13.021vw] h-[23.438vw] transition-transform duration-500 ease-in-out ${
-                        hover && isDescriptionAvailable
+                        hover 
                             ? 'transform -translate-y-[1vw] translate-x-[4vw] rotate-[11deg]'
                             : 'transform translate-y-0 translate-x-0 rotate-0'
                     }`}
@@ -91,7 +91,7 @@ const HoverImageComponent = ({ hoverImageData }) => {
 
                 <div
                     className={`absolute mt-[1.563vw] w-[13.021vw] h-[23.438vw] transition-transform duration-500 ease-in-out ${
-                        hover && isDescriptionAvailable
+                        hover 
                             ? 'transform -translate-y-[1vw] -translate-x-[4vw] rotate-[-11deg]'
                             : 'transform translate-y-0 translate-x-0 rotate-0'
                     }`}

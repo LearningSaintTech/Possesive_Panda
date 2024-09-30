@@ -1,7 +1,7 @@
-import img1 from '../../../../public/assets/image_1821.svg';
-import img2 from '../../../../public/assets/image_1822.svg';
-import img3 from '../../../../public/assets/image.svg';
-import faqimg22 from "../../../../public/assets/assets/services/e-commerce/faq222.png";
+import img1 from '../../../../public/assets/services/virtual-assistant/2.jpg';
+import img2 from '../../../../public/assets/services/virtual-assistant/3.jpg';
+import img3 from '../../../../public/assets/services/virtual-assistant/4.jpg';
+import faqimg22 from "../../../../public/assets/services/virtual-assistant/1.jpg";
 
 const faq = [
   {

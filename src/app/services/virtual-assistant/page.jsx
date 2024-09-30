@@ -11,6 +11,7 @@ import Marquee from '@/app/(homeComponent)/Marquee';
 import Hoverdiv from '../(CommonComponent)/Hoverdiv';
 import WhyChoose from "../real-estate-virtual-assistant/WhyChoose";
 import FinalBanner from "../(CommonComponent)/FinalBanner";
+
 import {
 
   faq,

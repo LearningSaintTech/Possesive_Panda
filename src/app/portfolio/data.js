@@ -1,8 +1,8 @@
-import Learningsaint from "../../../public/assets/portfolio/Learningsaint.svg";
-import HRMS from "../../../public/assets/portfolio/HRMS.svg";
-import Hawkins from "../../../public/assets/portfolio/Hawkins.svg";
-import Recess from "../../../public/assets/portfolio/Recess.svg";
-import MTG from "../../../public/assets/portfolio/MTG.svg";
+import Learningsaint from "../../../public/assets/portfolio/1.jpg";
+import HRMS from "../../../public/assets/portfolio/2.jpg";
+import Hawkins from "../../../public/assets/portfolio/3.jpg";
+import Recess from "../../../public/assets/portfolio/4.jpg";
+import MTG from "../../../public/assets/portfolio/5.jpg";
 
 import saint from "../../assets/portfolio/Saint.png";
 import hawkins from "../../assets/portfolio/Hawkins.png";
