@@ -33,7 +33,7 @@ const Certificate = () => {
           alt="photo-1"
           className="lg:px-[2.8vw] py-[2vw] lg:py-[1.62vw] lg:w-[20.5vw] lg:h-[7.917vw] relative z-[10] border-b-4 border-black border-opacity-10 lg:border-b-sky-500 "
         />
-        <div className="border-x-2 border-black border-opacity-10">
+        <div className="">
           <Image
             src={photo_2}
             alt="photo-2"

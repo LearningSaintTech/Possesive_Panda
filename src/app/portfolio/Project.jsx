@@ -51,10 +51,13 @@ const Project = ({ project, home, index }) => {
         </div>
         <Link
           href={project.url}
+          target="_blank" // This opens the link in a new tab
+          rel="noopener noreferrer" // This is a security measure to prevent access to the previous page's `window` object
           className="bg-[#60E2FF] hover:opacity-55 rounded-[5.128vw] sm:rounded-[0.521vw] py-[2.821vw] px-[29.744vw] sm:py-[0.65vw] sm:px-[2vw] text-white text-[3.846vw] sm:text-[1.25vw] leading-[normal] tracking-[0.013rem] sm:mt-0 mt-[1.9vw] w-full sm:w-fit"
         >
           Know More
         </Link>
+
       </div>
     </div>
   );

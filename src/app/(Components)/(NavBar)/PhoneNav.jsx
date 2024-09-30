@@ -23,42 +23,43 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [setShowSidebar]);
+
   return (
     <div
-      className="z-[999] h-screen absolute w-[90vw] py-3 bg-white left-[22vw] pr-1 top-0 overflow-auto"
+      className="z-[999] h-screen absolute w-[90vw] py-3 left-[22vw] pr-1 top-0 overflow-auto"
       ref={sidebarRef}
+      style={{
+        background: "linear-gradient(85deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%)",
+        backdropFilter: "blur(25px)",
+      }}
     >
       <IoClose
-        className="mt-[5vw] ml-[3vw] size-[10vw] "
+        className="mt-[5vw] ml-[3vw] size-[10vw]"
         onClick={() => setShowSidebar(false)}
       />
 
-      <div className="mt-20 ">
+      <div className="mt-20">
         <Link
           href="/"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "Home" ? "text-[#00AFF1]" : ""
-          }`}
+          className={`font-normal text-[5vw] p-4 block border-b border-gray-200 ${activeLabel === "Home" ? "text-[#00AFF1] font-medium" : "text-white font-normal"}`}
         >
           Home
         </Link>
         <Link
           href="/about"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "About Us" ? "text-[#00AFF1]" : ""
-          }`}
+          className={`font-normal text-[5vw] p-4 block border-b border-gray-200 ${activeLabel === "About Us" ? "text-[#00AFF1] font-medium" : "text-white font-normal"}`}
         >
           About Us
         </Link>
         <button
-          className="font-normal p-4 border-b border-gray-200 flex items-center pr-8 w-[75vw] justify-between"
+          className="font-normal text-[5vw] p-4 border-b border-gray-200 flex items-center pr-8 w-[75vw] justify-between"
           onClick={() => setShowServices(!showServices)}
         >
-          <p>Services</p>
-          <FaCaretDown className="size-[5vw] sm:size-[3.5vw] opacity-50" />
+          <p className="text-white">Services</p>
+          <FaCaretDown className="size-[5vw] text-white sm:size-[3.5vw] opacity-50" />
         </button>
         {showServices && (
-          <div className="">
+          <div>
             {services1.map((service, key) => (
               <SubServices data={service} key={key} />
             ))}
@@ -66,25 +67,19 @@ const PhoneNav = ({ setShowSidebar, activeLabel }) => {
         )}
         <Link
           href="/portfolio"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "Portfolio" ? "text-[#00AFF1]" : ""
-          }`}
+          className={`font-normal text-[5vw] p-4 block border-b border-gray-200 ${activeLabel === "Portfolio" ? "text-[#00AFF1] font-medium" : "text-white font-normal"}`}
         >
           Portfolio
         </Link>
         <Link
           href="/blog"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "Blogs" ? "text-[#00AFF1]" : ""
-          }`}
+          className={`font-normal text-[5vw] p-4 block border-b border-gray-200 ${activeLabel === "Blogs" ? "text-[#00AFF1] font-medium" : "text-white font-normal"}`}
         >
           Blogs
         </Link>
         <Link
           href="/contact"
-          className={`font-normal p-4 block border-b border-gray-200 ${
-            activeLabel === "Contact" ? "text-[#00AFF1]" : ""
-          }`}
+          className={`font-normal text-[5vw] p-4 block border-b border-gray-200 ${activeLabel === "Contact" ? "text-[#00AFF1] font-medium" : "text-white font-normal"}`}
         >
           Get In Touch
         </Link>

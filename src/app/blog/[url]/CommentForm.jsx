@@ -2,7 +2,7 @@ import React from "react";
 
 const CommentForm = () => {
   return (
-    <div className="mt-[5.2vw] p-[2.6vw] bg-[#00111A] w-fill sm:w-[57.813vw]  justify-center items-center ">
+    <div className="mt-[3vw] p-[2.6vw] bg-[#00111A] w-fill sm:w-[57.813vw]  justify-center items-center ">
       <h3 className="text-[#fff] text-[5vw] sm:text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem]">
         Leave a Reply
       </h3>

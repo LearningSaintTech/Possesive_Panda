@@ -15,7 +15,6 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        // Optionally close dropdown when clicking outside
       }
     };
 
@@ -33,9 +32,8 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
   return (
     <div
       ref={dropdownRef}
-      className={`absolute flex gap-[2.344vw] top-[4.3vw] pl-[3.646vw] py-[2.083vw] pr-[3.6vw] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[0.2vw] w-[90vw] h-[31.5vw] ${
-        showDropdown ? "block" : "hidden"
-      }`}
+      className={`absolute flex gap-[2.344vw] top-[4.3vw] pl-[3.646vw] py-[2.083vw] pr-[3.6vw] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[0.2vw] w-[90vw] h-[31.5vw] ${showDropdown ? "block" : "hidden"
+        }`}
       style={{
         background: "linear-gradient(85deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%)",
         backdropFilter: "blur(25px)",
@@ -44,13 +42,12 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
     >
       <div className="">
         <h1
-          className={`${
-            isHomePage ? "text-white" : "text-black"
-          } text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem] underline mb-[1.563vw]`}
+          className={`${isHomePage ? "text-white" : "text-black"
+            } text-[1.667vw] font-medium leading-[normal] tracking-[0.017vw] underline mb-[2.083vw]`}
         >
           Browse Our Services
         </h1>
-        <div className="w-[22.5vw]">
+        <div className="w-[22vw]">
           <ListItem
             name={"Services"}
             clickFunction={() => setSelectedService("Services")}
@@ -108,7 +105,7 @@ const Dropdown = ({ showDropdown, setShowDropdown }) => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="grid grid-cols-3 gap-[1.6vw] overflow-auto pt-[1.8vw] pb-[2vw] scroll scroll-smooth snap-end">
+      <div className="grid grid-cols-3 gap-[1.6vw] overflow-auto pt-[5vw] pb-[2vw] scroll scroll-smooth snap-end">
         {serviceContent[selectedService].map((item, index) => (
           <ServiceItem
             key={index}

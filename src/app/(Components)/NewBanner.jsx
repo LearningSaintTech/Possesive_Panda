@@ -19,10 +19,13 @@ const NewBanner = ({ title, desciption }) => {
                         {desciption}
                     </p>
                 </div>
-                <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw] ">
-                    Get In Touch
-                </button>
-                
+                <a href="/contact">
+                    <button className="py-[2.353vw] sm:py-[0.729vw] px-[28vw] sm:px-[1.354vw] bg-[#05B7DF] rounded-[1.882vw] sm:rounded-[3.906vw] text-white text-[3.765vw] sm:text-[1.25vw] font-semibold mt-[2.24vw]">
+                        Get In Touch
+                    </button>
+                </a>
+
+
                 <p className="text-white text-[3.765vw] sm:text-[0.835vw] font-normal leading-[160%] mt-[4vw] sm:mt-[1.042vw] ">
                     Feel Free to Connect with Us
                 </p>

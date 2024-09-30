@@ -31,31 +31,17 @@ const ServiceItem = ({ name = "", link = "" }) => {
 
   return (
     <Link href={link}>
-      <div className="relative rounded-[0.3vw] border-l border-black border-opacity-20 pl-[1.563vw] pr-[4.7vw] h-[6.771vw] cursor-pointer">
+      <div className="relative flex justify-between items-center rounded-[0.3vw] border-l border-white border-opacity-30 pl-[0.8vw] pr-[4.7vw] h-[5vw] cursor-pointer">
         <h5
-          className="text-white hover:text-[#60e2ff] hover:font-bold text-[1.042vw] my-[1.823vw] font-medium leading-[normal] tracking-[0.013rem] h-fit w-[12vw]"
+          className="text-white hover:text-[#60e2ff] hover:font-bold text-[1.042vw] my-[1.823vw] font-medium leading-[normal] tracking-[0.013rem]  w-[12vw]"
         >
           {firstPart}
           <br />
           {secondPart}
         </h5>
 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="39"
-          height="25"
-          viewBox="0 0 39 25"
-          fill="none"
-          className="w-[1.6vw] h-[1.901vw] absolute bottom-[0.8vw] right-[3vw]"
-        >
-          <path
-            opacity="0.5"
-            d="M26.2829 23.4766L37.5238 12.2385M37.5238 12.2385L26.2829 1.00037M37.5238 12.2385L1 12.2385"
-            stroke="black"
-            strokeWidth="1.81"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+          <path d="M24 18L36 30L24 42" stroke="white" stroke-width="3" stroke-linecap="round" />
         </svg>
       </div>
     </Link>

@@ -84,7 +84,7 @@ const Banner = ({ whyUsRef }) => {
   };
 
   return (
-    <div className="relative w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
+    <div className="relative bg-[#00111A] w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
       {/* Text Content */}
       <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 sm:w-[43.333vw] mt-[18vw] sm:mt-[13.958vw] flex flex-col gap-[5vw] md:gap-[6vw] lg:gap-[1.083vw]">
         <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide lg:w-[50vw] md:w-[40vw] md:text-[2.5vw] md:text-start">

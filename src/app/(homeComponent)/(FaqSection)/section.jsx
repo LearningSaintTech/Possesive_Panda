@@ -23,7 +23,7 @@ const Faq = () => {
           </p>
           <a
             href="mailto:hello@possesivepanda.com"
-            className="text-[4.103vw] sm:text-[1.042vw] font-normal leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] sm:ml-0 ml-[10vw] text-center sm:text-left"
+            className="text-[4.103vw] sm:text-[1.1vw] font-semibold leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] sm:ml-0 ml-[10vw] text-center sm:text-left"
           >
             hello@possesivepanda.com
           </a>

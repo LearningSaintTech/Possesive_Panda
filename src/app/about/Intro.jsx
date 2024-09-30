@@ -12,7 +12,7 @@ const Intro = () => {
                 alt="sidecomponent"
                 className="hidden sm:block w-[26.719vw] h-[44.688vw] bg-[#00111A] z- "
             />
-            <h2 className='sm:block hidden absolute inset-0 flex justify-center text-white opacity-5 text-[8.5vw] font-bold tracking-widest whitespace-nowrap z-0 '>Possesive Panda</h2>
+            <h2 className='sm:flex ml-[14vw] hidden absolute inset-0  justify-center text-white opacity-5 text-[8.5vw] font-bold tracking-widest whitespace-nowrap z-0 '>Possesive Panda</h2>
             <div className='flex flex-col gap-[11.294vw] sm:gap-[1.8vw] ' >
                 <div className='flex flex-col gap-[1.583vw] '>
                     <h2 className='text-[5.647vw] sm:text-[2.5vw] text-[#05B7DF] sm:text-white font-medium sm:font-normal text-center sm:text-left '>Who Are We ?</h2>

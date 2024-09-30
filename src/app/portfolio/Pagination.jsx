@@ -11,40 +11,39 @@ const Pagination = ({ totalPosts, postsPerPage, setCurrentPage, currentPage }) =
   }
 
   return (
-    <div className='flex flex-col mb-10 mt-5 justify-center items-center'>
-    <div className="flex items-center justify-center mt-4 space-x-2 mb-[3.49vw]">
-      
-      <button
-        className="px-2 py-1 bg-[#00111A] text-white rounded border border-white disabled:opacity-50 justify-center items-center"
-        onClick={() => setCurrentPage(currentPage - 1)}
-        disabled={currentPage === 1}
-      >
-        &lt;
-      </button>
-      {pageNumbers.map((number) => (
+    <div className='flex flex-col mb-[6.25vw] mt-5 justify-center items-center'>
+      <div className="flex items-center justify-center space-x-2 ">
+
         <button
-          key={number}
-          onClick={() => setCurrentPage(number)}
-          className={`px-3 py-1 rounded  border border-white justify-center items-center  ${
-            currentPage === number ? 'bg-[#60E2FF] text-white' : 'bg-[#00111A] text-white'
-          }`}
+          className="px-2 py-1 bg-[#00111A] text-white rounded border border-white disabled:opacity-50 justify-center items-center"
+          onClick={() => setCurrentPage(currentPage - 1)}
+          disabled={currentPage === 1}
         >
-          {number}
+          &lt;
         </button>
-      ))}
-      <button
-        className="px-2 py-1  bg-[#00111A] text-white rounded border border-white disabled:opacity-50 justify-center items-center mt"
-        onClick={() => setCurrentPage(currentPage + 1)}
-        disabled={currentPage === pageNumbers.length}
-      >
-        &gt;
-      </button>
-   
- 
-    </div>
-    <Image src={Line9} className='w-[64.635vw] '/>
+        {pageNumbers.map((number) => (
+          <button
+            key={number}
+            onClick={() => setCurrentPage(number)}
+            className={`px-3 py-1 rounded  border border-white justify-center items-center  ${currentPage === number ? 'bg-[#60E2FF] text-white' : 'bg-[#00111A] text-white'
+              }`}
+          >
+            {number}
+          </button>
+        ))}
+        <button
+          className="px-2 py-1  bg-[#00111A] text-white rounded border border-white disabled:opacity-50 justify-center items-center mt"
+          onClick={() => setCurrentPage(currentPage + 1)}
+          disabled={currentPage === pageNumbers.length}
+        >
+          &gt;
+        </button>
+
+
+      </div>
+      {/* <Image src={Line9} className='w-[64.635vw] ' /> */}
     </div>
   );
 };
- 
+
 export default Pagination;

@@ -75,8 +75,8 @@ const Nav = () => {
   return (
     <nav
       className={`w-full h-[18vw] sm:h-[5vw] px-[5.208vw] py-[0.964vw] shadow-sm fixed top-0 z-30 transition-all duration-300 ${isScrolled
-          ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[25px]"
-          : "bg-transparent"
+        ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[25px]"
+        : "bg-transparent"
         }`}
       style={{ backdropFilter: isScrolled ? "none" : "none" }}
     >
@@ -129,7 +129,7 @@ const Nav = () => {
           <Link href="/blog" className={`${activeLabel === "Blogs" ? activeClass : hoverClass}`}>
             Blogs
           </Link>
-        <Link href="/contact" className="ml-[0.521vw] py-[0.885vw] px-[1.563vw] bg-[#05B7DF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]">
+          <Link href="/contact" className="ml-[0.521vw] py-[0.885vw] px-[1.563vw] bg-[#05B7DF] text-white rounded-[3.906vw] hover:bg-[#00AFF1]">
             Get In Touch
           </Link>
         </div>

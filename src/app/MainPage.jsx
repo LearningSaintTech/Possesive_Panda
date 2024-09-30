@@ -15,6 +15,9 @@ import ServicesList from "./(homeComponent)/ServicesList";
 import Faq from "./(homeComponent)/(FaqSection)/section";
 import Canvas from "./(homeComponent)/Canvas";
 import ToolsTech from '../app/services/(CommonComponent)/ToolsTech';
+import Line9 from '../../public/assets/Line9.svg'
+import Image from 'next/image';
+
 
 import WorldClocks from "./(homeComponent)/WorldClocks";
 
@@ -61,7 +64,7 @@ const MainPage = () => {
             <Contact />
           </div>
           <div className="sm:mt-[7.969vw] ">
-          <WorldClocks/>
+            <WorldClocks />
           </div>
           <div className="sm:mt-[5.208vw] mt-[14.118vw] ">
             <Blogs />
@@ -69,6 +72,10 @@ const MainPage = () => {
           <div className="sm:mt-[3vw] mt-[14.118vw] ">
             <Faq />
           </div>
+          {/* <div className="flex justify-center items-center h-full">
+            <Image src={Line9} className="w-[64.635vw]" />
+          </div> */}
+
           <div className="sm:mt-[3vw] mt-[10vw] ">
             <Footer />
           </div>
