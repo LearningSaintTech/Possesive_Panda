@@ -67,7 +67,7 @@ const page = () => {
         <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
-      <div>
+      <div className='mt-0 sm:mt-[7.813vw]'>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}

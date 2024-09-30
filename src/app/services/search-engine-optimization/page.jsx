@@ -171,7 +171,7 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div className='sm:block hidden mt-[7vw] '>
+      <div className='sm:block hidden mt-[7vw] mb-[6.25vw]'>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>

@@ -231,7 +231,7 @@ const platformsData = [
 const whyData = {
   mainHeading: "Why Choose Possesive Panda as your Finance & Accounting Services Success Partner?",
   subText1: "Possesive Panda is a global accounting outsourcing company offering end-to-end offshore accounting and financial management services to small, mid, and large-scale businesses. Our expert team uses top accounting tools and best practices to enhance finance and operations. We can handle one-time or occasional accounting jobs, keeping businesses competitive during tax season or year-end accounting intricacies.",
-  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  thumbnail: '/assets/portfolio/finan.png',
   listHeading:
     "Possesive Panda is a pioneer IT solution provider and deliver outstanding web application development services:",
   titles: [

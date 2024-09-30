@@ -132,13 +132,13 @@ const Banner = ({ whyUsRef }) => {
           Trust us to keep your technology running smoothly,
           <span className='text-[#60e2ff] font-normal'> so you can focus on what truly matters</span>—growing your business.
         </p>
-        {/* Marque */}
+        {/* Updated Marquee */}
         <div>
           <style>
             {`
       @keyframes marquee {
         0% {
-          transform: translateX(50%); /* Start closer to the visible area */
+          transform: translateX(100%);
         }
         100% {
           transform: translateX(-100%);
@@ -148,7 +148,7 @@ const Banner = ({ whyUsRef }) => {
       .animate-marquee {
         display: inline-block;
         white-space: nowrap;
-        animation: marquee 40s linear infinite; /* Reduced time to make it appear sooner */
+        animation: marquee 40s linear infinite;
       }
     `}
           </style>
@@ -169,7 +169,6 @@ const Banner = ({ whyUsRef }) => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

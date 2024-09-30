@@ -19,13 +19,16 @@ const Services = () => {
         desciption={"Possesive Panda strives to deliver top-tier IT services that empower your business to thrive in the digital age."}
 
       />
-      <ReviewCardContainer />
-      <AboutMarquee />
-      <Journey
-        title="Possesive Panda Service Suite"
-        subtitle="Doesn’t matter if your business scale; We Cater to Your Every Tech-Realated Needs"
-        description="We tailor solutions according to clients’s expectations by providing a unique blend of onshore and offshore services. We offer a comprehensive range of IT services, covering every aspect, from software development and digital marketing to cloud services and beyond. From early-age startups to seasoned organizations in fintech, healthcare, travel, retail, and many more, we deliver the best services across the globe. "
-      />
+      <div className="hidden sm:block sm:mt-[1.042vw]">
+        <AboutMarquee />
+      </div>
+      <div className="mt-[16.941vw] sm:mt-[5.25vw]">
+        <Journey
+          title="Possesive Panda Service Suite"
+          subtitle="Doesn’t matter if your business scale; We Cater to Your Every Tech-Realated Needs"
+          description="We tailor solutions according to clients’s expectations by providing a unique blend of onshore and offshore services. We offer a comprehensive range of IT services, covering every aspect, from software development and digital marketing to cloud services and beyond. From early-age startups to seasoned organizations in fintech, healthcare, travel, retail, and many more, we deliver the best services across the globe. "
+        />
+      </div>
       <div>
         <ServicepageComponent
           heading={dataSet1.heading}

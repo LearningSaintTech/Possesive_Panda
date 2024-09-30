@@ -149,7 +149,7 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer />
-      <div className='sm:mt-[5.5vw] mt-[10vw] '>
+      <div className='sm:mt-[2.5vw] mt-[10vw] '>
         <ServicesVa />
       </div>
       <div className='sm:mt-[7.5vw] mt-[14.118vw]'>
@@ -168,16 +168,18 @@ const page = () => {
 
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <WhyChoose />
-        <TextAnimation />      
-        </div>
-      <div className='sm:block hidden mt-[7vw] '>
+      </div>
+      <div className='sm:mt-[5.125vw] mt-[7.059vw]'>
+        <TextAnimation />
+      </div>
+      <div className='sm:mt-[6.25vw] mt-[14.118vw]'>
+        <NewContact />
+      </div>
+      <div className='sm:block hidden mt-[5.125vw]'>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
-      <div className='sm:mt-[1vw] mt-[14.118vw]'>
-        <NewContact />
-      </div>
-      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+      <div className='sm:mt-[5.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
         <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       </div>
       <Faq faq={faq} />
