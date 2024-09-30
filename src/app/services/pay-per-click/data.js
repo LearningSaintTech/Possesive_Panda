@@ -1,6 +1,6 @@
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/payPerClick/5.jpg";
+import img2 from  "../../../../public/assets/services/payPerClick/6.jpg";
+import img3 from  "../../../../public/assets/services/payPerClick/5a.jpg";
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";

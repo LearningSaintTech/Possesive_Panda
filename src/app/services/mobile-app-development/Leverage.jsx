@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import img1 from '../../../../public/assets/services/mobile-app/Fingertips.svg'
-import img2 from '../../../../public/assets/services/mobile-app/precision.svg'
-import img3 from '../../../../public/assets/services/mobile-app/precision.svg'
-import img4 from '../../../../public/assets/services/mobile-app/uiux.svg'
+import img1 from '../../../../public/assets/services/mobile-app/finger.jpg'
+import img2 from '../../../../public/assets/services/mobile-app/webapps.jpg'
+import img3 from '../../../../public/assets/services/mobile-app/webapps.jpg'
+import img4 from '../../../../public/assets/services/mobile-app/elevated.jpg'
 
 const Leverage = () => {
     return (

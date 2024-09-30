@@ -19,7 +19,7 @@ import { MdShoppingCart, MdHealthAndSafety } from "react-icons/md";
 import { FaGamepad, FaBusAlt } from "react-icons/fa";
 import { GiTakeMyMoney, GiChipsBag } from "react-icons/gi";
 import { IoRestaurant } from "react-icons/io5";
-import faqimg22 from  "../../../../public/assets/assets/services/e-commerce/faq222.png";
+import faqimg22 from  "../../../../public/assets/services/mobile-app/choosemad.png";
 
 const icons = [
   aws,
