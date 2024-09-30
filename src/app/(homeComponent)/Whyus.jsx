@@ -48,9 +48,9 @@ const WhyUs = () => {
         <h3 className="text-[#fff] text-[4.103vw] sm:text-[1.25vw] font-medium sm:font-normal tracking-[0.051vw] sm:tracking-[0.015rem] mb-[4vw] sm:mb-[1.042vw] text-center sm:text-left">
           Why Us
         </h3>
-        <h3 className="text-[#fff] font-medium text-[8.205vw] sm:text-[3.333vw] leading-[125%] tracking-[0.062vw] sm:tracking-[0.04rem] mb-[5.128vw] sm:mb-[1.042vw] text-center sm:text-left">
+        <h2 className="text-[#fff] font-medium text-[8.205vw] sm:text-[3.333vw] leading-[125%] tracking-[0.062vw] sm:tracking-[0.04rem] mb-[5.128vw] sm:mb-[1.042vw] text-center sm:text-left">
           Why collaborate with us?
-        </h3>
+        </h2>
         <p className="font-normal text-[#fff] text-[4.103vw] sm:text-[1.25vw] leading-[150%] tracking-[0.038vw] sm:tracking-[0.015rem] text-center sm:text-left">
           We are a leading global IT Service provider that adapts, overcomes, and solves complex technical and business problems. From building cutting-edge software to organizing seamless virtual assistant services, we propel your business’s growth to the next level. Let us be the catalyst that transforms your ambitions into achievements.
         </p>

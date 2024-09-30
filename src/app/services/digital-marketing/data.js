@@ -1,6 +1,6 @@
-import img1 from '../../../../public/assets/image_1821.svg';
-import img2 from '../../../../public/assets/image_1822.svg';
-import img3 from '../../../../public/assets/image.svg';
+import img1 from '../../../../public/assets/services/digital-marketing/2.jpg';
+import img2 from '../../../../public/assets/services/digital-marketing/3.jpg';
+import img3 from '../../../../public/assets/services/digital-marketing/4.jpg';
 
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
@@ -227,6 +227,8 @@ const hoverImageData = {
     heading: "Generate Leads and Maximize Your ROI",
     description:
       "Digital marketing can only be successful if it generates a return on investment. We are committed to helping your business achieve long-term revenue development. With our  expertise as digital marketing consultants and exposure to cross-industry knowledge, we select the marketing mix and overall approach that best meet your demands and goals.",
+      description1:"We maximize your marketing investment by excelling at what we do: using various tools and digital platforms to increase campaign effectiveness and developing plans that produce outstanding results. Customer growth is always a key priority for us; our values and skills ensure that we provide excellent ROI to our customers.",
+      description2:"We value open communication and feedback, and we'd like to hear what your short- and long-term goals are, whether they're new customer acquisition, increased engagement, or creating awareness, loyalty, and affinity. We plan, strategize, execute, and review properly.",
   },
   images: {
     

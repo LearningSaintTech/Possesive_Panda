@@ -264,7 +264,7 @@ const CircleAnimation = React.forwardRef((props, ref) => {
 
       {/* Text inside the circle */}
       <div className="absolute">
-        <h2 className="text-white text-[2.083vw] font-bold text-center mt-[1.042vw] pb-[1.563vw]">{currentText.title}</h2>
+        <h3 className="text-white text-[2.083vw] font-bold text-center mt-[1.042vw] pb-[1.563vw]">{currentText.title}</h3>
         <p className="text-white  mt-[1.563vw] text-center max-w-xs">{currentText.description}</p>
       </div>
     </div>

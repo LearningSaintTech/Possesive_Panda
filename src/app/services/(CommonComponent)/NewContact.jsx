@@ -27,7 +27,7 @@ const NewContact = () => {
                         <div className='flex flex-col gap-[0.533vw]'>
                             <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Name</p>
                             <input
-                                className='sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw] border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw]  placeholder:opacity-[0.5]'
+                                className='text-white sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw] border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw]  placeholder:opacity-[0.5]'
                                 placeholder='Full Name'
                                 type="text"
                             />
@@ -35,7 +35,7 @@ const NewContact = () => {
                         <div className='flex flex-col gap-[0.533vw]'>
                             <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Email</p>
                             <input
-                                className='sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
+                                className='text-white sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
                                 placeholder='YourEmail'
                                 type="text"
                             />
@@ -43,7 +43,7 @@ const NewContact = () => {
                         <div className='flex flex-col gap-[0.533vw]'>
                             <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Phone</p>
                             <input
-                                className='sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
+                                className='text-white sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
                                 placeholder='+91'
                                 type="text"
                             />
@@ -51,8 +51,8 @@ const NewContact = () => {
                         <div className='flex flex-col gap-[0.533vw]'>
                             <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Company</p>
                             <input
-                                className='sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
-                                placeholder='Pvt. Ltd'
+                                className='text-white sm:pl-[1.25vw] pl-[3vw] pr-[7vw] py-[0.9vw]  border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
+                                placeholder='Pvt. Ltd.'
                                 type="text"
                             />
                         </div>
@@ -60,14 +60,13 @@ const NewContact = () => {
 
                     {/* Message Input */}
                     <div className='flex flex-col gap-[0.833vw]'>
-                        <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Message</p>
-                        <input
-                            className='px-[1.25vw] sm:pl-[1.25vw] pl-[3vw] py-[2.5vw] border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5]'
-                            placeholder='Type your message here...'
-                            type="text"
-                        />
-                    </div>
-
+    <p className='text-white sm:font-semibold font-normal text-[4.706vw] sm:text-[1.042vw]'>Message</p>
+    <textarea
+        className='text-white px-[1.25vw] sm:pt-[1.25vw] sm:pb-[0vw] sm:pl-[1vw] pl-[3vw] pt-[2.5vw] pb-[2.5vw] border rounded-lg border-solid border-[rgba(216,216,216,0.60)] bg-[#131D22] lg:placeholder:text-[0.833vw] md:placeholder:text-[1.6vw] sm:placeholder:text-[3.765vw] placeholder:opacity-[0.5] resize-none'
+        placeholder='Type your message here...'
+        rows={5} // This controls the height of the textarea, adjust as needed
+    />
+</div>
                     {/* Submit Button */}
                     <div className='bg-[#05B7DF] w-[85.882vw] sm:w-[14.167vw] sm:pl-[1.094vw] pl-[20.706vw] sm:py-[0.729vw] py-[4vw] sm:mb-[0vw] mb-[2vw] rounded-[3.125vw] flex  gap-[0.617vw]  font-semibold'>
                         <button className='text-white flex flex-row  font-semibold sm:text-[1.042vw] text-[3.765vw] gap-[0.617vw] justify-center text-center items-center'><span>Consult With Expert</span>

@@ -12,12 +12,28 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
         3: false,
     });
 
+    const contentRefs = useRef({});
+
     const toggleExpandLine = (line) => {
         setExpandedLines((prevState) => ({
             ...prevState,
             [line]: !prevState[line],
         }));
     };
+
+    useEffect(() => {
+        Object.keys(expandedLines).forEach((line) => {
+            if (contentRefs.current[line]) {
+                if (expandedLines[line]) {
+                    contentRefs.current[line].style.maxHeight = `${contentRefs.current[line].scrollHeight}px`;
+                    contentRefs.current[line].style.transition = 'max-height 0.7s ease-in-out';
+                } else {
+                    contentRefs.current[line].style.maxHeight = '6.5vw';
+                    contentRefs.current[line].style.transition = 'max-height 0.5s ease-in-out';
+                }
+            }
+        });
+    }, [expandedLines]);
 
     const settings = {
         dots: false,
@@ -35,9 +51,9 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
             {/* FOR DESKTOP AND TABLET */}
             <div className="px-[5.208vw] hidden sm:block">
                 <div>
-                    <h6 className="text-white text-[2.5vw] font-medium tracking-wide pb-[1.442vw]">
+                    <h1 className="text-white text-[2.5vw] font-medium tracking-wide pb-[1.442vw]">
                         {heading}
-                    </h6>
+                    </h1>
                     <p className="w-[55.729vw] text-justify text-white text-[1.25vw] font-light">
                         {subHeading}
                     </p>
@@ -55,14 +71,19 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                                                 className: "w-full h-full",
                                             })}
                                         </div>
-                                        <h5 className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
+                                        <h3 className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.title}
-                                        </h5>
+                                        </h3>
                                     </div>
-                                    {/* Smooth expanding/collapsing with dynamic max-height */}
                                     <div
-                                        className={`pt-[1.094vw] w-[23.719vw] transition-all duration-700 ease-in-out overflow-hidden ${expandedLines[lineData.line] ? "max-h-[50vw]" : "max-h-[4.5vw]"}`
-                                        }
+                                        ref={(el) => contentRefs.current[lineData.line] = el}
+                                        className="pt-[1.094vw] w-[23.719vw] overflow-hidden"
+                                        style={{
+                                            maxHeight: expandedLines[lineData.line] ? '1000px' : '6.5vw',
+                                            transition: expandedLines[lineData.line]
+                                                ? 'max-height 0.7s ease-in-out'
+                                                : 'max-height 0.5s ease-in-out'
+                                        }}
                                     >
                                         <p className="text-[#babcd2] text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.description}
@@ -75,18 +96,21 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                         <div className="text-left mt-[2vw]">
                             <button
                                 onClick={() => toggleExpandLine(lineData.line)}
-                                className="text-white/75 text-[1.146vw] font-normal border border-[#2a2b3a] rounded-full px-[1.5vw] py-[0.5vw] hover:bg-[#04b7df] hover:text-white transition duration-300 ease-in-out flex items-center gap-[0.5vw]" // Added flex and gap for icon spacing
+                                className="text-white/75 text-[1.146vw] font-normal border border-[#2a2b3a] rounded-full px-[1.5vw] py-[0.5vw] hover:bg-[#04b7df] hover:text-white transition duration-300 ease-in-out flex items-center gap-[0.5vw]"
                             >
                                 {expandedLines[lineData.line] ? "See Less" : "See More"}
                                 {expandedLines[lineData.line] ? (
-                                    <FaChevronUp className="ml-2" /> // Upward icon for "See Less"
+                                    <FaChevronUp className="ml-2" />
                                 ) : (
-                                    <FaChevronDown className="ml-2" /> // Downward icon for "See More"
+                                    <FaChevronDown className="ml-2" />
                                 )}
                             </button>
                         </div>
 
-                        <div className="h-[0.2vw] w-full bg-[#2a2b3a] mt-[4.167vw]"></div>
+                        {/* Render divider only for the first three lines */}
+                        {lineIndex < 3 && (
+                            <div className="h-[0.2vw] w-full bg-[#2a2b3a] mt-[4.167vw]"></div>
+                        )}
                     </React.Fragment>
                 ))}
             </div>
@@ -94,9 +118,9 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
             {/* FOR MOBILE */}
             <div className="sm:hidden">
                 <div className="px-[30px]">
-                    <h6 className="w-full text-center text-white text-[7.529vw] font-medium">
+                    <h1 className="w-full text-center text-white text-[7.529vw] font-medium">
                         {heading}
-                    </h6>
+                    </h1>
                     <p className="w-full text-center text-white text-[3.765vw] font-normal mt-[3.765vw]">
                         {subHeading}
                     </p>
@@ -121,9 +145,9 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                                                     className: "w-full h-full",
                                                 })}
                                             </div>
-                                            <h6 className="text-white text-[3.765vw] font-medium">
+                                            <h3 className="text-white text-[3.765vw] font-medium">
                                                 {service.title}
-                                            </h6>
+                                            </h3>
                                         </div>
                                         <div className="mt-3">
                                             <p className="opacity-70 text-white text-[3.765vw] font-normal">

@@ -38,9 +38,9 @@ const Growth = ({ heading, description, cards }) => {
     return (
         <div className='relative flex flex-col px-[7.059vw] sm:px-[5.208vw] '>
             <div className='flex sm:flex-row flex-col sm:gap-0 gap-[7.059vw] sm:justify-between'>
-                <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:w-[35.052vw] text-center sm:text-left '>
+                <h3 className='text-white text-[7.529vw] sm:text-[2.5vw] font-medium sm:w-[35.052vw] text-center sm:text-left '>
                     {heading}
-                </h2>
+                </h3>
                 <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-light leading-[185%] text-center sm:text-right sm:w-[39vw]'>
                     {description}
                 </p>
@@ -56,12 +56,12 @@ const Growth = ({ heading, description, cards }) => {
                         className="min-w-[70.588vw] sm:min-w-[26.042vw] text-white flex flex-col sm:justify-between snap-center gap-[8.471vw] sm:gap-[2vw]"
                     >
                         <div className='flex flex-col gap-[4.471vw] sm:gap-[0.1vw]'>
-                            <h4 className="text-[#00AFF1] text-[2.824vw] sm:text-[1.042vw] font-semibold sm:leading-[168%]">
+                            <p className="text-[#00AFF1] text-[2.824vw] sm:text-[1.042vw] font-semibold sm:leading-[168%]">
                                 {card.category}
-                            </h4>
-                            <h2 className="text-white text-[5.647vw] sm:text-[2.5vw] font-normal sm:w-[24vw]">
+                            </p>
+                            <h4 className="text-white text-[5.647vw] sm:text-[2.5vw] font-normal sm:w-[24vw]">
                                 {card.title}
-                            </h2>
+                            </h4>
                         </div>
                         <div className='flex gap-[2.929vw] sm:gap-[1.042vw] ml-[2.929vw] sm:ml-[1.2vw]'>
                             <div className='sm:w-[0.05vw] w-2 bg-white'></div>

@@ -2,24 +2,29 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { FaPlayCircle } from 'react-icons/fa'; // Font Awesome icon for play button
-import blowout from '../../../public/assets/aboutus/blowout.png';
-import car from '../../../public/assets/aboutus/car.png';
-import hair from '../../../public/assets/aboutus/hair.png';
-import lens from '../../../public/assets/aboutus/lens.png';
-import reiki from '../../../public/assets/aboutus/reiki.png';
+import img1 from "../../../public/assets/services/2.jpg"
+import img2 from "../../../public/assets/services/2a.jpg"
+import img3 from "../../../public/assets/services/2b.jpg"
+import img4 from "../../../public/assets/services/2c.jpg"
+import img5 from "../../../public/assets/services/2d.jpg"
+import img6 from "../../../public/assets/services/2e.jpg"
+import img7 from "../../../public/assets/services/2f.jpg"
+import img8 from "../../../public/assets/services/2g.jpg"
+import img9 from "../../../public/assets/services/2h.jpg"
+import img10 from "../../../public/assets/services/2i.jpg"
 
 const AboutMarquee = () => {
     const images = [
-        blowout,
-        car,
-        hair,
-        lens,
-        reiki,
-        blowout,
-        car,
-        hair,
-        lens,
-        reiki,
+        img1,
+        img2,
+        img3,
+        img4,
+        img5,
+        img6,
+        img7,
+        img8,
+        img9,
+        img10
     ];
 
     const containerRef = useRef(null);
@@ -51,7 +56,7 @@ const AboutMarquee = () => {
     }, []);
 
     return (
-        <div className="relative overflow-hidden w-full pb-[7.813vw] mt-[2.4vw] bg-[#00111a]">
+        <div className="relative overflow-hidden w-full bg-[#00111a]">
             <div
                 ref={containerRef}
                 style={{

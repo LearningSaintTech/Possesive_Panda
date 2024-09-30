@@ -108,16 +108,16 @@ const Solutions = ({ paragraphs, buttonData, title }) => {
 
                                 }}
                             >
-                                {text}
+                               <h3> {text}</h3>
                             </button>
                         );
                     })}
 
                 </div>
                 <div className='flex flex-col' >
-                    <p className='text-white text-[0.833vw] ml-[-3vw]'>Possesive Panda</p>
-                    <p className='text-white text-[2.5vw] ml-[-20vw] '>{title}</p>
-
+                <p className='text-white text-[0.833vw] ml-[-3vw]'>Possesive Panda</p>
+                                    <h2 className='text-white text-[2.5vw] ml-[-20vw] '>{title}</h2>
+      
                     <div style={{ position: "relative", overflow: "visible", top: "3.813vw", left: "-19.271vw" }}>
                         <div style={{ position: "absolute", }}>
                             {paragraphs.map((paragraph, index) => (

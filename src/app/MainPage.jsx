@@ -42,9 +42,15 @@ const MainPage = () => {
       <>
         <Banner whyUsRef={whyUsRef} />
         <div style={{ paddingTop: "60px" }}>
-          <OurWorks />
-          <Marquee />
-          <ServicesList />
+          <div className="mt-[12.235vw] sm:mt-[3.25vw]">
+            <OurWorks />
+          </div>
+          <div className="mt-0 sm:mt-[4.063vw]">
+            <Marquee />
+          </div>
+          <div className="mt-0 sm:mt-[5.313vw]">
+            <ServicesList />
+          </div>
           <div className="mt-[14.118vw] sm:mt-[8.167vw] ">
             <OurServices />
           </div>

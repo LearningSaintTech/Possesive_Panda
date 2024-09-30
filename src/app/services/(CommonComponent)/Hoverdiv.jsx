@@ -19,9 +19,9 @@ const Hoverdiv = ({ heading, paragraph, modelData }) => {
                         className='group sm:pt-[2.344vw] sm:pb-[1.5vw] sm:pl-[4.115vw] sm:pr-[1.25vw] p-[5.647vw] sm:p-0 bg-[#131D22] rounded-[4.706vw] sm:rounded-[1.042vw] transition-all duration-300 hover:bg-[#D6D6D6]'
                     >
                         <div className='flex flex-col justify-center items-center gap-[4vw] sm:gap-[0.5vw]'>
-                            <h2 className='text-white text-[7.529vw] sm:text-[1.875vw] text-center font-medium transition-all duration-300 group-hover:text-[#131D22]'>
+                            <h3 className='text-white text-[7.529vw] sm:text-[1.875vw] text-center font-medium transition-all duration-300 group-hover:text-[#131D22]'>
                                 {model.title}
-                            </h2>
+                            </h3>
                             <p className='text-white text-[3.765vw] sm:text-[1.25vw] font-light sm:w-[73.542vw] transition-all duration-300 group-hover:text-[#131D22] text-center '>
                                 {model.paragraph}
                             </p>

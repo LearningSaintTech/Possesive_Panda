@@ -8,16 +8,18 @@ import Footer from "../(Components)/Footer";
 import Clients from '../services/(CommonComponent)/Clients';
 import NewContact from "./(CommonComponent)/NewContact";
 
-
+import FinalBanner from "./(CommonComponent)/FinalBanner";
 import { dataSet1, dataSet2, dataSet3, testimonialsData, headingdata, faq, } from './data';
 import ReviewCardContainer from "./(CommonComponent)/ReviewCardContainer";
 const Services = () => {
   return (
     <div className="bg-[#00111A]">
       <NewBanner
-        title={"Welcome to Possesive Panda We’re Possesive for Tech!"}
-        desciption={"When it comes to providing IT services, we‘re Panda with Plan  Your Primer IT Service Provider."}
+        title={"Welcome to Possesive Panda - Your Premier IT Solution Partner"}
+        desciption={"Possesive Panda strives to deliver top-tier IT services that empower your business to thrive in the digital age."}
+
       />
+      <ReviewCardContainer />
       <AboutMarquee />
       <Journey
         title="Possesive Panda Service Suite"

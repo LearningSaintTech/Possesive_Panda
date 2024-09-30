@@ -91,12 +91,12 @@ const CardList = ({ cardData, cardList }) => {
     return (
         <div className="px-[7.059vw] sm:px-[5.208vw] bg-[#00111A] sm:rounded-[5.172vw] shadow-inner relative">
             <div className="flex flex-col gap-[3.765vw] sm:gap-[1.25vw] items-center justify-center">
-                <h5 className="text-center text-[#00aff1] text-[3.765vw] sm:text-[1.136vw] sm:font-semibold sm:leading-[1.759vw]">
+                <p className="text-center text-[#00aff1] text-[3.765vw] sm:text-[1.136vw] sm:font-semibold sm:leading-[1.759vw]">
                     {cardList.subHeading}
-                </h5>
-                <h5 className="text-center text-[#fbfbfc] text-[7.529vw] sm:w-[46.51vw] sm:text-[3.504vw] font-semibold sm:font-medium leading-tight sm:leading-[4.104vw]">
+                </p>
+                <h2 className="text-center text-[#fbfbfc] text-[7.529vw] sm:w-[46.51vw] sm:text-[3.504vw] font-semibold sm:font-medium leading-tight sm:leading-[4.104vw]">
                     {cardList.heading}
-                </h5>
+                </h2>
                 <p className="text-center text-[#b9babf] text-[3.765vw] sm:text-[1.25vw] font-light sm:leading-[2.345vw] sm:w-[57vw]">
                     {cardList.paragraph}
                 </p>

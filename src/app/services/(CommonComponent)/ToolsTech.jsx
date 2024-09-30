@@ -156,9 +156,9 @@ function TechComponent() {
     return (
         <div className="px-[5.208vw] bg-[#00111a]">
             <div className="flex flex-col items-center justify-center ">
-                <h1 className="sm:w-[46.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium  sm:mb-[2.135vw]">
+                <h3 className="sm:w-[46.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-medium  sm:mb-[2.135vw]">
                     Tools and Technologies We Work With
-                </h1>
+                </h3>
                 <p className="text-center text-[#b9babf] sm:text-[1.25vw] text-[3.765vw] sm:font-normal font-normal ">
                     Customized, cutting-edge tools and technologies for resolving your queries and developing intuitive and updated solutions.
                 </p>
@@ -175,9 +175,9 @@ function TechComponent() {
                             <button
                                 key={category}
                                 onClick={() => setActiveCategory(category)}
-                                className={`shrink-0 w-[33.3333vw] sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[1.476vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
+                                className={`shrink-0 w-[33.3333vw] sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4vw] rounded-[1.476vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
                                     ? 'bg-[#00aff1] text-white'
-                                    : 'bg-white text-black'
+                                    : 'bg-[#131d22] text-white'
                                     } hover:bg-[#00aff1] hover:text-white`}
                             >
                                 {category.charAt(0).toUpperCase() + category.slice(1)}
@@ -205,7 +205,7 @@ function TechComponent() {
                             onClick={() => setActiveCategory(category)}
                             className={`sm:px-[1.563vw] sm:py-[0.55vw] px-[9.412vw] py-[4.706vw] rounded-[0.417vw] sm:text-[1.25vw] text-[3.765vw] font-medium sm:font-semibold ${activeCategory === category
                                 ? 'bg-[#00aff1] text-white'
-                                : 'bg-white text-black'
+                                : 'bg-[#131d22] text-white'
                                 } hover:bg-[#00aff1] hover:text-white`}
                         >
                             {category.charAt(0).toUpperCase() + category.slice(1)}

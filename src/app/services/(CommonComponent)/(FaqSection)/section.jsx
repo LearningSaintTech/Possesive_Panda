@@ -10,9 +10,9 @@ const Faq = ({smallfaqdata, smallfaqImg,heading}) => {
     <div className="bg-[#00111A] sm:px-[5.208vw] px-[7.059vw]">
       <div className="flex sm:flex-row flex-col">
         <div className="flex sm:gap-[3.438vw] flex-col">
-          <h2 className="text-white text-[5vw] sm:text-[2.5vw] font-medium leading-[6vw] sm:leading-[3.8vw] tracking-[-0.088vw] sm:w-[33.854vw] w-full">
+          <h3 className="text-white text-[5vw] sm:text-[2.5vw] font-medium leading-[6vw] sm:leading-[3.8vw] tracking-[-0.088vw] sm:w-[33.854vw] w-full">
             {heading}
-          </h2>
+          </h3>
           {/* Image visible on larger screens, hidden on small screens */}
           <Image
             src={smallfaqImg.img1}

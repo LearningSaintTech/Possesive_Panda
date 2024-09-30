@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/seo/1.jpg";
+import img2 from "../../../../public/assets/services/seo/2.jpg";
+import img3 from "../../../../public/assets/services/seo/3.jpg";
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
 import { PiTimerBold } from "react-icons/pi";
@@ -77,7 +77,7 @@ const whyData = {
     "Possesive Panda is not your average SEO Services and Solution Provider.",
   subText2:
     "At Possesive Panda, we're dedicated to creating enduring partnerships with our clients by using our extensive network of SEO specialists and industry expertise. We collaborate closely with you to create a tailored plan that will yield results over time since we understand that SEO is a marathon, not a sprint.",
-  thumbnail: "/assets/services/e-commerce/thumbnail.png",
+  thumbnail: "/assets/services/seo/4.svg",
   listHeading:
     "When you work with us to increase the growth and organic rankings of your website, we make sure you receive:",
   titles: [
@@ -132,6 +132,8 @@ const hoverImageData = {
     heading: "Implement Data-driven SEO Strategies to Boost Sales",
     description:
       "We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+      description1:"With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
+
   },
   images: {
     image1: img1,
@@ -230,7 +232,7 @@ const iconMapping1 = {
 };
 
 const ourService = {
-  heading: "SEO Services & Solutions",
+  heading: "Search Engine Optimization",
   subHeading:
     "Possesive Panda excels in crafting top-tier SEO strategies that not only drive enhanced engagement and boost website traffic but also amplify sales and build a formidable brand reputation. Our team of seasoned SEO specialists are dedicated to delivering cutting-edge solutions that fuel your business’s growth and success, blending expertise with innovation to elevate your online presence and achieve remarkable results.",
 };
