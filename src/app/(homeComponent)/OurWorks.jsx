@@ -3,11 +3,11 @@ import { useRef, useState } from "react";
 import Image from 'next/image';
 import Link from "next/link";
 import { GoArrowRight } from "react-icons/go";
-import dotcom from "../../../public/assets/portfolio/com.svg";
-import HRMS from "../../../public/assets/portfolio/hr.svg";
-import dotin from "../../../public/assets/portfolio/learin.svg";
-import recess from "../../../public/assets/portfolio/rec.svg";
-import trucks from "../../../public/assets/portfolio/trucking.svg";
+import dotcom from "../../../public/assets/portfolio/dotcoms.svg";
+import HRMS from "../../../public/assets/portfolio/hrmsss.svg";
+import dotin from "../../../public/assets/portfolio/dotsin.svg";
+import recess from "../../../public/assets/portfolio/recesss.svg";
+import trucks from "../../../public/assets/portfolio/truckings.svg";
 
 const OurWorks = () => {
     const scrollContainerRef = useRef(null);
