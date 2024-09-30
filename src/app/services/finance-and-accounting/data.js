@@ -15,15 +15,18 @@ import img1 from "../../../../public/assets/image_1821.svg";
 import img2 from "../../../../public/assets/image_1822.svg";
 import img3 from "../../../../public/assets/image.svg";
 
-import Img1 from '../../../../public/assets/wordpress.svg';
-import Img2 from '../../../../public/assets/wix.svg';
-import Img3 from '../../../../public/assets/sellfy.svg';
-import Img4 from '../../../../public/assets/woocommerce.svg';
-import Img5 from '../../../../public/assets/weebly.svg';
-import Img6 from '../../../../public/assets/shopify.svg';
-import Img7 from '../../../../public/assets/magento.svg';
-import Img8 from '../../../../public/assets/sap.svg';
-import Img9 from '../../../../public/assets/salesforce.svg';
+import Img1 from "../../../../public/assets/services/finance/Frame.svg";
+import Img2 from "../../../../public/assets/services/finance/Frame1000006390.svg";
+import Img3 from "../../../../public/assets/services/finance/Frame1000006391.svg";
+import Img4 from "../../../../public/assets/services/finance/Frame1000006392.svg";
+import Img5 from "../../../../public/assets/services/finance/Frame1000006393.svg";
+import Img6 from "../../../../public/assets/services/finance/Frame1000006394.svg";
+import Img7 from "../../../../public/assets/services/finance/Frame1000006395.svg";
+import Img8 from "../../../../public/assets/services/finance/Frame1000006396.svg";
+import Img9 from "../../../../public/assets/services/finance/freshbooks-2021-logo 1.svg";
+import Img10 from "../../../../public/assets/services/finance/myob-seeklogo 1.svg";
+import Img11 from "../../../../public/assets/services/finance/quickbooks-1 1.svg";
+import Img12 from "../../../../public/assets/services/finance/zohobooks 1.svg";
 
 const iconMapping1 = {
   GrSettingsOption: <GrSettingsOption />,
@@ -185,7 +188,7 @@ const platformsData = [
   {
     images: [
       {
-        imageSrc:Img1,  
+        imageSrc:Img10,  
         altText: "WordPress"
       },
       {
@@ -220,6 +223,19 @@ const platformsData = [
         imageSrc: Img9,  
         altText: "salesforce"
       },
+      {
+        imageSrc: Img10,  
+        altText: "salesforce"
+      },
+      {
+        imageSrc: Img11,  
+        altText: "salesforce"
+      },
+      {
+        imageSrc: Img12,  
+        altText: "salesforce"
+      },
+      
     ],
     text: {
       heading: "Finance and Accounting Tools and Software",

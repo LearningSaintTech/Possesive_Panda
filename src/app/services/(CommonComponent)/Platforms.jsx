@@ -3,6 +3,12 @@ import Image from 'next/image';
 
 
 export const Platforms = ({ platformsData }) => {
+  const getGridColumns = (imagesLength) => {
+    if (imagesLength === 9) return 'grid-cols-3';
+    if (imagesLength === 12) return 'grid-cols-4';
+    if (imagesLength === 15) return 'grid-cols-5';
+    return 'grid-cols-3'; // default if none of the above matches
+  };
   return (
     <div className='px-[9vw] text-left bg-[#00111A] justify-center items-center gap-[10.99vw] flex sm:flex-row flex-col'>
       <div className='flex  gap-[0.5vw] flex-col ml-[3vw]'>
@@ -13,7 +19,7 @@ export const Platforms = ({ platformsData }) => {
           {platformsData[0].text.paragraph}
         </p>
       </div>
-      <div className='grid grid-cols-3 sm:gap-2 gap-[3.612vw]'>
+      <div className={`grid sm:${getGridColumns(platformsData[0].images.length)} grid-cols-3 sm:gap-2 gap-[3.612vw]`}>
         {platformsData[0].images.map((platform, index) => (
           <Image
             key={index}
