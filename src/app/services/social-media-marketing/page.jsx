@@ -117,7 +117,7 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
@@ -130,7 +130,7 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <div className='sm:mt-[6.25vw] mt-[14vw] '>
+      <div className='sm:mt-[4.25vw] mt-[14vw] '>
         <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
       </div>
       <div className="sm:mt-[5.5vw] mt-[14vw]  ">
@@ -149,7 +149,7 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div className='sm:block hidden mt-[5.5vw] '>
+      <div className='sm:block hidden mt-[5.5vw] mb-[5.469vw]'>
         <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>

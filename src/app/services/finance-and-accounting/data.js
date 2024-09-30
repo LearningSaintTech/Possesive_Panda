@@ -11,9 +11,9 @@ import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
 import { IoMdGitMerge } from "react-icons/io";
 
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/seo/3.jpg";
+import img2 from "../../../../public/assets/services/seo/3.jpg";
+import img3 from "../../../../public/assets/services/seo/3.jpg";
 
 import Img1 from "../../../../public/assets/services/finance/Frame.svg";
 import Img2 from "../../../../public/assets/services/finance/Frame1000006390.svg";
@@ -247,7 +247,7 @@ const platformsData = [
 const whyData = {
   mainHeading: "Why Choose Possesive Panda as your Finance & Accounting Services Success Partner?",
   subText1: "Possesive Panda is a global accounting outsourcing company offering end-to-end offshore accounting and financial management services to small, mid, and large-scale businesses. Our expert team uses top accounting tools and best practices to enhance finance and operations. We can handle one-time or occasional accounting jobs, keeping businesses competitive during tax season or year-end accounting intricacies.",
-  thumbnail: '/assets/services/e-commerce/thumbnail.png',
+  thumbnail: '/assets/portfolio/finan.png',
   listHeading:
     "Possesive Panda is a pioneer IT solution provider and deliver outstanding web application development services:",
   titles: [

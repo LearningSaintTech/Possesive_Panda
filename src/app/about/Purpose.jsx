@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import purpose from "../../../public/assets/AboutUs/2.svg"
 import thumbs from "../../../public/assets/AboutUs/thumbs.svg"
-import image2 from "../../../public/assets/AboutUs/1.svg"
+import image2 from "../../../public/assets/AboutUs/62.png"
 import Scale from "../../../public/assets/AboutUs/Scale.svg"
 import Misson from "../../../public/assets/AboutUs/Misson.svg"
 

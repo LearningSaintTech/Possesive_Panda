@@ -85,7 +85,7 @@ const OurServices = ({ servicesData22, iconMapping1, heading, subHeading }) => {
                                                 : 'max-height 0.5s ease-in-out'
                                         }}
                                     >
-                                        <p className="text-[#babcd2] text-[1.25vw] font-normal leading-[1.719vw]">
+                                        <p className="text-white text-[1.25vw] font-normal leading-[1.719vw]">
                                             {service.description}
                                         </p>
                                     </div>

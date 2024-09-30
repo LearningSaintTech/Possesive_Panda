@@ -166,7 +166,7 @@ const Page = () => {
       />
 
       <ReviewCardContainer />
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[2.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>

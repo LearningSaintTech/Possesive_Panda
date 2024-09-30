@@ -46,12 +46,16 @@ const MainPage = () => {
         title={"Enlighten Yourself with Latest Industry Trends and Insights!"}
         desciption={"To keep you updated with all the latest insights and information in the tech industry, we have published a plethora of articles of various categories."}
       />
-      <AboutMarquee />
+      <div className="hidden sm:block sm:mt-[1.042vw]">
+        <AboutMarquee />
+      </div>
+      <div className="mt-[16.941vw] sm:mt-[5.25vw]">
       <Journey
         title="Explore our Blogs:"
         subtitle="Web-App Development, eCommerce, Digital Marketing, Cybersecurity, Virtual Assistance, and many more - we have got it all covered."
         description="Have a look into our comprehensive blogs for industry revelations, tech innovations, and many more. Whether you are willing to know about emerging technologies, building an online presence, being at the digital forefront, or enhancing security, we have got you all covered."
       />
+      </div>
       <div className="px-[5.2vw] mt-[9vw] flex gap-[3.2vw] mb-[5.2vw]">
         {loading ? (
           <Loader />

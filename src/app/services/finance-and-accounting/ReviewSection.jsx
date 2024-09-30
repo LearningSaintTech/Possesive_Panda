@@ -34,11 +34,19 @@ const StatsBox = ({ value, label }) => {
     }
   }, [value]);
 
+  const formatValue = (val) => {
+    if (isPercentage) {
+      // For percentages, use toFixed(2) and remove trailing zeros
+      return parseFloat(val.toFixed(2)).toString();
+    }
+    return Math.floor(val).toString();
+  };
+
   return (
     <div className="bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[11.927vw] flex flex-col justify-start items-start p-4 sm:px-[1.25vw] sm:py-[1.25vw]">
       <h2 className="text-white text-2xl sm:text-[1.324vw] font-semibold">
         {typeof currentValue === 'number'
-          ? `${isPercentage ? currentValue.toFixed(2) : Math.floor(currentValue)}${suffix}`
+          ? `${formatValue(currentValue)}${suffix}`
           : value}
       </h2>
       <p className="text-white text-sm sm:text-[1.042vw] font-medium">{label}</p>
@@ -73,7 +81,7 @@ const ReviewSection = () => {
             Possesive Panda is pioneering Finance and Accounting Services, Delivering Financial Success Across the Globe
           </h6>
         </div>
-
+        
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 sm:gap-[1.25vw] px-4 sm:px-0">
           {stats.map((stat, index) => (
             <div

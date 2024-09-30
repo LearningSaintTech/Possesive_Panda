@@ -66,7 +66,7 @@ const page = () => {
       />
 
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className="sm:mt-[6.25vw] mt-[14.118vw]  ">
@@ -90,7 +90,7 @@ const page = () => {
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+      <div className='sm:mt-[4.25vw] mt-[14.118vw] '>
         <ToolsTech />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>

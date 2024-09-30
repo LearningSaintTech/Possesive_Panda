@@ -1,7 +1,16 @@
-import React from 'react';
+"use client"
+import {React, useState} from 'react';
 import { FaChevronRight } from "react-icons/fa6";
+import HandlePage from "../../(Components)/(Input Form)/HandlePage";
+
 
 const Models = ({ modelData }) => {
+    const [open, setOpen] = useState(false);
+
+    const handleGetQuote = () => {
+        setOpen(true);
+    };
+
     return (
         <div className='flex flex-col gap-[7.059vw] sm:gap-[4.167vw] px-[7.059vw] sm:px-[5.208vw]'>
             <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] sm:leading-[84%] font-medium sm:font-semibold text-center'>
@@ -22,7 +31,7 @@ const Models = ({ modelData }) => {
                                     {model.paragraph}
                                 </p>
                                 <div className='hidden sm:block'>
-                                    <button
+                                    <button onClick={handleGetQuote}
                                         className='w-[3.802vw] h-[4.01vw] flex items-center justify-center bg-[#2B3439] text-white rounded-[0.8vw] mt-6 transition-all duration-300 group-hover:bg-[#C0C2C3] group-hover:text-black'
                                     >
                                         <FaChevronRight className='size-5 cursor-pointer' />
@@ -38,6 +47,7 @@ const Models = ({ modelData }) => {
                     </div>
                 ))}
             </div>
+            {open && <HandlePage setOpen={setOpen} />}
         </div>
     );
 };

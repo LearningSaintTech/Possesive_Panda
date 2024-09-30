@@ -303,7 +303,7 @@ const whyData = {
     { title: "24/7 Assistance" },
     { title: "Scalable Solutions" },
     { title: "Maximized ROI(s)" },
-    { title: "DEffective applications" },
+    { title: "Effective applications" },
     { title: "Customer Interaction & Business Automation" },
     { title: "Cross-platform Capability" },
   ],

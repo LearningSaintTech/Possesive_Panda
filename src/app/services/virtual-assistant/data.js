@@ -71,8 +71,7 @@ const testimonialsData = [
 
 const headingdata = {
 
-  //testimonials
-  heading: " Hiring virtual assistants offers numerous benefits for your business growth:",
+  heading: "What our Clients have to say",
   description: "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients."
 
 

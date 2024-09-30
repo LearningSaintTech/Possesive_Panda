@@ -98,7 +98,6 @@ const testimonialsData = [
 ];
 
 const headingdata = {
-  //testimonials
   heading: " What our clients have to say",
   description:
     "Join us on our inspiring journey as we thrive on challenges and celebrate our successes with our clients.",

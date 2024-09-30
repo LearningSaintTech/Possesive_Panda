@@ -128,7 +128,7 @@ const page = () => {
       />
 
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
@@ -143,19 +143,19 @@ const page = () => {
       <div className='sm:mt-[7.813vw] mt-[10.118vw]'>
         <Scrollbar servicesData1={servicesData1} sectionContent={sectionContent} />
       </div>
-      <div className='sm:mt-[7.813vw] mt-[14.118vw] '>
+      <div className='sm:mt-[5.813vw] mt-[14.118vw] '>
         <ToolsTech />
       </div>
-      <div className='sm:mt-[7.813vw] mt-[14.118vw] '>
+      <div className='sm:mt-[5.813vw] mt-[14.118vw] '>
         <IndustriesWe />
       </div>
       <div className="sm:mt-[5vw]  ">
         <HoverImageComponent hoverImageData={hoverImageData} />
       </div>
-      <div className='sm:mt-[8vw] mt-[14.118vw]'>
+      <div className='sm:mt-[4vw] mt-[14.118vw]'>
         <NewContact />
       </div>
-      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+      <div className='sm:mt-[4.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
         <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       </div>
       <Faq faq={faq} />

@@ -11,7 +11,7 @@ const projects = [
   {
     image: Learningsaint,
     moto: "Leading EdTech Course Provider",
-    title: "Learningsaint",
+    title: "Learning Saint",
     description:
       "A leading provider of educational technology, Learning Saint offers a range of courses with a 100% job guarantee in subjects including data science, cyber security, digital marketing, and SAP.",
     url: "https://learningsaint.com",

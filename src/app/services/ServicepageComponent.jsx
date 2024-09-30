@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaChevronRight } from "react-icons/fa6";
 
@@ -8,7 +9,7 @@ const ServicepageComponent = ({ heading, description, modelData }) => {
                 <h2 className='text-white text-[7.529vw] sm:text-[2.5vw] w-[88.235vw] sm:w-[34.219vw] font-medium sm:font-semibold sm:text-left text-center '>
                     {heading}
                 </h2>
-                <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:leading-[212%]  sm:w-[27.292vw] text-center sm:text-right font-light '>
+                <p className='text-white text-[3.765vw] sm:text-[1.25vw] sm:leading-[212%] sm:w-[27.292vw] text-center sm:text-right font-light '>
                     {description}
                 </p>
             </div>
@@ -27,18 +28,20 @@ const ServicepageComponent = ({ heading, description, modelData }) => {
                                     {model.paragraph}
                                 </p>
                                 <div className='hidden sm:block'>
-                                    <button
+                                    <Link
+                                        href={model.link}
                                         className='w-[3.802vw] h-[4.01vw] flex items-center justify-center bg-[#2B3439] text-white rounded-[0.8vw] mt-[5vw] transition-all duration-300 group-hover:bg-[#C0C2C3] group-hover:text-black'
                                     >
                                         <FaChevronRight className='w-[2vw] h-[2vw] cursor-pointer' />
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
-                            <button
+                            <Link
+                                href={"/contact"}
                                 className="sm:hidden px-[2vw] py-[2vw] bg-[rgba(255,255,255,0.10)] text-gray-400 text-[3.765vw] rounded-[8px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.20)] group-hover:text-black"
                             >
                                 Contact Us
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 ))}

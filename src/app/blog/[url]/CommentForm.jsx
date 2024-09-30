@@ -6,7 +6,7 @@ const CommentForm = () => {
       <h3 className="text-[#fff] text-[5vw] sm:text-[1.667vw] font-medium leading-[normal] tracking-[0.02rem]">
         Leave a Reply
       </h3>
-      <p className="text-[#fff] text-[2.6vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.013rem] sm:mb-0 mb-[3vw]">
+      <p className="text-[#fff] text-[2.6vw] sm:text-[1.25vw] mt-[1vw] font-medium leading-[normal] tracking-[0.013rem] sm:mb-0 mb-[3vw]">
         Your email address will not be published.
       </p>
       <form className="sm:space-y-[2vw] space-y-[3.85vw]">

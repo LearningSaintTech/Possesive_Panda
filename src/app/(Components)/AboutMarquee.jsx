@@ -92,7 +92,7 @@ const AboutMarquee = () => {
             </div>
 
             {/* Watch the film button */}
-            <div className="absolute ml-[6.25vw] pt-[2.188vw] flex items-center">
+            <div className="absolute ml-[10.25vw] pt-[2.188vw] flex items-center">
                 <a
                     href="https://www.youtube.com/watch?v=RlRhHwoSw9A"
                     target="_blank"

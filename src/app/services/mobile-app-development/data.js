@@ -96,7 +96,7 @@ const StrategyData = [
   },
   {
     num: "06",
-    title: "Long-Term Cost-Effectiveness: ",
+    title: "Long-Term Cost-Effectiveness",
     description:
       "Although native apps may have greater initial development costs, their performance, user retention, and cheaper maintenance expenses can result in a longer-term, higher return investment.",
   },
@@ -175,7 +175,7 @@ const smallfaqdata = [
   {
     key: 1,
     title: "Dynamic Pricing",
-    data: "You need a partner who puts your vision and your consumers' safety first when it comes to creating custom mobile apps. Here's where we get involved. What distinguishes us is this: ",
+    data: "You need a partner who puts your vision and your consumers' safety first when it comes to creating custom mobile apps. Here's where we get involved. What distinguishes us is this. ",
   },
   {
     key: 2,

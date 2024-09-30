@@ -145,19 +145,19 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
-      <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
+      <div className='sm:mt-[3.5vw] mt-[14.118vw] '>
         <HoverImageComp hoverImageData={hoverImageData} />
       </div>
       <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
         <Improve />
       </div>
       <div className='sm:mt-[6.5vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="SEO Solutions we Develop" />
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Tailored SEO Solutions we Develop " />
       </div>
-      <div className='sm:mt-[6.5vw] mt-[9vw] '>
+      <div className='sm:mt-[3.5vw] mt-[9vw] '>
         <ToolTech />
       </div>
       <div className='sm:mt-[6.5vw] mt-[14vw] '>
@@ -170,8 +170,8 @@ const page = () => {
           titles={whyData.titles}
         />
       </div>
-      <div className='sm:block hidden mt-[7vw] '>
-        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
+      <div className='sm:block hidden mt-[6vw] mb-[6.25vw]'>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-normal leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
       <div className='sm:mt-[2vw] mt-[14.118vw] '>
@@ -183,7 +183,7 @@ const page = () => {
       <div className='sm:mt-[8vw] mt-[14.118vw]'>
         <NewContact />
       </div>
-      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+      <div className='sm:mt-[5.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
         <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       </div>
       <Faq faq={faq} />
