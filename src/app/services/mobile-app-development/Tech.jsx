@@ -36,8 +36,8 @@ const Tech = () => {
 
 
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
-                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>
-                        <h3 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Mobile App Development</h3>
+                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Blockchain</p>
+                        <h3 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Grow for Success</h3>
                     </div>
                 </div>
 
@@ -57,8 +57,8 @@ const Tech = () => {
                         className=" relative object-cover w-full h-[85.882vw] md:h-[40vw] lg:h-full rounded-lg"
                     />
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
-                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>
-                        <h2 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Mobile App Development</h2>
+                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">FMCG</p>
+                        <h2 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Zeugato</h2>
                     </div>
                 </div>
 
@@ -77,8 +77,8 @@ const Tech = () => {
                         className=" relative object-cover w-full h-[85.882vw] md:h-[40vw] lg:h-full rounded-lg"
                     />
                     <div className="absolute inset-0 flex flex-col gap-[2.824vw] md:gap-1 lg:gap-2 p-4 top-2 left-2 ">
-                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Industry</p>
-                        <h2 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">Mobile App Development</h2>
+                        <p className="text-white text-[2.824vw] sm:text-[1.042vw] capitalize font-normal leading-[150%] sm:leading-[134%] tracking-wider">Finance</p>
+                        <h2 className="text-white font-bold sm:font-extrabold leading-[133%] text-[5.647vw] sm:text-[1.945vw] w-[44.471vw] sm:w-[19.167vw] ">My Stocks</h2>
                     </div>
                 </div>
             </div>

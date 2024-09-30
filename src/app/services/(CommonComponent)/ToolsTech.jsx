@@ -156,7 +156,7 @@ function TechComponent() {
     return (
         <div className="px-[5.208vw] bg-[#00111a]">
             <div className="flex flex-col items-center justify-center ">
-                <h3 className="sm:w-[36.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-semibold  sm:mb-[2.135vw]">
+                <h3 className="sm:w-[38.51vw] w-[85.882vw] text-center text-[#fbfbfc] sm:text-[3.104vw] text-[7.529vw] sm:font-medium font-semibold  sm:mb-[2.135vw]">
                     Tools and Technologies We Work With
                 </h3>
                 <p className="text-center text-[#b9babf] sm:text-[1.25vw] text-[3.765vw] sm:font-normal font-normal ">

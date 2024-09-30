@@ -41,7 +41,7 @@ const Purpose = () => {
             />
             <div>
               <p className='text-white sm:mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Vision</p>
-              <p className='text-white mt-[2.083vw] sm:text-[1.209vw]  text-[3.765vw] font-normal  '>At Possesive Panda, we don't just aim to be at the top of the global IT services industry; we aspire to be a game-changer. Our vision is to lead digital innovation and shape the pathway of the IT industry. Join Possesive Panda on this exciting journey towards a digital future.</p>
+              <p className='text-white mt-[2.083vw] sm:text-[1.209vw]  text-[3.765vw] font-normal  '>At Possesive Panda, we don&apos;t just aim to be at the top of the global IT services industry; we aspire to be a game-changer. Our vision is to lead digital innovation and shape the pathway of the IT industry. Join Possesive Panda on this exciting journey towards a digital future.</p>
             </div>
           </div>
           <Image src={image2}
@@ -55,7 +55,7 @@ const Purpose = () => {
           />
           <div className='mt-2.604vw ml-[2.448vw]'>
             <p className='text-white mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-extrabold '>Our Mission</p>
-            <p className='text-white mt-[2.083vw] sm:text-[1.209vw] text-[3.765vw] font-normal sm:w-[32.544vw] '>We are on a mission to deliver exceptional IT services and solutions to promote client satisfaction and success. We thrive on our clients’s wants and needs and turn challenges into opportunities in order to boost their success rate. Above all, we aim at becoming your steadfast partner that promotes triumph.
+            <p className='text-white mt-[2.083vw] sm:text-[1.209vw] text-[3.765vw] font-normal sm:w-[32.544vw] '>We are on a mission to deliver exceptional IT services and solutions to promote client satisfaction and success. We thrive on our clients&apos;s wants and needs and turn challenges into opportunities in order to boost their success rate. Above all, we aim at becoming your steadfast partner that promotes triumph.
             </p>
           </div>
 

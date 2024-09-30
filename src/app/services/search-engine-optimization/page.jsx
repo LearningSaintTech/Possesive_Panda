@@ -137,7 +137,7 @@ const page = () => {
       </Script>
 
       <FinalBanner
-        title={"Our Search Engine Optimization Services and Solutions"}
+        title={"Our SEO Services and Solutions"}
         desciption={"Augment your website performance, increase traffic, and rank better with Possesive Panda’s top-notch, personalized SEO services and solutions"}
         pointone={"Intuitive"}
         pointtwo={"Secure"}

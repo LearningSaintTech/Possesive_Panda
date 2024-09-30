@@ -155,7 +155,7 @@ const OurServices = () => {
             Our Delivery Framework
           </h2>
           <p className="text-white text-[4.103vw] md:text-[1.5vw] lg:text-[1.25vw] font-normal leading-[normal] tracking-[0.038vw] sm:tracking-[0.015rem] text-center sm:text-left sm:mb-0 mb-[10vw]">
-            To thrive on customer satisfaction, we've crafted a dynamic project delivery model that's all about synergy and stellar results. Our approach blends collaboration with success, ensuring that each project not only meets but exceeds expectations.
+            To thrive on customer satisfaction, we&apos;ve crafted a dynamic project delivery model that&apos;s all about synergy and stellar results. Our approach blends collaboration with success, ensuring that each project not only meets but exceeds expectations.
           </p>
         </div>
         <Image

@@ -21,7 +21,7 @@ const CostCalculator = () => {
 
   return (
     <div className="container mx-auto bg-[#1f97d7] p-8">
-      <h1 className="text-4xl font-bold text-blue-900 mb-4">Let's calculate how much you can save per employee!</h1>
+      <h1 className="text-4xl font-bold text-blue-900 mb-4">Let&apos;s calculate how much you can save per employee!</h1>
       
       {/* Location Selection */}
       <div className="mb-8">

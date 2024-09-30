@@ -110,12 +110,12 @@ const WhyChoose = () => {
                     Why choose Possesive Panda for Hiring Virtual Assistants?
                 </h2>
                 <p className="text-white text-[1.25vw] font-normal">
-                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business's sustainability and growth.
+                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business&apos;s sustainability and growth.
                 </p>
             </div>
 
             {/* Right Side Box */}
-            <div className="flex flex-col w-[39.583vw] h-[24vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
+            <div className="flex flex-col w-[39.583vw] h-[26vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
                 <SliderContent isMobile={false} />
                 <div className="absolute bottom-[0.833vw] right-[0.833vw] flex space-x-2">
                     <button onClick={prevSlide} className="p-[0.586vw] bg-[#212121] rounded-full transition-transform duration-300 hover:scale-110">
@@ -138,7 +138,7 @@ const WhyChoose = () => {
                     Why choose Possesive Panda for Hiring Virtual Assistants?
                 </h2>
                 <p className="text-white text-[3.765vw] font-normal">
-                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business's sustainability and growth.
+                    Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business&apos;s sustainability and growth.
                 </p>
             </div>
 

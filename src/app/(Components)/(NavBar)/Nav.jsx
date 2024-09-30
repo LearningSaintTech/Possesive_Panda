@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logo1 from "../../../assets/nav/nav-logo1.png";
+import logo1 from "../../../../public/pp-trademark-logo.png";
 import Dropdown from "./Dropdown";
 import { usePathname } from "next/navigation";
 import PhoneNav from "./PhoneNav";

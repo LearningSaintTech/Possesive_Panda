@@ -160,7 +160,7 @@ const page = () => {
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <WhyChoose />
       </div>
-      <div className='sm:mt-[5.125vw] mt-[7.059vw]'>
+      <div className='sm:mt-[7.125vw] mt-[7.059vw]'>
         <TextAnimation />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw]'>

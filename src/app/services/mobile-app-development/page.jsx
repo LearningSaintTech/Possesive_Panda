@@ -26,11 +26,12 @@ import {
   iconMapping1,
   cardList,
   cardData,
+  smallfaqimage
+
 } from "./data";
 import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from "../(Components)/(Faq)/Faq";
 import Head from 'next/head';
-import { smallfaqimage } from './images';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import NewContact from "../(CommonComponent)/NewContact";
 import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
