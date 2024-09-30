@@ -25,6 +25,11 @@ const serviceContent = {
       name: "Web App Development",
       link: "web-development",
     },
+   
+    {
+      name: " Finance and Accounting",
+      link: "finance-and-accounting",
+    },
   ],
   "Digital Marketing Service": [
     {
@@ -115,6 +120,10 @@ const services1= [
     link: "web-development",
   },
   {
+    name: " Finance and Accounting",
+    link: "finance-and-accounting",
+  },
+  {
     name: "Digital Marketing",
     link: "digital-marketing"
   },
@@ -138,6 +147,7 @@ const services1= [
     name: "Real Estate",
     link: "real-estate",
   },
+
 
 ]
 export { premiumServicesData, serviceContent,services1 };

@@ -13,9 +13,9 @@ const Faq = () => {
             FAQ
           </h2>
           <hp className="text-[#FFF] sm:px-0 px-3 text-[8.5vw] sm:text-[3.334vw] font-medium leading-[normal] tracking-[0.062vw] sm:tracking-[0.033vw] mb-[5.128vw] sm:mb-[2vw] text-center sm:text-left">
-            Quick answers to questions you may have
+            Quick <br /> answers to questions you may have
           </hp>
-          <p className="text-[#FFF] text-[4.103vw] sm:text-[1.042vw] font-normal leading-[normal] mb-[2.564vw] sm:mb-[13px] text-center sm:text-left">
+          <p className="text-[#FFF] text-[4.103vw] sm:text-[1.042vw] font-normal leading-[normal] mb-[2.564vw] mt-[2vw] sm:mb-[13px] text-center sm:text-left">
             Can’t find what you’re looking for?
           </p>
           <p className="text-[#FFF] text-[4.103vw] sm:text-[1.042vw] font-normal leading-[normal] mb-[2vw] sm:mb-[2vw] text-center sm:text-left">
@@ -23,7 +23,7 @@ const Faq = () => {
           </p>
           <a
             href="mailto:hello@possesivepanda.com"
-            className="text-[4.103vw] sm:text-[1.1vw] font-semibold leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] sm:ml-0 ml-[10vw] text-center sm:text-left"
+            className="text-[4.103vw] sm:text-[1.3vw] font-medium leading-[normal] underline text-[#60E2FF] hover:text-[#56a5b6] sm:ml-0 ml-[10vw] text-center sm:text-left"
           >
             hello@possesivepanda.com
           </a>

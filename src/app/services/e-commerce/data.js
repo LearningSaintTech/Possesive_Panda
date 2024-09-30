@@ -38,19 +38,19 @@ const faq = [
     description: `Yes, we incorporate necessary third-party solutions to improve your online store. We can help with everything from payments (Stripe, PayPal) and marketing automation (Mailchimp, Klaviyo) to shipping (ShipStation, EasyPost), analytics (Google Analytics), and shipment.`,
   },
   {
-    title: "Why do I need E-commerce solutions?",
+    title: "Why do I need eCommerce solutions?",
     description: `E-commerce solutions help in the smooth running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics.`,
   },
   {
-    title: "How do I choose the right e-commerce platform?",
+    title: "How do I choose the right eCommerce platform?",
     description: `When choosing an e-commerce platform, consider factors such as ease of use, scalability, cost, customization options, and your business's specific needs.`,
   },
   {
-    title: "How will I follow up on my e-commerce website development project?",
+    title: "How will I follow up on my eCommerce website development project?",
     description: `We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project.`,
   },
   {
-    title: "How long does it take to design and launch an e-commerce website?",
+    title: "How long does it take to design and launch an eCommerce website?",
     description: `This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline.`,
   },
 ];

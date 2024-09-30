@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { data } from "../../about/data";
 import Card from "./Card";
+import Link from "next/link";
 
 const Technologies = () => {
   const logosRef = useRef(null);
@@ -35,11 +36,11 @@ const Technologies = () => {
         <h2 className="text-white lg:w-[40vw] text-center md:text-start md:w-[50vw] xl:w-[38.25vw] text-[7vw] md:text-[3vw] lg:text-[3.333vw] xl:text-[3.334vw] font-medium leading-[125%] tracking-[0.1rem] mb-[20px] lg:mb-0 ">
           Brands That Trust Us:
         </h2>
-        <button
+        <Link href="/contact" passHref
           className="w-full sm:w-fit bg-[#05B7DF] sm:bg-[#05B7DF] text-[3.59vw] md:text-[2vw] lg:text-[1.25vw] flex justify-center items-center rounded-[5vw] md:rounded-[3.4vw] border border-neutral-600 text-white tracking-[0.015rem] py-[2.821vw] sm:px-[3vw] sm:py-[2.821vw] md:py-[1vw] sm:hover:bg-[#109AD6] hover:border-none duration-500 hover:duration-500 hover:shadow-md sm:mt-[1.4vw] lg:mb-0 mb-[4vw] font-medium "
         >
           Partners with us Today
-        </button>
+        </Link>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-5 w-full lg:mt-[6.656vw] md:mt-4 mt-[10vw]">

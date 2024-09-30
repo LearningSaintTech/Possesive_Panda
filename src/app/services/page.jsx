@@ -48,8 +48,12 @@ const Services = () => {
           modelData={dataSet3.modelData}
         />
       </div>
+      <div >
       <NewContact />
+      </div>
+      <div className="mt-[5vw]">
       <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
+      </div>
       <Faq faq={faq} />
       <Footer />
     </div>

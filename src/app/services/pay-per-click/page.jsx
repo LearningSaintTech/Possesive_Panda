@@ -152,17 +152,17 @@ const page = () => {
       />
 
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
         <HoverImageComp hoverImageData={hoverImageData} />
       </div>
-      <div className='sm:mt-[15vw] mt-[14.118vw] '>
+      <div className='sm:mt-[12vw] mt-[14.118vw] '>
         <BulbAnimation />
       </div>
-      <div className='sm:mt-[5.5vw] mt-[6vw] '>
-        <Strategies StrategyData={StrategyData} heading="Why to invest in pay-per-click advertising? " />
+      <div className='sm:mt-[4.5vw] mt-[6vw] '>
+        <Strategies StrategyData={StrategyData} title="Why to invest in pay-per-click advertising?  " />
       </div>
       <div className='sm:mt-[6.8vw] mt-[14.118vw] '>
         <Partner heading={titleData.heading} heading2={titleData.heading2} title={titleData.title} />
@@ -173,7 +173,7 @@ const page = () => {
       <div className='sm:mt-[8vw] mt-[14.118vw]'>
         <NewContact />
       </div>
-      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+      <div className='sm:mt-[5.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
         <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       </div>
       <Faq faq={faq} />

@@ -63,7 +63,7 @@ const MainPage = () => {
           <div className="sm:mt-[6vw] mt-[14.118vw] ">
             <Technologies />
           </div>
-          <div className="sm:mt-[9.896vw] mt-[14.118vw] ">
+          <div className="sm:mt-[5.896vw] mt-[14.118vw] ">
             <ToolsTech />
           </div>
           <div className="sm:mt-[7.188vw] mt-[14.118vw] ">

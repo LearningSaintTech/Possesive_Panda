@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import Banner from "../../../../public/assets/banner/finalbanner.png";
+import Banner from "../../../../public/assets/services/herosecbeck.svg";
 import Lefttop from "../../../../public/assets/banner/whitetop.svg";
 import Leftbottom from "../../../../public/assets/banner/whitebottom.svg";
 import Righttop from "../../../../public/assets/banner/bluebottom.svg";

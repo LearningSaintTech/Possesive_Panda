@@ -50,7 +50,7 @@ const IndustriesWe = () => {
         <div className="w-full bg-[#00111A]">
             <div className="px-[5.208vw] ">
                 <div className="hidden sm:block w-[89.479vw] py-[3.5vw] bg-[#131d22] rounded-[0.497vw] flex-col justify-center items-center gap-[2vw] pt-[3.958vw]">
-                    <h3 className="text-center text-[#6c748f] text-[1.25vw] font-semibold">
+                    <h3 className="text-center text-white opacity-[0.8] text-[1.25vw] font-semibold">
                         Industries We Cater To
                     </h3>
 

@@ -57,17 +57,17 @@ const page = () => {
         pointfour={"Tailored"}
       />
       <ReviewCardContainer />
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[2.208vw] mt-[14.118vw] '>
         <OurSevices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[5.729vw] mt-[14.118vw] '>
-        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="eCommerce Solutions we Develop" />
+        <Solutions paragraphs={paragraphs} buttonData={buttonData} title="Web App Development Solutions " />
       </div>
-      <div className='sm:block hidden mt-[4vw] '>
-        <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
+      <div className='sm:block hidden mt-[2vw] '>
+        <h3 className="text-white text-[3.333vw] items-center text-center font-normal leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
-      <div className='mt-0 sm:mt-[7.813vw]'>
+      <div className='mt-0 sm:mt-[5.813vw]'>
         <Why
           mainHeading={whyData.mainHeading}
           subText1={whyData.subText1}
@@ -80,7 +80,7 @@ const page = () => {
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
         <OurWeb />
       </div>
-      <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
+      <div className='sm:mt-[3.25vw] mt-[14.118vw] '>
         <Growth heading={growthData.heading} description={growthData.description} cards={growthData.cards} />
       </div>
       <div>
@@ -90,7 +90,7 @@ const page = () => {
       <div className='sm:mt-[8vw] mt-[14.118vw]'>
         <NewContact />
       </div>
-      <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
+      <div className='sm:mt-[4.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>
         <Clients testimonialsData={testimonialsData} headingdata={headingdata} />
       </div>
       <Faq faq={faq} />

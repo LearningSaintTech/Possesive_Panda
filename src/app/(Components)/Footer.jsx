@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <div className='sm:px-[5.208vw] px-[7.69vw] flex flex-col min-h-screen bg-[#00111A]'>
-  <Image src={Line9} className='w-[64.635vw] mx-auto' />
+  <Image src={Line9} className=' mt-[2vw] w-[64.635vw] mx-auto' />
   <div className='sm:hidden flex flex-col items-center justify-center min-h-screen'>
         <Image
           src={logo1}

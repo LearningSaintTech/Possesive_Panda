@@ -57,6 +57,12 @@ export const dataSet1 = {
         "Possesive Panda provides top-notch web app development services to make sure your business thrives successfully. Our team of experienced developers makes sure that your website is user-friendly and highly responsive. From frontend to backend, our team of expert developers dedicately delivers exceptional, intuitive web apps for your business. By combining the latest technologies and SEO strategies, we ensure optimum business growth. Partner with us for customer satisfaction and successful conversion rates. ",
       link: "services/web-development",
     },
+    {
+      title: "Finance & Accounting Service",
+      paragraph:
+        "Possesive Panda offers global 360॰ Finance and Accounting services and solutions including bookkeeping, accounting receivable (A/R), accounts payable (A/P), Tax filing and preparation, financial reporting, payroll processing, bank reconciliations, budgeting and forecasting, and audit support services to help your business to thrive on growth and success and that’s why we deliver specialized and tailored F&A solutions and services so you can focus on core business activities.",
+      link: "services/finance-and-accounting",
+    },
   ],
 };
 

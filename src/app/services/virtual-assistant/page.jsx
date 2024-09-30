@@ -176,7 +176,7 @@ const page = () => {
         <NewContact />
       </div>
       <div className='sm:block hidden mt-[5.125vw]'>
-        <h2 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h2>
+        <h2 className="text-white text-[3.333vw] items-center text-center font-normal leading-[123%] mb-[4.167vw] ">Our Clients</h2>
         <Marquee />
       </div>
       <div className='sm:mt-[5.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>

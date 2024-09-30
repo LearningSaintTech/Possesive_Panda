@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import './blog.css';
+import { GoArrowRight } from "react-icons/go";
 
 const Blogs = () => {
   const [datablogs, setdatablogs] = useState({ blogs: [] });
@@ -58,7 +59,10 @@ const Blogs = () => {
           href="/blog"
           className="w-full sm:w-fit text-[3.846vw]  sm:text-[1.25vw] flex justify-center items-center rounded-[5vw]  border border-neutral-600 text-white tracking-[0.015rem] px-[2.5vw] py-[2.5vw] md:py-[1vw] hover:text-black bg-[#05B7DF] hover:bg-[#05B7DF] hover:border-none duration-500 hover:duration-500 hover:shadow-md mt-[1.042vw] sm:mb-0 mb-[8vw]"
         >
-          All Blogs
+          <p>All Blogs</p>
+         <GoArrowRight className="ml-[0.5vw] size-[3.5vw] md:size-[2vw] lg:size-[1.5vw]" />
+
+
         </Link>
       </div>
 

@@ -137,7 +137,7 @@ const page = () => {
       />
 
       <ReviewCardContainer/>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[2.208vw] mt-[14.118vw] '>
         <OurServices iconMapping1={iconMapping1} servicesData22={servicesData22} heading={ourService.heading} subHeading={ourService.subHeading} />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
@@ -157,17 +157,17 @@ const page = () => {
           paragraphs={mobileData.paragraphs}
         />
       </div>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[1.208vw] mt-[14.118vw] '>
         <CardList cardData={cardData} cardList={cardList} />
       </div>
-      <div className='sm:mt-[5.208vw] mt-[14.118vw] '>
+      <div className='sm:mt-[3.208vw] mt-[14.118vw] '>
         <ToolsTech />
       </div>
       <div className='sm:block hidden mt-[4vw] '>
-        <h3 className="text-white text-[3.333vw] items-center text-center font-semibold leading-[123%] mb-[4.167vw] ">Our Clients</h3>
+        <h3 className="text-white text-[3.333vw] items-center text-center font-normal leading-[123%] mb-[4.167vw] ">Our Clients</h3>
         <Marquee />
       </div>
-      <div className="mt-[14vw] sm:mt-[1vw] ">
+      <div className="mt-[14vw] sm:mt-[5vw] ">
         <Platforms platformsData={platformsData} />
       </div>
       <div className='sm:mt-[6.25vw] mt-[14.118vw] '>
@@ -176,7 +176,7 @@ const page = () => {
       <div className='sm:mt-[6.25vw] mt-[5vw] '>
         <Scrollbar2 servicesData2={servicesData2} dynamicContent2={dynamicContent2} />
       </div>
-      <div className='sm:mt-[5vw] mt-[14.118vw] '>
+      <div className='sm:mt-[2vw] mt-[14.118vw] '>
         <NewContact />
       </div>
       <div className='sm:mt-[7.813vw] sm:mb-0 mb-[15vw] mt-[14.118vw]'>

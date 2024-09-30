@@ -11,9 +11,9 @@ import { SiCoinmarketcap } from "react-icons/si";
 import { SiGooglemarketingplatform } from "react-icons/si";
 import { IoMdGitMerge } from "react-icons/io";
 
-import img1 from "../../../../public/assets/image_1821.svg";
-import img2 from "../../../../public/assets/image_1822.svg";
-import img3 from "../../../../public/assets/image.svg";
+import img1 from "../../../../public/assets/services/seo/3.jpg";
+import img2 from "../../../../public/assets/services/seo/3.jpg";
+import img3 from "../../../../public/assets/services/seo/3.jpg";
 
 import Img1 from "../../../../public/assets/services/finance/Frame.svg";
 import Img2 from "../../../../public/assets/services/finance/Frame1000006390.svg";
