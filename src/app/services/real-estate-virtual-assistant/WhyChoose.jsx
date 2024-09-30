@@ -71,7 +71,7 @@ const WhyChoose = () => {
     useEffect(() => {
         const slideInterval = setInterval(() => {
             nextSlide();
-        }, 5000);
+        }, 3000);
 
         return () => clearInterval(slideInterval);
     }, []);
@@ -81,12 +81,10 @@ const WhyChoose = () => {
             {slides.map((slide, index) => (
                 <div
                     key={index}
-                    className={`absolute w-full h-full transition-transform duration-500 ease-in-out ${index === currentSlide
-                        ? 'translate-x-0'
-                        : index > currentSlide
-                            ? 'translate-x-full'
-                            : '-translate-x-full'
-                        } ${isAnimating ? (direction === 'next' ? 'animate-slide-left' : 'animate-slide-right') : ''}`}
+                    className={`absolute w-full h-full transition-all duration-500 ease-in-out ${index === currentSlide
+                            ? 'opacity-100 translate-x-0'
+                            : 'opacity-0 translate-x-full'
+                        }`}
                 >
                     <div className={`flex ${isMobile ? 'flex-col' : 'gap-[0.729vw]'} items-center`}>
                         <span className={`text-[#00aff1] ${isMobile ? 'text-[14.118vw]' : 'text-[7.813vw]'} leading-none font-semibold`}>{slide.number}</span>
@@ -117,7 +115,7 @@ const WhyChoose = () => {
             </div>
 
             {/* Right Side Box */}
-            <div className="flex flex-col w-[39.583vw] h-[22.083vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
+            <div className="flex flex-col w-[39.583vw] h-[24vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
                 <SliderContent isMobile={false} />
                 <div className="absolute bottom-[0.833vw] right-[0.833vw] flex space-x-2">
                     <button onClick={prevSlide} className="p-[0.586vw] bg-[#212121] rounded-full transition-transform duration-300 hover:scale-110">
@@ -163,25 +161,6 @@ const WhyChoose = () => {
 
     return (
         <div className="w-full">
-            <style jsx>{`
-                @keyframes slideLeft {
-                    from { transform: translateX(100%); }
-                    to { transform: translateX(0); }
-                }
-
-                @keyframes slideRight {
-                    from { transform: translateX(-100%); }
-                    to { transform: translateX(0); }
-                }
-
-                .animate-slide-left {
-                    animation: slideLeft 0.5s ease-in-out;
-                }
-
-                .animate-slide-right {
-                    animation: slideRight 0.5s ease-in-out;
-                }
-            `}</style>
             {/* Desktop and Tablet View */}
             <div className="hidden md:block">
                 <DesktopTabletView />

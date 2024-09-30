@@ -9,6 +9,7 @@ import Journey from "../(Components)/Journey";
 import AboutMarquee from "../(Components)/AboutMarquee";
 import Review from "../about/Review";
 import Head from 'next/head';
+import ThankYou from "./ThankYou";
 
 
 
@@ -46,7 +47,10 @@ const page = () => {
         subtitle="Swing by our office anytime! We're here to turn your tech dreams into reality and ensure you leave with a smile."
         description="Every project begins with an email or phone call, regardless of whether you need a basic website, a mobile app, custom software, virtual assistance services, or to establish your own development team. You are just a call or an email away from being the pinnacle of your industry."
       />
-      <Joinpanda />
+      {/* <Joinpanda /> */}
+      <div className="mt-[7.917vw] mb-[7.917vw]"> 
+      <ThankYou/>
+      </div>
       <Contact />
       <Review />
       <Faq />
