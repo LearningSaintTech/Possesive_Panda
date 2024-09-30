@@ -1,12 +1,20 @@
-import Img1 from "../../../../public/assets/wordpress.svg";
-import Img2 from "../../../../public/assets/wix.svg";
-import Img3 from "../../../../public/assets/sellfy.svg";
-import Img4 from "../../../../public/assets/woocommerce.svg";
-import Img5 from "../../../../public/assets/weebly.svg";
-import Img6 from "../../../../public/assets/shopify.svg";
-import Img7 from "../../../../public/assets/magento.svg";
-import Img8 from "../../../../public/assets/sap.svg";
-import Img9 from "../../../../public/assets/salesforce.svg";
+import Img1 from "../../../../public/assets/services/graphic-design/adobe-premiere-pro-icon1.svg";
+import Img2 from "../../../../public/assets/services/graphic-design/AdobeIndesign.svg";
+import Img3 from "../../../../public/assets/services/graphic-design/Figma.svg";
+import Img4 from "../../../../public/assets/services/graphic-design/Frame-1.svg";
+import Img5 from "../../../../public/assets/services/graphic-design/Frame-2.svg";
+import Img6 from "../../../../public/assets/services/graphic-design/Frame-3.svg";
+import Img7 from "../../../../public/assets/services/graphic-design/Frame-4.svg";
+import Img8 from "../../../../public/assets/services/graphic-design/Frame-5.svg";
+import Img9 from "../../../../public/assets/services/graphic-design/Frame-6.svg";
+import Img10 from "../../../../public/assets/services/graphic-design/Frame-7.svg";
+import Img11 from "../../../../public/assets/services/graphic-design/Frame-8.svg";
+import Img12 from "../../../../public/assets/services/graphic-design/Frame.svg";
+import Img13 from "../../../../public/assets/services/graphic-design/Frame1000006383.svg";
+import Img14 from "../../../../public/assets/services/graphic-design/Maya.svg";
+import Img15 from "../../../../public/assets/services/graphic-design/procreate-black-1695680507-logotic-brand1.svg";
+
+
 
 import { IoMdGitMerge } from "react-icons/io";
 import { GrSettingsOption } from "react-icons/gr";
@@ -170,6 +178,30 @@ const platformsData = [
       },
       {
         imageSrc: Img9,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img10,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img11,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img12,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img13,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img14,
+        altText: "salesforce",
+      },
+      {
+        imageSrc: Img15,
         altText: "salesforce",
       },
     ],
