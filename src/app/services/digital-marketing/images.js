@@ -12,7 +12,7 @@ import services_5 from "../../../assets/digitalMarketing/Content-Creation.png";
 import services_6 from "../../../assets/digitalMarketing/Search-Engine-Optimisation.png";
 import services_7 from "../../../assets/digitalMarketing/Pay-Per-Click.png";
 import services_8 from "../../../assets/digitalMarketing/Performance--Marketing.png";
-import faqimg22 from  "../../../../public/assets/assets/services/e-commerce/faq222.png";
+import faqimg22 from  "../../../../public/assets/services/digital-marketing/1.png";
 import { PiTargetDuotone, PiStrategyDuotone } from "react-icons/pi";
 import { GoGoal } from "react-icons/go";
 import { MdCampaign } from "react-icons/md";
