@@ -1,0 +1,55 @@
+/* Add this to your custom CSS file or Tailwind extended config */
+.icon-container {
+    position: relative;
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    background-color: white;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .icon-container svg {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease, fill 0.5s ease;
+  }
+  
+  .icon-container:hover svg {
+    transform: rotateY(360deg); /* Rotating effect */
+    fill: white; /* Icon color change */
+  }
+  
+  .icon-container:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0.5s ease;
+    z-index: 0;
+  }
+  
+  .icon-container:hover:before {
+    top: 0;
+  }
+  
+  /* Specific background colors for each icon */
+  .linkedin:hover:before {
+    background-color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .x:hover:before {
+    background-color: #55acee; /* X (Twitter) blue */
+  }
+  
+  .instagram:hover:before {
+    background-color: #e1306c; /* Instagram pink */
+  }
+  
+  .facebook:hover:before {
+    background-color: #3b5999; /* Facebook blue */
+  }
+  

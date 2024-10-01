@@ -1,0 +1,29 @@
+.group:hover .card-inner {
+  transform: translateY(0); 
+}
+
+.group:hover .card-image {
+  transform: translateX(40%) scale(0.7); 
+}
+
+.group:hover .card-title {
+  transform: translateY(-20px);
+  opacity: 1;
+}
+
+.group:hover .card-text {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card-image {
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-title {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.card-text {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
