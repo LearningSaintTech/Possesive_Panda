@@ -109,13 +109,13 @@ const WhyChoose = () => {
                 <h2 className="text-white text-[2.5vw] font-medium mb-[1.042vw]">
                     Why choose Possesive Panda for Hiring Virtual Assistants?
                 </h2>
-                <p className="text-white text-[1.25vw] font-normal">
+                <p className="text-white text-[1.25vw] font-normal w-[42.969vw]">
                     Beside offering 360 Virtual Assistant service, Possesive Panda focuses on the most important aspect for providing services and solutions, i.e., Client Satisfaction. You can rely on Possesive Panda for delegating your tasks, processes, and workload so that you can prosper in your business&apos;s sustainability and growth.
                 </p>
             </div>
 
             {/* Right Side Box */}
-            <div className="flex flex-col w-[39.583vw] h-[26vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
+            <div className="flex flex-col w-[39.583vw] h-[22.083vw] absolute bottom-0 right-[5.208vw] top-[5.323vw] pt-[2.813vw] pb-[4.635vw] pl-[2.604vw] pr-[2.5vw] bg-gradient-to-b from-[rgba(255,255,255,0.65)] to-[rgba(153,153,153,0.40)] overflow-hidden">
                 <SliderContent isMobile={false} />
                 <div className="absolute bottom-[0.833vw] right-[0.833vw] flex space-x-2">
                     <button onClick={prevSlide} className="p-[0.586vw] bg-[#212121] rounded-full transition-transform duration-300 hover:scale-110">

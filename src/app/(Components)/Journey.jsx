@@ -2,7 +2,7 @@ import React from "react";
 
 const Journey = ({ title, subtitle, description }) => {
   return (
-    <div className="hidden sm:block pt-[8vw] sm:pt-[0.5vw] px-[7.692vw] sm:px-[5.2vw] sm:mb-0 mb-8">
+    <div className=" pt-[8vw] sm:pt-[0.5vw] px-[7.692vw] sm:px-[5.2vw] sm:mb-0 mb-8">
       <h3 className="text-[5vw] sm:text-[1.25vw] font-medium leading-[normal] tracking-[0.015rem] text-[#00AFF1] mb-[1.25vw] md:mt-[3vw] lg:mt-0 text-center sm:text-left">
         {title}
       </h3>
