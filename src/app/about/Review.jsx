@@ -15,7 +15,7 @@ const Review = () => {
             Battle-tested Service You Can Count On....
           </h2>
           <p className="text-white sm:text-[1.25vw] text-[3.765vw] text-center sm:text-left font-normal leading-[normal]  sm:w-[34.74vw] sm:mb-[10.052vw] ">
-            Possessive Panda has been top ranked as an IT service provider by
+            possesive Panda has been top ranked as an IT service provider by
             many of the B2B review platforms.
           </p>
         </div>

@@ -40,7 +40,7 @@ const Values = () => {
                         Our Values
                     </h2>
                     <p className="mb-[3vw] max-w-[90vw] md:max-w-[70vw] lg:max-w-[46.967vw] text-center text-[5vw] md:text-[2vw] lg:text-[1.25vw] font-normal mx-auto">
-                        Possessive Panda as a top-notch IT service and solution provider, doesn’t just aim for excellence - we count on delivering the best at what we deliver.
+                        possesive Panda as a top-notch IT service and solution provider, doesn’t just aim for excellence - we count on delivering the best at what we deliver.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[8vw] lg:gap-[8vw] justify-items-center">

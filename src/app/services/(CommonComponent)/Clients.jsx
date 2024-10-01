@@ -18,7 +18,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 //     {
 //         name: "John Doe",
 //         role: "Product Manager",
-//         text: "We have seen a remarkable improvement in our performance since we started working with Possessive Panda.",
+//         text: "We have seen a remarkable improvement in our performance since we started working with possesive Panda.",
 //     },
 // ];
 

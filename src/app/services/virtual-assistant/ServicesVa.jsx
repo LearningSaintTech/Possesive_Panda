@@ -175,7 +175,7 @@ export default function VirtualAssistantServices() {
             <div className="md:hidden text-white">
                 <h1 className="text-center text-[#fbfbfc] text-[6vw] font-semibold mb-4">Virtual Assistant Services</h1>
                 <p className="text-center text-white text-[3.5vw] font-medium mb-8">
-                    Possessive Panda offers a full suite of Virtual Assistant services for your business growth.
+                    possesive Panda offers a full suite of Virtual Assistant services for your business growth.
                 </p>
                 <div className="flex flex-col space-y-4">
                     {services.map((service, index) => (
