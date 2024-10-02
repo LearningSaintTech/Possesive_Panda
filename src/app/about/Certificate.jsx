@@ -6,7 +6,7 @@ import photo_3 from "../../assets/aboutus/photo-3.png";
 
 const Certificate = () => {
   return (
-    <div className="bg-[rgba(0,175,241,0.25)] px-[7.692vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[4vw] mt-[7.5vw]">
+    <div className="bg-[rgba(0,175,241,0.25)] px-[7.692vw] lg:px-0 flex flex-col  items-center relative z-[10] overflow-hidden gap-[3vw] lg:gap-[1.25vw] lg:min-h-[100vh] lg:max-h-[180vh] lg:mb-[2vw] mt-[10vw] sm:mt-[6vw]">
       <h6 className="text-[5.128vw] md:text-[3vw] lg:text-[1.25vw] font-medium tracking-[0.015rem] text-[#00AFF1] mt-[10vw] lg:mt-[5.417vw]">
         Our Certificates
       </h6>

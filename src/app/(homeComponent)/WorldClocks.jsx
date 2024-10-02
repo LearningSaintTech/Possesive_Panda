@@ -73,8 +73,8 @@ const Clock = ({ city, timezone }) => {
 
 const WorldClocks = () => {
   return (
-    <div className='bg-[#00111A] px-[7.059vw] py-[11.765vw] sm:px-0 sm:py-0'>
-      <div className="bg-white/10 sm:px-[12.396vw] px-[7.059vw] sm:py-[2.813vw] rounded-[2.353vw] sm:rounded-none py-[13.412vw] sm:w-full w-[85.882vw] grid grid-cols-2 sm:flex sm:justify-around sm:items-center gap-[5.647vw]">
+    <div className='bg-[#00111A] px-[7.059vw] sm:px-0 sm:py-0'>
+      <div className="bg-white/10 sm:px-[12.396vw] px-[7.059vw] sm:py-[2.813vw] rounded-[2.353vw] sm:rounded-none py-[13.412vw] sm:w-full w-[85.882vw] grid grid-cols-2 gap-y-[10vw] sm:flex sm:justify-around sm:items-center sm:gap-[5.647vw]">
         {cities.map((city) => (
           <Clock key={city.name} city={city.name} timezone={city.timezone} />
         ))}

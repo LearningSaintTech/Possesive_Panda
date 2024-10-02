@@ -17,7 +17,7 @@ import ThankYou from "./ThankYou";
 const page = () => {
   return (
     <div className="bg-[#00111A]">
-         <head>
+      <head>
         {/* Microsoft Advertising base UET tag */}
         <script>
           {`
@@ -39,26 +39,24 @@ const page = () => {
       <NewBanner
         title={"Let Possesive Panda be Your Success Partner!"}
         desciption={"Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."}
-      // image={banner}
       />
-      <div className="hidden sm:block sm:mt-[1.042vw]">
-      <AboutMarquee/>
+      <div className="hidden sm:block sm:mt-[1.771vw]">
+        <AboutMarquee />
       </div>
-      <div className="mt-[16.941vw] sm:mt-[5.25vw]">
-      <Journey
-        title="Like discussing your ideas in person?"
-        subtitle="Swing by our office anytime! We're here to turn your tech dreams into reality and ensure you leave with a smile."
-        description="Every project begins with an email or phone call, regardless of whether you need a basic website, a mobile app, custom software, virtual assistance services, or to establish your own development team. You are just a call or an email away from being the pinnacle of your industry."
-      />
+      <div className="mt-[14vw] sm:mt-[5.25vw]">
+        <Journey
+          title="Like discussing your ideas in person?"
+          subtitle="Swing by our office anytime! We're here to turn your tech dreams into reality and ensure you leave with a smile."
+          description="Every project begins with an email or phone call, regardless of whether you need a basic website, a mobile app, custom software, virtual assistance services, or to establish your own development team. You are just a call or an email away from being the pinnacle of your industry."
+        />
       </div>
-      {/* <Joinpanda /> */}
-      <div className="mt-[7.917vw] mb-[7.917vw]"> 
-      <ThankYou/>
+      <div className="mt-[6.25vw] mb-[6.25vw]">
+        <ThankYou />
       </div>
       <Contact />
       <Review />
       <div className="mt-[6vw]">
-      <Faq />
+        <Faq />
       </div>
       <Footer />
     </div>

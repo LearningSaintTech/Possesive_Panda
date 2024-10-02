@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import NewBanner from "../(Components)/NewBanner";
-import {  projects } from "./data";
+import { projects } from "./data";
 import Project from "./Project";
 import Footer from "../(Components)/Footer";
 import Pagination from "./Pagination";
@@ -25,15 +25,15 @@ const Portfolio = () => {
           "Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."
         }
       />
-      <div className="hidden sm:block sm:mt-[1.042vw]">
+      <div className="hidden sm:block sm:mt-[1.771vw]">
         <AboutMarquee />
       </div>
-      <div className="mt-[16.941vw] sm:mt-[5.25vw]">
-      <Journey
-        title="Explore our tech-driven triumphs:"
-        subtitle="From pioneering startups to well-established enterprises, discover the ultimate success stories that redefine innovation. "
-        description="At Possesive Panda, we weave magic across various industries, transforming ideas into stunning digital realities. Our talented in-house team doesn't just build websites and software; they sculpt exceptional products that reflect their expertise and creativity. With every project, we blend innovation and skill to create masterpieces that stand out and shine."
-      />
+      <div className="mt-[14vw] sm:mt-[5.25vw]">
+        <Journey
+          title="Explore our tech-driven triumphs:"
+          subtitle="From pioneering startups to well-established enterprises, discover the ultimate success stories that redefine innovation. "
+          description="At Possesive Panda, we weave magic across various industries, transforming ideas into stunning digital realities. Our talented in-house team doesn't just build websites and software; they sculpt exceptional products that reflect their expertise and creativity. With every project, we blend innovation and skill to create masterpieces that stand out and shine."
+        />
       </div>
       <div className="sm:mx-[5.2vw] md:pt-3 sm:my-[6vw] mx-[5.455vw] my-[6vw]">
         {currentPosts.map((project, index) => (

@@ -14,8 +14,8 @@ const Footer = () => {
 
   return (
     <div className='sm:px-[5.208vw] px-[7.69vw] flex flex-col min-h-screen bg-[#00111A]'>
-  <Image src={Line9} className=' mt-[2vw] w-[64.635vw] mx-auto' />
-  <div className='sm:hidden flex flex-col items-center justify-center min-h-screen'>
+      <Image src={Line9} className=' mt-[2vw] w-[64.635vw] mx-auto' />
+      <div className='sm:hidden mt-[14vw] flex flex-col items-center'>
         <Image
           src={logo1}
           alt="logo"
@@ -25,48 +25,49 @@ const Footer = () => {
           Possesive Panda thrives on innovation, delivering premier IT solutions to clients around the globe. With a sharp focus on digital marketing, web and software development, and virtual assistance, we proudly serve over 50 clients. Join us as we transform challenges into opportunities and ideas into impact.
         </p>
 
-        <div className='flex flex-row mt-4 gap-[2vw] justify-center'>
+        <div className='flex flex-row items-center justify-center mt-4 gap-[2vw] '>
           <Link href="https://in.linkedin.com/company/possesive-panda" target="_blank">
-            <svg className="w-[5vw] h-[5vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
+            <svg className="w-[10vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
               <path d="M7.75 5.00002C7.74974 5.53046 7.53877 6.03906 7.16351 6.41394C6.78825 6.78883 6.27943 6.99929 5.749 6.99902C5.21857 6.99876 4.70996 6.78779 4.33508 6.41253C3.96019 6.03727 3.74974 5.52846 3.75 4.99802C3.75027 4.46759 3.96123 3.95899 4.33649 3.5841C4.71175 3.20922 5.22057 2.99876 5.751 2.99902C6.28143 2.99929 6.79004 3.21026 7.16492 3.58552C7.53981 3.96078 7.75027 4.46959 7.75 5.00002ZM7.81 8.48002H3.81V21H7.81V8.48002ZM14.13 8.48002H10.15V21H14.09V14.43C14.09 10.77 18.86 10.43 18.86 14.43V21H22.81V13.07C22.81 6.90002 15.75 7.13002 14.09 10.16L14.13 8.48002Z" fill="white" />
             </svg>
           </Link>
           <Link href="https://x.com/possesivepanda" target="_blank">
-            <svg className="w-[5vw] h-[5vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
+            <svg className="w-[9vw] h-[9vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
               <path d="M1 2H3.5L18.5 22H16L1 2ZM5.5 2H8L23 22H20.5L5.5 2ZM3 2H8V4H3V2ZM16 20H21V22H16V20ZM18.5 2H22L5 22H1.5L18.5 2Z" fill="white" />
             </svg>
           </Link>
           <Link href="https://www.instagram.com/possesivepanda/" target="_blank">
-            <svg className="w-[5vw] h-[5vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
+            <svg className="w-[9vw] h-[9vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 26" fill="none">
               <path d="M3.48047 11.7506C3.48047 7.72222 3.48047 5.7075 4.73246 4.45658C5.98444 3.20566 7.99809 3.20459 12.0265 3.20459H14.163C18.1913 3.20459 20.206 3.20459 21.457 4.45658C22.7079 5.70857 22.709 7.72222 22.709 11.7506V13.8871C22.709 17.9154 22.709 19.9302 21.457 21.1811C20.205 22.432 18.1913 22.4331 14.163 22.4331H12.0265C7.99809 22.4331 5.98338 22.4331 4.73246 21.1811C3.48154 19.9291 3.48047 17.9154 3.48047 13.8871V11.7506Z" stroke="white" stroke-width="2.84866" />
               <path d="M17.9022 9.61442C18.7871 9.61442 19.5046 8.89701 19.5046 8.01204C19.5046 7.12708 18.7871 6.40967 17.9022 6.40967C17.0172 6.40967 16.2998 7.12708 16.2998 8.01204C16.2998 8.89701 17.0172 9.61442 17.9022 9.61442Z" fill="white" />
               <path d="M13.0949 16.0238C14.8648 16.0238 16.2996 14.5889 16.2996 12.819C16.2996 11.0491 14.8648 9.61426 13.0949 9.61426C11.325 9.61426 9.89014 11.0491 9.89014 12.819C9.89014 14.5889 11.325 16.0238 13.0949 16.0238Z" stroke="white" stroke-width="2.84866" />
             </svg>
           </Link>
           <Link href="https://www.facebook.com/profile.php?id=61559502103126" target="_blank">
-            <svg className="w-[5vw] h-[5vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" fill="none">
+            <svg className="w-[9vw] h-[9vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" fill="none">
               <path d="M15.1447 14.4211H17.8154L18.8836 10.1481H15.1447V8.0116C15.1447 6.9113 15.1447 5.8751 17.2812 5.8751H18.8836V2.28579C18.5354 2.23985 17.2203 2.13623 15.8316 2.13623C12.9313 2.13623 10.8717 3.90632 10.8717 7.157V10.1481H7.66699V14.4211H10.8717V23.5012H15.1447V14.4211Z" fill="white" />
             </svg>
           </Link>
         </div>
       </div>
 
-      <div className='flex flex-col sm:flex-row mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
+      <div className='flex flex-col sm:flex-row mt-[4vw] sm:mt-[7.5vh] gap-[3.846vw] sm:gap-[3vw]'>
         <div onClick={() => setOpen(true)}
           className='w-full sm:rounded-none rounded-[0.847vw] sm:w-[27.187vw] sm:gap-[5.208vw] sm:px-0 sm:py-[1vw] py-[3.051vw] px-[5vw] bg-[#002E47] cursor-pointer'>
           <p className="text-white text-[4.103vw] sm:text-[1.042vw] sm:ml-[2.077vw] mt-[1vw]  mb-[1.146vw] sm:font-semibold">
             Partner With Us
           </p>
-          <div className="flex gap-[19.487vw] sm:gap-[4.748vw]">
+          <div className="flex justify-between sm:justify-normal sm:gap-[4.748vw]  ">
             <div className="text-white text-[4.103vw] sm:text-[2.5vw] sm:ml-[2.077vw] font-bold sm:font-semibold sm:leading-[3vw] mb-[1.719vw]">
               Hire<span className="hidden sm:inline"><br /></span> Possesive<span className="hidden sm:inline"><br /></span> Panda!
             </div>
-            <svg className="hidden sm:block sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
+            <svg className=" sm:mt-[6vw] sm:w-[2.813vw] sm:h-[2.813vw] w-[5vw] h-[10vw]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" fill="none">
               <path fillRule="evenodd" clipRule="evenodd" d="M46.3286 31.1613C46.6453 31.4784 46.8232 31.9083 46.8232 32.3565C46.8232 32.8048 46.6453 33.2347 46.3286 33.5518L32.7974 47.0829C32.6426 47.2491 32.4559 47.3824 32.2484 47.4749C32.0409 47.5673 31.8169 47.617 31.5898 47.621C31.3627 47.625 31.1371 47.5832 30.9265 47.4982C30.7159 47.4131 30.5246 47.2865 30.364 47.1259C30.2034 46.9653 30.0768 46.774 29.9917 46.5633C29.9066 46.3527 29.8648 46.1272 29.8689 45.9C29.8729 45.6729 29.9226 45.449 30.015 45.2415C30.1075 45.034 30.2407 44.8473 30.4069 44.6924L41.0514 34.0479L9.05025 34.0479C8.60166 34.0479 8.17145 33.8697 7.85425 33.5525C7.53706 33.2353 7.35886 32.8051 7.35886 32.3565C7.35886 31.908 7.53706 31.4777 7.85426 31.1605C8.17145 30.8433 8.60166 30.6651 9.05025 30.6651L41.0514 30.6651L30.4069 20.0206C30.2407 19.8658 30.1075 19.6791 30.015 19.4716C29.9226 19.2641 29.8729 19.0401 29.8689 18.813C29.8648 18.5859 29.9066 18.3603 29.9917 18.1497C30.0768 17.9391 30.2034 17.7478 30.364 17.5872C30.5246 17.4266 30.7159 17.3 30.9265 17.2149C31.1371 17.1298 31.3627 17.0881 31.5898 17.0921C31.8169 17.0961 32.0409 17.1458 32.2484 17.2382C32.4559 17.3307 32.6426 17.464 32.7974 17.6301L46.3286 31.1613Z" fill="white" />
             </svg>
             {open && <HandlePage setOpen={setOpen} />}
           </div>
         </div>
+
 
 
         <Link href="/contact" passHref>
@@ -322,7 +323,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <p className='sm:hidden text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center sm:mt-0 mt-[5.128vw]'>
+        <p className='sm:hidden text-white text-[4.103vw] sm:text-[1.042vw] font-normal text-center sm:mb-0 mb-[1vw] sm:mt-0 mt-[5.128vw]'>
           Copyright © 2024 | Alrights reserved by Possesive Panda
         </p>
       </div>

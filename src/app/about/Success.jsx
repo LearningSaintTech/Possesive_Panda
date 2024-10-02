@@ -52,7 +52,7 @@ const Success = () => {
   }, [hasAnimated]);
 
   return (
-    <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm:py-[6.813vw] py-[8vw]">
+    <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm:py-[4vw] py-[8vw]">
       <div className="text-white flex flex-col items-center lg:flex-row lg:gap-[7vw]">
         <h2 className="w-full lg:w-[35.729vw] text-white text-[6vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
           Numbers That Show Our Success

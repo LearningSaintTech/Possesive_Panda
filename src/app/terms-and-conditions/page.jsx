@@ -1,24 +1,24 @@
 import React from "react";
-import Banner from "../(Components)/Banner";
-import banner from "../../assets/banners/t&c-apply-slider.png";
+import NewBanner from "../(Components)/NewBanner";
+import Footer from "../(Components)/Footer";
+
 
 const TermsandCondition = () => {
   return (
-    <div>
-      <Banner title={"Terms & Conditions"}
-        desciption={"What you need to keep in mind while using this website"}
-        page={"t&c"}
-        image={banner} />
-
-      <div className=" p-24 text-center">
-        <h1 className="px-[5.208vw] py-[5.208vw] font-bold text-[2.5vw] text-center">Terms & Conditions</h1>
-        <p className="mt-2 text-left text-[1.25vw]">
+    <div className="bg-[#00111A]">
+      <NewBanner
+        title={"Let Possesive Panda be Your Success Partner!"}
+        desciption={"Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."}
+      />
+      <div className=" px-[5.208vw] text-center">
+        <h1 className="px-[5.208vw] text-white mb-[2vw] mt-[5vw] font-bold text-[2.5vw] text-center">Terms & Conditions</h1>
+        <p className=" text-left text-white text-[1.25vw]">
           We welcome you to Possesive Panda, owned and operated by Abhishek
           International Pvt Ltd. (“company”, “we”, or “us”). By using this
           website, any and every individual or organization becomes legally bound
           to adhere to these terms and conditions.
         </p>
-        <p className="mt-2 text-left text-[1.25vw]">
+        <p className="mt-2 text-white text-left text-[1.25vw]">
           The contents of this website are, by all means, intellectual property of
           Abhishek International Pvt Ltd. (unless mentioned otherwise), including
           copyright, trademark, patent, trade secret and other proprietary rights.
@@ -33,7 +33,7 @@ const TermsandCondition = () => {
           reproduce, modify, adapt, publish, and distribute their content on and
           through this website.
         </p>
-        <p className="mt-2 text-left text-[1.25vw]">
+        <p className="mt-2 text-white text-left text-[1.25vw]">
           All content available on this website is purely for general information
           and use. This website and its contents have been provided by Abhishek
           International Pvt Ltd. on an ‘as is’ basis without any warranties. No
@@ -49,13 +49,15 @@ const TermsandCondition = () => {
           terminate or suspend any individual or organization’s usage of this
           website without any prior notice.
         </p>
-        <p className="mt-2 text-left text-[1.25vw]">
+        <p className="mt-2 text-white text-left text-[1.25vw] mb-[3vw] ">
           The above given terms and conditions can be updated by us at any time
           without any explicit notice. Continued use of this website implies
           acceptance of any and every change made. For any further queries,
           contact us at <b>hello@possesivepanda.com</b>.
         </p>
       </div>
+      <Footer />
+
     </div>
   );
 };

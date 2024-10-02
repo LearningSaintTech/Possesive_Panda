@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 const ServicesList = () => (
-  <div className="bg-[#131d22] sm:px-0 px-[7.692vw] sm:py-[4.2vw] py-[10vw]  flex flex-col sm:flex-row sm:mt-0 mt-[15.385vw]">
+  <div className="bg-[#131d22] sm:px-0 px-[7.692vw] sm:py-[4.2vw] py-[8vw]  flex flex-col sm:flex-row">
 
     {/* Left Section */}
     <div className="sm:w-[32.292vw] sm:ml-[5.208vw] ml-[1.692vw] flex flex-col justify-center items-center sm:justify-start sm:items-start sm:gap-[1.042vw] gap-[2.5vw]">

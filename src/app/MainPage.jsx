@@ -41,50 +41,44 @@ const MainPage = () => {
       ) : ( */}
       <>
         <Banner whyUsRef={whyUsRef} />
-        <div style={{ paddingTop: "60px" }}>
-          <div className="mt-[12.235vw] sm:mt-[3.25vw]">
-            <OurWorks />
-          </div>
-          <div className="mt-0 sm:mt-[4.063vw]">
-            <Marquee />
-          </div>
-          <div className="mt-0 sm:mt-[5.313vw]">
-            <ServicesList />
-          </div>
-          <div className="mt-[14.118vw] sm:mt-[8.167vw] ">
-            <OurServices />
-          </div>
-          <div className=" hidden lg:block">
-            <Canvas />
-          </div>
-          <div ref={whyUsRef} className="mt-[14.118vw] sm:mt-[1vw] ">
-            <WhyUs />
-          </div>
-          <div className="sm:mt-[6vw] mt-[14.118vw] ">
-            <Technologies />
-          </div>
-          <div className="sm:mt-[5.896vw] mt-[14.118vw] ">
-            <ToolsTech />
-          </div>
-          <div className="sm:mt-[7.188vw] mt-[14.118vw] ">
-            <Contact />
-          </div>
-          <div className="sm:mt-[7.969vw] ">
-            <WorldClocks />
-          </div>
-          <div className="sm:mt-[5.208vw] mt-[14.118vw] ">
-            <Blogs />
-          </div>
-          <div className="sm:mt-[3vw] mt-[14.118vw] ">
-            <Faq />
-          </div>
-          {/* <div className="flex justify-center items-center h-full">
-            <Image src={Line9} className="w-[64.635vw]" />
-          </div> */}
-
-          <div className="sm:mt-[3vw] mt-[10vw] ">
-            <Footer />
-          </div>
+        <div className="mt-[14.118vw] sm:mt-[3.25vw]">
+          <OurWorks />
+        </div>
+        <div className="mt-0 sm:mt-[4.063vw]">
+          <Marquee />
+        </div>
+        <div className="mt-[8vw] sm:mt-[5.313vw]">
+          <ServicesList />
+        </div>
+        <div className="mt-[14.118vw] sm:mt-[8.167vw] ">
+          <OurServices />
+        </div>
+        <div className=" hidden lg:block">
+          <Canvas />
+        </div>
+        <div ref={whyUsRef} className="mt-[14.118vw] sm:mt-[1vw] ">
+          <WhyUs />
+        </div>
+        <div className="sm:mt-[6vw] mt-[14.118vw] ">
+          <Technologies />
+        </div>
+        <div className="sm:mt-[5.896vw] mt-[14.118vw] ">
+          <ToolsTech />
+        </div>
+        <div className="sm:mt-[7.188vw] mt-[14.118vw] ">
+          <Contact />
+        </div>
+        <div className="sm:mt-[7.969vw] mt-[19vw] ">
+          <WorldClocks />
+        </div>
+        <div className="sm:mt-[5.208vw] mt-[8vw] ">
+          <Blogs />
+        </div>
+        <div className="sm:mt-[3vw] mt-[14.118vw] ">
+          <Faq />
+        </div>
+        <div className="sm:mt-[3vw] mt-[10vw] ">
+          <Footer />
         </div>
       </>
       {/* )} */}

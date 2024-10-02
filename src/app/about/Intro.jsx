@@ -6,7 +6,7 @@ import Graphix from "../../../public/assets/aboutus/Graphix.png"
 
 const Intro = () => {
     return (
-        <div className='relative bg-[#00111A] mt-[14.118vw] sm:mt-[7.5vw] flex sm:gap-[9.375vw] sm:px-0 px-[7.059vw] '>
+        <div className='relative bg-[#00111A]  flex sm:gap-[9.375vw] sm:px-0 px-[7.059vw] '>
             <Image
                 src={sidecomponent}
                 alt="sidecomponent"

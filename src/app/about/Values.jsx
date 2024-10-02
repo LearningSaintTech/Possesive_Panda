@@ -33,14 +33,14 @@ const Values = () => {
     }, []);
 
     return (
-        <div className="bg-[#00111a] text-white sm:px-[5.208vw] sm:py-[4.813vw] py-[10vw] px-[4vw]">
+        <div className="bg-[#00111a] text-white sm:px-[5.208vw]  px-[4vw]">
             <div className="container mx-auto">
                 <div className="text-center">
-                    <h2 className="text-[8vw] md:text-[4vw] lg:text-[2.5vw] font-semibold mb-[2.865vw] text-[#00aff1]">
+                    <h2 className="text-[8vw] md:text-[4vw] lg:text-[2.5vw] font-semibold mb-[1vw] text-[#00aff1]">
                         Our Values
                     </h2>
-                    <p className="mb-[8vw] max-w-[90vw] md:max-w-[70vw] lg:max-w-[46.967vw] text-center text-[5vw] md:text-[2vw] lg:text-[1.25vw] font-normal mx-auto">
-                        Possesive Panda as a top-notch IT service and solution provider, doesn’t just aim for excellence - we count on delivering the best at what we deliver.
+                    <p className="mb-[3vw] max-w-[90vw] md:max-w-[70vw] lg:max-w-[46.967vw] text-center text-[5vw] md:text-[2vw] lg:text-[1.25vw] font-normal mx-auto">
+                        possesive Panda as a top-notch IT service and solution provider, doesn’t just aim for excellence - we count on delivering the best at what we deliver.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[8vw] lg:gap-[8vw] justify-items-center">

@@ -18,7 +18,7 @@ const OurWorks = () => {
     const handleMouseDown = (e) => {
         if (scrollContainerRef.current) {
             e.preventDefault();
-            e.stopPropagation(); 
+            e.stopPropagation();
             setIsDragging(true);
             setStartX(e.pageX - scrollContainerRef.current.offsetLeft);
             setScrollLeft(scrollContainerRef.current.scrollLeft);

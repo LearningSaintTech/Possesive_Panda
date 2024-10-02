@@ -84,9 +84,9 @@ const Banner = ({ whyUsRef }) => {
   };
 
   return (
-    <div className="relative bg-[#00111A] w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
+    <div className="relative bg-[#00111A] sm:pt-0 pt-[10vw] w-full h-auto sm:h-[55.417vw] sm:overflow-hidden">
       {/* Text Content */}
-      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 sm:w-[43.333vw] mt-[18vw] sm:mt-[13.958vw] flex flex-col gap-[5vw] md:gap-[6vw] lg:gap-[1.083vw]">
+      <div className="sm:bg-transparent bg-[#00111A] px-[7.69vw] sm:px-[5.208vw] relative w-full z-10 sm:w-[43.333vw]  sm:mt-[13.958vw] flex flex-col gap-[5vw] md:gap-[6vw] lg:gap-[1.083vw]">
         <h1 className="sm:w-[46.875vw] text-center lg:text-left text-white text-[7.5vw] lg:text-[3.333vw] mt-[14.545vw] sm:mt-0 font-semibold tracking-wide lg:w-[50vw] md:w-[40vw] md:text-[2.5vw] md:text-start">
           Boost Your <span className="text-[#60e2ff]">Business</span> With Powerful IT Technology
         </h1>
@@ -112,7 +112,7 @@ const Banner = ({ whyUsRef }) => {
       <div className="sm:absolute sm:top-0 sm:left-0 w-full h-full bg-black/50 z-1"></div>
 
       {/* Mute/Unmute Button */}
-      <div className="absolute sm:bottom-[6.833vw] sm:left-[5.458vw] bottom-[10vw] left-[5vw] z-10 flex items-center gap-2">
+      <div className="absolute sm:bottom-[6.833vw] sm:left-[5.458vw] bottom-[25vw] left-[5vw] z-10 flex items-center gap-2">
         {isMuted ? (
           <MdVolumeOff
             className="text-white text-3xl cursor-pointer"

@@ -370,7 +370,7 @@ const smallfaqdata = [
 
  const hoverImageData = {
   text: {
-    subheading: "With Possessive Panda",
+    subheading: "With possesive Panda",
     heading: "Implement a Data-driven SEO Strategy to Boost Sales",
     description:
       "We aim for enhanced revenue for your businesses by implementing the best SEO strategies involving improved website ranking, expanding brand awareness, and generating qualified leads.With Possesive Panda, staying updated with industry innovations and understanding search engine operations, businesses can develop effective strategies for their clients. A data-driven approach ensures a user-friendly website with relevant information, generating more traffic and boosting brand recall.",
