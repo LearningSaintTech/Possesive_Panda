@@ -43,6 +43,9 @@ const page = () => {
       <div className="hidden sm:block sm:mt-[1.771vw]">
         <AboutMarquee />
       </div>
+      <div className="sm:hidden block mt-[10vw]">
+      <Contact />
+      </div>
       <div className="mt-[14vw] sm:mt-[5.25vw]">
         <Journey
           title="Like discussing your ideas in person?"
@@ -53,7 +56,9 @@ const page = () => {
       <div className="mt-[6.25vw] mb-[6.25vw]">
         <ThankYou />
       </div>
+      <div className="hidden sm:block">
       <Contact />
+      </div>
       <Review />
       <div className="mt-[6vw]">
         <Faq />
