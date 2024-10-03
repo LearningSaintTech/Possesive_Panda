@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import purpose from "../../../public/assets/AboutUs/2.svg"
-import thumbs from "../../../public/assets/AboutUs/thumbs.svg"
-import image2 from "../../../public/assets/AboutUs/62.png"
-import Scale from "../../../public/assets/AboutUs/Scale.svg"
-import Misson from "../../../public/assets/AboutUs/Misson.svg"
+import purpose from "../../../public/assets/aboutus/2.svg"
+import thumbs from "../../../public/assets/aboutus/thumbs.svg"
+import image2 from "../../../public/assets/aboutus/62.png"
+import Scale from "../../../public/assets/aboutus/Scale.svg"
+import Misson from "../../../public/assets/aboutus/Misson.svg"
 
 const Purpose = () => {
   return (

@@ -68,7 +68,7 @@ export const metadata = {
 const Page = () => {
   return (
     <div className="bg-[#00111A]">
-      <Head>
+      <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
@@ -84,10 +84,27 @@ const Page = () => {
         <meta property="og:image:width" content={metadata.openGraph.images[0].width} />
         <meta property="og:image:height" content={metadata.openGraph.images[0].height} />
         <meta property="og:image:alt" content={metadata.openGraph.images[0].alt} />
+        <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        (function(w,d,t,r,u) {
+          var f,n,i;
+          w[u]=w[u]||[],f=function() {
+            var o={ti:"187153115",enableAutoSpaTracking:true};
+            o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+          },
+          n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function() {
+            var s=this.readyState;
+            s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
+          },
+          i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
+        })(window,document,"script","//bat.bing.com/bat.js","uetq");
+      `,
+    }}
+  />
 
 
-
-      </Head>
+      </head>
       {/* Schema Markup for Breadcrumbs */}
       <Script id="application/ld+json">
         {`

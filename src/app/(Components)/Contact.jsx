@@ -99,6 +99,27 @@ const Contact = () => {
 
   return (
     <div className="sm:py-0 sm:px-[5.208vw] px-[7.692vw] flex flex-col sm:flex-row justify-between bg-[#00111A]">
+  
+  <head>
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        (function(w,d,t,r,u) {
+          var f,n,i;
+          w[u]=w[u]||[],f=function() {
+            var o={ti:"187153115",enableAutoSpaTracking:true};
+            o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+          },
+          n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function() {
+            var s=this.readyState;
+            s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
+          },
+          i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
+        })(window,document,"script","//bat.bing.com/bat.js","uetq");
+      `,
+    }}
+  />
+</head>
       <div className="w-full sm:w-[34.688vw] gap-[1.042vw]">
         <h4 className="text-center sm:text-left text-[8.205vw] sm:text-[3.333vw] font-semibold leading-[normal] sm:mb-[1.25vw] mb-[2vw] text-white">
           Get in <span className="text-[#00AFF1]">Touch</span>
