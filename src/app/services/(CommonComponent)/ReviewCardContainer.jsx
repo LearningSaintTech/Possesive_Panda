@@ -31,9 +31,9 @@ const ReviewCardContainer = () => {
         <div className='bg-[#00111a] px-[7.059vw] sm:px-[13.802vw] py-[3.765vw] sm:pt-[6.094vw]'>
             <div className='bg-white/10 rounded-lg sm:rounded-[0.625vw] flex flex-col justify-center items-center gap-[3.765vw] sm:gap-[1.667vw] sm:w-[71.927vw] sm:py-[1.563vw]'>
                 <div className={`px-[3.765vw] sm:px-[7.01vw] mt-[3.765vw] sm:mt-0 transition-all duration-1000 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-                    <h6 className='text-center text-white text-[3.765vw] sm:text-[1.25vw] py-0 sm:py-[0.2vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
+                    <p className='text-center text-white text-[3.765vw] sm:text-[1.25vw] py-0 sm:py-[0.2vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
                         Possesive Panda has been top ranked as an IT service provider by many of the B2B review platforms.
-                    </h6>
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-[1.25vw] px-[3.765vw] sm:px-0 pb-[0vw] sm:pb-0">

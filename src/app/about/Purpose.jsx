@@ -22,7 +22,7 @@ const Purpose = () => {
             className='  w-[12vw] sm:w-[5vw] '
           />
           <div>
-            <p className='text-white sm:mt-[2.083vw] mt-[2vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Purpose</p>
+            <h2 className='text-white sm:mt-[2.083vw] mt-[2vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Purpose</h2>
             <p className='text-white mt-[2.083vw] text-[3.765vw] sm:text-[1.209vw] font-normal '>With the minds of today, Possesive Panda is creating a better tomorrow. Innovation is ingrained in our DNA, and we believe in fostering the growth and improvement of our clients&apos;s business success. Our purpose lies in transforming your business to be the pinnacle of your industry.</p>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Purpose = () => {
               className='w-[12vw] sm:w-[3.503vw] mt-[3.75vw] '
             />
             <div>
-              <p className='text-white sm:mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Vision</p>
+              <h2 className='text-white sm:mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Vision</h2>
               <p className='text-white mt-[2.083vw] sm:text-[1.209vw]  text-[3.765vw] font-normal  '>At Possesive Panda, we don&apos;t just aim to be at the top of the global IT services industry; we aspire to be a game-changer. Our vision is to lead digital innovation and shape the pathway of the IT industry. Join Possesive Panda on this exciting journey towards a digital future.</p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Purpose = () => {
             className=' w-[12vw] sm:w-[3.75vw] mt-[3.802vw] ml-[2.448vw]'
           />
           <div className='mt-2.604vw ml-[2.448vw]'>
-            <p className='text-white mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Mission</p>
+            <h2 className='text-white mt-[2.083vw] text-[5.647vw] sm:text-[1.379vw] font-medium sm:font-extrabold '>Our Mission</h2>
             <p className='text-white mt-[2.083vw] sm:text-[1.209vw] text-[3.765vw] font-normal sm:w-[32.544vw] '>We are on a mission to deliver exceptional IT services and solutions to promote client satisfaction and success. We thrive on our clients&apos;s wants and needs and turn challenges into opportunities in order to boost their success rate. Above all, we aim at becoming your steadfast partner that promotes triumph.
             </p>
           </div>

@@ -18,6 +18,12 @@ const page = () => {
   return (
     <div className="bg-[#00111A]">
             <head>
+            <title>Contact Us - Possesive Panda   </title>
+        <meta name="description" content="At Possesive Panda, we thrive on collaborating with innovative startups, ambitious brands, and enterprises. If you have a groundbreaking app idea, let's bring it to life together. Reach out to us at hello@possesivepanda.com to get started!
+
+" />
+        <link rel="canonical" href="https://www.possesivepanda.com/contact" />
+    
   <script
     dangerouslySetInnerHTML={{
       __html: `

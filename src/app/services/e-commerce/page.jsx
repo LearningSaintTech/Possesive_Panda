@@ -109,22 +109,25 @@ const Page = () => {
       <Script id="application/ld+json">
         {`
           {
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.possesivepanda.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "E-Commerce Service",
-                "item": "https://www.possesivepanda.com/services/e-commerce"
-              }
-            ]
+          "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service Page",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "E-Commerce Service",
+    "item": "https://www.possesivepanda.com/services/e-commerce"  
+  }]
+
           }
           `}
       </Script>
@@ -133,41 +136,58 @@ const Page = () => {
         {`
           {
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Why do I need E-commerce solutions?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "E-commerce solutions help in smooth-running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Is your e-commerce target mobile-friendly?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Each site we have worked on has been mobile-friendly. With our unique plans, strategies, we assure that the site works on a variety of screen sizes, from cell phones and tablets to large desktops."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How will I follow up on my e-commerce website development project?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to design and launch an e-commerce website?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline."
-                }
-              }
-            ]
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why should you choose Possesive Panda as your eCommerce partner?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda is a reliable and reputable eCommerce service and solutions provider, catering to each and every need of the clients. We deliver eCommerce solutions in their totality, ranging from building an eCommerce platform to delivering your products seamlessly."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much will it cost to build an eCommerce platform?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depending on the features required, the intricacy of the platform, and the resources and experience of the development team, the price of creating an eCommerce website can vary greatly. Working with an experienced development team that can provide accurate estimates and milestones is crucial. If you want to know about this, then have a quick meeting with our consultant and resolve every doubt of yours."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do we integrate third-party tools and services into your eCommerce site?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we incorporate necessary third-party solutions to improve your online store. We can help with everything from payments (Stripe, PayPal) and marketing automation (Mailchimp, Klaviyo) to shipping (ShipStation, EasyPost), analytics (Google Analytics), and shipment."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why do I need eCommerce solutions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "E-commerce solutions help in the smooth running of processes in setting up and managing an online store. They enable businesses to reach a wider audience and increase sales. They also help manage inventory, the payment process, and logistics."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I choose the right eCommerce platform?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When choosing an e-commerce platform, consider factors such as ease of use, scalability, cost, customization options, and your business's specific needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will I follow up on my eCommerce website development project?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does it take to design and launch an eCommerce website?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This depends upon how big and complex the project is. Our aim is to provide quick and effective solutions while making sure the work is done on time. When we plan the project our project manager gives a clear deadline."
+    }
+  }]
+
           }
           `}
       </Script>

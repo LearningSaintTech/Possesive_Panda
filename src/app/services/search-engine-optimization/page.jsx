@@ -127,29 +127,25 @@ const page = () => {
 
       <Script id="application/ld+json">
         {`{
-            "@context": "https://schema.org/", 
-            "@type": "BreadcrumbList", 
-            "itemListElement": [{
-              "@type": "ListItem", 
-              "position": 1, 
-              "name": "Home",
-              "item": "https://possesivepanda.com/"  
-            },{
-              "@type": "ListItem", 
-              "position": 2, 
-              "name": "Digital Marketing",
-              "item": "https://possesivepanda.com/services/digital-marketing"  
-            },{
-              "@type": "ListItem", 
-              "position": 3, 
-              "name": "App Development",
-              "item": "https://possesivepanda.com/services/mobile-app-development"  
-            },{
-              "@type": "ListItem", 
-              "position": 4, 
-              "name": "Virtual Assistant",
-              "item": "https://possesivepanda.com/services/virtual-assistant"  
-            }]
+         "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Pay Per Click Service",
+    "item": "https://www.possesivepanda.com/services/pay-per-click"  
+  }]
+
           }
           `}
       </Script>

@@ -67,57 +67,58 @@ const page = () => {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How long does it take for PPC to start working?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "PPC marketing gives immediate results, with budgets being decided and campaigns being run on a daily basis. PPC is for getting quick internet traffic to your website. However, getting actual results in terms of lead generation and conversions by testing and optimizing ad campaigns can take around 1-3 months."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why Possesive Panda for PPC?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Where do PPC ads appear?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "PPC ads can appear on different platforms such as search engines, social media feeds, mobile apps, websites and more. The platform that is to be targeted for the ad campaign should be decided on the basis of your target audience and business objectives."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why should PPC be used?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "PPC ad campaigns help businesses expand their reach over a short term in a cost-effective manner. Though it is a temporary solution, PPC kick-starts the flow of internet traffic into your website, which can also facilitate organic traffic."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do people click on online PPC ads?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "It's true that people do click on Google’s PPC ads. Millions of PPC ads are clicked every day."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How does PPC help my business to grow?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "PPC helps you to grow your business by connecting with the users who are clicking on the top search results, increasing sales by brand awareness across a variety of websites and platforms."
-                }
-              }
-            ]
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How long does it take for PPC to start working?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PPC marketing gives immediate results, with budgets being decided and campaigns being run on a daily basis. PPC is for getting quick internet traffic to your website. However, getting actual results in terms of lead generation and conversions by testing and optimizing ad campaigns can take around 1-3 months."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why to choose Possesive Panda for your PPC success?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should PPC be used?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PPC ad campaigns help businesses expand their reach over a short term in a cost-effective manner. Though it is a temporary solution, PPC kick-starts the flow of internet traffic into your website, which can also facilitate organic traffic."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the pay-per-click (PPC) services offered by Possesive Panda?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To make your brand stand out and increase sales and conversions, we have a great suite of pay-per-click (PPC) services. To name a few, below is the list: Pay-per-click (PPC) Audit, Social Media Advertising, Landing Page Creation , Conversion Rate Optimization (CRO), PPC Management, Remarketing , A/B Testing , Gmail Sponsored Promotions (GSP), Youtube Ads."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does PPC help my business to grow?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PPC helps you to grow your business by connecting with the users who are clicking on the top search results, increasing sales by brand awareness across a variety of websites and platforms."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do PPC ads for targeted audiences or customers really work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, pay-per-click advertising always works for your business, if done correctly. You should have PPC experts for running marketing campaigns and researching your potential customers. Typically, there are many trends for PPC advertising that you have to follow in order to maximize the number of clicks and conversions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which is better, SEO or PPC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PPC and SEO offer advantages and disadvantages. They are both reliable sources of traffic. Consider your needs and business environment while making your decision between SEO and PPC."
+    }
+  }]
+
           })
         }}
       />
@@ -127,34 +128,25 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://possesivepanda.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Digital Marketing",
-                "item": "https://possesivepanda.com/services/digital-marketing"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "App Development",
-                "item": "https://possesivepanda.com/services/mobile-app-development"
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Virtual Assistant",
-                "item": "https://possesivepanda.com/services/virtual-assistant"
-              }
-            ]
+           "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Pay Per Click Service",
+    "item": "https://www.possesivepanda.com/services/pay-per-click"  
+  }]
+
           })
         }}
       />

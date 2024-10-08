@@ -11,6 +11,17 @@ import NewContact from "./(CommonComponent)/NewContact";
 import FinalBanner from "./(CommonComponent)/FinalBanner";
 import { dataSet1, dataSet2, dataSet3, testimonialsData, headingdata, faq, } from './data';
 import ReviewCardContainer from "./(CommonComponent)/ReviewCardContainer";
+
+export const metadata = {
+  title: 'Services - Possesive Panda',
+  description: 'Discover the latest services provided by Possesive Panda and see how we implemented tailored strategies and tactics to deliver exceptional results for our clients.',
+  alternates: {
+    canonical: 'https://www.possesivepanda.com/services'
+  },
+
+
+};
+
 const Services = () => {
   return (
     <div className="bg-[#00111A]">

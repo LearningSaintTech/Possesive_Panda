@@ -88,12 +88,24 @@ const page = () => {
 
       <Script id="application/ld+json">
         {`{
-         "@context": "https://schema.org",
-         "@type": "Organization",
-         "name": "Digital Marketing Service",
-        "alternateName": "PPC SEO Services Agency",
-        "url": "https://possesivepanda.com/services/digital-marketing",
-         "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
+          "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Digital Marketing Service",
+    "item": "https://www.possesivepanda.com/services/digital-marketing"  
+  }]
 
           }`}
       </Script>
@@ -101,37 +113,59 @@ const page = () => {
       <Script id="application/ld+json">
         {`
         {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [{
-                "@type": "Question",
-                "name": "What is Digital Marketing?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Digital marketing is also known as online marketing. We use marketing over online platforms and technologies to promote products, services, and brands. It includes strategies like social media marketing, content marketing, Search Engine Optimization, Pay-Per-Click, and email marketing."
-                }
-              },{
-                "@type": "Question",
-                "name": "Why is Digital Marketing important for my business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Digital marketing is crucial as it enables us to reach a global customer base and engage with potential and existing customers at a cost-effective rate, allowing us to expand our business and target specific audiences efficiently."
-                }
-              },{
-                "@type": "Question",
-                "name": "How does Digital Marketing help my business grow?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Digital Marketing helps increase brand visibility, drive traffic to your website, and generate leads. It also helps increase brand awareness among valuable customers through engagement."
-                }
-              },{
-                "@type": "Question",
-                "name": "What are the components of Digital Marketing?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Digital Marketing components include Social Media Marketing, SEO (Search Engine Optimization), SEM (Search Engine Marketing), PPC ( Pay Per Click), Content Marketing, Email Marketing."
-                }
-              }]
+             "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Digital Marketing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Digital marketing refers to all parts and actions of marketing an organization, business, or brand via digital channels on the internet. Digital marketing strategies and approaches are designed to reach specific online audiences via a wide range of internet-connected devices. Digital marketing comprises search engine optimization (e.g., Google and Bing), social media visibility and interaction, email marketing communications, website design and development, and integrated applications for connecting and engaging with prospects and consumers."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is Digital Marketing important for my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Digital marketing offers you the opportunity to captivate new customers and clients by strategies and marketing campaigns. You can monitor and enhance your ROI (s) and market campaign and be sure that you are investing your money and time for the right customer or audience."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does Digital Marketing help my business grow?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Digital marketing directly correlates with business growth by enabling your businesses to have brand value. It also helps increase brand awareness among valuable customers through engagement."
+    }
+  },{
+    "@type": "Question",
+    "name": "What services and solutions does Possesive Panda provide?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ultimately, we offer a plethora of digital marketing services and solutions, to name a few. Below is the list: Search Engine Optimization (SEO), Social Media Marketing (SMM), Copywriting & Content Marketing, Conversion Rate Optimization (CRO), App Store Management (ASO), Email Marketing, Influencer Marketing, Website Design & Development, Online Reputation Management, Youtube Optimization and Video Marketing, Affiliate Marketing , Web Hosting. And we also provide outstanding digital marketing solutions to make your business at the forefront of your industry. Below is the list: Brand Building, Content and Web Personalization, B2B Marketing, Analytics and Data Insights, Voice Search Optimization."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the latest trends in digital marketing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Current trends include video marketing, influencer marketing, personalized marketing, content marketing, and the use of chatbots."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why to choose Possesive Panda for your Digital Marketing Success?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda is one of the leading digital marketing companies, providing onshore and offshore digital marketing services and solutions. With the primary intent of getting your business or brand at the top of your domain."
+    }
+  },{
+    "@type": "Question",
+    "name": "How cost-effective is digital marketing as compared to traditional marketing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Digital marketing is cost-effective since it allows you to directly reach your target audience. Consider how traditional marketing reaches a broad audience. In contrast, digital marketing employs a targeted strategy, engaging the consumer with the appropriate message at the appropriate moment. You can quickly measure your digital marketing activities and associated costs, reducing wasteful spending. This is far more challenging in typical marketing campaigns."
+    }
+  }]
+
             }
 
           `}

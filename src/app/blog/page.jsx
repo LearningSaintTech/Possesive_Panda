@@ -43,6 +43,11 @@ const MainPage = () => {
   return (
     <div className="bg-[#00111A]">
       <head>
+      <title>Insights on Digital Transformation, Web & Mobile Technologies Blog | Possesive Panda</title>
+        <meta name="description" content="Explore our comprehensive section featuring the latest insights, expert opinions, and engaging blogs that provide fresh perspectives on technology innovation and trends.
+" />
+        <link rel="canonical" href="https://www.possesivepanda.com/blog" />
+      
       <script
     dangerouslySetInnerHTML={{
       __html: `

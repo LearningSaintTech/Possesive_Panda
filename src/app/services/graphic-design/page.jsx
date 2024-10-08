@@ -72,13 +72,25 @@ const page = () => {
       <Script id="application/ld+json">
         {`
           {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Graphic Design Service",
-            "alternateName": "Custom Graphic Design Agency",
-            "url": "https://possesivepanda.com/services/graphic-design",
-            "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
-          }
+             "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Graphic Design Service",
+    "item": "https://www.possesivepanda.com/services/graphic-design"  
+  }]
+}
 
                     `}
       </Script>
@@ -93,52 +105,52 @@ const page = () => {
     "name": "How long does it take to complete a custom graphic design?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as less as one day and larger ones can take as much as 1-2 weeks to complete."
+      "text": "The time period varies depending on the size and complexity of your requirements. A bigger project with more elaborate designs will take more time than a smaller one that requires simpler design. Smaller projects can take as little as one day and larger ones can take as much as 1-2 weeks to complete."
     }
-  }
-,{
+  },{
     "@type": "Question",
     "name": "What sets Possesive Panda apart from other graphic design services online?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "Possesive Panda is a dynamic IT service provider that offers a wide range of benefits for our customers. These are flexible pricing, dedicated project management and tracking, customized and innovative solutions, high-priority data security, qualified experts, and more."
     }
-
   },{
     "@type": "Question",
-    "name": "How much graphic design services cost?",
+    "name": "How much do graphic design services cost?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "The cost of completing a design depends on the level of its volume and intricacy. Possesive Panda gives you the option to set your budget frame for the project, keeping everything open to discussion to ensure maximum satisfaction."
     }
-  },
-  ,{
+  },{
     "@type": "Question",
     "name": "How do graphic designers work?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports and more"
+      "text": "Graphic designers ideate and conceptualize visual designs, digitally or traditionally, with the purpose of communicating ideas that inspire, motivate, inform or captivate the viewers. They develop and execute the design layout and structure for different applications such as advertisements, brochures, social media posts, magazines, reports, and more."
     }
-  },
-  {
+  },{
     "@type": "Question",
     "name": "What are graphic illustrations?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media."
+      "text": "Illustrations are graphic design elements that are mostly hand-drawn by graphic illustrators, usually on digital media itself, such that it is easier for printing and online marketing. Unlike other graphic design elements, illustrations are not pixelated and thus the best option for print media."
     }
-  },
-  {
+  },{
     "@type": "Question",
     "name": "Why is graphic design important?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "Graphic design is the most widely used medium of visual mass communication nowadays. This is because good graphic design not only captivates viewers, it also delivers information in a concise and simple way such that it is understandable to even laymen. Thus, graphics are the hub of visual communication in today’s digital age."
     }
-  }
+  },{
+    "@type": "Question",
+    "name": "What are the Graphic Design services and solutions Possesive Panda offers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda Provides 360 Graphic Design Services for your business growth and success. Below is the list of graphic design services: Logo and Brand Designs, Advertising and Marketing Design , UI/UX Design, Web Design, Packaging Design , Typographic Design , Art and Illustration, Social Media Posts , Motion Graphic Design."
+    }
+  }]
 
-
-]
 }
           `}
       </Script>

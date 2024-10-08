@@ -33,8 +33,8 @@ import NewContact from "../(CommonComponent)/NewContact";
 import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 
 export const metadata = {
-  title: 'Social Media Management Agency | Top Social Media Management Services',
-  description: 'Possesive panda is the best social media management company . we offer top quality social media management services at low prices. contact us for effective social media strategies.',
+  title: 'Social Media Marketing Agency | Best Social Media Management Services',
+  description: 'Possesive Panda is the best Social Media Marketing company.we offer top quality Social Media Marketing at low prices. contact us for effective social media strategies.',
 
 
 };
@@ -64,12 +64,24 @@ const page = () => {
       <Script id="application/ld+json">
         {`
        {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Social Media Management Service",
-  "alternateName": "Top Social Media Management Services",
-  "url": "https://possesivepanda.com/services/social-media-management",
-  "logo": "https://possesivepanda.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav-logo.8084e162.png&w=384&q=75"
+   "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Social Media Marketing",
+    "item": "https://www.possesivepanda.com/services/social-media-marketing"  
+  }]
 }
 
           `}
@@ -77,21 +89,49 @@ const page = () => {
       <Script id="application/ld+json">
         {`
 {
-  "@context": "https://schema.org",
+   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What is Social Media Management?",
+    "name": "What is Social Media Marketing?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Social Media Management is the process of creating content for social media platforms to promote your products and services to your target audience and engage website traffic."
+      "text": "Social media marketing promotes a brand, product, or service through platforms like Facebook, Twitter, and Instagram, aiming to drive website traffic, generate leads, and increase conversions while building brand awareness, fostering customer relationships, and staying competitive."
     }
   },{
     "@type": "Question",
-    "name": "Why is Social Media Management important?",
+    "name": "Why is Social Media Marketing important?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Social media management is important because it helps with audience engagement, increases brand visibility, and drives traffic to your website. Social media helps reach an audience globally."
+      "text": "Social media marketing is crucial for businesses as it increases brand awareness, drives website traffic, and builds trust. With over 3.8 billion active users, it provides valuable insights into consumer behavior, preferences, and demographics."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the services offered by Possesive Panda?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda offers a full suite of Social Media Marketing services, here is the list: Content Development, Social Media Management, Social Media Advertising, Engagement Growth , Influencer Collaboration, Reputation Management, SEO Integration , Online Reputation Management , Social Media Account Handling ."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I get a dedicated team for my social media management?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can hire a dedicated team for social media management. You can hire Possesive Panda’s social media management services in three ways: Project Based, Recurring Projects, Dedicated Resources and Teams."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose Possesive Panda for Social Media Marketing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda provides complete transparency, allowing you to witness firsthand how our efforts are elevating your ROI(s). Our dedication to successful social media management and marketing tactics results in a significant network resource for your online marketing requirements."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the role of a social media manager?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The role of a social media manager is very crucial as they have to manage a company's online presence across various social media platforms. Their responsibilities include strategy, creativity, maintaining the brand's image, and engaging with the audience."
     }
   },{
     "@type": "Question",
@@ -100,27 +140,8 @@ const page = () => {
       "@type": "Answer",
       "text": "Our team tracks key performance indicators such as engagement rates, reach, website traffic, and conversion. Using advanced tools, we provide detailed reports. We also continuously optimize your social media for optimal results."
     }
-  },{
-    "@type": "Question",
-    "name": "Why should you choose us as your Social Media Management partner?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-  "text": "Possesive Panda focuses on quality over quantity. We bring bold and creative ideas and fresh perspectives to the table. Our dynamic team is dedicated to helping your brand grow."    }
-  },{
-    "@type": "Question",
-    "name": "What is the role of a social media manager?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Role of a social media manager is very crucial as they have to manage a company's online presence across various social media platforms. Their responsibilities include strategy, creativity, maintaining the brand's image, and engaging with the audience."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is needed for social media management?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Social Media Management requires a combination of strategic planning, content creation, and analytical skills."
-    }
   }]
+
 }
 
 

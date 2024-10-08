@@ -8,7 +8,15 @@ import Footer from "../(Components)/Footer";
 import Pagination from "./Pagination";
 import AboutMarquee from "../(Components)/AboutMarquee";
 import Journey from "../(Components)/Journey";
+// export const metadata = {
+//   title: "Possesive Panda's Portfolio of Digital Innovation and Transformation",
+//   description: 'Explore the standout projects from our web design and mobile app development portfolio, featuring both iOS and Android solutions. See why our clients trust us to bring their vision to life, with successful results across a range of brands.',
+//   alternates: {
+//     canonical: 'https://www.possesivepanda.com/portfolio'
+//   },
 
+
+// };
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(5); // Set how many posts you want per page
@@ -20,6 +28,10 @@ const Portfolio = () => {
   return (
     <div className="bg-[#00111A]">
       <head>
+        <title>Possesive Panda's Portfolio of Digital Innovation and Transformation        </title>
+        <meta name="description" content=" Explore the standout projects from our web design and mobile app development portfolio, featuring both iOS and Android solutions. See why our clients trust us to bring their vision to life, with successful results across a range of brands.
+" />
+        <link rel="canonical" href="https://www.possesivepanda.com/portfolio" />
       <script
     dangerouslySetInnerHTML={{
       __html: `

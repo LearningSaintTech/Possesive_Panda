@@ -44,11 +44,11 @@ const StatsBox = ({ value, label }) => {
 
   return (
     <div className="bg-white/10 rounded-md sm:rounded-[0.26vw] shadow w-full sm:w-[11.927vw] flex flex-col justify-start items-start p-4 sm:px-[1.25vw] sm:py-[1.25vw]">
-      <h2 className="text-white text-2xl sm:text-[1.324vw] font-semibold">
+      <p className="text-white text-2xl sm:text-[1.324vw] font-semibold">
         {typeof currentValue === 'number'
           ? `${formatValue(currentValue)}${suffix}`
           : value}
-      </h2>
+      </p>
       <p className="text-white text-sm sm:text-[1.042vw] font-medium">{label}</p>
     </div>
   );
@@ -77,9 +77,9 @@ const ReviewSection = () => {
     <div className='bg-[#00111a] px-4 sm:px-[13.802vw] py-8 sm:pt-[6.094vw]'>
       <div className='bg-white/10 rounded-lg sm:rounded-[0.625vw] flex flex-col justify-center items-center gap-6 sm:gap-[1.667vw] w-full sm:w-[71.927vw] py-6 sm:py-[1.563vw]'>
         <div className={`px-4 sm:px-[7.01vw] transition-all duration-1000 ease-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <h6 className='text-center text-white text-xl sm:text-[1.25vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
+          <p className='text-center text-white text-xl sm:text-[1.25vw] font-light sm:w-[41.042vw] sm:px-[2vw] mb-4'>
             Possesive Panda is pioneering Finance and Accounting Services, Delivering Financial Success Across the Globe
-          </h6>
+          </p>
         </div>
         
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 sm:gap-[1.25vw] px-4 sm:px-0">

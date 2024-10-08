@@ -11,9 +11,9 @@ const Review = () => {
     <div className="bg-[#00111A]">
       <div className=" flex  sm:flex-row flex-col bg-[#00111A] px-[7.692vw] sm:px-[5.208vw] gap-[5.173vw] mb-[5.071vw] ">
         <div className=" flex flex-col  mt-[9.583vw] gap-[1.042vw] ">
-          <h2 className="sm:text-white text-[#00AFF1] sm:text-[2.5vw] text-[5.647vw] text-center sm:text-left font-semibold leading-[normal] sm:w-[33.125vw] ">
+          <p className="sm:text-white text-[#00AFF1] sm:text-[2.5vw] text-[5.647vw] text-center sm:text-left font-semibold leading-[normal] sm:w-[33.125vw] ">
             Battle-tested Service You Can Count On....
-          </h2>
+          </p>
           <p className="text-white sm:text-[1.25vw] text-[3.765vw] text-center sm:text-left font-normal leading-[normal]  sm:w-[34.74vw] sm:mb-[10.052vw] ">
             possesive Panda has been top ranked as an IT service provider by
             many of the B2B review platforms.

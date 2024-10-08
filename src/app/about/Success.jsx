@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState, useRef } from 'react';
 import { FaGlobe, FaUsers, FaHandshake, FaProjectDiagram } from "react-icons/fa";
 
@@ -54,9 +55,9 @@ const Success = () => {
   return (
     <div ref={sectionRef} className="bg-[#00111a] px-[7.692vw] sm:px-[5.208vw] sm:py-[4vw] py-[8vw]">
       <div className="text-white flex flex-col items-center lg:flex-row lg:gap-[7vw]">
-        <h2 className="w-full lg:w-[35.729vw] text-white text-[6vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
+        <h4 className="w-full lg:w-[35.729vw] text-white text-[6vw] md:text-[4vw] lg:text-[3.333vw] font-medium tracking-wide text-center lg:text-left mx-auto lg:mx-0">
           Numbers That Show Our Success
-        </h2>
+        </h4>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-[2.604vw] mt-8 lg:mt-0">
           <div className="flex items-center bg-[#131D22] pl-[4vw] py-[3vw] rounded-[4vw] lg:pl-[1.782vw] lg:py-[1.25vw] lg:rounded-[0.81vw]">
             <FaGlobe className="text-[#00AFF1] w-[10vw] h-[10vw] md:w-[6vw] md:h-[6vw] lg:w-[3.888vw] lg:h-[3.888vw]" />

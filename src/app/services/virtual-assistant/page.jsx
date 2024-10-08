@@ -66,57 +66,58 @@ const page = () => {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is a virtual assistant?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A virtual assistant is a person who provides administrative, technical, or creative support to clients remotely."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What services can a virtual assistant provide?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Virtual assistants can handle a wide range of tasks, including email management, scheduling, data entry, customer service, social media management, content creation, research, and more."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What are the benefits of hiring virtual assistants?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Hiring virtual assistants can save time, reduce operational costs, increase productivity, and provide access to specialized skills without needing to hire a full-time employee."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I ensure effective communication with my virtual assistants?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Use tools like email, instant messaging, and video calls. Set clear expectations."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How can I track the work of my virtual assistant?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A dedicated project manager is provided to monitor progress and ensure tasks are completed on time."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I train a virtual assistant?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Provide clear instructions, access to necessary tools, and continuous feedback."
-                }
-              }
-            ]
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Who is a Virtual Assistant?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A virtual assistant is an individual who specializes in a particular skillset and offers the services of relevant businesses and industries remotely."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which services can a virtual assistant provide?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You just name it. Virtual assistants come with many benefits and also industry expertise offering services like administrative operations, email management, client handling, meeting management, real estate services, healthcare services, digital marketing, eCommerce support, customer support, and many more."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits of hiring virtual assistants?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hiring virtual assistants can save time, reduce operational costs, increase productivity, and provide access to specialized skills without needing to hire a full-time employee."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I ensure effective communication with my virtual assistants?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use tools like email, instant messaging, and video calls. Set clear expectations."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I track the work of my virtual assistant?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A dedicated project manager is provided to monitor progress and ensure tasks are completed on time."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I train a virtual assistant?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Provide clear instructions, access to necessary tools, and continuous feedback."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the prices for virtual assistants provided by Possesive Panda?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depending on the processes or services you want to hire, we assure dynamic pricing at best. If you want to know more, kindly click on the circle."
+    }
+  }]
+
           })
         }}
       />
@@ -126,34 +127,25 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://possesivepanda.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Digital Marketing",
-                "item": "https://possesivepanda.com/services/digital-marketing"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "App Development",
-                "item": "https://possesivepanda.com/services/mobile-app-development"
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Virtual Assistant",
-                "item": "https://possesivepanda.com/services/virtual-assistant"
-              }
-            ]
+          "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.possesivepanda.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Service",
+    "item": "https://www.possesivepanda.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Virtual Assistant Service",
+    "item": "https://www.possesivepanda.com/services/virtual-assistant"  
+  }]
+
           })
         }}
       />

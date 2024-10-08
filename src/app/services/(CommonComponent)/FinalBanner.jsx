@@ -37,9 +37,9 @@ const FinalBanner = ({ title, desciption, pointone, pointtwo, pointthree, pointf
       />
 
       <div className={`relative z-10 h-full mt-[2.9vw] flex flex-col items-center justify-center text-white px-[0.833vw] transition-opacity duration-[1500ms] ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-        <h1 className={`px-[7.059vw] text-center text-white sm:text-[3.333vw] text-[7.529vw] font-normal mb-[0.938vw] transform transition-transform duration-[1500ms] ease-in-out ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
+        <p className={`px-[7.059vw] text-center text-white sm:text-[3.333vw] text-[7.529vw] font-normal mb-[0.938vw] transform transition-transform duration-[1500ms] ease-in-out ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
           {title}
-        </h1>
+        </p>
 
         <p className={`sm:w-[32.135vw] w-[76.941vw] text-center text-white sm:text-[1.042vw] text-[3.765vw] font-light mb-[3.385vw] transform transition-transform duration-[1500ms] ease-in-out delay-200 ${isVisible ? 'translate-y-0' : 'translate-y-[3.333vw]'}`}>
           {desciption}

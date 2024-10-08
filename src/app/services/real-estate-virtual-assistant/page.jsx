@@ -61,58 +61,60 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is a real estate Virtual Assistant?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "A real estate virtual assistant is a professional who provides administrative, marketing, and operational support to real estate agents."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How good are your resources at closing deals?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You will get a professional who is an expert in their field. We know how to close deals."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What tasks will my real estate virtual assistant be handling?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Your real estate virtual assistant can handle all the tasks you assign. These include listing properties, managing tasks, managing emails, scheduling appointments, lead generation, data entry, and more."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I hire the right real estate virtual assistant for my business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We hire great employees who can work smartly and efficiently without much supervision. With our virtual assistant, you do not have to deal with a hiring process."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can a real estate virtual assistant help with marketing?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, virtual assistants can manage social media accounts, create marketing campaigns, and implement digital marketing strategies."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I check the performance of my real estate virtual assistant?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project."
-                }
-              }
-            ]
+            
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is a real estate Virtual Assistant?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A real estate virtual assistant is a professional who provides administrative, marketing, and operational support to real estate agents."
+    }
+  },{
+    "@type": "Question",
+    "name": "How good are your resources at closing deals?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will get a professional who is are expert in their field. We know how to close deals."
+    }
+  },{
+    "@type": "Question",
+    "name": "What tasks will my real estate virtual assistant be handling?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your real estate Virtual assistant can handle all the tasks you assign. These include listing properties, managing tasks, managing emails, scheduling appointments, lead generation, data entry, and more."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I hire the right real estate virtual assistant for my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We hire great employees who can work smartly and efficiently without much supervision. You do not have to deal with a hiring process with our virtual assistant."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can a real estate virtual assistant help with marketing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, virtual assistants can manage social media accounts, create marketing campaigns, and implement digital marketing strategies."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I check the performance of my real estate virtual assistant?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We regularly update you on the status of the tasks. Also, a project manager will be appointed to assist you with all the details of your project."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the real estate virtual assistant services Possesive Panda offers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Possesive Panda delivers various real estate virtual assistant services. Here is the list: Real Estate , Research Lead Generation, Property Listings , Setup 3D Tours , Expenses Management , Appointment Scheduling, Manage Bids , Manage Social Media Presence."
+    }
+  }]
+
           })
         }}
       />
@@ -122,34 +124,25 @@ const page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://possesivepanda.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Digital Marketing",
-                "item": "https://possesivepanda.com/services/digital-marketing"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "App Development",
-                "item": "https://possesivepanda.com/services/mobile-app-development"
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Virtual Assistant",
-                "item": "https://possesivepanda.com/services/virtual-assistant"
-              }
-            ]
+            "@context": "https://schema.org/", 
+            "@type": "BreadcrumbList", 
+            "itemListElement": [{
+              "@type": "ListItem", 
+              "position": 1, 
+              "name": "Home",
+              "item": "https://www.possesivepanda.com/"  
+            },{
+              "@type": "ListItem", 
+              "position": 2, 
+              "name": "Service",
+              "item": "https://www.possesivepanda.com/services"  
+            },{
+              "@type": "ListItem", 
+              "position": 3, 
+              "name": "Real Estate Virtual Assistant",
+              "item": "https://www.possesivepanda.com/services/real-estate-virtual-assistant"  
+            }]
+          
           })
         }}
       />
