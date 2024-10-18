@@ -107,7 +107,7 @@ const RealEstateChallenges = () => {
       </div>
 
       {/* Mobile version */}
-      <div className="sm:hidden block px-[4vw]">
+      <div className="sm:hidden block px-[7.11vw]">
         {challenges.map((challenge, index) => (
           <MobileCard
             key={index}

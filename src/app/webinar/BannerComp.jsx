@@ -32,7 +32,8 @@ const BannerComp = ({ scrollToThirdComp }) => {
         setError('');
     
         try {
-            const response = await fetch('http://54.177.58.196:8081/user/register', {
+                       const response = await fetch('https://api.possesivepanda.com/user/register', {
+
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -118,7 +119,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="First Name"
                                     value={formData.fname}
                                     onChange={handleChange}
-                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white text-[#152f2e]/50 text-[1.094vw] font-normal font-['Open Sans']"
+                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white placeholder:text-[#152f2e]/50 text-black text-[1.094vw] font-normal font-['Open Sans']"
                                     required
                                 />
                             </div>
@@ -129,7 +130,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="Last Name"
                                     value={formData.lname}
                                     onChange={handleChange}
-                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white text-[#152f2e]/50 text-[1.094vw] font-normal font-['Open Sans']"
+                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white placeholder:text-[#152f2e]/50 text-black text-[1.094vw] font-normal font-['Open Sans']"
                                     required
                                 />
                             </div>
@@ -140,7 +141,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="Email"
                                     value={formData.email}
                                     onChange={handleChange}
-                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white text-[#152f2e]/50 text-[1.094vw] font-normal font-['Open Sans']"
+                                    className="w-full p-[0.833vw] rounded-[0.313vw] shadow-inner border border-[#d8d8d8] bg-white placeholder:text-[#152f2e]/50 text-black text-[1.094vw] font-normal font-['Open Sans']"
                                     required
                                 />
                             </div>
@@ -232,7 +233,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="First name"
                                     value={formData.fname}
                                     onChange={handleChange}
-                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] text-[#152f2e]/50 text-[3.294vw] font-normal font-['Open Sans']"
+                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] placeholder:text-[#152f2e]/50 text-black text-[3.294vw] font-normal font-['Open Sans']"
                                     required
                                 />
                                 <input
@@ -241,7 +242,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="Last Name"
                                     value={formData.lname}
                                     onChange={handleChange}
-                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] text-[#152f2e]/50 text-[3.294vw] font-normal font-['Open Sans']"
+                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] placeholder:text-[#152f2e]/50 text-black text-[3.294vw] font-normal font-['Open Sans']"
                                     required
                                 />
                                 <input
@@ -250,7 +251,7 @@ const BannerComp = ({ scrollToThirdComp }) => {
                                     placeholder="Email"
                                     value={formData.email}
                                     onChange={handleChange}
-                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] text-[#152f2e]/50 text-[3.294vw] font-normal font-['Open Sans']"
+                                    className="w-full h-[9.882vw] px-[2.824vw] py-[1.882vw] bg-white rounded shadow-inner border border-[#d8d8d8] placeholder:text-[#152f2e]/50 text-black text-[3.294vw] font-normal font-['Open Sans']"
                                     required
                                 />
                                 <PhoneInput

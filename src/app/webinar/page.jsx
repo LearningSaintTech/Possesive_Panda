@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef } from 'react';
-import BannerComp from './bannercomp';
+import BannerComp from './BannerComp';
 import SecondComp from './SecondComp';
 import ThirdComp from './ThirdComp';
 import FourthComp from './FourthComp';
