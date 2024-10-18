@@ -28,7 +28,7 @@ const Portfolio = () => {
   return (
     <div className="bg-[#00111A]">
       <head>
-        <title>Possesive Panda's Portfolio of Digital Innovation and Transformation        </title>
+        <title>Possesive Panda&apos;s Portfolio of Digital Innovation and Transformation        </title>
         <meta name="description" content=" Explore the standout projects from our web design and mobile app development portfolio, featuring both iOS and Android solutions. See why our clients trust us to bring their vision to life, with successful results across a range of brands.
 " />
         <link rel="canonical" href="https://www.possesivepanda.com/portfolio" />
