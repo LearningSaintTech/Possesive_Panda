@@ -10,7 +10,7 @@ import SeventhComp from './SeventhComp';
 import EightethComp from './EightethComp';
 import Footer from '../(Components)/Footer';
 import Timer3 from './Timer';
-import Head from 'next/head'; 
+ 
 
 const Page = () => {
     const thirdCompRef = useRef(null);
@@ -26,7 +26,7 @@ const Page = () => {
 
     return (
         <div>
-            <Head>
+            <head>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -52,7 +52,7 @@ const Page = () => {
                         alt="fb-pixel"
                     />
                 </noscript>
-            </Head>
+            </head>
             <BannerComp scrollToThirdComp={scrollToThirdComp} />
             <Timer3/>
             <SecondComp />

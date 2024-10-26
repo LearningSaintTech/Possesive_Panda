@@ -2,8 +2,9 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "./(Components)/(NavBar)/Nav";
-import { createContext, useContext, useState, useCallback } from "react";
+import { createContext, useContext, useState, useCallback,useEffect } from "react";
 import Icon from "./(Components)/(Input Form)/Icon";
+import { usePathname } from 'next/navigation';
 
 
 const poppins = Poppins({
@@ -17,7 +18,19 @@ const NavbarContext = createContext();
 export const useNavbar = () => useContext(NavbarContext);
 
 export default function RootLayout({ children }) {
+
   const [showNavbar, setShowNavbar] = useState(true);
+  const pathname = usePathname();
+
+useEffect(() => {
+    console.log("Current Pathname:", pathname);
+    // Hide the navbar if the user is on the /webinar page
+    if (pathname === '/webinar') {
+      setShowNavbar(false);
+    } else {
+      setShowNavbar(true);
+    }
+  }, [pathname]); // Depend on pathname changes
 
   const toggleNavbar = useCallback((isVisible) => {
     setShowNavbar(isVisible);
