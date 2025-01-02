@@ -107,6 +107,9 @@ const Nav = () => {
       </div>
 
       <div className="text-[1.042vw] text-white font-normal capitalize sm:flex gap-[2.813vw] py-auto justify-center items-center hidden">
+        <Link href="/pay" className={`${activeLabel === "Pay Now" ? activeClass : hoverClass}`}>
+          Pay Now
+        </Link>
         <Link href="/" className={`${activeLabel === "Home" ? activeClass : hoverClass}`}>
           Home
         </Link>
