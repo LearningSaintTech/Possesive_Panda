@@ -37,7 +37,7 @@ const Payment = () => {
         throw new Error("Failed to load Razorpay SDK");
       }
 
-      const response = await fetch("http://192.168.0.134:8081/pg/createOrder", {
+      const response = await fetch("https://api.vibgyor.love/pg/createOrder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
