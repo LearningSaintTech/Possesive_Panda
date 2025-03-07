@@ -88,7 +88,7 @@ const MainPage = () => {
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-[3.125vw] sm:gap-y-[4vw] gap-y-[6vw]">
               {elasticSearchData.length > 0 ? (
-                elasticSearchData.map((blog, key) => (
+                elasticSearchData.slice().reverse().map((blog, key) => (
                   <Blogs blog={blog} key={key} />
                 ))
               ) : (
