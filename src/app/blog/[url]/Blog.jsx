@@ -8,6 +8,7 @@ import Tags from "./Tags";
 import Head from "next/head";
 
 const Blog = ({ data }) => {
+   
   const dateStr = data.date;
   const date = new Date(dateStr);
   const formatDate = date.toLocaleDateString("en-US", {
@@ -31,7 +32,6 @@ const Blog = ({ data }) => {
       const extractedHeadings = headingElements.map((heading, index) => {
         const id = `heading-${index}-${heading.innerText.toLowerCase().replace(/\s+/g, "-")}`;
         heading.id = id;
-        console.log(`Generated ID: ${id}, Text: ${heading.innerText}`);
         return {
           id,
           text: heading.innerText,
@@ -126,16 +126,10 @@ const Blog = ({ data }) => {
         </div>
       </div>
 
-      <Image
-        src={`https://crm.learningsaint.com/images/blogs/${data.image}`}
-        width={800}
-        height={600}
-        alt={data.alt_tag}
-        className="w-full h-[28.646vw] mt-[4.167vw] sm:mt-[2.083vw]"
-      />
-
+      
+      {/* Table of Content */}
       <div className="flex flex-col sm:flex-row gap-[4.134vw] mt-[4.167vw]">
-        <div className="bg-[#131D22] hidden sm:flex flex-col text-[1.25vw] sticky top-[4.167vw] h-fit max-h-[55.542vw] w-[26.126vw] overflow-y-auto">
+        <div className="bg-[#131D22] hidden sm:flex flex-col text-[1vw] sticky top-[6.167vw] h-fit max-h-[40.5vw] w-[26.126vw] overflow-y-auto  ">
           <p className="font-semibold mt-[2.604vw] ml-[2.604vw] text-white">
             Table of Content
           </p>
@@ -162,9 +156,16 @@ const Blog = ({ data }) => {
         </div>
 
         <div className="w-full sm:w-[57.813vw] bg-[#131D22] p-[2.604vw]">
+        <Image
+        src={`https://crm.learningsaint.com/images/blogs/${data.image}`}
+        width={800}
+        height={600}
+        alt={data.alt_tag}
+        className="w-full h-[28.646vw] mt-[3.167vw] sm:mt-[0.2vw]"
+      />
           <div
             ref={contentRef}
-            className="prose prose-invert max-w-none"
+            className="prose prose-invert max-w-none mt-[2vw]"
             dangerouslySetInnerHTML={{ __html: formattedContent }}
           />
           <div className="h-[0.104vw] bg-white mt-[2.031vw]"></div>

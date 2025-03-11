@@ -16,7 +16,7 @@ const Blogs = () => {
           "https://crm.learningsaint.com/api/getBlogs/2?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj"
         );
         const data = await response.json();
-        setdatablogs(data);
+        setdatablogs({ blogs: data.blogs.reverse() }); // Reverse the blogs array
       } catch (error) {
         console.log("Error fetching blogs", error);
       }
@@ -70,7 +70,7 @@ const Blogs = () => {
       <div className="relative flex flex-col sm:flex-row sm:gap-[3.333vw]">
         {datablogs.blogs.length > 0 && (
           <>
-            {/* Large Blog */}
+            {/* Large Blog */} 
             <div
               className={`transition-transform duration-500 ease-in-out transform w-full sm:w-[40vw] ${transition ? "large-blog-transition-out" : "large-blog-transition-in"
                 }`}
@@ -159,12 +159,14 @@ const Blogs = () => {
         {/* Left and Right Navigation Buttons */}
         <div className="flex justify-between gap-2 mt-2 sm:absolute md:-bottom-[6vw] md:-right-0 lg:-bottom-[6.8vw] lg:-right-6">
           <button
+            disabled={currentIndex === 0}
             onClick={handlePrev}
             className="flex items-center justify-center w-12 h-12 md:w-8 md:h-8 lg:w-12 lg:h-12 rounded-full border border-gray-500 text-gray-500 hover:text-white hover:border-white transition-colors duration-300"
           >
             &#9664;
           </button>
           <button
+           disabled={currentIndex === datablogs.blogs.length - 1}
             onClick={handleNext}
             className="flex items-center justify-center  w-12 h-12 md:w-8 md:h-8 lg:w-12 lg:h-12 rounded-full border border-gray-500 text-gray-500 hover:text-white hover:border-white transition-colors duration-300"
           >

@@ -16,9 +16,9 @@ const Blogs = ({ blog }) => {
   });
 
   const router = useRouter();
-
   const handleClick = () => {
     const newUrl = `blog/${blog.url}`;
+    
     router.push(newUrl);
   };
   return (

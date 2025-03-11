@@ -25,11 +25,11 @@ const Options = ({ categories, tags, blogs, setElasticSearchData, originalBlogs 
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {originalBlogs.map((blog, key) => (
+          {/* {originalBlogs.map((blog, key) => (
             <Link href={`/blog/${blog.url}`} key={key}>
               <Category category={blog.title} blogs={originalBlogs} />
             </Link>
-          ))}
+          ))} */}
         </div>
       </div>
 

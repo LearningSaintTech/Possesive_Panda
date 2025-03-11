@@ -75,7 +75,7 @@ const Nav = () => {
   return (
     <nav
       className={`w-full h-[20vw] sm:h-[5vw] px-[5.208vw] items-center justify-between flex shadow-sm fixed top-0 z-30 transition-all duration-300 ${isScrolled
-        ? "bg-[rgba(255,255,255,0.10)] backdrop-blur-[25px]"
+        ? "bg-[#00111a] backdrop-blur-[25px]"
         : "bg-transparent"
         }`}
       style={{ backdropFilter: isScrolled ? "none" : "none" }}
