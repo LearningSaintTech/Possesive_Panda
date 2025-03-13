@@ -97,13 +97,13 @@ const Blog = ({ data }) => {
         <meta name="author" content={data.author} />
       </head>
 
-      <div className="">
-        <h1 className="text-white text-[7.529vw] sm:text-[3.333vw] font-normal ml-[10.781vw] mr-[10.781vw] text-center">
+      <div className="ml-[10.781vw] mr-[10.781vw]">
+        <h1 className="text-white text-[7.529vw] sm:text-[3.333vw] font-normal  text-center">
           {data.title}
         </h1>
 
-        <div className="flex sm:flex-row flex-col sm:gap-[27.969vw]">
-          <div className="flex flex-row justify-between sm:gap-[3.125vw] ml-[1vw] sm:ml-[15.573vw] mt-[0.521vw]">
+        <div className="flex sm:flex-row flex-col mt-4 sm:gap-[27.969vw]">
+          <div className="flex flex-row justify-between sm:gap-[3.125vw] ml-[1vw]  mt-[0.521vw]">
             <p className="text-white text-[3.765vw] sm:text-[1.25vw]">
               By {data.author}
             </p>
@@ -117,10 +117,10 @@ const Blog = ({ data }) => {
               Follow Us On:
             </p>
             <div className="ml-[1.615vw] flex flex-row text-[3.765vw] sm:text-[1.25vw] gap-[1.615vw] mt-[4.5vw] sm:mt-[0.321vw]">
-              <FaFacebookF className="cursor-pointer hover:text-blue-400" />
+            <RiLinkedinBoxFill className="cursor-pointer hover:text-blue-400" />
               <FaXTwitter className="cursor-pointer hover:text-blue-400" />
               <FaInstagram className="cursor-pointer hover:text-blue-400" />
-              <RiLinkedinBoxFill className="cursor-pointer hover:text-blue-400" />
+              <FaFacebookF className="cursor-pointer hover:text-blue-400" />
             </div>
           </div>
         </div>

@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import Tag from "./Tag";
 import Recent from "./Recent";
 import SeachBar from "./SeachBar";
-import Category from "./Category";
+// import Category from "./Category";
 import Link from "next/link";
+import CategoryItems from "./CategoryItems";
+
 
 
 const Options = ({ categories, tags, blogs, setElasticSearchData, originalBlogs }) => {
@@ -11,6 +13,9 @@ const Options = ({ categories, tags, blogs, setElasticSearchData, originalBlogs 
   useEffect(() => {
     setElasticSearchData(blogs);
   }, [blogs, setElasticSearchData]);
+
+  
+
 
   return (
     <div className="w-fit hidden sm:block  ">
@@ -25,11 +30,12 @@ const Options = ({ categories, tags, blogs, setElasticSearchData, originalBlogs 
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {/* {originalBlogs.map((blog, key) => (
+          {originalBlogs.map((blog, key) => (
             <Link href={`/blog/${blog.url}`} key={key}>
-              <Category category={blog.title} blogs={originalBlogs} />
+              {/* <Category category={blog.tags} /> */}
+              <CategoryItems categoryItems={blog.tags} /> 
             </Link>
-          ))} */}
+          ))}
         </div>
       </div>
 

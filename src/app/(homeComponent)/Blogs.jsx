@@ -16,7 +16,8 @@ const Blogs = () => {
           "https://crm.learningsaint.com/api/getBlogs/2?api_token=zxUcPukvuXHaCM6E7eqfLwGUncdJD6lF1qGcjEAifQjy1iAUvVw0Qu2hJLQj"
         );
         const data = await response.json();
-        setdatablogs({ blogs: data.blogs.reverse() }); // Reverse the blogs array
+        data.blogs.reverse()
+        setdatablogs(data);
       } catch (error) {
         console.log("Error fetching blogs", error);
       }

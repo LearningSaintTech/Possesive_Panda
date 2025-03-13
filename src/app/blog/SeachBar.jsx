@@ -31,7 +31,7 @@ const SeachBar = ({ originalBlogs, setElasticSearchData, setNotFound }) => {
           type="text"
           name="search"
           placeholder="Enter Keyword"
-          className="text-neutral-800 bg-[#00111A] text-[1.042vw] font-normal leading-[normal] tracking-[0.015rem] pr-[1vw] py-[1vw] pl-[1.25vw] border opacity-90 rounded-[0.26vw] border-opacity-50 focus:outline-0 mb-[2.6vw]"
+          className="text-white bg-[#00111A] -[1.042vw] font-normal leading-[normal] tracking-[0.015rem] pr-[1vw] py-[1vw] pl-[1.25vw] border opacity-90 rounded-[0.26vw] border-opacity-50 focus:outline-0 mb-[2.6vw]"
           onChange={handleChange}
           value={search}
         />

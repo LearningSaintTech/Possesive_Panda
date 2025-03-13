@@ -8,6 +8,7 @@ import { BiPhoneCall } from "react-icons/bi";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import Line9 from '../../../public/assets/Line9.svg'
 
+
 const Footer = () => {
   const [open, setOpen] = useState(false);
 
@@ -199,7 +200,7 @@ const Footer = () => {
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal">
                   <Link
-                    href="services/e-commerce"
+                    href={"services/ecommerce"}
                   >
                     eCommerce
                   </Link></p>
