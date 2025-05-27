@@ -78,7 +78,7 @@ const Blog = ({ data }) => {
     htmlContent
       .replace(
         /<h3>/g,
-        `<h3 style="font-size: 4vw; font-weight: 600; margin-bottom: 1.5vw;">`
+        `<h3 style="font-size: 4vw; font-weight: 600;">`
       )
       .replace(/color: #000000;/g, "color: white;");
 

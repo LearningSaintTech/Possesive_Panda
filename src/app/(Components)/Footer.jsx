@@ -274,7 +274,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="hidden w-[30.235vw] h-[123.059vw] pl-[5.412vw] pr-6 pt-[43px] pb-[10.118vw] bg-[#002e46] flex-col justify-center items-start gap-[14.212vw] inline-flex">
+          <div className="hidden w-[30.235vw] h-[123.059vw] pl-[5.412vw] pr-6 pt-[43px] pb-[10.118vw] bg-[#002e46] flex-col justify-center items-start gap-[14.212vw] inline-flex">
           </div>
           <div className="sm:hidden w-[22.051vw] h-[134.103vw] "></div>
         </div>

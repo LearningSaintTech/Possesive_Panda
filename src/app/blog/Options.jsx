@@ -25,19 +25,19 @@ const Options = ({ categories, tags, blogs, setElasticSearchData, originalBlogs 
         </h2>
         <SeachBar originalBlogs={originalBlogs} setElasticSearchData={setElasticSearchData} setNotFound={setNotFound} />
       </div>
-      <div className="md:block mt-[2.3vw] rounded-[0.521vw] bg-[#2A2A2A] border-opacity-50 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] pb-[2.604vw]">
+      {/* <div className="md:block mt-[2.3vw] rounded-[0.521vw] bg-[#2A2A2A] border-opacity-50 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] pb-[2.604vw]">
         <h2 className="text-white text-[1.667vw] font-semibold leading-[91.6%] tracking-[0.02rem] mt-[2vw] mb-[1vw]">
           Categories
         </h2>
         <div className="flex flex-col gap-[0.677vw] items-start">
-          {originalBlogs.map((blog, key) => (
-            <Link href={`/blog/${blog.url}`} key={key}>
-              {/* <Category category={blog.tags} /> */}
-              <CategoryItems categoryItems={blog.tags} /> 
-            </Link>
+          {originalBlogs.map((blog) => (
+            // <CategoryItems categoryItems={blog.tags}/>
+            // <Link href={`/blog/${blog.url}`} key={key}>
+              <CategoryItems categoryItems={blog.tags.charAt(0).toUpperCase() + blog.tags.slice(1).toLowerCase()} /> 
+            // </Link>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="px-[1.823vw] rounded-[0.521vw] bg-neutral-50 border-opacity-50 border shadow-[0px_4.078px_4.078px_0px_rgba(0,0,0,0.25)] pl-[2.083vw] pb-[2.604vw] mt-[2.3vw]">
         <h4 className="text-neutral-800 text-[1.25vw] font-semibold leading-[91.6%] tracking-[0.02rem] mt-[2.5vw] mb-[1.5vw]">
