@@ -68,12 +68,12 @@ export const metadata = {
 const Page = () => {
   return (
     <div className="bg-[#00111A]">
-      <head>
+      <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="canonical" href={metadata.canonical} />
+        <link rel="canonical" href={metadata.alternates.canonical} />
 
         
         <meta property="og:type" content={metadata.openGraph.type} />
@@ -104,7 +104,7 @@ const Page = () => {
   />
 
 
-      </head>
+      </Head>
       {/* Schema Markup for Breadcrumbs */}
       <Script id="application/ld+json">
         {`

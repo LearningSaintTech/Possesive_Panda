@@ -200,25 +200,25 @@ const Footer = () => {
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal">
                   <Link
-                    href={"services/ecommerce"}
+                    href={"/services/e-commerce"}
                   >
                     eCommerce
                   </Link></p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize"> <Link
-                  href="services/graphic-design"
+                  href="/services/graphic-design"
                 >
                   Graphic Design
                 </Link></p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link
-                    href="services/mobile-app-development"
+                    href="/services/mobile-app-development"
                   >
                     App Development
                   </Link>
                 </p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
                   <Link
-                    href="services/web-development"
+                    href="/services/web-development"
                   >
                     Web Development
                   </Link>
@@ -233,12 +233,12 @@ const Footer = () => {
               </svg>
               <div className="flex flex-col gap-[2.051vw] sm:gap-[0.625vw]">
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                  <Link href="services/search-engine-optimization" >
+                  <Link href="/services/search-engine-optimization" >
                     SEO
                   </Link>
                 </p>
                 <p className="text-white text-[3.59vw] sm:text-[1.25vw] font-normal capitalize">
-                  <Link href="services/social-media-management" >
+                  <Link href="/services/social-media-management" >
                     Social Media
                   </Link>
                 </p>
