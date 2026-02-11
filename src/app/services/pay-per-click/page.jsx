@@ -1,8 +1,7 @@
 import React from 'react'
 import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
-import Head from 'next/head';
-import Script from 'next/script';
+import { Head, Script } from '@/lib/next-compat';
 import BulbAnimation from '../(CommonComponent)/BulbAnimation';
 import Partner from '../(CommonComponent)/Partner';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';

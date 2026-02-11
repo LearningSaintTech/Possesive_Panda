@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import { Image } from '@/lib/next-compat'
 import purpose from "../../../public/assets/aboutus/2.svg"
 import thumbs from "../../../public/assets/aboutus/thumbs.svg"
 import image2 from "../../../public/assets/aboutus/62.png"

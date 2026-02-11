@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 const ServiceItem = ({ name = "", link = "" }) => {
   console.log(name);

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import HandlePage from "../../(Components)/(Input Form)/HandlePage";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 const Card = ({ title, content, isMobile }) => {
     const [expanded, setExpanded] = useState(false);

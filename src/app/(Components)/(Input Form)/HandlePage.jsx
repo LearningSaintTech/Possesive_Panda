@@ -6,7 +6,7 @@ import ThirdPage from "./ThirdPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
 import { FormContext } from "./FormContext";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import back from "../../../assets/home/back-arrow.png";
 
 const HandlePage = ({ setOpen }) => {

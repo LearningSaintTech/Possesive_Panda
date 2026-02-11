@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Accordian from "../(FaqSection)/Accordian.jsx";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 // import faqImage from '../../../../../public/assets/e-commerce/faqImage.png';
 
 const Faq = ({smallfaqdata, smallfaqImg,heading}) => {

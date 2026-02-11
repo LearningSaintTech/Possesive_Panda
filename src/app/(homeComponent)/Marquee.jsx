@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import montgmery from '../../assets/banners/montgmery.png';
 import pands from '../../assets/banners/pands.png';
 import learningsaint from '../../assets/banners/learningsaint.png';

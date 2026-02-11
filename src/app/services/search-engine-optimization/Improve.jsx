@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import { Image } from '@/lib/next-compat'
 import img1 from '../../../../public/assets/services/seo/improvebackground.svg'
 const Improve = () => {
     return (

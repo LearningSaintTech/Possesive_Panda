@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import thumbnail from "../../../../../public/assets/services/e-commerce/1.png";
 
 const IntroServices = ({ heading, content }) => {

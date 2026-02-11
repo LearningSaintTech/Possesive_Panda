@@ -1,7 +1,7 @@
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React from "react";
 import { CiClock2 } from "react-icons/ci";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 const Recent = ({ blog }) => {
   const dateStr = blog.date;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import { Image } from '@/lib/next-compat'
 import img1 from '../../../../public/assets/services/mobile-app/1.png'
 import img2 from '../../../../public/assets/services/mobile-app/1a.png'
 import img3 from '../../../../public/assets/services/mobile-app/1b.png'

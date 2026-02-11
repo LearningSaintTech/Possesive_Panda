@@ -1,12 +1,12 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import Banner from "../../../../public/assets/services/herosecbeck.svg";
 import Lefttop from "../../../../public/assets/banner/whitetop.svg";
 import Leftbottom from "../../../../public/assets/banner/whitebottom.svg";
 import Righttop from "../../../../public/assets/banner/bluebottom.svg";
 import Rightbottom from "../../../../public/assets/banner/bluetop.svg";
-import Link from 'next/link';
+import { Link } from '@/lib/next-compat';
 import HandlePage from "../../(Components)/(Input Form)/HandlePage";
 
 

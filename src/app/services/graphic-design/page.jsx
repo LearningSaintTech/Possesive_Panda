@@ -30,8 +30,7 @@ import {
 
 } from "./data";
 
-import Head from 'next/head';
-import Script from 'next/script';
+import { Head, Script } from '@/lib/next-compat';
 import NewContact from "../(CommonComponent)/NewContact";
 import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 

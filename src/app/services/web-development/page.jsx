@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import { Head } from '@/lib/next-compat';
 import React from "react";
 import Faq from "../(Components)/(Faq)/Faq";
 import Footer from "../../(Components)/Footer";
@@ -14,7 +14,7 @@ import {
 import Why from '../(CommonComponent)/Why';
 import Solutions from '../(CommonComponent)/Solutions';
 import Clients from '../(CommonComponent)/Clients';
-import Script from 'next/script';
+import { Script } from '@/lib/next-compat';
 import {
   faq,
   growthData,

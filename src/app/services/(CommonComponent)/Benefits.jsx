@@ -5,7 +5,7 @@ import { CgInsights } from "react-icons/cg";
 import { FaHandHoldingDollar } from "react-icons/fa6";
 import { BiSolidShoppingBagAlt } from "react-icons/bi";
 import { MdPriceChange } from "react-icons/md";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 const leftColumnData = [
     {

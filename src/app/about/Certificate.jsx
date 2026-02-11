@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React from "react";
 import photo_1 from "../../assets/aboutus/photo-1.png";
 import photo_2 from "../../assets/aboutus/photo-2.png";

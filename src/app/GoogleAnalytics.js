@@ -1,7 +1,6 @@
 // ./components/GoogleAnalytics.js
 import React from 'react';
-import Head from 'next/head';
-import Script from 'next/script';
+import { Head, Script } from '@/lib/next-compat';
 
 const GoogleAnalytics = () => {
   return (

@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import { data } from "../../about/data";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 const Technologies = () => {
   const logosRef = useRef(null);

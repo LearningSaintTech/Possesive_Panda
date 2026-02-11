@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import btnImage from '../../../../public/assets/scrollbar2.svg';
 
 // Define the component to accept props

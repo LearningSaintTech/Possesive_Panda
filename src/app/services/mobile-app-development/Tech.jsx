@@ -4,7 +4,7 @@ import img2 from '../../../../public/assets/services/mobile-app/Our-Tech-Driven-
 import img3 from '../../../../public/assets/services/mobile-app/Our-Tech-Driven-Triumphs/3.png'
 
 import React, { useState } from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 
 const Tech = () => {
     const [hovered, setHovered] = useState(null);

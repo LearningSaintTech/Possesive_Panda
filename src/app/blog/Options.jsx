@@ -3,7 +3,7 @@ import Tag from "./Tag";
 import Recent from "./Recent";
 import SeachBar from "./SeachBar";
 // import Category from "./Category";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 import CategoryItems from "./CategoryItems";
 
 

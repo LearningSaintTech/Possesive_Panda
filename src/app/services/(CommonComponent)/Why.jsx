@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 
 const Why = ({ mainHeading, subText1, subText2, thumbnail, listHeading, titles }) => {
     return (

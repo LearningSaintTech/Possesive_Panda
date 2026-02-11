@@ -1,9 +1,6 @@
-"use client"
 import React, { useState } from 'react';
-import { Inter } from 'next/font/google'
 import Circle from '../../../../public/assets/Circle.svg'
-import Image from 'next/image';
-const inter = Inter({ subsets: ['latin'] })
+import { Image } from '@/lib/next-compat';
 
 const Solutions = ({ paragraphs, buttonData, title }) => {
     const [selectedIndex, setSelectedIndex] = useState(0);

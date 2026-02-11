@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Features from "../(Components)/Features";
-import { features } from "./data";
+import { features } from "./data.jsx";
 
 const FeatureCard = () => {
   const scrollContainerRef = useRef(null);

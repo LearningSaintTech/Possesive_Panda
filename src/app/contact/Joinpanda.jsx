@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import Hand from "../../assets/aboutus/back_joinpanda.png";
 import tech from "../../assets/aboutus/new.png";
 

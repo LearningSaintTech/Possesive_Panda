@@ -1,16 +1,15 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logo1 from "../../../../public/pp-trademark-logo.png";
+import { useLocation } from "react-router-dom";
+import { Image, Link } from "@/lib/next-compat";
+const logo1 = "/pp-trademark-logo.png";
 import Dropdown from "./Dropdown";
-import { usePathname } from "next/navigation";
 import PhoneNav from "./PhoneNav";
 import { FaChevronDown } from "react-icons/fa6";
 
 const Nav = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const pathname = usePathname();
+  const pathname = useLocation().pathname;
   const [showSidebar, setShowSidebar] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 

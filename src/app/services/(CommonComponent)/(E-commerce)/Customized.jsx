@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useRef } from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import newmap from "../../../../../public/assets/services/e-commerce/Wmap.png";
 
 const Customized = () => {

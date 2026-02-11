@@ -35,6 +35,7 @@
 /* Hide scrollbar globally */
 html, body {
   @apply no-scrollbar;
+  font-family: 'Poppins', sans-serif;
 }
 
 .loader-dot {

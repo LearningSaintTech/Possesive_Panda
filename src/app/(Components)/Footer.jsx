@@ -1,7 +1,7 @@
 "use client"
 import logo1 from "../../assets/nav/nav-logo1.png";
-import Image from "next/image";
-import Link from "next/link";
+import { Image } from "@/lib/next-compat";
+import { Link } from "@/lib/next-compat";
 import React, { useState } from "react";
 import HandlePage from "./(Input Form)/HandlePage";
 import { BiPhoneCall } from "react-icons/bi";

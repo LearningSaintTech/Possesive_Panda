@@ -1,7 +1,7 @@
 "use client";
 /* eslint-disable react/no-unescaped-entities */
 import "./why.css";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React, { useEffect, useRef } from "react";
 import banner_1 from "../../assets/home/banner/Banner-1.svg";
 import banner_2 from "../../assets/home/banner/Banner-2.svg";

@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import { Link } from '@/lib/next-compat';
+import { Image } from '@/lib/next-compat';
 import not_found from "../assets/not-found/not_found.jpeg";
 import Footer from './(Components)/Footer';
 export default function Custom404() {

@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import Tags from "./Tags";
-import Head from "next/head";
+import { Helmet } from "react-helmet-async";
 
 const Blog = ({ data }) => {
    
@@ -86,7 +86,7 @@ const Blog = ({ data }) => {
 
   return (
     <div>
-      <head>
+      <Helmet>
         <title>{data.meta_title || "Default Blog Title"}</title>
         <meta
           name="description"
@@ -95,7 +95,7 @@ const Blog = ({ data }) => {
         {data.canonical && <link rel="canonical" href={data.url} />}
         <meta name="keywords" content={data.meta_keywords} />
         <meta name="author" content={data.author} />
-      </head>
+      </Helmet>
 
       <div className="ml-[10.781vw] mr-[10.781vw]">
         <h1 className="text-white text-[7.529vw] sm:text-[3.333vw] font-normal  text-center">

@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaHandshake } from "react-icons/fa";
 import { CiHeadphones } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa6";
-import Link from 'next/link';
+import { Link } from '@/lib/next-compat';
 
 const NewContact = () => {
     // Common gradient border style for both sections

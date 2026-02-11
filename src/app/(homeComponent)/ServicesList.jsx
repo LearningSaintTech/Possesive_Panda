@@ -4,7 +4,7 @@ import { IoPeopleOutline } from "react-icons/io5";
 import { CiMobile3 } from "react-icons/ci";
 import { RiSeoLine } from "react-icons/ri";
 import { MdWeb } from "react-icons/md";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 
 
 const ServicesList = () => (

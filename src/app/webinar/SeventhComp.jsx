@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import Image1 from "../../../public/assets/landing/expenses.svg";
 import Image2 from "../../../public/assets/landing/appointment.svg";
 import Image3 from "../../../public/assets/landing/manage.svg";

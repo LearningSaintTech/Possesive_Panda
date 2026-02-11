@@ -1,13 +1,11 @@
 import React from 'react';
-import Head from 'next/head';
+import { Helmet } from 'react-helmet-async';
 import MainPage from './MainPage';
-import Script from "next/script";
 
 export const metadata = {
   title: 'Leading Software Development Company - Possesive Panda',
-  description: 'Possesive Panda is a global IT service company in the US, UAE & UK. We offer digital marketing, mobile application development, web design & development and more to startups and enterprises clients across.', alternates: {
-    canonical: 'https://www.possesivepanda.com'
-  },
+  description: 'Possesive Panda is a global IT service company in the US, UAE & UK. We offer digital marketing, mobile application development, web design & development and more to startups and enterprises clients across.',
+  alternates: { canonical: 'https://www.possesivepanda.com' },
   openGraph: {
     title: 'Leading Software Development Company - Possesive Panda',
     siteName: 'Possesive Panda',
@@ -63,51 +61,20 @@ export const metadata = {
 
 const Home = () => (
   <main>
-    <Head>
-    <link rel="icon" href="/favicon.ico" />
-
+    <Helmet>
       <title>{metadata.title}</title>
       <meta name="description" content={metadata.description} />
-      <link rel="canonical" href={metadata.canonical} />
-
-      {/* Open Graph Meta Tags */}
+      <link rel="canonical" href={metadata.alternates.canonical} />
       <meta property="og:title" content={metadata.openGraph.title} />
       <meta property="og:site_name" content={metadata.openGraph.siteName} />
       <meta property="og:url" content={metadata.openGraph.url} />
       <meta property="og:description" content={metadata.openGraph.description} />
       <meta property="og:type" content={metadata.openGraph.type} />
       <meta property="og:image" content={metadata.openGraph.images[0].url} />
-
-
-    </Head>
-    <Script
-      id="google-analytics-script"
-      async
-      src={`https://www.googletagmanager.com/gtag/js?id=G-5VEQ1BPQLS`}
-    />
-    <Script id="google-analytics-inline-script">
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5VEQ1BPQLS');
-      `}
-    </Script>
-    {/* Breadcrumb List Schema Markup */}
-    <Script id="application/ld+json">
-      {JSON.stringify(metadata.breadcrumbList)}
-    </Script>
-
-    {/* Organization Schema Markup */}
-    <Script id="application/ld+json">
-      {JSON.stringify(metadata.organization)}
-    </Script>
-
-    {/* FAQ Schema Markup */}
-    <Script id="application/ld+json">
-      {JSON.stringify(metadata.faq)}
-    </Script>
-
+      <script type="application/ld+json">{JSON.stringify(metadata.breadcrumbList)}</script>
+      <script type="application/ld+json">{JSON.stringify(metadata.organization)}</script>
+      <script type="application/ld+json">{JSON.stringify(metadata.faq)}</script>
+    </Helmet>
     <MainPage />
   </main>
 );

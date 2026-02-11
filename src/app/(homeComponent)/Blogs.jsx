@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { Image } from "@/lib/next-compat";
+import { Link } from "@/lib/next-compat";
 import './blog.css';
 import { GoArrowRight } from "react-icons/go";
 

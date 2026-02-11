@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import { HiLightBulb } from "react-icons/hi";
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import img1 from '../../../../public/assets/services/payPerClick/bulbanim1.svg'
 const BulbAnimation = () => {
     // Array to hold the content for the paragraphs

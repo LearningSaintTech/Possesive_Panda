@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React, { useState } from "react";
 import banner from "../../assets/services/top-image.png";
 import feature_main from "../../assets/services/feature-main.png";

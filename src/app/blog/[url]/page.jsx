@@ -1,5 +1,5 @@
-"use client"
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import BlogPage from "./BlogPage";
 import Loader from "../../(Components)/Loader";
 import Footer from "../../(Components)/Footer";
@@ -16,14 +16,15 @@ const getData = async (url) => {
   return res.json();
 };
 
-const BlogDetails = ({ params }) => {
+const BlogDetails = () => {
+  const { url } = useParams();
   const [blogData, setBlogData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchBlogData = async () => {
       try {
-        const data = await getData(params.url);
+        const data = await getData(url);
         setBlogData(data.blog[0]);
         setLoading(false);
       } catch (error) {
@@ -31,16 +32,19 @@ const BlogDetails = ({ params }) => {
         setLoading(false);
       }
     };
-    fetchBlogData();
-  }, [params.url]);
+    if (url) fetchBlogData();
+  }, [url]);
 
   if (loading) {
     return <Loader />;
   }
 
-  return <BlogPage data={blogData} />;
-  <Footer/>
-
+  return (
+    <>
+      <BlogPage data={blogData} />
+      <Footer />
+    </>
+  );
 };
 
 export default BlogDetails;

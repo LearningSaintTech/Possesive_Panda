@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React from "react";
 
 const Card = ({ image }) => {

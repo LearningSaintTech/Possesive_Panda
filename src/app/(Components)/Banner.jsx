@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import bannerbg from "../../../public/assets/banner/bannerbg.png"
 
 const Banner = ({ title, desciption }) => {

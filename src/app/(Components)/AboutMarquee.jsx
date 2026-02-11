@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import { FaPlayCircle } from 'react-icons/fa'; // Font Awesome icon for play button
 import img1 from "../../../public/assets/services/2.jpg"
 import img2 from "../../../public/assets/services/2a.jpg"

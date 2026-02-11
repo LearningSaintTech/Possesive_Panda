@@ -5,8 +5,7 @@ import FaqSection from "../(CommonComponent)/(FaqSection)/section"
 import OurSevices from '../(CommonComponent)/OurSevices';
 import Faq from '../(Components)/(Faq)/Faq';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
-import Head from 'next/head';
-import Script from 'next/script';
+import { Head, Script } from '@/lib/next-compat';
 import Solutions from "../(CommonComponent)/Solutions";
 import Scrollbar from "../(CommonComponent)/Scrollbar";
 import HoverImageComponent from "../(CommonComponent)/HoverImageComp";

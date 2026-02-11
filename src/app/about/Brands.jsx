@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import { data } from "./data";
 
 const Brands = () => {

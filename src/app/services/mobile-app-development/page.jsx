@@ -11,7 +11,7 @@ import Clients from '../(CommonComponent)/Clients';
 import OurServices from "../(CommonComponent)/OurSevices"
 import CardList from './Madp/CardList';
 import ToolsTech from '../(CommonComponent)/ToolsTech';
-import Script from "next/script";
+import { Script } from "@/lib/next-compat";
 
 import {
   faq,
@@ -32,7 +32,7 @@ import {
 } from "./data";
 import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from "../(Components)/(Faq)/Faq";
-import Head from 'next/head';
+import { Head } from '@/lib/next-compat';
 import IndustriesWe from "../(CommonComponent)/IndustriesWe";
 import NewContact from "../(CommonComponent)/NewContact";
 import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";

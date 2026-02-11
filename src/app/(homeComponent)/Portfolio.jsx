@@ -2,7 +2,7 @@ import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import { projects } from "../portfolio/data";
 import Project from "../portfolio/Project";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 export const metadata = {
   title: "Possesive Panda's Portfolio of Digital Innovation and Transformation",
   description: 'Explore the standout projects from our web design and mobile app development portfolio, featuring both iOS and Android solutions. See why our clients trust us to bring their vision to life, with successful results across a range of brands.',

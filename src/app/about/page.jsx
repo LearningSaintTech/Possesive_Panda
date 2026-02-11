@@ -11,7 +11,7 @@ import Review from "./Review";
 import Purpose from "../about/Purpose";
 import Journey from "../(Components)/Journey";
 import NewBannner from "../(Components)/NewBanner";
-import Script from "next/script";
+import { Script } from "@/lib/next-compat";
 export const metadata = {
   title: 'About Us - Possesive Panda',
   description: 'Possesive Panda is a Leading Software & App Development Company Working with many experts engineers Offers services like Web & App Development, Virtual Assistance, Digital Marketing & Much More.',

@@ -2,13 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import { premiumServicesData, serviceContent } from "./data";
 import ListItem from "./ListItem";
 import ServiceItem from "./ServiceItem";
-import { usePathname } from "next/navigation";
+import { useLocation } from "react-router-dom";
 
 const Dropdown = ({ showDropdown, setShowDropdown }) => {
   const [isPremiumServicesOpen, setIsPremiumServicesOpen] = useState(false);
   const [selectedService, setSelectedService] = useState("Services");
   const dropdownRef = useRef(null);
-  const pathname = usePathname();
+  const pathname = useLocation().pathname;
 
   const isHomePage = pathname === "/";
 

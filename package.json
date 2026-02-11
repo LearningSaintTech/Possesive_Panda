@@ -2,31 +2,35 @@
   "name": "possesive_panda",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.9",
     "gsap": "^3.12.5",
-    "next": "^14.2.12",
     "razorpay": "^2.9.5",
     "react": "^18",
     "react-dom": "^18",
+    "react-helmet-async": "^2.0.4",
     "react-icons": "^5.3.0",
     "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.28.0",
     "react-slick": "^0.30.2",
-    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
     "eslint": "^9.27.0",
-    "eslint-config-next": "14.2.3",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "tailwind-scrollbar": "^3.1.0",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.10"
   }
 }

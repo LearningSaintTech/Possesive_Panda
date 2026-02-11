@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from "../../(Components)/Footer";
-import Script from 'next/script';
+import { Script } from '@/lib/next-compat';
 import HoverImageComp from '../(CommonComponent)/HoverImageComp';
 import Clients from '../(CommonComponent)/Clients';
 import Mobile from '../(CommonComponent)/Mobile';
@@ -20,7 +20,7 @@ import {
 } from './data'
 import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from '../(Components)/(Faq)/Faq';
-import Head from 'next/head';
+import { Head } from '@/lib/next-compat';
 import NewContact from '../(CommonComponent)/NewContact';
 import ReviewCardContainer from '../(CommonComponent)/ReviewCardContainer';
 

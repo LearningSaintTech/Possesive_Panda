@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import sidecomponent from "../../../public/assets/aboutus/Side component.png"
 import Graphix from "../../../public/assets/aboutus/Graphix.png"
 

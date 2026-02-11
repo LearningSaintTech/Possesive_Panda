@@ -1,10 +1,4 @@
 import React from 'react'
-import { Barlow } from 'next/font/google';
-const barlow = Barlow({
-    weight: ['600'],  // Use the weights you need
-    subsets: ['latin'],  // Subset options
-});
-
 
 const Strategies = ({StrategyData,heading,title}) => {
     return (
@@ -21,7 +15,7 @@ const Strategies = ({StrategyData,heading,title}) => {
                         <div className='flex justify-start items-center text-center gap-[1.25vw]  flex-row'>
 
 
-                            <p className={`${barlow.className} text-[#00AFF1] sm:text-[7.813vw] text-[16.471vw] font-semibold leading-none`}>{strategy.num}</p>
+                            <p className="font-semibold text-[#00AFF1] sm:text-[7.813vw] text-[16.471vw] leading-none">{strategy.num}</p>
                             <div className='border-b-[1px] pb-[10px] border-[#262626] items-start mt-[3vw] justify-start  text-start sm:w-[26.563vw] w-[60.706vw]  '> 
  
                             <h3 className='text-white font-medium sm:text-[1.667vw] text-[3.529vw]'> {strategy.title}</h3>

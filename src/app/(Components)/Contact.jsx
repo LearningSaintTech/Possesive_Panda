@@ -1,12 +1,12 @@
 "use client";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 import { useState, useEffect } from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { SlEnvolopeLetter } from "react-icons/sl";
-import { useRouter } from 'next/navigation';
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const router = useRouter();
+  const navigate = useNavigate();
 
   const initialForm = {
     fname: "",
@@ -89,7 +89,7 @@ const Contact = () => {
 
     if (response.ok) {
       handleConversion(); 
-      router.push("/thank-you");
+      navigate("/thank-you");
     } else {
       setMessage("Failed to submit the form.");
     }

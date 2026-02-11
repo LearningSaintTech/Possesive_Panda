@@ -1,8 +1,6 @@
-"use client";
 import React, { useEffect, useRef, useState } from "react";
-import Head from "next/head";
-import Script from "next/script";
-import { useNavbar } from "./layout";
+import { Script } from "@/lib/next-compat";
+import { useNavbar } from "./Layout";
 import Banner from "./(homeComponent)/Banner";
 import OurServices from "./(homeComponent)/OurServices";
 import Blogs from "./(homeComponent)/Blogs";
@@ -34,7 +32,7 @@ const MainPage = () => {
 
   return (
     <div className="bg-[#00111A]">
-      <head>
+      <>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -53,11 +51,11 @@ const MainPage = () => {
             `,
           }}
         />
-           <script
-        id="organisation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+        <script
+          id="organisation"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
             "@context": "https://schema.org",
   "@type": "Corporation",
   "name": "Possesive Panda Pvt. Ltd.",
@@ -81,9 +79,9 @@ const MainPage = () => {
           })
         }}
       />
-      </head>
+      </>
 
-      <Script
+      <script
         id="home-faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

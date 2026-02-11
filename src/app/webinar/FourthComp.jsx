@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import Woman from '../../../public/assets/landing/woman.svg';
 import Tele from '../../../public/assets/landing/tele.svg';
 import Forsale from '../../../public/assets/landing/forsale.svg';

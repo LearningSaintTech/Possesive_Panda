@@ -5,7 +5,7 @@ import image_2 from "../../../assets/ecommerce/comparision/image-2.png";
 import image_3 from "../../../assets/ecommerce/comparision/image-3.png";
 import image_4 from "../../../assets/ecommerce/comparision/image-4.png";
 import image_5 from "../../../assets/ecommerce/comparision/image-5.png";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 
 const Comparison = () => {
   const [activeTab, setActiveTab] = useState("ios");

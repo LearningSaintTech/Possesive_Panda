@@ -31,11 +31,10 @@ import {
   StrategyData,
   smallfaqimage
   
-} from './data';
+} from './data.jsx';
 import FinalBanner from "../(CommonComponent)/FinalBanner";
-import Head from 'next/head';
-import Script from 'next/script';
-import ToolsTech, { frameworks } from '../(CommonComponent)/ToolsTech';
+import { Head, Script } from '@/lib/next-compat';
+import ToolsTech from '../(CommonComponent)/ToolsTech';
 import CardList from '../(CommonComponent)/(AgileApproach)/CardList';
 
 

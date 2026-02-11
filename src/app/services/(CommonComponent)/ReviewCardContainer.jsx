@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { HiMiniStar } from "react-icons/hi2";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import { TiStarHalf } from "react-icons/ti";
 
 import Google from "../../../../public/assets/banner/google.svg";

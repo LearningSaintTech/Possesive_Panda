@@ -28,7 +28,7 @@ import {
 } from "./data";
 import FinalBanner from "../(CommonComponent)/FinalBanner";
 import Faq from "../(Components)/(Faq)/Faq";
-import Script from 'next/script';
+import { Script } from '@/lib/next-compat';
 import NewContact from "../(CommonComponent)/NewContact";
 import ReviewCardContainer from "../(CommonComponent)/ReviewCardContainer";
 

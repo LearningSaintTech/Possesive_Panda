@@ -1,7 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
-import Image from 'next/image';
-import Link from "next/link";
+import { Image } from '@/lib/next-compat';
+import { Link } from "@/lib/next-compat";
 import { GoArrowRight } from "react-icons/go";
 import dotcom from "../../../public/assets/portfolio/dotcoms.svg";
 import HRMS from "../../../public/assets/portfolio/hrmsss.svg";

@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import { Link } from "@/lib/next-compat";
 import React, { useEffect, useRef, useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaCaretDown } from "react-icons/fa";

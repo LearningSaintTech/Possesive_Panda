@@ -1,9 +1,9 @@
 "use client";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React from "react";
 import { IoCalendarClearOutline } from "react-icons/io5";
 import { FaFilePen } from "react-icons/fa6";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 
 
 const Blogs = ({ blog }) => {
@@ -15,11 +15,9 @@ const Blogs = ({ blog }) => {
     day: "numeric",
   });
 
-  const router = useRouter();
+  const navigate = useNavigate();
   const handleClick = () => {
-    const newUrl = `blog/${blog.url}`;
-    
-    router.push(newUrl);
+    navigate(`/blog/${blog.url}`);
   };
   return (
     <div

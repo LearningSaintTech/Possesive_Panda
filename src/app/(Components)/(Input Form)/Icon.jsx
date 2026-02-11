@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 import React, { useState } from "react";
 import circle from "../../../assets/home/circle.png";
 import icon from "../../../assets/home/icon.png";

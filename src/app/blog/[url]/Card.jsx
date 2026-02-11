@@ -1,7 +1,6 @@
-// "use client";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { Image } from "@/lib/next-compat";
 import { CiClock2 } from "react-icons/ci";
 
 const Card = ({ blog }) => {
@@ -13,12 +12,11 @@ const Card = ({ blog }) => {
     day: "numeric",
   });
 
-  const router = useRouter();
+  const navigate = useNavigate();
 
   const handleClick = () => {
     const newUrl = blog.url;
-    router.replace(newUrl);
-    router.refresh();
+    navigate(`/blog/${newUrl}`, { replace: true });
     // router.push(newUrl);
   };
   console.log(blog.url);

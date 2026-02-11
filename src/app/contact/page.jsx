@@ -8,7 +8,7 @@ import Faq from "../(homeComponent)/(FaqSection)/section";
 import Journey from "../(Components)/Journey";
 import AboutMarquee from "../(Components)/AboutMarquee";
 import Review from "../about/Review";
-import Head from 'next/head';
+import { Helmet } from 'react-helmet-async';
 import ThankYou from "./ThankYou";
 
 
@@ -17,32 +17,11 @@ import ThankYou from "./ThankYou";
 const page = () => {
   return (
     <div className="bg-[#00111A]">
-            <head>
-            <title>Contact Us - Possesive Panda   </title>
-        <meta name="description" content="At Possesive Panda, we thrive on collaborating with innovative startups, ambitious brands, and enterprises. If you have a groundbreaking app idea, let's bring it to life together. Reach out to us at hello@possesivepanda.com to get started!
-
-" />
+            <Helmet>
+            <title>Contact Us - Possesive Panda</title>
+        <meta name="description" content="At Possesive Panda, we thrive on collaborating with innovative startups, ambitious brands, and enterprises. If you have a groundbreaking app idea, let's bring it to life together. Reach out to us at hello@possesivepanda.com to get started!" />
         <link rel="canonical" href="https://www.possesivepanda.com/contact" />
-    
-  <script
-    dangerouslySetInnerHTML={{
-      __html: `
-        (function(w,d,t,r,u) {
-          var f,n,i;
-          w[u]=w[u]||[],f=function() {
-            var o={ti:"187153115",enableAutoSpaTracking:true};
-            o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
-          },
-          n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function() {
-            var s=this.readyState;
-            s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
-          },
-          i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
-        })(window,document,"script","//bat.bing.com/bat.js","uetq");
-      `,
-    }}
-  />
-</head>
+            </Helmet>
       <NewBanner
         title={"Let Possesive Panda be Your Success Partner!"}
         desciption={"Possesive Panda revolutionized businesses by providing innovative, tech-driven solutions, serving numerous companies to stay ahead in the market."}

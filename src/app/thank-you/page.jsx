@@ -1,7 +1,7 @@
 import React from 'react' ;
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import thank_you from "../../assets/thank_you/thank_you.png";
-import Link from 'next/link';
+import { Link } from '@/lib/next-compat';
 
 
 const Thanks = () => {

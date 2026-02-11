@@ -11,7 +11,7 @@ import NewContact from '../(CommonComponent)/NewContact';
 import Faq from '../(Components)/(Faq)/Faq';
 import Footer from "../../(Components)/Footer";
 import Clients from '../(CommonComponent)/Clients';
-import Script from 'next/script';
+import { Script } from '@/lib/next-compat';
 
 import {
     iconMapping1,

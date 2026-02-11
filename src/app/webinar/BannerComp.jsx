@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import bg from "../../../public/assets/landing/bg.svg";
 import mobile from '../../../public/assets/landing/mobilebg.svg';
 import PhoneInput from 'react-phone-input-2';

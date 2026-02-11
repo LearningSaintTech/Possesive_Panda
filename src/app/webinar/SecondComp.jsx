@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { Image } from '@/lib/next-compat';
 import Customer from '../../../public/assets/landing/customer.svg'
 
 const RealEstateVirtualAssistant = () => {

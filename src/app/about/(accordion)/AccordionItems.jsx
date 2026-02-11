@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import Image from "next/image";
+import { Image } from "@/lib/next-compat";
 
 const AccordionItems = ({
   question,
